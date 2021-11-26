@@ -5,37 +5,22 @@ module.exports = [
     text: '地信数据',
     link: '/data-gis/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
-      // // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
-      // {
-      //   text: '基础地理信息数据',
-      //   items: [
-      //     { text: '点矢量', link: '#' },
-      //     { text: '线矢量', link: '#' },
-      //     { text: '面矢量', link: '#' }
-      //     // { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
-      //   ],
-      // },
-      // {
-      //   text: '栅格数据',
-      //   items: [
-      //     { text: 'DEM数据', link: '#' },
-      //     { text: '土地利用数据', link: '#' },
-      //     { text: '人口数据', link: '#' },
-      //     { text: '地图资源数据', link: '#' },
-      //   ],
-      // },
-      // {
-      //   text: '领域/学科数据',
-      //   items: [
-      //     { text: '生态', link: '#' },
-      //     { text: '经济', link: '#' },
-      //     { text: '地质', link: '#' },
-      //     { text: '气象', link: '#' },
-      //     { text: '环境', link: '#' },
-      //     { text: '水文', link: '#' },
-      //     { text: '农学', link: '#' }
-      //   ],
-      // },
+      // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
+      {
+        items: [
+          { text: '基础地理信息数据', link: '/data-gis-jichu/' },
+        ],
+      },
+      {
+        items: [
+          { text: '栅格数据', link: '/data-gis-shange/' },
+        ],
+      },
+      {
+        items: [
+          { text: '领域/学科数据', link: '/data-gis-lingyu/' },
+        ],
+      },
     ],
   },
   {
@@ -43,27 +28,17 @@ module.exports = [
     link: '/data-rs/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       // // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
-      // {
-      //   text: '卫星数据',
-      //   items: [
-      //     { text: '普通光学卫星', link: '#' },
-      //     { text: '雷达卫星', link: '#' },
-      //     { text: '其他卫星', link: '#' }
-      //   ],
-      // },
-      // {
-      //   text: '卫星产品数据',
-      //   items: [
-      //     { text: '土地利用数据', link: '#' },
-      //     { text: '植被指数数据', link: '#' },
-      //     { text: '土壤数据', link: '#' },
-      //     { text: '温度数据', link: '#' },
-      //     { text: '天气预报数据', link: '#' },
-      //     { text: '气溶胶数据', link: '#' },
-      //     { text: 'DEM数据', link: '#' },
-      //     { text: '遥感训练数据集', link: '#' },
-      //   ],
-      // }
+      {
+        items: [
+          { text: '卫星数据', link: '/data-rs-sat/' },
+
+        ],
+      },
+      {
+        items: [
+          { text: '卫星产品数据', link: '/data-rs-product/' }
+        ],
+      }
     ],
   },
   {
@@ -134,14 +109,14 @@ module.exports = [
       // },
     ],
   },
-  {
-    text: '网址导航',
-    link: '#',
-    items: [
-      // { text: '常用网址/论坛导航', link: '#' },
-      // { text: '持续更新中...', link: '#'},
-    ],
-  },
+  // {
+  //   text: '网址导航',
+  //   link: '#',
+  //   items: [
+  //     // { text: '常用网址/论坛导航', link: '#' },
+  //     // { text: '持续更新中...', link: '#'},
+  //   ],
+  // },
   { text: '关于', link: '/about/' },
   {
     text: '索引',

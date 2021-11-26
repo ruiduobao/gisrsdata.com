@@ -18,23 +18,23 @@
  * ②注：windowLB 和 windowRB：1.展示区块宽高最大是200*200px。2.请给自定义元素定一个不超过200px的固定宽高。3.在屏宽小于960px时无论如何都不会显示。
  */
 
-module.exports = {
-  sidebarB:
-    `<div style="padding: 0.95rem">
-    <p style="
-      color: var(--textColor);
-      opacity: 0.9;
-      font-size: 20px;
-      font-weight: bold;
-      margin: 0 0 8px 0;
-    ">加入我们</p>
-    <img src="/img/wechat_group.png"  style="width:100%;" />
-    <p>
-    遥感地信资源网站共建~
-    </br></br>
-    遥感地信经验技巧交流~
-    </p>
-    </div>`,
+// module.exports = {
+//   sidebarB:
+    // `<div style="padding: 0.95rem">
+    // <p style="
+    //   color: var(--textColor);
+    //   opacity: 0.9;
+    //   font-size: 20px;
+    //   font-weight: bold;
+    //   margin: 0 0 8px 0;
+    // ">加入我们</p>
+    // <img src="/img/wechat_group.png"  style="width:100%;" />
+    // <p>
+    // 遥感地信资源网站共建~
+    // </br></br>
+    // 遥感地信经验技巧交流~
+    // </p>
+    // </div>`,
   // `<!-- 纵向自适应 -->
   // <ins class="adsbygoogle"
   //     style="display:block;padding: 0.95rem;"
@@ -97,17 +97,17 @@ module.exports = {
   //     <script>
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
-  windowRB:
-    `<!-- 固定160*160px -->
-      <ins class="adsbygoogle"
-          style="display:inline-block;max-width:160px;max-height:160px"
-          data-ad-client="xxx"
-          data-ad-slot="xxx"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-      `,
-}
+//   windowRB:
+//     `<!-- 固定160*160px -->
+//       <ins class="adsbygoogle"
+//           style="display:inline-block;max-width:160px;max-height:160px"
+//           data-ad-client="xxx"
+//           data-ad-slot="xxx"></ins>
+//       <script>
+//           (adsbygoogle = window.adsbygoogle || []).push({});
+//       </script>
+//       `,
+// }
 
 
 // module.exports = {
