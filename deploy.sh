@@ -14,12 +14,12 @@ echo '3s.xiewei.link' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:ruiduobao/website_3s_hub.git
+  githubUrl=git@github.com:ruiduobao/gisrsdata.com.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://ruiduobao:${GITHUB_TOKEN}@github.com:ruiduobao/website_3s_hub.git
-  git config --global user.name "Gleaner2021"
-  git config --global user.email "wxie18@fudan.edu.cn"
+  githubUrl=https://ruiduobao:${GITHUB_TOKEN}@github.com:ruiduobao/gisrsdata.com.git
+  git config --global user.name "ruiduobao"
+  git config --global user.email "kitmyfaceplease2@gmail.com"
 fi
 git init
 git add -A
