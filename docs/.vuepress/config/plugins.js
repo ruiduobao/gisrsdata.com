@@ -78,26 +78,26 @@ module.exports = [
       hm: 'xxxx',
     },
   ],
-  // [
-  //   'vuepress-plugin-comment', // 评论
-  //   {
-  //     choosen: 'gitalk',
-  //     options: {
-  //       clientID: '8ed1d6e5548f8a4d5359',
-  //       clientSecret: '6d422d516ff3d2a00c3c87d1d2c615bdde2de532',
-  //       repo: 'gitalk_comment_3shub', // GitHub 仓库
-  //       owner: 'Gleaner2021', // GitHub仓库所有者
-  //       admin: ['Gleaner2021'], // 对仓库有写权限的人
-  //       // distractionFreeMode: true,
-  //       pagerDirection: 'last', // 'first'正序 | 'last'倒序
-  //       id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
-  //       title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
-  //       labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
-  //       body:
-  //         '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
-  //     },
-  //   },
-  // ],
+  [
+    'vuepress-plugin-comment', // 评论
+    {
+      choosen: 'gitalk',
+      options: {
+        clientID: 'dcdbf4a1c9e556f6d015',
+        clientSecret: 'bbf3308e29305da34a2d18cb02a44a2b58f37824',
+        repo: 'gisrsdata.com', // GitHub 仓库
+        owner: 'ruiduobao', // GitHub仓库所有者
+        admin: ['ruiduobao'], // 对仓库有写权限的人
+        // distractionFreeMode: true,
+        pagerDirection: 'last', // 'first'正序 | 'last'倒序
+        id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
+        title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
+        labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
+        body:
+          '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
+      },
+    },
+  ],
   [
     '@vuepress/last-updated', // "上次更新"时间格式
     {
