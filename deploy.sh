@@ -10,7 +10,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo '3s.xiewei.link' > CNAME
+echo 'gisrsdata.com' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'

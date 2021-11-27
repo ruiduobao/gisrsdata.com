@@ -15,18 +15,29 @@
     </div>
 
     <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
-    Theme by
-    <a
-      href="https://github.com/xugaoyi/vuepress-theme-vdoing"
-      target="_blank"
-      title="本站主题"
-    >Vdoing</a>
+        
     <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
       <span
         v-html="footer.copyrightInfo"
       ></span>
     </template>
+    <br/>
+    <!--备案号-->
+        <a
+      href="https://beian.miit.gov.cn/#/Integrated/index"
+      target="_blank"
+      title="icp备案"
+
+    >蜀ICP备2021024989号-2</a>
+    <br/>
+        <a
+      href="http://www.beian.gov.cn/portal/registerSystemInfo"
+      target="_blank"
+      title="网安备案"
+    >蜀公网安备51202202511079号</a>
+
+
   </div>
 </template>
 

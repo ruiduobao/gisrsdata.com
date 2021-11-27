@@ -7,7 +7,7 @@ module.exports = {
   nav,
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: '/img/EB-logo.png', // 导航栏logo
-  repo: 'Gleaner2021/website_3s_hub', // 导航栏右侧生成Github链接
+  repo: 'ruiduobao/gisrsdata.com', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
@@ -75,27 +75,27 @@ module.exports = {
       //   link: 'mailto:caaschengrui@163.com',
       // },
       {
-        iconClass: 'icon-github',
-        title: 'GitHub',
-        link: 'https://github.com/ruiduobao/ruiduobao.com',
-      },
-      {
         iconClass: 'icon-weixin',
         title: '微信',
-        link: 'https://gitee.com/kitmyfaceplease/image_upload/raw/master/image/二维码.jpg',
+        link: 'https://gitee.com/kitmyfaceplease/image_upload/raw/master/image/20211128020929.png',
       },
-      // {
-      //   iconClass: 'icon-erji',
-      //   title: '听音乐',
-      //   link: '',
-      // },
+      {
+        iconClass: 'icon-zhihu',
+        title: '知乎',
+        link: 'https://www.zhihu.com/people/justyoufengmei',
+      },
+      {
+        iconClass: 'icon-csdn',
+        title: 'CSDN',
+        link: 'https://ruiduobao.blog.csdn.net/',
+      },
     ],
   },
   footer: {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'Updating.. | <a href="" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      '<a href="" target="_blank">gisrsdata.com </a>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }
