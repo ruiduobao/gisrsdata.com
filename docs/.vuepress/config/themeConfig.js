@@ -75,6 +75,11 @@ module.exports = {
       //   link: 'mailto:caaschengrui@163.com',
       // },
       {
+        iconClass: 'icon-github',
+        title: 'github',
+        link: 'https://github.com/ruiduobao/gisrsdata.com',
+      },
+      {
         iconClass: 'icon-weixin',
         title: '微信',
         link: 'https://gitee.com/kitmyfaceplease/image_upload/raw/master/image/20211128020929.png',

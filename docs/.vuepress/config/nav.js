@@ -107,14 +107,15 @@ module.exports = [
   //     // { text: '持续更新中...', link: '#'},
   //   ],
   // },
-  { text: '关于', link: '/about/' },
   {
-    text: '索引',
-    link: '/archives/',
+    text: '网站导航',
+    link: '/daohang/',
     items: [
-      { text: '分类', link: '/categories/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
+      { text: '常用网站导航', link: '/categories/' },
+      { text: '网站分类', link: '/categories/' },
+      { text: '网站时间线', link: '/archives/' },
     ],
   },
+  { text: '关于', link: '/about/' },
+
 ]
