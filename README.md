@@ -1,5 +1,5 @@
 # website_3s_hub
-[遥感地信资源导航网](https://github.com/ruiduobao/ruiduobao.com) vuepress_vdoing 构建版
+[遥感地信资源导航网](https://github.com/ruiduobao/ruiduobao.com) gisrsdata.com 构建版
 
 ## 🌄 网站介绍
 ![](./docs/.vuepress/public/javascript-illustration.png)

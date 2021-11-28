@@ -109,9 +109,9 @@ module.exports = [
   // },
   {
     text: '网站导航',
-    link: '/daohang/',
+    link: '/daohang_GISRS/',
     items: [
-      { text: '常用网站导航', link: '/categories/' },
+      { text: '常用网站导航', link: '/daohang_GISRS/' },
       { text: '网站分类', link: '/categories/' },
       { text: '网站时间线', link: '/archives/' },
     ],
