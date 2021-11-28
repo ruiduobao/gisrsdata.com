@@ -74,26 +74,26 @@ module.exports = {
       //   title: '发邮件',
       //   link: 'mailto:caaschengrui@163.com',
       // },
-      {
-        iconClass: 'icon-github',
-        title: 'github',
-        link: 'https://github.com/ruiduobao/gisrsdata.com',
-      },
-      {
-        iconClass: 'icon-weixin',
-        title: '微信',
-        link: 'https://gitee.com/kitmyfaceplease/image_upload/raw/master/image/20211128020929.png',
-      },
-      {
-        iconClass: 'icon-zhihu',
-        title: '知乎',
-        link: 'https://www.zhihu.com/people/justyoufengmei',
-      },
-      {
-        iconClass: 'icon-csdn',
-        title: 'CSDN',
-        link: 'https://ruiduobao.blog.csdn.net/',
-      },
+      // {
+      //   iconClass: 'icon-github',
+      //   title: 'github',
+      //   link: 'https://github.com/ruiduobao/gisrsdata.com',
+      // },
+      // {
+      //   iconClass: 'icon-weixin',
+      //   title: '微信',
+      //   link: 'https://gitee.com/kitmyfaceplease/image_upload/raw/master/image/20211128020929.png',
+      // },
+      // {
+      //   iconClass: 'icon-zhihu',
+      //   title: '知乎',
+      //   link: 'https://www.zhihu.com/people/justyoufengmei',
+      // },
+      // {
+      //   iconClass: 'icon-csdn',
+      //   title: 'CSDN',
+      //   link: 'https://ruiduobao.blog.csdn.net/',
+      // },
     ],
   },
   footer: {
