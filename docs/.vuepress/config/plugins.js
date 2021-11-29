@@ -38,7 +38,8 @@ module.exports = [
       ],
     },
   ],
-
+  // // 安装PWA
+  // ['@vuepress/pwa'],
   [
     'one-click-copy',
     {
