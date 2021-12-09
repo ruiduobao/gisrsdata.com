@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 锐多宝的工具合集
+heroText: 地信遥感数据汇
 tagline: 遥感/地信/数据源合集
 actionText: 开始寻找资源 →
 actionLink: /data-gis/
