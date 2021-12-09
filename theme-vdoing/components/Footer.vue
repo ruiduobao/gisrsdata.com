@@ -57,13 +57,13 @@ setTimeout(momxc, 1000);
       target="_blank"
       title="icp备案"
 
-    >蜀ICP备2021024989号-2</a>
+    >蜀ICP备2021024989号-4</a>
     <br/>
-        <a
+        <!-- <a
       href="http://www.beian.gov.cn/portal/registerSystemInfo"
       target="_blank"
       title="网安备案"
-    >蜀公网安备51202202511079号</a>
+    >蜀公网安备51202202511079号</a> -->
 
 
   </div>
