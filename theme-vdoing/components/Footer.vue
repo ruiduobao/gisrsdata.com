@@ -52,6 +52,12 @@ setTimeout(momxc, 1000);
     </template>
     <br/>
     <!--备案号-->
+        <!-- <a
+      href="https://beian.miit.gov.cn/#/Integrated/index"
+      target="_blank"
+      title="icp备案"
+
+    >蜀ICP备2021024989号-4</a> -->
         <a
       href="https://beian.miit.gov.cn/#/Integrated/index"
       target="_blank"
