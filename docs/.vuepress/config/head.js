@@ -13,7 +13,7 @@ module.exports = [
 
 
   // 添加百度统计
-  ['meta', { name: 'baidu-site-verification', content: 'xxx' }], // 百度统计的站长验证
+  // ['meta', { name: 'baidu-site-verification', content: 'xxx' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   
       // 添加百度统计
