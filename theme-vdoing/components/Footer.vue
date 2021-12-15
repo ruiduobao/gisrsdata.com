@@ -70,8 +70,6 @@ setTimeout(momxc, 1000);
       target="_blank"
       title="网安备案"
     >蜀公网安备51202202511081号</a>
-
-
   </div>
 </template>
 <script>
