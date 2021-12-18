@@ -1,0 +1,247 @@
+﻿﻿﻿### ﻿Arcgis Engine  元素加载、专题图绘制以及打印功能
+
+## **一、类库接口描述**
+
+1、IElement接口：允许开发者访问对象的几何属性，并且可以使用查询和绘出对象的方法，IMarkerElement是点要素的接口。
+
+2、ISimpleMarkerSymbol 接口：简单点符号
+
+3、IEnvelope接口：是指地物的外接矩形，用来表示地物图形的大体位置和形状
+
+4、IPrinter接口：用来管理打印纸张设置
+
+5、IPageLayout 接口：定义了用于修改页面布局的方法和属性
+
+6、IActiveView接口 ：定义了Map对象的数据显示功能。通过使用该接口可以在Map上绘制图形，改变视图的范围，获取ScreenDisplay对象的指针，刷新视图
+
+7、IGraphicsContainer接口：管理Map 和PageLayout 对象上储存的元素，使用IGraphicsContainer 接口可以添加，删除和更新位于Map 或PageLayout上的元素。
+
+8、ILegend：图例接口
+
+## **二、操作步骤**
+
+1、设计界面
+
+2、理清逻辑思路，设计功能
+
+（1）通过“地图表现”切换“数据视图”与“布局视图”
+![切换](https://img-blog.csdnimg.cn/20190827110715469.png)
+（2）在数据视图实现加载点和面要素
+
+（在主界面中点击“加载点要素”按钮，在地图上进行点击添加，当再次点击“加载点要素”时，停止绘制；加载面要素同理。）
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190827110746115.png)
+（3）在布局视图实现加载框架要素和打印功能
+
+3、代码实现
+
+4、测试
+
+## **三、相关代码**
+
+### **（一）“显示地图”的点击事件**
+
+**1、功能：显示数据视图，与布局视图进行切换（“显示页面布局”的点击事件与其类似）**
+
+**2、代码**
+
+```
+      private void miMap_Click(object sender, EventArgs e)
+        {
+            if (miMap.Checked == false)
+            {
+                axTOCControl1.SetBuddyControl(axMapControl1.Object);
+                axTOCControl1.SetBuddyControl(axMapControl1.Object);
+                axMapControl1.Show();
+                axPageLayoutControl1.Hide();
+                miMap.Checked = true;
+                miPageLayout.Checked = false;
+                miPrint.Enabled = false;
+                AddFrameElement.Enabled = false;
+                miAddMarker.Enabled = true;
+                miAddFill.Enabled = true;
+            }
+            else
+            {
+                axTOCControl1.SetBuddyControl(axPageLayoutControl1.Object);
+                axTOCControl1.SetBuddyControl(axPageLayoutControl1.Object);
+                axMapControl1.Hide();
+                axPageLayoutControl1.Show();
+                miMap.Checked = false;
+                miPageLayout.Checked = true;
+                miPrint.Enabled = true;
+                AddFrameElement.Enabled = true;
+                miAddMarker.Enabled = false;
+                miAddFill.Enabled = false;
+            }
+        }
+```
+
+### **（二）创建点元素**
+
+**1、功能：在数据视图上实现加载点元素**
+
+**2、代码如下：**
+```
+public void AddMarkerElement(double x, double y)
+        {
+            IMarkerElement pMarkerElement = (IMarkerElement)new MarkerElement();//创建一个新的元素
+
+            ISimpleMarkerSymbol pMarkerSym = new SimpleMarkerSymbol(); //创建新符号
+            pMarkerSym.Style = esriSimpleMarkerStyle.esriSMSCircle;//指定符号的样式（风格)
+            pMarkerSym.Color = getRGB(255, 0, 0); //用函数设置符号的颜色为红色
+            //并把颜色赋给符号
+            pMarkerElement.Symbol = pMarkerSym;
+            IElement pElement;
+            pElement = pMarkerElement as IElement;
+            IPoint pPoint;
+            pPoint = new Point();
+            pPoint.PutCoords(x, y);
+            //Ipoint的PutCoords方法：指定坐标点建立Point
+            pElement.Geometry = pPoint;
+            IMap pMap = axMapControl1.Map;
+            IActiveView pActiveView = pMap as IActiveView;
+            IGraphicsContainer pGraphicsContainer = pMap as IGraphicsContainer;
+            pGraphicsContainer.AddElement(pElement, 0);
+            pActiveView.Refresh();
+            return;
+        }
+```
+### **（三）创建面元素**
+
+**1、功能：在数据视图上实现加载面元素**
+
+**2、代码如下：**
+```
+public void AddFillElement()
+        {
+            ISimpleLineSymbol pSimpleLineSymbol = new SimpleLineSymbol();
+            pSimpleLineSymbol.Color = getRGB(255, 0, 0);
+            pSimpleLineSymbol.Width = 2;
+            //设置填充符号属性
+            ISimpleFillSymbol pSimpleFillSymbol = new SimpleFillSymbol();
+            pSimpleFillSymbol.Color = getRGB(255, 100, 80);
+            pSimpleFillSymbol.Outline = pSimpleLineSymbol;
+            pSimpleFillSymbol.Style = esriSimpleFillStyle.esriSFSSolid;
+            //设置填充元素符号属性
+            IFillShapeElement pFillShapeElement = (IFillShapeElement)new PolygonElement();
+            pFillShapeElement = new PolygonElementClass();
+            pFillShapeElement.Symbol = pSimpleFillSymbol;
+            IElement pElement;
+            pElement = pFillShapeElement as IElement;
+            IPolygon pPolygon;
+            pPolygon = axMapControl1.TrackPolygon() as IPolygon;
+            // Object.TrackPolygon( ) 在某个对象上画个多边形；
+            // Object.TrackRectangle ( ) 在某个对象上画个矩形；
+            pElement.Geometry = pPolygon;
+            IMap pMap = axMapControl1.Map;
+            IActiveView pActiveView = pMap as IActiveView;
+            IGraphicsContainer pGraphicsContainer = pMap as IGraphicsContainer;
+            pGraphicsContainer.AddElement(pElement, 0);
+            pActiveView.PartialRefresh(esriViewDrawPhase.esriViewGraphics, null, null);
+        }
+```
+### **（四）加载图例**
+
+**1、功能：在布局视图上实现加载图例**
+
+**2、代码如下：**
+```
+//获取axPageLayoutControl1的图形容器
+            IGraphicsContainer graphicsContainer =axPageLayoutControl1.GraphicsContainer;
+            //获取axPageLayoutControl1空间里面显示的地图图层
+            IMapFrame mapFrame =(IMapFrame)graphicsContainer.FindFrame(axPageLayoutControl1.ActiveView.FocusMap);
+            if (mapFrame == null) return;//创建图例
+            UID uID = new UID();
+uID.Value = "esriCarto.Legend";
+            
+            IMapSurroundFrame mapSurroundFrame = mapFrame.CreateSurroundFrame(uID, null);
+            if (mapSurroundFrame == null) return;
+            if (mapSurroundFrame.MapSurround == null) return;
+            mapSurroundFrame.MapSurround.Name = "图例";
+            IEnvelope envelope = new EnvelopeClass();
+            envelope.PutCoords(17, 2, 19, 7); 
+            IElement element = (IElement)mapSurroundFrame;
+            element.Geometry = envelope;
+            //将图例转化为几何要素添加到axPageLayoutControl1,并刷新页面显示
+            axPageLayoutControl1.AddElement(element, Type.Missing, Type.Missing,"Legend", 0);
+            axPageLayoutControl1.ActiveView.PartialRefresh(esriViewDrawPhase.esriViewGraphics, null,null);
+
+```
+
+### **（五）加载比例尺**
+
+**1、功能：在布局视图上实现加载比例尺**
+
+**2、代码如下：**
+```
+private void btnScalebar_Click(object sender, EventArgs e)
+        {
+             IActiveView pActiveView = axPageLayoutControl1.PageLayout as IActiveView;
+            IMap pMap = pActiveView.FocusMap as IMap;
+            IGraphicsContainer pGraphicsContainer = pActiveView as IGraphicsContainer;
+            IMapFrame pMapFrame = pGraphicsContainer.FindFrame(pMap) as IMapFrame;
+            pActiveView = axPageLayoutControl1.PageLayout as IActiveView;
+            pMap = pActiveView.FocusMap as IMap;
+            pGraphicsContainer = pActiveView as IGraphicsContainer;
+            pMapFrame = pGraphicsContainer.FindFrame(pMap) as IMapFrame;//设置比例尺样式
+            IMapSurround pMapSurround;
+            IScaleBar pScaleBar;
+            pScaleBar = new ScaleLineClass();
+            pScaleBar.Units = pMap.MapUnits;
+            pScaleBar.Divisions = 2;
+            pScaleBar.Subdivisions = 4;
+            pScaleBar.DivisionsBeforeZero = 0;
+            pScaleBar.LabelPosition = esriVertPosEnum.esriBelow;
+            pScaleBar.LabelGap = 3.6;
+            pScaleBar.LabelFrequency = esriScaleBarFrequency.esriScaleBarDivisionsAndFirstMidpoint;
+
+            pMapSurround = pScaleBar;
+            pMapSurround.Name = "ScaleBar";
+            //定义UID
+            UID uid = new UID();
+            uid.Value = "esriCarto.ScaleLine";
+            //定义MapSurroundFrame对象      
+            IMapSurroundFrame pMapSurroundFrame = pMapFrame.CreateSurroundFrame(uid, null);
+            pMapSurroundFrame.MapSurround = pMapSurround;
+            //定义Envelope设置Element摆放的位置
+            IEnvelope pEnvelope = new EnvelopeClass();
+            pEnvelope.PutCoords(2, 1.5, 10, 2.5);
+            IElement pElement = pMapSurroundFrame as IElement;
+            pElement.Geometry = pEnvelope;
+            pGraphicsContainer.AddElement(pElement, 0);
+
+        }
+
+```
+
+### **（六）打印**
+
+**1、功能：“打印”的点击事件**
+
+**2、代码如下：**
+```
+private void miPrint_Click(object sender, EventArgs e)
+        {
+            IPrinter printer = axPageLayoutControl1.Printer;   
+            if (printer == null)
+            {
+                MessageBox.Show("获取默认打印机失败！");
+               
+            }
+            String sMsg = "是否使用默认打印机:" + printer.Name + "?";
+            if (MessageBox.Show(sMsg, "", MessageBoxButtons.OKCancel) == DialogResult.Cancel)
+            {
+                return;
+            }
+            IPaper paper = printer.Paper;
+            paper.Orientation = 1;
+
+            IPage page = axPageLayoutControl1.Page;
+            page.PageToPrinterMapping = esriPageToPrinterMapping.esriPageMappingScale;
+            axPageLayoutControl1.PrintPageLayout(1,1,0);
+        }
+
+```
+
+﻿![在这里插入图片描述](https://img-blog.csdnimg.cn/69dc516b067446d390da9f259264c6e2.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LqR5rKr5p2J,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+
