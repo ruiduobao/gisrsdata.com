@@ -117,5 +117,6 @@ module.exports = [
     ],
   },
   { text: '关于', link: '/about/' },
+  { text: '遥感论坛', link: 'https://www.ruiduobao.com' },
 
 ]
