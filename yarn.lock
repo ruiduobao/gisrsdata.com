@@ -10286,8 +10286,8 @@ vuepress-html-webpack-plugin@^3.2.0:
 
 vuepress-plugin-baidu-autopush@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-baidu-autopush/-/vuepress-plugin-baidu-autopush-1.0.1.tgz#e5042170f05a585c4a38f876e01ff4706cd82fbe"
-  integrity sha512-KVQkrmMgPY+GG8dtI2wcRxUv1n2h5DM8aFs75ltsSlFBSS9C/vfLb2LmywXAsoCXk2EHya2p66cpn7BxofK+Mw==
+  resolved "https://registry.npm.taobao.org/vuepress-plugin-baidu-autopush/download/vuepress-plugin-baidu-autopush-1.0.1.tgz#e5042170f05a585c4a38f876e01ff4706cd82fbe"
+  integrity sha1-5QQhcPBaWFxKOPh24B/0cGzYL74=
 
 vuepress-plugin-baidu-tongji@^1.0.1:
   version "1.0.1"

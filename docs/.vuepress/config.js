@@ -20,4 +20,7 @@ module.exports = {
   head,
   plugins,
   themeConfig,
+  plugins: [
+    'vuepress-plugin-baidu-autopush'
+  ]
 }
