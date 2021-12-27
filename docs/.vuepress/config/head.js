@@ -6,7 +6,7 @@ module.exports = [
     'meta',
     {
       name: 'keywords',
-      content: 'GIS,RS,webgis,ENVI,postgis,地理信息系统,地信,遥感',
+      content: '地理信息系统,地信,遥感，GIS,RS,webgis,ENVI,postgis,',
     },
   ],
   // 添加百度推送
