@@ -108,15 +108,15 @@ module.exports = [
   //   ],
   // },
   {
-    text: '网站导航',
+    text: '其他',
     link: '/daohang_GISRS/',
     items: [
       { text: '常用网站导航', link: '/daohang_web/' },
-      { text: '网站分类', link: '/categories/' },
+      { text: '内容分类', link: '/categories/' },
       { text: '网站时间线', link: '/archives/' },
+      { text: '关于网站', link: '/about/' },
+      { text: '遥感论坛', link: 'https://www.ruiduobao.com' },
     ],
   },
-  { text: '关于', link: '/about/' },
-  { text: '遥感论坛', link: 'https://www.ruiduobao.com' },
 
 ]
