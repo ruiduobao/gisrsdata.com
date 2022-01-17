@@ -119,3 +119,9 @@
 //   windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 // }
+module.exports = {
+  plugins: ['@vuepress/pwa']
+}
+module.exports = {
+  plugins: ['@vuepress/vuepress-plugin-comment']
+}
