@@ -57,7 +57,7 @@ module.exports = {
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     name: 'GISer', // 必需
-    link: 'https://github.com/ruiduobao/ruiduobao.com', // 可选的
+    link: 'https://github.com/ruiduobao/gisrsdata.com', // 可选的
   },
   // blogger: {
   //   // 博主信息，显示在首页侧边栏

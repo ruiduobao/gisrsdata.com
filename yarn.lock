@@ -10328,8 +10328,8 @@ vuepress-plugin-baidu-tongji@^1.0.1:
 
 vuepress-plugin-comment@^0.7.3:
   version "0.7.3"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-comment/-/vuepress-plugin-comment-0.7.3.tgz#2cff36b8f90896a7f88d494d78458398b1510249"
-  integrity sha512-CvuBST37snmQGzGD5lMxyw0u2eXWKVPjegfuwlI2+CTs2qWarKX16dVHHLR8DVa/yL5UGT3VuoNETH/zEexl8A==
+  resolved "https://registry.npmmirror.com/vuepress-plugin-comment/download/vuepress-plugin-comment-0.7.3.tgz#2cff36b8f90896a7f88d494d78458398b1510249"
+  integrity sha1-LP82uPkIlqf4jUlNeEWDmLFRAkk=
   dependencies:
     ejs "^2.6.1"
     gitalk "^1.5.0"
