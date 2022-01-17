@@ -2,24 +2,24 @@
 home: true
 # heroImage: /img/web.png
 heroText: 地信遥感数据汇
-tagline: 遥感/地信/数据源合集
-actionText: 开始寻找资源 →
+tagline: 遥感/地信/编程软件类教程
+actionText: 开始寻找教程 →
 actionLink: /data-gis/
 # heroImage: /javascript-illustration.png
 bannerBg:  none
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 title: 探索地信遥感资源教程
 features: # 可选的
-  - title: 地理信息数据
-    details: 基础矢量地理数据、栅格数据等
+  - title: GIS数据教程
+    details: 基础矢量地理、栅格等数据下载教程
     imgUrl: /img/gis.png
     link: /data-gis/
-  - title: 遥感卫星数据
-    details: 主流的遥感卫星数据下载地址与教程
+  - title: RS数据教程
+    details: 遥感卫星原始与产品数据下载教程
     imgUrl: /img/rs.png
     link: /data-rs/
-  - title: 行业软件资源
-    details: 地信、遥感类软件介绍、安装教程等
+  - title: 开发与软件教程
+    details: 地信遥感相关开发与软件教程
     imgUrl: /img/softs.png
     link: /softs/
 
