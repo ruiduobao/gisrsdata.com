@@ -1,18 +1,19 @@
 # npm
-package-lock.json
-node_modules
+#package-lock.json
+#node_modules
 
 # yarn
-yarn.lock
+#yarn.lock
 
 # vscode
-.vscode
+#.vscode
 
 # vuepress
-docs/.vuepress/dist
+#docs/.vuepress/dist
 
 # 百度链接推送
-urls.txt
+#urls.txt
 
 # mac
-.DS_Store
+#.DS_Store
+node_modules
