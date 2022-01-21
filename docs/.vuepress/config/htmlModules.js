@@ -125,3 +125,6 @@ module.exports = {
 module.exports = {
   plugins: ['@vuepress/vuepress-plugin-comment']
 }
+module.exports = {
+  plugins: ['@vuepress/thirdparty-search']
+}
