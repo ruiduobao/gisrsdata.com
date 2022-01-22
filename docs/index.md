@@ -12,15 +12,15 @@ title: 探索地信遥感资源教程
 features: # 可选的
   - title: GIS数据教程
     details: 基础矢量地理、栅格等数据下载教程
-    imgUrl: /img/gis.png
+    imgUrl: /img/gis2.svg
     link: /data-gis/
   - title: RS数据教程
     details: 遥感卫星原始与产品数据下载教程
-    imgUrl: /img/rs.png
+    imgUrl: /img/rs2.svg
     link: /data-rs/
   - title: 开发与软件教程
     details: 地信遥感相关开发与软件教程
-    imgUrl: /img/softs.png
+    imgUrl: /img/soft2.svg
     link: /softs/
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表

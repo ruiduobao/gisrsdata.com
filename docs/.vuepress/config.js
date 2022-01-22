@@ -20,10 +20,5 @@ module.exports = {
   head,
   plugins,
   themeConfig,
-  plugins: [
-    ['sitemap', {
-      hostname: "http://gisrsdata.com",
-    }],
-    'vuepress-plugin-baidu-autopush'
-  ]
+
 }
