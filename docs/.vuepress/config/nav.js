@@ -139,7 +139,7 @@ module.exports = [
     ],
   },
   {
-    text: '其他',
+    text: '我要投稿',
     link: 'http://sc.gisrsdata.com:3003/',
   },
 
