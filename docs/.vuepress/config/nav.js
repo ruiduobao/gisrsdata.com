@@ -138,5 +138,9 @@ module.exports = [
       { text: '遥感论坛', link: 'https://www.ruiduobao.com' },
     ],
   },
+  {
+    text: '其他',
+    link: 'http://sc.gisrsdata.com:3003/',
+  },
 
 ]
