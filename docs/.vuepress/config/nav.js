@@ -132,15 +132,13 @@ module.exports = [
     link: '/daohang_GISRS/',
     items: [
       { text: '常用网站导航', link: '/daohang_web/' },
-      { text: '内容分类', link: '/categories/' },
+      // { text: '内容分类', link: '/categories/' },
       { text: '网站时间线', link: '/archives/' },
       { text: '关于网站', link: '/about/' },
       { text: '遥感论坛', link: 'https://www.ruiduobao.com' },
+      { text: '我要投稿', link: 'http://sc.gisrsdata.com:3003/'},
     ],
   },
-  {
-    text: '我要投稿',
-    link: 'http://sc.gisrsdata.com:3003/',
-  },
+
 
 ]
