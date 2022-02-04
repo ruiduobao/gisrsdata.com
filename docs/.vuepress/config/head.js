@@ -49,7 +49,7 @@ module.exports = [
   s.parentNode.insertBefore(el, s);
 })();
     `
-]
+],
 //360js提交收录
 [
   "script",
