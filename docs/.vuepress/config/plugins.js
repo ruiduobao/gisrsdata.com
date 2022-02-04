@@ -112,5 +112,6 @@ module.exports = [
       hostname: "http://gisrsdata.com",
     }],
     'vuepress-plugin-baidu-autopush',
+    [ 'autometa', autometa_options ]
     
 ]
