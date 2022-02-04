@@ -13,9 +13,19 @@
         target="_blank"
       ></a>
     </div>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=gb2312" />
+<meta name="sogou_site_verification" content="y15XLjhNaO" />
+</head>
 
     <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
      <span id="momk"></span><span id="momk" style="color: #969696;"></span>
+<script>
+(function(){
+var src = "https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
 <script type="text/javascript">
 function NewDate(str) {
 str = str.split('-');
