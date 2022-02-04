@@ -9,6 +9,13 @@ module.exports = [
       content: '地理信息系统,地信,遥感，GIS,RS,webgis,ENVI,postgis,',
     },
   ],
+  [
+    'meta',
+    {
+      name: 'sogou_site_verification',
+      content: 'y15XLjhNaO',
+    },
+  ],
   // 添加百度推送
 
 
