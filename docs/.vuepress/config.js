@@ -1,13 +1,7 @@
 const head = require('./config/head.js');
 const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
-const autometa_options = {
-  site: {
-    name   : '地信遥感数据汇',
-    twitter: '锐多宝',
-  },
-  canonical_base: 'https://www.gisrsdata.com',
-};
+
 module.exports = {
   lang: 'zh-CN',
   // theme: 'vdoing', // 使用npm包主题
