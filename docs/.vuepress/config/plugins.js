@@ -103,7 +103,7 @@ module.exports = [
     '@vuepress/last-updated', // "上次更新"时间格式
     {
       transformer: (timestamp, lang) => {
-        const dayjs = require('dayjs') // https://day.js.org/
+        const dayjs = require('dayjs') // https://day.js.oryarng/
         return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
       },
     },
@@ -112,6 +112,6 @@ module.exports = [
       hostname: "http://gisrsdata.com",
     }],
     'vuepress-plugin-baidu-autopush',
-    [ 'autometa', autometa_options ]
+    ['autometa'],
     
 ]
