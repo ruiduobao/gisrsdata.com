@@ -18,10 +18,12 @@
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
     "vuepress": "1.8.0",
+    "vuepress-plugin-autometa": "^0.1.13",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-social-share": "^1.1.0",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.8.5",
@@ -29,6 +31,7 @@
   },
   "dependencies": {
     "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-robots": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
