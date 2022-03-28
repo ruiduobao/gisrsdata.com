@@ -82,7 +82,7 @@ module.exports = {
       // {
       //   iconClass: 'icon-weixin',
       //   title: '微信',
-      //   link: 'https://gitee.com/kitmyfaceplease/image_upload/raw/master/image/20211128020929.png',
+      //   link: 'http://pics.landcover100.com/pics//image/20211128020929.png',
       // },
       // {
       //   iconClass: 'icon-zhihu',
