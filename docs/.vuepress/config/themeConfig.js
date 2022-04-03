@@ -79,21 +79,21 @@ module.exports = {
       //   title: 'github',
       //   link: 'https://github.com/ruiduobao/gisrsdata.com',
       // },
-      // {
-      //   iconClass: 'icon-weixin',
-      //   title: '微信',
-      //   link: 'http://pics.landcover100.com/pics//image/20211128020929.png',
-      // },
-      // {
-      //   iconClass: 'icon-zhihu',
-      //   title: '知乎',
-      //   link: 'https://www.zhihu.com/people/justyoufengmei',
-      // },
-      // {
-      //   iconClass: 'icon-csdn',
-      //   title: 'CSDN',
-      //   link: 'https://ruiduobao.blog.csdn.net/',
-      // },
+      {
+        iconClass: 'icon-weixin',
+        title: '微信',
+        link: 'http://pics.landcover100.com/pics//image/20211128020929.png',
+      },
+      {
+        iconClass: 'icon-zhihu',
+        title: '知乎',
+        link: 'https://www.zhihu.com/people/justyoufengmei',
+      },
+      {
+        iconClass: 'icon-csdn',
+        title: 'CSDN',
+        link: 'https://ruiduobao.blog.csdn.net/',
+      },
     ],
   },
   footer: {
