@@ -117,6 +117,7 @@ module.exports = [
     ['ribbon'],
     ['cursor-effects'],
     ['go-top'],
+    
     // ['social-share']
     
 ]
