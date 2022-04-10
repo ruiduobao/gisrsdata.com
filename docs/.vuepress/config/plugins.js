@@ -113,6 +113,7 @@ module.exports = [
     }],
     ['vuepress-plugin-baidu-autopush'],
     ['autometa'],
+    ['fulltext-search']
     // ['social-share']
     
 ]

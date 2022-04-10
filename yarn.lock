@@ -4594,6 +4594,11 @@
     "locate-path" "^5.0.0"
     "path-exists" "^4.0.0"
 
+"flexsearch@^0.6.32":
+  "integrity" "sha512-EF1BWkhwoeLtbIlDbY/vDSLBen/E5l/f1Vg7iX5CDymQCamcx1vhlc3tIZxIDplPjgi0jhG37c67idFbjg+v+Q=="
+  "resolved" "http://mirrors.cloud.tencent.com/npm/flexsearch/-/flexsearch-0.6.32.tgz"
+  "version" "0.6.32"
+
 "flush-write-stream@^1.0.0":
   "integrity" "sha512-3Z4XhFZ3992uIq0XOqb9AreonueSYphE6oYbpt5+3u06JWklbsPkNv3ZKkP9Bz/r+1MWCaMoSQ28P85+1Yc77w=="
   "resolved" "https://registry.npmjs.org/flush-write-stream/-/flush-write-stream-1.1.1.tgz"
@@ -5191,7 +5196,7 @@
     "inherits" "^2.0.3"
     "minimalistic-assert" "^1.0.1"
 
-"he@^1.1.0", "he@1.2.x":
+"he@^1.1.0", "he@^1.2.0", "he@1.2.x":
   "integrity" "sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw=="
   "resolved" "https://registry.npmjs.org/he/-/he-1.2.0.tgz"
   "version" "1.2.0"
@@ -5280,6 +5285,16 @@
   "integrity" "sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg=="
   "resolved" "https://registry.npmjs.org/html-tags/-/html-tags-3.1.0.tgz"
   "version" "3.1.0"
+
+"html-to-text@^7.0.0":
+  "integrity" "sha512-c9QWysrfnRZevVpS8MlE7PyOdSuIOjg8Bt8ZE10jMU/BEngA6j3llj4GRfAmtQzcd1FjKE0sWu5IHXRUH9YxIQ=="
+  "resolved" "http://mirrors.cloud.tencent.com/npm/html-to-text/-/html-to-text-7.1.1.tgz"
+  "version" "7.1.1"
+  dependencies:
+    "deepmerge" "^4.2.2"
+    "he" "^1.2.0"
+    "htmlparser2" "^6.1.0"
+    "minimist" "^1.2.5"
 
 "htmlparser2@^6.1.0":
   "integrity" "sha512-gyyPk6rgonLFEDGoeRgQNaEUvdJ4ktTmmUh/h2t7s+M8oPpIPxgNACWa+6ESR57kXstwqPiCut0V8NRpcwgU7A=="
@@ -11003,6 +11018,15 @@
   "resolved" "https://registry.npmjs.org/vuepress-plugin-demo-block/-/vuepress-plugin-demo-block-0.7.2.tgz"
   "version" "0.7.2"
 
+"vuepress-plugin-fulltext-search@^2.2.1":
+  "integrity" "sha512-+BOLOdOTvwg7+4z71fmpuZUaHSw+exrw8S9m0kvBUgIVDoe5VS/G3y4hcd+K1hukbkxE/ec10Ikk8hc/3zf2VQ=="
+  "resolved" "http://mirrors.cloud.tencent.com/npm/vuepress-plugin-fulltext-search/-/vuepress-plugin-fulltext-search-2.2.1.tgz"
+  "version" "2.2.1"
+  dependencies:
+    "flexsearch" "^0.6.32"
+    "html-to-text" "^7.0.0"
+    "lodash" "^4.17.19"
+
 "vuepress-plugin-one-click-copy@^1.0.2":
   "integrity" "sha512-apFCcsBwk9IEDm5HwD6dwor30rl8gr0VjPkmrQlFSR2KD7OjK3ZUwioeEvbrcAiZBi35V6YgndLAHksJXRfpnQ=="
   "resolved" "https://registry.npmjs.org/vuepress-plugin-one-click-copy/-/vuepress-plugin-one-click-copy-1.0.6.tgz"
@@ -11069,7 +11093,7 @@
     "vuepress-plugin-container" "^2.0.2"
     "vuepress-plugin-smooth-scroll" "^0.0.3"
 
-"vuepress@^1.0.3", "vuepress@1.8.0":
+"vuepress@^1.0.3", "vuepress@^1.4.0", "vuepress@1.8.0":
   "integrity" "sha512-YvNitvoEc+JSJRv1W+IoRnvOTFyTWyUMuGuF2kTIbiSwIHb1hNinc3lqNSeBQJy7IBqyEzK5fnTq1mlynh4gwA=="
   "resolved" "https://registry.npmjs.org/vuepress/-/vuepress-1.8.0.tgz"
   "version" "1.8.0"
