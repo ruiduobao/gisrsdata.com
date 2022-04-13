@@ -21,6 +21,11 @@ module.exports = [
           { text: '领域/学科数据', link: '/data-gis-lingyu/' },
         ],
       },
+      {
+        items: [
+          { text: '坐标系', link: '/data-gis-cor/' },
+        ],
+      },
     ],
   },
   {
