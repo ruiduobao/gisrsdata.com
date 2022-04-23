@@ -117,7 +117,6 @@ module.exports = [
 
   {
     text: '其他',
-    link: '/daohang_GISRS/',
     items: [
       // { text: '常用网站导航', link: '/daohang_web/' },
       // { text: '内容分类', link: '/categories/' },
