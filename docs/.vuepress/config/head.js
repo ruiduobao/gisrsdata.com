@@ -1,6 +1,7 @@
 // head
 module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
+  ['script', { src: 'https://cdn.jsdelivr.net/npm/twikoo@1.5.9/dist/twikoo.all.min.js' }],
   ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
   [
     'meta',

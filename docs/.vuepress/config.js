@@ -22,6 +22,6 @@ module.exports = {
   themeConfig,
   markdown: {
     extractHeaders: [ 'h2', 'h3', 'h4', 'h5', 'h6' ]
-  }
+  },
 
 }
