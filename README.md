@@ -28,3 +28,7 @@ npm build
 yarn build
 ```
 
+如果你也有志于维护这个开源项目，可以直接提交issue，
+建议添加我的微信： kitmyfacepleaseA  
+我拉你进开发者群
+![](http://pics.landcover100.com/pics/20222213/627d8c303968a.jpg)
