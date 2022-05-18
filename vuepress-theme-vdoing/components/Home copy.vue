@@ -12,6 +12,7 @@
           !homeData.features && !homeData.heroImage && `padding-top: 7rem`
         "
       >
+      
         <header class="hero">
           <img
             v-if="homeData.heroImage"

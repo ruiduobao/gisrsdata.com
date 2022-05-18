@@ -84,10 +84,10 @@ module.exports = [
     text: '网站导航',
     link: '/daohang_web/',
     items: [
-      // { text: '常用网站导航', link: '/daohang_web/' },
-      // { text: '内容分类', link: '/categories/' },
-      // { text: '网站时间线', link: '/archives/' },
-      // { text: '关于网站', link: '/about/' },
+      { text: '网站导航(中文版)', link: '/pages/783964/' },
+      { text: '网站导航(英文版)', link: '/pages/8d8352/' },
+      { text: '学科导航', link: '/pages/b6c092/' },
+      { text: '专题导航', link: '/pages/bede60/' },
       // { text: '遥感论坛', link: 'https://www.rserforum.com/' },
       // { text: '我要投稿', link: 'http://pics.landcover100.com/pics//image/20211128020929.png'},
     ],
@@ -124,7 +124,7 @@ module.exports = [
     text: '其他',
     items: [
       // { text: '常用网站导航', link: '/daohang_web/' },
-      // { text: '内容分类', link: '/categories/' },
+      { text: '内容分类', link: '/categories/' },
       { text: '网站时间线', link: '/archives/' },
       { text: '关于网站', link: '/about/' },
       { text: '留言板', link: '/pages/8f0e4d/' },
