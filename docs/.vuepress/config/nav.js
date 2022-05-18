@@ -43,6 +43,11 @@ module.exports = [
         items: [
           { text: '卫星产品数据', link: '/data-rs-product/' }
         ],
+      },
+      {
+        items: [
+          { text: '云平台数据', link: '/data-rs-cloud/' }
+        ],
       }
     ],
   },
