@@ -1,7 +1,6 @@
 <template>
   <div class="home-wrapper">
-
-
+    <!-- banner块 s -->
     <div
       class="banner"
       :class="{ 'hide-banner': !showBanner }"
@@ -110,14 +109,12 @@
       </div>
       <!-- 移动端features块 e -->
     </div>
-    
- <div class="box">
-        <div class="search-wrapper">
-      <SearchBox placeholder="请输入关键词进行搜索"/>
-    </div>
-     </div>
     <!-- banner块 e -->
+
     <MainLayout>
+   
+
+     
     </MainLayout>
   </div>
 </template>
@@ -133,8 +130,6 @@ import Pagination from '@theme/components/Pagination'
 import BloggerBar from '@theme/components/BloggerBar'
 import CategoriesBar from '@theme/components/CategoriesBar'
 import TagsBar from '@theme/components/TagsBar'
-import AlgoliaSearchBox from '@AlgoliaSearchBox'
-import SearchBox from '@SearchBox'
 
 const MOBILE_DESKTOP_BREAKPOINT = 720 // refer to config.styl
 
@@ -202,7 +197,7 @@ export default {
       };
     }
   },
-  components: { NavLink, MainLayout, PostList, UpdateArticle, BloggerBar, CategoriesBar, TagsBar, Pagination,  SearchBox, AlgoliaSearchBox},
+  components: { NavLink, MainLayout, PostList, UpdateArticle, BloggerBar, CategoriesBar, TagsBar, Pagination },
   created () {
     this.total = this.$sortPosts.length
   },
@@ -302,21 +297,6 @@ export default {
 
 <style lang="stylus" scoped>
 .home-wrapper
-
-  .box
-    margin: 0 auto;
-    padding-top: 80px;
-    height: 50px;
-    width: 100%;
-  
-  .search-wrapper
-      margin-top $navbarHeight
-      position: relative;
-      height: 100%
-      z-index 999
-      display flex
-      align-items center
-      justify-content: center;
   .banner
     width 100%
     min-height 450px

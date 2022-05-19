@@ -1,122 +1,10 @@
 <template>
   <div class="home-wrapper">
-
-
-    <div
-      class="banner"
-      :class="{ 'hide-banner': !showBanner }"
-      :style="bannerBgStyle"
-    >
-      <div
-        class="banner-conent"
-        :style="
-          !homeData.features && !homeData.heroImage && `padding-top: 7rem`
-        "
-      >
-        <header class="hero">
-          <img
-            v-if="homeData.heroImage"
-            :src="$withBase(homeData.heroImage)"
-            :alt="homeData.heroAlt"
-          />
-          <!-- <h1 v-if="homeData.heroText" id="main-title">
-            {{ homeData.heroText }}
-          </h1>
-          <p v-if="homeData.tagline" class="description">
-            {{ homeData.tagline }}
-          </p> -->
-          
-          <!-- <p class="action" v-if="homeData.actionText && homeData.actionLink">
-            <NavLink class="action-button" :item="actionLink" />
-          </p> -->
-          
-        </header>
-
-        <!-- PC端features块 s -->
-        <div class="features" v-if="hasFeatures && !isMQMobile">
-          <div
-            class="feature"
-            v-for="(feature, index) in homeData.features"
-            :key="index"
-          >
-            <router-link v-if="feature.link" :to="feature.link">
-              <img
-                class="feature-img"
-                v-if="feature.imgUrl"
-                :src="$withBase(feature.imgUrl)"
-                :alt="feature.title"
-              />
-              <h2>{{ feature.title }}</h2>
-              <p>{{ feature.details }}</p>
-            </router-link>
-            <a v-else href="javascript:;">
-              <img
-                class="feature-img"
-                v-if="feature.imgUrl"
-                :src="$withBase(feature.imgUrl)"
-                :alt="feature.title"
-              />
-              <h2>{{ feature.title }}</h2>
-              <p>{{ feature.details }}</p>
-            </a>
-          </div>
-        </div>
-        <!-- PC端features块 e -->
-      </div>
-
-      <!-- 移动端features块 s -->
-      <!-- isMQMobile放到v-if上线后会报错 -->
-      <div class="slide-banner" v-if="hasFeatures" v-show="isMQMobile">
-        <div class="banner-wrapper">
-          <div class="slide-banner-scroll" ref="slide">
-            <div class="slide-banner-wrapper">
-              <div
-                class="slide-item"
-                v-for="(feature, index) in homeData.features"
-                :key="index"
-              >
-                <router-link v-if="feature.link" :to="feature.link">
-                  <img
-                    class="feature-img"
-                    v-if="feature.imgUrl"
-                    :src="$withBase(feature.imgUrl)"
-                    :alt="feature.title"
-                  />
-                  <h2>{{ feature.title }}</h2>
-                  <p>{{ feature.details }}</p>
-                </router-link>
-                <a v-else href="javascript:;">
-                  <img
-                    class="feature-img"
-                    v-if="feature.imgUrl"
-                    :src="$withBase(feature.imgUrl)"
-                    :alt="feature.title"
-                  />
-                  <h2>{{ feature.title }}</h2>
-                  <p>{{ feature.details }}</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="docs-wrapper">
-            <span
-              class="doc"
-              v-for="(item, index) in homeData.features.length"
-              :key="index"
-              :class="{ active: currentPageIndex === index }"
-            ></span>
-          </div>
-        </div>
-      </div>
-      <!-- 移动端features块 e -->
+    <div class="box">
+    <div class="search-wrapper">
+      <SearchBox />
     </div>
-    
- <div class="box">
-        <div class="search-wrapper">
-      <SearchBox placeholder="请输入关键词进行搜索"/>
     </div>
-     </div>
-    <!-- banner块 e -->
     <MainLayout>
     </MainLayout>
   </div>
@@ -312,11 +200,15 @@ export default {
   .search-wrapper
       margin-top $navbarHeight
       position: relative;
-      height: 100%
+      height: 500px
       z-index 999
       display flex
       align-items center
       justify-content: center;
+  .SearchBox
+    placeholder 请输入关键词进行搜索
+    
+
   .banner
     width 100%
     min-height 450px
