@@ -82,7 +82,7 @@ module.exports = [
   
   {
     text: '网站导航',
-    link: '/daohang_web/',
+    link: '/pages/8fbb95/',
     items: [
       { text: '网站导航(中文版)', link: '/pages/783964/' },
       { text: '网站导航(英文版)', link: '/pages/8d8352/' },
