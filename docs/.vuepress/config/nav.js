@@ -127,9 +127,10 @@ module.exports = [
       { text: '内容分类', link: '/categories/' },
       { text: '网站时间线', link: '/archives/' },
       { text: '关于网站', link: '/about/' },
-      { text: '留言板', link: '/pages/8f0e4d/' },
+      { text: '各类数据', link: 'https://ruiduobao.com/' },
       { text: '遥感论坛', link: 'https://www.rserforum.com/' },
-      { text: '我要投稿', link: 'http://pics.landcover100.com/pics//image/20211128020929.png'},
+      { text: '地信宝藏屋', link: 'https://r.landcover100.com/'},
+      { text: '锐多宝区划', link: 'https://www.shengshixian.com/'},
     ],
   },
 
