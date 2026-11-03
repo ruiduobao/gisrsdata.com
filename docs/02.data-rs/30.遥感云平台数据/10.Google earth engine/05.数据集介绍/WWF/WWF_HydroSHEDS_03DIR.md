@@ -1,0 +1,89 @@
+---
+title: "WWF HydroSHEDS Drainage Direction, 3 Arc-Seconds"
+date: 2026-11-03 12:00:00
+permalink: /pages/245ed8b2/
+categories:
+  - data-rs
+  - 遥感云平台数据
+  - Google earth engine
+tags:
+  - "direction"
+  - "drainage"
+  - "flow"
+  - "geophysical"
+  - "hydrography"
+  - "hydrology"
+  - "hydrosheds"
+  - "srtm"
+  - "surface-ground-water"
+  - "water"
+  - "wwf"
+---
+
+# WWF HydroSHEDS Drainage Direction, 3 Arc-Seconds
+
+## 数据集简介
+
+HydroSHEDS is a mapping product that provides hydrographic
+information for regional and global-scale applications in a consistent
+format. It offers a suite of geo-referenced datasets (vector and
+raster) at various scales, including river networks, watershed
+boundaries, drainage directions, and flow accumulations. HydroSHEDS
+is based on elevation data obtained in 2000 by NASA's Shuttle Radar
+Topography Mission (SRTM).
+
+This drainage direction dataset defines the direction
+of flow from each cell in the conditioned DEM to its steepest
+down-slope neighbor. Values of drainage direction vary from 1
+to 128. All final outlet cells to the ocean are flagged with
+a value of 0. All cells that mark the lowest point of an endorheic
+basin (inland sink) are flagged with a value of -1. The drainage
+direction values follow the convention adopted by ESRI's flow
+direction implementation: 1=E, 2=SE, 4=S, 8=SW, 16=W, 32=NW,
+64=N, 128=NE. \
+\
+ This dataset is at 3 arc-second resolution.
+The datasets available at 3 arc-seconds are the Void-Filled DEM,
+Hydrologically Conditioned DEM, and Drainage (Flow) Direction.
+
+Note that the quality of the HydroSHEDS data is significantly lower for regions above
+60 degrees northern latitude as there is no underlying SRTM elevation data available
+and thus a coarser-resolution DEM was (HYDRO1k provided by USGS).
+
+HydroSHEDS was developed by the World Wildlife Fund (WWF)
+Conservation Science Program in partnership with the U.S. Geological
+Survey, the International Centre for Tropical Agriculture, The
+Nature Conservancy, and the Center for Environmental Systems Research
+of the University of Kassel, Germany.
+
+## 基本信息
+
+- 数据集编号（Earth Engine ID）：`WWF/HydroSHEDS/03DIR`
+- 数据类型：影像（Image）
+- 提供方：WWF、Google Earth Engine
+- 时间范围：2000-02-11 至 2000-02-22
+- 空间分辨率：92.77 米
+- 许可：proprietary
+- 关键词：direction, drainage, flow, geophysical, hydrography, hydrology, hydrosheds, srtm, surface-ground-water, water, wwf
+
+## 波段信息
+
+| 波段 | 说明 | 分辨率（米） | 波长 |
+| --- | --- | --- | --- |
+| b1 | Drainage direction possible values: 1=E, 2=SE, 4=S, 8=SW, 16=W, 32=NW, 64=N, 128=NE; final outlet cells to the ocean are flagged with a value of 0 and cells that mark the lowest point of an endorheic basin (inland sink) are flagged with a value of 255 (original value of -1)  | 92.77 |  |
+
+## 在 Earth Engine 中调用
+
+```js
+var dataset = ee.Image('WWF/HydroSHEDS/03DIR');
+```
+
+## 官方文档
+
+- 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_03DIR
+- 数据引用：Lehner, B., Verdin, K., Jarvis, A. (2008): New global hydrography
+derived from spaceborne elevation data. Eos, Transactions, AGU,
+89(10): 93-94.
+
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
