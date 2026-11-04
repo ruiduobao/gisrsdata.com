@@ -1,0 +1,134 @@
+[
+ {
+  "text": "地信数据",
+  "collapsed": true,
+  "items": [
+   {
+    "text": "地信数据",
+    "link": "/data-gis"
+   },
+   {
+    "text": "基础地理信息数据",
+    "link": "/data-gis-jichu"
+   },
+   {
+    "text": "栅格数据",
+    "link": "/data-gis-shange"
+   },
+   {
+    "text": "领域数据",
+    "link": "/data-gis-lingyu"
+   },
+   {
+    "text": "坐标系",
+    "link": "/data-gis-cor"
+   }
+  ]
+ },
+ {
+  "text": "遥感数据",
+  "collapsed": true,
+  "items": [
+   {
+    "text": "遥感数据",
+    "link": "/data-rs"
+   },
+   {
+    "text": "卫星数据",
+    "link": "/data-rs-sat"
+   },
+   {
+    "text": "卫星产品数据",
+    "link": "/data-rs-product"
+   },
+   {
+    "text": "云平台数据集",
+    "link": "/data-rs-cloud"
+   }
+  ]
+ },
+ {
+  "text": "软件资源",
+  "collapsed": true,
+  "items": [
+   {
+    "text": "软件资源",
+    "link": "/softs"
+   },
+   {
+    "text": "地信开发",
+    "link": "/coding-GIS"
+   },
+   {
+    "text": "遥感开发",
+    "link": "/coding-RS"
+   },
+   {
+    "text": "地信软件",
+    "link": "/soft-GIS"
+   },
+   {
+    "text": "遥感软件",
+    "link": "/soft-RS"
+   }
+  ]
+ },
+ {
+  "text": "关于",
+  "collapsed": true,
+  "items": [
+   {
+    "text": "共建名单",
+    "link": "/about"
+   },
+   {
+    "text": "留言板",
+    "link": "/pages/8f0e4d/"
+   }
+  ]
+ },
+ {
+  "text": "地信、遥感网站导航",
+  "collapsed": true,
+  "items": [
+   {
+    "text": "地信、遥感网站导航",
+    "link": "/daohang_GISRS"
+   },
+   {
+    "text": "常用中文数据网站导航",
+    "link": "/chinese_webs"
+   },
+   {
+    "text": "常用英文数据网站导航",
+    "link": "/English_webs"
+   },
+   {
+    "text": "学科数据网站导航",
+    "link": "/subject_webs"
+   },
+   {
+    "text": "常用的专题数据下载网站",
+    "link": "/direction_webs"
+   }
+  ]
+ },
+ {
+  "text": "索引",
+  "collapsed": true,
+  "items": [
+   {
+    "text": "分类",
+    "link": "/categories/"
+   },
+   {
+    "text": "标签",
+    "link": "/tags/"
+   },
+   {
+    "text": "归档",
+    "link": "/archives/"
+   }
+  ]
+ }
+]
