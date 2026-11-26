@@ -1,5 +1,5 @@
 ---
-title: "Global ALOS CHILI (Continuous Heat-Insolation Load Index)"
+title: "全球 ALOS 连续热量-日照负荷指数（CHILI）"
 date: 2026-11-03 12:00:00
 permalink: /pages/91d663d7/
 categories:
@@ -19,58 +19,65 @@ tags:
   - "topography"
 ---
 
-# Global ALOS CHILI (Continuous Heat-Insolation Load Index)
+# 全球 ALOS 连续热量-日照负荷指数（CHILI）
 
-## 数据集简介
+英文原名：Global ALOS CHILI (Continuous Heat-Insolation Load Index)
 
-CHILI is a surrogate for effects of insolation and topographic shading on
-evapotranspiration represented by calculating insolation at early afternoon,
-sun altitude equivalent to equinox. It is based on the 30m \"AVE\" band of
-JAXA's ALOS DEM (available in EE as JAXA/ALOS/AW3D30_V1_1).
+## 这是什么数据
 
-The Conservation Science Partners (CSP) Ecologically Relevant Geomorphology
-(ERGo) Datasets, Landforms and Physiography contain detailed, multi-scale
-data on landforms and physiographic (aka land facet) patterns. Although
-there are many potential uses of these data, the original purpose for these
-data was to develop an ecologically relevant classification and map of
-landforms and physiographic classes that are suitable for climate adaptation
-planning. Because there is large uncertainty associated with future climate
-conditions and even more uncertainty around ecological responses, providing
-information about what is unlikely to change offers a strong foundation for
-managers to build robust climate adaptation plans. The quantification of
-these features of the landscape is sensitive to the resolution, so we
-provide the highest resolution possible given the extent and characteristics
-of a given index.
+CHILI 是日照与地形遮蔽对蒸散影响的替代指标，计算方式为初午后、太阳高度角相当于春分时的日照量。它基于 JAXA ALOS DEM 的 30 米 “AVE” 波段（在 EE 中为 JAXA/ALOS/AW3D30_V1_1）。
 
-## 基本信息
+保护科学伙伴组织（CSP）的生态相关地貌（ERGo）数据集（地貌与地貌区）包含详细的多尺度地貌与地貌区（又称地貌面）格局数据。这类数据有许多潜在用途，其最初目的是建立一套生态相关的地貌与地貌区分类与制图，适用于气候适应规划。由于未来气候条件存在很大的不确定性、生态响应的不确定性更大，提供「不太可能改变」的信息，能为管理者制定稳健的气候适应计划打下坚实基础。这些景观特征的量化对分辨率敏感，因此我们在给定指数的范围与特征条件下提供尽可能高的分辨率。
 
-- 数据集编号（Earth Engine ID）：`CSP/ERGo/1_0/Global/ALOS_CHILI`
-- 数据类型：影像（Image）
-- 提供方：Conservation Science Partners、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：全球
 - 时间范围：2006-01-24 至 2011-05-13
-- 空间分辨率：90 米
-- 许可：CC-BY-NC-SA-4.0
-- 关键词：aspect, csp, elevation, elevation-topography, ergo, geophysical, global, landforms, slope, topography
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 90 米
+- 数据类型：影像（Image），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| constant | ALOS-derived CHILI index ranging from 0 (very cool) to 255 (very warm). This was rescaled from the [0,1] range in the publication.  | 90 |  |
+| constant | 由 ALOS 派生的 CHILI 指数，范围从 0（非常凉爽）到 255（非常温暖）。已从出版物中的 [0,1] 范围重缩放 | 90 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 气候适应规划的地貌背景分析
+- 物种分布与栖息地建模的地形因子
+- 蒸散与局地微气候的替代变量
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.Image('CSP/ERGo/1_0/Global/ALOS_CHILI');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`CSP/ERGo/1_0/Global/ALOS_CHILI`
+- 提供方：Conservation Science Partners、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_ALOS_CHILI
+
+## 许可与引用
+
+- 许可：CC-BY-NC-SA-4.0
+- 关键词：aspect, csp, elevation, elevation-topography, ergo, geophysical, global, landforms, slope, topography
 - 数据引用：Theobald, D. M., Harrison-Atlas, D., Monahan, W. B., & Albano, C. M.
 (2015). Ecologically-relevant maps of landforms and physiographic diversity
 for climate adaptation planning. PloS one, 10(12),
 [e0143619](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0143619)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [Global ALOS Landforms](/pages/960bfb36/)
+- [Global ALOS Topographic Diversity](/pages/14e817f0/)
+- [Global ALOS mTPI (Multi-Scale Topographic Position Index)](/pages/e565b408/)
+- [Global SRTM CHILI (Continuous Heat-Insolation Load Index)](/pages/d904a592/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

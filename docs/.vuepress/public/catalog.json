@@ -1043,8 +1043,8 @@
    "id": "070aa91d",
    "url": "/pages/070aa91d/",
    "en_url": "/en/pages/070aa91d/",
-   "title_zh": "",
-   "title_en": "SPEIbase: Standardised Precipitation-Evapotranspiration Index database, Version 2.9 [deprecated]",
+   "title_zh": "全球 SPEI 干旱指数数据库（2.9 版，已弃用）",
+   "title_en": "SPEIbase Global Drought Index Database, Version 2.9 [deprecated]",
    "cat": "vegetation",
    "tags": [
     "climate",
@@ -1060,15 +1060,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "1901-01-01 至 2023-01-01",
    "provider": "Spanish National Research Council (CSIC)",
    "platform": "Google Earth Engine",
    "ee_id": "CSIC/SPEI/2_9",
-   "intro_zh": "",
+   "intro_zh": "全球 SPEI 数据库（SPEIbase）在全球尺度提供长时间、稳健的干旱状况信息，像元大小 0.5 度，月度节奏。它提供 1 到 48 个月时间尺度的 SPEI。",
    "intro_en": "The Global SPEI database (SPEIbase) offers long-time robust information about drought conditions at the global scale, with a 0.5 degree pixel size and monthly cadence. It provides SPEI time scales fro…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "073361",
@@ -2987,7 +2987,7 @@
    "id": "1227f44f",
    "url": "/pages/1227f44f/",
    "en_url": "/en/pages/1227f44f/",
-   "title_zh": "",
+   "title_zh": "CSP 全球人类改造指数（gHM）",
    "title_en": "CSP gHM: Global Human Modification",
    "cat": "landcover",
    "tags": [
@@ -3004,15 +3004,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球陆地",
    "time": "2016-01-01 至 2016-12-31",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/HM/GlobalHumanModification",
-   "intro_zh": "",
+   "intro_zh": "全球人类改造数据集（gHM）在 1 平方公里分辨率上提供全球陆地受人类改造程度的累积度量。gHM 取值范围 0.0–1.0，计算方式是估计给定位置（像元）被改造的比例，以及与某种人类改造类型（即「压力源」）相关的估计改造强度。约 2016 年的 5 类主要人为压力源由 13 个独…",
    "intro_en": "The global Human Modification dataset (gHM) provides a cumulative measure of human modification of terrestrial lands globally at 1 square-kilometer resolution. The gHM values range from 0.0-1.0 and ar…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "1239d51f",
@@ -3340,7 +3340,7 @@
    "id": "14e817f0",
    "url": "/pages/14e817f0/",
    "en_url": "/en/pages/14e817f0/",
-   "title_zh": "",
+   "title_zh": "全球 ALOS 地形多样性",
    "title_en": "Global ALOS Topographic Diversity",
    "cat": "dem",
    "tags": [
@@ -3357,15 +3357,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/Global/ALOS_topoDiversity",
-   "intro_zh": "",
+   "intro_zh": "地形多样性（D）是一个替代变量，表示物种在局地栖息地可获得的温度与水分条件的多样性。其逻辑是：地形-气候生态位的多样性越高，支撑的多样性（尤其是植物）越高，也越能支持物种在气候变化下存续。",
    "intro_en": "Topographic diversity (D) is a surrogate variable that represents the variety of temperature and moisture conditions available to species as local habitats. It expresses the logic that a higher variet…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "154c1ce8",
@@ -6981,7 +6981,7 @@
    "id": "2e93f898",
    "url": "/pages/2e93f898/",
    "en_url": "/en/pages/2e93f898/",
-   "title_zh": "",
+   "title_zh": "美国地貌区（地貌与岩性交集）",
    "title_en": "US Physiography",
    "cat": "dem",
    "tags": [
@@ -6997,16 +6997,16 @@
    "res_m": 90.0,
    "res_bucket": "30–100 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国",
+   "coverage": "美国",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/US/physiography",
-   "intro_zh": "",
+   "intro_zh": "地貌区数据集表示地貌（在 EE 中为 ERGo/10/US/landforms）与岩性（在 EE 中为 ERGo/10/US/lithology）两个数据图层的空间交集。它在可能的 270 种组合中提供了 247 种独有组合。每种类型的值由地貌与岩性类型拼接而成（例如 1101…",
    "intro_en": "The Physiography dataset represents the spatial intersection of landforms (available in EE as ERGo/10/US/landforms) and lithology (available in EE as ERGo/10/US/lithology) data layers. It provides 247…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "2edb8761",
@@ -7185,7 +7185,7 @@
    "id": "3034088d",
    "url": "/pages/3034088d/",
    "en_url": "/en/pages/3034088d/",
-   "title_zh": "",
+   "title_zh": "全球 SRTM 地貌分类",
    "title_en": "Global SRTM Landforms",
    "cat": "dem",
    "tags": [
@@ -7202,15 +7202,15 @@
    "res_bucket": "30–100 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/Global/SRTM_landforms",
-   "intro_zh": "",
+   "intro_zh": "SRTM 地貌数据集提供由连续热量-日照负荷指数（SRTM CHILI）与多尺度地形位置指数（SRTM mTPI）组合生成的地貌类别。它基于 30 米 SRTM DEM（在 EE 中为 USGS/SRTMGL1003）。",
    "intro_en": "The SRTM Landform dataset provides landform classes created by combining the Continuous Heat-Insolation Load Index (SRTM CHILI) and the multi-scale Topographic Position Index (SRTM mTPI) datasets. It…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "3081c095",
@@ -8593,7 +8593,7 @@
    "id": "38bd7e7c",
    "url": "/pages/38bd7e7c/",
    "en_url": "/en/pages/38bd7e7c/",
-   "title_zh": "",
+   "title_zh": "美国 NED 多尺度地形位置指数（mTPI）",
    "title_en": "US NED mTPI (Multi-Scale Topographic Position Index)",
    "cat": "dem",
    "tags": [
@@ -8609,16 +8609,16 @@
    "res_m": 270.0,
    "res_bucket": "100 米–1 公里",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国",
+   "coverage": "美国",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/US/mTPI",
-   "intro_zh": "",
+   "intro_zh": "mTPI 用于区分山脊与山谷形态。它用每个位置的高程减去邻域内的平均高程来计算。mTPI 使用的移动窗口半径（公里）为：115.8、89.9、35.5、13.1、5.6、2.8 和 1.2。它基于 USGS 的 10 米 NED DEM（在 EE 中为 USGS/NED）。",
    "intro_en": "The mTPI distinguishes ridge from valley forms. It is calculated using elevation data for each location subtracted by the mean elevation within a neighborhood. mTPI uses moving windows of radius (km):…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "38f0ccc8",
@@ -9563,7 +9563,7 @@
    "id": "3f33885a",
    "url": "/pages/3f33885a/",
    "en_url": "/en/pages/3f33885a/",
-   "title_zh": "",
+   "title_zh": "美国 NED 连续热量-日照负荷指数（CHILI）",
    "title_en": "US NED CHILI (Continuous Heat-Insolation Load Index)",
    "cat": "dem",
    "tags": [
@@ -9579,16 +9579,16 @@
    "res_m": 10.0,
    "res_bucket": "10 米及以内",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国",
+   "coverage": "美国",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/US/CHILI",
-   "intro_zh": "",
+   "intro_zh": "CHILI 是日照与地形遮蔽对蒸散影响的替代指标，计算方式为初午后、太阳高度角相当于春分时的日照量。它基于 USGS 的 10 米 NED DEM（在 EE 中为 USGS/NED）。",
    "intro_en": "CHILI is a surrogate for effects of insolation and topographic shading on evapotranspiration represented by calculating insolation at early afternoon, sun altitude equivalent to equinox. It is based o…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "3f48090d",
@@ -11008,7 +11008,7 @@
    "id": "4b51cf7e",
    "url": "/pages/4b51cf7e/",
    "en_url": "/en/pages/4b51cf7e/",
-   "title_zh": "",
+   "title_zh": "美国岩性分类",
    "title_en": "US Lithology",
    "cat": "dem",
    "tags": [
@@ -11024,16 +11024,16 @@
    "res_m": 90.0,
    "res_bucket": "30–100 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国",
+   "coverage": "美国",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/US/lithology",
-   "intro_zh": "",
+   "intro_zh": "岩性数据集提供地表土壤母质一般类型的类别。它不派生自任何 DEM。",
    "intro_en": "The Lithology dataset provides classes of the general types of parent material of soil on the surface. It is not derived from any DEM.",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "4b8ec6f8",
@@ -11446,7 +11446,7 @@
    "id": "4f83f0c6",
    "url": "/pages/4f83f0c6/",
    "en_url": "/en/pages/4f83f0c6/",
-   "title_zh": "",
+   "title_zh": "美国 NED 地形多样性",
    "title_en": "US NED Topographic Diversity",
    "cat": "dem",
    "tags": [
@@ -11462,16 +11462,16 @@
    "res_m": 90.0,
    "res_bucket": "30–100 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国",
+   "coverage": "美国",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/US/topoDiversity",
-   "intro_zh": "",
+   "intro_zh": "地形多样性（D）是一个替代变量，表示物种在局地栖息地可获得的温度与水分条件的多样性。其逻辑是：地形-气候生态位的多样性越高，支撑的多样性（尤其是植物）越高，也越能支持物种在气候变化下存续。",
    "intro_en": "Topographic diversity (D) is a surrogate variable that represents the variety of temperature and moisture conditions available to species as local habitats. It expresses the logic that a higher variet…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "4fc047b8",
@@ -11561,7 +11561,7 @@
    "id": "4ff1abc5",
    "url": "/pages/4ff1abc5/",
    "en_url": "/en/pages/4ff1abc5/",
-   "title_zh": "",
+   "title_zh": "哥白尼大气监测服务（CAMS）全球近实时数据",
    "title_en": "Copernicus Atmosphere Monitoring Service (CAMS) Global Near-Real-Time",
    "cat": "atmosphere",
    "tags": [
@@ -11577,15 +11577,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2016-06-22 至 2026-11-07",
    "provider": "European Centre for Medium-Range Weather Forecasts (ECMWF)",
    "platform": "Google Earth Engine",
    "ee_id": "ECMWF/CAMS/NRT",
-   "intro_zh": "",
+   "intro_zh": "哥白尼大气监测服务提供在全球与区域尺度上持续监测地球大气成分的能力。其主要的全球近实时生产系统是一套数据同化与预报系统，每天提供两次 5 天预报，涵盖气溶胶与化学方案中的化学成分。",
    "intro_en": "The Copernicus Atmosphere Monitoring Service provides the capacity to continuously monitor the composition of the Earth's atmosphere at global and regional scales. The main global near-real-time produ…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "500a347f",
@@ -12281,7 +12281,7 @@
    "id": "552bde5d",
    "url": "/pages/552bde5d/",
    "en_url": "/en/pages/552bde5d/",
-   "title_zh": "",
+   "title_zh": "全球 SRTM 多尺度地形位置指数（mTPI）",
    "title_en": "Global SRTM mTPI (Multi-Scale Topographic Position Index)",
    "cat": "dem",
    "tags": [
@@ -12298,15 +12298,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/Global/SRTM_mTPI",
-   "intro_zh": "",
+   "intro_zh": "mTPI 用于区分山脊与山谷形态。它用每个位置的高程减去邻域内的平均高程来计算。mTPI 使用的移动窗口半径（公里）为：115.8、89.9、35.5、13.1、5.6、2.8 和 1.2。它基于 30 米 SRTM DEM（在 EE 中为 USGS/SRTMGL1003）。",
    "intro_en": "The mTPI distinguishes ridge from valley forms. It is calculated using elevation data for each location subtracted by the mean elevation within a neighborhood. mTPI uses moving windows of radius (km):…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "55cf916d",
@@ -13602,7 +13602,7 @@
    "id": "5e19a751",
    "url": "/pages/5e19a751/",
    "en_url": "/en/pages/5e19a751/",
-   "title_zh": "",
+   "title_zh": "CSIRO 全球生物多样性指标",
    "title_en": "CSIRO Global Biodiversity Indicators",
    "cat": "vegetation",
    "tags": [
@@ -13617,15 +13617,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球陆地",
    "time": "2000-01-01 至 2025-01-01",
    "provider": "CSIRO",
    "platform": "Google Earth Engine",
    "ee_id": "CSIRO/BHI/v4",
-   "intro_zh": "",
+   "intro_zh": "CSIRO 生物多样性指标 v4 数据集由 CSIRO 使用 BILBI（大尺度生物多样性指标生物地理基础设施）框架生产，以 30 角秒（约 1 公里）分辨率模拟 2000 至 2024 年逐年的全球陆地生物多样性指标。这些指标从系统层面呈现气候变化背景下生物多样性保护、预期存续…",
    "intro_en": "The CSIRO biodiversity indicators v4 dataset, produced by CSIRO using the BILBI (Biogeographic Infrastructure for Large-scale Biodiversity Indicators) framework, models global terrestrial biodiversity…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "5e3fb372",
@@ -15732,7 +15732,7 @@
    "id": "6de4314d",
    "url": "/pages/6de4314d/",
    "en_url": "/en/pages/6de4314d/",
-   "title_zh": "",
+   "title_zh": "澳大利亚土壤与景观格网（土壤属性）",
    "title_en": "SLGA: Soil and Landscape Grid of Australia (Soil Attributes)",
    "cat": "soil",
    "tags": [
@@ -15749,15 +15749,15 @@
    "res_bucket": "30–100 米",
    "region": "其他",
    "region_label": "澳大利亚",
-   "coverage": "",
+   "coverage": "澳大利亚",
    "time": "1950-01-01 至 2013-12-31",
    "provider": "CSIRO/SLGA",
    "platform": "Google Earth Engine",
    "ee_id": "CSIRO/SLGA",
-   "intro_zh": "",
+   "intro_zh": "澳大利亚土壤与景观格网（SLGA）是覆盖澳大利亚的综合土壤属性数据集，分辨率 3 角秒（约 90 米像元）。这些表面是建模成果，利用已有土壤数据与环境协变量描述土壤属性的空间分布。详见 Viscarra Rossel et al (2015)。SLGA 可用于包气带过程研究，包括…",
    "intro_en": "The Soil and Landscape Grid of Australia (SLGA) is a comprehensive dataset of soil attributes across Australia at 3 arc-second resolution (~90m pixels). The surfaces are the outcomes from modelling th…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "6e0348e1",
@@ -19407,7 +19407,7 @@
    "id": "85cbb3ed",
    "url": "/pages/85cbb3ed/",
    "en_url": "/en/pages/85cbb3ed/",
-   "title_zh": "",
+   "title_zh": "美国 NED 地貌区多样性",
    "title_en": "US NED Physiographic Diversity",
    "cat": "dem",
    "tags": [
@@ -19423,16 +19423,16 @@
    "res_m": 270.0,
    "res_bucket": "100 米–1 公里",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国",
+   "coverage": "美国",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/US/physioDiversity",
-   "intro_zh": "",
+   "intro_zh": "地貌区多样性数据集提供地貌区类型多样性的指数。它使用香农多样性指数在多个尺度（公里）计算：115.8、89.9、35.5、13.1、5.6、2.8 和 1.2。它基于 USGS 的 10 米 NED DEM（在 EE 中为 USGS/NED）。",
    "intro_en": "The Physiographic Diversity dataset provides an index of the diversity of physiographic types. It was calculated using the Shannon diversity index at multiple scales (km): 115.8, 89.9, 35.5, 13.1, 5.6…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "860fb552",
@@ -20635,8 +20635,8 @@
    "id": "8f385aa2",
    "url": "/pages/8f385aa2/",
    "en_url": "/en/pages/8f385aa2/",
-   "title_zh": "",
-   "title_en": "SPEIbase: Standardised Precipitation-Evapotranspiration Index database, Version 2.8 [deprecated]",
+   "title_zh": "全球 SPEI 干旱指数数据库（2.8 版，已弃用）",
+   "title_en": "SPEIbase Global Drought Index Database, Version 2.8 [deprecated]",
    "cat": "vegetation",
    "tags": [
     "climate",
@@ -20652,15 +20652,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "1901-01-01 至 2021-01-01",
    "provider": "Spanish National Research Council (CSIC)",
    "platform": "Google Earth Engine",
    "ee_id": "CSIC/SPEI/2_8",
-   "intro_zh": "",
+   "intro_zh": "全球 SPEI 数据库（SPEIbase）在全球尺度提供长时间、稳健的干旱状况信息，像元大小 0.5 度，月度节奏。它提供 1 到 48 个月时间尺度的 SPEI。",
    "intro_en": "The Global SPEI database (SPEIbase) offers long-time robust information about drought conditions at the global scale, with a 0.5 degree pixel size and monthly cadence. It provides SPEI time scales fro…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "8f5528a7",
@@ -21153,7 +21153,7 @@
    "id": "91d663d7",
    "url": "/pages/91d663d7/",
    "en_url": "/en/pages/91d663d7/",
-   "title_zh": "",
+   "title_zh": "全球 ALOS 连续热量-日照负荷指数（CHILI）",
    "title_en": "Global ALOS CHILI (Continuous Heat-Insolation Load Index)",
    "cat": "dem",
    "tags": [
@@ -21170,15 +21170,15 @@
    "res_bucket": "30–100 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/Global/ALOS_CHILI",
-   "intro_zh": "",
+   "intro_zh": "CHILI 是日照与地形遮蔽对蒸散影响的替代指标，计算方式为初午后、太阳高度角相当于春分时的日照量。它基于 JAXA ALOS DEM 的 30 米 “AVE” 波段（在 EE 中为 JAXA/ALOS/AW3D30V11）。",
    "intro_en": "CHILI is a surrogate for effects of insolation and topographic shading on evapotranspiration represented by calculating insolation at early afternoon, sun altitude equivalent to equinox. It is based o…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "920d14b8",
@@ -21939,7 +21939,7 @@
    "id": "960bfb36",
    "url": "/pages/960bfb36/",
    "en_url": "/en/pages/960bfb36/",
-   "title_zh": "",
+   "title_zh": "全球 ALOS 地貌分类",
    "title_en": "Global ALOS Landforms",
    "cat": "dem",
    "tags": [
@@ -21956,15 +21956,15 @@
    "res_bucket": "30–100 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/Global/ALOS_landforms",
-   "intro_zh": "",
+   "intro_zh": "ALOS 地貌数据集提供由连续热量-日照负荷指数（ALOS CHILI）与多尺度地形位置指数（ALOS mTPI）组合生成的地貌类别。它基于 JAXA ALOS DEM 的 30 米 “AVE” 波段（在 EE 中为 JAXA/ALOS/AW3D30V11）。",
    "intro_en": "The ALOS Landform dataset provides landform classes created by combining the Continuous Heat-Insolation Load Index (ALOS CHILI) and the multi-scale Topographic Position Index (ALOS mTPI) datasets. It…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "9635d04b",
@@ -22940,8 +22940,8 @@
    "id": "9ae9975a",
    "url": "/pages/9ae9975a/",
    "en_url": "/en/pages/9ae9975a/",
-   "title_zh": "",
-   "title_en": "ERA5 Daily Aggregates - Latest Climate Reanalysis Produced by ECMWF / Copernicus Climate Change Service",
+   "title_zh": "ERA5 逐日聚合数据",
+   "title_en": "ERA5 Daily Aggregates — ECMWF Climate Reanalysis",
    "cat": "climate",
    "tags": [
     "climate",
@@ -22957,15 +22957,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "1979-01-02 至 2020-07-09",
    "provider": "ECMWF / Copernicus Climate Change Service",
    "platform": "Google Earth Engine",
    "ee_id": "ECMWF/ERA5/DAILY",
-   "intro_zh": "",
+   "intro_zh": "ERA5 是 ECMWF 第五代全球气候大气再分析。再分析将模式数据与来自世界各地的观测结合成全球完整、一致的数据集。ERA5 取代了其前身 ERA-Interim 再分析。",
    "intro_en": "ERA5 is the fifth generation ECMWF atmospheric reanalysis of the global climate. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset.…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "9b143f3a",
@@ -24558,7 +24558,7 @@
    "id": "a545a891",
    "url": "/pages/a545a891/",
    "en_url": "/en/pages/a545a891/",
-   "title_zh": "",
+   "title_zh": "世界居住区足迹 2015（WSF 2015）",
    "title_en": "World Settlement Footprint 2015",
    "cat": "landcover",
    "tags": [
@@ -24571,17 +24571,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "全球",
    "time": "2015-01-01 至 2016-01-01",
    "provider": "Deutsches Zentrum für Luft- und Raumfahrt (DLR)",
    "platform": "Google Earth Engine",
    "ee_id": "DLR/WSF/WSF2015/v1",
-   "intro_zh": "",
+   "intro_zh": "世界居住区足迹（WSF）2015 是一幅 10 米分辨率的二值掩膜，描绘全球人类居住区的范围，由 2014–2015 年多时相 Landsat-8 与 Sentinel-1 影像导出（分别处理了约 217,000 景和约 107,000 景）。",
    "intro_en": "The World Settlement Footprint (WSF) 2015 is a 10m resolution binary mask outlining the extent of human settlements globally derived by means of 2014-2015 multitemporal Landsat-8 and Sentinel-1 imager…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "a63db064",
@@ -27738,7 +27738,7 @@
    "id": "bbe030c7",
    "url": "/pages/bbe030c7/",
    "en_url": "/en/pages/bbe030c7/",
-   "title_zh": "",
+   "title_zh": "美国 NED 地貌分类",
    "title_en": "US NED Landforms",
    "cat": "dem",
    "tags": [
@@ -27754,16 +27754,16 @@
    "res_m": 10.0,
    "res_bucket": "10 米及以内",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国",
+   "coverage": "美国",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/US/landforms",
-   "intro_zh": "",
+   "intro_zh": "ALOS 地貌数据集提供由连续热量-日照负荷指数（CHILI）与多尺度地形位置指数（mTPI）组合生成的地貌类别。它基于 USGS 的 10 米 NED DEM（在 EE 中为 USGS/NED）。",
    "intro_en": "The ALOS Landform dataset provides landform classes created by combining the Continuous Heat-Insolation Load Index (CHILI) and the multi-scale Topographic Position Index (mTPI) datasets. It is based o…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "bc06f139",
@@ -28774,7 +28774,7 @@
    "id": "c7a57ce4",
    "url": "/pages/c7a57ce4/",
    "en_url": "/en/pages/c7a57ce4/",
-   "title_zh": "",
+   "title_zh": "LandScan 高清人口数据：乌克兰（2022 年 1 月）",
    "title_en": "LandScan High Definition Data for Ukraine, January 2022",
    "cat": "population",
    "tags": [
@@ -28785,16 +28785,16 @@
    "res_m": 100.0,
    "res_bucket": "30–100 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "乌克兰",
+   "coverage": "乌克兰",
    "time": "2022-01-01 至 2022-02-01",
    "provider": "Oak Ridge National Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "DOE/ORNL/LandScan_HD/Ukraine_202201",
-   "intro_zh": "",
+   "intro_zh": "LandScan 高清（HD）提供 3 角秒（约 100 米）分辨率的格网人口估计。每个 LandScan HD 单元格的值代表环境（即 24 小时平均）人口计数估计。这样，数据刻画的是人们在昼夜全天完整的潜在活动空间，而不只是居住位置。LandScan HD 模型整合来自多种来…",
    "intro_en": "LandScan High Definition (HD) provides gridded population estimates at 3 arc-second (~100m) resolution. Values for each LandScan HD cell represent an ambient (i.e. 24 hour average) population count es…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "c7ab551c",
@@ -31250,7 +31250,7 @@
    "id": "d904a592",
    "url": "/pages/d904a592/",
    "en_url": "/en/pages/d904a592/",
-   "title_zh": "",
+   "title_zh": "全球 SRTM 连续热量-日照负荷指数（CHILI）",
    "title_en": "Global SRTM CHILI (Continuous Heat-Insolation Load Index)",
    "cat": "dem",
    "tags": [
@@ -31267,15 +31267,15 @@
    "res_bucket": "30–100 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/Global/SRTM_CHILI",
-   "intro_zh": "",
+   "intro_zh": "CHILI 是日照与地形遮蔽对蒸散影响的替代指标，计算方式为初午后、太阳高度角相当于春分时的日照量。它基于 30 米 SRTM DEM（在 EE 中为 USGS/SRTMGL1003）。",
    "intro_en": "CHILI is a surrogate for effects of insolation and topographic shading on evapotranspiration represented by calculating insolation at early afternoon, sun altitude equivalent to equinox. It is based o…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "d90a1c7b",
@@ -31808,7 +31808,7 @@
    "id": "dd16aaff",
    "url": "/pages/dd16aaff/",
    "en_url": "/en/pages/dd16aaff/",
-   "title_zh": "",
+   "title_zh": "全球 SRTM 地形多样性",
    "title_en": "Global SRTM Topographic Diversity",
    "cat": "dem",
    "tags": [
@@ -31825,15 +31825,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/Global/SRTM_topoDiversity",
-   "intro_zh": "",
+   "intro_zh": "地形多样性（D）是一个替代变量，表示物种在局地栖息地可获得的温度与水分条件的多样性。其逻辑是：地形-气候生态位的多样性越高，支撑的多样性（尤其是植物）越高，也越能支持物种在气候变化下存续。",
    "intro_en": "Topographic diversity (D) is a surrogate variable that represents the variety of temperature and moisture conditions available to species as local habitats. It expresses the logic that a higher variet…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "dd27d16f",
@@ -32989,7 +32989,7 @@
    "id": "e565b408",
    "url": "/pages/e565b408/",
    "en_url": "/en/pages/e565b408/",
-   "title_zh": "",
+   "title_zh": "全球 ALOS 多尺度地形位置指数（mTPI）",
    "title_en": "Global ALOS mTPI (Multi-Scale Topographic Position Index)",
    "cat": "dem",
    "tags": [
@@ -33006,15 +33006,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2006-01-24 至 2011-05-13",
    "provider": "Conservation Science Partners",
    "platform": "Google Earth Engine",
    "ee_id": "CSP/ERGo/1_0/Global/ALOS_mTPI",
-   "intro_zh": "",
+   "intro_zh": "mTPI 用于区分山脊与山谷形态。它用每个位置的高程减去邻域内的平均高程来计算。mTPI 使用的移动窗口半径（公里）为：115.8、89.9、35.5、13.1、5.6、2.8 和 1.2。它基于 JAXA ALOS DEM 的 30 米 “AVE” 波段（在 EE 中为 JAX…",
    "intro_en": "The mTPI distinguishes ridge from valley forms. It is calculated using elevation data for each location subtracted by the mean elevation within a neighborhood. mTPI uses moving windows of radius (km):…",
    "type": "A",
-   "batch": ""
+   "batch": "A-02"
   },
   {
    "id": "e57156b4",
