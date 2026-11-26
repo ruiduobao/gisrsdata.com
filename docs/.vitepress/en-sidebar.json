@@ -1452,32 +1452,92 @@
     "link": "/en/pages/4b457845/"
    },
    {
+    "text": "MCD18A1.061 Surface Radiation",
+    "link": "/en/pages/088bb19d/"
+   },
+   {
+    "text": "MCD18A1.062 Surface Radiation",
+    "link": "/en/pages/50554e4e/"
+   },
+   {
+    "text": "MCD18C2.061 Photosynthetically Active Radiation",
+    "link": "/en/pages/8fba3263/"
+   },
+   {
+    "text": "MCD18C2.062 Photosynthetically Active Radiation",
+    "link": "/en/pages/e72cb414/"
+   },
+   {
+    "text": "MCD19A1.061 Land Surface BRF",
+    "link": "/en/pages/18647d64/"
+   },
+   {
     "text": "MCD19A2.006 MAIAC AOD",
     "link": "/en/pages/2dcc3bae/"
+   },
+   {
+    "text": "MCD19A2.061 MAIAC AOD",
+    "link": "/en/pages/93a4fc40/"
+   },
+   {
+    "text": "MCD43A1.005 BRDF-Albedo Parameters [deprecated]",
+    "link": "/en/pages/93efe7d4/"
    },
    {
     "text": "MCD43A1.006 BRDF-Albedo Parameters",
     "link": "/en/pages/dba783be/"
    },
    {
+    "text": "MCD43A1.061 BRDF-Albedo Parameters",
+    "link": "/en/pages/568e60e0/"
+   },
+   {
+    "text": "MCD43A2.005 BRDF-Albedo Quality [deprecated]",
+    "link": "/en/pages/383ffd43/"
+   },
+   {
     "text": "MCD43A2.006 BRDF-Albedo Quality",
     "link": "/en/pages/3081c095/"
+   },
+   {
+    "text": "MCD43A2.061 BRDF-Albedo Quality",
+    "link": "/en/pages/cc1794f9/"
    },
    {
     "text": "MCD43A3.006 Albedo",
     "link": "/en/pages/96c6f8ff/"
    },
    {
+    "text": "MCD43A3.061 Albedo",
+    "link": "/en/pages/80cc401f/"
+   },
+   {
+    "text": "MCD43A4.005 BRDF-Adjusted Reflectance [deprecated]",
+    "link": "/en/pages/04d0ef96/"
+   },
+   {
     "text": "MCD43A4.006 NBAR",
     "link": "/en/pages/23f81408/"
+   },
+   {
+    "text": "MCD43A4.061 NBAR",
+    "link": "/en/pages/f2dfffb1/"
    },
    {
     "text": "MCD43C3.006 BRDF/Albedo CMG",
     "link": "/en/pages/95ebbb0d/"
    },
    {
+    "text": "MCD43C3.061 BRDF/Albedo CMG",
+    "link": "/en/pages/01c5662d/"
+   },
+   {
     "text": "MCD64A1.006 Burned Area",
     "link": "/en/pages/607a2ed5/"
+   },
+   {
+    "text": "MCD64A1.061 Burned Area",
+    "link": "/en/pages/11a394bf/"
    },
    {
     "text": "MERIT DEM",
@@ -1516,64 +1576,188 @@
     "link": "/en/pages/93d0522c/"
    },
    {
+    "text": "MOD08_M3.061 Terra Atmosphere Monthly",
+    "link": "/en/pages/492818e5/"
+   },
+   {
+    "text": "MOD09A1.005 Surface Reflectance [deprecated]",
+    "link": "/en/pages/283afd8e/"
+   },
+   {
     "text": "MOD09A1.006 Surface Reflectance 8-Day",
     "link": "/en/pages/abe0a2db/"
+   },
+   {
+    "text": "MOD09A1.061 Surface Reflectance 8-Day",
+    "link": "/en/pages/33644e9c/"
+   },
+   {
+    "text": "MOD09CMG.061 Surface Reflectance CMG",
+    "link": "/en/pages/b9507337/"
+   },
+   {
+    "text": "MOD09GA.005 Surface Reflectance Daily [deprecated]",
+    "link": "/en/pages/ce32901f/"
    },
    {
     "text": "MOD09GA.006 Surface Reflectance Daily",
     "link": "/en/pages/f24617c1/"
    },
    {
+    "text": "MOD09GA.061 Surface Reflectance Daily",
+    "link": "/en/pages/f2ee9fbd/"
+   },
+   {
+    "text": "MOD09GQ.005 Surface Reflectance Daily [deprecated]",
+    "link": "/en/pages/34ab71f7/"
+   },
+   {
     "text": "MOD09GQ.006 Surface Reflectance Daily 250m",
     "link": "/en/pages/06dad6d4/"
+   },
+   {
+    "text": "MOD09GQ.061 Surface Reflectance Daily 250m",
+    "link": "/en/pages/9a4a37f2/"
+   },
+   {
+    "text": "MOD09Q1.005 Surface Reflectance 8-Day [deprecated]",
+    "link": "/en/pages/092067b2/"
    },
    {
     "text": "MOD09Q1.006 Surface Reflectance 8-Day 250m",
     "link": "/en/pages/0501d8ff/"
    },
    {
+    "text": "MOD09Q1.061 Surface Reflectance 8-Day 250m",
+    "link": "/en/pages/fef8c627/"
+   },
+   {
+    "text": "MOD10A1.005 Snow Cover Daily [deprecated]",
+    "link": "/en/pages/fd40c603/"
+   },
+   {
     "text": "MOD10A1.006 Snow Cover Daily",
     "link": "/en/pages/59fd1524/"
+   },
+   {
+    "text": "MOD10A1.061 Snow Cover Daily",
+    "link": "/en/pages/63afd45f/"
+   },
+   {
+    "text": "MOD10A2.061 Snow Cover 8-Day",
+    "link": "/en/pages/cf65a02a/"
+   },
+   {
+    "text": "MOD11A1.005 LST Daily [deprecated]",
+    "link": "/en/pages/fbc9aba9/"
    },
    {
     "text": "MOD11A1.006 LST Daily",
     "link": "/en/pages/9c921324/"
    },
    {
+    "text": "MOD11A1.061 LST Daily",
+    "link": "/en/pages/a130c488/"
+   },
+   {
+    "text": "MOD11A2.005 LST 8-Day [deprecated]",
+    "link": "/en/pages/eb9b9a45/"
+   },
+   {
     "text": "MOD11A2.006 LST 8-Day",
     "link": "/en/pages/6988e0d9/"
+   },
+   {
+    "text": "MOD11A2.061 LST 8-Day",
+    "link": "/en/pages/154c1ce8/"
+   },
+   {
+    "text": "MOD13A1.005 Vegetation Indices [deprecated]",
+    "link": "/en/pages/79a4604d/"
    },
    {
     "text": "MOD13A1.006 Vegetation Indices 500m",
     "link": "/en/pages/7a44de8e/"
    },
    {
+    "text": "MOD13A1.061 Vegetation Indices 500m",
+    "link": "/en/pages/d6ab7a99/"
+   },
+   {
     "text": "MOD13A2.006 Vegetation Indices 1km",
     "link": "/en/pages/9296243b/"
+   },
+   {
+    "text": "MOD13A2.061 Vegetation Indices 1km",
+    "link": "/en/pages/d5e48b42/"
+   },
+   {
+    "text": "MOD13A3.061 Vegetation Indices Monthly",
+    "link": "/en/pages/9a6615e4/"
+   },
+   {
+    "text": "MOD13C1.061 Vegetation Indices CMG",
+    "link": "/en/pages/7cbb8070/"
+   },
+   {
+    "text": "MOD13Q1.005 Vegetation Indices [deprecated]",
+    "link": "/en/pages/76db273a/"
    },
    {
     "text": "MOD13Q1.006 Vegetation Indices 250m",
     "link": "/en/pages/7d865478/"
    },
    {
+    "text": "MOD13Q1.061 Vegetation Indices 250m",
+    "link": "/en/pages/c13f53a4/"
+   },
+   {
     "text": "MOD14A1.006 Thermal Anomalies & Fire Daily",
     "link": "/en/pages/90a353e5/"
+   },
+   {
+    "text": "MOD14A1.061 Thermal Anomalies & Fire Daily",
+    "link": "/en/pages/cfc73d5b/"
    },
    {
     "text": "MOD14A2.006 Thermal Anomalies & Fire 8-Day",
     "link": "/en/pages/f0c597d2/"
    },
    {
+    "text": "MOD14A2.061 Thermal Anomalies & Fire 8-Day",
+    "link": "/en/pages/f1b7626d/"
+   },
+   {
     "text": "MOD15A2H.006 LAI/FPAR 8-Day",
     "link": "/en/pages/94591ad1/"
+   },
+   {
+    "text": "MOD15A2H.061 LAI/FPAR 8-Day",
+    "link": "/en/pages/07910c63/"
    },
    {
     "text": "MOD16A2.006 Evapotranspiration 8-Day",
     "link": "/en/pages/75d3d2c3/"
    },
    {
+    "text": "MOD16A2.061 Evapotranspiration 8-Day",
+    "link": "/en/pages/040259df/"
+   },
+   {
+    "text": "MOD16A2GF.061 Evapotranspiration Gap-Filled",
+    "link": "/en/pages/8ff1337c/"
+   },
+   {
     "text": "MOD17A2H.006 GPP 8-Day",
     "link": "/en/pages/a74b5b17/"
+   },
+   {
+    "text": "MOD17A2H.061 GPP 8-Day",
+    "link": "/en/pages/95972629/"
+   },
+   {
+    "text": "MOD17A2HGF.061 GPP 8-Day Gap-Filled",
+    "link": "/en/pages/bff99888/"
    },
    {
     "text": "MOD17A3.055 NPP Yearly 1km",
@@ -1588,12 +1772,124 @@
     "link": "/en/pages/ebcf1234/"
    },
    {
+    "text": "MOD17A3HGF.061 NPP Gap-Filled Yearly",
+    "link": "/en/pages/912eee37/"
+   },
+   {
+    "text": "MOD21A1D.061 LST Daily Day",
+    "link": "/en/pages/ea336063/"
+   },
+   {
+    "text": "MOD21A1N.061 LST Daily Night",
+    "link": "/en/pages/a0c5f0f5/"
+   },
+   {
+    "text": "MOD21C1.061 LST Daily CMG",
+    "link": "/en/pages/4593321a/"
+   },
+   {
+    "text": "MOD21C2.061 LST 8-Day CMG",
+    "link": "/en/pages/4fc047b8/"
+   },
+   {
+    "text": "MOD21C3.061 LST Monthly CMG",
+    "link": "/en/pages/f900381f/"
+   },
+   {
     "text": "MOD44B.006 Vegetation Continuous Fields",
     "link": "/en/pages/86fc5ddc/"
    },
    {
+    "text": "MOD44B.061 Vegetation Continuous Fields",
+    "link": "/en/pages/6ca60ab0/"
+   },
+   {
+    "text": "MOD44W.005 Land Water Mask",
+    "link": "/en/pages/987fef57/"
+   },
+   {
     "text": "MOD44W.006 Land Water Mask",
     "link": "/en/pages/872cd0aa/"
+   },
+   {
+    "text": "MODIS Combined 16-Day BAI",
+    "link": "/en/pages/5822e26b/"
+   },
+   {
+    "text": "MODIS Combined 16-Day BAI [deprecated]",
+    "link": "/en/pages/56b95763/"
+   },
+   {
+    "text": "MODIS Combined 16-Day EVI",
+    "link": "/en/pages/5a5aec8d/"
+   },
+   {
+    "text": "MODIS Combined 16-Day EVI [deprecated]",
+    "link": "/en/pages/5d0874c4/"
+   },
+   {
+    "text": "MODIS Combined 16-Day NDSI",
+    "link": "/en/pages/54671c5c/"
+   },
+   {
+    "text": "MODIS Combined 16-Day NDSI [deprecated]",
+    "link": "/en/pages/7818ee44/"
+   },
+   {
+    "text": "MODIS Combined 16-Day NDVI",
+    "link": "/en/pages/327bf637/"
+   },
+   {
+    "text": "MODIS Combined 16-Day NDVI [deprecated]",
+    "link": "/en/pages/078c2d96/"
+   },
+   {
+    "text": "MODIS Combined 16-Day NDWI",
+    "link": "/en/pages/1294f47e/"
+   },
+   {
+    "text": "MODIS Combined 16-Day NDWI [deprecated]",
+    "link": "/en/pages/5a2149b5/"
+   },
+   {
+    "text": "MODIS Terra Daily BAI",
+    "link": "/en/pages/8c427a86/"
+   },
+   {
+    "text": "MODIS Terra Daily BAI [deprecated]",
+    "link": "/en/pages/b02a0fac/"
+   },
+   {
+    "text": "MODIS Terra Daily EVI",
+    "link": "/en/pages/a6c681c3/"
+   },
+   {
+    "text": "MODIS Terra Daily EVI [deprecated]",
+    "link": "/en/pages/9d23ee6c/"
+   },
+   {
+    "text": "MODIS Terra Daily NDSI",
+    "link": "/en/pages/9468ea2c/"
+   },
+   {
+    "text": "MODIS Terra Daily NDSI [deprecated]",
+    "link": "/en/pages/c8d775aa/"
+   },
+   {
+    "text": "MODIS Terra Daily NDVI",
+    "link": "/en/pages/e715955d/"
+   },
+   {
+    "text": "MODIS Terra Daily NDVI [deprecated]",
+    "link": "/en/pages/e8b5565a/"
+   },
+   {
+    "text": "MODIS Terra Daily NDWI",
+    "link": "/en/pages/9c741adb/"
+   },
+   {
+    "text": "MODIS Terra Daily NDWI [deprecated]",
+    "link": "/en/pages/1b7b0a9a/"
    },
    {
     "text": "MODOCGA.006 Ocean Reflectance Daily",
@@ -1608,60 +1904,140 @@
     "link": "/en/pages/6fa8c555/"
    },
    {
+    "text": "MYD08_M3.061 Aqua Atmosphere Monthly",
+    "link": "/en/pages/515181f9/"
+   },
+   {
+    "text": "MYD09A1.005 Surface Reflectance [deprecated]",
+    "link": "/en/pages/b27c5ae0/"
+   },
+   {
     "text": "MYD09A1.006 Surface Reflectance 8-Day",
     "link": "/en/pages/7de8b7f9/"
+   },
+   {
+    "text": "MYD09A1.061 Surface Reflectance 8-Day",
+    "link": "/en/pages/d644386b/"
+   },
+   {
+    "text": "MYD09CMG.061 Surface Reflectance CMG",
+    "link": "/en/pages/b472e2a6/"
    },
    {
     "text": "MYD09GA.006 Surface Reflectance Daily",
     "link": "/en/pages/940cec08/"
    },
    {
+    "text": "MYD09GA.061 Surface Reflectance Daily",
+    "link": "/en/pages/a0871702/"
+   },
+   {
     "text": "MYD09GQ.006 Surface Reflectance Daily 250m",
     "link": "/en/pages/994fe0ed/"
+   },
+   {
+    "text": "MYD09GQ.061 Surface Reflectance Daily 250m",
+    "link": "/en/pages/05a2b721/"
    },
    {
     "text": "MYD09Q1.006 Surface Reflectance 8-Day 250m",
     "link": "/en/pages/ae92865d/"
    },
    {
+    "text": "MYD09Q1.061 Surface Reflectance 8-Day 250m",
+    "link": "/en/pages/97922815/"
+   },
+   {
     "text": "MYD10A1.006 Snow Cover Daily",
     "link": "/en/pages/1a13e16a/"
+   },
+   {
+    "text": "MYD10A1.061 Snow Cover Daily",
+    "link": "/en/pages/fb16b7df/"
    },
    {
     "text": "MYD11A1.006 LST Daily",
     "link": "/en/pages/316e7556/"
    },
    {
+    "text": "MYD11A1.061 LST Daily",
+    "link": "/en/pages/5246ade7/"
+   },
+   {
     "text": "MYD11A2.006 LST 8-Day",
     "link": "/en/pages/7156a737/"
+   },
+   {
+    "text": "MYD11A2.061 LST 8-Day",
+    "link": "/en/pages/47bbb1a6/"
    },
    {
     "text": "MYD13A1.006 Vegetation Indices 500m",
     "link": "/en/pages/c89eefe9/"
    },
    {
+    "text": "MYD13A1.061 Vegetation Indices 500m",
+    "link": "/en/pages/a6fec087/"
+   },
+   {
     "text": "MYD13A2.006 Vegetation Indices 1km",
     "link": "/en/pages/92fd4298/"
+   },
+   {
+    "text": "MYD13A2.061 Vegetation Indices 1km",
+    "link": "/en/pages/5603ecf7/"
+   },
+   {
+    "text": "MYD13A3.061 Vegetation Indices Monthly",
+    "link": "/en/pages/ea60f587/"
+   },
+   {
+    "text": "MYD13C1.061 Vegetation Indices CMG",
+    "link": "/en/pages/5bd7d7e9/"
    },
    {
     "text": "MYD13Q1.006 Vegetation Indices 250m",
     "link": "/en/pages/87ee1158/"
    },
    {
+    "text": "MYD13Q1.061 Vegetation Indices 250m",
+    "link": "/en/pages/d39badfd/"
+   },
+   {
     "text": "MYD14A1.006 Thermal Anomalies & Fire Daily",
     "link": "/en/pages/488b79dc/"
+   },
+   {
+    "text": "MYD14A1.061 Thermal Anomalies & Fire Daily",
+    "link": "/en/pages/051acfdf/"
    },
    {
     "text": "MYD14A2.006 Thermal Anomalies & Fire 8-Day",
     "link": "/en/pages/6b59dbe5/"
    },
    {
+    "text": "MYD14A2.061 Thermal Anomalies & Fire 8-Day",
+    "link": "/en/pages/0b8d7e79/"
+   },
+   {
     "text": "MYD15A2H.006 LAI/FPAR 8-Day",
     "link": "/en/pages/fa51d4fa/"
    },
    {
+    "text": "MYD15A2H.061 LAI/FPAR 8-Day",
+    "link": "/en/pages/700eab21/"
+   },
+   {
+    "text": "MYD16A2.061 Evapotranspiration 8-Day",
+    "link": "/en/pages/ddb320e1/"
+   },
+   {
     "text": "MYD17A2H.006 GPP 8-Day",
     "link": "/en/pages/798ec5f4/"
+   },
+   {
+    "text": "MYD17A2H.061 GPP 8-Day",
+    "link": "/en/pages/21c4abb2/"
    },
    {
     "text": "MYD17A3H.006 NPP Yearly",
@@ -1670,6 +2046,30 @@
    {
     "text": "MYD17A3HGF.006 NPP Gap-Filled Yearly",
     "link": "/en/pages/c446dc2f/"
+   },
+   {
+    "text": "MYD17A3HGF.061 NPP Gap-Filled Yearly",
+    "link": "/en/pages/39219a3e/"
+   },
+   {
+    "text": "MYD21A1D.061 LST Daily Day",
+    "link": "/en/pages/860fb552/"
+   },
+   {
+    "text": "MYD21A1N.061 LST Daily Night",
+    "link": "/en/pages/5d8990fc/"
+   },
+   {
+    "text": "MYD21C1.061 LST Daily CMG",
+    "link": "/en/pages/e25ce455/"
+   },
+   {
+    "text": "MYD21C2.061 LST 8-Day CMG",
+    "link": "/en/pages/5df0d641/"
+   },
+   {
+    "text": "MYD21C3.061 LST Monthly CMG",
+    "link": "/en/pages/5b2b0600/"
    },
    {
     "text": "MYDOCGA.006 Ocean Reflectance Daily",

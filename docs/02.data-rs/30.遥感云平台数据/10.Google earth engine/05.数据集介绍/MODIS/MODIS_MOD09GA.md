@@ -1,5 +1,5 @@
 ---
-title: "MOD09GA.005 Terra Surface Reflectance Daily L2G Global 1km and 500m [deprecated]"
+title: "MOD09GA.005 Terra 地表反射率日 L2G 全球 1 公里与 500 米 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/ce32901f/
 categories:
@@ -17,167 +17,82 @@ tags:
   - "usgs"
 ---
 
-# MOD09GA.005 Terra Surface Reflectance Daily L2G Global 1km and 500m [deprecated]
+# MOD09GA.005 Terra 地表反射率日 L2G 全球 1 公里与 500 米 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：MOD09GA.005 Terra Surface Reflectance Daily L2G Global 1km and 500m [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The MODIS Surface Reflectance products
-provide an estimate of the surface spectral reflectance as it would be
-measured at ground level in the absence of atmospheric scattering or
-absorption. Low-level data are corrected for atmospheric gases and
-aerosols, yielding a level-2 basis for several higher-order gridded
-level-2 (L2G) and level-3 products.
+MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。
 
-MOD09GA provides Bands
-1-7 in a daily gridded L2G product in the Sinusoidal projection,
-including 500-meter reflectance values and 1-kilometer observation and
-geolocation statistics. 500-m Science Data Sets provided for this
-product include reflectance for Bands 1-7, a quality rating,
-observation coverage, observation number, and 250-m scan
-information. 1-kilometer Science Data Sets provided include number of
-observations, quality state, sensor angles, solar angles, geolocation
-flags, and orbit pointers.
+MOD09GA 在正弦投影的每日格网 L2G 产品中提供波段 1–7，包括 500 米反射率值与 1 公里观测与地理定位统计。本产品提供的 500 米科学数据集包括波段 1–7 的反射率、质量评级、观测覆盖、观测编号与 250 米扫描信息。提供的 1 公里科学数据集包括观测数、质量状态、传感器角度、太阳角度、地理定位标志与轨道指针。
 
-Bands:
+波段：- num_observations_1km：观测数，1 公里 - state_1km：反射率数据状态 QA - 比特 0-1：云状态比特 - 00（0）：晴 - 01（1）：多云 - 10（2）：混合 - 11（3）：未设置，假定晴 - 比特 2：云影数据（1 = 是） - 比特 3-5：陆地/水体标志 - 000（0）：浅海 - 001（1）：陆地 - 010（2）：海洋海岸线与湖岸线 - 011（3）：浅内陆水体 - 100（4）：临时水体 - 101（5）：深内陆水体 - 110（6）：大陆/中等海洋 - 111（7）：深海 - 比特 6-7：气溶胶量 - 00（0）：气候学 - 01（1）：低 - 10（2）：平均 - 11（3）：高 - 比特 8-9：检测到的卷云 - 00（0）：无 - 01（1）：小 - 10（2）：平均 - 11（3）：高 - 比特 10：内部云算法标志数据（1 = 云） - 比特 11：内部火算法标志数据（1 = 火） - 比特 12：MOD35 雪/冰标志数据（1 = 是） - 比特 13：像元与云相邻数据（1 = 是） - 比特 14：已执行 BRDF 校正数据（1 = 是） - 比特 15：内部雪掩膜数据（1 = 雪） - SensorZenith（度 × 100）：传感器天顶角 - SensorAzimuth（度 × 100）：传感器方位角 - Range（比例 25）：像元到传感器 - SolarZenith（度 × 100）：太阳天顶角 - SolarAzimuth（度 × 100）：太阳方位角 - gflags：地理定位标志 - 比特 0-2：填充 - 比特 3：传感器距离有效性标志（0 = 有效） - 比特 4：数字高程模型质量标志（0 = 有效，1 = 缺失/较差） - 比特 5：地形数据有效性（0 = 有效） - 比特 6：椭球交点标志（0 = 有效交点，1 = 无交点） - 比特 7：输入数据标志（0 = 有效） - orbit_pnt：轨道指针 - granule_pnt：颗粒指针（仅 v6） - num_observations_500m：观测数，500 米 - sur_refl_b01：500 米地表反射率波段 1（620-670 nm） - sur_refl_b02：500 米地表反射率波段 2（841-876 nm） - sur_refl_b03：500 米地表反射率波段 3（459-479 nm） - sur_refl_b04：500 米地表反射率波段 4（545-565 nm） - sur_refl_b05：500 米地表反射率波段 5（1230-1250 nm） - sur_refl_b06：500 米地表反射率波段 6（1628-1652 nm） - sur_refl_b07：500 米地表反射率波段 7（2105-2155 nm） - QC_500m：500 米反射率波段质量 - 比特 0-1：MODLAND QA 比特 - 00（0）：以理想质量生产校正产品，全部波段 - 01（1）：以低于理想质量生产校正产品，部分或全部波段 - 10（2）：因云影响未生产校正产品，全部波段 - 11（3）：因其他原因未生产校正产品，部分或全部波段可能为填充值 [注意 (11) 的值覆盖 (01) 的值]。 - 比特 2-5：波段 1 数据质量四比特范围 - 0000（0）：最高质量 - 1000（8）：失效探测器；数据在 L1B 中内插 - 1001（9）：太阳天顶角 ≥ 86 度 - 1010（10）：太阳天顶角 ≥ 85 且 < 86 度 - 1011（11）：输入缺失 - 1100（12）：至少一个大气常数使用内部常数代替气候学数据 - 1101（13）：校正超出界限，像元被约束到极端允许值 - 1110（14）：L1B 数据有误 - 1111（15）：因深海或云未处理 - 比特 6-9：波段 2 数据质量四比特范围 - 比特 10-13：波段 3 数据质量四比特范围 - 比特 14-17：波段 4 数据质量四比特范围 - 比特 18-21：波段 5 数据质量四比特范围 - 比特 22-25：波段 6 数据质量四比特范围 - 比特 26-29：波段 7 数据质量四比特范围 - 比特 30：已执行大气校正数据（1 = 是） - 比特 31：已执行邻接校正数据（1 = 是） - obscov_500m（%）：观测覆盖，500 米 - iobs_res：粗格网中的观测编号 - q_scan：250 米扫描值信息 - 比特 0：象限 4 [+0.5 行，+0.5 列] 中缺失观测数据（1 = 是） - 比特 1：象限 3 [+0.5 行，-0.5 列] 中缺失观测数据（1 = 是） - 比特 2：象限 2 [-0.5 行，+0.5 列] 中缺失观测数据（1 = 是） - 比特 3：象限 1 [-0.5 行，-0.5 列] 中缺失观测数据（1 = 是） - 比特 4：象限 4 [+0.5 行，+0.5 列] 的观测扫描数据（0 = 不同，1 = 相同） - 比特 5：象限 3 [+0.5 行，-0.5 列] 的观测扫描数据（0 = 不同，1 = 相同） - 比特 6：象限 2 [-0.5 行，+0.5 列] 的观测扫描数据（0 = 不同，1 = 相同） - 比特 7：象限 1 [-0.5 行，-0.5 列] 的观测扫描数据（0 = 不同，1 = 相同）
 
-- num_observations_1km: Number of observations, 1km
-- state_1km: Reflectance Data State QA
-   - Bit 0-1: cloud state bits
-      - 00 (0):  clear
-      - 01 (1):  cloudy
-      - 10 (2):  mixed
-      - 11 (3):  not set, assumed clear
-   - Bit 2: cloud shadow data (1 = yes)
-   - Bit 3-5: land/water flag
-      - 000 (0):  shallow ocean
-      - 001 (1):  land
-      - 010 (2):  ocean coastlines and lake shorelines
-      - 011 (3):  shallow inland water
-      - 100 (4):  ephemeral water
-      - 101 (5):  deep inland water
-      - 110 (6):  continental/moderate ocean
-      - 111 (7):  deep ocean
-   - Bit 6-7: aerosol quantity
-      - 00 (0):  climatology
-      - 01 (1):  low
-      - 10 (2):  average
-      - 11 (3):  high
-   - Bit 8-9: cirrus detected
-      - 00 (0):  none
-      - 01 (1):  small
-      - 10 (2):  average
-      - 11 (3):  high
-   - Bit 10: internal cloud algorithm flag data (1 = Cloud)
-   - Bit 11: internal fire algorithm flag data (1 = Fire)
-   - Bit 12: MOD35 snow/ice flag data (1 = yes)
-   - Bit 13: Pixel is adjacent to cloud data (1 = yes)
-   - Bit 14: BRDF correction performed data (1 = yes)
-   - Bit 15: internal snow mask data (1 = Snow)
-- SensorZenith (degrees * 100): sensor zenith angle
-- SensorAzimuth (degrees * 100): sensor azimuth angle
-- Range (scale 25): pixel to sensor
-- SolarZenith (degrees * 100): solar zenith angle
-- SolarAzimuth (degrees * 100): solar azimuth angle
-- gflags: Geolocation flags
-   - Bit 0-2: Fill
-   - Bit 3: Sensor range validity flag (0 = Valid)
-   - Bit 4: Digital elevation model quality flag (0 = Valid, 1 = Missing/inferior)
-   - Bit 5: Terrain data validity (0 = Valid)
-   - Bit 6: Ellipsoid intersection flag (0 = Valid intersection, 1 = No intersection)
-   - Bit 7: Input data flag (0 = Valid)
-- orbit_pnt: Orbit pointer
-- granule_pnt: Granule pointer (v6 only)
-- num_observations_500m: Number of observations, 500m
-- sur_refl_b01: 500m Surface Reflectance Band 1 (620-670 nm)
-- sur_refl_b02: 500m Surface Reflectance Band 2 (841-876 nm)
-- sur_refl_b03: 500m Surface Reflectance Band 3 (459-479 nm)
-- sur_refl_b04: 500m Surface Reflectance Band 4 (545-565 nm)
-- sur_refl_b05: 500m Surface Reflectance Band 5 (1230-1250 nm)
-- sur_refl_b06: 500m Surface Reflectance Band 6 (1628-1652 nm)
-- sur_refl_b07: 500m Surface Reflectance Band 7 (2105-2155 nm)
-- QC_500m: 500m Reflectance Band Quality
-   - Bit 0-1: MODLAND QA bits
-      - 00 (0):  corrected product produced at ideal quality all bands
-      - 01 (1):  corrected product produced at less than ideal quality some or all bands
-      - 10 (2):  corrected product not produced due to cloud effects all bands
-      - 11 (3):  corrected product not produced due to other reasons some or all bands may be fill value [Note that a value of (11) overrides a value of (01)].
-   - Bit 2-5: band 1 data quality four bit range
-      - 0000 (0): highest quality
-      - 1000 (8): dead detector; data interpolated in L1B
-      - 1001 (9): solar zenith &ge; 86 degrees
-      - 1010 (10): solar zenith &ge; 85 and &lt; 86 degrees
-      - 1011 (11): missing input
-      - 1100 (12): internal constant used in place of climatological data for at least one atmospheric constant
-      - 1101 (13): correction out of bounds pixel constrained to extreme allowable value
-      - 1110 (14): L1B data faulty
-      - 1111 (15): not processed due to deep ocean or clouds
-   - Bit 6-9: band 2 data quality four bit range
-   - Bit 10-13: band 3 data quality four bit range
-   - Bit 14-17: band 4 data quality four bit range
-   - Bit 18-21: band 5 data quality four bit range
-   - Bit 22-25: band 6 data quality four bit range
-   - Bit 26-29: band 7 data quality four bit range
-   - Bit 30: atmospheric correction performed data (1 = yes)
-   - Bit 31: adjacency correction performed data (1 = yes)
-- obscov_500m (%): Observation coverage, 500m
-- iobs_res: Observation number in coarser grid
-- q_scan: 250m scan value information
-   - Bit 0: missing observation in quadrant 4 [+0.5 row, +0.5 column] data (1 = yes)
-   - Bit 1: missing observation in quadrant 3 [+0.5 row, -0.5 column] data (1 = yes)
-   - Bit 2: missing observation in quadrant 2 [-0.5 row, +0.5 column]data (1 = yes)
-   - Bit 3: missing observation in quadrant 1 [-0.5 row, -0.5 column] data (1 = yes)
-   - Bit 4: scan of observation in quadrant 4 [+0.5 row, +0.5 column] data (0 = different, 1 = same)
-   - Bit 5: scan of observation in quadrant 3 [+0.5 row, -0.5 column] data (0 = different, 1 = same)
-   - Bit 6: scan of observation in quadrant 2 [-0.5 row, +0.5 column] data (0 = different, 1 = same)
-   - Bit 7: scan of observation in quadrant 1 [-0.5 row, -0.5 column] data (0 = different, 1 = same)
+请访问 [LP DAAC「引用我们的数据」页面](https://lpdaac.usgs.gov/citing_our_data) 了解引用 LP DAAC 数据集的信息。
 
-Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
+## 覆盖范围与时间
 
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`MODIS/MOD09GA`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：混合（反射率 500 米、观测与地理定位统计 1 公里）。
 - 时间范围：2000-02-24 至 2017-03-30
-- 许可：proprietary
-- 关键词：daily, global, mod09ga, modis, satellite-imagery, surface-reflectance, terra, usgs
 
-## 波段信息
+## 分辨率与规格
+
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| num_observations_1km | Number of observations per 1K pixel | 1000 |  |
-| state_1km | Reflectance data state QA | 1000 |  |
-| SensorZenith | Sensor zenith angle | 1000 |  |
-| SensorAzimuth | Sensor azimuth angle | 1000 |  |
-| Range | Distance to sensor | 1000 |  |
-| SolarZenith | Solar zenith angle | 1000 |  |
-| SolarAzimuth | Solar azimuth angle | 1000 |  |
-| gflags | Geolocation flags | 1000 |  |
-| orbit_pnt | Orbit pointer | 1000 |  |
-| num_observations_500m | Number of observations | 500 |  |
-| sur_refl_b01 | Surface reflectance for band 1 | 500 | 620-670nm |
-| sur_refl_b02 | Surface reflectance for band 2 | 500 | 841-876nm |
-| sur_refl_b03 | Surface reflectance for band 3 | 500 | 459-479nm |
-| sur_refl_b04 | Surface reflectance for band 4 | 500 | 545-565nm |
-| sur_refl_b05 | Surface reflectance for band 5 | 500 | 1230-1250nm |
-| sur_refl_b06 | Surface reflectance for band 6 | 500 | 1628-1652nm |
-| sur_refl_b07 | Surface reflectance for band 7 | 500 | 2105-2155nm |
-| QC_500m | Surface reflectance quality assurance | 500 |  |
-| obscov_500m | Observation coverage percent | 500 |  |
-| iobs_res | Observation number in coarser grid | 500 |  |
-| q_scan | 250m scan value information | 500 |  |
+| num_observations_1km | 每个 1K 像元的观测数。 | 1000 |  |
+| state_1km | 反射率数据状态 QA。 | 1000 |  |
+| SensorZenith | 传感器天顶角。 | 1000 |  |
+| SensorAzimuth | 传感器方位角。 | 1000 |  |
+| Range | 到传感器的距离。 | 1000 |  |
+| SolarZenith | 太阳天顶角。 | 1000 |  |
+| SolarAzimuth | 太阳方位角。 | 1000 |  |
+| gflags | 地理定位标志。 | 1000 |  |
+| orbit_pnt | 轨道指针。 | 1000 |  |
+| num_observations_500m | 观测数。 | 500 |  |
+| sur_refl_b01 | 波段 1 的地表反射率。 | 500 | 620-670nm |
+| sur_refl_b02 | 波段 2 的地表反射率。 | 500 | 841-876nm |
+| sur_refl_b03 | 波段 3 的地表反射率。 | 500 | 459-479nm |
+| sur_refl_b04 | 波段 4 的地表反射率。 | 500 | 545-565nm |
+| sur_refl_b05 | 波段 5 的地表反射率。 | 500 | 1230-1250nm |
+| sur_refl_b06 | 波段 6 的地表反射率。 | 500 | 1628-1652nm |
+| sur_refl_b07 | 波段 7 的地表反射率。 | 500 | 2105-2155nm |
+| QC_500m | 地表反射率质量保证。 | 500 |  |
+| obscov_500m | 观测覆盖百分比。 | 500 |  |
+| iobs_res | 粗格网中的观测编号。 | 500 |  |
+| q_scan | 250 米扫描值信息。 | 500 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 地表反射率与土地覆盖分析
+- 植被与物候监测
+- 大气校正研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/MOD09GA');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/MOD09GA`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA
 
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：daily, global, mod09ga, modis, satellite-imagery, surface-reflectance, terra, usgs
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ALOS AVNIR-2 正射影像（ORI）](/pages/d4abf354/)
+- [ALOS-2 PALSAR-2 条带模式 2.1 级产品（2024 年 1 月能登地震应急观测）](/pages/b836b19e/)
+- [ASTER L1T 辐射亮度影像](/pages/b48e6fb4/)
+- [Cloud Score+ S2_HARMONIZED V1](/pages/4a61128e/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

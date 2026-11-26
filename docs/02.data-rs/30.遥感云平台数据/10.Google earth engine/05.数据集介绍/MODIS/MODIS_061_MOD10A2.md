@@ -1,5 +1,5 @@
 ---
-title: "MOD10A2.061 Terra Snow Cover 8-Day L3 Global 500m"
+title: "MOD10A2.061 Terra 雪覆盖 8 天 L3 全球 500 米"
 date: 2026-11-03 12:00:00
 permalink: /pages/cf65a02a/
 categories:
@@ -18,57 +18,69 @@ tags:
   - "terra"
 ---
 
-# MOD10A2.061 Terra Snow Cover 8-Day L3 Global 500m
+# MOD10A2.061 Terra 雪覆盖 8 天 L3 全球 500 米
 
-## 数据集简介
+英文原名：MOD10A2.061 Terra Snow Cover 8-Day L3 Global 500m
 
-MOD10A2 is a snow cover dataset from the MODIS on the Terra satellite.
-The dataset reports the maximum snow cover extent during an eight-day
-period at the resolution of 500 m.
+## 这是什么数据
 
-An eight-day compositing period was chosen because that is the exact ground
-track repeat period of the Terra and Aqua platforms. Snow cover over eight
-days is mapped as maximum snow extent in one SDS and as a chronology of
-observations in the other SDS. Eight-day periods begin on the first day of
-the year and extend into the next year. The product can be produced with
-two to eight days of input. There may not always be eight days of input,
-because of various reasons, so the user should check the attributes to
-determine on what days observations were obtained.
+MOD10A2 是一个来自 Terra 卫星 MODIS 的雪覆盖数据集。该数据集以 500 米分辨率报告八天时段内的最大雪覆盖范围。
 
-* [General documentation](https://doi.org/10.5067/MODIS/MOD10A2.061)
-* [User's Guide]( https://modis-snow-ice.gsfc.nasa.gov/uploads/snow_user_guide_C6.1_final_revised_april.pdf),
+选择八天合成时段是因为那正是 Terra 与 Aqua 平台的精确地面轨迹重复周期。八天内的雪覆盖在一个 SDS 中映射为最大雪范围，在另一个 SDS 中映射为观测年表。八天时段从每年的第一天开始并延伸到下一年。产品可用二到八天的输入生产。由于各种原因，可能并不总是有八天的输入，因此用户应检查属性以确定观测是在哪些天获得的。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`MODIS/061/MOD10A2`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA NSIDC DAAC at CIRES、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。
 - 时间范围：2000-02-18 至 2026-10-16
-- 空间分辨率：500 米
-- 许可：proprietary
-- 关键词：cryosphere, daily, geophysical, global, modis, nasa, nsidc, snow, terra
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 500 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| Maximum_Snow_Extent | Maximum snow extent observed over an eight-day period.  | 500 |  |
-| Eight_Day_Snow_Cover | Snow chronology bit flags for each day in the eight-day observation period.  | 500 |  |
+| Maximum_Snow_Extent | 八天时段内观测到的最大雪范围。 | 500 |  |
+| Eight_Day_Snow_Cover | 八天观测时段内每天的雪年表比特标志。 | 500 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 雪覆盖监测与制图
+- 水文与气候研究
+- 雪反照率分析
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/061/MOD10A2');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/061/MOD10A2`
+- 提供方：NASA NSIDC DAAC at CIRES、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD10A2
+* [General documentation](https://doi.org/10.5067/MODIS/MOD10A2.061)
+* [User's Guide]( https://modis-snow-ice.gsfc.nasa.gov/uploads/snow_user_guide_C6.1_final_revised_april.pdf),
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：cryosphere, daily, geophysical, global, modis, nasa, nsidc, snow, terra
 - 数据引用：Hall, D. K., V. V. Salomonson, and G. A. Riggs. 2016. MODIS/Terra
 Snow Cover Daily L3 Global 500m Grid. Version 6. Boulder, Colorado
 USA: NASA National Snow and Ice Data Center Distributed Active
 Archive Center.
 
 - DOI：10.5067/MODIS/MOD10A2.061
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [MOD10A1.061 Terra Snow Cover Daily Global 500m](/pages/63afd45f/)
+- [MYD10A1.061 Aqua Snow Cover Daily Global 500m](/pages/fb16b7df/)
+- [ECMWF 近实时 IFS 大气预报](/pages/3fdfa56d/)
+- [ERA5-Land 按日内时刻月平均数据 — ECMWF 气候再分析](/pages/39c04517/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

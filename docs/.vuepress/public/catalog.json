@@ -352,7 +352,7 @@
    "id": "01c5662d",
    "url": "/pages/01c5662d/",
    "en_url": "/en/pages/01c5662d/",
-   "title_zh": "",
+   "title_zh": "MCD43C3.061 BRDF/反照率日产品 L3 0.05 度 CMG",
    "title_en": "MCD43C3.061 BRDF/Albedo Daily L3 0.05 Deg CMG",
    "cat": "satellite",
    "tags": [
@@ -367,17 +367,17 @@
    ],
    "res_m": 5600.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：5,600 米。",
    "time": "2000-02-24 至 2026-10-24",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD43C3",
-   "intro_zh": "",
+   "intro_zh": "MCD43C3 版本 6.1 双向反射分布函数与反照率（BRDF/反照率）反照率数据集使用 16 天 Terra 与 Aqua MODIS 数据在 0.05 度（赤道 5,600 米）气候建模网格（CMG）中每日生产。数据在时间上加权到反演时段的第九天，这反映在文件名中的儒略日期…",
    "intro_en": "The MCD43C3 Version 6.1 Bidirectional Reflectance Distribution Function and Albedo (BRDF/Albedo) Albedo dataset is produced daily using 16 days of Terra and Aqua MODIS data in a 0.05 degree (5,600 met…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "02094cb5",
@@ -587,7 +587,7 @@
    "id": "040259df",
    "url": "/pages/040259df/",
    "en_url": "/en/pages/040259df/",
-   "title_zh": "",
+   "title_zh": "MOD16A2.061 Terra 净蒸散 8 天全球 500 米",
    "title_en": "MOD16A2.061: Terra Net Evapotranspiration 8-Day Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -603,15 +603,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2021 年至 2026 年；分辨率：500 米。",
    "time": "2021-01-01 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD16A2",
-   "intro_zh": "",
+   "intro_zh": "MOD16A2 版本 6.1 蒸散/潜热通量产品是一个像元分辨率 500 米的 8 天合成产品。MOD16 数据产品集合使用的算法基于 Penman-Monteith 方程的逻辑，包括每日气象再分析数据输入以及 MODIS 遥感数据产品，如植被属性动力学、反照率与土地覆盖。",
    "intro_en": "The MOD16A2 Version 6.1 Evapotranspiration/Latent Heat Flux product is an 8-day composite product produced at 500 meter pixel resolution. The algorithm used for the MOD16 data product collection is ba…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "0407e6fe",
@@ -707,7 +707,7 @@
    "id": "04d0ef96",
    "url": "/pages/04d0ef96/",
    "en_url": "/en/pages/04d0ef96/",
-   "title_zh": "",
+   "title_zh": "MCD43A4.005 BRDF 校正反射率 16 天全球 500 米 [已弃用]",
    "title_en": "MCD43A4.005 BRDF-Adjusted Reflectance 16-Day Global 500m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -724,15 +724,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：500 米。",
    "time": "2000-02-18 至 2017-03-14",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4",
-   "intro_zh": "",
+   "intro_zh": "中分辨率成像光谱仪（MODIS）反射率产品 MCD43A4 提供使用双向反射分布函数（BRDF）校正的 500 米反射率数据，以将值建模为如同从天底观测取得。MCD43A4 产品包含 16 天数据，以正弦投影的三级格网数据集提供。",
    "intro_en": "The MODerate-resolution Imaging Spectroradiometer (MODIS) Reflectance product MCD43A4 provides 500-meter reflectance data adjusted using a bidirectional reflectance distribution function (BRDF) to mod…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "0501d8ff",
@@ -769,7 +769,7 @@
    "id": "051acfdf",
    "url": "/pages/051acfdf/",
    "en_url": "/en/pages/051acfdf/",
-   "title_zh": "",
+   "title_zh": "MYD14A1.061：Aqua 热异常与火日产品全球 1 公里",
    "title_en": "MYD14A1.061: Aqua Thermal Anomalies & Fire Daily Global 1km",
    "cat": "hazards",
    "tags": [
@@ -786,15 +786,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：1 公里。",
    "time": "2002-07-04 至 2026-10-23",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD14A1",
-   "intro_zh": "",
+   "intro_zh": "MYD14A1 V6.1 数据集提供源自 MODIS 4 与 11 微米辐射的 1 公里分辨率每日火掩膜合成。火探测策略基于对火的绝对探测（当火强度足以探测时），以及相对于其背景的探测（以考虑地表温度变异与阳光反射）。产品区分火、无火与无观测。此信息用于监测不同生态系统中火的空间…",
    "intro_en": "The MYD14A1 V6.1 dataset provides daily fire mask composites at 1km resolution derived from the MODIS 4- and 11-micrometer radiances. The fire detection strategy is based on absolute detection of a fi…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "052929b1",
@@ -829,7 +829,7 @@
    "id": "05a2b721",
    "url": "/pages/05a2b721/",
    "en_url": "/en/pages/05a2b721/",
-   "title_zh": "",
+   "title_zh": "MYD09GQ.061 Aqua 地表反射率日产品全球 250 米",
    "title_en": "MYD09GQ.061 Aqua Surface Reflectance Daily Global 250m",
    "cat": "satellite",
    "tags": [
@@ -846,15 +846,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：250 米。",
    "time": "2002-07-04 至 2026-10-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD09GQ",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正。MYD09GQ 版本 6.1 在正弦投影的每日格网 L2G 产品中以 250 米分辨率提供波段 1 与 2，包括一个 QC 与五个观测层。本…",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "05ae8a87",
@@ -1152,7 +1152,7 @@
    "id": "078c2d96",
    "url": "/pages/078c2d96/",
    "en_url": "/en/pages/078c2d96/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 NDVI [已弃用]",
    "title_en": "MODIS Combined 16-Day NDVI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -1167,23 +1167,23 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-18 至 2017-03-14",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_NDVI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值植被指数由每个场景的近红外与红波段按（NIR − Red）/（NIR + Red）生成，值域为 −1.0 至 1.0。本产品由 MODIS/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Vegetation Index is generated from the Near-IR and Red bands of each scene as (NIR - Red) / (NIR + Red), and ranges in value from -1.0 to 1.0. This product is generated from…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "07910c63",
    "url": "/pages/07910c63/",
    "en_url": "/en/pages/07910c63/",
-   "title_zh": "",
+   "title_zh": "MOD15A2H.061 Terra 叶面积指数/FPAR 8 天全球 500 米",
    "title_en": "MOD15A2H.061: Terra Leaf Area Index/FPAR 8-Day Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -1200,15 +1200,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-02-18 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD15A2H",
-   "intro_zh": "",
+   "intro_zh": "MOD15A2H V6.1 MODIS 组合叶面积指数（LAI）与光合有效辐射分量（FPAR）产品是一个 500 米分辨率的 8 天合成数据集。算法从 8 天时段内 Terra 传感器的所有获取中选择可用的「最佳」像元。",
    "intro_en": "The MOD15A2H V6.1 MODIS combined Leaf Area Index (LAI) and Fraction of Photosynthetically Active Radiation (FPAR) product is an 8-day composite dataset at 500m resolution. The algorithm chooses the \\\"…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "07bc7cbd",
@@ -1420,7 +1420,7 @@
    "id": "088bb19d",
    "url": "/pages/088bb19d/",
    "en_url": "/en/pages/088bb19d/",
-   "title_zh": "",
+   "title_zh": "MCD18A1.061 地表辐射日/3 小时（已弃用）",
    "title_en": "MCD18A1.061 Surface Radiation Daily/3-Hour [deprecated]",
    "cat": "climate",
    "tags": [
@@ -1432,15 +1432,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2024 年；分辨率：1 公里。",
    "time": "2000-02-24 至 2024-06-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD18A1",
-   "intro_zh": "",
+   "intro_zh": "MCD18A1 版本 6.1 是一个中分辨率成像光谱仪（MODIS）Terra 与 Aqua 组合的向下短波辐射（DSR）格网三级产品，每日以 1 公里像元分辨率生产，带每 3 小时的 DSR 估计。DSR 是短波光谱（300–4,000 纳米）内陆地表面上的入射太阳辐射，是陆面…",
    "intro_en": "The MCD18A1 Version 6.1 is a Moderate Resolution Imaging Spectroradiometer (MODIS) Terra and Aqua combined Downward Shortwave Radiation (DSR) gridded Level 3 product produced daily at 1 kilometer pixe…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "08a038e5",
@@ -1567,7 +1567,7 @@
    "id": "092067b2",
    "url": "/pages/092067b2/",
    "en_url": "/en/pages/092067b2/",
-   "title_zh": "",
+   "title_zh": "MOD09Q1.005 地表反射率 8 天全球 250 米 [已弃用]",
    "title_en": "MOD09Q1.005 Surface Reflectance 8-Day Global 250m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -1583,15 +1583,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：250 米。",
    "time": "2000-02-18 至 2017-03-22",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09Q1",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "093b5f8e",
@@ -1857,7 +1857,7 @@
    "id": "0b8d7e79",
    "url": "/pages/0b8d7e79/",
    "en_url": "/en/pages/0b8d7e79/",
-   "title_zh": "",
+   "title_zh": "MYD14A2.061：Aqua 热异常与火 8 天全球 1 公里",
    "title_en": "MYD14A2.061: Aqua Thermal Anomalies & Fire 8-Day Global 1km",
    "cat": "hazards",
    "tags": [
@@ -1874,15 +1874,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：1 公里。",
    "time": "2002-07-04 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD14A2",
-   "intro_zh": "",
+   "intro_zh": "MYD14A2 V6.1 数据集提供 1 公里分辨率的 8 天火掩膜合成。它包含合成时段内单个像元类别的最大值。连同火掩膜，还提供一个关联的质量信息层。",
    "intro_en": "The MYD14A2 V6.1 dataset provides 8-day fire mask composites at 1km resolution. It contains the maximum value of the individual pixel classes over the compositing period. Along with the fire mask, an…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "0bb51b32",
@@ -2839,7 +2839,7 @@
    "id": "11a394bf",
    "url": "/pages/11a394bf/",
    "en_url": "/en/pages/11a394bf/",
-   "title_zh": "",
+   "title_zh": "MCD64A1.061 MODIS 过火面积月产品全球 500 米",
    "title_en": "MCD64A1.061 MODIS Burned Area Monthly Global 500m",
    "cat": "hazards",
    "tags": [
@@ -2856,15 +2856,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-11-01 至 2026-08-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD64A1",
-   "intro_zh": "",
+   "intro_zh": "Terra 与 Aqua 组合的 MCD64A1 版本 6.1 过火面积数据产品是一个月度、全球格网 500 米产品，包含逐像元过火面积与质量信息。MCD64A1 过火面积制图方法使用 500 米 MODIS 地表反射率影像结合 1 公里 MODIS 活跃火观测。算法使用一个过火…",
    "intro_en": "The Terra and Aqua combined MCD64A1 Version 6.1 Burned Area data product is a monthly, global gridded 500m product containing per-pixel burned-area and quality information. The MCD64A1 burned-area map…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "11c640c9",
@@ -3048,7 +3048,7 @@
    "id": "1294f47e",
    "url": "/pages/1294f47e/",
    "en_url": "/en/pages/1294f47e/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 NDWI",
    "title_en": "MODIS Combined 16-Day NDWI",
    "cat": "vegetation",
    "tags": [
@@ -3063,17 +3063,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-10",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_006_NDWI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值水指数（NDWI）对植被冠层液态水含量的变化敏感。它源自近红外波段与第二个红外波段——可用时 ≈1.24 μm，否则用最近的可用红外波段。值域为 −1.0 至 1.0。细节见 Gao（1996）。本产品由 MODIS/006/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Water Index (NDWI) is sensitive to changes in liquid water content of vegetation canopies. It is derived from the Near-IR band and a second IR band, &approx;1.24&mu;m when av…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "13015f55",
@@ -3371,7 +3371,7 @@
    "id": "154c1ce8",
    "url": "/pages/154c1ce8/",
    "en_url": "/en/pages/154c1ce8/",
-   "title_zh": "",
+   "title_zh": "MOD11A2.061 Terra 地表温度与发射率 8 天全球 1 公里",
    "title_en": "MOD11A2.061 Terra Land Surface Temperature and Emissivity 8-Day Global 1km",
    "cat": "climate",
    "tags": [
@@ -3388,15 +3388,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-18 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD11A2",
-   "intro_zh": "",
+   "intro_zh": "MOD11A2 V6.1 产品在 1200 × 1200 公里格网中提供平均 8 天地表温度（LST）。MOD11A2 中的每个像元值是该 8 天时段内收集的所有对应 MOD11A1 LST 像元的简单平均。MOD11A2 对所有每日 LST 值做简单平均，不对特定 QA 比特做…",
    "intro_en": "The MOD11A2 V6.1 product provides an average 8-day land surface temperature (LST) in a 1200 x 1200 kilometer grid. Each pixel value in MOD11A2 is a simple average of all the corresponding MOD11A1 LST…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "15c7de2b",
@@ -3813,7 +3813,7 @@
    "id": "18647d64",
    "url": "/pages/18647d64/",
    "en_url": "/en/pages/18647d64/",
-   "title_zh": "",
+   "title_zh": "MCD19A1.061 陆地表面 BRF 日 L2G 全球 500 米与 1 公里",
    "title_en": "MCD19A1.061: Land Surface BRF Daily L2G Global 500m and 1km",
    "cat": "satellite",
    "tags": [
@@ -3830,15 +3830,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米与 1 公里。",
    "time": "2000-12-21 至 2026-10-29",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD19A1_GRANULES",
-   "intro_zh": "",
+   "intro_zh": "MCD19A1 版本 6.1 数据产品是一个中分辨率成像光谱仪（MODIS）Terra 与 Aqua 组合的陆地表面双向反射因子（BRF）格网二级产品，每日以 500 米与 1 公里分辨率生产。更多信息见 MAIAC 用户指南。",
    "intro_en": "The MCD19A1 Version 6.1 data product is a Moderate Resolution Imaging Spectroradiometer (MODIS) Terra and Aqua combined Land Surface Bidirectional Reflectance Factor (BRF) gridded Level 2 product prod…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "186d71",
@@ -4291,7 +4291,7 @@
    "id": "1b7b0a9a",
    "url": "/pages/1b7b0a9a/",
    "en_url": "/en/pages/1b7b0a9a/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 NDWI [已弃用]",
    "title_en": "MODIS Terra Daily NDWI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -4306,17 +4306,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_NDWI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值水指数（NDWI）对植被冠层液态水含量的变化敏感。它源自近红外波段与第二个红外波段——可用时 ≈1.24 μm，否则用最近的可用红外波段。值域为 −1.0 至 1.0。细节见 Gao（1996）。本产品由 MODIS/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Water Index (NDWI) is sensitive to changes in liquid water content of vegetation canopies. It is derived from the Near-IR band and a second IR band, &approx;1.24&mu;m when av…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "1c5308a3",
@@ -5056,7 +5056,7 @@
    "id": "21c4abb2",
    "url": "/pages/21c4abb2/",
    "en_url": "/en/pages/21c4abb2/",
-   "title_zh": "",
+   "title_zh": "MYD17A2H.061：Aqua 总初级生产力 8 天全球 500 米",
    "title_en": "MYD17A2H.061: Aqua Gross Primary Productivity 8-Day Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -5073,15 +5073,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2021 年至 2026 年；分辨率：500 米。",
    "time": "2021-01-01 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD17A2H",
-   "intro_zh": "",
+   "intro_zh": "MYD17A2H V6.1 总初级生产力（GPP）产品是一个 500 米分辨率的累积 8 天合成。产品基于辐射利用效率概念，可潜在地用作数据模型的输入，以计算陆地能量、碳、水循环过程与植被生物地球化学。",
    "intro_en": "The MYD17A2H V6.1 Gross Primary Productivity (GPP) product is a cumulative 8-day composite with a 500m resolution. The product is based on the radiation-use efficiency concept and can be potentially u…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "21f79fb2",
@@ -5818,7 +5818,7 @@
    "id": "283afd8e",
    "url": "/pages/283afd8e/",
    "en_url": "/en/pages/283afd8e/",
-   "title_zh": "",
+   "title_zh": "MOD09A1.005 地表反射率 8 天全球 500 米 [已弃用]",
    "title_en": "MOD09A1.005 Surface Reflectance 8-Day Global 500m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -5834,15 +5834,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：500 米。",
    "time": "2000-02-18 至 2017-03-22",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09A1",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "284f7bab",
@@ -7444,7 +7444,7 @@
    "id": "327bf637",
    "url": "/pages/327bf637/",
    "en_url": "/en/pages/327bf637/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 NDVI",
    "title_en": "MODIS Combined 16-Day NDVI",
    "cat": "vegetation",
    "tags": [
@@ -7459,17 +7459,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-10",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_006_NDVI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值植被指数由每个场景的近红外与红波段按（NIR − Red）/（NIR + Red）生成，值域为 −1.0 至 1.0。本产品由 MODIS/006/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Vegetation Index is generated from the Near-IR and Red bands of each scene as (NIR - Red) / (NIR + Red), and ranges in value from -1.0 to 1.0. This product is generated from…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "327c6ccc",
@@ -7599,7 +7599,7 @@
    "id": "33644e9c",
    "url": "/pages/33644e9c/",
    "en_url": "/en/pages/33644e9c/",
-   "title_zh": "",
+   "title_zh": "MOD09A1.061 Terra 地表反射率 8 天全球 500 米",
    "title_en": "MOD09A1.061 Terra Surface Reflectance 8-Day Global 500m",
    "cat": "satellite",
    "tags": [
@@ -7616,15 +7616,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-02-18 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD09A1",
-   "intro_zh": "",
+   "intro_zh": "MOD09A1 V6.1 产品提供 Terra MODIS 波段 1–7 在 500 米分辨率的地表光谱反射率估计，并针对气体、气溶胶与瑞利散射等大气条件做了校正。连同七个反射率波段，还有一个质量层与四个观测波段。对每个像元，从 8 天合成内的所有获取中基于高观测覆盖、低视角、无…",
    "intro_en": "The MOD09A1 V6.1 product provides an estimate of the surface spectral reflectance of Terra MODIS bands 1-7 at 500m resolution and corrected for atmospheric conditions such as gasses, aerosols, and Ray…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "33b68a8e",
@@ -7806,7 +7806,7 @@
    "id": "34ab71f7",
    "url": "/pages/34ab71f7/",
    "en_url": "/en/pages/34ab71f7/",
-   "title_zh": "",
+   "title_zh": "MOD09GQ.005 Terra 地表反射率日 L2G 全球 250 米 [已弃用]",
    "title_en": "MOD09GQ.005 Terra Surface Reflectance Daily L2G Global 250m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -7823,15 +7823,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：250 米。",
    "time": "2000-02-24 至 2017-03-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GQ",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "34bf1ad5",
@@ -8532,7 +8532,7 @@
    "id": "383ffd43",
    "url": "/pages/383ffd43/",
    "en_url": "/en/pages/383ffd43/",
-   "title_zh": "",
+   "title_zh": "MCD43A2.005 BRDF-反照率质量 16 天全球 500 米 [已弃用]",
    "title_en": "MCD43A2.005 BRDF-Albedo Quality 16-Day Global 500m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -8549,15 +8549,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：500 米。",
    "time": "2000-02-18 至 2017-03-14",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A2",
-   "intro_zh": "",
+   "intro_zh": "中分辨率成像光谱仪（MODIS）BRDF/反照率质量产品（MCD43A2）描述其他 BRDF 与反照率产品的总体状况。MCD43A2 产品包含 16 天数据，空间分辨率 500 米，以正弦投影的三级格网数据集提供，包括反照率质量、雪条件、辅助信息与反演信息。本产品生成时同时使用…",
    "intro_en": "The MODerate-resolution Imaging Spectroradiometer (MODIS) BRDF/Albedo Quality product (MCD43A2) describes the overall condition of the other BRDF and Albedo products. The MCD43A2 product contains 16 d…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "388afaeb",
@@ -8680,7 +8680,7 @@
    "id": "39219a3e",
    "url": "/pages/39219a3e/",
    "en_url": "/en/pages/39219a3e/",
-   "title_zh": "",
+   "title_zh": "MYD17A3HGF.061：Aqua 净初级生产填补年度全球 500 米",
    "title_en": "MYD17A3HGF.061: Aqua Net Primary Production Gap-Filled Yearly Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -8697,15 +8697,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2001 年至 2025 年；分辨率：500 米。",
    "time": "2001-01-01 至 2025-01-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD17A3HGF",
-   "intro_zh": "",
+   "intro_zh": "MYD17A3HGF V6.1 产品提供像元分辨率 500 米的年度总初级生产力与净初级生产力（GPP 与 NPP）信息。年度 NPP 源自给定年份的所有 8 天净光合作用（PSN）产品（MYD17A2H）之和。PSN 值是总初级生产力（GPP）与维持呼吸（MR）之差（GPP-M…",
    "intro_en": "The MYD17A3HGF V6.1 product provides information about annual Gross and Net Primary Productivity (GPP and NPP) at 500m pixel resolution. Annual NPP is derived from the sum of all 8-day Net Photosynthe…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "3942dd0b",
@@ -10349,7 +10349,7 @@
    "id": "4593321a",
    "url": "/pages/4593321a/",
    "en_url": "/en/pages/4593321a/",
-   "title_zh": "",
+   "title_zh": "MOD21C1.061 Terra 地表温度与三波段发射率日 L3 全球 0.05 度 CMG",
    "title_en": "MOD21C1.061 Terra Land Surface Temperature and 3-Band Emissivity Daily L3 Global 0.05 Deg CMG",
    "cat": "climate",
    "tags": [
@@ -10366,15 +10366,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里（CMG 0.05 度）。",
    "time": "2000-02-24 至 2026-11-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD21C1",
-   "intro_zh": "",
+   "intro_zh": "MOD21C1 数据集每日在 0.05 度（赤道 5,600 米）气候建模网格（CMG）中由白天二级格网（L2G）中间 LST 产品生产。L2G 过程将每日 MOD21 条带颗粒映射到正弦 MODIS 格网，并存储给定日在格网单元上的所有观测。MOD21C1 算法为每个单元筛选这…",
    "intro_en": "The MOD21C1 dataset is produced daily in a 0.05 degree (5,600 meters at the equator) Climate Modeling Grid (CMG) from daytime Level 2 Gridded (L2G) intermediate LST products. The L2G process maps the…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "46395cc0",
@@ -10560,7 +10560,7 @@
    "id": "47bbb1a6",
    "url": "/pages/47bbb1a6/",
    "en_url": "/en/pages/47bbb1a6/",
-   "title_zh": "",
+   "title_zh": "MYD11A2.061 Aqua 地表温度与发射率 8 天全球 1 公里",
    "title_en": "MYD11A2.061 Aqua Land Surface Temperature and Emissivity 8-Day Global 1km",
    "cat": "climate",
    "tags": [
@@ -10577,15 +10577,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：1 公里。",
    "time": "2002-07-04 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD11A2",
-   "intro_zh": "",
+   "intro_zh": "MYD11A2 V6.1 产品在 1,200 × 1,200 公里格网中提供平均 8 天地表温度（LST）。MYD11A2 中的每个像元值是在该 8 天时段内收集的所有相应 MYD11A1 LST 像元的简单平均。MYD11A2 对所有每日 LST 值做简单平均，不对特定 QA…",
    "intro_en": "The MYD11A2 V6.1 product provides an average 8-day land surface temperature (LST) in a 1200 x 1200 kilometer grid. Each pixel value in MYD11A2 is a simple average of all the corresponding MYD11A1 LST…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "4841efce",
@@ -10683,7 +10683,7 @@
    "id": "492818e5",
    "url": "/pages/492818e5/",
    "en_url": "/en/pages/492818e5/",
-   "title_zh": "",
+   "title_zh": "MOD08_M3.061 Terra 大气月产品全球 1 度 CMG",
    "title_en": "MOD08_M3.061 Terra Atmosphere Monthly Global Product",
    "cat": "atmosphere",
    "tags": [
@@ -10700,15 +10700,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 度（约 111,320 米）。",
    "time": "2000-02-01 至 2026-09-01",
    "provider": "NASA LAADS DAAC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD08_M3",
-   "intro_zh": "",
+   "intro_zh": "MOD08M3 V6.1 是一个大气全球产品，包含大气参数的月度 1 × 1 度格网平均值。这些参数与大气气溶胶颗粒属性、总臭氧负荷、大气水汽、云光学与物理属性以及大气稳定度指数相关。该产品还提供平均值、标准差、QA 加权统计、对数正态分布、不确定性估计以及满足某种条件的像元比例…",
    "intro_en": "MOD08M3 V6.1 is an atmosphere global product that contains monthly 1 x 1 degree grid average values of atmospheric parameters. These parameters are related to atmospheric aerosol particle properties,…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "49ac0524",
@@ -11477,7 +11477,7 @@
    "id": "4fc047b8",
    "url": "/pages/4fc047b8/",
    "en_url": "/en/pages/4fc047b8/",
-   "title_zh": "",
+   "title_zh": "MOD21C2.061 Terra 地表温度与三波段发射率 8 天 L3 全球 0.05 度 CMG",
    "title_en": "MOD21C2.061 Terra Land Surface Temperature and 3-Band Emissivity 8-Day L3 Global 0.05 Deg CMG",
    "cat": "climate",
    "tags": [
@@ -11494,15 +11494,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里（CMG 0.05 度）。",
    "time": "2000-02-24 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD21C2",
-   "intro_zh": "",
+   "intro_zh": "MOD21C2 数据集是一个使用基于简单平均方法的算法的 8 天合成 LST 产品。算法计算 8 天时段内所有无云 MOD21A1D 与 MOD21A1N 每日获取的平均值。与白天与夜间获取为单独产品的 MOD21A1 数据集不同，MOD21A2 同时包含白天与夜间获取。LST、…",
    "intro_en": "The MOD21C2 dataset is an 8-day composite LST product that uses an algorithm based on a simple averaging method. The algorithm calculates the average from all the cloud free MOD21A1D and MOD21A1N dail…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "4fdc2f",
@@ -11620,7 +11620,7 @@
    "id": "50554e4e",
    "url": "/pages/50554e4e/",
    "en_url": "/en/pages/50554e4e/",
-   "title_zh": "",
+   "title_zh": "MCD18A1.062 地表辐射日/3 小时",
    "title_en": "MCD18A1.062 Surface Radiation Daily/3-Hour",
    "cat": "climate",
    "tags": [
@@ -11632,15 +11632,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-03-03 至 2026-08-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/062/MCD18A1",
-   "intro_zh": "",
+   "intro_zh": "MCD18A1 版本 6.2 是一个中分辨率成像光谱仪（MODIS）Terra 与 Aqua 组合下行短波辐射（DSR）格网三级产品，每日以 1 公里像元分辨率生产，并提供每 3 小时的 DSR 估计。DSR 是短波光谱（300–4,000 纳米）内陆地表面的入射太阳辐射，是陆面…",
    "intro_en": "The MCD18A1 Version 6.2 is a Moderate Resolution Imaging Spectroradiometer (MODIS) Terra and Aqua combined Downward Shortwave Radiation (DSR) gridded Level 3 product produced daily at 1 kilometer pixe…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "50cd4868",
@@ -11762,7 +11762,7 @@
    "id": "515181f9",
    "url": "/pages/515181f9/",
    "en_url": "/en/pages/515181f9/",
-   "title_zh": "",
+   "title_zh": "MYD08_M3.061 Aqua 大气月产品全球 1 度 CMG",
    "title_en": "MYD08_M3.061 Aqua Atmosphere Monthly Global Product",
    "cat": "atmosphere",
    "tags": [
@@ -11779,15 +11779,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：1 度（约 111,320 米）。",
    "time": "2002-07-01 至 2026-09-01",
    "provider": "NASA LAADS DAAC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD08_M3",
-   "intro_zh": "",
+   "intro_zh": "MYD08M3 V6.1 是一个大气全球产品，包含大气参数的月度 1 × 1 度格网平均值。这些参数与大气气溶胶颗粒属性、总臭氧负荷、大气水汽、云光学与物理属性以及大气稳定度指数相关。该产品还提供平均值、标准差、QA 加权统计、对数正态分布、不确定性估计以及满足某种条件的像元比例…",
    "intro_en": "MYD08M3 V6.1 is an atmosphere global product that contains monthly 1 x 1 degree grid average values of atmospheric parameters. These parameters are related to atmospheric aerosol particle properties,…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "51933d34",
@@ -11926,7 +11926,7 @@
    "id": "5246ade7",
    "url": "/pages/5246ade7/",
    "en_url": "/en/pages/5246ade7/",
-   "title_zh": "",
+   "title_zh": "MYD11A1.061 Aqua 地表温度与发射率日产品全球 1 公里",
    "title_en": "MYD11A1.061 Aqua Land Surface Temperature and Emissivity Daily Global 1km",
    "cat": "climate",
    "tags": [
@@ -11943,15 +11943,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：1 公里。",
    "time": "2002-07-04 至 2026-10-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD11A1",
-   "intro_zh": "",
+   "intro_zh": "MYD11A1 V6.1 产品在 1,200 × 1,200 公里格网中提供每日地表温度（LST）与发射率值。温度值源自 MYD11L2 条带产品。在 30 度纬度以上，一些像元在满足晴空判据时可能有多次观测。发生这种情况时，像元值是所有合格观测的平均值。连同白天与夜间地表温度波…",
    "intro_en": "The MYD11A1 V6.1 product provides daily land surface temperature (LST) and emissivity values in a 1200 x 1200 kilometer grid. The temperature value is derived from the MYD11L2 swath product. Above 30…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5248cf0f",
@@ -12199,7 +12199,7 @@
    "id": "54671c5c",
    "url": "/pages/54671c5c/",
    "en_url": "/en/pages/54671c5c/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 NDSI",
    "title_en": "MODIS Combined 16-Day NDSI",
    "cat": "vegetation",
    "tags": [
@@ -12214,17 +12214,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-10",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_006_NDSI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值雪指数用于识别雪，基于其在光谱可见光部分相对于中红外特征性更高的反射率。NDSI 使用绿与中红外波段计算，范围为 −1.0 至 1.0。细节见 Riggs 等（1994）。本产品由 MODIS/006/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Snow Index is used to identify snow, based on its characteristically higher reflectance in the visible portion of the spectrum compared to the mid-IR. NDSI is computed using…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5470fc",
@@ -12370,7 +12370,7 @@
    "id": "5603ecf7",
    "url": "/pages/5603ecf7/",
    "en_url": "/en/pages/5603ecf7/",
-   "title_zh": "",
+   "title_zh": "MYD13A2.061 Aqua 植被指数 16 天全球 1 公里",
    "title_en": "MYD13A2.061 Aqua Vegetation Indices 16-Day Global 1km",
    "cat": "vegetation",
    "tags": [
@@ -12387,15 +12387,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：1 公里。",
    "time": "2002-07-04 至 2026-10-08",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD13A2",
-   "intro_zh": "",
+   "intro_zh": "MYD13A2 V6.1 产品提供两种植被指数（VI）：归一化差值植被指数（NDVI）与增强植被指数（EVI）。NDVI 被称为与现有 NOAA-AVHRR 推导的 NDVI 的连续性指数。EVI 在高生物量区域具有改进的灵敏度。",
    "intro_en": "The MYD13A2 V6.1 product provides two Vegetation Indices (VI): the Normalized Difference Vegetation Index (NDVI) and the Enhanced Vegetation Index (EVI). The NDVI is referred to as the continuity inde…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "565d06a2",
@@ -12460,7 +12460,7 @@
    "id": "568e60e0",
    "url": "/pages/568e60e0/",
    "en_url": "/en/pages/568e60e0/",
-   "title_zh": "",
+   "title_zh": "MCD43A1.061 MODIS BRDF-反照率模型参数日产品 500 米",
    "title_en": "MCD43A1.061 MODIS BRDF-Albedo Model Parameters Daily 500m",
    "cat": "satellite",
    "tags": [
@@ -12475,17 +12475,17 @@
    ],
    "res_m": 500.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-02-24 至 2026-10-25",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD43A1",
-   "intro_zh": "",
+   "intro_zh": "MCD43A1 V6.1 双向反射分布函数与反照率（BRDF/反照率）模型参数数据集是一个 500 米日 16 天产品。儒略日期代表 16 天反演时段的第 9 天，因此观测被加权以估计该日的 BRDF/反照率。MCD43A1 算法与所有组合产品一样，从包括 Terra 与 Aqu…",
    "intro_en": "The MCD43A1 V6.1 Bidirectional Reflectance Distribution Function and Albedo (BRDF/Albedo) Model Parameters dataset is a 500 meter daily 16-day product. The Julian date represents the 9th day of the 16…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5692c91e",
@@ -12519,7 +12519,7 @@
    "id": "56b95763",
    "url": "/pages/56b95763/",
    "en_url": "/en/pages/56b95763/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 BAI [已弃用]",
    "title_en": "MODIS Combined 16-Day BAI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -12534,17 +12534,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-18 至 2017-03-14",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_BAI",
-   "intro_zh": "",
+   "intro_zh": "燃烧面积指数（BAI）由红与近红外波段生成，测量每个像元与参考光谱点（木炭的实测反射率）的光谱距离。本指数旨在强调火灾后影像中的木炭信号。细节见 Chuvieco 等（2002）。本产品由 MODIS/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Burn Area Index (BAI) is generated from the Red and Near-IR bands, and measures the spectral distance of each pixel from a reference spectral point (the measured reflectance of charcoal). This ind…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "56d5400c",
@@ -12671,7 +12671,7 @@
    "id": "5822e26b",
    "url": "/pages/5822e26b/",
    "en_url": "/en/pages/5822e26b/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 BAI",
    "title_en": "MODIS Combined 16-Day BAI",
    "cat": "vegetation",
    "tags": [
@@ -12686,17 +12686,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-10",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_006_BAI",
-   "intro_zh": "",
+   "intro_zh": "燃烧面积指数（BAI）由红与近红外波段生成，测量每个像元与参考光谱点（木炭的实测反射率）的光谱距离。本指数旨在强调火灾后影像中的木炭信号。细节见 Chuvieco 等（2002）。本产品由 MODIS/006/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Burn Area Index (BAI) is generated from the Red and Near-IR bands, and measures the spectral distance of each pixel from a reference spectral point (the measured reflectance of charcoal). This ind…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "58312ad1",
@@ -12975,7 +12975,7 @@
    "id": "5a2149b5",
    "url": "/pages/5a2149b5/",
    "en_url": "/en/pages/5a2149b5/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 NDWI [已弃用]",
    "title_en": "MODIS Combined 16-Day NDWI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -12990,17 +12990,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-18 至 2017-03-14",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_NDWI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值水指数（NDWI）对植被冠层液态水含量的变化敏感。它源自近红外波段与第二个红外波段——可用时 ≈1.24 μm，否则用最近的可用红外波段。值域为 −1.0 至 1.0。细节见 Gao（1996）。本产品由 MODIS/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Water Index (NDWI) is sensitive to changes in liquid water content of vegetation canopies. It is derived from the Near-IR band and a second IR band, &approx;1.24&mu;m when av…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5a3bec59",
@@ -13065,7 +13065,7 @@
    "id": "5a5aec8d",
    "url": "/pages/5a5aec8d/",
    "en_url": "/en/pages/5a5aec8d/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 EVI",
    "title_en": "MODIS Combined 16-Day EVI",
    "cat": "vegetation",
    "tags": [
@@ -13080,17 +13080,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-10",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_006_EVI",
-   "intro_zh": "",
+   "intro_zh": "增强植被指数（EVI）由每个场景的近红外、红与蓝波段生成，值域为 −1.0 至 1.0。细节见 Huete 等（2002）。本产品由 MODIS/006/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Enhanced Vegetation Index (EVI) is generated from the Near-IR, Red and Blue bands of each scene, and ranges in value from -1.0 to 1.0. See Huete et al. (2002) for details. This product is generate…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5a6f325a",
@@ -13187,7 +13187,7 @@
    "id": "5b2b0600",
    "url": "/pages/5b2b0600/",
    "en_url": "/en/pages/5b2b0600/",
-   "title_zh": "",
+   "title_zh": "MYD21C3.061 Aqua 地表温度与三波段发射率月 L3 全球 0.05 度 CMG",
    "title_en": "MYD21C3.061 Aqua Land Surface Temperature and 3-Band Emissivity Monthly L3 Global 0.05 Deg CMG",
    "cat": "climate",
    "tags": [
@@ -13204,15 +13204,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里（CMG 0.05 度）。",
    "time": "2000-02-24 至 2026-09-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD21C3",
-   "intro_zh": "",
+   "intro_zh": "MYD21C3 数据集是一个使用基于简单平均方法的算法的月合成 LST 产品。算法计算 8 天时段内所有无云 MYD21A1D 与 MYD21A1N 每日获取的平均值。与白天与夜间获取为单独产品的 MYD21A1 数据集不同，MYD21A2 同时包含白天与夜间获取。LST、质量控…",
    "intro_en": "The MYD21C3 dataset is a monthly composite LST product that uses an algorithm based on a simple averaging method. The algorithm calculates the average from all the cloud free MYD21A1D and MYD21A1N dai…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5bb9bca6",
@@ -13278,7 +13278,7 @@
    "id": "5bd7d7e9",
    "url": "/pages/5bd7d7e9/",
    "en_url": "/en/pages/5bd7d7e9/",
-   "title_zh": "",
+   "title_zh": "MYD13C1.061：Aqua 植被指数 16 天 L3 全球 0.05 度 CMG",
    "title_en": "MYD13C1.061: Aqua Vegetation Indices 16-Day L3 Global 0.05 Deg CMG",
    "cat": "vegetation",
    "tags": [
@@ -13294,15 +13294,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：5,600 米。",
    "time": "2002-07-04 至 2026-10-08",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD13C1",
-   "intro_zh": "",
+   "intro_zh": "Aqua 中分辨率成像光谱仪（MODIS）植被指数 16 天（MYD13C1）版本 6.1 产品提供逐像元的植被指数（VI）值。有两个主要植被层。第一个是归一化差值植被指数（NDVI），它与现有美国国家海洋和大气管理局-高级甚高分辨率辐射计（NOAA-AVHRR）推导的 NDVI…",
    "intro_en": "The Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) Vegetation Indices 16-Day (MYD13C1) Version 6.1 product provides a Vegetation Index (VI) value at a per pixel basis. There are two primar…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5c17c33d",
@@ -13396,7 +13396,7 @@
    "id": "5d0874c4",
    "url": "/pages/5d0874c4/",
    "en_url": "/en/pages/5d0874c4/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 EVI [已弃用]",
    "title_en": "MODIS Combined 16-Day EVI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -13411,17 +13411,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-18 至 2017-03-14",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_EVI",
-   "intro_zh": "",
+   "intro_zh": "增强植被指数（EVI）由每个场景的近红外、红与蓝波段生成，值域为 −1.0 至 1.0。细节见 Huete 等（2002）。本产品由 MODIS/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Enhanced Vegetation Index (EVI) is generated from the Near-IR, Red and Blue bands of each scene, and ranges in value from -1.0 to 1.0. See Huete et al. (2002) for details. This product is generate…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5d6c0b1e",
@@ -13484,7 +13484,7 @@
    "id": "5d8990fc",
    "url": "/pages/5d8990fc/",
    "en_url": "/en/pages/5d8990fc/",
-   "title_zh": "",
+   "title_zh": "MYD21A1N.061 Aqua 地表温度与三波段发射率日产品全球 1 公里",
    "title_en": "MYD21A1N.061 Aqua Land Surface Temperature and 3-Band Emissivity Daily Global 1km",
    "cat": "climate",
    "tags": [
@@ -13501,21 +13501,21 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-24 至 2026-10-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD21A1N",
-   "intro_zh": "",
+   "intro_zh": "MYD21A1N 数据集每日由夜间二级格网（L2G）中间 LST 产品以 1,000 米空间分辨率生产。L2G 过程将每日 MOD21 条带颗粒映射到正弦 MODIS 格网，并存储给定日在格网单元上的所有观测。MOD21A1 算法为每个单元筛选这些观测，并将最终 LST 值估计为…",
    "intro_en": "The MYD21A1N dataset is produced daily from nighttime Level 2 Gridded (L2G) intermediate LST products at a spatial resolution of 1,000 meters. The L2G process maps the daily MOD21 swath granules onto…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5df0d641",
    "url": "/pages/5df0d641/",
    "en_url": "/en/pages/5df0d641/",
-   "title_zh": "",
+   "title_zh": "MYD21C2.061 Aqua 地表温度与三波段发射率 8 天 L3 全球 0.05 度 CMG",
    "title_en": "MYD21C2.061 Aqua Land Surface Temperature and 3-Band Emissivity 8-Day L3 Global 0.05 Deg CMG",
    "cat": "climate",
    "tags": [
@@ -13532,15 +13532,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里（CMG 0.05 度）。",
    "time": "2000-02-24 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD21C2",
-   "intro_zh": "",
+   "intro_zh": "MYD21C2 数据集是一个使用基于简单平均方法的算法的 8 天合成 LST 产品。算法计算 8 天时段内所有无云 MYD21A1D 与 MYD21A1N 每日获取的平均值。与白天与夜间获取为单独产品的 MYD21A1 数据集不同，MYD21A2 同时包含白天与夜间获取。LST、…",
    "intro_en": "The MYD21C2 dataset is an 8-day composite LST product that uses an algorithm based on a simple averaging method. The algorithm calculates the average from all the cloud free MYD21A1D and MYD21A1N dail…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "5df803f8",
@@ -14512,7 +14512,7 @@
    "id": "63afd45f",
    "url": "/pages/63afd45f/",
    "en_url": "/en/pages/63afd45f/",
-   "title_zh": "",
+   "title_zh": "MOD10A1.061 Terra 雪覆盖日产品全球 500 米",
    "title_en": "MOD10A1.061 Terra Snow Cover Daily Global 500m",
    "cat": "cryosphere",
    "tags": [
@@ -14529,15 +14529,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-02-24 至 2026-10-29",
    "provider": "NASA NSIDC DAAC at CIRES",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD10A1",
-   "intro_zh": "",
+   "intro_zh": "MOD10A1 V6.1 雪覆盖日产品全球 500 米包含雪覆盖、雪反照率、分数雪覆盖与质量评估（QA）数据。雪覆盖数据基于一个采用归一化差值雪指数（NDSI）与其他判据检验的雪制图算法。",
    "intro_en": "The MOD10A1 V6.1 Snow Cover Daily Global 500m product contains snow cover, snow albedo, fractional snow cover, and quality assessment (QA) data. Snow cover data are based on a snow mapping algorithm t…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "6412a419",
@@ -15612,7 +15612,7 @@
    "id": "6ca60ab0",
    "url": "/pages/6ca60ab0/",
    "en_url": "/en/pages/6ca60ab0/",
-   "title_zh": "",
+   "title_zh": "MOD44B.061 Terra 植被连续场年度全球 250 米",
    "title_en": "MOD44B.061 Terra Vegetation Continuous Fields Yearly Global 250m",
    "cat": "landcover",
    "tags": [
@@ -15629,15 +15629,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2025 年；分辨率：250 米。",
    "time": "2000-03-05 至 2025-03-06",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD44B",
-   "intro_zh": "",
+   "intro_zh": "Terra MODIS 植被连续场（VCF）产品是全球地表植被覆盖估计的亚像元级表征。它旨在将地球陆地表面连续表征为基本植被性状的比例，提供三个地表覆盖分量的梯度：树木覆盖百分比、非树木覆盖百分比与裸地百分比。VCF 产品提供具有改进空间细节的土地表面覆盖的连续、定量描绘，因此被…",
    "intro_en": "The Terra MODIS Vegetation Continuous Fields (VCF) product is a sub-pixel-level representation of surface vegetation cover estimates globally. Designed to continuously represent Earth's terrestrial su…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "6cc41dda",
@@ -16016,7 +16016,7 @@
    "id": "700eab21",
    "url": "/pages/700eab21/",
    "en_url": "/en/pages/700eab21/",
-   "title_zh": "",
+   "title_zh": "MYD15A2H.061：Aqua 叶面积指数/FPAR 8 天全球 500 米",
    "title_en": "MYD15A2H.061: Aqua Leaf Area Index/FPAR 8-Day Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -16033,15 +16033,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：500 米。",
    "time": "2002-07-04 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD15A2H",
-   "intro_zh": "",
+   "intro_zh": "MYD15A2H V6.1 MODIS 组合叶面积指数（LAI）与光合有效辐射分量（FPAR）产品是一个 500 米分辨率的 8 天合成数据集。算法从 8 天时段内 Aqua 传感器的所有获取中选择可用的「最佳」像元。",
    "intro_en": "The MYD15A2H V6.1 MODIS combined Leaf Area Index (LAI) and Fraction of Photosynthetically Active Radiation (FPAR) product is an 8-day composite dataset at 500m resolution. The algorithm chooses the \\\"…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "7011a264",
@@ -16847,7 +16847,7 @@
    "id": "76db273a",
    "url": "/pages/76db273a/",
    "en_url": "/en/pages/76db273a/",
-   "title_zh": "",
+   "title_zh": "MOD13Q1.005 植被指数 16 天全球 250 米 [已弃用]",
    "title_en": "MOD13Q1.005 Vegetation Indices 16-Day Global 250m [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -16864,15 +16864,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：250 米。",
    "time": "2000-02-18 至 2017-03-06",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD13Q1",
-   "intro_zh": "",
+   "intro_zh": "MODIS 归一化差值植被指数（NDVI）补充 NOAA 高级甚高分辨率辐射计（AVHRR）NDVI 产品，为时间序列历史应用提供连续性。MODIS 还包括一个新的增强植被指数（EVI），它最小化冠层背景变异并在茂密植被条件下保持灵敏度。EVI 还使用蓝波段去除由烟与亚像元薄云引…",
    "intro_en": "The MODIS Normalized Difference Vegetation Index (NDVI) complements NOAA's Advanced Very High Resolution Radiometer (AVHRR) NDVI products and provides continuity for time series historical application…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "770eae24",
@@ -17041,7 +17041,7 @@
    "id": "7818ee44",
    "url": "/pages/7818ee44/",
    "en_url": "/en/pages/7818ee44/",
-   "title_zh": "",
+   "title_zh": "MODIS 组合 16 天 NDSI [已弃用]",
    "title_en": "MODIS Combined 16-Day NDSI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -17056,17 +17056,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-18 至 2017-03-14",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A4_NDSI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值雪指数用于识别雪，基于其在光谱可见光部分相对于中红外特征性更高的反射率。NDSI 使用绿与中红外波段计算，范围为 −1.0 至 1.0。细节见 Riggs 等（1994）。本产品由 MODIS/MCD43A4 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Snow Index is used to identify snow, based on its characteristically higher reflectance in the visible portion of the spectrum compared to the mid-IR. NDSI is computed using…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "781eee94",
@@ -17359,7 +17359,7 @@
    "id": "79a4604d",
    "url": "/pages/79a4604d/",
    "en_url": "/en/pages/79a4604d/",
-   "title_zh": "",
+   "title_zh": "MOD13A1.005 植被指数 16 天 L3 全球 500 米 [已弃用]",
    "title_en": "MOD13A1.005 Vegetation Indices 16-Day L3 Global 500m [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -17376,15 +17376,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：500 米。",
    "time": "2000-02-18 至 2017-03-06",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD13A1",
-   "intro_zh": "",
+   "intro_zh": "全球 MODIS 植被指数旨在提供植被状况的一致空间与时间比较。分别以 469 纳米、645 纳米与 858 纳米为中心的蓝、红与近红外反射率用于确定 MODIS 每日植被指数。",
    "intro_en": "Global MODIS vegetation indices are designed to provide consistent spatial and temporal comparisons of vegetation conditions. Blue, red, and near-infrared reflectances, centered at 469-nanometers, 645…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "79dd3f3f",
@@ -17956,7 +17956,7 @@
    "id": "7cbb8070",
    "url": "/pages/7cbb8070/",
    "en_url": "/en/pages/7cbb8070/",
-   "title_zh": "",
+   "title_zh": "MOD13C1.061 Terra 植被指数 16 天 L3 全球 0.05 度气候建模网格",
    "title_en": "MOD13C1.061: Terra Vegetation Indices 16-Day L3 Global 0.05 Deg Climate Modeling Grid",
    "cat": "vegetation",
    "tags": [
@@ -17972,15 +17972,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：5,600 米。",
    "time": "2000-02-18 至 2026-09-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD13C1",
-   "intro_zh": "",
+   "intro_zh": "Terra 中分辨率成像光谱仪（MODIS）植被指数 16 天（MOD13C1）版本 6.1 产品提供逐像元的植被指数（VI）值。有两个主要植被层。第一个是归一化差值植被指数（NDVI），它与现有美国国家海洋和大气管理局-高级甚高分辨率辐射计（NOAA-AVHRR）推导的 NDV…",
    "intro_en": "The Terra Moderate Resolution Imaging Spectroradiometer (MODIS) Vegetation Indices 16-Day (MOD13C1) Version 6.1 product provides a Vegetation Index (VI) value at a per pixel basis. There are two prima…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "7cc9ac3e",
@@ -18650,7 +18650,7 @@
    "id": "80cc401f",
    "url": "/pages/80cc401f/",
    "en_url": "/en/pages/80cc401f/",
-   "title_zh": "",
+   "title_zh": "MCD43A3.061 MODIS 反照率日产品 500 米",
    "title_en": "MCD43A3.061 MODIS Albedo Daily 500m",
    "cat": "satellite",
    "tags": [
@@ -18665,17 +18665,17 @@
    ],
    "res_m": 500.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-02-24 至 2026-10-25",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD43A3",
-   "intro_zh": "",
+   "intro_zh": "MCD43A3 V6.1 反照率模型数据集是一个日 16 天产品。它为 MODIS 地表反射率波段（波段 1 至波段 7）中的每一个以及 3 个宽谱波段（可见光、近红外与短波）提供方向半球反射率（黑空反照率）与双半球反射率（白空反照率）。每幅 500 米/像元日影像使用以给定日为…",
    "intro_en": "The MCD43A3 V6.1 Albedo Model dataset is a daily 16-day product. It provides both directional hemispherical reflectance (black sky albedo) and bihemispherical reflectance (white sky albedo) for each o…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "8143047b",
@@ -19438,7 +19438,7 @@
    "id": "860fb552",
    "url": "/pages/860fb552/",
    "en_url": "/en/pages/860fb552/",
-   "title_zh": "",
+   "title_zh": "MYD21A1D.061 Aqua 地表温度与三波段发射率日产品全球 1 公里",
    "title_en": "MYD21A1D.061 Aqua Land Surface Temperature and 3-Band Emissivity Daily Global 1km",
    "cat": "climate",
    "tags": [
@@ -19455,15 +19455,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-24 至 2026-10-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD21A1D",
-   "intro_zh": "",
+   "intro_zh": "MYD21A1D 数据集每日由白天二级格网（L2G）中间 LST 产品以 1,000 米空间分辨率生产。L2G 过程将每日 MOD21 条带颗粒映射到正弦 MODIS 格网，并存储给定日在格网单元上的所有观测。MOD21A1 算法为每个单元筛选这些观测，并将最终 LST 值估计为…",
    "intro_en": "The MYD21A1D dataset is produced daily from daytime Level 2 Gridded (L2G) intermediate LST products at a spatial resolution of 1,000 meters. The L2G process maps the daily MOD21 swath granules onto a…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "862913cc",
@@ -20305,7 +20305,7 @@
    "id": "8c427a86",
    "url": "/pages/8c427a86/",
    "en_url": "/en/pages/8c427a86/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 BAI",
    "title_en": "MODIS Terra Daily BAI",
    "cat": "vegetation",
    "tags": [
@@ -20320,17 +20320,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-17",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_006_BAI",
-   "intro_zh": "",
+   "intro_zh": "燃烧面积指数（BAI）由红与近红外波段生成，测量每个像元与参考光谱点（木炭的实测反射率）的光谱距离。本指数旨在强调火灾后影像中的木炭信号。细节见 Chuvieco 等（2002）。本产品由 MODIS/006/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Burn Area Index (BAI) is generated from the Red and Near-IR bands, and measures the spectral distance of each pixel from a reference spectral point (the measured reflectance of charcoal). This ind…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "8c475714",
@@ -20723,7 +20723,7 @@
    "id": "8fba3263",
    "url": "/pages/8fba3263/",
    "en_url": "/en/pages/8fba3263/",
-   "title_zh": "",
+   "title_zh": "MCD18C2.061 光合有效辐射日 3 小时（已弃用）",
    "title_en": "MCD18C2.061 Photosynthetically Active Radiation Daily 3-Hour [deprecated]",
    "cat": "climate",
    "tags": [
@@ -20735,21 +20735,21 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2024 年；分辨率：5,566 米。",
    "time": "2002-02-24 至 2024-06-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD18C2",
-   "intro_zh": "",
+   "intro_zh": "MCD18C2 版本 6.1 是一个中分辨率成像光谱仪（MODIS）Terra 与 Aqua 组合的光合有效辐射（PAR）格网三级产品，每日以 0.05 度（赤道 5,600 米）分辨率生产，带每 3 小时的 PAR 估计。PAR 是可见光光谱（400–700 纳米）内的入射太阳…",
    "intro_en": "The MCD18C2 Version 6.1 is a Moderate Resolution Imaging Spectroradiometer (MODIS) Terra and Aqua combined Photosynthetically Active Radiation (PAR) gridded Level 3 product produced daily at 0.05 degr…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "8ff1337c",
    "url": "/pages/8ff1337c/",
    "en_url": "/en/pages/8ff1337c/",
-   "title_zh": "",
+   "title_zh": "MOD16A2GF.061 Terra 净蒸散填补 8 天全球 500 米",
    "title_en": "MOD16A2GF.061: Terra Net Evapotranspiration Gap-Filled 8-Day Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -20764,15 +20764,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2025 年；分辨率：500 米。",
    "time": "2000-01-01 至 2025-12-27",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD16A2GF",
-   "intro_zh": "",
+   "intro_zh": "Terra 中分辨率成像光谱仪（MODIS）MOD16A2GF 版本 6.1 蒸散/潜热通量（ET/LE）产品是一个年末填补的 8 天合成数据集，以 500 米（m）像元分辨率生产。MOD16 数据产品集合使用的算法基于 Penman-Monteith 方程的逻辑，包括每日气象再…",
    "intro_en": "The Terra Moderate Resolution Imaging Spectroradiometer (MODIS) MOD16A2GF Version 6.1 Evapotranspiration/Latent Heat Flux (ET/LE) product is a year-end gap-filled 8-day composite dataset produced at 5…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "9011c2bb",
@@ -20976,7 +20976,7 @@
    "id": "912eee37",
    "url": "/pages/912eee37/",
    "en_url": "/en/pages/912eee37/",
-   "title_zh": "",
+   "title_zh": "MOD17A3HGF.061 Terra 净初级生产填补年度全球 500 米",
    "title_en": "MOD17A3HGF.061: Terra Net Primary Production Gap-Filled Yearly Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -20993,15 +20993,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2001 年至 2025 年；分辨率：500 米。",
    "time": "2001-01-01 至 2025-01-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD17A3HGF",
-   "intro_zh": "",
+   "intro_zh": "MOD17A3HGF V6.1 产品提供像元分辨率 500 米的年度总初级生产力与净初级生产力（GPP 与 NPP）信息。年度 NPP 源自给定年份的所有 8 天净光合作用（PSN）产品（MOD17A2H）之和。PSN 值是总初级生产力（GPP）与维持呼吸（MR）之差（GPP-M…",
    "intro_en": "The MOD17A3HGF V6.1 product provides information about annual Gross and Net Primary Productivity (GPP and NPP) at 500m pixel resolution. Annual NPP is derived from the sum of all 8-day Net Photosynthe…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "913a0028",
@@ -21397,7 +21397,7 @@
    "id": "93a4fc40",
    "url": "/pages/93a4fc40/",
    "en_url": "/en/pages/93a4fc40/",
-   "title_zh": "",
+   "title_zh": "MCD19A2.061 Terra 与 Aqua MAIAC 陆地气溶胶光学厚度日产品 1 公里",
    "title_en": "MCD19A2.061: Terra & Aqua MAIAC Land Aerosol Optical Depth Daily 1km",
    "cat": "atmosphere",
    "tags": [
@@ -21412,17 +21412,17 @@
    ],
    "res_m": 1000.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-24 至 2026-10-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD19A2_GRANULES",
-   "intro_zh": "",
+   "intro_zh": "MCD19A2 V6.1 数据产品是一个 MODIS Terra 与 Aqua 组合的多角度大气校正实现（MAIAC）陆地气溶胶光学厚度（AOD）格网二级产品，每日以 1 公里分辨率生产。更多信息见 MAIAC 用户指南。",
    "intro_en": "The MCD19A2 V6.1 data product is a MODIS Terra and Aqua combined Multi-angle Implementation of Atmospheric Correction (MAIAC) Land Aerosol Optical Depth (AOD) gridded Level 2 product produced daily at…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "93c5617e",
@@ -21490,7 +21490,7 @@
    "id": "93efe7d4",
    "url": "/pages/93efe7d4/",
    "en_url": "/en/pages/93efe7d4/",
-   "title_zh": "",
+   "title_zh": "MCD43A1.005 BRDF-反照率模型参数 16 天 L3 全球 500 米 [已弃用]",
    "title_en": "MCD43A1.005 BRDF-Albedo Model Parameters 16-Day L3 Global 500m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -21507,15 +21507,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：500 米。",
    "time": "2000-02-18 至 2017-03-14",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MCD43A1",
-   "intro_zh": "",
+   "intro_zh": "中分辨率成像光谱仪（MODIS）BRDF/反照率模型参数产品（MCD43A1）包含为用户提供用于推导反照率与 BRDF 产品（MCD43A3 与 MCD43A4）的模型的权重参数的数据集。这些模型支持最能描述每个像元因散射（各向异性）引起的辐射差异的空间关系与参数表征，依赖于在…",
    "intro_en": "The MODerate-resolution Imaging Spectroradiometer (MODIS) BRDF/Albedo Model Parameters product (MCD43A1) contains datasets providing users with weighting parameters for the models used to derive the A…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "940b557d",
@@ -21643,7 +21643,7 @@
    "id": "9468ea2c",
    "url": "/pages/9468ea2c/",
    "en_url": "/en/pages/9468ea2c/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 NDSI",
    "title_en": "MODIS Terra Daily NDSI",
    "cat": "vegetation",
    "tags": [
@@ -21658,17 +21658,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-17",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_006_NDSI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值雪指数用于识别雪，基于其在光谱可见光部分相对于中红外特征性更高的反射率。NDSI 使用绿与中红外波段计算，范围为 −1.0 至 1.0。细节见 Riggs 等（1994）。本产品由 MODIS/006/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Snow Index is used to identify snow, based on its characteristically higher reflectance in the visible portion of the spectrum compared to the mid-IR. NDSI is computed using…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "9497bce4",
@@ -21761,7 +21761,7 @@
    "id": "95972629",
    "url": "/pages/95972629/",
    "en_url": "/en/pages/95972629/",
-   "title_zh": "",
+   "title_zh": "MOD17A2H.061 Terra 总初级生产力 8 天全球 500 米",
    "title_en": "MOD17A2H.061: Terra Gross Primary Productivity 8-Day Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -21778,15 +21778,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2021 年至 2026 年；分辨率：500 米。",
    "time": "2021-01-01 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD17A2H",
-   "intro_zh": "",
+   "intro_zh": "MOD17A2H V6.1 总初级生产力（GPP）产品是一个像元大小 500 米的累积 8 天合成。产品基于辐射利用效率概念，可潜在地用作数据模型的输入，以计算陆地能量、碳、水循环过程与植被生物地球化学。",
    "intro_en": "The MOD17A2H V6.1 Gross Primary Productivity (GPP) product is a cumulative 8-day composite with a 500m pixel size. The product is based on the radiation-use efficiency concept and can be potentially u…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "959b1eb3",
@@ -22237,7 +22237,7 @@
    "id": "97922815",
    "url": "/pages/97922815/",
    "en_url": "/en/pages/97922815/",
-   "title_zh": "",
+   "title_zh": "MYD09Q1.061 Aqua 地表反射率 8 天全球 250 米",
    "title_en": "MYD09Q1.061 Aqua Surface Reflectance 8-Day Global 250m",
    "cat": "satellite",
    "tags": [
@@ -22254,15 +22254,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：250 米。",
    "time": "2002-07-04 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD09Q1",
-   "intro_zh": "",
+   "intro_zh": "MYD09Q1 产品提供波段 1 与 2 在 250 米分辨率的地表光谱反射率估计，并已对气体、气溶胶与瑞利散射等大气条件做了校正。连同两个反射率波段，还包括一个质量层。对每个像元，从 8 天合成内的所有获取中基于高观测覆盖、低视角、无云或云影与气溶胶负荷选择一个值。",
    "intro_en": "The MYD09Q1 product provides an estimate of the surface spectral reflectance of bands 1 and 2 at 250m resolution and corrected for atmospheric conditions such as gasses, aerosols, and Rayleigh scatter…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "97ecd8a0",
@@ -22361,7 +22361,7 @@
    "id": "987fef57",
    "url": "/pages/987fef57/",
    "en_url": "/en/pages/987fef57/",
-   "title_zh": "",
+   "title_zh": "MOD44W.005 源自 MODIS 与 SRTM 的陆地水体掩膜",
    "title_en": "MOD44W.005 Land Water Mask Derived From MODIS and SRTM",
    "cat": "water",
    "tags": [
@@ -22376,15 +22376,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年前后（2000–2002 年）；分辨率：250 米。",
    "time": "2000-02-24 至 2000-02-24",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD44W/MOD44W_005_2000_02_24",
-   "intro_zh": "",
+   "intro_zh": "全球水体掩膜使用 SWBD（SRTM 水体数据）结合 MODIS 250 米数据，创建 250 米空间分辨率的完整全球地表水图，约 2000–2002 年。本数据集旨在用于栅格数据处理，并用于在最终栅格数据产品中掩膜水体。",
    "intro_en": "The Global Water Mask uses the SWBD (SRTM Water Body Data) in combination with MODIS 250m data to create a complete global map of surface water at 250m spatial resolution, circa 2000-2002. This datase…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "98803e4e",
@@ -22621,7 +22621,7 @@
    "id": "9a4a37f2",
    "url": "/pages/9a4a37f2/",
    "en_url": "/en/pages/9a4a37f2/",
-   "title_zh": "",
+   "title_zh": "MOD09GQ.061 Terra 地表反射率日产品全球 250 米",
    "title_en": "MOD09GQ.061 Terra Surface Reflectance Daily Global 250m",
    "cat": "satellite",
    "tags": [
@@ -22638,21 +22638,21 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：250 米。",
    "time": "2000-02-24 至 2026-10-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD09GQ",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面水平测得。低层数据针对大气气体与气溶胶做了校正。MOD09GQ 版本 6.1 在正弦投影的每日格网 L2G 产品中以 250 米分辨率提供波段 1 与 2，包括一个 QC 与五个观测层。本产…",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "9a6615e4",
    "url": "/pages/9a6615e4/",
    "en_url": "/en/pages/9a6615e4/",
-   "title_zh": "",
+   "title_zh": "MOD13A3.061 植被指数月 L3 全球 1 公里 SIN 格网",
    "title_en": "MOD13A3.061 Vegetation Indices Monthly L3 Global 1 km SIN Grid",
    "cat": "vegetation",
    "tags": [
@@ -22669,15 +22669,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-01 至 2026-09-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD13A3",
-   "intro_zh": "",
+   "intro_zh": "MOD13A3 V6.1 产品数据以 1 公里（km）空间分辨率按月提供。在生成此月产品时，算法摄入所有与该月重叠的 MOD13A2 产品并采用加权时间平均。",
    "intro_en": "The MOD13A3 V6.1 product data is provided monthly at 1 kilometer (km) spatial resolution. In generating this monthly product, the algorithm ingests all the MOD13A2 products that overlap the month and…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "9a672fd8",
@@ -23148,7 +23148,7 @@
    "id": "9c741adb",
    "url": "/pages/9c741adb/",
    "en_url": "/en/pages/9c741adb/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 NDWI",
    "title_en": "MODIS Terra Daily NDWI",
    "cat": "vegetation",
    "tags": [
@@ -23163,17 +23163,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-17",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_006_NDWI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值水指数（NDWI）对植被冠层液态水含量的变化敏感。它源自近红外波段与第二个红外波段——可用时 ≈1.24 μm，否则用最近的可用红外波段。值域为 −1.0 至 1.0。细节见 Gao（1996）。本产品由 MODIS/006/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Water Index (NDWI) is sensitive to changes in liquid water content of vegetation canopies. It is derived from the Near-IR band and a second IR band, &approx;1.24&mu;m when av…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "9c87f349",
@@ -23327,7 +23327,7 @@
    "id": "9d23ee6c",
    "url": "/pages/9d23ee6c/",
    "en_url": "/en/pages/9d23ee6c/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 EVI [已弃用]",
    "title_en": "MODIS Terra Daily EVI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -23342,17 +23342,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_EVI",
-   "intro_zh": "",
+   "intro_zh": "增强植被指数（EVI）由每个场景的近红外、红与蓝波段生成，值域为 −1.0 至 1.0。细节见 Huete 等（2002）。本产品由 MODIS/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Enhanced Vegetation Index (EVI) is generated from the Near-IR, Red and Blue bands of each scene, and ranges in value from -1.0 to 1.0. See Huete et al. (2002) for details. This product is generate…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "9d56755f",
@@ -23797,7 +23797,7 @@
    "id": "a0871702",
    "url": "/pages/a0871702/",
    "en_url": "/en/pages/a0871702/",
-   "title_zh": "",
+   "title_zh": "MYD09GA.061 Aqua 地表反射率日产品全球 1 公里与 500 米",
    "title_en": "MYD09GA.061 Aqua Surface Reflectance Daily Global 1km and 500m",
    "cat": "satellite",
    "tags": [
@@ -23814,15 +23814,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：混合（反射率 500 米、观测与地理定位统计 1 公里）。",
    "time": "2002-07-04 至 2026-10-29",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD09GA",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正。MYD09GA 版本 6.1 在正弦投影的每日格网 L2G 产品中提供波段 1–7，包括 500 米反射率值与 1 公里观测与地理定位统计。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "a08e035d",
@@ -23858,7 +23858,7 @@
    "id": "a0c5f0f5",
    "url": "/pages/a0c5f0f5/",
    "en_url": "/en/pages/a0c5f0f5/",
-   "title_zh": "",
+   "title_zh": "MOD21A1N.061 Terra 地表温度与三波段发射率日产品全球 1 公里",
    "title_en": "MOD21A1N.061 Terra Land Surface Temperature and 3-Band Emissivity Daily Global 1km",
    "cat": "climate",
    "tags": [
@@ -23875,15 +23875,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-24 至 2026-10-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD21A1N",
-   "intro_zh": "",
+   "intro_zh": "MOD21A1N 数据集每日由夜间二级格网（L2G）中间 LST 产品以 1,000 米空间分辨率生产。L2G 过程将每日 MOD21 条带颗粒映射到正弦 MODIS 格网，并存储给定日在格网单元上的所有观测。MOD21A1 算法为每个单元筛选这些观测，并将最终 LST 值估计为…",
    "intro_en": "The MOD21A1N dataset is produced daily from nighttime Level 2 Gridded (L2G) intermediate LST products at a spatial resolution of 1,000 meters. The L2G process maps the daily MOD21 swath granules onto…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "a0ccef04",
@@ -24041,7 +24041,7 @@
    "id": "a130c488",
    "url": "/pages/a130c488/",
    "en_url": "/en/pages/a130c488/",
-   "title_zh": "",
+   "title_zh": "MOD11A1.061 Terra 地表温度与发射率日产品全球 1 公里",
    "title_en": "MOD11A1.061 Terra Land Surface Temperature and Emissivity Daily Global 1km",
    "cat": "climate",
    "tags": [
@@ -24058,15 +24058,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-24 至 2026-10-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD11A1",
-   "intro_zh": "",
+   "intro_zh": "MOD11A1 V6.1 产品在 1200 × 1200 公里格网中提供每日地表温度（LST）与发射率值。温度值源自 MOD11L2 条带产品。在纬度 30 度以上，某些像元可能有多次满足晴空判据的观测。发生这种情况时，像元值是所有合格观测的平均值。连同白天与夜间地表温度波段及其…",
    "intro_en": "The MOD11A1 V6.1 product provides daily land surface temperature (LST) and emissivity values in a 1200 x 1200 kilometer grid. The temperature value is derived from the MOD11L2 swath product. Above 30…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "a143480c",
@@ -24670,7 +24670,7 @@
    "id": "a6c681c3",
    "url": "/pages/a6c681c3/",
    "en_url": "/en/pages/a6c681c3/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 EVI",
    "title_en": "MODIS Terra Daily EVI",
    "cat": "vegetation",
    "tags": [
@@ -24685,17 +24685,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-17",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_006_EVI",
-   "intro_zh": "",
+   "intro_zh": "增强植被指数（EVI）由每个场景的近红外、红与蓝波段生成，值域为 −1.0 至 1.0。细节见 Huete 等（2002）。本产品由 MODIS/006/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Enhanced Vegetation Index (EVI) is generated from the Near-IR, Red and Blue bands of each scene, and ranges in value from -1.0 to 1.0. See Huete et al. (2002) for details. This product is generate…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "a6fac662",
@@ -24732,7 +24732,7 @@
    "id": "a6fec087",
    "url": "/pages/a6fec087/",
    "en_url": "/en/pages/a6fec087/",
-   "title_zh": "",
+   "title_zh": "MYD13A1.061 Aqua 植被指数 16 天全球 500 米",
    "title_en": "MYD13A1.061 Aqua Vegetation Indices 16-Day Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -24749,15 +24749,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：500 米。",
    "time": "2002-07-04 至 2026-10-08",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD13A1",
-   "intro_zh": "",
+   "intro_zh": "MYD13A1 V6.1 产品提供逐像元的植被指数（VI）值。有两个主要植被层。第一个是归一化差值植被指数（NDVI），被称为与现有美国国家海洋和大气管理局-高级甚高分辨率辐射计（NOAA-AVHRR）推导的 NDVI 的连续性指数。第二个植被层是增强植被指数（EVI），它最小化…",
    "intro_en": "The MYD13A1 V6.1 product provides a Vegetation Index (VI) value at a per pixel basis. There are two primary vegetation layers. The first is the Normalized Difference Vegetation Index (NDVI) which is r…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "a74b5b17",
@@ -26019,7 +26019,7 @@
    "id": "b02a0fac",
    "url": "/pages/b02a0fac/",
    "en_url": "/en/pages/b02a0fac/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 BAI [已弃用]",
    "title_en": "MODIS Terra Daily BAI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -26034,17 +26034,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_BAI",
-   "intro_zh": "",
+   "intro_zh": "燃烧面积指数（BAI）由红与近红外波段生成，测量每个像元与参考光谱点（木炭的实测反射率）的光谱距离。本指数旨在强调火灾后影像中的木炭信号。细节见 Chuvieco 等（2002）。本产品由 MODIS/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Burn Area Index (BAI) is generated from the Red and Near-IR bands, and measures the spectral distance of each pixel from a reference spectral point (the measured reflectance of charcoal). This ind…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "b0803602",
@@ -26368,7 +26368,7 @@
    "id": "b27c5ae0",
    "url": "/pages/b27c5ae0/",
    "en_url": "/en/pages/b27c5ae0/",
-   "title_zh": "",
+   "title_zh": "MYD09A1.005 地表反射率 8 天 L3 全球 500 米 [已弃用]",
    "title_en": "MYD09A1.005 Surface Reflectance 8-Day L3 Global 500m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -26384,15 +26384,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：500 米。",
    "time": "2002-07-04 至 2017-03-22",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09A1",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "b2ab3105",
@@ -26689,7 +26689,7 @@
    "id": "b472e2a6",
    "url": "/pages/b472e2a6/",
    "en_url": "/en/pages/b472e2a6/",
-   "title_zh": "",
+   "title_zh": "MYD09CMG.061 Aqua 地表反射率日 L3 全球 0.05 度 CMG",
    "title_en": "MYD09CMG.061 Aqua Surface Reflectance Daily L3 Global 0.05 Deg CMG",
    "cat": "satellite",
    "tags": [
@@ -26703,15 +26703,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：5,600 米。",
    "time": "2002-07-04 至 2026-10-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD09CMG",
-   "intro_zh": "",
+   "intro_zh": "MYD09CMG 版本 6.1 产品提供 Aqua 中分辨率成像光谱仪（MODIS）波段 1 至 7 的地表光谱反射率估计，重采样到 5,600 米像元分辨率，并已对气体、气溶胶与瑞利散射等大气条件做了校正。MYD09CMG 数据产品提供 25 个层，包括 MODIS 波段 1…",
    "intro_en": "The MYD09CMG Version 6.1 product provides an estimate of the surface spectral reflectance of Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) Bands 1 through 7, resampled to 5600 meter pixel…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "b476f77f",
@@ -27446,7 +27446,7 @@
    "id": "b9507337",
    "url": "/pages/b9507337/",
    "en_url": "/en/pages/b9507337/",
-   "title_zh": "",
+   "title_zh": "MOD09CMG.061 Terra 地表反射率日 L3 全球 0.05 度 CMG",
    "title_en": "MOD09CMG.061 Terra Surface Reflectance Daily L3 Global 0.05 Deg CMG",
    "cat": "satellite",
    "tags": [
@@ -27460,15 +27460,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：5,600 米。",
    "time": "2000-02-24 至 2026-10-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD09CMG",
-   "intro_zh": "",
+   "intro_zh": "MOD09CMG 版本 6.1 产品提供 Terra 中分辨率成像光谱仪（MODIS）波段 1 至 7 的地表光谱反射率估计，重采样到 5600 米像元分辨率，并针对气体、气溶胶与瑞利散射等大气条件做了校正。MOD09CMG 数据产品提供 25 个图层，包括 MODIS 波段 1…",
    "intro_en": "The MOD09CMG Version 6.1 product provides an estimate of the surface spectral reflectance of Terra Moderate Resolution Imaging Spectroradiometer (MODIS) Bands 1 through 7, resampled to 5600 meter pixe…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "ba005b82",
@@ -28030,7 +28030,7 @@
    "id": "bff99888",
    "url": "/pages/bff99888/",
    "en_url": "/en/pages/bff99888/",
-   "title_zh": "",
+   "title_zh": "MOD17A2HGF.061 Terra 总初级生产力 8 天全球 500 米",
    "title_en": "MOD17A2HGF.061: Terra Gross Primary Productivity 8-Day Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -28047,15 +28047,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2021 年至 2025 年；分辨率：500 米。",
    "time": "2021-01-01 至 2025-12-27",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD17A2HGF",
-   "intro_zh": "",
+   "intro_zh": "MOD17A2HGF 版本 6.1 总初级生产力（GPP）产品是一个像元大小 500 米（m）的值的累积 8 天合成，基于辐射利用效率概念，可潜在地用作数据模型的输入，以计算陆地能量、碳、水循环过程与植被生物地球化学。",
    "intro_en": "The MOD17A2HGF Version 6.1 Gross Primary Productivity (GPP) product is a cumulative 8-day composite of values with 500 meter (m) pixel size based on the radiation use efficiency concept that can be po…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "c05d5fd1",
@@ -28149,7 +28149,7 @@
    "id": "c13f53a4",
    "url": "/pages/c13f53a4/",
    "en_url": "/en/pages/c13f53a4/",
-   "title_zh": "",
+   "title_zh": "MOD13Q1.061 Terra 植被指数 16 天全球 250 米",
    "title_en": "MOD13Q1.061 Terra Vegetation Indices 16-Day Global 250m",
    "cat": "vegetation",
    "tags": [
@@ -28166,15 +28166,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：250 米。",
    "time": "2000-02-18 至 2026-09-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD13Q1",
-   "intro_zh": "",
+   "intro_zh": "MOD13Q1 V6.1 产品提供逐像元的植被指数（VI）值。有两个主要植被层。第一个是归一化差值植被指数（NDVI），被称为与现有美国国家海洋和大气管理局-高级甚高分辨率辐射计（NOAA-AVHRR）推导的 NDVI 的连续性指数。第二个植被层是增强植被指数（EVI），它最小化…",
    "intro_en": "The MOD13Q1 V6.1 product provides a Vegetation Index (VI) value at a per pixel basis. There are two primary vegetation layers. The first is the Normalized Difference Vegetation Index (NDVI) which is r…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "c162d55c",
@@ -29056,7 +29056,7 @@
    "id": "c8d775aa",
    "url": "/pages/c8d775aa/",
    "en_url": "/en/pages/c8d775aa/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 NDSI [已弃用]",
    "title_en": "MODIS Terra Daily NDSI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -29071,17 +29071,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_NDSI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值雪指数用于识别雪，基于其在光谱可见光部分相对于中红外特征性更高的反射率。NDSI 使用绿与中红外波段计算，范围为 −1.0 至 1.0。细节见 Riggs 等（1994）。本产品由 MODIS/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Snow Index is used to identify snow, based on its characteristically higher reflectance in the visible portion of the spectrum compared to the mid-IR. NDSI is computed using…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "c8f806c6",
@@ -29415,7 +29415,7 @@
    "id": "cc1794f9",
    "url": "/pages/cc1794f9/",
    "en_url": "/en/pages/cc1794f9/",
-   "title_zh": "",
+   "title_zh": "MCD43A2.061 MODIS BRDF-反照率质量日产品 500 米",
    "title_en": "MCD43A2.061 MODIS BRDF-Albedo Quality Daily 500m",
    "cat": "satellite",
    "tags": [
@@ -29430,17 +29430,17 @@
    ],
    "res_m": 500.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-02-24 至 2026-10-25",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD43A2",
-   "intro_zh": "",
+   "intro_zh": "MCD43A2 V6.1 双向反射分布函数与反照率（BRDF/反照率）质量数据集是一个 500 米日 16 天产品。它包含对应的 16 天 MCD43A3 反照率与 MCD43A4 天底-BRDF（NBAR）产品的全部质量信息。",
    "intro_en": "The MCD43A2 V6.1 Bidirectional Reflectance Distribution Function and Albedo (BRDF/Albedo) Quality dataset is a 500 meter daily 16-day product. It contains all the quality information for the correspon…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "cc549b91",
@@ -29733,7 +29733,7 @@
    "id": "ce32901f",
    "url": "/pages/ce32901f/",
    "en_url": "/en/pages/ce32901f/",
-   "title_zh": "",
+   "title_zh": "MOD09GA.005 Terra 地表反射率日 L2G 全球 1 公里与 500 米 [已弃用]",
    "title_en": "MOD09GA.005 Terra Surface Reflectance Daily L2G Global 1km and 500m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -29750,15 +29750,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：混合（反射率 500 米、观测与地理定位统计 1 公里）。",
    "time": "2000-02-24 至 2017-03-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "ce784a9b",
@@ -29939,7 +29939,7 @@
    "id": "cf65a02a",
    "url": "/pages/cf65a02a/",
    "en_url": "/en/pages/cf65a02a/",
-   "title_zh": "",
+   "title_zh": "MOD10A2.061 Terra 雪覆盖 8 天 L3 全球 500 米",
    "title_en": "MOD10A2.061 Terra Snow Cover 8-Day L3 Global 500m",
    "cat": "cryosphere",
    "tags": [
@@ -29956,15 +29956,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-02-18 至 2026-10-16",
    "provider": "NASA NSIDC DAAC at CIRES",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD10A2",
-   "intro_zh": "",
+   "intro_zh": "MOD10A2 是一个来自 Terra 卫星 MODIS 的雪覆盖数据集。该数据集以 500 米分辨率报告八天时段内的最大雪覆盖范围。",
    "intro_en": "MOD10A2 is a snow cover dataset from the MODIS on the Terra satellite. The dataset reports the maximum snow cover extent during an eight-day period at the resolution of 500 m.",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "cf948667",
@@ -30026,7 +30026,7 @@
    "id": "cfc73d5b",
    "url": "/pages/cfc73d5b/",
    "en_url": "/en/pages/cfc73d5b/",
-   "title_zh": "",
+   "title_zh": "MOD14A1.061 Terra 热异常与火日产品全球 1 公里",
    "title_en": "MOD14A1.061: Terra Thermal Anomalies & Fire Daily Global 1km",
    "cat": "hazards",
    "tags": [
@@ -30043,15 +30043,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-24 至 2026-10-23",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD14A1",
-   "intro_zh": "",
+   "intro_zh": "MOD14A1 V6.1 数据集提供源自 MODIS 4 与 11 微米辐射的 1 公里分辨率每日火掩膜合成。火探测策略基于对火的绝对探测（当火强度足以探测时），以及相对于其背景的探测（以考虑地表温度变异与阳光反射）。产品区分火、无火与无观测。此信息用于监测不同生态系统中火的空间…",
    "intro_en": "The MOD14A1 V6.1 dataset provides daily fire mask composites at 1km resolution derived from the MODIS 4- and 11-micrometer radiances. The fire detection strategy is based on absolute detection of a fi…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "cfcc463e",
@@ -30498,7 +30498,7 @@
    "id": "d39badfd",
    "url": "/pages/d39badfd/",
    "en_url": "/en/pages/d39badfd/",
-   "title_zh": "",
+   "title_zh": "MYD13Q1.061 Aqua 植被指数 16 天全球 250 米",
    "title_en": "MYD13Q1.061 Aqua Vegetation Indices 16-Day Global 250m",
    "cat": "vegetation",
    "tags": [
@@ -30515,15 +30515,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：250 米。",
    "time": "2002-07-04 至 2026-10-08",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD13Q1",
-   "intro_zh": "",
+   "intro_zh": "MYD13Q1 V6.1 产品提供逐像元的植被指数（VI）值。有两个主要植被层。第一个是归一化差值植被指数（NDVI），被称为与现有美国国家海洋和大气管理局-高级甚高分辨率辐射计（NOAA-AVHRR）推导的 NDVI 的连续性指数。第二个植被层是增强植被指数（EVI），它最小化…",
    "intro_en": "The MYD13Q1 V6.1 product provides a Vegetation Index (VI) value at a per pixel basis. There are two primary vegetation layers. The first is the Normalized Difference Vegetation Index (NDVI) which is r…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "d3ac795f",
@@ -30826,7 +30826,7 @@
    "id": "d5e48b42",
    "url": "/pages/d5e48b42/",
    "en_url": "/en/pages/d5e48b42/",
-   "title_zh": "",
+   "title_zh": "MOD13A2.061 Terra 植被指数 16 天全球 1 公里",
    "title_en": "MOD13A2.061 Terra Vegetation Indices 16-Day Global 1km",
    "cat": "vegetation",
    "tags": [
@@ -30843,15 +30843,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-18 至 2026-09-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD13A2",
-   "intro_zh": "",
+   "intro_zh": "MOD13A2 V6.1 产品提供两种植被指数（VI）：归一化差值植被指数（NDVI）与增强植被指数（EVI）。NDVI 被称为与现有 NOAA-AVHRR 推导的 NDVI 的连续性指数。EVI 在高生物量区域具有改进的灵敏度。",
    "intro_en": "The MOD13A2 V6.1 product provides two Vegetation Indices (VI): the Normalized Difference Vegetation Index (NDVI) and the Enhanced Vegetation Index (EVI). The NDVI is referred to as the continuity inde…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "d602c2cf",
@@ -30888,7 +30888,7 @@
    "id": "d644386b",
    "url": "/pages/d644386b/",
    "en_url": "/en/pages/d644386b/",
-   "title_zh": "",
+   "title_zh": "MYD09A1.061 Aqua 地表反射率 8 天全球 500 米",
    "title_en": "MYD09A1.061 Aqua Surface Reflectance 8-Day Global 500m",
    "cat": "satellite",
    "tags": [
@@ -30905,15 +30905,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：500 米。",
    "time": "2002-07-04 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD09A1",
-   "intro_zh": "",
+   "intro_zh": "MYD09A1 V6.1 产品提供 Aqua MODIS 波段 1–7 在 500 米分辨率的地表光谱反射率估计，并已对气体、气溶胶与瑞利散射等大气条件做了校正。连同七个反射率波段，还有一个质量层与四个观测波段。对每个像元，从 8 天合成内的所有获取中基于高观测覆盖、低视角、无云…",
    "intro_en": "The MYD09A1 V6.1 product provides an estimate of the surface spectral reflectance of Aqua MODIS bands 1-7 at 500m resolution and corrected for atmospheric conditions such as gasses, aerosols, and Rayl…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "d6873dcd",
@@ -30981,7 +30981,7 @@
    "id": "d6ab7a99",
    "url": "/pages/d6ab7a99/",
    "en_url": "/en/pages/d6ab7a99/",
-   "title_zh": "",
+   "title_zh": "MOD13A1.061 Terra 植被指数 16 天全球 500 米",
    "title_en": "MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m",
    "cat": "vegetation",
    "tags": [
@@ -30998,15 +30998,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-02-18 至 2026-09-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD13A1",
-   "intro_zh": "",
+   "intro_zh": "MOD13A1 V6.1 产品提供逐像元的植被指数（VI）值。有两个主要植被层。第一个是归一化差值植被指数（NDVI），被称为与现有美国国家海洋和大气管理局-高级甚高分辨率辐射计（NOAA-AVHRR）推导的 NDVI 的连续性指数。第二个植被层是增强植被指数（EVI），它最小化…",
    "intro_en": "The MOD13A1 V6.1 product provides a Vegetation Index (VI) value at a per pixel basis. There are two primary vegetation layers. The first is the Normalized Difference Vegetation Index (NDVI) which is r…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "d6bb5ead",
@@ -31930,7 +31930,7 @@
    "id": "ddb320e1",
    "url": "/pages/ddb320e1/",
    "en_url": "/en/pages/ddb320e1/",
-   "title_zh": "",
+   "title_zh": "MYD16A2.061：Aqua 净蒸散 8 天 L4 全球 500 米 SIN 格网 V061",
    "title_en": "MYD16A2.061: Aqua Net Evapotranspiration 8-Day L4 Global 500m SIN Grid V061",
    "cat": "vegetation",
    "tags": [
@@ -31945,15 +31945,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2021 年至 2026 年；分辨率：500 米。",
    "time": "2021-01-01 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD16A2",
-   "intro_zh": "",
+   "intro_zh": "MYD16A2 版本 6.1 蒸散/潜热通量产品是一个像元分辨率 500 米的 8 天合成产品。MOD16 数据产品集合使用的算法基于 Penman-Monteith 方程的逻辑，包括每日气象再分析数据输入以及 MODIS 遥感数据产品，如植被属性动力学、反照率与土地覆盖。",
    "intro_en": "The MYD16A2 Version 6.1 Evapotranspiration/Latent Heat Flux product is an 8-day composite product at 500 meter pixel resolution. The algorithm used for the MOD16 data product collection is based on th…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "ddb7c418",
@@ -32607,7 +32607,7 @@
    "id": "e25ce455",
    "url": "/pages/e25ce455/",
    "en_url": "/en/pages/e25ce455/",
-   "title_zh": "",
+   "title_zh": "MYD21C1.061 Aqua 地表温度与三波段发射率日 L3 全球 0.05 度 CMG",
    "title_en": "MYD21C1.061 Aqua Land Surface Temperature and 3-Band Emissivity Daily L3 Global 0.05 Deg CMG",
    "cat": "climate",
    "tags": [
@@ -32624,15 +32624,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里（CMG 0.05 度）。",
    "time": "2000-02-24 至 2026-10-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD21C1",
-   "intro_zh": "",
+   "intro_zh": "MYD21C1 数据集每日在 0.05 度（赤道 5,600 米）气候建模网格（CMG）中由白天二级格网（L2G）中间 LST 产品生产。L2G 过程将每日 MYD21 条带颗粒映射到正弦 MODIS 格网，并存储给定日在格网单元上的所有观测。MYD21C1 算法为每个单元筛选这…",
    "intro_en": "The MYD21C1 dataset is produced daily in a 0.05 degree (5,600 meters at the equator) Climate Modeling Grid (CMG) from daytime Level 2 Gridded (L2G) intermediate LST products. The L2G process maps the…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "e2605d8f",
@@ -33112,7 +33112,7 @@
    "id": "e715955d",
    "url": "/pages/e715955d/",
    "en_url": "/en/pages/e715955d/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 NDVI",
    "title_en": "MODIS Terra Daily NDVI",
    "cat": "vegetation",
    "tags": [
@@ -33127,23 +33127,23 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2023-02-17",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_006_NDVI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值植被指数由每个场景的近红外与红波段按（NIR − Red）/（NIR + Red）生成，值域为 −1.0 至 1.0。本产品由 MODIS/006/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Vegetation Index is generated from the Near-IR and Red bands of each scene as (NIR - Red) / (NIR + Red), and ranges in value from -1.0 to 1.0. This product is generated from…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "e72cb414",
    "url": "/pages/e72cb414/",
    "en_url": "/en/pages/e72cb414/",
-   "title_zh": "",
+   "title_zh": "MCD18C2.062 光合有效辐射日 3 小时",
    "title_en": "MCD18C2.062 Photosynthetically Active Radiation Daily 3-Hour",
    "cat": "climate",
    "tags": [
@@ -33155,15 +33155,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：5,566 米。",
    "time": "2000-02-24 至 2026-08-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/062/MCD18C2",
-   "intro_zh": "",
+   "intro_zh": "MCD18C2 版本 6.2 是一个中分辨率成像光谱仪（MODIS）Terra 与 Aqua 组合光合有效辐射（PAR）格网三级产品，每日以 0.05 度（赤道 5,600 米）分辨率生产，并提供每 3 小时的 PAR 估计。PAR 是可见光谱（400–700 纳米）内的入射太阳…",
    "intro_en": "The MCD18C2 Version 6.2 is a Moderate Resolution Imaging Spectroradiometer (MODIS) Terra and Aqua combined Photosynthetically Active Radiation (PAR) gridded Level 3 product produced daily at 0.05 degr…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "e74324aa",
@@ -33430,7 +33430,7 @@
    "id": "e8b5565a",
    "url": "/pages/e8b5565a/",
    "en_url": "/en/pages/e8b5565a/",
-   "title_zh": "",
+   "title_zh": "MODIS Terra 每日 NDVI [已弃用]",
    "title_en": "MODIS Terra Daily NDVI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -33445,17 +33445,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2000-02-24 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD09GA_NDVI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值植被指数由每个场景的近红外与红波段按（NIR − Red）/（NIR + Red）生成，值域为 −1.0 至 1.0。本产品由 MODIS/MOD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Vegetation Index is generated from the Near-IR and Red bands of each scene as (NIR - Red) / (NIR + Red), and ranges in value from -1.0 to 1.0. This product is generated from…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "e8f1e399",
@@ -33636,7 +33636,7 @@
    "id": "ea336063",
    "url": "/pages/ea336063/",
    "en_url": "/en/pages/ea336063/",
-   "title_zh": "",
+   "title_zh": "MOD21A1D.061 Terra 地表温度与三波段发射率日产品全球 1 公里",
    "title_en": "MOD21A1D.061 Terra Land Surface Temperature and 3-Band Emissivity Daily Global 1km",
    "cat": "climate",
    "tags": [
@@ -33653,15 +33653,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-24 至 2026-10-29",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD21A1D",
-   "intro_zh": "",
+   "intro_zh": "MOD21A1D 数据集每日由白天二级格网（L2G）中间 LST 产品以 1,000 米空间分辨率生产。L2G 过程将每日 MOD21 条带颗粒映射到正弦 MODIS 格网，并存储给定日在格网单元上的所有观测。MOD21A1 算法为每个单元筛选这些观测，并将最终 LST 值估计为…",
    "intro_en": "The MOD21A1D dataset is produced daily from daytime Level 2 Gridded (L2G) intermediate LST products at a spatial resolution of 1,000 meters. The L2G process maps the daily MOD21 swath granules onto a…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "ea4a3021",
@@ -33724,7 +33724,7 @@
    "id": "ea60f587",
    "url": "/pages/ea60f587/",
    "en_url": "/en/pages/ea60f587/",
-   "title_zh": "",
+   "title_zh": "MYD13A3.061 Aqua 植被指数月 L3 全球 1 公里 SIN 格网",
    "title_en": "MYD13A3.061 Aqua Vegetation Indices Monthly L3 Global 1 km SIN Grid",
    "cat": "vegetation",
    "tags": [
@@ -33741,15 +33741,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：1 公里。",
    "time": "2002-07-01 至 2026-09-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD13A3",
-   "intro_zh": "",
+   "intro_zh": "Aqua 中分辨率成像光谱仪（MODIS）植被指数（MYD13A3）版本 6.1 数据以 1 公里（km）空间分辨率按月提供，为正弦投影的格网三级产品。在生成此月产品时，算法摄入所有与该月重叠的 MYD13A2 产品并采用加权时间平均。",
    "intro_en": "The Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) Vegetation Indices (MYD13A3) Version 6.1 data are provided monthly at 1 kilometer (km) spatial resolution as a gridded Level 3 product in…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "ea9a554f",
@@ -33875,7 +33875,7 @@
    "id": "eb9b9a45",
    "url": "/pages/eb9b9a45/",
    "en_url": "/en/pages/eb9b9a45/",
-   "title_zh": "",
+   "title_zh": "MOD11A2.005 地表温度与发射率 8 天全球 1 公里 [已弃用]",
    "title_en": "MOD11A2.005 Land Surface Temperature and Emissivity 8-Day Global 1km [deprecated]",
    "cat": "landcover",
    "tags": [
@@ -33892,15 +33892,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：1 公里。",
    "time": "2000-03-05 至 2017-03-22",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD11A2",
-   "intro_zh": "",
+   "intro_zh": "三级 MODIS 全球地表温度（LST）与发射率 8 天数据由每日 1 公里 LST 产品（MOD11A1）合成，并存储在 1 公里正弦格网上，作为 8 天时段内晴空 LST 的平均值。",
    "intro_en": "The level-3 MODIS global Land Surface Temperature (LST) and Emissivity 8-day data are composed from the daily 1-kilometer LST product (MOD11A1) and stored on a 1-km Sinusoidal grid as the average valu…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "eba63a4f",
@@ -34514,7 +34514,7 @@
    "id": "f1b7626d",
    "url": "/pages/f1b7626d/",
    "en_url": "/en/pages/f1b7626d/",
-   "title_zh": "",
+   "title_zh": "MOD14A2.061 Terra 热异常与火 8 天全球 1 公里",
    "title_en": "MOD14A2.061: Terra Thermal Anomalies & Fire 8-Day Global 1km",
    "cat": "hazards",
    "tags": [
@@ -34531,15 +34531,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。",
    "time": "2000-02-18 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD14A2",
-   "intro_zh": "",
+   "intro_zh": "MOD14A2 V6.1 数据集提供 1 公里分辨率的 8 天火掩膜合成。它包含合成时段内单个像元类别的最大值。连同火掩膜，还提供一个关联的质量信息层。",
    "intro_en": "The MOD14A2 V6.1 dataset provides 8-day fire mask composites at 1km resolution. It contains the maximum value of the individual pixel classes over the compositing period. Along with the fire mask, an…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "f230ed9d",
@@ -34634,7 +34634,7 @@
    "id": "f2dfffb1",
    "url": "/pages/f2dfffb1/",
    "en_url": "/en/pages/f2dfffb1/",
-   "title_zh": "",
+   "title_zh": "MCD43A4.061 MODIS 天底 BRDF 调整反射率日产品 500 米",
    "title_en": "MCD43A4.061 MODIS Nadir BRDF-Adjusted Reflectance Daily 500m",
    "cat": "satellite",
    "tags": [
@@ -34649,17 +34649,17 @@
    ],
    "res_m": 500.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米。",
    "time": "2000-02-24 至 2026-10-23",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MCD43A4",
-   "intro_zh": "",
+   "intro_zh": "MCD43A4 V6.1 天底双向反射分布函数调整反射率（NBAR）产品提供 MODIS「陆地」波段 1–7 的 500 米反射率数据。这些数据使用双向反射分布函数调整，以将值建模为如同从天底视角收集。数据基于 16 天反演时段每日生产，影像日期为第 9 天。本产品组合 Terr…",
    "intro_en": "The MCD43A4 V6.1 Nadir Bidirectional Reflectance Distribution Function Adjusted Reflectance (NBAR) product provides 500 meter reflectance data of the MODIS \\\"land\\\" bands 1-7. These are adjusted using…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "f2e17038",
@@ -34692,7 +34692,7 @@
    "id": "f2ee9fbd",
    "url": "/pages/f2ee9fbd/",
    "en_url": "/en/pages/f2ee9fbd/",
-   "title_zh": "",
+   "title_zh": "MOD09GA.061 Terra 地表反射率日产品全球 1 公里与 500 米",
    "title_en": "MOD09GA.061 Terra Surface Reflectance Daily Global 1km and 500m",
    "cat": "satellite",
    "tags": [
@@ -34709,15 +34709,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：500 米与 1 公里。",
    "time": "2000-02-24 至 2026-10-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD09GA",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面水平测得。低层数据针对大气气体与气溶胶做了校正。MOD09GA 版本 6.1 在正弦投影的每日格网 L2G 产品中提供波段 1–7，包括 500 米反射率值与 1 公里观测和地理定位统计。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "f32db577",
@@ -35410,7 +35410,7 @@
    "id": "f900381f",
    "url": "/pages/f900381f/",
    "en_url": "/en/pages/f900381f/",
-   "title_zh": "",
+   "title_zh": "MOD21C3.061 Terra 地表温度与三波段发射率月 L3 全球 0.05 度 CMG",
    "title_en": "MOD21C3.061 Terra Land Surface Temperature and 3-Band Emissivity Monthly L3 Global 0.05 Deg CMG",
    "cat": "climate",
    "tags": [
@@ -35427,15 +35427,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里（CMG 0.05 度）。",
    "time": "2000-02-24 至 2026-09-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD21C3",
-   "intro_zh": "",
+   "intro_zh": "MOD21C3 数据集是一个使用基于简单平均方法的算法的月合成 LST 产品。算法计算 8 天时段内所有无云 MOD21A1D 与 MOD21A1N 每日获取的平均值。与白天与夜间获取为单独产品的 MOD21A1 数据集不同，MOD21A2 同时包含白天与夜间获取。LST、质量控…",
    "intro_en": "The MOD21C3 dataset is a monthly composite LST product that uses an algorithm based on a simple averaging method. The algorithm calculates the average from all the cloud free MOD21A1D and MOD21A1N dai…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "f912c733",
@@ -35694,7 +35694,7 @@
    "id": "fb16b7df",
    "url": "/pages/fb16b7df/",
    "en_url": "/en/pages/fb16b7df/",
-   "title_zh": "",
+   "title_zh": "MYD10A1.061 Aqua 雪盖日产品全球 500 米",
    "title_en": "MYD10A1.061 Aqua Snow Cover Daily Global 500m",
    "cat": "cryosphere",
    "tags": [
@@ -35711,21 +35711,21 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2026 年；分辨率：500 米。",
    "time": "2002-07-04 至 2026-10-30",
    "provider": "NASA NSIDC DAAC at CIRES",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MYD10A1",
-   "intro_zh": "",
+   "intro_zh": "MYD10A1 V6 雪盖日产品全球 500 米包含雪盖、雪反照率、分数雪盖与质量评估（QA）数据。雪盖数据基于采用归一化差值雪指数（NDSI）与其他判据检验的雪制图算法。",
    "intro_en": "The MYD10A1 V6 Snow Cover Daily Global 500m product contains snow cover, snow albedo, fractional snow cover, and quality assessment (QA) data. Snow cover data are based on a snow mapping algorithm tha…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "fbc9aba9",
    "url": "/pages/fbc9aba9/",
    "en_url": "/en/pages/fbc9aba9/",
-   "title_zh": "",
+   "title_zh": "MOD11A1.005 Terra 地表温度与发射率日产品全球 1 公里 SIN 格网 [已弃用]",
    "title_en": "MOD11A1.005 Terra Land Surface Temperature and Emissivity Daily Global 1 km Grid SIN [deprecated]",
    "cat": "landcover",
    "tags": [
@@ -35742,15 +35742,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：1 公里。",
    "time": "2000-03-05 至 2017-03-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD11A1",
-   "intro_zh": "",
+   "intro_zh": "MODIS/Terra 地表温度与发射率（LST/E）产品 MOD11A1 提供逐像元的温度与发射率值，每日使用广义分裂窗 LST 算法生产。该算法最适合用于将大气柱水汽与下边界空气表面温度的范围分离为可处理的子范围。波段 31 与 32 的地表发射率由土地覆盖类型估计。",
    "intro_en": "The MODIS/Terra Land Surface Temperature and Emissivity (LST/E) product, MOD11A1, provides per-pixel temperature and emissivity values, which are produced daily using the generalized split-window LST…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "fbd098e5",
@@ -35954,7 +35954,7 @@
    "id": "fd40c603",
    "url": "/pages/fd40c603/",
    "en_url": "/en/pages/fd40c603/",
-   "title_zh": "",
+   "title_zh": "MOD10A1.005 Terra 雪盖日产品全球 500 米 [已弃用]",
    "title_en": "MOD10A1.005 Terra Snow Cover Daily Global 500m [deprecated]",
    "cat": "cryosphere",
    "tags": [
@@ -35971,15 +35971,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2016 年；分辨率：500 米。",
    "time": "2000-02-24 至 2016-12-26",
    "provider": "NSIDC",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MOD10A1",
-   "intro_zh": "",
+   "intro_zh": "MOD10A1 V5 雪盖日产品全球 500 米包含雪盖、雪反照率、分数雪盖与质量评估（QA）数据。雪盖数据基于采用归一化差值雪指数（NDSI）与其他判据检验的雪制图算法。",
    "intro_en": "The MOD10A1 V5 Snow Cover Daily Global 500m product contains snow cover, snow albedo, fractional snow cover, and quality assessment (QA) data. Snow cover data are based on a snow mapping algorithm tha…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "fd53e731",
@@ -36285,7 +36285,7 @@
    "id": "fef8c627",
    "url": "/pages/fef8c627/",
    "en_url": "/en/pages/fef8c627/",
-   "title_zh": "",
+   "title_zh": "MOD09Q1.061 Terra 地表反射率 8 天全球 250 米",
    "title_en": "MOD09Q1.061 Terra Surface Reflectance 8-Day Global 250m",
    "cat": "satellite",
    "tags": [
@@ -36302,15 +36302,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：250 米。",
    "time": "2000-02-18 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/061/MOD09Q1",
-   "intro_zh": "",
+   "intro_zh": "MOD09Q1 产品提供波段 1 与 2 在 250 米分辨率的地表光谱反射率估计，并针对气体、气溶胶与瑞利散射等大气条件做了校正。连同两个反射率波段，还包括一个质量层。对每个像元，从 8 天合成内的所有获取中基于高观测覆盖、低视角、无云或云影以及气溶胶负荷选择一个值。",
    "intro_en": "The MOD09Q1 product provides an estimate of the surface spectral reflectance of bands 1 and 2 at 250m resolution and corrected for atmospheric conditions such as gasses, aerosols, and Rayleigh scatter…",
    "type": "A",
-   "batch": ""
+   "batch": "A-06"
   },
   {
    "id": "ff1671f5",

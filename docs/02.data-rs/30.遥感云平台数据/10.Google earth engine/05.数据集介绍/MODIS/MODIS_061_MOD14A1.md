@@ -1,5 +1,5 @@
 ---
-title: "MOD14A1.061: Terra Thermal Anomalies & Fire Daily Global 1km"
+title: "MOD14A1.061 Terra 热异常与火日产品全球 1 公里"
 date: 2026-11-03 12:00:00
 permalink: /pages/cfc73d5b/
 categories:
@@ -17,61 +17,68 @@ tags:
   - "usgs"
 ---
 
-# MOD14A1.061: Terra Thermal Anomalies & Fire Daily Global 1km
+# MOD14A1.061 Terra 热异常与火日产品全球 1 公里
 
-## 数据集简介
+英文原名：MOD14A1.061: Terra Thermal Anomalies & Fire Daily Global 1km
 
-The MOD14A1 V6.1 dataset provides daily fire mask composites
-at 1km resolution derived from the MODIS 4- and 11-micrometer radiances.
-The fire detection strategy is based on absolute detection of a
-fire (when the fire strength is sufficient to detect), and on detection
-relative to its background (to account for variability of the surface
-temperature and reflection by sunlight). The product distinguishes
-between fire, no fire and no observation. This information is used
-for monitoring the spatial and temporal distribution of fires in
-different ecosystems, detecting changes in fire distribution and
-identifying new fire frontiers, wild fires, and changes in the
-frequency of the fires  or their relative strength.
+## 这是什么数据
 
-Documentation:
+MOD14A1 V6.1 数据集提供源自 MODIS 4 与 11 微米辐射的 1 公里分辨率每日火掩膜合成。火探测策略基于对火的绝对探测（当火强度足以探测时），以及相对于其背景的探测（以考虑地表温度变异与阳光反射）。产品区分火、无火与无观测。此信息用于监测不同生态系统中火的空间与时间分布、探测火分布的变化并识别新的火前沿、野火，以及火频率或其相对强度的变化。
 
-* [User's Guide](https://lpdaac.usgs.gov/documents/1005/MOD14_User_Guide_V61.pdf)
+## 覆盖范围与时间
 
-* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/87/MOD14_ATBD.pdf)
-
-* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MOD14A1)
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`MODIS/061/MOD14A1`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：1 公里。
 - 时间范围：2000-02-24 至 2026-10-23
-- 空间分辨率：1000 米
-- 许可：proprietary
-- 关键词：daily, fire, global, mod14a1, modis, nasa, terra, usgs
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 1,000 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| FireMask | Confidence of fire | 1000 |  |
-| MaxFRP | Maximum fire radiative power | 1000 |  |
-| sample | Position of fire pixel within scan | 1000 |  |
-| QA | Pixel quality indicators | 1000 |  |
+| FireMask | 火的置信度。 | 1000 |  |
+| MaxFRP | 最大火辐射功率。 | 1000 |  |
+| sample | 火像元在扫描内的位置。 | 1000 |  |
+| QA | 像元质量指示。 | 1000 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 火灾监测与预警
+- 火烧迹地评估
+- 火辐射功率分析
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/061/MOD14A1');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/061/MOD14A1`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD14A1
+* [User's Guide](https://lpdaac.usgs.gov/documents/1005/MOD14_User_Guide_V61.pdf)
+* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/87/MOD14_ATBD.pdf)
+* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MOD14A1)
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：daily, fire, global, mod14a1, modis, nasa, terra, usgs
 - 数据引用：Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data)
 for information on citing LP DAAC datasets.
 
 - DOI：10.5067/MODIS/MOD14A1.061
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [MCD64A1.061 MODIS Burned Area Monthly Global 500m](/pages/11a394bf/)
+- [MOD14A2.061: Terra Thermal Anomalies & Fire 8-Day Global 1km](/pages/f1b7626d/)
+- [MYD14A1.061: Aqua Thermal Anomalies & Fire Daily Global 1km](/pages/051acfdf/)
+- [MYD14A2.061: Aqua Thermal Anomalies & Fire 8-Day Global 1km](/pages/0b8d7e79/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

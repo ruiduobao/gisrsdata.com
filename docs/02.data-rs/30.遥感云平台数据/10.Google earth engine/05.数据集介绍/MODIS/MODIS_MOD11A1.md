@@ -1,5 +1,5 @@
 ---
-title: "MOD11A1.005 Terra Land Surface Temperature and Emissivity Daily Global 1 km Grid SIN [deprecated]"
+title: "MOD11A1.005 Terra 地表温度与发射率日产品全球 1 公里 SIN 格网 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/fbc9aba9/
 categories:
@@ -18,101 +18,80 @@ tags:
   - "terra"
 ---
 
-# MOD11A1.005 Terra Land Surface Temperature and Emissivity Daily Global 1 km Grid SIN [deprecated]
+# MOD11A1.005 Terra 地表温度与发射率日产品全球 1 公里 SIN 格网 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：MOD11A1.005 Terra Land Surface Temperature and Emissivity Daily Global 1 km Grid SIN [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The MODIS/Terra Land Surface Temperature and
-Emissivity (LST/E) product, MOD11A1, provides per-pixel temperature and
-emissivity values, which are produced daily using the generalized split-window
-LST algorithm.  This algorithm is optimally used to separate ranges of
-atmospheric column water vapor and lower boundary air surface temperatures into
-tractable sub-ranges. The surface emissivities in bands 31 and 32 are estimated
-from land cover types.
+MODIS/Terra 地表温度与发射率（LST/E）产品 MOD11A1 提供逐像元的温度与发射率值，每日使用广义分裂窗 LST 算法生产。该算法最适合用于将大气柱水汽与下边界空气表面温度的范围分离为可处理的子范围。波段 31 与 32 的地表发射率由土地覆盖类型估计。
 
-The V5 MOD11A1 products are projected in a Sinusoidal grid by mapping the
-level-2 LST product (MOD11_L2) on 1-kilometer (precisely 0.928-km) grids. The
-MOD11A1 product comprises the following Science Data Set (SDS) layers for
-daytime and nighttime observations:
+V5 MOD11A1 产品通过将二级 LST 产品（MOD11_L2）映射到 1 公里（精确为 0.928 公里）格网上，投影在正弦格网中。MOD11A1 产品包含以下用于白天与夜间观测的科学数据集（SDS）层：
 
-- LST_Day_1km: Daytime Land Surface Temperatures (K),  Scale 0.02
-- QC_Day: Daytime Surface Temperature quality control assessments
-- Day_view_time: Daytime LST Observation Times (Hours), Scale 0.1
-- Day_view_angle: Daytime View Zenith Angles (Degrees), Offset -65.0
-- LST_Night_1km: Nighttime Land Surface Temperatures (K),  Scale 0.02
-- QC_Night: Nighttime Surface Temperature quality control assessments
-- Night_view_time: Nighttime LST Observation Times (Hours), Scale 0.1
-- Night_view_angle: Nighttime View Zenith Angles (Degrees), Offset -65.0
-- Emis_31: Bands 31 Emissivity, Scale 0.002, Offset 0.49
-- Emis_32: Bands 32 Emissivity, Scale 0.002, Offset 0.49
-- Clear_night_cov: Nighttime Clear Sky Coverage, Scale 0.0005
-- Clear_day_cov: Daytime Clear Sky Coverage, Scale 0.0005
+- LST_Day_1km：白天地表温度（K），比例 0.02 - QC_Day：白天表面温度质量控制评估 - Day_view_time：白天 LST 观测时间（小时），比例 0.1 - Day_view_angle：白天观测天顶角（度），偏移 −65.0 - LST_Night_1km：夜间地表温度（K），比例 0.02 - QC_Night：夜间表面温度质量控制评估 - Night_view_time：夜间 LST 观测时间（小时），比例 0.1 - Night_view_angle：夜间观测天顶角（度），偏移 −65.0 - Emis_31：波段 31 发射率，比例 0.002，偏移 0.49 - Emis_32：波段 32 发射率，比例 0.002，偏移 0.49 - Clear_night_cov：夜间晴空覆盖，比例 0.0005 - Clear_day_cov：白天晴空覆盖，比例 0.0005
 
-QC bit flags:
+QC 比特标志：
 
-- Bits 0-1: Mandatory QC Flag
-   - 00: LST produced, good quality, not necessary to examine detailed QC.
-   - 01: LST produced, unreliable or unquantifiable quality, recommend examination of more detailed QC.
-   - 10: LST not produced due to cloud effects.
-   - 11: LST not produced primarily due to reasons other than clouds.
-- Bits 2-3: Data Quality Flag
-   - 00: Good quality L1B in bands 31 and 32.
-   - 01: Other quality data.
-   - 10: TBD
-   - 11: TBD
-- Bits 4-5: Emissivity Error Flag
-   - 00: Average emissivity error &le; 0.01
-   - 01: Average emissivity error &le; 0.02
-   - 10: Average emissivity error &le; 0.04
-   - 11: Average emissivity error &gt; 0.04
-- Bits 6-7: LST Error Flag
-   - 00: Average LST error &le; 1 K
-   - 01: Average LST error &le; 2 K
-   - 10: Average LST error &le; 3 K
-   - 11: Average LST error &gt; 3 K
+- 比特 0-1：强制 QC 标志 - 00：已生产 LST，质量良好，无需检查详细 QC。 - 01：已生产 LST，质量不可靠或不可量化，建议检查更详细的 QC。 - 10：因云影响未生产 LST。 - 11：主要因云以外的原因未生产 LST。 - 比特 2-3：数据质量标志 - 00：波段 31 与 32 的 L1B 质量良好。 - 01：其他质量数据。 - 10：待定 - 11：待定 - 比特 4-5：发射率误差标志 - 00：平均发射率误差 ≤ 0.01 - 01：平均发射率误差 ≤ 0.02 - 10：平均发射率误差 ≤ 0.04 - 11：平均发射率误差 > 0.04 - 比特 6-7：LST 误差标志 - 00：平均 LST 误差 ≤ 1 K - 01：平均 LST 误差 ≤ 2 K - 10：平均 LST 误差 ≤ 3 K - 11：平均 LST 误差 > 3 K
 
-The V5 Terra/MODIS LST/E products, including MOD11A1, are validated to Stage-2
-through field campaigns and radiance-based validation studies.
+包括 MOD11A1 在内的 V5 Terra/MODIS LST/E 产品已通过外业活动与基于辐射的验证研究验证至阶段 2。
 
-Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
+请访问 [LP DAAC「引用我们的数据」页面](https://lpdaac.usgs.gov/citing_our_data) 了解引用 LP DAAC 数据集的信息。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`MODIS/MOD11A1`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：1 公里。
 - 时间范围：2000-03-05 至 2017-03-30
-- 空间分辨率：1000 米
-- 许可：proprietary
-- 关键词：daily, emissivity, global, landuse-landcover, lst, mod11a1, modis, surface-temperature, terra
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 1,000 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| LST_Day_1km | Daytime Land Surface Temperature | 1000 |  |
-| QC_Day | Daytime LST Quality Indicators | 1000 |  |
-| Day_view_time | Local time of day observation | 1000 |  |
-| Day_view_angle | View zenith angle of day observation | 1000 |  |
-| LST_Night_1km | Nighttime Land Surface Temperature | 1000 |  |
-| QC_Night | Nighttime LST Quality indicators | 1000 |  |
-| Night_view_time | Local time of night observation | 1000 |  |
-| Night_view_angle | View zenith angle of night observation | 1000 |  |
-| Emis_31 | Band 31 emissivity | 1000 |  |
-| Emis_32 | Band 32 emissivity | 1000 |  |
-| Clear_day_cov | Day clear-sky coverage | 1000 |  |
-| Clear_night_cov | Night clear-sky coverage | 1000 |  |
+| LST_Day_1km | 白天地表温度。 | 1000 |  |
+| QC_Day | 白天 LST 质量指示。 | 1000 |  |
+| Day_view_time | 白天观测的当地时间。 | 1000 |  |
+| Day_view_angle | 白天观测的观测天顶角。 | 1000 |  |
+| LST_Night_1km | 夜间地表温度。 | 1000 |  |
+| QC_Night | 夜间 LST 质量指示。 | 1000 |  |
+| Night_view_time | 夜间观测的当地时间。 | 1000 |  |
+| Night_view_angle | 夜间观测的观测天顶角。 | 1000 |  |
+| Emis_31 | 波段 31 发射率。 | 1000 |  |
+| Emis_32 | 波段 32 发射率。 | 1000 |  |
+| Clear_day_cov | 白天晴空覆盖。 | 1000 |  |
+| Clear_night_cov | 夜间晴空覆盖。 | 1000 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 地表温度监测
+- 城市热岛与气候研究
+- 干旱与蒸散评估
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/MOD11A1');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/MOD11A1`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD11A1
 
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：daily, emissivity, global, landuse-landcover, lst, mod11a1, modis, surface-temperature, terra
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [CSP 全球人类改造指数（gHM）](/pages/1227f44f/)
+- [Dynamic World V1（动态世界）](/pages/a78539ca/)
+- [ESA WorldCereal 10 米 v100](/pages/76b102d2/)
+- [ESA WorldCereal 活跃耕地 10 米 v100](/pages/dd6f101f/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

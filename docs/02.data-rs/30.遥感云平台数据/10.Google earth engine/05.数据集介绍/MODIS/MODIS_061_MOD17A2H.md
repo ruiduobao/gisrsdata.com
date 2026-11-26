@@ -1,5 +1,5 @@
 ---
-title: "MOD17A2H.061: Terra Gross Primary Productivity 8-Day Global 500m"
+title: "MOD17A2H.061 Terra 总初级生产力 8 天全球 500 米"
 date: 2026-11-03 12:00:00
 permalink: /pages/95972629/
 categories:
@@ -21,54 +21,67 @@ tags:
   - "usgs"
 ---
 
-# MOD17A2H.061: Terra Gross Primary Productivity 8-Day Global 500m
+# MOD17A2H.061 Terra 总初级生产力 8 天全球 500 米
 
-## 数据集简介
+英文原名：MOD17A2H.061: Terra Gross Primary Productivity 8-Day Global 500m
 
-The MOD17A2H V6.1 Gross Primary Productivity (GPP) product
-is a cumulative 8-day composite with a 500m pixel size. The product
-is based on the radiation-use efficiency concept and can be potentially
-used as inputs to data models to calculate terrestrial energy,
-carbon, water cycle processes, and biogeochemistry of vegetation.
+## 这是什么数据
 
-Documentation:
+MOD17A2H V6.1 总初级生产力（GPP）产品是一个像元大小 500 米的累积 8 天合成。产品基于辐射利用效率概念，可潜在地用作数据模型的输入，以计算陆地能量、碳、水循环过程与植被生物地球化学。
 
-* [User's Guide](https://lpdaac.usgs.gov/documents/972/MOD17_User_Guide_V61.pdf)
+## 覆盖范围与时间
 
-* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/95/MOD17_ATBD.pdf)
-
-* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MOD17A2H)
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`MODIS/061/MOD17A2H`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2021 年至 2026 年；分辨率：500 米。
 - 时间范围：2021-01-01 至 2026-10-16
-- 空间分辨率：500 米
-- 许可：proprietary
-- 关键词：8-day, global, gpp, mod17a2, modis, nasa, photosynthesis, plant-productivity, productivity, psn, terra, usgs
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 500 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| Gpp | Gross primary production | 500 |  |
-| PsnNet | Net photosynthesis; GPP minus the maintenance respiration (MR) | 500 |  |
-| Psn_QC | Quality control bits | 500 |  |
+| Gpp | 总初级生产。 | 500 |  |
+| PsnNet | 净光合作用；GPP 减去维持呼吸（MR）。 | 500 |  |
+| Psn_QC | 质量控制比特。 | 500 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 初级生产力与碳循环研究
+- 生态系统建模
+- 植被生产力监测
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/061/MOD17A2H');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/061/MOD17A2H`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A2H
+* [User's Guide](https://lpdaac.usgs.gov/documents/972/MOD17_User_Guide_V61.pdf)
+* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/95/MOD17_ATBD.pdf)
+* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MOD17A2H)
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：8-day, global, gpp, mod17a2, modis, nasa, photosynthesis, plant-productivity, productivity, psn, terra, usgs
 - 数据引用：Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data)
 for information on citing LP DAAC datasets.
 
 - DOI：10.5067/MODIS/MOD17A2H.061
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [MCD15A3H.061 MODIS 叶面积指数/FPAR 4 天全球 500 米](/pages/4b457845/)
+- [MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m](/pages/d6ab7a99/)
+- [MOD13A2.061 Terra Vegetation Indices 16-Day Global 1km](/pages/d5e48b42/)
+- [MOD13A3.061 Vegetation Indices Monthly L3 Global 1 km SIN Grid](/pages/9a6615e4/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

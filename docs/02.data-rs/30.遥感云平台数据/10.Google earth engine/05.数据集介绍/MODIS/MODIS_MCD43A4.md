@@ -1,5 +1,5 @@
 ---
-title: "MCD43A4.005 BRDF-Adjusted Reflectance 16-Day Global 500m [deprecated]"
+title: "MCD43A4.005 BRDF 校正反射率 16 天全球 500 米 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/04d0ef96/
 categories:
@@ -19,62 +19,69 @@ tags:
   - "usgs"
 ---
 
-# MCD43A4.005 BRDF-Adjusted Reflectance 16-Day Global 500m [deprecated]
+# MCD43A4.005 BRDF 校正反射率 16 天全球 500 米 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：MCD43A4.005 BRDF-Adjusted Reflectance 16-Day Global 500m [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The MODerate-resolution Imaging
-Spectroradiometer (MODIS) Reflectance product MCD43A4 provides
-500-meter reflectance data adjusted using a bidirectional reflectance
-distribution function (BRDF) to model the values as if they were taken
-from nadir view. The MCD43A4 product contains 16 days of data provided
-in a level-3 gridded data set in Sinusoidal projection.
+中分辨率成像光谱仪（MODIS）反射率产品 MCD43A4 提供使用双向反射分布函数（BRDF）校正的 500 米反射率数据，以将值建模为如同从天底观测取得。MCD43A4 产品包含 16 天数据，以正弦投影的三级格网数据集提供。
 
-Both Terra and Aqua data are used in the generation of this product, providing
-the highest probability for quality input data and designating it as
-an MCD, meaning Combined, product.
+本产品生成时同时使用 Terra 与 Aqua 数据，为高质量输入数据提供最高概率，并将其指定为 MCD（即组合）产品。
 
-Version-5 MODIS/Terra+Aqua BRDF/Albedo
-products are Validated Stage 1, meaning that accuracy has been
-estimated using a small number of independent measurements obtained
-from selected locations and time periods and ground-truth/field
-program efforts. Although there may be later improved versions, these
-data are ready for use in scientific publications.
+版本 5 的 MODIS/Terra+Aqua BRDF/反照率产品为验证阶段 1，意味着精度已使用从选定地点与时段获得的少量独立测量以及地面真值/外业计划工作做了估计。尽管之后可能有改进版本，这些数据已可用于科学出版物。
 
-Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
+请访问 [LP DAAC「引用我们的数据」页面](https://lpdaac.usgs.gov/citing_our_data) 了解引用 LP DAAC 数据集的信息。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`MODIS/MCD43A4`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：500 米。
 - 时间范围：2000-02-18 至 2017-03-14
-- 空间分辨率：500 米
-- 许可：proprietary
-- 关键词：16-day, brdf, global, mcd43a4, modis, nbar, reflectance, satellite-imagery, surface-reflectance, usgs
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 500 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| Nadir_Reflectance_Band1 | NBAR at local solar noon for band 1 | 500 | 620-670nm |
-| Nadir_Reflectance_Band2 | NBAR at local solar noon for band 2 | 500 | 841-876nm |
-| Nadir_Reflectance_Band3 | NBAR at local solar noon for band 3 | 500 | 459-479nm |
-| Nadir_Reflectance_Band4 | NBAR at local solar noon for band 4 | 500 | 545-565nm |
-| Nadir_Reflectance_Band5 | NBAR at local solar noon for band 5 | 500 | 1230-1250nm |
-| Nadir_Reflectance_Band6 | NBAR at local solar noon for band 6 | 500 | 1628-1652nm |
-| Nadir_Reflectance_Band7 | NBAR at local solar noon for band 7 | 500 | 2105-2155nm |
+| Nadir_Reflectance_Band1 | 波段 1 在当地太阳正午的 NBAR。 | 500 | 620-670nm |
+| Nadir_Reflectance_Band2 | 波段 2 在当地太阳正午的 NBAR。 | 500 | 841-876nm |
+| Nadir_Reflectance_Band3 | 波段 3 在当地太阳正午的 NBAR。 | 500 | 459-479nm |
+| Nadir_Reflectance_Band4 | 波段 4 在当地太阳正午的 NBAR。 | 500 | 545-565nm |
+| Nadir_Reflectance_Band5 | 波段 5 在当地太阳正午的 NBAR。 | 500 | 1230-1250nm |
+| Nadir_Reflectance_Band6 | 波段 6 在当地太阳正午的 NBAR。 | 500 | 1628-1652nm |
+| Nadir_Reflectance_Band7 | 波段 7 在当地太阳正午的 NBAR。 | 500 | 2105-2155nm |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- BRDF/反照率建模
+- 地表反射率校正
+- 辐射传输研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/MCD43A4');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/MCD43A4`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_MCD43A4
 
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：16-day, brdf, global, mcd43a4, modis, nbar, reflectance, satellite-imagery, surface-reflectance, usgs
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ALOS AVNIR-2 正射影像（ORI）](/pages/d4abf354/)
+- [ALOS-2 PALSAR-2 条带模式 2.1 级产品（2024 年 1 月能登地震应急观测）](/pages/b836b19e/)
+- [ASTER L1T 辐射亮度影像](/pages/b48e6fb4/)
+- [Cloud Score+ S2_HARMONIZED V1](/pages/4a61128e/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

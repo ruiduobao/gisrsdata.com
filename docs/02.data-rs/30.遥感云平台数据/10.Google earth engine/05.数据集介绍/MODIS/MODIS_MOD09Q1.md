@@ -1,5 +1,5 @@
 ---
-title: "MOD09Q1.005 Surface Reflectance 8-Day Global 250m [deprecated]"
+title: "MOD09Q1.005 地表反射率 8 天全球 250 米 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/092067b2/
 categories:
@@ -16,55 +16,63 @@ tags:
   - "terra"
 ---
 
-# MOD09Q1.005 Surface Reflectance 8-Day Global 250m [deprecated]
+# MOD09Q1.005 地表反射率 8 天全球 250 米 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：MOD09Q1.005 Surface Reflectance 8-Day Global 250m [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The MODIS Surface Reflectance products
-provide an estimate of the surface spectral reflectance as it would be
-measured at ground level in the absence of atmospheric scattering or
-absorption. Low-level data are corrected for atmospheric gases and
-aerosols, yielding a level-2 basis for several higher-order gridded
-level-2 (L2G) and level-3 products.
+MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。
 
-MOD09Q1 provides Bands 1
-and 2 at 250-meter resolution in an 8-day gridded level-3 product in the
-Sinusoidal projection. Each MOD09Q1 pixel contains the best possible L2G
-observation during an 8-day period as selected on the basis of
-high observation coverage, low view angle, the absence of clouds or cloud
-shadow, and aerosol loading. Science Data Sets provided for this product
-include reflectance values for Bands 1 and 2, and a quality rating.
+MOD09Q1 在正弦投影的 8 天格网三级产品中以 250 米分辨率提供波段 1 与 2。每个 MOD09Q1 像元包含 8 天时段内基于高观测覆盖、低视角、无云或云影与气溶胶负荷选择的最佳 L2G 观测。本产品提供的科学数据集包括波段 1 与 2 的反射率值与质量评级。
 
-Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
+请访问 [LP DAAC「引用我们的数据」页面](https://lpdaac.usgs.gov/citing_our_data) 了解引用 LP DAAC 数据集的信息。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`MODIS/MOD09Q1`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2000 年至 2017 年；分辨率：250 米。
 - 时间范围：2000-02-18 至 2017-03-22
-- 空间分辨率：250 米
-- 许可：proprietary
-- 关键词：8-day, global, mod09q1, modis, satellite-imagery, surface-reflectance, terra
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 250 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| sur_refl_b01 | Surface reflectance band 1 | 250 | 620-670nm |
-| sur_refl_b02 | Surface reflectance for band 2 | 250 | 841-876nm |
-| QA | Surface reflectance 250m band quality control flags | 250 |  |
+| sur_refl_b01 | 地表反射率波段 1。 | 250 | 620-670nm |
+| sur_refl_b02 | 波段 2 的地表反射率。 | 250 | 841-876nm |
+| QA | 地表反射率 250 米波段质量控制标志。 | 250 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 地表反射率与土地覆盖分析
+- 植被与物候监测
+- 大气校正研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/MOD09Q1');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/MOD09Q1`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09Q1
 
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：8-day, global, mod09q1, modis, satellite-imagery, surface-reflectance, terra
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ALOS AVNIR-2 正射影像（ORI）](/pages/d4abf354/)
+- [ALOS-2 PALSAR-2 条带模式 2.1 级产品（2024 年 1 月能登地震应急观测）](/pages/b836b19e/)
+- [ASTER L1T 辐射亮度影像](/pages/b48e6fb4/)
+- [Cloud Score+ S2_HARMONIZED V1](/pages/4a61128e/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
