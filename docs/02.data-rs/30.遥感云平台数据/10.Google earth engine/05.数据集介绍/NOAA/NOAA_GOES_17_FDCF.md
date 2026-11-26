@@ -1,5 +1,5 @@
 ---
-title: "GOES-17 FDCF Series ABI Level 2 Fire/Hot Spot Characterization Full Disk"
+title: "GOES-17 FDCF 系列 ABI 二级火/热点特征全圆盘"
 date: 2026-11-03 12:00:00
 permalink: /pages/3480c331/
 categories:
@@ -20,65 +20,68 @@ tags:
   - "wildfire"
 ---
 
-# GOES-17 FDCF Series ABI Level 2 Fire/Hot Spot Characterization Full Disk
+# GOES-17 FDCF 系列 ABI 二级火/热点特征全圆盘
 
-## 数据集简介
+英文原名：GOES-17 FDCF Series ABI Level 2 Fire/Hot Spot Characterization Full Disk
 
-[GOES](https://www.goes.noaa.gov) satellites are geostationary weather satellites run by NOAA.
+## 这是什么数据
 
-The Fire (HSC) product contains four images: one in the form
-of a fire mask and the other three with pixel values identifying fire temperature, fire area,
-and fire radiative power.
+[GOES](https://www.goes.noaa.gov) 卫星是由 NOAA 运行的地球静止气象卫星。
 
-The ABI L2+ FHS metadata mask assigns a flag to every earth-navigated pixel
-that indicates its disposition with respect to the FHS algorithm. Operational users who have
-the lowest tolerance for false alarms should focus on the "processed" and
-"saturated" categories (mask codes 10, 11, 30, and 31), but within these categories there
-can still be false alarms.
+火（HSC）产品包含四幅影像：一幅为火掩膜形式，其他三幅的像元值标识火温度、火面积与火辐射功率。
+
+ABI L2+ FHS 元数据掩膜为每个地球导航像元分配一个标志，指示其相对于 FHS 算法的处置。对误报容忍度最低的业务用户应关注「processed」与「saturated」类别（掩膜代码 10、11、30 与 31），但这些类别内仍可能有误报。
 
 [README](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C01520)
 
-NOAA provides the following scripts for suggested categories,
-color maps, and visualizations:
+NOAA 提供以下脚本，用于建议的类别、颜色图与可视化：
 
- - [GOES-16-17_FireDetection.js](https://github.com/google/earthengine-community/blob/master/datasets/scripts/GOES-16-17_FireDetection.js)
- - [GOES-16-17_FireReclassification.js](https://github.com/google/earthengine-community/blob/master/datasets/scripts/GOES-16-17_FireReclassification.js)
+以前称为「GOES West」。卫星在储存中。
 
-Formerly known as "GOES West."  Satellite is in storage.
+NOAA 卫星与产品业务办公室有一个带状态更新的[通用卫星消息](https://www.ospo.noaa.gov/Operations/messages.html) 频道。
 
-NOAA's Office of Satellite and Product Operations has a
-[General Satellite Messages](https://www.ospo.noaa.gov/Operations/messages.html)
-channel with status updates.
+## 覆盖范围与时间
 
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`NOAA/GOES/17/FDCF`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NOAA、Google Earth Engine
+- 覆盖范围：覆盖范围：全圆盘（美洲）；时间范围：2018 年至 2023 年；分辨率：2,000 米。
 - 时间范围：2018-08-27 至 2023-01-10
-- 空间分辨率：2000 米
-- 许可：proprietary
-- 关键词：abi, fdc, fire, goes, goes-17, goes-s, hotspot, nesdis, noaa, ospo, wildfire
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 2,000 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| Area | Fire area | 2000 |  |
-| Temp | Fire temperature | 2000 |  |
-| Mask | Fire mask categories.  Pixel values in the fire mask image identify a fire category and diagnostic information associated with algorithm execution. The six fire categories include: Good quality or temporally filtered good quality fire pixel; Saturated fire pixel or temporally filtered saturated fire pixel; Cloud contaminated or temporally filtered cloud contaminated fire pixel; High probability or temporally filtered high probability fire pixel; Medium probability or temporally filtered high probability fire pixel; Low probability or temporally filtered high probability fire. Temporally filtered fire pixels are those resulting from fire pixels that are in close proximity in both space and time.  | 2000 |  |
-| Power | Fire radiative power | 2000 |  |
-| DQF | Data quality flags | 2000 |  |
+| Area | 火面积。 | 2000 |  |
+| Temp | 火温度。 | 2000 |  |
+| Mask | 火掩膜类别。火掩膜影像中的像元值标识火类别与算法执行相关的诊断信息。六个火类别包括：良好质量或时间过滤的良好质量火像元；饱和火像元或时间过滤的饱和火像元；云污染或时间过滤的云污染火像元；高概率或时间过滤的高概率火像元；中概率或时间过滤的高概率火像元；低概率或时间过滤的高概率火像元。时间过滤火像元是源自在空间与时间上都紧密接近的火像元的那些。 | 2000 |  |
+| Power | 火辐射功率。 | 2000 |  |
+| DQF | 数据质量标志。 | 2000 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 野火近实时监测
+- 火情预警
+- 火灾科学研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NOAA/GOES/17/FDCF');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NOAA/GOES/17/FDCF`
+- 提供方：NOAA、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_17_FDCF
+- [GOES-16-17_FireDetection.js](https://github.com/google/earthengine-community/blob/master/datasets/scripts/GOES-16-17_FireDetection.js)
+- [GOES-16-17_FireReclassification.js](https://github.com/google/earthengine-community/blob/master/datasets/scripts/GOES-16-17_FireReclassification.js)
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：abi, fdc, fire, goes, goes-17, goes-s, hotspot, nesdis, noaa, ospo, wildfire
 - 数据引用：Early characterization of the active fire detection products derived from the next generation
 NPOESS/VIIRS and GOES-R/ABI instruments.  Schroeder, W., Csiszar, I., et al, (2010), Early
 characterization of the active fire detection products derived from the next generation
@@ -86,5 +89,14 @@ NPOESS/VIIRS and GOES-R/ABI instruments, paper presented at 2010 IEEE Internatio
 and Remote Sensing Symposium (IGARSS), Honolulu, HI.
 [doi:10.1109/IGARSS.2010.5650863](https://doi.org/10.1109/IGARSS.2010.5650863)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [GOES-16 FDCC 系列 ABI 二级火/热点特征 CONUS](/pages/fdfe82fc/)
+- [GOES-16 FDCF 系列 ABI 二级火/热点特征全圆盘](/pages/a85f942c/)
+- [GOES-17 FDCC 系列 ABI 二级火/热点特征 CONUS](/pages/2579124b/)
+- [GOES-18 FDCC 系列 ABI 二级火/热点特征 CONUS](/pages/6ba905f6/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

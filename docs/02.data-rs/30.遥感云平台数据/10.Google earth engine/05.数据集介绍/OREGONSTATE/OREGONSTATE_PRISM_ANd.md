@@ -1,5 +1,5 @@
 ---
-title: "PRISM Daily Spatial Dataset ANd"
+title: "PRISM 逐日空间数据集 ANd"
 date: 2026-11-03 12:00:00
 permalink: /pages/fe60f87e/
 categories:
@@ -19,76 +19,75 @@ tags:
   - "weather-and-climate"
 ---
 
-# PRISM Daily Spatial Dataset ANd
+# PRISM 逐日空间数据集 ANd
 
-## 数据集简介
+英文原名：PRISM Daily Spatial Dataset ANd
 
-The PRISM daily and monthly datasets are gridded weather
-datasets for the conterminous United States, produced by the
-PRISM Group at Oregon State University.
-This collection contains both AN81 and AN91
-data, indicated by the 'dataset_type' property.
+## 这是什么数据
 
-Grids are
-developed using PRISM (Parameter-elevation Regressions on Independent
-Slopes Model). PRISM interpolation routines simulate how weather
-varies with elevation, and account for coastal effects,
-temperature inversions, and terrain barriers that can cause rain
-shadows. Station data are assimilated from many networks across
-the country. For more information, see the [Descriptions of PRISM
-Spatial Datasets](https://www.prism.oregonstate.edu/documents/PRISM_datasets.pdf).
+PRISM 逐日与逐月数据集是美国本土的格网天气数据集，由俄勒冈州立大学 PRISM 小组生产。本集合同时包含 AN81 与 AN91 数据，由「dataset_type」属性标明。
 
-**Note**
+格网用 PRISM（独立坡面参数-高程回归模型）生成。PRISM 插值程序模拟天气如何随高程变化，并考虑海岸效应、逆温与可能造成雨影的地形屏障。站点数据同化自全国众多网络。更多信息见 [PRISM 空间数据集说明](https://www.prism.oregonstate.edu/documents/PRISM_datasets.pdf)。
 
-* **Warning**: This dataset should not be
-  used to calculate century-long trends due to non-weather-related
-  variations from station equipment and location changes, openings
-  and closings, varying observation times, and the use of relatively
-  short-term networks. Please see the [dataset documentation
-  ](https://www.prism.oregonstate.edu/documents/PRISM_datasets.pdf)
-  for more details.
-* The assets have start time of noon UTC, not midnight UTC.
-* It takes time for observation networks to conduct quality control and
-  release station data. Therefore,
-  PRISM datasets are re-modeled several times until six months
-  have elapsed, when they are considered permanent. A [release
-  schedule is available](https://www.prism.oregonstate.edu/calendar/).
+**注**
 
-## 基本信息
+* **警告**：由于站点设备与位置变更、站点开闭、观测时间不一以及相对短期网络的使用等非天气因素变异，本数据集不应用于计算百年尺度趋势。详情见 [数据集文档](https://www.prism.oregonstate.edu/documents/PRISM_datasets.pdf)。* 资产的开始时间为 UTC 正午，而非 UTC 午夜。* 观测网络进行质量控制与发布站点数据需要时间。因此，PRISM 数据集会多次重新建模，直到六个月后视为定版。[发布时间表](https://www.prism.oregonstate.edu/calendar/) 可查。
 
-- 数据集编号（Earth Engine ID）：`OREGONSTATE/PRISM/ANd`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：PRISM / OREGONSTATE、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：空间：美国本土；时间：1981 年至今（逐日）；分辨率：4,638.3 米。
 - 时间范围：1981-01-01 至 2026-10-29
-- 空间分辨率：4638.3 米
-- 许可：proprietary
-- 关键词：daily, geophysical, oregonstate, precipitation, pressure, prism, temperature, vapor, weather, weather-and-climate
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 4,638.3 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| ppt | Daily total precipitation (including rain and melted snow) | 4638.3 |  |
-| tmean | Daily mean temperature (calculated as (tmin+tmax)/2) | 4638.3 |  |
-| tmin | Daily minimum temperature | 4638.3 |  |
-| tmax | Daily maximum temperature | 4638.3 |  |
-| tdmean | Daily mean dew point temperature | 4638.3 |  |
-| vpdmin | Daily minimum vapor pressure deficit | 4638.3 |  |
-| vpdmax | Daily maximum vapor pressure deficit | 4638.3 |  |
+| ppt | 逐日总降水量（包括降雨与融雪） | 4638.3 |  |
+| tmean | 逐日平均温度（按 (tmin+tmax)/2 计算） | 4638.3 |  |
+| tmin | 逐日最低温度 | 4638.3 |  |
+| tmax | 逐日最高温度 | 4638.3 |  |
+| tdmean | 逐日平均露点温度 | 4638.3 |  |
+| vpdmin | 逐日最小水汽压差 | 4638.3 |  |
+| vpdmax | 逐日最大水汽压差 | 4638.3 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 做美国本土高分辨率气候分析与农业气象应用。
+- 为水文与生态模型提供降水、温度强迫场。
+- 分析极端天气事件的空间分布。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('OREGONSTATE/PRISM/ANd');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`OREGONSTATE/PRISM/ANd`
+- 提供方：PRISM / OREGONSTATE、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_ANd
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：daily, geophysical, oregonstate, precipitation, pressure, prism, temperature, vapor, weather, weather-and-climate
 - 数据引用：[Daly, C., Halbleib, M., Smith, J.I., Gibson, W.P., Doggett, M.K.,
 Taylor, G.H., Curtis, J., and Pasteris, P.A. 2008. Physiographically-sensitive
 mapping of temperature and precipitation across the conterminous
 United States. International Journal of Climatology, 28: 2031-2064](https://www.prism.oregonstate.edu/documents/pubs/2008intjclim_physiographicMapping_daly.pdf)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [PRISM 逐月空间数据集 ANm](/pages/903cb06d/)
+- [PRISM 逐日空间数据集 AN81d [已弃用]](/pages/fd3b947f/)
+- [PRISM 逐月空间数据集 AN81m [已弃用]](/pages/b865a04a/)
+- [PRISM 长期气候态数据集 Norm81m [已弃用]](/pages/35c47a2e/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

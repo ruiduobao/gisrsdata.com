@@ -1,5 +1,5 @@
 ---
-title: "DMSP OLS: Global Radiance-Calibrated Nighttime Lights Version 4, Defense Meteorological Program Operational Linescan System"
+title: "DMSP OLS：全球辐射校准夜间灯光版本 4"
 date: 2026-11-03 12:00:00
 permalink: /pages/a2c92c1d/
 categories:
@@ -20,57 +20,62 @@ tags:
   - "yearly"
 ---
 
-# DMSP OLS: Global Radiance-Calibrated Nighttime Lights Version 4, Defense Meteorological Program Operational Linescan System
+# DMSP OLS：全球辐射校准夜间灯光版本 4
 
-## 数据集简介
+英文原名：DMSP OLS: Global Radiance-Calibrated Nighttime Lights Version 4, Defense Meteorological Program Operational Linescan System
 
-The Defense Meteorological Program (DMSP) Operational Line-Scan System
-(OLS) has a unique capability to detect visible and near-infrared (VNIR)
-emission sources at night.
+## 这是什么数据
 
-This collection contains global nighttime lights images with no sensor
-saturation. The sensor is typically operated at a high-gain setting to
-enable the detection of moonlit clouds. However, with six bit quantization
-and limited dynamic range, the recorded data are saturated in the bright
-cores of urban centers. A limited set of observations at low lunar
-illumination were obtained where the gain of the detector was set
-significantly lower than its typical operational setting (sometimes by a
-factor of 100). Sparse data acquired at low-gain settings were combined
-with the operational data acquired at high-gain settings to produce the set
-of global nighttime lights images with no sensor saturation. Data from
-different satellites were merged and blended into the final product in order
-to gain maximum coverage. For more information, see this
-[readme](https://eogdata.mines.edu/dmsp/radcal_readme.txt)
-file from the provider.
+国防气象计划（DMSP）业务线扫描系统（OLS）有在夜间探测可见光与近红外（VNIR）发射源的独特能力。
 
-Image and data processing by NOAA's National Geophysical Data Center.
-DMSP data collected by US Air Force Weather Agency.
+本集合包含无传感器饱和的全球夜间灯光影像。传感器通常以高增益设置运行，以能探测月光云。然而，由于六位量化与有限的动态范围，记录的数据在城市中心的明亮核心饱和。在低月球照明下获得了一组有限的观测，其中探测器的增益设置显著低于其典型业务设置（有时低 100 倍）。以低增益设置获取的稀疏数据与以高增益设置获取的业务数据结合，生产出无传感器饱和的全球夜间灯光影像集。来自不同卫星的数据被合并混合进最终产品，以获得最大覆盖。更多信息，见提供方的此 [readme](https://eogdata.mines.edu/dmsp/radcal_readme.txt) 文件。
 
-## 基本信息
+影像与数据处理由 NOAA 国家地球物理数据中心完成。DMSP 数据由美国空军气象局收集。
 
-- 数据集编号（Earth Engine ID）：`NOAA/DMSP-OLS/CALIBRATED_LIGHTS_V4`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球；时间范围：1996 年至 2011 年；分辨率：927.67 米。
 - 时间范围：1996-03-16 至 2011-07-31
-- 空间分辨率：927.67 米
-- 许可：proprietary
-- 关键词：calibrated, dmsp, eog, imagery, lights, nighttime, ols, population, radiance, visible, yearly
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 927.67 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| avg_vis | Average digital band numbers from observations with cloud-free light detection. | 927.67 |  |
-| cf_cvg | Cloud-free coverages, the total number of observations that went into each 30-arc second grid cell. This image can be used to identify areas with low numbers of observations where the quality is reduced.  | 927.67 |  |
+| avg_vis | 具有无云光探测的观测的平均数字波段值。 | 927.67 |  |
+| cf_cvg | 无云覆盖，进入每个 30 弧秒格网单元的观测总数。此影像可用于识别观测数低、质量降低的区域。 | 927.67 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 夜间灯光长期监测
+- 城市化与人口研究
+- 社会经济分析
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NOAA/DMSP-OLS/CALIBRATED_LIGHTS_V4');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NOAA/DMSP-OLS/CALIBRATED_LIGHTS_V4`
+- 提供方：Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NOAA_DMSP-OLS_CALIBRATED_LIGHTS_V4
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：calibrated, dmsp, eog, imagery, lights, nighttime, ols, population, radiance, visible, yearly
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [DMSP OLS：夜间灯光时间序列版本 4](/pages/65a6304d/)
+- [VIIRS 夜间日/夜波段合成第 1 版（月度）](/pages/331f49de/)
+- [VIIRS 夜间日/夜波段年度合成 V2.1](/pages/98ca1d9b/)
+- [VIIRS 夜间日/夜波段年度合成 V2.2](/pages/57765f1c/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

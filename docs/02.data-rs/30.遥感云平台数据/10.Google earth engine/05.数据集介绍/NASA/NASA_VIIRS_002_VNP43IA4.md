@@ -1,5 +1,5 @@
 ---
-title: "VNP43IA4: BRDF/Albedo Quality Daily L3 Global 500m SIN Grid"
+title: "VNP43IA4：BRDF/反照率质量逐日三级全球 500 米 SIN 格网"
 date: 2026-11-03 12:00:00
 permalink: /pages/00b89222/
 categories:
@@ -16,77 +16,74 @@ tags:
   - "viirs"
 ---
 
-# VNP43IA4: BRDF/Albedo Quality Daily L3 Global 500m SIN Grid
+# VNP43IA4：BRDF/反照率质量逐日三级全球 500 米 SIN 格网
 
-## 数据集简介
+英文原名：VNP43IA4: BRDF/Albedo Quality Daily L3 Global 500m SIN Grid
 
-The NASA/NOAA Suomi National Polar-orbiting Partnership (Suomi NPP) Visible
-Infrared Imaging Radiometer Suite (VIIRS) Nadir Bidirectional Reflectance
-Distribution Function (BRDF) Adjusted Reflectance (NBAR) Version 2 product
-provides NBAR estimates at 500 meter resolution. The VNP43IA4 product is
-produced daily using 16 days of VIIRS data and is weighted temporally to the
-ninth day, which is reflected in the file name. The view angle effects are
-removed from the directional reflectances, resulting in a stable and
-consistent NBAR product. The VNP43 data products are designed to promote the
-continuity of NASA's Moderate Resolution Imaging Spectroradiometer (MODIS)
-BRDF/Albedo data product suite.
+## 这是什么数据
 
-The VNP43 algorithm uses the RossThick/Li-Sparse-Reciprocal (RTLSR)
-semi-empirical kernel-driven BRDF model, with the three kernel weights from
-VNP43IA1 to reconstruct surface anisotropic effects, correcting the
-directional reflectance to a common view geometry (VNP43IA4), while
-also computing integrated black-sky albedo (BSA) at local solar noon and
-white-sky albedo (WSA) (VNP43IA3). Researchers can use the BRDF model
-parameters with a simple polynomial, to obtain black-sky albedo at any solar
-illumination angle. Likewise, both the BSA and WSA Science Dataset (SDS)
-layers can be used with a simple polynomial, to manually estimate
-instantaneous actual albedo (blue-sky albedo). Additional details regarding
-the methodology are available in the Algorithm Theoretical Basis Document
-(ATBD).
+NASA/NOAA Suomi 国家极轨伙伴（Suomi NPP）可见光红外成像辐射计套件（VIIRS）天底双向反射分布函数（BRDF）调整反射率（NBAR）版本 2 产品以 500 米分辨率提供 NBAR 估计。VNP43IA4 产品逐日使用 16 天 VIIRS 数据生产，在时间上加权到第九天，这反映在文件名中。视角效应已从方向反射率中移除，产生稳定一致的 NBAR 产品。VNP43 数据产品旨在促进 NASA 中分辨率成像光谱仪（MODIS）BRDF/反照率数据产品套件的连续性。
 
-Documentation:
+VNP43 算法使用 RossThick/Li-Sparse-Reciprocal（RTLSR）半经验核驱动 BRDF 模型，以来自 VNP43IA1 的三个核权重重构地表各向异性效应，将方向反射率校正到公共观测几何（VNP43IA4），同时计算当地太阳正午的积分黑空反照率（BSA）与白空反照率（WSA）（VNP43IA3）。研究者可将 BRDF 模型参数与简单多项式一起使用，获得任何太阳照明角度下的黑空反照率。同样，BSA 与 WSA 科学数据集（SDS）层都可与简单多项式一起使用，手动估计瞬时实际反照率（蓝空反照率）。方法细节见算法理论基础文档（ATBD）。
 
-* [User's Guide](https://www.umb.edu/spectralmass/viirs-user-guides-c1-and-c2/vnp43ia4-and-vnpma4-nbar-products/)
+## 覆盖范围与时间
 
-* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/194/VNP43_ATBD_V1.pdf)
-
-* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/VIIRS/2/VNP43IA4)
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`NASA/VIIRS/002/VNP43IA4`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：500 米。
 - 时间范围：2012-01-17 至 2026-10-21
-- 空间分辨率：500 米
-- 许可：proprietary
-- 关键词：brdf, land, nasa, noaa, satellite-imagery, surface, viirs
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 500 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| BRDF_Albedo_Band_Mandatory_Quality_I1 | BRDF/Albedo mandatory quality for band I1 | 500 |  |
-| BRDF_Albedo_Band_Mandatory_Quality_I2 | BRDF/Albedo mandatory quality for band I2 | 500 |  |
-| BRDF_Albedo_Band_Mandatory_Quality_I3 | BRDF/Albedo mandatory quality for band I3 | 500 |  |
-| Nadir_Reflectance_I1 | Nadir BRDF/Albedo Reflectance at local solar noon for band I1 | 500 |  |
-| Nadir_Reflectance_I2 | Nadir BRDF/Albedo Reflectance at local solar noon for band I2 | 500 |  |
-| Nadir_Reflectance_I3 | Nadir BRDF/Albedo Reflectance at local solar noon for band I3 | 500 |  |
+| BRDF_Albedo_Band_Mandatory_Quality_I1 | 波段 I1 的 BRDF/反照率强制质量。 | 500 |  |
+| BRDF_Albedo_Band_Mandatory_Quality_I2 | 波段 I2 的 BRDF/反照率强制质量。 | 500 |  |
+| BRDF_Albedo_Band_Mandatory_Quality_I3 | 波段 I3 的 BRDF/反照率强制质量。 | 500 |  |
+| Nadir_Reflectance_I1 | 波段 I1 在当地太阳正午的天底 BRDF/反照率反射率。 | 500 |  |
+| Nadir_Reflectance_I2 | 波段 I2 在当地太阳正午的天底 BRDF/反照率反射率。 | 500 |  |
+| Nadir_Reflectance_I3 | 波段 I3 在当地太阳正午的天底 BRDF/反照率反射率。 | 500 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 地表参数监测
+- 植被与土地覆盖研究
+- VIIRS 数据应用
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NASA/VIIRS/002/VNP43IA4');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NASA/VIIRS/002/VNP43IA4`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP43IA4
+* [User's Guide](https://www.umb.edu/spectralmass/viirs-user-guides-c1-and-c2/vnp43ia4-and-vnpma4-nbar-products/)
+* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/194/VNP43_ATBD_V1.pdf)
+* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/VIIRS/2/VNP43IA4)
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：brdf, land, nasa, noaa, satellite-imagery, surface, viirs
 - 数据引用：Schaaf, C., Z. Wang, A. Erb, I. Paynter. VIIRS/NPP BRDF/Albedo Nadir
 BRDF-Adjusted Ref Daily L3 Global 500m SIN Grid V002. 2024, distributed by
 NASA EOSDIS Land Processes Distributed Active Archive Center,
 [10.5067/VIIRS/VNP43IA4.002](https://doi.org/10.5067/VIIRS/VNP43IA4.002).
 
 - DOI：10.5067/VIIRS/VNP43IA4.002
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [VNP09GA：VIIRS 地表反射率逐日 500 米与 1 千米](/pages/f3f78834/)
+- [VNP09H1：VIIRS 地表反射率 8 天三级全球 500 米](/pages/862913cc/)
+- [VNP43IA3：BRDF/反照率逐日三级全球 500 米 SIN 格网](/pages/217dd9b2/)
+- [VNP43MA3：BRDF/反照率逐日三级全球 1 千米 SIN 格网](/pages/86f9040c/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

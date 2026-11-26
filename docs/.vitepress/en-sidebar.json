@@ -116,8 +116,28 @@
     "link": "/en/pages/65b34141/"
    },
    {
+    "text": "Canadian DEM (CDEM)",
+    "link": "/en/pages/34572cde/"
+   },
+   {
     "text": "CCNL Nighttime Lights 1992–2013",
     "link": "/en/pages/c2c834f0/"
+   },
+   {
+    "text": "CFSR Climate Forecast System Reanalysis [deprecated]",
+    "link": "/en/pages/5248cf0f/"
+   },
+   {
+    "text": "CFSR Harmonized",
+    "link": "/en/pages/a2388741/"
+   },
+   {
+    "text": "CFSV2 6-Hourly Products [deprecated]",
+    "link": "/en/pages/f7c9715e/"
+   },
+   {
+    "text": "CFSV2 6-Hourly Products Harmonized",
+    "link": "/en/pages/a1cd75f1/"
    },
    {
     "text": "Cloud Score+ S2_HARMONIZED V1",
@@ -204,6 +224,14 @@
     "link": "/en/pages/a9db0306/"
    },
    {
+    "text": "CPC Global Unified Gauge-Based Daily Precipitation",
+    "link": "/en/pages/9d6b70e8/"
+   },
+   {
+    "text": "CPC Global Unified Temperature",
+    "link": "/en/pages/8042cb38/"
+   },
+   {
     "text": "CryoSat-2 Antarctica 1 km DEM",
     "link": "/en/pages/a0390601/"
    },
@@ -234,6 +262,14 @@
    {
     "text": "DEM-S Australia (Smoothed)",
     "link": "/en/pages/ada188d3/"
+   },
+   {
+    "text": "DMSP OLS Calibrated Lights V4",
+    "link": "/en/pages/a2c92c1d/"
+   },
+   {
+    "text": "DMSP OLS Nighttime Lights V4",
+    "link": "/en/pages/65a6304d/"
    },
    {
     "text": "Drained Organic Soils Emissions (Annual) 1.0",
@@ -362,6 +398,10 @@
    {
     "text": "Estonia RGB Orthophotos",
     "link": "/en/pages/65b015a5/"
+   },
+   {
+    "text": "ETOPO1 Elevation",
+    "link": "/en/pages/52780435/"
    },
    {
     "text": "EUCROPMAP",
@@ -580,6 +620,10 @@
     "link": "/en/pages/fcae03ea/"
    },
    {
+    "text": "GFS Global Forecast System 384-Hour",
+    "link": "/en/pages/c5693455/"
+   },
+   {
     "text": "GFW (Global Fishing Watch) Daily Fishing Hours",
     "link": "/en/pages/7dfa6e21/"
    },
@@ -792,6 +836,86 @@
     "link": "/en/pages/16d164e6/"
    },
    {
+    "text": "GOES-16 FDCC Fire CONUS",
+    "link": "/en/pages/fdfe82fc/"
+   },
+   {
+    "text": "GOES-16 FDCF Fire Full Disk",
+    "link": "/en/pages/a85f942c/"
+   },
+   {
+    "text": "GOES-16 MCMIPC Cloud and Moisture CONUS",
+    "link": "/en/pages/22add1bd/"
+   },
+   {
+    "text": "GOES-16 MCMIPF Cloud and Moisture Full Disk",
+    "link": "/en/pages/3e56ea0f/"
+   },
+   {
+    "text": "GOES-16 MCMIPM Cloud and Moisture Mesoscale",
+    "link": "/en/pages/31a6c493/"
+   },
+   {
+    "text": "GOES-17 FDCC Fire CONUS",
+    "link": "/en/pages/2579124b/"
+   },
+   {
+    "text": "GOES-17 FDCF Fire Full Disk",
+    "link": "/en/pages/3480c331/"
+   },
+   {
+    "text": "GOES-17 MCMIPC Cloud and Moisture CONUS",
+    "link": "/en/pages/02883e14/"
+   },
+   {
+    "text": "GOES-17 MCMIPF Cloud and Moisture Full Disk",
+    "link": "/en/pages/919f02a3/"
+   },
+   {
+    "text": "GOES-17 MCMIPM Cloud and Moisture Mesoscale",
+    "link": "/en/pages/7e3b76c0/"
+   },
+   {
+    "text": "GOES-18 FDCC Fire CONUS",
+    "link": "/en/pages/6ba905f6/"
+   },
+   {
+    "text": "GOES-18 FDCF Fire Full Disk",
+    "link": "/en/pages/58a89f03/"
+   },
+   {
+    "text": "GOES-18 MCMIPC Cloud and Moisture CONUS",
+    "link": "/en/pages/2e7bfffb/"
+   },
+   {
+    "text": "GOES-18 MCMIPF Cloud and Moisture Full Disk",
+    "link": "/en/pages/7c2b1325/"
+   },
+   {
+    "text": "GOES-18 MCMIPM Cloud and Moisture Mesoscale",
+    "link": "/en/pages/a0d8dbc6/"
+   },
+   {
+    "text": "GOES-19 FDCC Fire CONUS",
+    "link": "/en/pages/d6a1e2b4/"
+   },
+   {
+    "text": "GOES-19 FDCF Fire Full Disk",
+    "link": "/en/pages/e6dbfc81/"
+   },
+   {
+    "text": "GOES-19 MCMIPC Cloud and Moisture CONUS",
+    "link": "/en/pages/20e6bc59/"
+   },
+   {
+    "text": "GOES-19 MCMIPF Cloud and Moisture Full Disk",
+    "link": "/en/pages/c05d5fd1/"
+   },
+   {
+    "text": "GOES-19 MCMIPM Cloud and Moisture Mesoscale",
+    "link": "/en/pages/327c6ccc/"
+   },
+   {
     "text": "Google Global Landsat-based CCDC Segments (1999-2019)",
     "link": "/en/pages/565d06a2/"
    },
@@ -988,6 +1112,14 @@
     "link": "/en/pages/5c17c33d/"
    },
    {
+    "text": "HURDAT2 Atlantic",
+    "link": "/en/pages/8e9e1c36/"
+   },
+   {
+    "text": "HURDAT2 Pacific",
+    "link": "/en/pages/9ad1a384/"
+   },
+   {
     "text": "HYCOM: Hybrid Coordinate Ocean Model, Sea Surface Elevation",
     "link": "/en/pages/549bcd74/"
    },
@@ -1034,6 +1166,10 @@
    {
     "text": "IBGE: Brazil State Boundaries 2025 (Federation Units)",
     "link": "/en/pages/ddb7c418/"
+   },
+   {
+    "text": "IBTrACS",
+    "link": "/en/pages/d0121e5a/"
    },
    {
     "text": "IPCC AR6 Sea Level Projections Regional (Medium Confidence)",
@@ -2348,8 +2484,40 @@
     "link": "/en/pages/8cb2175e/"
    },
    {
+    "text": "NASA-USDA Enhanced SMAP Soil Moisture [deprecated]",
+    "link": "/en/pages/7cc9ac3e/"
+   },
+   {
+    "text": "NASA-USDA Global Soil Moisture [deprecated]",
+    "link": "/en/pages/369d0375/"
+   },
+   {
+    "text": "NASA-USDA SMAP Soil Moisture [deprecated]",
+    "link": "/en/pages/e11c9b76/"
+   },
+   {
     "text": "NASADEM Digital Elevation Model",
     "link": "/en/pages/f9ac1729/"
+   },
+   {
+    "text": "NCEP-DOE Reanalysis 2 Total Cloud Coverage",
+    "link": "/en/pages/388afaeb/"
+   },
+   {
+    "text": "NCEP/NCAR Reanalysis Sea-Level Pressure [deprecated]",
+    "link": "/en/pages/de62bd70/"
+   },
+   {
+    "text": "NCEP/NCAR Reanalysis Surface Temperature [deprecated]",
+    "link": "/en/pages/9635d04b/"
+   },
+   {
+    "text": "NCEP/NCAR Reanalysis Water Vapor [deprecated]",
+    "link": "/en/pages/69c2c9eb/"
+   },
+   {
+    "text": "Netherlands Orthophotos",
+    "link": "/en/pages/15c7de2b/"
    },
    {
     "text": "NEX-DCP30 Downscaled Climate Projections",
@@ -2370,6 +2538,78 @@
    {
     "text": "NLDAS-2 Forcing Fields",
     "link": "/en/pages/4a88073a/"
+   },
+   {
+    "text": "NOAA AVHRR Pathfinder SST V5.3",
+    "link": "/en/pages/18f0f810/"
+   },
+   {
+    "text": "NOAA CDR AVHRR AOT v03 [deprecated]",
+    "link": "/en/pages/53ecd31b/"
+   },
+   {
+    "text": "NOAA CDR AVHRR AOT v04",
+    "link": "/en/pages/a9811dc6/"
+   },
+   {
+    "text": "NOAA CDR AVHRR LAI FAPAR V4 [deprecated]",
+    "link": "/en/pages/18fe53c5/"
+   },
+   {
+    "text": "NOAA CDR AVHRR LAI FAPAR V5",
+    "link": "/en/pages/27c7ed95/"
+   },
+   {
+    "text": "NOAA CDR AVHRR NDVI V4 [deprecated]",
+    "link": "/en/pages/b23fbb86/"
+   },
+   {
+    "text": "NOAA CDR AVHRR NDVI V5",
+    "link": "/en/pages/a0ccef04/"
+   },
+   {
+    "text": "NOAA CDR AVHRR Surface Reflectance V4 [deprecated]",
+    "link": "/en/pages/2d8d516d/"
+   },
+   {
+    "text": "NOAA CDR AVHRR Surface Reflectance V5",
+    "link": "/en/pages/6d18f9ec/"
+   },
+   {
+    "text": "NOAA CDR GridSat-B1 Geostationary IR",
+    "link": "/en/pages/a8c34af0/"
+   },
+   {
+    "text": "NOAA CDR Ocean Heat Fluxes V2",
+    "link": "/en/pages/ab47b752/"
+   },
+   {
+    "text": "NOAA CDR Ocean Near-Surface Atmospheric Properties V2",
+    "link": "/en/pages/11c640c9/"
+   },
+   {
+    "text": "NOAA CDR OISST v02r01",
+    "link": "/en/pages/47b5c214/"
+   },
+   {
+    "text": "NOAA CDR OISST v2 [deprecated]",
+    "link": "/en/pages/0c219b07/"
+   },
+   {
+    "text": "NOAA CDR PATMOS-x V5.3",
+    "link": "/en/pages/2e70bee4/"
+   },
+   {
+    "text": "NOAA CDR SST WHOI V2",
+    "link": "/en/pages/4fef452a/"
+   },
+   {
+    "text": "NOAA CDR VIIRS LAI FAPAR V1",
+    "link": "/en/pages/8b7e1f94/"
+   },
+   {
+    "text": "NOAA CDR VIIRS NDVI V1",
+    "link": "/en/pages/ea9a554f/"
    },
    {
     "text": "Ocean Color SMI MODIS-Aqua",
@@ -2440,12 +2680,36 @@
     "link": "/en/pages/93c5617e/"
    },
    {
+    "text": "OPERA DIST-ANN-HLS V1",
+    "link": "/en/pages/79738746/"
+   },
+   {
+    "text": "OPERA DSWx-HLS V1",
+    "link": "/en/pages/0bb51b32/"
+   },
+   {
+    "text": "OPERA DSWx-S1 V1",
+    "link": "/en/pages/e1121614/"
+   },
+   {
+    "text": "OPERA RTC-S1 Static Layers V1",
+    "link": "/en/pages/d7f26f8f/"
+   },
+   {
+    "text": "OPERA RTC-S1 V1",
+    "link": "/en/pages/8c150ee4/"
+   },
+   {
     "text": "PALSAR-2 ScanSAR Level 2.2",
     "link": "/en/pages/636ee51c/"
    },
    {
     "text": "PDSI: University of Idaho Palmer Drought Severity Index [deprecated]",
     "link": "/en/pages/14a8e5bc/"
+   },
+   {
+    "text": "PERSIANN-CDR",
+    "link": "/en/pages/5f880006/"
    },
    {
     "text": "PML_V2 ET & GPP (0.1.4, deprecated)",
@@ -2460,8 +2724,32 @@
     "link": "/en/pages/82a78155/"
    },
    {
+    "text": "PRISM AN81d (deprecated)",
+    "link": "/en/pages/fd3b947f/"
+   },
+   {
+    "text": "PRISM AN81m (deprecated)",
+    "link": "/en/pages/b865a04a/"
+   },
+   {
+    "text": "PRISM ANd",
+    "link": "/en/pages/fe60f87e/"
+   },
+   {
+    "text": "PRISM ANm",
+    "link": "/en/pages/903cb06d/"
+   },
+   {
+    "text": "PRISM Norm81m (deprecated)",
+    "link": "/en/pages/35c47a2e/"
+   },
+   {
     "text": "RGE ALTI: IGN RGE ALTI Digital Elevation 1m",
     "link": "/en/pages/36cc0dac/"
+   },
+   {
+    "text": "RTMA",
+    "link": "/en/pages/d0d6c80e/"
    },
    {
     "text": "Satellite Embedding V1",
@@ -2716,6 +3004,26 @@
     "link": "/en/pages/2e93f898/"
    },
    {
+    "text": "VIIRS AOD EDR V3",
+    "link": "/en/pages/616d9456/"
+   },
+   {
+    "text": "VIIRS DNB Annual V2.1",
+    "link": "/en/pages/98ca1d9b/"
+   },
+   {
+    "text": "VIIRS DNB Annual V2.2",
+    "link": "/en/pages/57765f1c/"
+   },
+   {
+    "text": "VIIRS DNB Monthly V1 VCMCFG",
+    "link": "/en/pages/331f49de/"
+   },
+   {
+    "text": "VIIRS DNB Monthly V1 VCMSLCFG",
+    "link": "/en/pages/b0f1292c/"
+   },
+   {
     "text": "VIIRS NOAA-20 Active Fire 375m",
     "link": "/en/pages/2b77b12f/"
    },
@@ -2732,8 +3040,16 @@
     "link": "/en/pages/64c851e2/"
    },
    {
+    "text": "VNP09GA (NOAA VIIRS 001)",
+    "link": "/en/pages/940b557d/"
+   },
+   {
     "text": "VNP09GA VIIRS Surface Reflectance Daily",
     "link": "/en/pages/f3f78834/"
+   },
+   {
+    "text": "VNP09H1 (deprecated)",
+    "link": "/en/pages/59f40ab0/"
    },
    {
     "text": "VNP09H1 VIIRS Surface Reflectance 8-Day",
@@ -2742,6 +3058,90 @@
    {
     "text": "VNP13A1 VIIRS Vegetation Indices 16-Day",
     "link": "/en/pages/fed65b36/"
+   },
+   {
+    "text": "VNP13A1.001 (deprecated)",
+    "link": "/en/pages/e2cab212/"
+   },
+   {
+    "text": "VNP14A1 Thermal Anomalies/Fire Daily",
+    "link": "/en/pages/ef413f33/"
+   },
+   {
+    "text": "VNP14A1.001 (deprecated)",
+    "link": "/en/pages/a3cdde8d/"
+   },
+   {
+    "text": "VNP15A2H (deprecated)",
+    "link": "/en/pages/abb03285/"
+   },
+   {
+    "text": "VNP15A2H LAI/FPAR 8-Day",
+    "link": "/en/pages/50cd4868/"
+   },
+   {
+    "text": "VNP21A1D Day LST and Emissivity",
+    "link": "/en/pages/da5f2905/"
+   },
+   {
+    "text": "VNP21A1D.001 (deprecated)",
+    "link": "/en/pages/a63db064/"
+   },
+   {
+    "text": "VNP21A1N Night LST and Emissivity",
+    "link": "/en/pages/7d1bb919/"
+   },
+   {
+    "text": "VNP21A1N.001 (deprecated)",
+    "link": "/en/pages/2edb8761/"
+   },
+   {
+    "text": "VNP22Q2 (deprecated)",
+    "link": "/en/pages/985a7db1/"
+   },
+   {
+    "text": "VNP22Q2 Land Surface Phenology Yearly",
+    "link": "/en/pages/1fdf80f4/"
+   },
+   {
+    "text": "VNP43IA1",
+    "link": "/en/pages/3e009701/"
+   },
+   {
+    "text": "VNP43IA2",
+    "link": "/en/pages/81521072/"
+   },
+   {
+    "text": "VNP43IA3 BRDF/Albedo Daily",
+    "link": "/en/pages/217dd9b2/"
+   },
+   {
+    "text": "VNP43IA4 BRDF/Albedo Quality Daily",
+    "link": "/en/pages/00b89222/"
+   },
+   {
+    "text": "VNP43MA3 BRDF/Albedo Daily 1km",
+    "link": "/en/pages/86f9040c/"
+   },
+   {
+    "text": "VNP46A1",
+    "link": "/en/pages/89a1d68e/"
+   },
+   {
+    "text": "VNP46A2 (NOAA VIIRS 001)",
+    "link": "/en/pages/877e12fd/"
+   },
+   {
+    "text": "VNP46A2 Nighttime Lights Daily",
+    "link": "/en/pages/8cb4db04/"
+   },
+   {
+    "text": "VNP64A1 (deprecated)",
+    "link": "/en/pages/b6a84ae2/"
+   },
+   {
+    "text": "VNP64A1 Burned Area Monthly",
+    "link": "/en/pages/49ac0524/"
    },
    {
     "text": "WAPOR Actual Evapotranspiration and Interception 2.0",

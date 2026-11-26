@@ -1,0 +1,98 @@
+---
+title: "PRISM Monthly Spatial Dataset AN81m [deprecated]"
+date: 2026-11-03 12:00:00
+---
+
+# PRISM Monthly Spatial Dataset AN81m [deprecated]
+
+Original name: PRISM Monthly Spatial Dataset AN81m [deprecated]
+
+## What this dataset is
+
+The PRISM daily and monthly datasets are gridded weather
+datasets for the conterminous United States, produced by the
+PRISM Group at Oregon State University.
+
+Grids are
+developed using PRISM (Parameter-elevation Regressions on Independent
+Slopes Model). PRISM interpolation routines simulate how weather
+varies with elevation, and account for coastal effects,
+temperature inversions, and terrain barriers that can cause rain
+shadows. Station data are assimilated from many networks across
+the country. For more information, see the [Descriptions of PRISM
+Spatial Datasets](https://www.prism.oregonstate.edu/documents/PRISM_datasets.pdf).
+
+**Note**
+
+* **Warning**: This dataset should not be
+  used to calculate century-long trends due to non-weather-related
+  variations from station equipment and location changes, openings
+  and closings, varying observation times, and the use of relatively
+  short-term networks. Please see the [dataset documentation
+  ](https://www.prism.oregonstate.edu/documents/PRISM_datasets.pdf)
+  for more details.
+* The assets have start time of noon UTC, not midnight UTC.
+* It takes time for observation networks to conduct quality control and
+  release station data. Therefore,
+  PRISM datasets are re-modeled several times until six months
+  have elapsed, when they are considered permanent. A [release
+  schedule is available](https://www.prism.oregonstate.edu/calendar/).
+
+## Coverage and time range
+
+- Coverage: Spatial: CONUS; temporal: 1895 to 2020 (monthly); resolution: 4,638.3 m.
+- Time range: 1895-01-01 至 2020-12-01
+
+## Resolution and specifications
+
+- Spatial resolution: about 4,638.3 m
+- Data type: ImageCollection, accessed through Google Earth Engine
+
+| Band | Description | Resolution (m) | Wavelength |
+| --- | --- | --- | --- |
+| ppt | Monthly total precipitation (including rain and melted snow) | 4638.3 |  |
+| tmean | Monthly average of daily mean temperature (calculated as (tmin+tmax)/2) | 4638.3 |  |
+| tmin | Monthly minimum temperature | 4638.3 |  |
+| tmax | Monthly average of daily maximum temperature | 4638.3 |  |
+| tdmean | Monthly average of daily mean dew point temperature | 4638.3 |  |
+| vpdmin | Monthly average of daily minimum vapor pressure deficit | 4638.3 |  |
+| vpdmax | Monthly average of daily maximum vapor pressure deficit | 4638.3 |  |
+
+## What you can use it for
+
+- High-resolution climate analysis and agro-meteorological applications for CONUS.
+- Precipitation and temperature forcing for hydrological and ecological models.
+- Analyse spatial patterns of extreme weather events.
+
+## How to get it
+
+In Earth Engine:
+
+```js
+var dataset = ee.ImageCollection('OREGONSTATE/PRISM/AN81m');
+```
+
+- Earth Engine ID: `OREGONSTATE/PRISM/AN81m`
+- Providers: PRISM / OREGONSTATE, Google Earth Engine
+- Official catalog page: https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m
+
+## License and citation
+
+- License: proprietary
+- Keywords: geophysical, monthly, oregonstate, precipitation, pressure, prism, temperature, vapor, weather, weather-and-climate
+- 数据引用：[Daly, C., Halbleib, M., Smith, J.I., Gibson, W.P., Doggett, M.K.,
+Taylor, G.H., Curtis, J., and Pasteris, P.A. 2008. Physiographically-sensitive
+mapping of temperature and precipitation across the conterminous
+United States. International Journal of Climatology, 28: 2031-2064](https://www.prism.oregonstate.edu/documents/pubs/2008intjclim_physiographicMapping_daly.pdf)
+
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## Related datasets
+
+- [PRISM Daily Spatial Dataset ANd](/en/pages/fe60f87e/)
+- [PRISM Monthly Spatial Dataset ANm](/en/pages/903cb06d/)
+- [PRISM Daily Spatial Dataset AN81d [deprecated]](/en/pages/fd3b947f/)
+- [PRISM Long-Term Normals Dataset Norm81m [deprecated]](/en/pages/35c47a2e/)
+
+> This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

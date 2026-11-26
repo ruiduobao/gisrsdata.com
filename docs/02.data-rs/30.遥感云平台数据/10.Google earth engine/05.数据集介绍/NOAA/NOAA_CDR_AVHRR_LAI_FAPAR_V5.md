@@ -1,5 +1,5 @@
 ---
-title: "NOAA CDR AVHRR LAI FAPAR: Leaf Area Index and Fraction of Absorbed Photosynthetically Active Radiation, Version 5"
+title: "NOAA CDR AVHRR LAI FAPAR：叶面积指数与吸收光合有效辐射分数，版本 5"
 date: 2026-11-03 12:00:00
 permalink: /pages/27c7ed95/
 categories:
@@ -17,63 +17,64 @@ tags:
   - "plant-productivity"
 ---
 
-# NOAA CDR AVHRR LAI FAPAR: Leaf Area Index and Fraction of Absorbed Photosynthetically Active Radiation, Version 5
+# NOAA CDR AVHRR LAI FAPAR：叶面积指数与吸收光合有效辐射分数，版本 5
 
-## 数据集简介
+英文原名：NOAA CDR AVHRR LAI FAPAR: Leaf Area Index and Fraction of Absorbed Photosynthetically Active Radiation, Version 5
 
-The NOAA Climate Data Record (CDR) of AVHRR Leaf Area Index (LAI) and
-Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) dataset
-contains derived values that characterize the canopy and photosynthetic
-activity of plants. This dataset is derived from the NOAA AVHRR Surface
-Reflectance product and is gridded at a resolution of 0.05° on a daily
-basis. The values are computed globally over land surfaces, but not over
-bare or very sparsely vegetated areas, permanent ice or snow, permanent
-wetland, urban areas, or water bodies.
+## 这是什么数据
 
-Known issues with this dataset include:
+NOAA AVHRR 叶面积指数（LAI）与吸收光合有效辐射分数（FAPAR）气候数据记录（CDR）数据集包含表征植物冠层与光合作用的派生值。本数据集源自 NOAA AVHRR 地表反射率产品，以 0.05° 分辨率逐日格网化。值在全球陆地表面上计算，但不在裸露或植被非常稀疏的区域、永久冰雪、永久湿地、城市区域或水体上计算。
 
-- TIMEOFDAY variable contains values that are too large by 1 day
+本数据集的已知问题包括：
 
-- Latitude values are not correctly associated with the center of
-  the grid cell, error is < 0.002 degrees
+- TIMEOFDAY 变量包含过大 1 天的值
 
-- Longitude values are not correctly associated with the center of
-  the grid cell, error is < 0.02 degrees
+- 纬度值未正确关联到格网单元中心，误差 < 0.002 度
 
-See [technical note from the data provider](https://www.ncei.noaa.gov/pub/data/sds/cdr/CDRs/Leaf_Area_Index_and_FAPAR/AVHRR/AlgorithmDescriptionAVHRR_01B-20c.pdf).
+- 经度值未正确关联到格网单元中心，误差 < 0.02 度
 
-Provider's note: the orbital drift of N-19 (the last NOAA satellite
-carrying the AVHRR sensor) began to severely degrade the retrieved
-product quality. Therefore, VIIRS is now the primary sensor being used for
-these products from 2014-present.
+见[数据提供方的技术说明](https://www.ncei.noaa.gov/pub/data/sds/cdr/CDRs/Leaf_Area_Index_and_FAPAR/AVHRR/AlgorithmDescriptionAVHRR_01B-20c.pdf)。
 
-## 基本信息
+提供方注：N-19（最后一颗搭载 AVHRR 传感器的 NOAA 卫星）的轨道漂移开始严重降低反演产品质量。因此，VIIRS 现在是 2014 年至今这些产品使用的主要传感器。
 
-- 数据集编号（Earth Engine ID）：`NOAA/CDR/AVHRR/LAI_FAPAR/V5`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NOAA、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球陆地；时间范围：1981 年至 2013 年；分辨率：5,566 米。
 - 时间范围：1981-06-24 至 2013-12-31
-- 空间分辨率：5566 米
-- 许可：proprietary
-- 关键词：avhrr, cdr, daily, fapar, lai, land, noaa, plant-productivity
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 5,566 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| LAI | Leaf area index | 5566 |  |
-| FAPAR | Fraction of absorbed photosynthetic active radiation | 5566 |  |
-| QA | Quality control bit flags | 5566 |  |
+| LAI | 叶面积指数。 | 5566 |  |
+| FAPAR | 吸收光合有效辐射的分数。 | 5566 |  |
+| QA | 质量控制位标志。 | 5566 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 气候数据记录应用
+- 植被长期变化监测
+- 气候变化研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NOAA/CDR/AVHRR/LAI_FAPAR/V5');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NOAA/CDR/AVHRR/LAI_FAPAR/V5`
+- 提供方：NOAA、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_AVHRR_LAI_FAPAR_V5
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：avhrr, cdr, daily, fapar, lai, land, noaa, plant-productivity
 - 数据引用：Martin Claverie, Eric Vermote, and NOAA CDR Program (2014): NOAA Climate
 Data Record (CDR) of Leaf Area Index (LAI) and Fraction of Absorbed
 Photosynthetically Active Radiation (FAPAR), Version 4. [indicate subset
@@ -81,5 +82,14 @@ used]. NOAA National Climatic Data Center.
 [doi:10.7289/V5M043BX](https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00898)
 
 - DOI：10.7289/V5M043BX
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [NOAA CDR AVHRR NDVI：归一化差值植被指数，版本 5](/pages/a0ccef04/)
+- [NOAA CDR VIIRS LAI FAPAR：叶面积指数与吸收光合有效辐射分数，版本 1](/pages/8b7e1f94/)
+- [NOAA CDR VIIRS NDVI：归一化差值植被指数，版本 1](/pages/ea9a554f/)
+- [NOAA CDR AVHRR LAI FAPAR：叶面积指数与吸收光合有效辐射分数，版本 4 [已弃用]](/pages/18fe53c5/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

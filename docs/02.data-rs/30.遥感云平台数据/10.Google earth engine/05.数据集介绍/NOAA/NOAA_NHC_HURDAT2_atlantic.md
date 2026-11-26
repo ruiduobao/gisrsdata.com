@@ -1,5 +1,5 @@
 ---
-title: "NOAA NHC HURDAT2 Atlantic Hurricane Catalog"
+title: "NOAA NHC HURDAT2 大西洋飓风目录"
 date: 2026-11-03 12:00:00
 permalink: /pages/8e9e1c36/
 categories:
@@ -15,59 +15,80 @@ tags:
   - "weather-and-climate"
 ---
 
-# NOAA NHC HURDAT2 Atlantic Hurricane Catalog
+# NOAA NHC HURDAT2 大西洋飓风目录
 
-## 数据集简介
+英文原名：NOAA NHC HURDAT2 Atlantic Hurricane Catalog
 
-Hurricane best track database (HURDAT2).
+## 这是什么数据
 
-Atlantic basin 1851-2018.
+飓风最佳路径数据库（HURDAT2）。
 
-## 基本信息
+大西洋盆地 1851–2018。
 
-- 数据集编号（Earth Engine ID）：`NOAA/NHC/HURDAT2/atlantic`
-- 数据类型：矢量/表格（FeatureCollection）
-- 提供方：NOAA NHC、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：空间：大西洋盆地；时间：1851 年至 2018 年；类型：矢量/表格。
 - 时间范围：1851-06-25 至 2018-11-04
-- 许可：proprietary
-- 关键词：hurricane, nhc, noaa, table, weather, weather-and-climate
 
-## 字段信息
+## 分辨率与规格
+
+- 数据类型：矢量/表格（FeatureCollection），在 Google Earth Engine 中调用
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
-| seq | DOUBLE | ATCF cyclone number for that year |
-| name | STRING | Hurricane name.  e.g. "ALEX" |
-| datetime | STRING | Observation time in UTC. Format is YYYY-MM-DDTHH:MM:SS. |
-| record_id | STRING | Single letter desinating a specific event in a hurricane track.  An empty string if no code.  - C - Closest approach to a coast not followed by a landfall - G - Genesis - I - An intensity peak in terms of both pressure and wind - L - Landfall (center of system crossing a coastline) - P - Minimum in central pressure - R - Provides additional detail on the intensity of the cyclone when rapid changes are underway - S - Change of status of the system - T - Provides additional detail on the track (position) of the cyclone - W - Maximum sustained wind speed  |
-| status | STRING | Status of system:  - DB - Disturbance (of any intensity) - ET - Unknown.  The only occurrence is in HARVEY. - EX - Extratropical cyclone (of any intensity) - HU - Tropical cyclone of hurricane intensity (> 64 knots) - LO - A low that is neither a tropical cyclone, a subtropical cyclone, nor an extratropical cyclone (of any intensity) - SD - Subtropical cyclone of subtropical depression intensity (< 34 knots) - SS - Subtropical cyclone of subtropical storm intensity (> 34 knots) - TD - Tropical cyclone of tropical depression intensity (< 34 knots) - TS - Tropical cyclone of tropical storm intensity (34-63 knots) - WV - Tropical Wave (of any intensity)  |
-| max_wind_kts | DOUBLE | Maximum wind speed |
-| min_pressure | DOUBLE | Minimum pressure |
-| numEntries | DOUBLE | Number of points for a particular hurricane |
-| radii_ne_34kt | DOUBLE | 34 kt wind radii maximum extent in northeastern quadrant |
-| radii_se_34kt | DOUBLE | 34 kt wind radii maximum extent in southeastern quadrant |
-| radii_sw_34kt | DOUBLE | 34 kt wind radii maximum extent in southwestern quadrant |
-| radii_nw_34kt | DOUBLE | 34 kt wind radii maximum extent in northwestern quadrant |
-| radii_ne_50kt | DOUBLE | 50 kt wind radii maximum extent in northeastern quadrant |
-| radii_se_50kt | DOUBLE | 50 kt wind radii maximum extent in southeastern quadrant |
-| radii_sw_50kt | DOUBLE | 50 kt wind radii maximum extent in southwestern quadrant |
-| radii_nw_50kt | DOUBLE | 50 kt wind radii maximum extent in northwestern quadrant |
-| radii_ne_64kt | DOUBLE | 64 kt wind radii maximum extent in northeastern quadrant |
-| radii_se_64kt | DOUBLE | 64 kt wind radii maximum extent in southeastern quadrant |
-| radii_sw_64kt | DOUBLE | 64 kt wind radii maximum extent in southwestern quadrant |
-| radii_nw_64kt | DOUBLE | 64 kt wind radii maximum extent in northwestern quadrant |
-| basin | STRING | Ocean basin.  Always "AL" for Atlantic. |
-| id | STRING | Code for a particular hurricane.  "AL" followed by a 2 digit cyclone number followed by a 4-digit year.  e.g. "AL162018"  |
-| year | DOUBLE | Year in which the hurricane occurred |
+| seq | DOUBLE | 当年的 ATCF 气旋编号 |
+| name | STRING | 飓风名称。例如「ALEX」 |
+| datetime | STRING | UTC 观测时间。格式为 YYYY-MM-DDTHH:MM:SS。 |
+| record_id | STRING | 指定飓风路径中特定事件的单字母。无代码时为空字符串。C：最接近海岸但未登陆；G：生成；I：气压与风速两方面的强度峰值；L：登陆（系统中心越过海岸线）；P：中心气压最低值；R：气旋快速变化时提供强度细节；S：系统状态变化；T：提供气旋路径（位置）细节；W：最大持续风速（原文作「desinating」，系 designating 之误） |
+| status | STRING | 系统状态：DB：扰动（任意强度）；ET：未知，仅出现在 HARVEY 中；EX：温带气旋（任意强度）；HU：飓风强度的热带气旋（> 64 节）；LO：既非热带气旋、副热带气旋也非温带气旋的低压（任意强度）；SD：副热带低压强度的副热带气旋（< 34 节）；SS：副热带风暴强度的副热带气旋（> 34 节）；TD：热带低压强度的热带气旋（< 34 节）；TS：热带风暴强度的热带气旋（34–63 节）；WV：东风波（任意强度） |
+| max_wind_kts | DOUBLE | 最大风速 |
+| min_pressure | DOUBLE | 最低气压 |
+| numEntries | DOUBLE | 某场飓风的点数 |
+| radii_ne_34kt | DOUBLE | 34 节风圈在东北象限的最大范围 |
+| radii_se_34kt | DOUBLE | 34 节风圈在东南象限的最大范围 |
+| radii_sw_34kt | DOUBLE | 34 节风圈在西南象限的最大范围 |
+| radii_nw_34kt | DOUBLE | 34 节风圈在西北象限的最大范围 |
+| radii_ne_50kt | DOUBLE | 50 节风圈在东北象限的最大范围 |
+| radii_se_50kt | DOUBLE | 50 节风圈在东南象限的最大范围 |
+| radii_sw_50kt | DOUBLE | 50 节风圈在西南象限的最大范围 |
+| radii_nw_50kt | DOUBLE | 50 节风圈在西北象限的最大范围 |
+| radii_ne_64kt | DOUBLE | 64 节风圈在东北象限的最大范围 |
+| radii_se_64kt | DOUBLE | 64 节风圈在东南象限的最大范围 |
+| radii_sw_64kt | DOUBLE | 64 节风圈在西南象限的最大范围 |
+| radii_nw_64kt | DOUBLE | 64 节风圈在西北象限的最大范围 |
+| basin | STRING | 洋盆地。恒为大西洋的「AL」 |
+| id | STRING | 某场飓风的代码。「AL」后接 2 位气旋编号再接 4 位年份。例如「AL162018」 |
+| year | DOUBLE | 飓风发生的年份 |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 做大西洋飓风频次与强度的长期趋势分析。
+- 为沿海灾害风险评估提供历史飓风样本。
+- 检验飓风预报路径与强度误差。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.FeatureCollection('NOAA/NHC/HURDAT2/atlantic');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NOAA/NHC/HURDAT2/atlantic`
+- 提供方：NOAA NHC、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NOAA_NHC_HURDAT2_atlantic
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：hurricane, nhc, noaa, table, weather, weather-and-climate
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [NOAA NHC HURDAT2 太平洋飓风目录](/pages/9ad1a384/)
+- [CPC 全球统一温度](/pages/8042cb38/)
+- [CPC 全球统一雨量计逐日降水分析](/pages/9d6b70e8/)
+- [ERA5 月聚合数据 — ECMWF 气候再分析](/pages/87085b9b/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

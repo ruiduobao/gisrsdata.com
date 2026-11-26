@@ -1,5 +1,5 @@
 ---
-title: "CFSR: Climate Forecast System Reanalysis [deprecated]"
+title: "CFSR：气候预报系统再分析 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/5248cf0f/
 categories:
@@ -21,139 +21,135 @@ tags:
   - "temperature"
 ---
 
-# CFSR: Climate Forecast System Reanalysis [deprecated]
+# CFSR：气候预报系统再分析 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：CFSR: Climate Forecast System Reanalysis [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-Starting October 22, 2025, this dataset switched to using Celsius
-instead of Kelvin units for temperature bands. Please use
-[NOAA/CFSR_HARMONIZED](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSR_HARMONIZED)
-for consistent temperature units (Kelvin).
+自 2025 年 10 月 22 日起，本数据集温度波段改用摄氏而非开尔文单位。温度单位一致（开尔文）请使用 [NOAA/CFSR_HARMONIZED](https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSR_HARMONIZED)。
 
-The National Centers for Environmental Prediction (NCEP) Climate Forecast
-System Reanalysis (CFSR) was designed and executed as a global,
-high-resolution, coupled atmosphere-ocean-land surface-sea ice system to
-provide the best estimate of the state of these coupled domains over the
-32-year period of record from January 1979 to March 2011. It has been
-extended as an operational real-time product. The data in Earth Engine are
-only present starting from December 13, 2018.
+国家环境预测中心（NCEP）气候预报系统再分析（CFSR）被设计并执行为一个全球高分辨率耦合大气-海洋-陆面-海冰系统，在 1979 年 1 月至 2011 年 3 月的 32 年记录时段内提供这些耦合域状态的最佳估计。它已扩展为业务实时产品。Earth Engine 中的数据仅从 2018 年 12 月 13 日起存在。
 
-Forecasts are initialized four times per day (0000, 0600, 1200, and 1800
-UTC). We ingest only a subset of bands from files matching
-`cdas1.t??z.pgrbh**03|00**.grib2`, i.e. files of only 0-hour and 3-hour
-forecasts as the others are omitted. The forecast length is indicated by the
-'forecast_hour' metadata field.
+预报每天初始化四次（0000、0600、1200 与 1800 UTC）。我们仅从匹配 `cdas1.t??z.pgrbh**03|00**.grib2` 的文件中摄入波段子集，即仅 0 小时与 3 小时预报的文件，其他被省略。预报长度由「forecast_hour」元数据字段指示。
 
-Some images contain only a subset of bands. Using this dataset with both
-"00" and "03" forecast types will require you to cast the bands across
-the collection.
+一些影像仅包含波段子集。将本数据集与「00」和「03」两种预报类型一起使用，需要在集合间转换波段。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`NOAA/CFSR`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NOAA NWS National Centers for Environmental Prediction (NCEP)、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2018 年至 2026 年；分辨率：55,660 米。
 - 时间范围：2018-12-13 至 2026-11-02
-- 空间分辨率：55660 米
-- 许可：proprietary
-- 关键词：climate, daylight, flux, forecast, geophysical, ncep, noaa, nws, precipitation, radiation, snow, temperature, vapor, water, weather, weather-and-climate
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 55,660 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| u-component_of_wind_hybrid | u-component of wind at Hybrid level for 00 and 03 forecast | 55660 |  |
-| v-component_of_wind_hybrid | v-component of wind at Hybrid level for 00 and 03 forecast | 55660 |  |
-| Albedo_surface_3_Hour_Average | Albedo 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Canopy_water_evaporation_surface_3_Hour_Average | Canopy water evaporation 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Categorical_Rain_surface | Categorical Rain at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Categorical_Rain_surface_3_Hour_Average | Categorical Rain 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Categorical_Freezing_Rain_surface_3_Hour_Average | Categorical freezing rain 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Categorical_Ice_Pellets_surface_3_Hour_Average | Categorical ice pellets 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Categorical_Snow_surface_3_Hour_Average | Categorical snow 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Clear_Sky_Downward_Long_Wave_Flux_surface_3_Hour_Average | Clear Sky Downward Long Wave Flux 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Clear_Sky_Downward_Solar_Flux_surface_3_Hour_Average | Clear Sky Downward Solar Flux 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Clear_Sky_Upward_Long_Wave_Flux_surface_3_Hour_Average | Clear Sky Upward Long Wave Flux 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Clear_Sky_Upward_Solar_Flux_atmosphere_top_3_Hour_Average | Clear Sky Upward Solar Flux 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Clear_sky_UV-B_Downward_Solar_Flux_surface_3_Hour_Average | Clear Sky UV-B Downward Solar Flux 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Cloud_water_entire_atmosphere_single_layer | Cloud water at entire atmosphere layer for 00 and 03 forecast | 55660 |  |
-| Cloud_Work_Function_entire_atmosphere_single_layer_3_Hour_Average | Cloud work function 3 hour average at entire atmosphere layer for 03 forecast | 55660 |  |
-| Convective_available_potential_energy_surface | Convective available potential energy at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Convective_available_potential_energy_pressure_difference_layer | Convective available potential energy at specified pressure difference from ground to level layer for 03 forecast | 55660 |  |
-| Convective_Precipitation_Rate_surface_3_Hour_Average | Convective precipitation rate 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Convective_precipitation_surface_3_Hour_Accumulation | Convective precipitation 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Direct_Evaporation_from_Bare_Soil_surface_3_Hour_Average | Direct evaporation from bare soil surface 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Downward_Long-Wave_Radp_Flux_surface | Downward Long-Wave Rad. Flux at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Downward_Long-Wave_Radp_Flux_surface_3_Hour_Average | Downward Long-Wave Rad. Flux  3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Downward_Short-Wave_Radiation_Flux_surface | Downward Short-Wave Radiation Flux at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Downward_Short-Wave_Radiation_Flux_surface_3_Hour_Average | Downward Short-Wave Radiation Flux 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Downward_Short-Wave_Radiation_Flux_atmosphere_top_3_Hour_Average | Downward Short-Wave Radiation Flux atmosphere top 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Exchange_Coefficient_surface | Exchange Coefficient at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Frictional_Velocity_surface | Frictional Velocity at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Ground_Heat_Flux_surface | Ground Heat Flux at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Ground_Heat_Flux_surface_3_Hour_Average | Ground Heat Flux 4 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Ice_cover_surface | Ice cover at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Ice_thickness_surface | Ice thickness at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Land_cover_0__sea_1__land_surface | Land cover (0 = sea, 1 = land) at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Latent_heat_net_flux_surface | Latent heat net flux at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Latent_heat_net_flux_surface_3_Hour_Average | Latent heat net flux 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Liquid_Volumetric_Soil_Moisture_non_Frozen_depth_below_surface_layer_5_cm | Liquid Volumetric Soil Moisture (non Frozen) 5 cm depth below land surface layer | 55660 |  |
-| Liquid_Volumetric_Soil_Moisture_non_Frozen_depth_below_surface_layer_25_cm | Liquid Volumetric Soil Moisture (non Frozen) 25 cm depth below land surface layer | 55660 |  |
-| Liquid_Volumetric_Soil_Moisture_non_Frozen_depth_below_surface_layer_70_cm | Liquid Volumetric Soil Moisture (non Frozen) 50 cm depth below land surface layer | 55660 |  |
-| Liquid_Volumetric_Soil_Moisture_non_Frozen_depth_below_surface_layer_150_cm | Liquid Volumetric Soil Moisture (non Frozen) 150 cm depth below land surface layer | 55660 |  |
-| Maximum_temperature_height_above_ground_3_Hour_Interval | Maximum temperature for 3 Hour Interval at specified height level above ground for 03 forecast | 55660 |  |
-| Minimum_temperature_height_above_ground_3_Hour_Interval | Minimum temperature for 3 Hour Interval at specified height level above ground for 03 forecast | 55660 |  |
-| Maximum_specific_humidity_at_2m_height_above_ground_3_Hour_Interval | Maximum specific humidity for 3 Hour Interval at 2m specified height level above ground for 03 forecast | 55660 |  |
-| Minimum_specific_humidity_at_2m_height_above_ground_3_Hour_Interval | Minimum specific humidity for 3 Hour Interval at 2m specified height level above ground for 03 forecast | 55660 |  |
-| Momentum_flux_u-component_surface_3_Hour_Average | Momentum flux, u-component 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Momentum_flux_v-component_surface_3_Hour_Average | Momentum flux, u-component 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Plant_Canopy_Surface_Water_surface | Plant Canopy Surface Water at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Planetary_Boundary_Layer_Height_surface | Planetary Boundary Layer Height at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Potential_Evaporation_Rate_surface | Potential Evaporation Rate at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Potential_Evaporation_Rate_surface_3_Hour_Average | Potential Evaporation Rate 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Precipitation_rate_surface_3_Hour_Average | Precipitable rate 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Precipitable_water_entire_atmosphere_single_layer | Precipitable water at entire atmosphere layer for 00 and 03 forecast | 55660 |  |
-| Precipitable_water_pressure_difference_layer | Precipitable water at specified pressure difference from ground to level layer for 00 forecast | 55660 |  |
-| Pressure_msl | Pressure at Mean sea level for 03 forecast | 55660 |  |
-| Pressure_reduced_to_MSL_msl | Pressure reduced to MSL at Mean sea level for 00 and 03 forecast | 55660 |  |
-| Pressure_surface | Pressure at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Relative_humidity_entire_atmosphere_single_layer | Relative humidity at entire atmosphere layer for 00 and 03 forecast | 55660 |  |
-| Sensible_heat_net_flux_surface | Sensible heat net flux at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Sensible_heat_net_flux_surface_3_Hour_Average | Sensible heat net flux 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Snow_Cover_surface_3_Hour_Average | Snow cover 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Snow_depth_surface | Snow depth at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Snow_Phase_Change_Heat_Flux_surface_3_Hour_Average | Snow phase change hear flux 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Soil_moisture_content_depth_below_surface_layer | Soil moisture content at Depth below land surface layer for 00 and 03 forecast | 55660 |  |
-| Soil_type_surface | Soil type at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Storm_Surface_Runoff_surface_3_Hour_Accumulation | Storm surface runoff 3 hour accumulation at ground or water surface for 03 forecast | 55660 |  |
-| Sublimation_evaporation_from_snow_surface_3_Hour_Average | Sublimation (evaporation from snow) 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Specific_humidity_height_above_ground | Specific humidity at Specified height level above ground for 00 forecast | 55660 |  |
-| Surface_Lifted_Index_surface | Surface Lifted Index at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Surface_roughness_surface | Surface roughness at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Surface_Slope_Type_surface | Surface Slope Type at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Temperature_depth_below_surface_layer_5_cm | Temperature 5cm depth below land surface layer for 00 and 03 forecast | 55660 |  |
-| Temperature_depth_below_surface_layer_25_cm | Temperature 25cm epth below land surface layer for 00 and 03 forecast | 55660 |  |
-| Temperature_depth_below_surface_layer_70_cm | Temperature 70 cm depth below land surface layer for 00 and 03 forecast | 55660 |  |
-| Temperature_depth_below_surface_layer_150_cm | Temperature 150cm depth below land surface layer for 00 and 03 forecast | 55660 |  |
-| Temperature_height_above_ground | Temperature at Specified height level above ground for 00 forecast | 55660 |  |
-| Temperature_surface | Temperature at ground or water surface for 00 and 03 forecast | 55660 |  |
-| Total_cloud_cover_convective_cloud | Total cloud cover at Convective cloud layer for 00 forecast | 55660 |  |
-| Total_ozone_entire_atmosphere_single_layer | Total ozone at entire atmosphere layer for 00 and 03 forecast | 55660 |  |
-| Total_precipitation_surface_3_Hour_Accumulation | Total precipitation 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Transpiration_surface_3_Hour_Average | Transpiration surface 3 hour average at ground or water surface for 03 forecast | 55660 |  |
-| Upward_Long-Wave_Radp_Flux_surface | Upward Long-Wave Rad. Flux at ground or water surface for 00 and 03 forecast | 55660 |  |
+| u-component_of_wind_hybrid | 混合层风的 u 分量，00 与 03 预报。 | 55660 |  |
+| v-component_of_wind_hybrid | 混合层风的 v 分量，00 与 03 预报。 | 55660 |  |
+| Albedo_surface_3_Hour_Average | 反照率 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Canopy_water_evaporation_surface_3_Hour_Average | 冠层水蒸发 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Categorical_Rain_surface | 分类雨，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Categorical_Rain_surface_3_Hour_Average | 分类雨 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Categorical_Freezing_Rain_surface_3_Hour_Average | 分类冻雨 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Categorical_Ice_Pellets_surface_3_Hour_Average | 分类冰粒 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Categorical_Snow_surface_3_Hour_Average | 分类雪 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Clear_Sky_Downward_Long_Wave_Flux_surface_3_Hour_Average | 晴空向下长波通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Clear_Sky_Downward_Solar_Flux_surface_3_Hour_Average | 晴空向下太阳通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Clear_Sky_Upward_Long_Wave_Flux_surface_3_Hour_Average | 晴空向上长波通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Clear_Sky_Upward_Solar_Flux_atmosphere_top_3_Hour_Average | 晴空向上太阳通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Clear_sky_UV-B_Downward_Solar_Flux_surface_3_Hour_Average | 晴空 UV-B 向下太阳通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Cloud_water_entire_atmosphere_single_layer | 云水，位于整个大气层，00 与 03 预报。 | 55660 |  |
+| Cloud_Work_Function_entire_atmosphere_single_layer_3_Hour_Average | 云功函数 3 小时平均，位于整个大气层，03 预报。 | 55660 |  |
+| Convective_available_potential_energy_surface | 对流可用势能，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Convective_available_potential_energy_pressure_difference_layer | 对流可用势能，位于从地面到层指定气压差处，03 预报。 | 55660 |  |
+| Convective_Precipitation_Rate_surface_3_Hour_Average | 对流降水率 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Convective_precipitation_surface_3_Hour_Accumulation | 对流降水 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Direct_Evaporation_from_Bare_Soil_surface_3_Hour_Average | 裸土直接蒸发 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Downward_Long-Wave_Radp_Flux_surface | 向下长波辐射通量，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Downward_Long-Wave_Radp_Flux_surface_3_Hour_Average | 向下长波辐射通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Downward_Short-Wave_Radiation_Flux_surface | 向下短波辐射通量，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Downward_Short-Wave_Radiation_Flux_surface_3_Hour_Average | 向下短波辐射通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Downward_Short-Wave_Radiation_Flux_atmosphere_top_3_Hour_Average | 向下短波辐射通量大气顶 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Exchange_Coefficient_surface | 交换系数，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Frictional_Velocity_surface | 摩擦速度，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Ground_Heat_Flux_surface | 地面热通量，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Ground_Heat_Flux_surface_3_Hour_Average | 地面热通量 4 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Ice_cover_surface | 冰覆盖，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Ice_thickness_surface | 冰厚，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Land_cover_0__sea_1__land_surface | 土地覆盖（0 = 海，1 = 陆），位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Latent_heat_net_flux_surface | 潜热净通量，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Latent_heat_net_flux_surface_3_Hour_Average | 潜热净通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Liquid_Volumetric_Soil_Moisture_non_Frozen_depth_below_surface_layer_5_cm | 液态体积土壤水分（未冻结），地表层以下 5 厘米深度。 | 55660 |  |
+| Liquid_Volumetric_Soil_Moisture_non_Frozen_depth_below_surface_layer_25_cm | 液态体积土壤水分（未冻结），地表层以下 25 厘米深度。 | 55660 |  |
+| Liquid_Volumetric_Soil_Moisture_non_Frozen_depth_below_surface_layer_70_cm | 液态体积土壤水分（未冻结），地表层以下 50 厘米深度。 | 55660 |  |
+| Liquid_Volumetric_Soil_Moisture_non_Frozen_depth_below_surface_layer_150_cm | 液态体积土壤水分（未冻结），地表层以下 150 厘米深度。 | 55660 |  |
+| Maximum_temperature_height_above_ground_3_Hour_Interval | 3 小时间隔的最高温度，位于指定地面以上高度层，03 预报。 | 55660 |  |
+| Minimum_temperature_height_above_ground_3_Hour_Interval | 3 小时间隔的最低温度，位于指定地面以上高度层，03 预报。 | 55660 |  |
+| Maximum_specific_humidity_at_2m_height_above_ground_3_Hour_Interval | 3 小时间隔的最大比湿，位于 2 米指定地面以上高度层，03 预报。 | 55660 |  |
+| Minimum_specific_humidity_at_2m_height_above_ground_3_Hour_Interval | 3 小时间隔的最小比湿，位于 2 米指定地面以上高度层，03 预报。 | 55660 |  |
+| Momentum_flux_u-component_surface_3_Hour_Average | 动量通量 u 分量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Momentum_flux_v-component_surface_3_Hour_Average | 动量通量 u 分量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Plant_Canopy_Surface_Water_surface | 植物冠层地表水，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Planetary_Boundary_Layer_Height_surface | 行星边界层高度，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Potential_Evaporation_Rate_surface | 潜在蒸发率，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Potential_Evaporation_Rate_surface_3_Hour_Average | 潜在蒸发率 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Precipitation_rate_surface_3_Hour_Average | 可降水率 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Precipitable_water_entire_atmosphere_single_layer | 可降水量，位于整个大气层，00 与 03 预报。 | 55660 |  |
+| Precipitable_water_pressure_difference_layer | 可降水量，位于从地面到层指定气压差处，00 预报。 | 55660 |  |
+| Pressure_msl | 平均海平面气压，03 预报。 | 55660 |  |
+| Pressure_reduced_to_MSL_msl | 订正到 MSL 的气压，位于平均海平面，00 与 03 预报。 | 55660 |  |
+| Pressure_surface | 气压，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Relative_humidity_entire_atmosphere_single_layer | 相对湿度，位于整个大气层，00 与 03 预报。 | 55660 |  |
+| Sensible_heat_net_flux_surface | 感热净通量，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Sensible_heat_net_flux_surface_3_Hour_Average | 感热净通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Snow_Cover_surface_3_Hour_Average | 雪覆盖 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Snow_depth_surface | 雪深，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Snow_Phase_Change_Heat_Flux_surface_3_Hour_Average | 雪相变热通量 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Soil_moisture_content_depth_below_surface_layer | 土壤水分含量，位于地表以下层，00 与 03 预报。 | 55660 |  |
+| Soil_type_surface | 土壤类型，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Storm_Surface_Runoff_surface_3_Hour_Accumulation | 风暴地表径流 3 小时累积，位于地面或水面，03 预报。 | 55660 |  |
+| Sublimation_evaporation_from_snow_surface_3_Hour_Average | 升华（雪的蒸发） 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Specific_humidity_height_above_ground | 比湿，位于指定地面以上高度层，00 预报。 | 55660 |  |
+| Surface_Lifted_Index_surface | 地表抬升指数，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Surface_roughness_surface | 地表粗糙度，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Surface_Slope_Type_surface | 地表坡度类型，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Temperature_depth_below_surface_layer_5_cm | 温度，地表层以下 5 厘米深度，00 与 03 预报。 | 55660 |  |
+| Temperature_depth_below_surface_layer_25_cm | 温度，地表层以下 25 厘米深度，00 与 03 预报。 | 55660 |  |
+| Temperature_depth_below_surface_layer_70_cm | 温度，地表层以下 70 厘米深度，00 与 03 预报。 | 55660 |  |
+| Temperature_depth_below_surface_layer_150_cm | 温度，地表层以下 150 厘米深度，00 与 03 预报。 | 55660 |  |
+| Temperature_height_above_ground | 温度，位于指定地面以上高度层，00 预报。 | 55660 |  |
+| Temperature_surface | 温度，位于地面或水面，00 与 03 预报。 | 55660 |  |
+| Total_cloud_cover_convective_cloud | 总云量，位于对流云层，00 预报。 | 55660 |  |
+| Total_ozone_entire_atmosphere_single_layer | 总臭氧，位于整个大气层，00 与 03 预报。 | 55660 |  |
+| Total_precipitation_surface_3_Hour_Accumulation | 总降水 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Transpiration_surface_3_Hour_Average | 蒸腾地表 3 小时平均，位于地面或水面，03 预报。 | 55660 |  |
+| Upward_Long-Wave_Radp_Flux_surface | 向上长波辐射通量，位于地面或水面，00 与 03 预报。 | 55660 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 气候预报系统再分析
+- 天气与气候建模
+- 大气变量分析
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NOAA/CFSR');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NOAA/CFSR`
+- 提供方：NOAA NWS National Centers for Environmental Prediction (NCEP)、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSR
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：climate, daylight, flux, forecast, geophysical, ncep, noaa, nws, precipitation, radiation, snow, temperature, vapor, water, weather, weather-and-climate
 - 数据引用：Saha, S., S. Moorthi, H. Pan, X. Wu, J. Wang, and Coauthors, 2010: The NCEP
 Climate Forecast System Reanalysis. Bulletin of the American Meteorological
 Society, 91, 1015-1057.
@@ -162,3 +158,12 @@ Society, 91, 1015-1057.
 - DOI：10.5065/D6513W89
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [CFSR：气候预报系统再分析（协调版）](/pages/a2388741/)
+- [CFSV2：NCEP 气候预报系统版本 2，6 小时产品（协调版）](/pages/a1cd75f1/)
+- [Daymet V4：逐日地表天气与气候学汇总](/pages/7b6d050e/)
+- [ECMWF 近实时 IFS 大气预报](/pages/3fdfa56d/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

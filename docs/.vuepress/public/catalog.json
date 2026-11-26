@@ -141,7 +141,7 @@
    "id": "00b89222",
    "url": "/pages/00b89222/",
    "en_url": "/en/pages/00b89222/",
-   "title_zh": "",
+   "title_zh": "VNP43IA4：BRDF/反照率质量逐日三级全球 500 米 SIN 格网",
    "title_en": "VNP43IA4: BRDF/Albedo Quality Daily L3 Global 500m SIN Grid",
    "cat": "satellite",
    "tags": [
@@ -157,15 +157,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：500 米。",
    "time": "2012-01-17 至 2026-10-21",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP43IA4",
-   "intro_zh": "",
+   "intro_zh": "NASA/NOAA Suomi 国家极轨伙伴（Suomi NPP）可见光红外成像辐射计套件（VIIRS）天底双向反射分布函数（BRDF）调整反射率（NBAR）版本 2 产品以 500 米分辨率提供 NBAR 估计。VNP43IA4 产品逐日使用 16 天 VIIRS 数据生产，在…",
    "intro_en": "The NASA/NOAA Suomi National Polar-orbiting Partnership (Suomi NPP) Visible Infrared Imaging Radiometer Suite (VIIRS) Nadir Bidirectional Reflectance Distribution Function (BRDF) Adjusted Reflectance…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "00ebbade",
@@ -414,7 +414,7 @@
    "id": "02883e14",
    "url": "/pages/02883e14/",
    "en_url": "/en/pages/02883e14/",
-   "title_zh": "",
+   "title_zh": "GOES-17 MCMIPC 系列 ABI 二级云与水分影像 CONUS",
    "title_en": "GOES-17 MCMIPC Series ABI Level 2 Cloud and Moisture Imagery CONUS",
    "cat": "atmosphere",
    "tags": [
@@ -431,15 +431,15 @@
    "res_bucket": "1 公里以上",
    "region": "其他",
    "region_label": "美国",
-   "coverage": "",
+   "coverage": "覆盖范围：美国本土（CONUS）；时间范围：2018 年至 2023 年；分辨率：2,000 米。",
    "time": "2018-12-04 至 2023-01-10",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/17/MCMIPC",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "0308328b",
@@ -1888,7 +1888,7 @@
    "id": "0bb51b32",
    "url": "/pages/0bb51b32/",
    "en_url": "/en/pages/0bb51b32/",
-   "title_zh": "",
+   "title_zh": "协调 Landsat Sentinel-2 动态地表水体范围（DSWx-HLS）V1",
    "title_en": "Dynamic Surface Water Extent from Harmonized Landsat Sentinel-2 (DSWx-HLS) V1",
    "cat": "water",
    "tags": [
@@ -1903,17 +1903,17 @@
    ],
    "res_m": 30.0,
    "res_bucket": "10–30 米",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球陆地；时间：2023 年至今；分辨率：30 米。",
    "time": "2023-04-04 至 2026-10-27",
    "provider": "NASA JPL",
    "platform": "Google Earth Engine",
    "ee_id": "OPERA/DSWX/L3_V1/HLS",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含 3 级动态 OPERA 地表水体范围产品第 1 版。数据为 2023 年 4 月起经过验证的地表水体范围观测。使用中的已知问题与注意事项在产品文档中说明。生成每个产品的输入数据集是协调 Landsat-8 与 Sentinel-2A/B/C（HLS）产品 2.0 版…",
    "intro_en": "This dataset contains Level-3 Dynamic OPERA surface water extent product version 1. The data are validated surface water extent observations beginning April 2023. Known issues and caveats on usage are…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "0bb60bdd",
@@ -1979,7 +1979,7 @@
    "id": "0c219b07",
    "url": "/pages/0c219b07/",
    "en_url": "/en/pages/0c219b07/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR OISST v2：最优插值海表温度 [已弃用]",
    "title_en": "NOAA CDR OISST v2: Optimum Interpolation Sea Surface Temperature [deprecated]",
    "cat": "cryosphere",
    "tags": [
@@ -1996,15 +1996,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球海洋；时间范围：1981 年至 2020 年；分辨率：27,830 米。",
    "time": "1981-09-01 至 2020-04-26",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/OISST/V2",
-   "intro_zh": "",
+   "intro_zh": "NOAA 1/4 度逐日最优插值海表温度（OISST）提供完整的海洋温度场，通过在规则全球格网上组合来自不同平台（卫星、船舶、浮标）的偏差调整观测构建，空缺由插值填补。来自高级甚高分辨率辐射计（AVHRR）的卫星数据提供主要输入，使从 1981 年末至今的高时空覆盖成为可能。",
    "intro_en": "The NOAA 1/4 degree daily Optimum Interpolation Sea Surface Temperature (OISST) provides complete ocean temperature fields constructed by combining bias-adjusted observations from different platforms…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "0d341d16",
@@ -2870,7 +2870,7 @@
    "id": "11c640c9",
    "url": "/pages/11c640c9/",
    "en_url": "/en/pages/11c640c9/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR：海洋近地表大气特性，版本 2",
    "title_en": "NOAA CDR: Ocean Near-Surface Atmospheric Properties, Version 2",
    "cat": "ocean",
    "tags": [
@@ -2885,17 +2885,17 @@
    ],
    "res_m": 27830.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：1988 年至 2021 年；分辨率：27,830 米。",
    "time": "1988-01-01 至 2021-08-31",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/ATMOS_NEAR_SURFACE/V2",
-   "intro_zh": "",
+   "intro_zh": "海洋近地表大气特性数据集是 NOAA 海洋表面束（OSB）的一部分，提供无冰海洋表面上气温、风速与比湿的高质量气候数据记录（CDR）。",
    "intro_en": "The Ocean Near-Surface Atmospheric Properties dataset is part of the NOAA Ocean Surface Bundle (OSB) and provides a high quality Climate Data Record (CDR) of air temperature, wind speed, and specific…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "11d25185",
@@ -3402,7 +3402,7 @@
    "id": "15c7de2b",
    "url": "/pages/15c7de2b/",
    "en_url": "/en/pages/15c7de2b/",
-   "title_zh": "",
+   "title_zh": "荷兰正射影像",
    "title_en": "Netherlands orthophotos",
    "cat": "satellite",
    "tags": [
@@ -3414,15 +3414,15 @@
    "res_bucket": "10 米及以内",
    "region": "其他",
    "region_label": "荷兰",
-   "coverage": "",
+   "coverage": "空间：荷兰全国；时间：2021 年至 2022 年（每年两期）；分辨率：0.08 米。",
    "time": "2021-01-01 至 2022-12-31",
    "provider": "Beeldmateriaal Nederland",
    "platform": "Google Earth Engine",
    "ee_id": "Netherlands/Beeldmateriaal/LUCHTFOTO_RGB",
-   "intro_zh": "",
+   "intro_zh": "荷兰正射影像是一组彩色正射影像。每年采集两期全国航片：春季一期 7.5 厘米分辨率的无叶影像，夏季一期 25 厘米分辨率的有叶影像。",
    "intro_en": "Orthophotos of Netherlands is a set of color orthoimages. Two nationwide aerial photographs are collected per year: a leafless image at 7.5 cm resolution in the spring and one with leaves on trees at…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "15c97d15",
@@ -3958,7 +3958,7 @@
    "id": "18f0f810",
    "url": "/pages/18f0f810/",
    "en_url": "/en/pages/18f0f810/",
-   "title_zh": "",
+   "title_zh": "NOAA AVHRR 探路者版本 5.3 拼接全球 4 千米海表温度",
    "title_en": "NOAA AVHRR Pathfinder Version 5.3 Collated Global 4km Sea Surface Temperature",
    "cat": "ocean",
    "tags": [
@@ -3975,21 +3975,21 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球海洋；时间范围：1981 年至 2023 年；分辨率：4,000 米。",
    "time": "1981-08-24 至 2023-12-30",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/SST_PATHFINDER/V53",
-   "intro_zh": "",
+   "intro_zh": "AVHRR 探路者版本 5.3 海表温度数据集（PFV53）是由 NOAA 国家海洋学数据中心与迈阿密大学 Rosenstiel 海洋与大气科学学院合作生产的全球每日两次 4 千米海表温度数据的集合。PFV53 从 NOAA 极轨卫星系列上的 AVHRR 仪器数据计算，使用基于…",
    "intro_en": "The AVHRR Pathfinder Version 5.3 Sea Surface Temperature dataset (PFV53) is a collection of global, twice-daily 4km sea surface temperature data produced in a partnership by the NOAA National Oceanogr…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "18fe53c5",
    "url": "/pages/18fe53c5/",
    "en_url": "/en/pages/18fe53c5/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR AVHRR LAI FAPAR：叶面积指数与吸收光合有效辐射分数，版本 4 [已弃用]",
    "title_en": "NOAA CDR AVHRR LAI FAPAR: Leaf Area Index and Fraction of Absorbed Photosynthetically Active Radiation, Version 4 [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -4004,17 +4004,17 @@
    ],
    "res_m": 5566.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球陆地；时间范围：1981 年至 2019 年；分辨率：5,566 米。",
    "time": "1981-06-24 至 2019-05-16",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/AVHRR/LAI_FAPAR/V4",
-   "intro_zh": "",
+   "intro_zh": "NOAA AVHRR 叶面积指数（LAI）与吸收光合有效辐射分数（FAPAR）气候数据记录（CDR）数据集包含表征植物冠层与光合作用的派生值。本数据集源自 NOAA AVHRR 地表反射率产品，以 0.05° 分辨率逐日格网化。值在全球陆地表面上计算，但不在裸露或植被非常稀疏的区…",
    "intro_en": "The NOAA Climate Data Record (CDR) of AVHRR Leaf Area Index (LAI) and Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) dataset contains derived values that characterize the canopy and…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "191e6d51",
@@ -4845,7 +4845,7 @@
    "id": "1fdf80f4",
    "url": "/pages/1fdf80f4/",
    "en_url": "/en/pages/1fdf80f4/",
-   "title_zh": "",
+   "title_zh": "VNP22Q2.002：地表物候年度三级全球 500 米 SIN 格网",
    "title_en": "VNP22Q2.002: Land Surface Phenology Yearly L3 Global 500m SIN Grid",
    "cat": "vegetation",
    "tags": [
@@ -4862,15 +4862,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2013 年至 2025 年；分辨率：500 米。",
    "time": "2013-01-01 至 2025-01-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP22Q2",
-   "intro_zh": "",
+   "intro_zh": "Suomi 国家极轨伙伴（Suomi NPP）NASA 可见光红外成像辐射计套件（VIIRS）地表物候年度（VNP22Q2）版本 2 数据产品以年度间隔提供全球地表物候（GLSP）指标。VNP22Q2 数据产品源自从 VIIRS 天底双向反射分布函数（BRDF）调整反射率（NBA…",
    "intro_en": "The Suomi National Polar-Orbiting Partnership (Suomi NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Land Surface Phenology Yearly (VNP22Q2) Version 2 data product provides global land sur…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "201faee8",
@@ -4934,7 +4934,7 @@
    "id": "20e6bc59",
    "url": "/pages/20e6bc59/",
    "en_url": "/en/pages/20e6bc59/",
-   "title_zh": "",
+   "title_zh": "GOES-19 MCMIPC 系列 ABI 二级云与水分影像 CONUS",
    "title_en": "GOES-19 MCMIPC Series ABI Level 2 Cloud and Moisture Imagery CONUS",
    "cat": "atmosphere",
    "tags": [
@@ -4951,15 +4951,15 @@
    "res_bucket": "1 公里以上",
    "region": "其他",
    "region_label": "美国",
-   "coverage": "",
+   "coverage": "空间：GOES-East 视场（美国本土（CONUS））；时间：2025 年至 2026 年；分辨率：2,000 米（原生）。",
    "time": "2025-04-07 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/19/MCMIPC",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "21372992",
@@ -4996,7 +4996,7 @@
    "id": "217dd9b2",
    "url": "/pages/217dd9b2/",
    "en_url": "/en/pages/217dd9b2/",
-   "title_zh": "",
+   "title_zh": "VNP43IA3：BRDF/反照率逐日三级全球 500 米 SIN 格网",
    "title_en": "VNP43IA3: BRDF/Albedo Daily L3 Global 500m SIN Grid",
    "cat": "satellite",
    "tags": [
@@ -5013,15 +5013,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：500 米。",
    "time": "2012-01-17 至 2026-10-21",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP43IA3",
-   "intro_zh": "",
+   "intro_zh": "NASA/NOAA Suomi 国家极轨伙伴（Suomi NPP）可见光红外成像辐射计套件（VIIRS）双向反射分布函数（BRDF）与反照率（BRDF/反照率）版本 2 产品以 500 米分辨率提供反照率估计。VNP43IA3 产品逐日使用 16 天 VIIRS 数据生产，在时间…",
    "intro_en": "The NASA/NOAA Suomi National Polar-orbiting Partnership (Suomi NPP) Visible Infrared Imaging Radiometer Suite (VIIRS) Bidirectional Reflectance Distribution Function (BRDF) and Albedo (BRDF/Albedo) Ve…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "21b57013",
@@ -5193,7 +5193,7 @@
    "id": "22add1bd",
    "url": "/pages/22add1bd/",
    "en_url": "/en/pages/22add1bd/",
-   "title_zh": "",
+   "title_zh": "GOES-16 MCMIPC 系列 ABI 二级云与水分影像 CONUS",
    "title_en": "GOES-16 MCMIPC Series ABI Level 2 Cloud and Moisture Imagery CONUS",
    "cat": "atmosphere",
    "tags": [
@@ -5210,15 +5210,15 @@
    "res_bucket": "1 公里以上",
    "region": "其他",
    "region_label": "美国",
-   "coverage": "",
+   "coverage": "覆盖范围：美国本土（CONUS）；时间范围：2017 年至 2025 年；分辨率：2,000 米。",
    "time": "2017-07-10 至 2025-04-07",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/16/MCMIPC",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "235345",
@@ -5512,7 +5512,7 @@
    "id": "2579124b",
    "url": "/pages/2579124b/",
    "en_url": "/en/pages/2579124b/",
-   "title_zh": "",
+   "title_zh": "GOES-17 FDCC 系列 ABI 二级火/热点特征 CONUS",
    "title_en": "GOES-17 FDCC Series ABI Level 2 Fire/Hot Spot Characterization CONUS",
    "cat": "hazards",
    "tags": [
@@ -5529,15 +5529,15 @@
    "res_bucket": "1 公里以上",
    "region": "其他",
    "region_label": "美国",
-   "coverage": "",
+   "coverage": "覆盖范围：美国本土（CONUS）；时间范围：2018 年至 2023 年；分辨率：2,000 米。",
    "time": "2018-08-27 至 2023-01-10",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/17/FDCC",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "25e1bee4",
@@ -5739,7 +5739,7 @@
    "id": "27c7ed95",
    "url": "/pages/27c7ed95/",
    "en_url": "/en/pages/27c7ed95/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR AVHRR LAI FAPAR：叶面积指数与吸收光合有效辐射分数，版本 5",
    "title_en": "NOAA CDR AVHRR LAI FAPAR: Leaf Area Index and Fraction of Absorbed Photosynthetically Active Radiation, Version 5",
    "cat": "vegetation",
    "tags": [
@@ -5754,17 +5754,17 @@
    ],
    "res_m": 5566.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球陆地；时间范围：1981 年至 2013 年；分辨率：5,566 米。",
    "time": "1981-06-24 至 2013-12-31",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/AVHRR/LAI_FAPAR/V5",
-   "intro_zh": "",
+   "intro_zh": "NOAA AVHRR 叶面积指数（LAI）与吸收光合有效辐射分数（FAPAR）气候数据记录（CDR）数据集包含表征植物冠层与光合作用的派生值。本数据集源自 NOAA AVHRR 地表反射率产品，以 0.05° 分辨率逐日格网化。值在全球陆地表面上计算，但不在裸露或植被非常稀疏的区…",
    "intro_en": "The NOAA Climate Data Record (CDR) of AVHRR Leaf Area Index (LAI) and Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) dataset contains derived values that characterize the canopy and…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "27ef23",
@@ -6653,7 +6653,7 @@
    "id": "2d8d516d",
    "url": "/pages/2d8d516d/",
    "en_url": "/en/pages/2d8d516d/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR AVHRR：地表反射率，版本 4 [已弃用]",
    "title_en": "NOAA CDR AVHRR: Surface Reflectance, Version 4 [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -6668,17 +6668,17 @@
    ],
    "res_m": 5566.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球陆地；时间范围：1981 年至 2019 年；分辨率：5,566 米。",
    "time": "1981-06-24 至 2019-05-16",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/AVHRR/SR/V4",
-   "intro_zh": "",
+   "intro_zh": "NOAA AVHRR 地表反射率气候数据记录（CDR）包含源自七颗 NOAA 极轨卫星上高级甚高分辨率辐射计（AVHRR）传感器的格网逐日地表反射率与亮温。数据以 0.05° 分辨率格网化，在全球陆地表面上计算。",
    "intro_en": "The NOAA Climate Data Record (CDR) of AVHRR Surface Reflectance contains gridded daily surface reflectance and brightness temperatures derived from the Advanced Very High Resolution Radiometer (AVHRR)…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "2dca5df6",
@@ -6919,7 +6919,7 @@
    "id": "2e70bee4",
    "url": "/pages/2e70bee4/",
    "en_url": "/en/pages/2e70bee4/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR PATMOSX：云特性、反射率与亮温，版本 5.3",
    "title_en": "NOAA CDR PATMOSX: Cloud Properties, Reflectance, and Brightness Temperatures, Version 5.3",
    "cat": "climate",
    "tags": [
@@ -6934,23 +6934,23 @@
    ],
    "res_m": 11132.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1979 年至 2022 年；分辨率：11,132 米。",
    "time": "1979-01-01 至 2022-01-01",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/PATMOSX/V53",
-   "intro_zh": "",
+   "intro_zh": "本数据集提供多个云特性的高质量气候数据记录（CDR），以及高级甚高分辨率辐射计（AVHRR）探路者大气扩展（PATMOS-x）亮温与反射率。这些数据已拟合到 0.1 x 0.1 等角格网，上升与下降资产均逐日从每天二至十次 NOAA 与 MetOp 卫星过境生成。",
    "intro_en": "This dataset provides high quality Climate Data Record (CDR) of multiple cloud properties along with Advanced Very High Resolution Radiometer (AVHRR) Pathfinder Atmospheres Extended (PATMOS-x) brightn…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "2e7bfffb",
    "url": "/pages/2e7bfffb/",
    "en_url": "/en/pages/2e7bfffb/",
-   "title_zh": "",
+   "title_zh": "GOES-18 MCMIPC 系列 ABI 二级云与水分影像 CONUS",
    "title_en": "GOES-18 MCMIPC Series ABI Level 2 Cloud and Moisture Imagery CONUS",
    "cat": "atmosphere",
    "tags": [
@@ -6967,15 +6967,15 @@
    "res_bucket": "1 公里以上",
    "region": "其他",
    "region_label": "美国",
-   "coverage": "",
+   "coverage": "覆盖范围：美国本土（CONUS）；时间范围：2018 年至 2026 年；分辨率：2,000 米。",
    "time": "2018-12-04 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/18/MCMIPC",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "2e93f898",
@@ -7012,7 +7012,7 @@
    "id": "2edb8761",
    "url": "/pages/2edb8761/",
    "en_url": "/en/pages/2edb8761/",
-   "title_zh": "",
+   "title_zh": "VNP21A1N.001：夜间地表温度与发射率逐日 1 公里 [已弃用]",
    "title_en": "VNP21A1N.001: Night Land Surface Temperature and Emissivity Daily 1km [deprecated]",
    "cat": "climate",
    "tags": [
@@ -7027,17 +7027,17 @@
    ],
    "res_m": 1000.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球陆地；时间：2012 年至 2024 年（逐日）；分辨率：1,000 米。",
    "time": "2012-01-19 至 2024-05-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP21A1N",
-   "intro_zh": "",
+   "intro_zh": "NASA Suomi 国家极轨伙伴（Suomi NPP）可见红外成像辐射计套件（VIIRS）地表温度与发射率（LST&E）夜间第 1 版产品（VNP21A1N）由夜间 2 级格网（L2G）中间产品逐日合成。",
    "intro_en": "The NASA Suomi National Polar-Orbiting Partnership (Suomi NPP) Visible Infrared Imaging Radiometer Suite (VIIRS) Land Surface Temperature and Emissivity (LST&E) Night Version 1 product (VNP21A1N) is c…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "2ee2b33c",
@@ -7391,7 +7391,7 @@
    "id": "31a6c493",
    "url": "/pages/31a6c493/",
    "en_url": "/en/pages/31a6c493/",
-   "title_zh": "",
+   "title_zh": "GOES-16 MCMIPM 系列 ABI 二级云与水分影像中尺度",
    "title_en": "GOES-16 MCMIPM Series ABI Level 2 Cloud and Moisture Imagery Mesoscale",
    "cat": "atmosphere",
    "tags": [
@@ -7407,16 +7407,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：中尺度区域；时间范围：2017 年至 2025 年",
+   "coverage": "覆盖范围：中尺度区域；时间范围：2017 年至 2025 年；分辨率：2,000 米。",
    "time": "2017-07-10 至 2025-04-07",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/16/MCMIPM",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "3259d8",
@@ -7475,7 +7475,7 @@
    "id": "327c6ccc",
    "url": "/pages/327c6ccc/",
    "en_url": "/en/pages/327c6ccc/",
-   "title_zh": "",
+   "title_zh": "GOES-19 MCMIPM 系列 ABI 二级云与水分影像中尺度",
    "title_en": "GOES-19 MCMIPM Series ABI Level 2 Cloud and Moisture Imagery Mesoscale",
    "cat": "atmosphere",
    "tags": [
@@ -7491,16 +7491,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：GOES-East 视场（中尺度区域）；时间：2025",
+   "coverage": "空间：GOES-East 视场（中尺度区域）；时间：2025 年至 2026 年；分辨率：2,000 米（原生）。",
    "time": "2025-04-07 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/19/MCMIPM",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "32e81487",
@@ -7568,7 +7568,7 @@
    "id": "331f49de",
    "url": "/pages/331f49de/",
    "en_url": "/en/pages/331f49de/",
-   "title_zh": "",
+   "title_zh": "VIIRS 夜间日/夜波段合成第 1 版（月度）",
    "title_en": "VIIRS Nighttime Day/Night Band Composites Version 1",
    "cat": "nightlights",
    "tags": [
@@ -7583,17 +7583,17 @@
    ],
    "res_m": 463.83,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球；时间：2012 年至今（逐月）；分辨率：463.83 米。",
    "time": "2012-04-01 至 2026-09-01",
    "provider": "Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG",
-   "intro_zh": "",
+   "intro_zh": "使用可见红外成像辐射计套件（VIIRS）日/夜波段（DNB）夜间数据制作的月平均辐射合成影像。",
    "intro_en": "Monthly average radiance composite images using nighttime data from the Visible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band (DNB).",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "33644e9c",
@@ -7692,7 +7692,7 @@
    "id": "34572cde",
    "url": "/pages/34572cde/",
    "en_url": "/en/pages/34572cde/",
-   "title_zh": "",
+   "title_zh": "加拿大数字高程模型",
    "title_en": "Canadian Digital Elevation Model",
    "cat": "dem",
    "tags": [
@@ -7708,22 +7708,22 @@
    "res_m": 23.19,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：加拿大；时间：1945 年至 2011 年；分辨率：2",
+   "coverage": "空间：加拿大；时间：1945 年至 2011 年；分辨率：23.19 米（基础 0.75 弧秒，随纬度变化）。",
    "time": "1945-01-01 至 2011-01-01",
    "provider": "NRCan",
    "platform": "Google Earth Engine",
    "ee_id": "NRCan/CDEM",
-   "intro_zh": "",
+   "intro_zh": "加拿大数字高程模型（CDEM）是加拿大自然资源部（NRCan）高程系统的一部分，源自既有的加拿大数字高程数据（CDED）。在这些数据中，高程可以是地面高程或反射面高程。",
    "intro_en": "The Canadian Digital Elevation Model (CDEM) is part of Natural Resources Canada's (NRCan) altimetry system and stems from the existing Canadian Digital Elevation Data (CDED). In these data, elevations…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "3480c331",
    "url": "/pages/3480c331/",
    "en_url": "/en/pages/3480c331/",
-   "title_zh": "",
+   "title_zh": "GOES-17 FDCF 系列 ABI 二级火/热点特征全圆盘",
    "title_en": "GOES-17 FDCF Series ABI Level 2 Fire/Hot Spot Characterization Full Disk",
    "cat": "hazards",
    "tags": [
@@ -7739,16 +7739,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：全圆盘（美洲）；时间范围：2018 年至 2023",
+   "coverage": "覆盖范围：全圆盘（美洲）；时间范围：2018 年至 2023 年；分辨率：2,000 米。",
    "time": "2018-08-27 至 2023-01-10",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/17/FDCF",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "348487a1",
@@ -8041,7 +8041,7 @@
    "id": "35c47a2e",
    "url": "/pages/35c47a2e/",
    "en_url": "/en/pages/35c47a2e/",
-   "title_zh": "",
+   "title_zh": "PRISM 长期气候态数据集 Norm81m [已弃用]",
    "title_en": "PRISM Long-Term Normals Dataset Norm81m [deprecated]",
    "cat": "climate",
    "tags": [
@@ -8057,16 +8057,16 @@
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：美国本土；时间：1981 年至 2010 年（30 年",
+   "coverage": "空间：美国本土；时间：1981 年至 2010 年（30 年气候态，逐月）；分辨率：4,638.3 米。",
    "time": "1981-01-01 至 2010-12-31",
    "provider": "PRISM / OREGONSTATE",
    "platform": "Google Earth Engine",
    "ee_id": "OREGONSTATE/PRISM/Norm81m",
-   "intro_zh": "",
+   "intro_zh": "PRISM 逐日与逐月数据集是美国本土的格网天气数据集，由俄勒冈州立大学 PRISM 小组生产。",
    "intro_en": "The PRISM daily and monthly datasets are gridded weather datasets for the conterminous United States, produced by the PRISM Group at Oregon State University.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "35f5132c",
@@ -8223,7 +8223,7 @@
    "id": "369d0375",
    "url": "/pages/369d0375/",
    "en_url": "/en/pages/369d0375/",
-   "title_zh": "",
+   "title_zh": "NASA-USDA 全球土壤水分数据 [已弃用]",
    "title_en": "NASA-USDA Global Soil Moisture Data [deprecated]",
    "cat": "soil",
    "tags": [
@@ -8239,15 +8239,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2010 年至 2020 年；分辨率：27,830 米。",
    "time": "2010-01-13 至 2020-12-31",
    "provider": "NASA GSFC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA_USDA/HSL/soil_moisture",
-   "intro_zh": "",
+   "intro_zh": "NASA-USDA 全球土壤水分与 NASA-USDA SMAP 全球土壤水分数据集 以 0.25°×0.25° 空间分辨率提供全球土壤水分信息。这些数据集包括地表 与 地下 土壤水分（毫米）、土壤水分剖面（%），以及地表与地下土壤水分异常。土壤水分异常无单位，表示使用 31 天…",
    "intro_en": "The NASA-USDA Global soil moisture and the NASA-USDA SMAP Global soil moisture dataset provide soil moisture information across the globe at 0.25°x0.25° spatial resolution. These datasets include surf…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "36a82d51",
@@ -8563,7 +8563,7 @@
    "id": "388afaeb",
    "url": "/pages/388afaeb/",
    "en_url": "/en/pages/388afaeb/",
-   "title_zh": "",
+   "title_zh": "NCEP-DOE 再分析 2（高斯网格）总云量",
    "title_en": "NCEP-DOE Reanalysis 2 (Gaussian Grid), Total Cloud Coverage",
    "cat": "atmosphere",
    "tags": [
@@ -8577,17 +8577,17 @@
    ],
    "res_m": 278300.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球；时间：1979 年至 2026 年；分辨率：278,300 米（高斯网格）。",
    "time": "1979-01-01 至 2026-03-01",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/NCEP_DOE_RE2/total_cloud_coverage",
-   "intro_zh": "",
+   "intro_zh": "此集合不再更新。模式已在源头停止更新。",
    "intro_en": "This collection is no longer being updated. The Model is no longer being updated at the source.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "38bd7e7c",
@@ -9357,7 +9357,7 @@
    "id": "3e009701",
    "url": "/pages/3e009701/",
    "en_url": "/en/pages/3e009701/",
-   "title_zh": "",
+   "title_zh": "VNP43IA1：BRDF/反照率模型参数逐日 L3 全球 500 米 SIN 网格",
    "title_en": "VNP43IA1: BRDF/Albedo Model Parameters Daily L3 Global 500m SIN Grid",
    "cat": "satellite",
    "tags": [
@@ -9372,15 +9372,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球陆地；时间：2012 年至 2024 年（逐日）；分辨率：500 米。",
    "time": "2012-01-17 至 2024-06-09",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP43IA1",
-   "intro_zh": "",
+   "intro_zh": "Suomi 国家极轨伙伴（Suomi NPP）NASA 可见红外成像辐射计套件（VIIRS）双向反射分布函数（BRDF）与反照率模型参数（VNP43IA1）第 1 版产品，提供 500 分辨率的核权重（参数）。VNP43IA1 产品逐日生产，使用 16 天 VIIRS 数据，时间…",
    "intro_en": "The Suomi National Polar-Orbiting Partnership (Suomi NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Bidirectional Reflectance Distribution Function (BRDF) and Albedo Model Parameters (VNP…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "3e04cf48",
@@ -9417,7 +9417,7 @@
    "id": "3e56ea0f",
    "url": "/pages/3e56ea0f/",
    "en_url": "/en/pages/3e56ea0f/",
-   "title_zh": "",
+   "title_zh": "GOES-16 MCMIPF 系列 ABI 二级云与水分影像全圆盘",
    "title_en": "GOES-16 MCMIPF Series ABI Level 2 Cloud and Moisture Imagery Full Disk",
    "cat": "atmosphere",
    "tags": [
@@ -9433,16 +9433,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：全圆盘（美洲）；时间范围：2017 年至 2025",
+   "coverage": "覆盖范围：全圆盘（美洲）；时间范围：2017 年至 2025 年；分辨率：2,000 米。",
    "time": "2017-07-10 至 2025-04-07",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/16/MCMIPF",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "3e5d31e9",
@@ -10529,7 +10529,7 @@
    "id": "47b5c214",
    "url": "/pages/47b5c214/",
    "en_url": "/en/pages/47b5c214/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR OISST v02r01：最优插值海表温度",
    "title_en": "NOAA CDR OISST v02r01: Optimum Interpolation Sea Surface Temperature",
    "cat": "cryosphere",
    "tags": [
@@ -10546,15 +10546,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球海洋；时间范围：1981 年至 2026 年；分辨率：27,830 米。",
    "time": "1981-09-01 至 2026-10-31",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/OISST/V2_1",
-   "intro_zh": "",
+   "intro_zh": "NOAA 1/4 度逐日最优插值海表温度（OISST）提供完整的海洋温度场，通过在规则全球格网上组合来自不同平台（卫星、船舶、浮标）的偏差调整观测构建，空缺由插值填补。来自高级甚高分辨率辐射计（AVHRR）的卫星数据提供主要输入，使从 1981 年末至今的高时空覆盖成为可能。",
    "intro_en": "The NOAA 1/4 degree daily Optimum Interpolation Sea Surface Temperature (OISST) provides complete ocean temperature fields constructed by combining bias-adjusted observations from different platforms…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "47bbb1a6",
@@ -10714,7 +10714,7 @@
    "id": "49ac0524",
    "url": "/pages/49ac0524/",
    "en_url": "/en/pages/49ac0524/",
-   "title_zh": "",
+   "title_zh": "VNP64A1.002：火烧迹地月度四级全球 500 米 SIN 格网",
    "title_en": "VNP64A1.002: Burned Area Monthly L4 Global 500m SIN Grid",
    "cat": "hazards",
    "tags": [
@@ -10730,15 +10730,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：500 米。",
    "time": "2012-01-19 至 2026-08-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP64A1",
-   "intro_zh": "",
+   "intro_zh": "逐日 Suomi 国家极轨伙伴（Suomi NPP）NASA 可见光红外成像辐射计套件（VIIRS）火烧迹地（VNP64A1）版本 2 数据产品是一个月度全球格网 500 米产品，包含逐像元火烧面积与质量信息。VNP64 火烧面积制图方法采用 750 米 VIIRS 影像结合 7…",
    "intro_en": "The daily Suomi National Polar-Orbiting Partnership (Suomi NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Burned Area (VNP64A1) Version 2 data product is a monthly, global gridded 500m pr…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "49bcd349",
@@ -11530,7 +11530,7 @@
    "id": "4fef452a",
    "url": "/pages/4fef452a/",
    "en_url": "/en/pages/4fef452a/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR WHOI：海表温度，版本 2",
    "title_en": "NOAA CDR WHOI: Sea Surface Temperature, Version 2",
    "cat": "ocean",
    "tags": [
@@ -11545,17 +11545,17 @@
    ],
    "res_m": 27830.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：1988 年至 2021 年；分辨率：27,830 米。",
    "time": "1988-01-01 至 2021-08-31",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/SST_WHOI/V2",
-   "intro_zh": "",
+   "intro_zh": "海表温度 - WHOI 数据集是 NOAA 海洋表面束（OSB）的一部分，提供无冰海洋上海表温度的高质量气候数据记录（CDR）。",
    "intro_en": "The Sea Surface Temperature - WHOI dataset is part of the NOAA Ocean Surface Bundle (OSB) and provides a high quality Climate Data Record (CDR) of sea surface temperature over ice-free oceans.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "4ff1abc5",
@@ -11646,7 +11646,7 @@
    "id": "50cd4868",
    "url": "/pages/50cd4868/",
    "en_url": "/en/pages/50cd4868/",
-   "title_zh": "",
+   "title_zh": "VNP15A2H：LAI/FPAR 8 天四级全球 500 米 SIN 格网",
    "title_en": "VNP15A2H: LAI/FPAR 8-Day L4 Global 500m SIN Grid",
    "cat": "vegetation",
    "tags": [
@@ -11661,15 +11661,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：500 米。",
    "time": "2012-01-17 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP15A2H",
-   "intro_zh": "",
+   "intro_zh": "可见光红外成像辐射计套件（VIIRS）叶面积指数（LAI）与光合有效辐射分数（FPAR）版本 1 数据产品以 500 米分辨率提供植被冠层信息（VNP15A2H）。VIIRS 传感器搭载于 NOAA/NASA 联合 Suomi 国家极轨伙伴（Suomi NPP）卫星。LAI 是量…",
    "intro_en": "The Visible Infrared Imaging Radiometer Suite (VIIRS) Leaf Area Index (LAI) and Fraction of Photosynthetically Active Radiation (FPAR) Version 1 data product provides information about the vegetative…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "50ce2d44",
@@ -11957,7 +11957,7 @@
    "id": "5248cf0f",
    "url": "/pages/5248cf0f/",
    "en_url": "/en/pages/5248cf0f/",
-   "title_zh": "",
+   "title_zh": "CFSR：气候预报系统再分析 [已弃用]",
    "title_en": "CFSR: Climate Forecast System Reanalysis [deprecated]",
    "cat": "cryosphere",
    "tags": [
@@ -11972,23 +11972,23 @@
    ],
    "res_m": 55660.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2018 年至 2026 年；分辨率：55,660 米。",
    "time": "2018-12-13 至 2026-11-02",
    "provider": "NOAA NWS National Centers for Environmental Prediction (NCEP)",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CFSR",
-   "intro_zh": "",
+   "intro_zh": "自 2025 年 10 月 22 日起，本数据集温度波段改用摄氏而非开尔文单位。温度单位一致（开尔文）请使用 NOAA/CFSRHARMONIZED。",
    "intro_en": "Starting October 22, 2025, this dataset switched to using Celsius instead of Kelvin units for temperature bands. Please use NOAA/CFSRHARMONIZED for consistent temperature units (Kelvin).",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "52780435",
    "url": "/pages/52780435/",
    "en_url": "/en/pages/52780435/",
-   "title_zh": "",
+   "title_zh": "ETOPO1：全球 1 弧分高程",
    "title_en": "ETOPO1: Global 1 Arc-Minute Elevation",
    "cat": "cryosphere",
    "tags": [
@@ -12005,15 +12005,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球；时间：2008 年单期；分辨率：1,855 米（1 弧分）。",
    "time": "2008-08-01 至 2008-08-01",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/NGDC/ETOPO1",
-   "intro_zh": "",
+   "intro_zh": "ETOPO1 是 1 弧分全球地形模型，综合陆地地形与海洋水深，由众多全球与区域数据集构建而成。它包含两个高程波段：icesurface 与 bedrock。",
    "intro_en": "ETOPO1 is a 1 arc-minute global relief model of Earth''s surface that integrates land topography and ocean bathymetry. It was built from numerous global and regional data sets. It contains two elevati…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "52a70103",
@@ -12168,7 +12168,7 @@
    "id": "53ecd31b",
    "url": "/pages/53ecd31b/",
    "en_url": "/en/pages/53ecd31b/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR AVHRR AOT：全球海洋逐日气溶胶光学厚度 v03 [已弃用]",
    "title_en": "NOAA CDR AVHRR AOT: Daily Aerosol Optical Thickness Over Global Oceans, v03 [deprecated]",
    "cat": "atmosphere",
    "tags": [
@@ -12185,15 +12185,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球海洋；时间范围：1981 年至 2022 年；分辨率：11,132 米。",
    "time": "1981-01-01 至 2022-03-31",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/AVHRR/AOT/V3",
-   "intro_zh": "",
+   "intro_zh": "NOAA 气溶胶光学厚度（AOT）气候数据记录（CDR）是从 PATMOS-x AVHRR 二级 b 通道 1（0.63 微米）轨道晴空辐射导出的全球逐日 0.1 度派生数据的集合。气溶胶产品在白天海洋上的无云条件下从 AVHRR 影像生成。",
    "intro_en": "The NOAA Climate Data Record (CDR) of Aerosol Optical Thickness (AOT) is a collection of global daily 0.1 degree derived data from the PATMOS-x AVHRR level-2b channel 1 (0.63 micron) orbital clear-sky…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "54671c5c",
@@ -12612,7 +12612,7 @@
    "id": "57765f1c",
    "url": "/pages/57765f1c/",
    "en_url": "/en/pages/57765f1c/",
-   "title_zh": "",
+   "title_zh": "VIIRS 夜间日/夜波段年度合成 V2.2",
    "title_en": "VIIRS Nighttime Day/Night Annual Band Composites V2.2",
    "cat": "nightlights",
    "tags": [
@@ -12629,15 +12629,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球；时间：2012 年至 2025 年（逐年）；分辨率：463.83 米。",
    "time": "2012-04-01 至 2025-01-01",
    "provider": "Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/DNB/ANNUAL_V22",
-   "intro_zh": "",
+   "intro_zh": "年度全球 VIIRS 夜间灯光数据集是由 2022 年逐月无云平均辐射格网生产的时间序列。更早年份的数据见 NOAA/VIIRS/DNB/ANNUALV21 数据集。",
    "intro_en": "Annual global VIIRS nighttime lights dataset is a time series produced from monthly cloud-free average radiance grids for 2022. Data for earlier years are available in the NOAA/VIIRS/DNB/ANNUALV21 dat…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "579ef535",
@@ -12791,7 +12791,7 @@
    "id": "58a89f03",
    "url": "/pages/58a89f03/",
    "en_url": "/en/pages/58a89f03/",
-   "title_zh": "",
+   "title_zh": "GOES-18 FDCF 系列 ABI 二级火/热点特征全圆盘",
    "title_en": "GOES-18 FDCF Series ABI Level 2 Fire/Hot Spot Characterization Full Disk",
    "cat": "hazards",
    "tags": [
@@ -12807,16 +12807,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：全圆盘（美洲）；时间范围：2022 年至 2026",
+   "coverage": "覆盖范围：全圆盘（美洲）；时间范围：2022 年至 2026 年；分辨率：2,000 米。",
    "time": "2022-10-13 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/18/FDCF",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "592f745a",
@@ -12913,7 +12913,7 @@
    "id": "59f40ab0",
    "url": "/pages/59f40ab0/",
    "en_url": "/en/pages/59f40ab0/",
-   "title_zh": "",
+   "title_zh": "VNP09H1：VIIRS 地表反射率 8 天 L3 全球 500 米 [已弃用]",
    "title_en": "VNP09H1: VIIRS Surface Reflectance 8-Day L3 Global 500m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -12930,15 +12930,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球陆地；时间：2012 年至 2024 年（8 天合成）；分辨率：500 米。",
    "time": "2012-01-19 至 2024-06-09",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP09H1",
-   "intro_zh": "",
+   "intro_zh": "8 天可见红外成像辐射计套件（VIIRS）地表反射率（VNP09H1）第 1 版合成产品，提供 Suomi 国家极轨伙伴（Suomi NPP）VIIRS 传感器三个成像波段（I1、I2、I3）在标称 500 米分辨率（约 463 米）下的陆地表面反射率估算。500 米数据集由 L…",
    "intro_en": "The 8-day Visible Infrared Imaging Radiometer Suite (VIIRS) Surface Reflectance (VNP09H1) Version 1 composite product provides an estimate of land surface reflectance from the Suomi National Polar-orb…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "59fd1524",
@@ -13928,7 +13928,7 @@
    "id": "5f880006",
    "url": "/pages/5f880006/",
    "en_url": "/en/pages/5f880006/",
-   "title_zh": "",
+   "title_zh": "PERSIANN-CDR：利用人工神经网络从遥感信息估算降水——气候数据记录",
    "title_en": "PERSIANN-CDR: Precipitation Estimation From Remotely Sensed Information Using Artificial Neural Networks-Climate Data Record",
    "cat": "climate",
    "tags": [
@@ -13945,15 +13945,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：准全球；时间：1983 年至今（逐日）；分辨率：27,830 米。",
    "time": "1983-01-01 至 2026-07-31",
    "provider": "NOAA NCDC",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/PERSIANN-CDR",
-   "intro_zh": "",
+   "intro_zh": "PERSIANN-CDR 是逐日准全球降水产品，时段为 1983-01-01 至今。数据按季度生产，通常滞后三个月。该产品由加州大学欧文分校水文气象与遥感中心（UC-IRVINE/CHRS）开发，使用由 ISCCP B1 红外数据合并而成的格网卫星（GridSat-B1）红外数据…",
    "intro_en": "PERSIANN-CDR is a daily quasi-global precipitation product that spans the period from 1983-01-01 to present. The data is produced quarterly, with a typical lag of three months. The product is develope…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "602e84",
@@ -14217,7 +14217,7 @@
    "id": "616d9456",
    "url": "/pages/616d9456/",
    "en_url": "/en/pages/616d9456/",
-   "title_zh": "",
+   "title_zh": "VIIRS 气溶胶光学厚度与气溶胶粒径环境数据记录 V3",
    "title_en": "VIIRS Aerosol Optical Depth and Aerosol Particle Size EDRs V3",
    "cat": "atmosphere",
    "tags": [
@@ -14229,17 +14229,17 @@
    ],
    "res_m": 750.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球（85°S–85°N）；时间：2022 年至今；分辨率：750 米。",
    "time": "2022-10-29 至 2026-10-30",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/AOD_EDR/V3",
-   "intro_zh": "",
+   "intro_zh": "VIIRS 气溶胶光学厚度（AOD）与气溶胶粒径（APS）环境数据记录（EDR）产品，提供从可见红外成像辐射计套件（VIIRS）传感器反演的气溶胶性质。主要产品是 550 nm 的 AOD，另有其他传感器通道的反演以及海洋上的埃格斯特朗指数。空间分辨率为 750 米。",
    "intro_en": "The VIIRS Aerosol Optical Depth (AOD) and Aerosol Particle Size (APS) Environmental Data Records (EDRs) product provides aerosol properties retrieved from the Visible Infrared Imaging Radiometer Suite…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "61bf0158",
@@ -14738,7 +14738,7 @@
    "id": "65a6304d",
    "url": "/pages/65a6304d/",
    "en_url": "/en/pages/65a6304d/",
-   "title_zh": "",
+   "title_zh": "DMSP OLS：夜间灯光时间序列版本 4",
    "title_en": "DMSP OLS: Nighttime Lights Time Series Version 4, Defense Meteorological Program Operational Linescan System",
    "cat": "nightlights",
    "tags": [
@@ -14753,17 +14753,17 @@
    ],
    "res_m": 927.67,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1992 年至 2014 年；分辨率：927.67 米。",
    "time": "1992-01-01 至 2014-01-01",
    "provider": "Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/DMSP-OLS/NIGHTTIME_LIGHTS",
-   "intro_zh": "",
+   "intro_zh": "国防气象计划（DMSP）业务线扫描系统（OLS）有在夜间探测可见光与近红外（VNIR）发射源的独特能力。",
    "intro_en": "The Defense Meteorological Program (DMSP) Operational Line-Scan System (OLS) has a unique capability to detect visible and near-infrared (VNIR) emission sources at night.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "65b015a5",
@@ -15326,7 +15326,7 @@
    "id": "69c2c9eb",
    "url": "/pages/69c2c9eb/",
    "en_url": "/en/pages/69c2c9eb/",
-   "title_zh": "",
+   "title_zh": "NCEP/NCAR 再分析数据：水汽 [已弃用]",
    "title_en": "NCEP/NCAR Reanalysis Data, Water Vapor [deprecated]",
    "cat": "atmosphere",
    "tags": [
@@ -15341,17 +15341,17 @@
    ],
    "res_m": 278300.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1948 年至 2026 年；分辨率：278,300 米。",
    "time": "1948-01-01 至 2026-03-18",
    "provider": "NCEP",
    "platform": "Google Earth Engine",
    "ee_id": "NCEP_RE/surface_wv",
-   "intro_zh": "",
+   "intro_zh": "NCEP/NCAR 再分析项目是国家环境预测中心（NCEP，前身为「NMC」）与国家大气研究中心（NCAR）的联合项目。此联合工作的目标是使用历史数据生产新的大气分析，并生产当前大气状态的分析（气候数据同化系统，CDAS）。NCEP/NCAR 再分析 1 项目正使用最先进的分析/…",
    "intro_en": "The NCEP/NCAR Reanalysis Project is a joint project between the National Centers for Environmental Prediction (NCEP, formerly \"NMC\") and the National Center for Atmospheric Research (NCAR). The goal o…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "69e2002c",
@@ -15526,7 +15526,7 @@
    "id": "6ba905f6",
    "url": "/pages/6ba905f6/",
    "en_url": "/en/pages/6ba905f6/",
-   "title_zh": "",
+   "title_zh": "GOES-18 FDCC 系列 ABI 二级火/热点特征 CONUS",
    "title_en": "GOES-18 FDCC Series ABI Level 2 Fire/Hot Spot Characterization CONUS",
    "cat": "hazards",
    "tags": [
@@ -15543,15 +15543,15 @@
    "res_bucket": "1 公里以上",
    "region": "其他",
    "region_label": "美国",
-   "coverage": "",
+   "coverage": "覆盖范围：美国本土（CONUS）；时间范围：2022 年至 2026 年；分辨率：2,000 米。",
    "time": "2022-10-13 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/18/FDCC",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "6bdd5894",
@@ -15701,7 +15701,7 @@
    "id": "6d18f9ec",
    "url": "/pages/6d18f9ec/",
    "en_url": "/en/pages/6d18f9ec/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR AVHRR：地表反射率，版本 5",
    "title_en": "NOAA CDR AVHRR: Surface Reflectance, Version 5",
    "cat": "satellite",
    "tags": [
@@ -15716,17 +15716,17 @@
    ],
    "res_m": 5566.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球陆地；时间范围：1981 年至 2013 年；分辨率：5,566 米。",
    "time": "1981-06-24 至 2013-12-31",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/AVHRR/SR/V5",
-   "intro_zh": "",
+   "intro_zh": "NOAA AVHRR 地表反射率气候数据记录（CDR）包含源自七颗 NOAA 极轨卫星上高级甚高分辨率辐射计（AVHRR）传感器的格网逐日地表反射率与亮温。数据以 0.05° 分辨率格网化，在全球陆地表面上计算。",
    "intro_en": "The NOAA Climate Data Record (CDR) of AVHRR Surface Reflectance contains gridded daily surface reflectance and brightness temperatures derived from the Advanced Very High Resolution Radiometer (AVHRR)…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "6de4314d",
@@ -17297,7 +17297,7 @@
    "id": "79738746",
    "url": "/pages/79738746/",
    "en_url": "/en/pages/79738746/",
-   "title_zh": "",
+   "title_zh": "OPERA 协调 Landsat Sentinel-2 地表扰动年度产品（DIST-ANN-HLS）V1",
    "title_en": "OPERA Land Surface Disturbance Annual from Harmonized Landsat Sentinel-2 (DIST-ANN-HLS) V1",
    "cat": "urban",
    "tags": [
@@ -17312,17 +17312,17 @@
    ],
    "res_m": 30.0,
    "res_bucket": "10–30 米",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球陆地；时间：2023 年至 2025 年（逐年）；分辨率：30 米。",
    "time": "2023-01-01 至 2025-01-01",
    "provider": "NASA JPL",
    "platform": "Google Earth Engine",
    "ee_id": "OPERA/DIST/L3_DIST-ANN-HLS/V1",
-   "intro_zh": "",
+   "intro_zh": "遥感分析终端用户观测产品（OPERA）协调 Landsat Sentinel-2 地表扰动年度产品（DIST-ANN-HLS）第 1 版，将 DIST-ALERT 数据产品汇总为年度植被扰动数据产品。",
    "intro_en": "The Observational Products for End-Users from Remote Sensing Analysis (OPERA) Land Surface Disturbance Annual from Harmonized Landsat Sentinel-2 (DIST-ANN-HLS) product Version 1 summarizes the DIST-AL…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "798ec5f4",
@@ -17863,7 +17863,7 @@
    "id": "7c2b1325",
    "url": "/pages/7c2b1325/",
    "en_url": "/en/pages/7c2b1325/",
-   "title_zh": "",
+   "title_zh": "GOES-18 MCMIPF 系列 ABI 二级云与水分影像全圆盘",
    "title_en": "GOES-18 MCMIPF Series ABI Level 2 Cloud and Moisture Imagery Full Disk",
    "cat": "atmosphere",
    "tags": [
@@ -17879,16 +17879,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：全圆盘（美洲）；时间范围：2018 年至 2026",
+   "coverage": "覆盖范围：全圆盘（美洲）；时间范围：2018 年至 2026 年；分辨率：2,000 米。",
    "time": "2018-12-04 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/18/MCMIPF",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "7cb75763",
@@ -17986,7 +17986,7 @@
    "id": "7cc9ac3e",
    "url": "/pages/7cc9ac3e/",
    "en_url": "/en/pages/7cc9ac3e/",
-   "title_zh": "",
+   "title_zh": "NASA-USDA 增强 SMAP 全球土壤水分数据 [已弃用]",
    "title_en": "NASA-USDA Enhanced SMAP Global Soil Moisture Data [deprecated]",
    "cat": "soil",
    "tags": [
@@ -18002,15 +18002,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2015 年至 2022 年；分辨率：10,000 米。",
    "time": "2015-04-02 至 2022-08-02",
    "provider": "NASA GSFC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA_USDA/HSL/SMAP10KM_soil_moisture",
-   "intro_zh": "",
+   "intro_zh": "NASA-USDA 增强 SMAP 全球土壤水分数据以 10 千米空间分辨率提供全球土壤水分信息。本数据集包括：地表、地下、土壤水分（毫米）、土壤水分剖面（%）、地表与地下土壤水分异常（-）。",
    "intro_en": "The NASA-USDA Enhanced SMAP Global soil moisture data provides soil moisture information across the globe at 10-km spatial resolution. This dataset includes: surface, subsurface, soil moisture (mm), s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "7d12c001",
@@ -18045,7 +18045,7 @@
    "id": "7d1bb919",
    "url": "/pages/7d1bb919/",
    "en_url": "/en/pages/7d1bb919/",
-   "title_zh": "",
+   "title_zh": "VNP21A1N.002：夜间地表温度与发射率逐日 1 千米",
    "title_en": "VNP21A1N.002: Night Land Surface Temperature and Emissivity Daily 1km",
    "cat": "climate",
    "tags": [
@@ -18060,17 +18060,17 @@
    ],
    "res_m": 1000.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：1,000 米。",
    "time": "2012-01-19 至 2026-10-29",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP21A1N",
-   "intro_zh": "",
+   "intro_zh": "NASA Suomi 国家极轨伙伴（Suomi NPP）可见光红外成像辐射计套件（VIIRS）地表温度与发射率（LST&E）夜间版本 1 产品（VNP21A1N）由夜间二级格网（L2G）中间产品逐日合成。",
    "intro_en": "The NASA Suomi National Polar-Orbiting Partnership (Suomi NPP) Visible Infrared Imaging Radiometer Suite (VIIRS) Land Surface Temperature and Emissivity (LST&E) Night Version 1 product (VNP21A1N) is c…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "7d3e40",
@@ -18239,7 +18239,7 @@
    "id": "7e3b76c0",
    "url": "/pages/7e3b76c0/",
    "en_url": "/en/pages/7e3b76c0/",
-   "title_zh": "",
+   "title_zh": "GOES-17 MCMIPM 系列 ABI 二级云与水分影像中尺度",
    "title_en": "GOES-17 MCMIPM Series ABI Level 2 Cloud and Moisture Imagery Mesoscale",
    "cat": "atmosphere",
    "tags": [
@@ -18255,16 +18255,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：中尺度区域；时间范围：2018 年至 2023 年",
+   "coverage": "覆盖范围：中尺度区域；时间范围：2018 年至 2023 年；分辨率：2,000 米。",
    "time": "2018-12-04 至 2023-01-10",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/17/MCMIPM",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "7e5997d1",
@@ -18562,7 +18562,7 @@
    "id": "8042cb38",
    "url": "/pages/8042cb38/",
    "en_url": "/en/pages/8042cb38/",
-   "title_zh": "",
+   "title_zh": "CPC 全球统一温度",
    "title_en": "CPC Global Unified Temperature",
    "cat": "climate",
    "tags": [
@@ -18577,15 +18577,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球陆地；时间范围：1979 年至 2026 年；分辨率：55,500 米。",
    "time": "1979-01-01 至 2026-10-31",
    "provider": "NOAA Physical Sciences Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CPC/Temperature",
-   "intro_zh": "",
+   "intro_zh": "本数据集提供全球陆地区域逐日地表气温的格网分析，包括逐日最高（Tmax）与最低（Tmin）温度。数据从 1979 年至今，以 0.5 度经纬格网呈现，与 CPC 基于雨量计的全球逐日降水分析的分辨率一致。数据集的构建考虑了地形效应。其主要目的是支持气候监测与预报验证活动。输入数据…",
    "intro_en": "This dataset provides a gridded analysis of daily surface air temperature over global land areas, including daily maximum (Tmax), minimum (Tmin) temperatures. Spanning from 1979 to the present, the da…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "80887808",
@@ -18711,7 +18711,7 @@
    "id": "81521072",
    "url": "/pages/81521072/",
    "en_url": "/en/pages/81521072/",
-   "title_zh": "",
+   "title_zh": "VNP43IA2：BRDF/反照率质量逐日 L3 全球 500 米 SIN 网格",
    "title_en": "VNP43IA2: BRDF/Albedo Quality Daily L3 Global 500m SIN Grid",
    "cat": "satellite",
    "tags": [
@@ -18726,15 +18726,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球陆地；时间：2012 年至 2024 年（逐日）；分辨率：500 米。",
    "time": "2012-01-17 至 2024-06-09",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP43IA2",
-   "intro_zh": "",
+   "intro_zh": "Suomi 国家极轨伙伴（Suomi NPP）NASA 可见红外成像辐射计套件（VIIRS）双向反射分布函数（BRDF）与反照率质量（VNP43IA2）第 1 版产品，提供 500 米分辨率的 BRDF 与反照率质量。VNP43IA2 产品逐日生产，使用 16 天 VIIRS 数…",
    "intro_en": "The Suomi National Polar-Orbiting Partnership (Suomi NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Bidirectional Reflectance Distribution Function (BRDF) and Albedo Quality (VNP43IA2) Ve…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "81d193ff",
@@ -19613,7 +19613,7 @@
    "id": "86f9040c",
    "url": "/pages/86f9040c/",
    "en_url": "/en/pages/86f9040c/",
-   "title_zh": "",
+   "title_zh": "VNP43MA3：BRDF/反照率逐日三级全球 1 千米 SIN 格网",
    "title_en": "VNP43MA3: BRDF/Albedo Daily L3 Global 1km SIN Grid",
    "cat": "satellite",
    "tags": [
@@ -19630,15 +19630,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：1,000 米。",
    "time": "2012-01-17 至 2026-10-21",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP43MA3",
-   "intro_zh": "",
+   "intro_zh": "NASA/NOAA Suomi 国家极轨伙伴（Suomi NPP）可见光红外成像辐射计套件（VIIRS）双向反射分布函数（BRDF）与反照率（BRDF/反照率）版本 2 产品以 1000 米（1 千米）分辨率提供反照率估计。VNP43MA3 产品逐日使用 16 天 VIIRS 数…",
    "intro_en": "The NASA/NOAA Suomi National Polar-orbiting Partnership (Suomi NPP) Visible Infrared Imaging Radiometer Suite (VIIRS) Bidirectional Reflectance Distribution Function (BRDF) and Albedo (BRDF/Albedo) Ve…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "86fc5ddc",
@@ -19791,7 +19791,7 @@
    "id": "877e12fd",
    "url": "/pages/877e12fd/",
    "en_url": "/en/pages/877e12fd/",
-   "title_zh": "",
+   "title_zh": "VNP46A2：VIIRS 月光间隙填充 BRDF 夜间灯光逐日 L3 全球 500 米 [已弃用]",
    "title_en": "VNP46A2: VIIRS Lunar Gap-Filled BRDF Nighttime Lights Daily L3 Global 500m [deprecated]",
    "cat": "nightlights",
    "tags": [
@@ -19807,15 +19807,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球；时间：2012 年至 2024 年（逐日）；分辨率：500 米。",
    "time": "2012-01-19 至 2024-12-26",
    "provider": "NASA LAADS DAAC",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP46A2",
-   "intro_zh": "",
+   "intro_zh": "Suomi 国家极轨伙伴（SNPP）可见红外成像辐射计套件（VIIRS）搭载日夜波段（DNB）传感器，提供适用于地球系统科学与应用的全球逐日夜间可见光与近红外（NIR）光测量。VIIRS DNB 在弱光条件下的超高灵敏度，使我们能够生成一套新的科学质量夜间产品，与上一代国防气象卫…",
    "intro_en": "The Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS) supports a Day-Night Band (DNB) sensor that provides global daily measurements of nocturnal visib…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "877f8294",
@@ -20084,7 +20084,7 @@
    "id": "89a1d68e",
    "url": "/pages/89a1d68e/",
    "en_url": "/en/pages/89a1d68e/",
-   "title_zh": "",
+   "title_zh": "VNP46A1：VIIRS 逐日格网日夜波段 500 米经纬线性网格夜间产品",
    "title_en": "VNP46A1: VIIRS Daily Gridded Day Night Band 500m Linear Lat Lon Grid Night",
    "cat": "population",
    "tags": [
@@ -20099,15 +20099,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球；时间：2012 年至 2025 年（逐日）；分辨率：500 米。",
    "time": "2012-01-19 至 2025-01-02",
    "provider": "NASA LAADS DAAC",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP46A1",
-   "intro_zh": "",
+   "intro_zh": "Suomi 国家极轨伙伴（SNPP）可见红外成像辐射计套件（VIIRS）搭载日夜波段（DNB）传感器，提供适用于地球系统科学与应用的全球逐日夜间可见光与近红外（NIR）光测量。VIIRS DNB 在弱光条件下的超高灵敏度，使我们能够生成一套新的科学质量夜间产品，与上一代国防气象卫…",
    "intro_en": "The Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS) supports a Day-Night Band (DNB) sensor that provides global daily measurements of nocturnal visib…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "8a8d58",
@@ -20188,7 +20188,7 @@
    "id": "8b7e1f94",
    "url": "/pages/8b7e1f94/",
    "en_url": "/en/pages/8b7e1f94/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR VIIRS LAI FAPAR：叶面积指数与吸收光合有效辐射分数，版本 1",
    "title_en": "NOAA CDR VIIRS LAI FAPAR: Leaf Area Index and Fraction of Absorbed Photosynthetically Active Radiation, Version 1",
    "cat": "vegetation",
    "tags": [
@@ -20203,17 +20203,17 @@
    ],
    "res_m": 5566.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球陆地；时间范围：2014 年至 2026 年；分辨率：5,566 米。",
    "time": "2014-01-01 至 2026-10-29",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/VIIRS/LAI_FAPAR/V1",
-   "intro_zh": "",
+   "intro_zh": "本气候数据记录（CDR）结合了叶面积指数（LAI）与吸收光合有效辐射分数（FAPAR）数据集，这两个生物物理变量可用于评估植被胁迫、预测农业产量及其他建模与资源管理应用。LAI 跟踪单位地面表面积的单侧绿叶面积，FAPAR 量化植物在光合有效辐射（PAR）光谱区内吸收的太阳辐射。…",
    "intro_en": "This Climate Data Record (CDR) combines datasets for Leaf Area Index (LAI) and Fraction of Absorbed Photosynthetically Active Radiation (FAPAR), two biophysical variables that can be used to evaluate…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "8b874d85",
@@ -20274,7 +20274,7 @@
    "id": "8c150ee4",
    "url": "/pages/8c150ee4/",
    "en_url": "/en/pages/8c150ee4/",
-   "title_zh": "",
+   "title_zh": "OPERA Sentinel-1 辐射地形校正 SAR 后向散射 V1.0",
    "title_en": "OPERA Radiometric Terrain-Corrected SAR Backscatter from Sentinel-1 V1.0",
    "cat": "satellite",
    "tags": [
@@ -20291,15 +20291,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：近全球；时间：2016 年至今；分辨率：30 米。",
    "time": "2016-04-14 至 2026-11-02",
    "provider": "NASA JPL",
    "platform": "Google Earth Engine",
    "ee_id": "OPERA/RTC/L2_V1/S1",
-   "intro_zh": "",
+   "intro_zh": "本产品由经地形归一化的雷达后向散射组成。它制图与地面散射体物理性质相关的信号，如地表粗糙度、土壤湿度与/或植被。OPERA RTC-S1 产品源自哥白尼 Sentinel-1 干涉宽幅（IW）单视复数（SLC）数据，范围近全球，时间采样与 SLC 数据的可用性一致。",
    "intro_en": "This product consists of radar backscatter normalized with respect to the topography. It maps signals related to the physical properties of ground scattering objects, such as surface roughness and soi…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "8c427a86",
@@ -20398,7 +20398,7 @@
    "id": "8cb4db04",
    "url": "/pages/8cb4db04/",
    "en_url": "/en/pages/8cb4db04/",
-   "title_zh": "",
+   "title_zh": "VNP46A2：VIIRS 月球填补 BRDF 夜间灯光逐日三级全球 500 米",
    "title_en": "VNP46A2: VIIRS Lunar Gap-Filled BRDF Nighttime Lights Daily L3 Global 500m",
    "cat": "nightlights",
    "tags": [
@@ -20414,15 +20414,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：500 米。",
    "time": "2012-01-19 至 2026-10-28",
    "provider": "NASA LAADS DAAC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP46A2",
-   "intro_zh": "",
+   "intro_zh": "Suomi 国家极轨伙伴（SNPP）可见光红外成像辐射计套件（VIIRS）支持一个昼夜波段（DNB）传感器，提供适合地球系统科学与应用的夜间可见光与近红外（NIR）光的全球逐日测量。VIIRS DNB 在低光条件下的超高灵敏度使我们能生成一套新的科学质量夜间产品，与先前国防气象卫…",
    "intro_en": "The Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS) supports a Day-Night Band (DNB) sensor that provides global daily measurements of nocturnal visib…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "8d56a30a",
@@ -20606,7 +20606,7 @@
    "id": "8e9e1c36",
    "url": "/pages/8e9e1c36/",
    "en_url": "/en/pages/8e9e1c36/",
-   "title_zh": "",
+   "title_zh": "NOAA NHC HURDAT2 大西洋飓风目录",
    "title_en": "NOAA NHC HURDAT2 Atlantic Hurricane Catalog",
    "cat": "climate",
    "tags": [
@@ -20620,16 +20620,16 @@
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：大西洋盆地；时间：1851 年至 2018 年；类型：",
+   "coverage": "空间：大西洋盆地；时间：1851 年至 2018 年；类型：矢量/表格。",
    "time": "1851-06-25 至 2018-11-04",
    "provider": "NOAA NHC",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/NHC/HURDAT2/atlantic",
-   "intro_zh": "",
+   "intro_zh": "飓风最佳路径数据库（HURDAT2）。",
    "intro_en": "Hurricane best track database (HURDAT2).",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "8f385aa2",
@@ -20807,7 +20807,7 @@
    "id": "903cb06d",
    "url": "/pages/903cb06d/",
    "en_url": "/en/pages/903cb06d/",
-   "title_zh": "",
+   "title_zh": "PRISM 逐月空间数据集 ANm",
    "title_en": "PRISM Monthly Spatial Dataset ANm",
    "cat": "climate",
    "tags": [
@@ -20823,16 +20823,16 @@
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：美国本土；时间：1895 年至今（逐月）；分辨率：4,",
+   "coverage": "空间：美国本土；时间：1895 年至今（逐月）；分辨率：4,638.3 米。",
    "time": "1895-01-01 至 2026-09-01",
    "provider": "PRISM / OREGONSTATE",
    "platform": "Google Earth Engine",
    "ee_id": "OREGONSTATE/PRISM/ANm",
-   "intro_zh": "",
+   "intro_zh": "PRISM 逐日与逐月数据集是美国本土的格网天气数据集，由俄勒冈州立大学 PRISM 小组生产。本集合同时包含 AN81 与 AN91 数据，如「datasettype」属性所示。",
    "intro_en": "The PRISM daily and monthly datasets are gridded weather datasets for the conterminous United States, produced by the PRISM Group at Oregon State University. This collection contains both AN81 and AN9…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "906a102a",
@@ -21096,7 +21096,7 @@
    "id": "919f02a3",
    "url": "/pages/919f02a3/",
    "en_url": "/en/pages/919f02a3/",
-   "title_zh": "",
+   "title_zh": "GOES-17 MCMIPF 系列 ABI 二级云与水分影像全圆盘",
    "title_en": "GOES-17 MCMIPF Series ABI Level 2 Cloud and Moisture Imagery Full Disk",
    "cat": "atmosphere",
    "tags": [
@@ -21112,16 +21112,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：全圆盘（美洲）；时间范围：2018 年至 2023",
+   "coverage": "覆盖范围：全圆盘（美洲）；时间范围：2018 年至 2023 年；分辨率：2,000 米。",
    "time": "2018-12-04 至 2023-01-10",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/17/MCMIPF",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "91a8ea86",
@@ -21521,7 +21521,7 @@
    "id": "940b557d",
    "url": "/pages/940b557d/",
    "en_url": "/en/pages/940b557d/",
-   "title_zh": "",
+   "title_zh": "VNP09GA：VIIRS 地表反射率逐日 500 米与 1 公里 [已弃用]",
    "title_en": "VNP09GA: VIIRS Surface Reflectance Daily 500m and 1km [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -21536,17 +21536,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球陆地；时间：2012 年至 2024 年（逐日）；分辨率：500 米与 1,000 米。",
    "time": "2012-01-19 至 2024-06-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP09GA",
-   "intro_zh": "",
+   "intro_zh": "可见红外成像辐射计套件（VIIRS）逐日地表反射率（VNP09GA）产品提供 Suomi 国家极轨伙伴（S-NPP）VIIRS 传感器陆地表面反射率的估算。数据包括三个成像波段（I1、I2、I3），标称分辨率 500 米（约 463 米）；以及九个中等分辨率波段（M1、M2、M3…",
    "intro_en": "The Visible Infrared Imaging Radiometer Suite (VIIRS) daily surface reflectance (VNP09GA) product provides an estimate of land surface reflectance from the Suomi National Polar-Orbiting Partnership (S…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "940cec08",
@@ -21970,7 +21970,7 @@
    "id": "9635d04b",
    "url": "/pages/9635d04b/",
    "en_url": "/en/pages/9635d04b/",
-   "title_zh": "",
+   "title_zh": "NCEP/NCAR 再分析数据：地表温度 [已弃用]",
    "title_en": "NCEP/NCAR Reanalysis Data, Surface Temperature [deprecated]",
    "cat": "atmosphere",
    "tags": [
@@ -21985,17 +21985,17 @@
    ],
    "res_m": 278300.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1948 年至 2026 年；分辨率：278,300 米。",
    "time": "1948-01-01 至 2026-03-18",
    "provider": "NCEP",
    "platform": "Google Earth Engine",
    "ee_id": "NCEP_RE/surface_temp",
-   "intro_zh": "",
+   "intro_zh": "NCEP/NCAR 再分析项目是国家环境预测中心（NCEP，前身为「NMC」）与国家大气研究中心（NCAR）的联合项目。此联合工作的目标是使用历史数据生产新的大气分析，并生产当前大气状态的分析（气候数据同化系统，CDAS）。NCEP/NCAR 再分析 1 项目正使用最先进的分析/…",
    "intro_en": "The NCEP/NCAR Reanalysis Project is a joint project between the National Centers for Environmental Prediction (NCEP, formerly \"NMC\") and the National Center for Atmospheric Research (NCAR). The goal o…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "969607b9",
@@ -22299,7 +22299,7 @@
    "id": "985a7db1",
    "url": "/pages/985a7db1/",
    "en_url": "/en/pages/985a7db1/",
-   "title_zh": "",
+   "title_zh": "VNP22Q2：地表物候逐年 L3 全球 500 米 SIN 网格 [已弃用]",
    "title_en": "VNP22Q2: Land Surface Phenology Yearly L3 Global 500m SIN Grid [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -22316,15 +22316,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球陆地；时间：2013 年至 2022 年（逐年）；分辨率：500 米。",
    "time": "2013-01-01 至 2022-01-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP22Q2",
-   "intro_zh": "",
+   "intro_zh": "Suomi 国家极轨伙伴（Suomi NPP）NASA 可见红外成像辐射计套件（VIIRS）土地覆盖动态数据产品，以逐年间隔提供全球地表物候（GLSP）指标。VNP22Q2 数据产品源自 VIIRS 天底双向反射分布函数（BRDF）调整反射率（NBAR）计算的两波段增强植被指数（…",
    "intro_en": "The Suomi National Polar-Orbiting Partnership (Suomi NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Land Cover Dynamics data product provides global land surface phenology (GLSP) metrics…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "987a314f",
@@ -22415,7 +22415,7 @@
    "id": "98ca1d9b",
    "url": "/pages/98ca1d9b/",
    "en_url": "/en/pages/98ca1d9b/",
-   "title_zh": "",
+   "title_zh": "VIIRS 夜间日/夜波段年度合成 V2.1",
    "title_en": "VIIRS Nighttime Day/Night Annual Band Composites V2.1",
    "cat": "nightlights",
    "tags": [
@@ -22432,15 +22432,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球；时间：2012 年至 2021 年（逐年）；分辨率：463.83 米。",
    "time": "2012-04-01 至 2021-01-01",
    "provider": "Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/DNB/ANNUAL_V21",
-   "intro_zh": "",
+   "intro_zh": "年度全球 VIIRS 夜间灯光数据集是由 2013 至 2021 年逐月无云平均辐射格网生产的时间序列。2022 年数据见 NOAA/VIIRS/DNB/ANNUALV22 数据集。",
    "intro_en": "Annual global VIIRS nighttime lights dataset is a time series produced from monthly cloud-free average radiance grids spanning 2013 to 2021. Data for 2022 are available in the NOAA/VIIRS/DNB/ANNUALV22…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "994fe0ed",
@@ -22911,7 +22911,7 @@
    "id": "9ad1a384",
    "url": "/pages/9ad1a384/",
    "en_url": "/en/pages/9ad1a384/",
-   "title_zh": "",
+   "title_zh": "NOAA NHC HURDAT2 太平洋飓风目录",
    "title_en": "NOAA NHC HURDAT2 Pacific Hurricane Catalog",
    "cat": "climate",
    "tags": [
@@ -22925,16 +22925,16 @@
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：太平洋盆地；时间：1949 年至 2018 年；类型：",
+   "coverage": "空间：太平洋盆地；时间：1949 年至 2018 年；类型：矢量/表格。",
    "time": "1949-06-11 至 2018-11-09",
    "provider": "NOAA NHC",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/NHC/HURDAT2/pacific",
-   "intro_zh": "",
+   "intro_zh": "飓风最佳路径数据库（HURDAT2）。",
    "intro_en": "Hurricane best track database (HURDAT2).",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "9ae9975a",
@@ -23385,7 +23385,7 @@
    "id": "9d6b70e8",
    "url": "/pages/9d6b70e8/",
    "en_url": "/en/pages/9d6b70e8/",
-   "title_zh": "",
+   "title_zh": "CPC 全球统一雨量计逐日降水分析",
    "title_en": "CPC Global Unified Gauge-Based Analysis of Daily Precipitation",
    "cat": "climate",
    "tags": [
@@ -23398,15 +23398,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球陆地；时间范围：2006 年至 2026 年；分辨率：55,500 米。",
    "time": "2006-01-01 至 2026-10-30",
    "provider": "NOAA Physical Sciences Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CPC/Precipitation",
-   "intro_zh": "",
+   "intro_zh": "CPC 统一雨量计全球逐日降水分析数据集提供 1979 年至今的陆地逐日降水估计。由 NOAA 气候预测中心（CPC）开发，它利用最优插值技术组合全球雨量计网络的数据，超过 30,000 个雨量计贡献于回顾版本（1979–2005），约 17,000 个贡献于实时版本（2006…",
    "intro_en": "The CPC Unified Gauge-Based Analysis of Global Daily Precipitation dataset offers daily precipitation estimates over land from 1979 to the present. Developed by NOAA's Climate Prediction Center (CPC),…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "9e033fa6",
@@ -23889,7 +23889,7 @@
    "id": "a0ccef04",
    "url": "/pages/a0ccef04/",
    "en_url": "/en/pages/a0ccef04/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR AVHRR NDVI：归一化差值植被指数，版本 5",
    "title_en": "NOAA CDR AVHRR NDVI: Normalized Difference Vegetation Index, Version 5",
    "cat": "vegetation",
    "tags": [
@@ -23903,23 +23903,23 @@
    ],
    "res_m": 5566.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球陆地；时间范围：1981 年至 2013 年；分辨率：5,566 米。",
    "time": "1981-06-24 至 2013-12-31",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/AVHRR/NDVI/V5",
-   "intro_zh": "",
+   "intro_zh": "NOAA AVHRR 归一化差值植被指数（NDVI）气候数据记录（CDR）包含源自 NOAA AVHRR 地表反射率产品的格网逐日 NDVI。它提供地表植被覆盖活动的测量，以 0.05° 分辨率格网化，在全球陆地表面上计算。",
    "intro_en": "The NOAA Climate Data Record (CDR) of AVHRR Normalized Difference Vegetation Index (NDVI) contains gridded daily NDVI derived from the NOAA AVHRR Surface Reflectance product. It provides a measurement…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a0d8dbc6",
    "url": "/pages/a0d8dbc6/",
    "en_url": "/en/pages/a0d8dbc6/",
-   "title_zh": "",
+   "title_zh": "GOES-18 MCMIPM 系列 ABI 二级云与水分影像中尺度",
    "title_en": "GOES-18 MCMIPM Series ABI Level 2 Cloud and Moisture Imagery Mesoscale",
    "cat": "atmosphere",
    "tags": [
@@ -23935,16 +23935,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：中尺度区域；时间范围：2022 年至 2026 年",
+   "coverage": "覆盖范围：中尺度区域；时间范围：2022 年至 2026 年；分辨率：2,000 米。",
    "time": "2022-05-11 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/18/MCMIPM",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a0f281fd",
@@ -24160,7 +24160,7 @@
    "id": "a1cd75f1",
    "url": "/pages/a1cd75f1/",
    "en_url": "/en/pages/a1cd75f1/",
-   "title_zh": "",
+   "title_zh": "CFSV2：NCEP 气候预报系统版本 2，6 小时产品（协调版）",
    "title_en": "CFSV2: NCEP Climate Forecast System Version 2, 6-Hourly Products Harmonized",
    "cat": "cryosphere",
    "tags": [
@@ -24175,17 +24175,17 @@
    ],
    "res_m": 22264.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1979 年至 2026 年；分辨率：22,264 米。",
    "time": "1979-01-01 至 2026-11-01",
    "provider": "NOAA NWS National Centers for Environmental Prediction (NCEP)",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CFSV2/FOR6H_HARMONIZED",
-   "intro_zh": "",
+   "intro_zh": "国家环境预测中心（NCEP）气候预报系统（CFS）是一个全耦合模式，表示地球大气、海洋、陆地与海冰之间的相互作用。CFS 在 NCEP 的环境建模中心（EMC）开发。业务 CFS 于 2011 年 3 月 30 日升级到版本 2（CFSv2）。",
    "intro_en": "The National Centers for Environmental Prediction (NCEP) Climate Forecast System (CFS) is a fully coupled model representing the interaction between the Earth's atmosphere, oceans, land, and sea ice.…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a1d7d2",
@@ -24244,7 +24244,7 @@
    "id": "a2388741",
    "url": "/pages/a2388741/",
    "en_url": "/en/pages/a2388741/",
-   "title_zh": "",
+   "title_zh": "CFSR：气候预报系统再分析（协调版）",
    "title_en": "CFSR: Climate Forecast System Reanalysis Harmonized",
    "cat": "cryosphere",
    "tags": [
@@ -24261,15 +24261,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2018 年至 2026 年；分辨率：55,660 米。",
    "time": "2018-12-13 至 2026-11-02",
    "provider": "NOAA NWS National Centers for Environmental Prediction (NCEP)",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CFSR_HARMONIZED",
-   "intro_zh": "",
+   "intro_zh": "国家环境预测中心（NCEP）气候预报系统再分析（CFSR）被设计并执行为一个全球高分辨率耦合大气-海洋-陆面-海冰系统，在 1979 年 1 月至 2011 年 3 月的 32 年记录时段内提供这些耦合域状态的最佳估计。它已扩展为业务实时产品。Earth Engine 中的数据仅…",
    "intro_en": "The National Centers for Environmental Prediction (NCEP) Climate Forecast System Reanalysis (CFSR) was designed and executed as a global, high-resolution, coupled atmosphere-ocean-land surface-sea ice…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a2bec57e",
@@ -24304,7 +24304,7 @@
    "id": "a2c92c1d",
    "url": "/pages/a2c92c1d/",
    "en_url": "/en/pages/a2c92c1d/",
-   "title_zh": "",
+   "title_zh": "DMSP OLS：全球辐射校准夜间灯光版本 4",
    "title_en": "DMSP OLS: Global Radiance-Calibrated Nighttime Lights Version 4, Defense Meteorological Program Operational Linescan System",
    "cat": "nightlights",
    "tags": [
@@ -24321,15 +24321,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：1996 年至 2011 年；分辨率：927.67 米。",
    "time": "1996-03-16 至 2011-07-31",
    "provider": "Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/DMSP-OLS/CALIBRATED_LIGHTS_V4",
-   "intro_zh": "",
+   "intro_zh": "国防气象计划（DMSP）业务线扫描系统（OLS）有在夜间探测可见光与近红外（VNIR）发射源的独特能力。",
    "intro_en": "The Defense Meteorological Program (DMSP) Operational Line-Scan System (OLS) has a unique capability to detect visible and near-infrared (VNIR) emission sources at night.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a326b13b",
@@ -24446,7 +24446,7 @@
    "id": "a3cdde8d",
    "url": "/pages/a3cdde8d/",
    "en_url": "/en/pages/a3cdde8d/",
-   "title_zh": "",
+   "title_zh": "VNP14A1.001：热异常/火点逐日 L3 全球 1 公里 SIN 网格 [已弃用]",
    "title_en": "VNP14A1.001: Thermal Anomalies/Fire Daily L3 Global 1km SIN Grid [deprecated]",
    "cat": "hazards",
    "tags": [
@@ -24461,15 +24461,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球；时间：2012 年至 2024 年（逐日）；分辨率：1,000 米。",
    "time": "2012-01-19 至 2024-06-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP14A1",
-   "intro_zh": "",
+   "intro_zh": "逐日 Suomi 国家极轨伙伴 NASA 可见红外成像辐射计套件（VIIRS）热异常/火点（VNP14A1）第 1 版数据产品，提供活动火点与其他热异常的逐日信息。VNP14A1 数据产品是由 VIIRS 750 米波段在逐日（24 小时）期内探测的火点像元构成的全球 1 公里格…",
    "intro_en": "The daily Suomi National Polar-Orbiting Partnership NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Thermal Anomalies/Fire (VNP14A1) Version 1 data product provides daily information about acti…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a3ce864f",
@@ -24587,7 +24587,7 @@
    "id": "a63db064",
    "url": "/pages/a63db064/",
    "en_url": "/en/pages/a63db064/",
-   "title_zh": "",
+   "title_zh": "VNP21A1D.001：白天地表温度与发射率逐日 1 公里 [已弃用]",
    "title_en": "VNP21A1D.001: Day Land Surface Temperature and Emissivity Daily 1km [deprecated]",
    "cat": "climate",
    "tags": [
@@ -24602,17 +24602,17 @@
    ],
    "res_m": 1000.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球陆地；时间：2012 年至 2024 年（逐日）；分辨率：1,000 米。",
    "time": "2012-01-19 至 2024-05-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP21A1D",
-   "intro_zh": "",
+   "intro_zh": "NASA Suomi 国家极轨伙伴（Suomi NPP）可见红外成像辐射计套件（VIIRS）地表温度与发射率（LST&E）白天第 1 版产品（VNP21A1D）由白天 2 级格网（L2G）中间产品逐日合成。",
    "intro_en": "The NASA Suomi National Polar-Orbiting Partnership (Suomi NPP) Visible Infrared Imaging Radiometer Suite (VIIRS) Land Surface Temperature and Emissivity (LST&E) Day Version 1 product (VNP21A1D) is com…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a6665342",
@@ -25004,7 +25004,7 @@
    "id": "a85f942c",
    "url": "/pages/a85f942c/",
    "en_url": "/en/pages/a85f942c/",
-   "title_zh": "",
+   "title_zh": "GOES-16 FDCF 系列 ABI 二级火/热点特征全圆盘",
    "title_en": "GOES-16 FDCF Series ABI Level 2 Fire/Hot Spot Characterization Full Disk",
    "cat": "hazards",
    "tags": [
@@ -25020,16 +25020,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：全圆盘（美洲）；时间范围：2017 年至 2025",
+   "coverage": "覆盖范围：全圆盘（美洲）；时间范围：2017 年至 2025 年；分辨率：2,000 米。",
    "time": "2017-05-24 至 2025-04-07",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/16/FDCF",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a8b180",
@@ -25057,7 +25057,7 @@
    "id": "a8c34af0",
    "url": "/pages/a8c34af0/",
    "en_url": "/en/pages/a8c34af0/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR GRIDSAT-B1：地球静止红外通道亮温",
    "title_en": "NOAA CDR GRIDSAT-B1: Geostationary IR Channel Brightness Temperature",
    "cat": "climate",
    "tags": [
@@ -25072,23 +25072,23 @@
    ],
    "res_m": 7792.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1980 年至 2024 年；分辨率：7,792 米。",
    "time": "1980-01-01 至 2024-09-30",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/GRIDSAT-B1/V2",
-   "intro_zh": "",
+   "intro_zh": "注：由于持续的基础设施更新，本数据集自 2024-03-31 起未被提供方更新。目前没有数据集更新何时恢复的时间表。",
    "intro_en": "Note: This dataset has not been updated by the provider since 2024-03-31 due to ongoing infrastructure updates. There is no current timeline for when dataset updates will resume.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a9811dc6",
    "url": "/pages/a9811dc6/",
    "en_url": "/en/pages/a9811dc6/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR AVHRR AOT：全球海洋逐日气溶胶光学厚度 v04",
    "title_en": "NOAA CDR AVHRR AOT: Daily Aerosol Optical Thickness Over Global Oceans, v04",
    "cat": "atmosphere",
    "tags": [
@@ -25105,15 +25105,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球海洋；时间范围：1981 年至 2026 年；分辨率：11,132 米。",
    "time": "1981-01-01 至 2026-06-30",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/AVHRR/AOT/V4",
-   "intro_zh": "",
+   "intro_zh": "NOAA 气溶胶光学厚度（AOT）气候数据记录（CDR）是从 PATMOS-x AVHRR 二级 b 通道 1（0.63 微米）轨道晴空辐射导出的全球逐日 0.1 度派生数据的集合。气溶胶产品在白天海洋上的无云条件下从 AVHRR 影像生成。",
    "intro_en": "The NOAA Climate Data Record (CDR) of Aerosol Optical Thickness (AOT) is a collection of global daily 0.1 degree derived data from the PATMOS-x AVHRR level-2b channel 1 (0.63 micron) orbital clear-sky…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "a996bfa2",
@@ -25430,7 +25430,7 @@
    "id": "ab47b752",
    "url": "/pages/ab47b752/",
    "en_url": "/en/pages/ab47b752/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR：海洋热通量，版本 2",
    "title_en": "NOAA CDR: Ocean Heat Fluxes, Version 2",
    "cat": "ocean",
    "tags": [
@@ -25445,17 +25445,17 @@
    ],
    "res_m": 27830.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：1988 年至 2021 年；分辨率：27,830 米。",
    "time": "1988-01-01 至 2021-08-31",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/HEAT_FLUXES/V2",
-   "intro_zh": "",
+   "intro_zh": "海洋热通量数据集是 NOAA 海洋表面束（OSB）的一部分，提供无冰海洋上空气/海洋热通量的高质量气候数据记录（CDR）。",
    "intro_en": "The Ocean Heat Fluxes dataset is part of the NOAA Ocean Surface Bundle (OSB) and provides a high quality Climate Data Record (CDR) of the air/ocean heat fluxes over ice-free oceans.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "ab75e1cd",
@@ -25516,7 +25516,7 @@
    "id": "abb03285",
    "url": "/pages/abb03285/",
    "en_url": "/en/pages/abb03285/",
-   "title_zh": "",
+   "title_zh": "VNP15A2H：叶面积指数/光合有效辐射分量 8 天 L4 全球 500 米 SIN 网格 [已弃用]",
    "title_en": "VNP15A2H: LAI/FPAR 8-Day L4 Global 500m SIN Grid [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -25531,15 +25531,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球陆地；时间：2012 年至 2024 年（8 天合成）；分辨率：500 米。",
    "time": "2012-01-17 至 2024-06-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP15A2H",
-   "intro_zh": "",
+   "intro_zh": "可见红外成像辐射计套件（VIIRS）叶面积指数（LAI）与光合有效辐射分量（FPAR）第 1 版数据产品，以 500 米分辨率提供植被冠层信息（VNP15A2H）。VIIRS 传感器搭载于 NOAA/NASA 联合的 Suomi 国家极轨伙伴（Suomi NPP）卫星。LAI 是…",
    "intro_en": "The Visible Infrared Imaging Radiometer Suite (VIIRS) Leaf Area Index (LAI) and Fraction of Photosynthetically Active Radiation (FPAR) Version 1 data product provides information about the vegetative…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "abe0a2db",
@@ -26138,7 +26138,7 @@
    "id": "b0f1292c",
    "url": "/pages/b0f1292c/",
    "en_url": "/en/pages/b0f1292c/",
-   "title_zh": "",
+   "title_zh": "VIIRS 杂散光校正夜间日/夜波段合成第 1 版（月度）",
    "title_en": "VIIRS Stray Light Corrected Nighttime Day/Night Band Composites Version 1",
    "cat": "nightlights",
    "tags": [
@@ -26153,17 +26153,17 @@
    ],
    "res_m": 463.83,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球；时间：2014 年至今（逐月）；分辨率：463.83 米。",
    "time": "2014-01-01 至 2026-09-01",
    "provider": "Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/DNB/MONTHLY_V1/VCMSLCFG",
-   "intro_zh": "",
+   "intro_zh": "使用可见红外成像辐射计套件（VIIRS）日/夜波段（DNB）夜间数据制作的月平均辐射合成影像。",
    "intro_en": "Monthly average radiance composite images using nighttime data from the Visible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band (DNB).",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "b11f9c4f",
@@ -26283,7 +26283,7 @@
    "id": "b23fbb86",
    "url": "/pages/b23fbb86/",
    "en_url": "/en/pages/b23fbb86/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR AVHRR NDVI：归一化差值植被指数，版本 4 [已弃用]",
    "title_en": "NOAA CDR AVHRR NDVI: Normalized Difference Vegetation Index, Version 4 [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -26297,17 +26297,17 @@
    ],
    "res_m": 5566.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球陆地；时间范围：1981 年至 2019 年；分辨率：5,566 米。",
    "time": "1981-06-24 至 2019-05-16",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/AVHRR/NDVI/V4",
-   "intro_zh": "",
+   "intro_zh": "NOAA AVHRR 归一化差值植被指数（NDVI）气候数据记录（CDR）包含源自 NOAA AVHRR 地表反射率产品的格网逐日 NDVI。它提供地表植被覆盖活动的测量，以 0.05° 分辨率格网化，在全球陆地表面上计算。",
    "intro_en": "The NOAA Climate Data Record (CDR) of AVHRR Normalized Difference Vegetation Index (NDVI) contains gridded daily NDVI derived from the NOAA AVHRR Surface Reflectance product. It provides a measurement…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "b25aaa54",
@@ -27038,7 +27038,7 @@
    "id": "b6a84ae2",
    "url": "/pages/b6a84ae2/",
    "en_url": "/en/pages/b6a84ae2/",
-   "title_zh": "",
+   "title_zh": "VNP64A1：火烧迹地逐月 L4 全球 500 米 SIN 网格 [已弃用]",
    "title_en": "VNP64A1: Burned Area Monthly L4 Global 500m SIN Grid [deprecated]",
    "cat": "hazards",
    "tags": [
@@ -27055,15 +27055,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球；时间：2014 年至 2019 年（逐月）；分辨率：500 米。",
    "time": "2014-01-01 至 2019-01-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP64A1",
-   "intro_zh": "",
+   "intro_zh": "逐日 Suomi 国家极轨伙伴（Suomi NPP）NASA 可见红外成像辐射计套件（VIIRS）火烧迹地（VNP64A1）第 1 版数据产品，是逐月、全球格网 500 米产品，包含逐像元火烧面积与质量信息。VNP64 火烧迹地制图方法使用 750 米 VIIRS 影像结合 75…",
    "intro_en": "The daily Suomi National Polar-Orbiting Partnership (Suomi NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Burned Area (VNP64A1) Version 1 data product is a monthly, global gridded 500m pr…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "b6b03f",
@@ -27179,7 +27179,7 @@
    "id": "b865a04a",
    "url": "/pages/b865a04a/",
    "en_url": "/en/pages/b865a04a/",
-   "title_zh": "",
+   "title_zh": "PRISM 逐月空间数据集 AN81m [已弃用]",
    "title_en": "PRISM Monthly Spatial Dataset AN81m [deprecated]",
    "cat": "climate",
    "tags": [
@@ -27195,16 +27195,16 @@
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：美国本土；时间：1895 年至 2020 年（逐月）；",
+   "coverage": "空间：美国本土；时间：1895 年至 2020 年（逐月）；分辨率：4,638.3 米。",
    "time": "1895-01-01 至 2020-12-01",
    "provider": "PRISM / OREGONSTATE",
    "platform": "Google Earth Engine",
    "ee_id": "OREGONSTATE/PRISM/AN81m",
-   "intro_zh": "",
+   "intro_zh": "PRISM 逐日与逐月数据集是美国本土的格网天气数据集，由俄勒冈州立大学 PRISM 小组生产。",
    "intro_en": "The PRISM daily and monthly datasets are gridded weather datasets for the conterminous United States, produced by the PRISM Group at Oregon State University.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "b88bfce7",
@@ -28061,7 +28061,7 @@
    "id": "c05d5fd1",
    "url": "/pages/c05d5fd1/",
    "en_url": "/en/pages/c05d5fd1/",
-   "title_zh": "",
+   "title_zh": "GOES-19 MCMIPF 系列 ABI 二级云与水分影像全圆盘",
    "title_en": "GOES-19 MCMIPF Series ABI Level 2 Cloud and Moisture Imagery Full Disk",
    "cat": "atmosphere",
    "tags": [
@@ -28077,16 +28077,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：GOES-East 视场（全圆盘）；时间：2025 年",
+   "coverage": "空间：GOES-East 视场（全圆盘）；时间：2025 年至 2026 年；分辨率：2,000 米（原生）。",
    "time": "2025-04-07 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/19/MCMIPF",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "c0820d5a",
@@ -28593,7 +28593,7 @@
    "id": "c5693455",
    "url": "/pages/c5693455/",
    "en_url": "/en/pages/c5693455/",
-   "title_zh": "",
+   "title_zh": "GFS：全球预报系统 384 小时预报大气数据",
    "title_en": "GFS: Global Forecast System 384-Hour Predicted Atmosphere Data",
    "cat": "climate",
    "tags": [
@@ -28610,15 +28610,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2015 年至 2026 年；分辨率：27,830 米。",
    "time": "2015-07-01 至 2026-11-02",
    "provider": "NOAA/NCEP/EMC",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GFS0P25",
-   "intro_zh": "",
+   "intro_zh": "全球预报系统（GFS）是由国家环境预测中心（NCEP）生产的天气预报模式。GFS 数据集由选定的模式输出（见下述）组成，作为格网预报变量。384 小时预报，预报间隔 1 小时（至 120 小时）与 3 小时（120 小时后），以 6 小时时间分辨率制作（即每天更新四次）。使用「c…",
    "intro_en": "The Global Forecast System (GFS) is a weather forecast model produced by the National Centers for Environmental Prediction (NCEP). The GFS dataset consists of selected model outputs (described below)…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "c5b72586",
@@ -30141,7 +30141,7 @@
    "id": "d0121e5a",
    "url": "/pages/d0121e5a/",
    "en_url": "/en/pages/d0121e5a/",
-   "title_zh": "",
+   "title_zh": "IBTrACS：全球热带气旋最佳路径数据",
    "title_en": "International Best Track Archive for Climate Stewardship Project",
    "cat": "climate",
    "tags": [
@@ -30156,15 +30156,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：全球七大洋盆地；时间：1842 年至 2024 年（多为 3 小时间隔）；类型：矢量/表格，无固定分辨率。",
    "time": "1842-10-25 至 2024-05-19",
    "provider": "NOAA NCEI",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/IBTrACS/v4",
-   "intro_zh": "",
+   "intro_zh": "IBTrACS 项目提供全球热带气旋位置与强度的最完整记录。数据汇集了全球所有热带气旋的可用数据。目前包含 1840 年代至今的热带气旋信息。大多数风暴数据以 3 小时间隔提供，涵盖七大洋盆地：北大西洋（NA）、南大西洋（SA）、东北太平洋（EP）、西北太平洋（WP）、北印度洋（…",
    "intro_en": "The International Best Track Archive for Climate Stewardship (IBTrACS) provides location and intensity for global tropical cyclones. The data span from the 1840s to present, generally providing data a…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "d0563c",
@@ -30192,7 +30192,7 @@
    "id": "d0d6c80e",
    "url": "/pages/d0d6c80e/",
    "en_url": "/en/pages/d0d6c80e/",
-   "title_zh": "",
+   "title_zh": "RTMA：实时中尺度分析",
    "title_en": "RTMA: Real-Time Mesoscale Analysis",
    "cat": "atmosphere",
    "tags": [
@@ -30208,16 +30208,16 @@
    "res_m": 2500.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：美国本土（CONUS）；时间：2011 年至今（逐小时",
+   "coverage": "空间：美国本土（CONUS）；时间：2011 年至今（逐小时）；分辨率：2,500 米。",
    "time": "2011-01-01 至 2026-11-02",
    "provider": "NOAA/NWS",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/NWS/RTMA",
-   "intro_zh": "",
+   "intro_zh": "实时中尺度分析（RTMA）是近地表天气状况的高时空分辨率分析。本数据集包括美国本土 2.5 公里逐小时分析。",
    "intro_en": "The Real-Time Mesoscale Analysis (RTMA) is a high-spatial and temporal resolution analysis for near-surface weather conditions. This dataset includes hourly analyses at 2.5 km for CONUS.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "d1200e",
@@ -30950,7 +30950,7 @@
    "id": "d6a1e2b4",
    "url": "/pages/d6a1e2b4/",
    "en_url": "/en/pages/d6a1e2b4/",
-   "title_zh": "",
+   "title_zh": "GOES-19 FDCC 系列 ABI 二级火/热点特征 CONUS",
    "title_en": "GOES-19 FDCC Series ABI Level 2 Fire/Hot Spot Characterization CONUS",
    "cat": "hazards",
    "tags": [
@@ -30967,15 +30967,15 @@
    "res_bucket": "1 公里以上",
    "region": "其他",
    "region_label": "美国",
-   "coverage": "",
+   "coverage": "覆盖范围：美国本土（CONUS）；时间范围：2025 年至 2026 年；分辨率：2,000 米。",
    "time": "2025-04-07 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/19/FDCC",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "d6ab7a99",
@@ -31159,7 +31159,7 @@
    "id": "d7f26f8f",
    "url": "/pages/d7f26f8f/",
    "en_url": "/en/pages/d7f26f8f/",
-   "title_zh": "",
+   "title_zh": "OPERA Sentinel-1 辐射地形校正 SAR 后向散射静态层 V1.0",
    "title_en": "OPERA Radiometric Terrain-Corrected SAR Backscatter from Sentinel-1 Static Layers V1.0",
    "cat": "satellite",
    "tags": [
@@ -31172,17 +31172,17 @@
    ],
    "res_m": 30.0,
    "res_bucket": "10–30 米",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：近全球；时间：静态层（示例时段 2014 年）；分辨率：30 米。",
    "time": "2014-04-03 至 2014-04-04",
    "provider": "NASA JPL",
    "platform": "Google Earth Engine",
    "ee_id": "OPERA/RTC/L2_V1/S1_STATIC",
-   "intro_zh": "",
+   "intro_zh": "本产品包含与 OPERA Sentinel-1 辐射地形校正 SAR 后向散射数据集 关联的静态雷达几何层。",
    "intro_en": "This product contains static radar geometry layers associated with the OPERA Radiometric Terrain Corrected SAR Backscatter from Sentinel-1 dataset.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "d87a4a91",
@@ -31490,7 +31490,7 @@
    "id": "da5f2905",
    "url": "/pages/da5f2905/",
    "en_url": "/en/pages/da5f2905/",
-   "title_zh": "",
+   "title_zh": "VNP21A1D.002：白天地表温度与发射率逐日 1 千米",
    "title_en": "VNP21A1D.002: Day Land Surface Temperature and Emissivity Daily 1km",
    "cat": "climate",
    "tags": [
@@ -31505,17 +31505,17 @@
    ],
    "res_m": 1000.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：1,000 米。",
    "time": "2012-01-19 至 2026-10-28",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP21A1D",
-   "intro_zh": "",
+   "intro_zh": "NASA Suomi 国家极轨伙伴（Suomi NPP）可见光红外成像辐射计套件（VIIRS）地表温度与发射率（LST&E）白天版本 1 产品（VNP21A1D）由白天二级格网（L2G）中间产品逐日合成。",
    "intro_en": "The NASA Suomi National Polar-Orbiting Partnership (Suomi NPP) Visible Infrared Imaging Radiometer Suite (VIIRS) Land Surface Temperature and Emissivity (LST&E) Day Version 1 product (VNP21A1D) is com…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "da7120c8",
@@ -32107,7 +32107,7 @@
    "id": "de62bd70",
    "url": "/pages/de62bd70/",
    "en_url": "/en/pages/de62bd70/",
-   "title_zh": "",
+   "title_zh": "NCEP/NCAR 再分析数据：海平面气压 [已弃用]",
    "title_en": "NCEP/NCAR Reanalysis Data, Sea-Level Pressure [deprecated]",
    "cat": "atmosphere",
    "tags": [
@@ -32122,17 +32122,17 @@
    ],
    "res_m": 278300.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1948 年至 2026 年；分辨率：278,300 米。",
    "time": "1948-01-01 至 2026-03-18",
    "provider": "NCEP",
    "platform": "Google Earth Engine",
    "ee_id": "NCEP_RE/sea_level_pressure",
-   "intro_zh": "",
+   "intro_zh": "NCEP/NCAR 再分析项目是国家环境预测中心（NCEP，前身为「NMC」）与国家大气研究中心（NCAR）的联合项目。此联合工作的目标是使用历史数据生产新的大气分析，并生产当前大气状态的分析（气候数据同化系统，CDAS）。NCEP/NCAR 再分析 1 项目正使用最先进的分析/…",
    "intro_en": "The NCEP/NCAR Reanalysis Project is a joint project between the National Centers for Environmental Prediction (NCEP, formerly \"NMC\") and the National Center for Atmospheric Research (NCAR). The goal o…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "de63c924",
@@ -32402,7 +32402,7 @@
    "id": "e1121614",
    "url": "/pages/e1121614/",
    "en_url": "/en/pages/e1121614/",
-   "title_zh": "",
+   "title_zh": "Sentinel-1 动态地表水体范围（DSWx-S1）V1",
    "title_en": "Dynamic Surface Water Extent from Sentinel-1 (DSWx-S1) V1",
    "cat": "water",
    "tags": [
@@ -32418,21 +32418,21 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "空间：近全球陆地；时间：2024 年至今（6–12 天重访）；分辨率：30 米。",
    "time": "2024-08-01 至 2026-10-28",
    "provider": "NASA JPL",
    "platform": "Google Earth Engine",
    "ee_id": "OPERA/DSWX/L3_V1/S1",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含来自 Sentinel-1 的 3 级动态 OPERA 地表水体范围（DSWX-S1）。DSWx-S1 以 30 米空间分辨率在军事格网参考系统（MGRS）格网上提供近全球陆地地表水体范围制图，时间重访频率为 6–12 天。DSWx-S1 使用 Sentinel-1…",
    "intro_en": "This dataset contains Level-3 Dynamic OPERA surface water extent from Sentinel-1 (DSWX-S1). DSWx-S1 provides near-global geographical mapping of surface water extent over land at a spatial resolution…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "e11c9b76",
    "url": "/pages/e11c9b76/",
    "en_url": "/en/pages/e11c9b76/",
-   "title_zh": "",
+   "title_zh": "NASA-USDA SMAP 全球土壤水分数据 [已弃用]",
    "title_en": "NASA-USDA SMAP Global Soil Moisture Data [deprecated]",
    "cat": "soil",
    "tags": [
@@ -32448,15 +32448,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2015 年至 2020 年；分辨率：27,830 米。",
    "time": "2015-04-02 至 2020-12-31",
    "provider": "NASA GSFC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA_USDA/HSL/SMAP_soil_moisture",
-   "intro_zh": "",
+   "intro_zh": "NASA-USDA 全球土壤水分与 NASA-USDA SMAP 全球土壤水分 datates 以 0.25°×0.25° 空间分辨率提供全球土壤水分信息。这些数据集包括地表 与 地下 土壤水分（毫米）、土壤水分剖面（%），以及地表与地下土壤水分异常。土壤水分异常无单位，表示使用…",
    "intro_en": "The NASA-USDA Global soil moisture and the NASA-USDA SMAP Global soil moisture datates provide soil moisture information across the globe at 0.25°x0.25° spatial resolution. These datasets include surf…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "e11ddf61",
@@ -32700,7 +32700,7 @@
    "id": "e2cab212",
    "url": "/pages/e2cab212/",
    "en_url": "/en/pages/e2cab212/",
-   "title_zh": "",
+   "title_zh": "VNP13A1.001：VIIRS 植被指数 16 天 500 米 [已弃用]",
    "title_en": "VNP13A1.001: VIIRS Vegetation Indices 16-Day 500m [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -32715,17 +32715,17 @@
    ],
    "res_m": 500.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "空间：全球陆地；时间：2012 年至 2024 年（16 天合成）；分辨率：500 米。",
    "time": "2012-01-17 至 2024-05-24",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/VIIRS/001/VNP13A1",
-   "intro_zh": "",
+   "intro_zh": "Suomi 国家极轨伙伴（S-NPP）NASA 可见红外成像辐射计套件（VIIRS）植被指数（VNP13A1）数据产品，在 16 天获取期内选取最佳可用像元，以 500 米分辨率提供植被指数。VNP13 数据产品的设计参照中分辨率成像光谱仪（MODIS）Terra 与 Aqua…",
    "intro_en": "The Suomi National Polar-Orbiting Partnership (S-NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Vegetation Indices (VNP13A1) data product provides vegetation indices by a process of selec…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "e2d4c415",
@@ -33051,7 +33051,7 @@
    "id": "e6dbfc81",
    "url": "/pages/e6dbfc81/",
    "en_url": "/en/pages/e6dbfc81/",
-   "title_zh": "",
+   "title_zh": "GOES-19 FDCF 系列 ABI 二级火/热点特征全圆盘",
    "title_en": "GOES-19 FDCF Series ABI Level 2 Fire/Hot Spot Characterization Full Disk",
    "cat": "hazards",
    "tags": [
@@ -33067,16 +33067,16 @@
    "res_m": 2000.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：全圆盘（美洲）；时间范围：2025 年至 2026",
+   "coverage": "覆盖范围：全圆盘（美洲）；时间范围：2025 年至 2026 年；分辨率：2,000 米。",
    "time": "2025-04-07 至 2026-11-03",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/19/FDCF",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "e711299d",
@@ -33755,7 +33755,7 @@
    "id": "ea9a554f",
    "url": "/pages/ea9a554f/",
    "en_url": "/en/pages/ea9a554f/",
-   "title_zh": "",
+   "title_zh": "NOAA CDR VIIRS NDVI：归一化差值植被指数，版本 1",
    "title_en": "NOAA CDR VIIRS NDVI: Normalized Difference Vegetation Index, Version 1",
    "cat": "vegetation",
    "tags": [
@@ -33771,15 +33771,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球陆地；时间范围：2014 年至 2026 年；分辨率：5,566 米。",
    "time": "2014-01-01 至 2026-10-29",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CDR/VIIRS/NDVI/V1",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含源自可见光红外成像辐射计套件（VIIRS）地表反射率的 NOAA 气候数据记录（CDR）的格网逐日归一化差值植被指数（NDVI）。数据记录从 2014 年起使用 NOAA 极轨卫星的数据。数据投影在 0.05 度 x 0.05 度全球格网上。本数据集是由 NASA 戈…",
    "intro_en": "This dataset contains gridded daily Normalized Difference Vegetation Index (NDVI) derived from the NOAA Climate Data Record (CDR) of Visible Infrared Imaging Radiometer Suite (VIIRS) Surface Reflectan…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "eb004afb",
@@ -34281,7 +34281,7 @@
    "id": "ef413f33",
    "url": "/pages/ef413f33/",
    "en_url": "/en/pages/ef413f33/",
-   "title_zh": "",
+   "title_zh": "VNP14A1.002：热异常/火逐日三级全球 1 千米 SIN 格网",
    "title_en": "VNP14A1.002: Thermal Anomalies/Fire Daily L3 Global 1km SIN Grid",
    "cat": "hazards",
    "tags": [
@@ -34296,15 +34296,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：1,000 米。",
    "time": "2012-01-19 至 2026-10-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP14A1",
-   "intro_zh": "",
+   "intro_zh": "逐日 Suomi 国家极轨伙伴 NASA 可见光红外成像辐射计套件（VIIRS）热异常/火（VNP14A1）版本 1 数据产品提供活火与其他热异常的逐日信息。VNP14A1 数据产品是全球 1 千米格网合成，由逐日（24 小时）时段内从 VIIRS 750 米波段探测的火像元组成…",
    "intro_en": "The daily Suomi National Polar-Orbiting Partnership NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Thermal Anomalies/Fire (VNP14A1) Version 1 data product provides daily information about acti…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "ef97e31c",
@@ -35180,7 +35180,7 @@
    "id": "f7c9715e",
    "url": "/pages/f7c9715e/",
    "en_url": "/en/pages/f7c9715e/",
-   "title_zh": "",
+   "title_zh": "CFSV2：NCEP 气候预报系统版本 2，6 小时产品 [已弃用]",
    "title_en": "CFSV2: NCEP Climate Forecast System Version 2, 6-Hourly Products [deprecated]",
    "cat": "cryosphere",
    "tags": [
@@ -35195,17 +35195,17 @@
    ],
    "res_m": 22264.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1979 年至 2026 年；分辨率：22,264 米。",
    "time": "1979-01-01 至 2026-11-01",
    "provider": "NOAA NWS National Centers for Environmental Prediction (NCEP)",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/CFSV2/FOR6H",
-   "intro_zh": "",
+   "intro_zh": "注：自 2025 年 10 月 20 日起，本数据集温度波段改用摄氏而非开尔文单位。温度单位一致（开尔文）请使用 NOAA/CFSV2/FOR6HHARMONIZED。",
    "intro_en": "Note: Starting October 20, 2025, this dataset switched to using Celsius instead of Kelvin units for temperature bands. Please use NOAA/CFSV2/FOR6HHARMONIZED for consistent temperature units (Kelvin).",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "f81aa130",
@@ -35923,7 +35923,7 @@
    "id": "fd3b947f",
    "url": "/pages/fd3b947f/",
    "en_url": "/en/pages/fd3b947f/",
-   "title_zh": "",
+   "title_zh": "PRISM 逐日空间数据集 AN81d [已弃用]",
    "title_en": "PRISM Daily Spatial Dataset AN81d [deprecated]",
    "cat": "climate",
    "tags": [
@@ -35939,16 +35939,16 @@
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：美国本土；时间：1981 年至 2020 年（逐日）；",
+   "coverage": "空间：美国本土；时间：1981 年至 2020 年（逐日）；分辨率：4,638.3 米。",
    "time": "1981-01-01 至 2020-12-30",
    "provider": "PRISM / OREGONSTATE",
    "platform": "Google Earth Engine",
    "ee_id": "OREGONSTATE/PRISM/AN81d",
-   "intro_zh": "",
+   "intro_zh": "PRISM 逐日与逐月数据集是美国本土的格网天气数据集，由俄勒冈州立大学 PRISM 小组生产。",
    "intro_en": "The PRISM daily and monthly datasets are gridded weather datasets for the conterminous United States, produced by the PRISM Group at Oregon State University.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "fd40c603",
@@ -36102,7 +36102,7 @@
    "id": "fdfe82fc",
    "url": "/pages/fdfe82fc/",
    "en_url": "/en/pages/fdfe82fc/",
-   "title_zh": "",
+   "title_zh": "GOES-16 FDCC 系列 ABI 二级火/热点特征 CONUS",
    "title_en": "GOES-16 FDCC Series ABI Level 2 Fire/Hot Spot Characterization CONUS",
    "cat": "hazards",
    "tags": [
@@ -36119,15 +36119,15 @@
    "res_bucket": "1 公里以上",
    "region": "其他",
    "region_label": "美国",
-   "coverage": "",
+   "coverage": "覆盖范围：美国本土（CONUS）；时间范围：2017 年至 2025 年；分辨率：2,000 米。",
    "time": "2017-05-24 至 2025-04-07",
    "provider": "NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NOAA/GOES/16/FDCC",
-   "intro_zh": "",
+   "intro_zh": "GOES 卫星是由 NOAA 运行的地球静止气象卫星。",
    "intro_en": "GOES satellites are geostationary weather satellites run by NOAA.",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "fe1e8477",
@@ -36192,7 +36192,7 @@
    "id": "fe60f87e",
    "url": "/pages/fe60f87e/",
    "en_url": "/en/pages/fe60f87e/",
-   "title_zh": "",
+   "title_zh": "PRISM 逐日空间数据集 ANd",
    "title_en": "PRISM Daily Spatial Dataset ANd",
    "cat": "climate",
    "tags": [
@@ -36208,16 +36208,16 @@
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "空间：美国本土；时间：1981 年至今（逐日）；分辨率：4,",
+   "coverage": "空间：美国本土；时间：1981 年至今（逐日）；分辨率：4,638.3 米。",
    "time": "1981-01-01 至 2026-10-29",
    "provider": "PRISM / OREGONSTATE",
    "platform": "Google Earth Engine",
    "ee_id": "OREGONSTATE/PRISM/ANd",
-   "intro_zh": "",
+   "intro_zh": "PRISM 逐日与逐月数据集是美国本土的格网天气数据集，由俄勒冈州立大学 PRISM 小组生产。本集合同时包含 AN81 与 AN91 数据，由「datasettype」属性标明。",
    "intro_en": "The PRISM daily and monthly datasets are gridded weather datasets for the conterminous United States, produced by the PRISM Group at Oregon State University. This collection contains both AN81 and AN9…",
    "type": "A",
-   "batch": ""
+   "batch": "A-08"
   },
   {
    "id": "fe806e47",

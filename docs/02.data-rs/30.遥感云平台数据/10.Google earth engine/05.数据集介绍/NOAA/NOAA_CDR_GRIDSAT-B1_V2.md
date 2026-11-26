@@ -1,5 +1,5 @@
 ---
-title: "NOAA CDR GRIDSAT-B1: Geostationary IR Channel Brightness Temperature"
+title: "NOAA CDR GRIDSAT-B1：地球静止红外通道亮温"
 date: 2026-11-03 12:00:00
 permalink: /pages/a8c34af0/
 categories:
@@ -20,86 +20,81 @@ tags:
   - "weather-and-climate"
 ---
 
-# NOAA CDR GRIDSAT-B1: Geostationary IR Channel Brightness Temperature
+# NOAA CDR GRIDSAT-B1：地球静止红外通道亮温
 
-## 数据集简介
+英文原名：NOAA CDR GRIDSAT-B1: Geostationary IR Channel Brightness Temperature
 
-Note: This dataset has not been updated by the provider since 2024-03-31
-due to ongoing infrastructure updates. There is no current timeline for when
-dataset updates will resume.
+## 这是什么数据
 
-This dataset provides a high quality Climate Data
-Record (CDR) of global infrared measurements from geostationary satellites.
+注：由于持续的基础设施更新，本数据集自 2024-03-31 起未被提供方更新。目前没有数据集更新何时恢复的时间表。
 
-The geostationary satellite data (GridSat-B1) provides data from 3
-channels: the CDR-quality infrared window (IRWIN) channel (near 11&micro;m),
-the visible channel (near 0.6&micro;m) and the infrared water vapor (IRWVP)
-channel (near 6.7&micro;m). The GridSat-B1 data is projected onto a global
-0.07 degree latitude equal-angle grid with date coverage spanning from
-1980-present. This data is sourced from the 3-hourly International Satellite
-Cloud Climatology Project (ISCCP) B1 data. The satellites included in this
-dataset with their longitudinal coverage over time can be seen [here](https://www.ncdc.noaa.gov/gridsat/images/isccp_coverage_VZA60_nolegend.png).
-In regions of overlap the CDR methodology merges satellites by selecting
-the nadir-most observations for each grid point.
+本数据集提供来自地球静止卫星的全球红外测量的高质量气候数据记录（CDR）。
 
-Notes:
+地球静止卫星数据（GridSat-B1）提供 3 个通道的数据：CDR 质量的红外窗口（IRWIN）通道（近 11 μm）、可见光通道（近 0.6 μm）与红外水汽（IRWVP）通道（近 6.7 μm）。GridSat-B1 数据投影到全球 0.07 度纬度等角格网上，日期覆盖从 1980 年至今。此数据来自 3 小时国际卫星云气候学项目（ISCCP）B1 数据。本数据集中包括的卫星及其随时间的经度覆盖见[此处](https://www.ncdc.noaa.gov/gridsat/images/isccp_coverage_VZA60_nolegend.png)。在重叠区域，CDR 方法通过为每个格网点选择最天底的观测合并卫星。
 
-- Mappings from satid to satellite name are contained in the image's
-  properties as satid_number: \"satellite_name\", e.g. satid_0: GOES-13,
-  satid_1: GOES-15, and satid_2: GOES-16.
+注：
 
-- IRWIN data has been corrected for view zenith angle, but this correction
-  is not perfect. It also treats all satellites the same way, whereas the
-  view zenith angle dependence will vary by satellite. Some VZA residual
-  will be apparent.
+- satid 到卫星名称的映射包含在影像的属性中，形式为 satid_number: "satellite_name"，如 satid_0: GOES-13、satid_1: GOES-15、satid_2: GOES-16。
 
-- IRWVP data has no view zenith angle correction and is not CDR quality.
+- IRWIN 数据已校正观测天顶角，但此校正并不完美。它还以相同方式处理所有卫星，而观测天顶角依赖性会因卫星而异。一些 VZA 残差将显而易见。
 
-- VSCHN data has no view zenith angle corrections and is not CDR quality.
+- IRWVP 数据没有观测天顶角校正，不是 CDR 质量。
 
-- Removing the View Zenigth Angle correction for the IRWIN channels can be
-  done with the following:
+- VSCHN 数据没有观测天顶角校正，不是 CDR 质量。
+
+- 移除 IRWIN 通道的观测天顶角校正可如下完成：
   Original_temperature_observed = irwin_cdr - irwin_vza_adj
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`NOAA/CDR/GRIDSAT-B1/V2`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NOAA、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：1980 年至 2024 年；分辨率：7,792 米。
 - 时间范围：1980-01-01 至 2024-09-30
-- 空间分辨率：7792 米
-- 许可：proprietary
-- 关键词：brightness, cdr, climate, fundamental, geostationary, infrared, isccp, noaa, reflectance, sr, weather-and-climate
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 7,792 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| irwin_cdr | Brightness temperature near 11&micro;m, nadir-most observation | 7792 |  |
-| irwin_2 | Brightness temperature near 11&micro;m, second-best observation (based on view zenith angle) | 7792 |  |
-| irwin_3 | Brightness temperature, third-best observation based on view zenith angle | 7792 |  |
-| irwvp | Brightness temperature near 6.7&micro;m, nadir-most observation | 7792 |  |
-| irwvp_2 | Brightness temperature near 6.7&micro;m, second-best observation based on view zenith angle | 7792 |  |
-| vschn | Visible reflectance near 0.6&micro;m, nadir-most observation | 7792 |  |
-| vschn_2 | Visible reflectance near 0.6&micro;m, second-best observation based on view zenith angle | 7792 |  |
-| irwin_vza_adj | Adjustment made to all IRWIN channels. Provided to allow users to reverse the view zenith correction for the irwin_cdr variable.  | 7792 |  |
-| satid_ir1 | satid values for irwin_cdr. For this and other satid bands, the mappings of satid to satellite name are given in the properties for each image  | 7792 |  |
-| satid_ir2 | satid values per pixel for irwin_2 | 7792 |  |
-| satid_ir3 | satid values per pixel for irwin_3 | 7792 |  |
-| satid_wv1 | satid values per pixel for irwvp | 7792 |  |
-| satid_wv2 | satid values per pixel for irwvp2 | 7792 |  |
-| satid_vs1 | satid values per pixel for vischn | 7792 |  |
-| satid_vs2 | satid values per pixel for vischn2 | 7792 |  |
+| irwin_cdr | 近 11 μm 亮温，最天底观测。 | 7792 |  |
+| irwin_2 | 近 11 μm 亮温，第二佳观测（基于观测天顶角）。 | 7792 |  |
+| irwin_3 | 亮温，基于观测天顶角的第三佳观测。 | 7792 |  |
+| irwvp | 近 6.7 μm 亮温，最天底观测。 | 7792 |  |
+| irwvp_2 | 近 6.7 μm 亮温，基于观测天顶角的第二佳观测。 | 7792 |  |
+| vschn | 近 0.6 μm 可见光反射率，最天底观测。 | 7792 |  |
+| vschn_2 | 近 0.6 μm 可见光反射率，基于观测天顶角的第二佳观测。 | 7792 |  |
+| irwin_vza_adj | 对所有 IRWIN 通道所做的调整。提供它是为了让用户能反转 irwin_cdr 变量的观测天顶角校正。 | 7792 |  |
+| satid_ir1 | irwin_cdr 的 satid 值。对于此波段与其他 satid 波段，satid 到卫星名称的映射在每景影像的属性中给出。 | 7792 |  |
+| satid_ir2 | irwin_2 的逐像元 satid 值。 | 7792 |  |
+| satid_ir3 | irwin_3 的逐像元 satid 值。 | 7792 |  |
+| satid_wv1 | irwvp 的逐像元 satid 值。 | 7792 |  |
+| satid_wv2 | irwvp2 的逐像元 satid 值。 | 7792 |  |
+| satid_vs1 | vischn 的逐像元 satid 值。 | 7792 |  |
+| satid_vs2 | vischn2 的逐像元 satid 值。 | 7792 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 地球静止卫星气候记录
+- 云与天气分析
+- 红外亮温长期序列
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NOAA/CDR/GRIDSAT-B1/V2');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NOAA/CDR/GRIDSAT-B1/V2`
+- 提供方：NOAA、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_GRIDSAT-B1_V2
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：brightness, cdr, climate, fundamental, geostationary, infrared, isccp, noaa, reflectance, sr, weather-and-climate
 - 数据引用：Kenneth R. Knapp, and NOAA CDR Program (2014): NOAA Climate Data Record
 (CDR) of Gridded Satellite Data from ISCCP B1 (GridSat-B1) 11 micron
 Brightness Temperature, Version 2. [indicate subset used]. NOAA National
@@ -107,5 +102,14 @@ Climatic Data Center. [doi:10.7289/V59P2ZKR](https://doi.org/10.7289/V59P2ZKR)
 [access date].
 
 - DOI：10.7289/V59P2ZKR
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [NOAA CDR PATMOSX：云特性、反射率与亮温，版本 5.3](/pages/2e70bee4/)
+- [CPC 全球统一温度](/pages/8042cb38/)
+- [CPC 全球统一雨量计逐日降水分析](/pages/9d6b70e8/)
+- [ERA5 月聚合数据 — ECMWF 气候再分析](/pages/87085b9b/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
