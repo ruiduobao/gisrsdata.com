@@ -37,6 +37,10 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '地信遥感数据汇',
   description: '遥感/地信/编程软件类数据资源与教程',
+  // 全站访问人数（自建计数服务）：页脚显示总访问量/今日人数，脚本自动上报+渲染
+  head: [
+    ['script', { src: 'https://api.ruiduobao.cn/stats/visitor-count.js', 'data-site': 'gisrsdata.com', defer: '' }]
+  ],
   // Bilingual rebuild (2026-11-26): Chinese stays on the root locale with
   // every legacy URL untouched; English is added under /en/ as a mirror.
   // See ~/workspace/ops/gisrsdata-rebuild/重构规格.md — URLs are frozen,
