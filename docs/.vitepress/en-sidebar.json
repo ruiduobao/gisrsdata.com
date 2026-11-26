@@ -52,6 +52,34 @@
     "link": "/en/pages/eba63a4f/"
    },
    {
+    "text": "ALOS DSM: Global 30m v1.1",
+    "link": "/en/pages/8561707f/"
+   },
+   {
+    "text": "ALOS DSM: Global 30m v2.1",
+    "link": "/en/pages/4e1fdf4b/"
+   },
+   {
+    "text": "ALOS DSM: Global 30m v2.2",
+    "link": "/en/pages/f8b280da/"
+   },
+   {
+    "text": "ALOS DSM: Global 30m v3.2",
+    "link": "/en/pages/6610d57d/"
+   },
+   {
+    "text": "ALOS DSM: Global 30m v4.1",
+    "link": "/en/pages/774620fb/"
+   },
+   {
+    "text": "ALOS-2 PALSAR-2 StripMap Level 2.1",
+    "link": "/en/pages/b836b19e/"
+   },
+   {
+    "text": "ALOS/AVNIR-2 ORI",
+    "link": "/en/pages/d4abf354/"
+   },
+   {
     "text": "ASTER L1T Radiance",
     "link": "/en/pages/b48e6fb4/"
    },
@@ -64,6 +92,18 @@
     "link": "/en/pages/53c74382/"
    },
    {
+    "text": "Brandenburg (Germany) RGBN orthophotos 20 cm",
+    "link": "/en/pages/d15dcdc4/"
+   },
+   {
+    "text": "Brazil Forest Imagery Dataset 2008: Analytic Basemap",
+    "link": "/en/pages/9ead8e0f/"
+   },
+   {
+    "text": "Brazil Forest Imagery Dataset 2008: Visual Basemap",
+    "link": "/en/pages/676005c8/"
+   },
+   {
     "text": "CAMS Global Near-Real-Time",
     "link": "/en/pages/4ff1abc5/"
    },
@@ -74,6 +114,10 @@
    {
     "text": "CCNL Nighttime Lights 1992–2013",
     "link": "/en/pages/c2c834f0/"
+   },
+   {
+    "text": "Cloud Score+ S2_HARMONIZED V1",
+    "link": "/en/pages/4a61128e/"
    },
    {
     "text": "Copernicus DEM GLO-30 (2024_1)",
@@ -184,6 +228,30 @@
     "link": "/en/pages/664c80e9/"
    },
    {
+    "text": "Dynamic World V1",
+    "link": "/en/pages/a78539ca/"
+   },
+   {
+    "text": "EC JRC Global Forest Cover 2020 V1",
+    "link": "/en/pages/e8f1e399/"
+   },
+   {
+    "text": "EC JRC Global Forest Cover 2020 V2",
+    "link": "/en/pages/e83cd6f4/"
+   },
+   {
+    "text": "EC JRC Global Forest Cover 2020 V3",
+    "link": "/en/pages/8b874d85/"
+   },
+   {
+    "text": "EC JRC Global Forest Cover 2020 V4",
+    "link": "/en/pages/da4e266d/"
+   },
+   {
+    "text": "EC JRC Global Forest Types 2020 V1",
+    "link": "/en/pages/3fb6432f/"
+   },
+   {
     "text": "ECMWF NRT IFS Atmospheric Forecasts",
     "link": "/en/pages/3fdfa56d/"
    },
@@ -260,6 +328,18 @@
     "link": "/en/pages/65b015a5/"
    },
    {
+    "text": "EUCROPMAP",
+    "link": "/en/pages/9750a230/"
+   },
+   {
+    "text": "European Primary Forest Dataset - Points",
+    "link": "/en/pages/95de453f/"
+   },
+   {
+    "text": "European Primary Forest Dataset - Polygons",
+    "link": "/en/pages/66501b6e/"
+   },
+   {
     "text": "FAO GAUL 500m Simplified: Global Administrative Unit Layers 2015, Country Boundaries",
     "link": "/en/pages/6acf3380/"
    },
@@ -328,6 +408,58 @@
     "link": "/en/pages/19a66aef/"
    },
    {
+    "text": "GCOM-C/SGLI L3 Chlorophyll-a (V1)",
+    "link": "/en/pages/9e90afdc/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Chlorophyll-a (V2)",
+    "link": "/en/pages/834e6e14/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Chlorophyll-a (V3)",
+    "link": "/en/pages/7e6d6232/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Land Surface Temperature (V1)",
+    "link": "/en/pages/a4b5eab0/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Land Surface Temperature (V2)",
+    "link": "/en/pages/92e78526/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Land Surface Temperature (V3)",
+    "link": "/en/pages/318eee27/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Leaf Area Index (V1)",
+    "link": "/en/pages/099c4e7b/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Leaf Area Index (V2)",
+    "link": "/en/pages/9acc1a9f/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Leaf Area Index (V3)",
+    "link": "/en/pages/61d677e1/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Sea Surface Temperature (V1)",
+    "link": "/en/pages/e9d27326/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Sea Surface Temperature (V2)",
+    "link": "/en/pages/f830a5c2/"
+   },
+   {
+    "text": "GCOM-C/SGLI L3 Sea Surface Temperature (V3)",
+    "link": "/en/pages/ad2f1301/"
+   },
+   {
+    "text": "GFPLAIN250m: Global 250m Floodplain Dataset",
+    "link": "/en/pages/fcae03ea/"
+   },
+   {
     "text": "GFW (Global Fishing Watch) Daily Fishing Hours",
     "link": "/en/pages/7dfa6e21/"
    },
@@ -352,6 +484,26 @@
     "link": "/en/pages/5320d35a/"
    },
    {
+    "text": "GLIMS 2021: Global Land Ice Measurements From Space [deprecated]",
+    "link": "/en/pages/da747999/"
+   },
+   {
+    "text": "GLIMS 2023: Global Land Ice Measurements From Space",
+    "link": "/en/pages/7b1374af/"
+   },
+   {
+    "text": "GLIMS Current: Global Land Ice Measurements From Space",
+    "link": "/en/pages/a3ca23c6/"
+   },
+   {
+    "text": "Global 3-class PALSAR Forest/Non-Forest Map",
+    "link": "/en/pages/825386c3/"
+   },
+   {
+    "text": "Global 4-class PALSAR Forest/Non-Forest Map",
+    "link": "/en/pages/9f66b2fd/"
+   },
+   {
     "text": "Global ALOS CHILI",
     "link": "/en/pages/91d663d7/"
    },
@@ -368,6 +520,14 @@
     "link": "/en/pages/14e817f0/"
    },
    {
+    "text": "Global Flood Database v1 (2000-2018)",
+    "link": "/en/pages/e042bdf5/"
+   },
+   {
+    "text": "Global Map of Forest Types 2020 V0",
+    "link": "/en/pages/af23bf12/"
+   },
+   {
     "text": "Global Ocean Waves Analysis & Forecast",
     "link": "/en/pages/55cf916d/"
    },
@@ -382,6 +542,14 @@
    {
     "text": "Global Oil Palm Map 2019 (deprecated)",
     "link": "/en/pages/1dc500dd/"
+   },
+   {
+    "text": "Global PALSAR-2/PALSAR Yearly Mosaic v1",
+    "link": "/en/pages/03cf5a7a/"
+   },
+   {
+    "text": "Global PALSAR-2/PALSAR Yearly Mosaic v2.5.0",
+    "link": "/en/pages/13015f55/"
    },
    {
     "text": "Global Seasonal S1 V2019 Backscatter",
@@ -418,6 +586,14 @@
    {
     "text": "GlobCover 2009",
     "link": "/en/pages/09ad841c/"
+   },
+   {
+    "text": "Google Global Landsat-based CCDC Segments (1999-2019)",
+    "link": "/en/pages/565d06a2/"
+   },
+   {
+    "text": "Google Street View Air Quality: High Resolution Air Pollution Mapping in California",
+    "link": "/en/pages/4a20302d/"
    },
    {
     "text": "GPWv4 Ancillary Data Grids (deprecated)",
@@ -484,6 +660,30 @@
     "link": "/en/pages/d70c6d97/"
    },
    {
+    "text": "GRIDMET DROUGHT: CONUS Drought Indices",
+    "link": "/en/pages/f6533466/"
+   },
+   {
+    "text": "GRIDMET: University of Idaho Gridded Surface Meteorological Dataset",
+    "link": "/en/pages/824ff3bb/"
+   },
+   {
+    "text": "GSMaP Operational V6",
+    "link": "/en/pages/dd0d38ad/"
+   },
+   {
+    "text": "GSMaP Operational V7",
+    "link": "/en/pages/b305a6bc/"
+   },
+   {
+    "text": "GSMaP Operational V8",
+    "link": "/en/pages/b5eebef7/"
+   },
+   {
+    "text": "GSMaP Reanalysis",
+    "link": "/en/pages/49f8cd66/"
+   },
+   {
     "text": "Harmonized Sentinel-2 MSI L1C",
     "link": "/en/pages/07bc7cbd/"
    },
@@ -492,8 +692,164 @@
     "link": "/en/pages/0620c27d/"
    },
    {
+    "text": "HYCOM: Hybrid Coordinate Ocean Model, Sea Surface Elevation",
+    "link": "/en/pages/549bcd74/"
+   },
+   {
+    "text": "HYCOM: Hybrid Coordinate Ocean Model, Sea Surface Elevation [deprecated]",
+    "link": "/en/pages/3ce17ee2/"
+   },
+   {
+    "text": "HYCOM: Hybrid Coordinate Ocean Model, Water Temperature and Salinity",
+    "link": "/en/pages/6cdb51e3/"
+   },
+   {
+    "text": "HYCOM: Hybrid Coordinate Ocean Model, Water Temperature and Salinity [deprecated]",
+    "link": "/en/pages/0e7e9bc9/"
+   },
+   {
+    "text": "HYCOM: Hybrid Coordinate Ocean Model, Water Velocity",
+    "link": "/en/pages/28fcba16/"
+   },
+   {
+    "text": "HYCOM: Hybrid Coordinate Ocean Model, Water Velocity [deprecated]",
+    "link": "/en/pages/fda18b21/"
+   },
+   {
+    "text": "IBGE: Brazil Country Boundary 2025",
+    "link": "/en/pages/7c10716b/"
+   },
+   {
+    "text": "IBGE: Brazil Immediate Geographic Regions 2025",
+    "link": "/en/pages/251a85fa/"
+   },
+   {
+    "text": "IBGE: Brazil Intermediate Geographic Regions 2025",
+    "link": "/en/pages/1d885585/"
+   },
+   {
+    "text": "IBGE: Brazil Macro Regions 2025",
+    "link": "/en/pages/bc8e9520/"
+   },
+   {
+    "text": "IBGE: Brazil Municipality Boundaries 2025",
+    "link": "/en/pages/842ffbd4/"
+   },
+   {
+    "text": "IBGE: Brazil State Boundaries 2025 (Federation Units)",
+    "link": "/en/pages/ddb7c418/"
+   },
+   {
+    "text": "IPCC AR6 Sea Level Projections Regional (Medium Confidence)",
+    "link": "/en/pages/fd53e731/"
+   },
+   {
+    "text": "iSDAsoil Bulk Density, <2mm Fraction",
+    "link": "/en/pages/9e6d23d2/"
+   },
+   {
+    "text": "iSDAsoil Clay Content",
+    "link": "/en/pages/b359c603/"
+   },
+   {
+    "text": "iSDAsoil Depth to Bedrock",
+    "link": "/en/pages/d2d6b77f/"
+   },
+   {
+    "text": "iSDAsoil Effective Cation Exchange Capacity",
+    "link": "/en/pages/c734392b/"
+   },
+   {
+    "text": "iSDAsoil extractable Aluminium",
+    "link": "/en/pages/b264f71c/"
+   },
+   {
+    "text": "iSDAsoil Extractable Calcium",
+    "link": "/en/pages/1e6a6374/"
+   },
+   {
+    "text": "iSDAsoil Extractable Iron",
+    "link": "/en/pages/43c016e5/"
+   },
+   {
+    "text": "iSDAsoil Extractable Magnesium",
+    "link": "/en/pages/aab38657/"
+   },
+   {
+    "text": "iSDAsoil Extractable Phosphorus",
+    "link": "/en/pages/95d5cb54/"
+   },
+   {
+    "text": "iSDAsoil Extractable Potassium",
+    "link": "/en/pages/7e5997d1/"
+   },
+   {
+    "text": "iSDAsoil Extractable Sulfur",
+    "link": "/en/pages/398ed96e/"
+   },
+   {
+    "text": "iSDAsoil Extractable Zinc",
+    "link": "/en/pages/785fc747/"
+   },
+   {
+    "text": "iSDAsoil Fertility Capability Classification",
+    "link": "/en/pages/254f7207/"
+   },
+   {
+    "text": "iSDAsoil Organic Carbon",
+    "link": "/en/pages/82f2ef6d/"
+   },
+   {
+    "text": "iSDAsoil pH",
+    "link": "/en/pages/2442f2c8/"
+   },
+   {
+    "text": "iSDAsoil Sand Content",
+    "link": "/en/pages/fcb80dde/"
+   },
+   {
+    "text": "iSDAsoil Silt Content",
+    "link": "/en/pages/c80da145/"
+   },
+   {
+    "text": "iSDAsoil Stone Content",
+    "link": "/en/pages/aa8dd7e5/"
+   },
+   {
+    "text": "iSDAsoil Total Carbon",
+    "link": "/en/pages/9a678764/"
+   },
+   {
+    "text": "iSDAsoil Total Nitrogen",
+    "link": "/en/pages/8312ef42/"
+   },
+   {
+    "text": "iSDAsoil USDA Texture Class",
+    "link": "/en/pages/662f5c13/"
+   },
+   {
+    "text": "IUCN Global Ecosystem Typology Level 3",
+    "link": "/en/pages/fa6b2b5d/"
+   },
+   {
+    "text": "JRC Global River Flood Hazard Maps v1",
+    "link": "/en/pages/a326b13b/"
+   },
+   {
+    "text": "JRC Global River Flood Hazard Maps v2.1",
+    "link": "/en/pages/c512c2e1/"
+   },
+   {
     "text": "LandScan HD Ukraine (Jan 2022)",
     "link": "/en/pages/c7a57ce4/"
+   },
+   {
+    "text": "MACAv2-METDATA Monthly Summaries: University of Idaho, Multivariate Adaptive Constructed Analogs Applied to Global  Climate Models",
+    "link": "/en/pages/f81aa130/"
+   },
+   {
+    "text": "MACAv2-METDATA: University of Idaho, Multivariate Adaptive Constructed Analogs Applied to Global Climate Models",
+    "link": "/en/pages/7bfbde76/"
    },
    {
     "text": "MethaneAIR L3 Concentration v1",
@@ -514,6 +870,10 @@
    {
     "text": "MethaneAIR L4 Point Sources v1",
     "link": "/en/pages/32e81487/"
+   },
+   {
+    "text": "Murray Global Tidal Wetland Change v1.0",
+    "link": "/en/pages/8dfd16a2/"
    },
    {
     "text": "Ocean Colour Optics Multi 4 km Monthly",
@@ -556,6 +916,30 @@
     "link": "/en/pages/ef98f7b4/"
    },
    {
+    "text": "Open Buildings Temporal V1",
+    "link": "/en/pages/c54fd477/"
+   },
+   {
+    "text": "Open Buildings V1 Polygons [deprecated]",
+    "link": "/en/pages/a6665342/"
+   },
+   {
+    "text": "Open Buildings V2 Polygons [deprecated]",
+    "link": "/en/pages/42dbfeb4/"
+   },
+   {
+    "text": "Open Buildings V3 Polygons",
+    "link": "/en/pages/93c5617e/"
+   },
+   {
+    "text": "PALSAR-2 ScanSAR Level 2.2",
+    "link": "/en/pages/636ee51c/"
+   },
+   {
+    "text": "PDSI: University of Idaho Palmer Drought Severity Index [deprecated]",
+    "link": "/en/pages/14a8e5bc/"
+   },
+   {
     "text": "PML_V2 ET & GPP (0.1.4, deprecated)",
     "link": "/en/pages/1fcbf3b8/"
    },
@@ -566,6 +950,14 @@
    {
     "text": "PML_V2.1.8 ET & GPP (deprecated)",
     "link": "/en/pages/82a78155/"
+   },
+   {
+    "text": "RGE ALTI: IGN RGE ALTI Digital Elevation 1m",
+    "link": "/en/pages/36cc0dac/"
+   },
+   {
+    "text": "Satellite Embedding V1",
+    "link": "/en/pages/f912c733/"
    },
    {
     "text": "Sentinel-1 SAR GRD",
@@ -664,6 +1056,10 @@
     "link": "/en/pages/6de4314d/"
    },
    {
+    "text": "SoilGrids250m 2.0 Volumetric Water Content",
+    "link": "/en/pages/ec88a629/"
+   },
+   {
     "text": "SPEIbase v2.10 (deprecated)",
     "link": "/en/pages/9bb9126f/"
    },
@@ -698,6 +1094,10 @@
    {
     "text": "SRTM DEM v4 (CGIAR-CSI)",
     "link": "/en/pages/81d193ff/"
+   },
+   {
+    "text": "TerraClimate:  Monthly Climate and Climatic Water Balance for Global Terrestrial Surfaces, University of Idaho",
+    "link": "/en/pages/a996bfa2/"
    },
    {
     "text": "Tree Proximate People (TPP) 1.0",

@@ -1,5 +1,5 @@
 ---
-title: "IUCN Global Ecosystem Typology Level 3: 1.0"
+title: "IUCN 全球生态系统类型学三级 v1.0"
 date: 2026-11-03 12:00:00
 permalink: /pages/fa6b2b5d/
 categories:
@@ -13,63 +13,65 @@ tags:
   - "table"
 ---
 
-# IUCN Global Ecosystem Typology Level 3: 1.0
+# IUCN 全球生态系统类型学三级 v1.0
 
-## 数据集简介
+英文原名：IUCN Global Ecosystem Typology Level 3: 1.0
 
-The Global Ecosystem Typology is a taxonomy of ecosystems based on
-their unique characteristics. It is a global classification system
-that provides a consistent framework for describing and classifying
-ecological ecosystems.
+## 这是什么数据
 
-The Global Ecosystem Typology has six levels. The top three levels
-(realms, functional biomes, and ecosystem functional groups) classify
-ecosystems based on their overall characteristics, such as their location,
-dominant plant life, and ecological processes. The bottom three levels
-(regional ecosystem subgroups, global ecosystem types, and subglobal
-ecosystem types) focus on specific geographic variants within ecosystem
-functional groups and complexes of organisms and their associated physical
-environment, providing a more detailed understanding of particular
-ecosystems.
+全球生态系统类型学（Global Ecosystem Typology）是一套基于生态系统独特特征的类型分类体系，是一个全球分类系统，为描述与分类生态系统提供一致的框架。
 
-This dataset focuses on the third level of the Global Ecosystem Typology:
-Ecosystem Functional Group. It's defined as a group of related ecosystems
-within a biome that share common ecological drivers, which in turn promote
-similar biotic traits that characterise the group. Derived from the
-top-down by subdivision of biomes.
+全球生态系统类型学共六个层级。上面三级（界、功能生物群系、生态系统功能组）依据生态系统的总体特征分类，如其位置、优势植物生活型与生态过程；下面三级（区域生态系统子组、全球生态系统类型、亚全球生态系统类型）聚焦生态系统功能组内部的具体地理变体以及生物群落复合体及其相关物理环境，可更详细地认识特定生态系统。
 
-NOTE: Due to the size of some geometries, a simplification algorithm was
-applied to each one to reduce their complexity. As many vertices as
-possible were discarded without moving the distance from the original
-shape more than 100 m. As a result, approximately two dozen rows in the
-table collapsed into geometries with 0 area and were removed.
+本数据集聚焦全球生态系统类型学的第三级：生态系统功能组（Ecosystem Functional Group）。它被定义为生物群系内一组相关的生态系统，共享共同的生态驱动因素，而这些驱动因素又促成表征该组的相似生物性状。它由生物群系自上而下细分推导而来。
 
-## 基本信息
+注：由于部分几何图形尺寸过大，已对每个几何图形应用简化算法以降低其复杂度：在不使与原始形状的距离移动超过 100 米的前提下，尽可能多地舍弃顶点。结果，表中约二十余行塌缩为面积为 0 的几何图形并被移除。
 
-- 数据集编号（Earth Engine ID）：`IUCN/GlobalEcosystemTypology/current`
-- 数据类型：矢量/表格（FeatureCollection）
-- 提供方：International Union for Conservation of Nature and Natural Resources、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球；时间：2023 年（v1.0 发布）；类型：矢量/表格数据。
 - 时间范围：2023-09-14 至 2023-09-14
-- 许可：CC-BY-4.0
-- 关键词：ecosystem, ecosystems, global, table
 
-## 字段信息
+## 分辨率与规格
+
+- 数据类型：矢量/表格（FeatureCollection），在 Google Earth Engine 中调用
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
-| efg_code | STRING | Ecosystem functional group code (e.g., "T1.1" = Tropical/Subtropical lowland rainforests). For a complete taxonomy, see [https://global-ecosystems.org/explore](https://global-ecosystems.org/explore).  |
-| map_code | STRING | Map code |
-| map_version | STRING | Map version |
-| occurrence | INT | It indicates whether the specified region contains major occurrences (1) or minor occurrences (2) of the functional group."  |
+| efg_code | STRING | 生态系统功能组代码（如 "T1.1" = 热带/亚热带低地雨林）。完整分类体系见 [https://global-ecosystems.org/explore](https://global-ecosystems.org/explore)。 |
+| map_code | STRING | 制图代码 |
+| map_version | STRING | 制图版本 |
+| occurrence | INT | 表示指定区域内该功能组是主要出现（1）还是次要出现（2）。 |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 生态系统分类与制图
+- 生物多样性与保护规划
+- 生态评估与报告
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.FeatureCollection('IUCN/GlobalEcosystemTypology/current');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`IUCN/GlobalEcosystemTypology/current`
+- 提供方：International Union for Conservation of Nature and Natural Resources、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/IUCN_GlobalEcosystemTypology_current
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：ecosystem, ecosystems, global, table
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [CSP 全球人类改造指数（gHM）](/pages/1227f44f/)
+- [ESA WorldCereal 10 米 v100](/pages/76b102d2/)
+- [ESA WorldCereal 活跃耕地 10 米 v100](/pages/dd6f101f/)
+- [ESA WorldCover 10 米 v100（2020）](/pages/69070083/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

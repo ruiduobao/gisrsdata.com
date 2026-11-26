@@ -1,5 +1,5 @@
 ---
-title: "HYCOM: Hybrid Coordinate Ocean Model, Water Velocity"
+title: "HYCOM：混合坐标海洋模型，海水流速"
 date: 2026-11-03 12:00:00
 permalink: /pages/28fcba16/
 categories:
@@ -14,140 +14,148 @@ tags:
   - "water"
 ---
 
-# HYCOM: Hybrid Coordinate Ocean Model, Water Velocity
+# HYCOM：混合坐标海洋模型，海水流速
 
-## 数据集简介
+英文原名：HYCOM: Hybrid Coordinate Ocean Model, Water Velocity
 
-The Hybrid Coordinate Ocean Model (HYCOM) is a data-assimilative hybrid
-isopycnal-sigma-pressure (generalized) coordinate ocean model. The subset
-of HYCOM data hosted in EE contains the variables salinity, temperature,
-velocity, and elevation. They have been interpolated to a uniform
-0.08 degree lat/long grid between 80.48°S and 80.48°N. The salinity,
-temperature, and velocity variables have been interpolated to 40
-standard z-levels.
+## 这是什么数据
 
-The HYCOM Consortium, which includes the National Ocean Partnership
-Program (NOPP), is part of the U.S. Global Ocean Data Assimilation
-Experiment (GODAE).
+混合坐标海洋模型（HYCOM）是一个数据同化的混合等密度-sigma-压力（广义）坐标海洋模型。EE 中托管的 HYCOM 数据子集包含盐度、温度、流速和高程变量。它们已被插值到 80.48°S 至 80.48°N 之间均匀的 0.08 度经纬度网格上。盐度、温度和流速变量已被插值到 40 个标准 z 层。
 
-Funded by the National Ocean Partnership Program, the Office of Naval
-Research (ONR), and DoD High Performance Computing Modernization Program.
+HYCOM 联盟包括国家海洋伙伴计划（NOPP），是美国全球海洋数据同化实验（GODAE）的一部分。
 
-For more information, see:
+由国家海洋伙伴计划、海军研究办公室（ONR）和国防部高性能计算现代化计划资助。
 
-- [hycom.org](https://www.hycom.org/)
-- [GIS StackExchange hycom](https://gis.stackexchange.com/questions/tagged/hycom)
-- Wikipedia [HyCOM](https://en.wikipedia.org/wiki/HyCOM)
-- Wikipedia [List of ocean circulation models](https://en.wikipedia.org/wiki/List_of_ocean_circulation_models)
-- Wikipedia [Ocean general circulation model (OGCM)](https://en.wikipedia.org/wiki/Ocean_general_circulation_model)
+更多信息见：
 
-## 基本信息
+- [hycom.org](https://www.hycom.org/) - [GIS StackExchange hycom](https://gis.stackexchange.com/questions/tagged/hycom) - 维基百科 [HyCOM](https://en.wikipedia.org/wiki/HyCOM) - 维基百科 [List of ocean circulation models](https://en.wikipedia.org/wiki/List_of_ocean_circulation_models) - 维基百科 [Ocean general circulation model (OGCM)](https://en.wikipedia.org/wiki/Ocean_general_circulation_model)
 
-- 数据集编号（Earth Engine ID）：`HYCOM/sea_water_velocity`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NOPP、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：全球海洋（80.48°S–80.48°N）
 - 时间范围：1992-10-02 至 2024-09-05
-- 空间分辨率：8905.6 米
-- 许可：proprietary
-- 关键词：hycom, nopp, oceans, velocity, water
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 8,905.6 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| velocity_u_0 | Eastward sea water velocity at a depth of 0m | 8905.6 |  |
-| velocity_v_0 | Northward sea water velocity at a depth of 0m | 8905.6 |  |
-| velocity_u_2 | Eastward sea water velocity at a depth of 2m | 8905.6 |  |
-| velocity_v_2 | Northward sea water velocity at a depth of 2m | 8905.6 |  |
-| velocity_u_4 | Eastward sea water velocity at a depth of 4m | 8905.6 |  |
-| velocity_v_4 | Northward sea water velocity at a depth of 4m | 8905.6 |  |
-| velocity_u_6 | Eastward sea water velocity at a depth of 6m | 8905.6 |  |
-| velocity_v_6 | Northward sea water velocity at a depth of 6m | 8905.6 |  |
-| velocity_u_8 | Eastward sea water velocity at a depth of 8m | 8905.6 |  |
-| velocity_v_8 | Northward sea water velocity at a depth of 8m | 8905.6 |  |
-| velocity_u_10 | Eastward sea water velocity at a depth of 10m | 8905.6 |  |
-| velocity_v_10 | Northward sea water velocity at a depth of 10m | 8905.6 |  |
-| velocity_u_12 | Eastward sea water velocity at a depth of 12m | 8905.6 |  |
-| velocity_v_12 | Northward sea water velocity at a depth of 12m | 8905.6 |  |
-| velocity_u_15 | Eastward sea water velocity at a depth of 15m | 8905.6 |  |
-| velocity_v_15 | Northward sea water velocity at a depth of 15m | 8905.6 |  |
-| velocity_u_20 | Eastward sea water velocity at a depth of 20m | 8905.6 |  |
-| velocity_v_20 | Northward sea water velocity at a depth of 20m | 8905.6 |  |
-| velocity_u_25 | Eastward sea water velocity at a depth of 25m | 8905.6 |  |
-| velocity_v_25 | Northward sea water velocity at a depth of 25m | 8905.6 |  |
-| velocity_u_30 | Eastward sea water velocity at a depth of 30m | 8905.6 |  |
-| velocity_v_30 | Northward sea water velocity at a depth of 30m | 8905.6 |  |
-| velocity_u_35 | Eastward sea water velocity at a depth of 35m | 8905.6 |  |
-| velocity_v_35 | Northward sea water velocity at a depth of 35m | 8905.6 |  |
-| velocity_u_40 | Eastward sea water velocity at a depth of 40m | 8905.6 |  |
-| velocity_v_40 | Northward sea water velocity at a depth of 40m | 8905.6 |  |
-| velocity_u_45 | Eastward sea water velocity at a depth of 45m | 8905.6 |  |
-| velocity_v_45 | Northward sea water velocity at a depth of 45m | 8905.6 |  |
-| velocity_u_50 | Eastward sea water velocity at a depth of 50m | 8905.6 |  |
-| velocity_v_50 | Northward sea water velocity at a depth of 50m | 8905.6 |  |
-| velocity_u_60 | Eastward sea water velocity at a depth of 60m | 8905.6 |  |
-| velocity_v_60 | Northward sea water velocity at a depth of 60m | 8905.6 |  |
-| velocity_u_70 | Eastward sea water velocity at a depth of 70m | 8905.6 |  |
-| velocity_v_70 | Northward sea water velocity at a depth of 70m | 8905.6 |  |
-| velocity_u_80 | Eastward sea water velocity at a depth of 80m | 8905.6 |  |
-| velocity_v_80 | Northward sea water velocity at a depth of 80m | 8905.6 |  |
-| velocity_u_90 | Eastward sea water velocity at a depth of 90m | 8905.6 |  |
-| velocity_v_90 | Northward sea water velocity at a depth of 90m | 8905.6 |  |
-| velocity_u_100 | Eastward sea water velocity at a depth of 100m | 8905.6 |  |
-| velocity_v_100 | Northward sea water velocity at a depth of 100m | 8905.6 |  |
-| velocity_u_125 | Eastward sea water velocity at a depth of 125m | 8905.6 |  |
-| velocity_v_125 | Northward sea water velocity at a depth of 125m | 8905.6 |  |
-| velocity_u_150 | Eastward sea water velocity at a depth of 150m | 8905.6 |  |
-| velocity_v_150 | Northward sea water velocity at a depth of 150m | 8905.6 |  |
-| velocity_u_200 | Eastward sea water velocity at a depth of 200m | 8905.6 |  |
-| velocity_v_200 | Northward sea water velocity at a depth of 200m | 8905.6 |  |
-| velocity_u_250 | Eastward sea water velocity at a depth of 250m | 8905.6 |  |
-| velocity_v_250 | Northward sea water velocity at a depth of 250m | 8905.6 |  |
-| velocity_u_300 | Eastward sea water velocity at a depth of 300m | 8905.6 |  |
-| velocity_v_300 | Northward sea water velocity at a depth of 300m | 8905.6 |  |
-| velocity_u_350 | Eastward sea water velocity at a depth of 350m | 8905.6 |  |
-| velocity_v_350 | Northward sea water velocity at a depth of 350m | 8905.6 |  |
-| velocity_u_400 | Eastward sea water velocity at a depth of 400m | 8905.6 |  |
-| velocity_v_400 | Northward sea water velocity at a depth of 400m | 8905.6 |  |
-| velocity_u_500 | Eastward sea water velocity at a depth of 500m | 8905.6 |  |
-| velocity_v_500 | Northward sea water velocity at a depth of 500m | 8905.6 |  |
-| velocity_u_600 | Eastward sea water velocity at a depth of 600m | 8905.6 |  |
-| velocity_v_600 | Northward sea water velocity at a depth of 600m | 8905.6 |  |
-| velocity_u_700 | Eastward sea water velocity at a depth of 700m | 8905.6 |  |
-| velocity_v_700 | Northward sea water velocity at a depth of 700m | 8905.6 |  |
-| velocity_u_800 | Eastward sea water velocity at a depth of 800m | 8905.6 |  |
-| velocity_v_800 | Northward sea water velocity at a depth of 800m | 8905.6 |  |
-| velocity_u_900 | Eastward sea water velocity at a depth of 900m | 8905.6 |  |
-| velocity_v_900 | Northward sea water velocity at a depth of 900m | 8905.6 |  |
-| velocity_u_1000 | Eastward sea water velocity at a depth of 1000m | 8905.6 |  |
-| velocity_v_1000 | Northward sea water velocity at a depth of 1000m | 8905.6 |  |
-| velocity_u_1250 | Eastward sea water velocity at a depth of 1250m | 8905.6 |  |
-| velocity_v_1250 | Northward sea water velocity at a depth of 1250m | 8905.6 |  |
-| velocity_u_1500 | Eastward sea water velocity at a depth of 1500m | 8905.6 |  |
-| velocity_v_1500 | Northward sea water velocity at a depth of 1500m | 8905.6 |  |
-| velocity_u_2000 | Eastward sea water velocity at a depth of 2000m | 8905.6 |  |
-| velocity_v_2000 | Northward sea water velocity at a depth of 2000m | 8905.6 |  |
-| velocity_u_2500 | Eastward sea water velocity at a depth of 2500m | 8905.6 |  |
-| velocity_v_2500 | Northward sea water velocity at a depth of 2500m | 8905.6 |  |
-| velocity_u_3000 | Eastward sea water velocity at a depth of 3000m | 8905.6 |  |
-| velocity_v_3000 | Northward sea water velocity at a depth of 3000m | 8905.6 |  |
-| velocity_u_4000 | Eastward sea water velocity at a depth of 4000m | 8905.6 |  |
-| velocity_v_4000 | Northward sea water velocity at a depth of 4000m | 8905.6 |  |
-| velocity_u_5000 | Eastward sea water velocity at a depth of 5000m | 8905.6 |  |
-| velocity_v_5000 | Northward sea water velocity at a depth of 5000m | 8905.6 |  |
+| velocity_u_0 | 深度 0 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_0 | 深度 0 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_2 | 深度 2 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_2 | 深度 2 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_4 | 深度 4 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_4 | 深度 4 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_6 | 深度 6 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_6 | 深度 6 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_8 | 深度 8 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_8 | 深度 8 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_10 | 深度 10 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_10 | 深度 10 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_12 | 深度 12 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_12 | 深度 12 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_15 | 深度 15 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_15 | 深度 15 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_20 | 深度 20 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_20 | 深度 20 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_25 | 深度 25 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_25 | 深度 25 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_30 | 深度 30 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_30 | 深度 30 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_35 | 深度 35 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_35 | 深度 35 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_40 | 深度 40 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_40 | 深度 40 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_45 | 深度 45 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_45 | 深度 45 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_50 | 深度 50 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_50 | 深度 50 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_60 | 深度 60 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_60 | 深度 60 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_70 | 深度 70 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_70 | 深度 70 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_80 | 深度 80 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_80 | 深度 80 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_90 | 深度 90 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_90 | 深度 90 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_100 | 深度 100 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_100 | 深度 100 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_125 | 深度 125 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_125 | 深度 125 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_150 | 深度 150 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_150 | 深度 150 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_200 | 深度 200 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_200 | 深度 200 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_250 | 深度 250 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_250 | 深度 250 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_300 | 深度 300 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_300 | 深度 300 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_350 | 深度 350 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_350 | 深度 350 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_400 | 深度 400 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_400 | 深度 400 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_500 | 深度 500 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_500 | 深度 500 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_600 | 深度 600 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_600 | 深度 600 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_700 | 深度 700 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_700 | 深度 700 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_800 | 深度 800 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_800 | 深度 800 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_900 | 深度 900 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_900 | 深度 900 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_1000 | 深度 1000 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_1000 | 深度 1000 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_1250 | 深度 1250 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_1250 | 深度 1250 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_1500 | 深度 1500 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_1500 | 深度 1500 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_2000 | 深度 2000 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_2000 | 深度 2000 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_2500 | 深度 2500 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_2500 | 深度 2500 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_3000 | 深度 3000 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_3000 | 深度 3000 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_4000 | 深度 4000 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_4000 | 深度 4000 米处的北向海水流速 | 8905.6 |  |
+| velocity_u_5000 | 深度 5000 米处的东向海水流速 | 8905.6 |  |
+| velocity_v_5000 | 深度 5000 米处的北向海水流速 | 8905.6 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 洋流与输运分析
+- 漂流轨迹模拟
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('HYCOM/sea_water_velocity');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`HYCOM/sea_water_velocity`
+- 提供方：NOPP、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/HYCOM_sea_water_velocity
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：hycom, nopp, oceans, velocity, water
 - 数据引用：J. A. Cummings and O. M. Smedstad. 2013: Variational Data Assimilation for
 the Global Ocean. Data Assimilation for Atmospheric, Oceanic and Hydrologic
 Applications vol II, chapter 13, 303-343.
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ECMWF 近实时 IFS 海浪预报](/pages/2f7bc360/)
+- [ECMWF 近实时 IFS 海浪预报（短截断）](/pages/423330ad/)
+- [GFW（全球渔业观察）每日捕捞小时数](/pages/7dfa6e21/)
+- [GFW（全球渔业观察）每日船舶小时数](/pages/37ea4824/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

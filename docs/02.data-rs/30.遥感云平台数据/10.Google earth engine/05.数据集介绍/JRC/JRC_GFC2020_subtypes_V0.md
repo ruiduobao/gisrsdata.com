@@ -1,5 +1,5 @@
 ---
-title: "Global map of forest types 2020 V0 [deprecated]"
+title: "2020 年全球森林类型图 V0（已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/af23bf12/
 categories:
@@ -15,98 +15,66 @@ tags:
   - "primary-forest"
 ---
 
-# Global map of forest types 2020 V0 [deprecated]
+# 2020 年全球森林类型图 V0（已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：Global map of forest types 2020 V0 [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The global map of forest types provides a spatially explicit representation
-of primary forest, naturally regenerating forest and planted forest (including
-plantation forest) for the year 2020 at 10m spatial resolution. The base layer
-for mapping these forest types is the extent of forest cover of version 1 of
-the Global Forest Cover map for year 2020 (JRC GFC 2020). The definitions of
-the forest types follow the definitions of the Regulation from the European
-Union "on the making available on the Union market and the export from the
-Union of certain commodities and products associated with deforestation and
-forest degradation" (EUDR, Regulation (EU) 2023/1115), which are similar to
-characteristics and specific forest categories from the FAO Global Forest
-Resources Assessment. The year 2020 corresponds to the cut-off date of the
-EUDR.
+全球森林类型图以 10 米空间分辨率，空间明确地表示了 2020 年的原始林、天然更新林与人工林（包括人工种植林）。绘制这些森林类型的基线图层是 2020 年全球森林覆盖图（JRC GFC 2020）第 1 版的森林覆盖范围。森林类型的定义遵循欧盟"关于在欧盟市场供应以及从欧盟出口与毁林和森林退化相关的某些商品和产品"条例（EUDR，Regulation (EU) 2023/1115）的定义，其与 FAO 全球森林资源评估的特征与特定森林类别相似。2020 年对应 EUDR 的截止日期。
 
-In the context of the EUDR, the global forest types map can be used as a
-non-mandatory, non-exclusive and not legally binding source of information,
-namely in the phase of risk assessment by operators and traders. Further
-information about the map and its use can be found on the EU Observatory on
-Deforestation and Forest Degradation. The definition of forest degradation
-under the EUDR implies that for year 2020 it is only necessary to assess the
-presence of primary forests and naturally regenerating forests; all other
-forests, including plantation forests, were mapped under class "planted
-forests". Class "other wooded land" exists only outside the extent of forest
-cover in the Global Forest Cover map for year 2020 and is therefore not
-mapped in GFT 2020.
+在 EUDR 背景下，全球森林类型图可作为非强制性、非排他性、不具法律约束力的信息来源使用，尤其是在经营者与贸易商的风险评估阶段。关于该图及其使用的更多信息，见欧盟毁林与森林退化观测站。EUDR 下森林退化的定义意味着：对 2020 年只需评估原始林与天然更新林的存在；所有其他森林（包括人工种植林）均划入"人工林"类别。"其他林地"类别只存在于 2020 年全球森林覆盖图的森林覆盖范围之外，因此未在 GFT 2020 中绘制。
 
-Data for deriving a harmonized, globally consistent representation of forest
-types are scarce, and mapping of the respective forest types from Earth
-Observation data is challenging. This map of global forest types is released
-as a preliminary version (version 0) for feedback by the user community that
-is concerned or interested in the issue of forest degradation under the
-EUDR. Based on expected feedback and future additional or improved data
-sets, the JRC aims to produce a consolidated map during year 2025.
+用于推导协调、全球一致的森林类型表示的数据稀缺，且从地球观测数据绘制各森林类型具有挑战性。这幅全球森林类型图作为初步版本（第 0 版）发布，供关注或有兴趣于 EUDR 下森林退化问题的用户社区反馈。基于预期的反馈以及未来新增或改进的数据集，JRC 计划在 2025 年内制作一幅定稿图。
 
-The global map of forest types v0 combines available global datasets
-(wall-to-wall or global in their scope) that indicate or are proxies for the
-four main forest types The main data layers that are used to delineate primary
-forests in GFT 2020 are:
+全球森林类型图 v0 合并了现有的、指示或代理四大主要森林类型的全球数据集（全覆盖或全球范围）。用于在 GFT 2020 中划定原始林的主要数据图层有：
 
-1. The Forest Landscape Integrity Index in 2019
-1. Map of undisturbed tropical mangroves in 2020 and degradation and
-deforestation in tropical moist forests from 1990 to 2020 (from JRC-TMF)
-1. Map of Intact Forest Landscapes 2020
-1. World Database on Protected Areas
-1. The European Primary Forest Dataset from Sabatini et al. 2021
-1. Global tree cover loss from 2001 to 2020 in combination with the map of
-drivers of global forest loss
-1. A map on global mining land use.
+1. 2019 年森林景观完整性指数；2. 2020 年未受干扰热带红树林图以及 1990–2020 年热带湿润森林的退化与毁林（来自 JRC-TMF）；3. 2020 年完整森林景观图；4. 世界保护区数据库；5. Sabatini 等（2021）的欧洲原始林数据集；6. 2001–2020 年全球树木覆盖损失结合全球森林损失驱动因素图；7. 全球采矿土地利用图。
 
-The main layers to map planted forests (including plantation forests) are:
+绘制人工林（包括人工种植林）的主要图层有：
 
-1. The WRI Spatial Database on Planted Trees (version 2.1)
-1. IIASA Forest Management classes on planted/plantation forest
-1. The Global Forest Canopy Height dataset in 2019
-1. global tree cover in 2000 and loss from 2001 to 2020.
+1. WRI 人工种植树木空间数据库（第 2.1 版）；2. IIASA 人工/人工种植林森林经营类别；3. 2019 年全球森林冠层高度数据集；4. 2000 年全球树木覆盖与 2001–2020 年损失。
 
-The global input layers and mapping approach are described in
-[this technical report](https://op.europa.eu/en/publication-detail/-/publication/e2c286ac-14e9-11f0-b1a3-01aa75ed71a1/language-en).
+全球输入图层与制图方法见[本技术报告](https://op.europa.eu/en/publication-detail/-/publication/e2c286ac-14e9-11f0-b1a3-01aa75ed71a1/language-en)。
 
-For a list of known issues please refer to
-[this website](https://forobs.jrc.ec.europa.eu/GFC).
+已知问题清单请参阅[本网站](https://forobs.jrc.ec.europa.eu/GFC)。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`JRC/GFC2020_subtypes/V0`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Joint Research Centre, European Commission、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间：2020 年；分辨率：10 米。
 - 时间范围：2020-01-01 至 2020-12-31
-- 空间分辨率：10 米
-- 许可：proprietary
-- 关键词：eudr, forest, forest-biomass, jrc, landcover, primary-forest
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 10 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| Map | Global forest types 2020 | 10 |  |
+| Map | 2020 年全球森林类型。 | 10 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 森林类型与原始林识别
+- EUDR 森林退化风险评估
+- 森林保护规划
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('JRC/GFC2020_subtypes/V0');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`JRC/GFC2020_subtypes/V0`
+- 提供方：Joint Research Centre, European Commission、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_subtypes_V0
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：eudr, forest, forest-biomass, jrc, landcover, primary-forest
 - 数据引用：Bourgoin, Clement; Verhegghen, Astrid; Carboni, Silvia; Ameztoy, Iban;
 Ceccherini, Guido; Colditz, Rene; Achard, Frederic (2024): Global map
 of forest types 2020 - version 0. European Commission, Joint Research Centre
@@ -115,3 +83,12 @@ of forest types 2020 - version 0. European Commission, Joint Research Centre
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [EC JRC global map of forest types 2020, V1](/pages/3fb6432f/)
+- [CSP 全球人类改造指数（gHM）](/pages/1227f44f/)
+- [ESA WorldCereal 10 米 v100](/pages/76b102d2/)
+- [ESA WorldCereal 活跃耕地 10 米 v100](/pages/dd6f101f/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

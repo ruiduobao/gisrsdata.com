@@ -1,5 +1,5 @@
 ---
-title: "Brazil Forest Imagery Dataset 2008: Analytic Basemap"
+title: "巴西森林影像数据集 2008：分析底图"
 date: 2026-11-03 12:00:00
 permalink: /pages/9ead8e0f/
 categories:
@@ -16,78 +16,85 @@ tags:
   - "spot"
 ---
 
-# Brazil Forest Imagery Dataset 2008: Analytic Basemap
+# 巴西森林影像数据集 2008：分析底图
 
-## 数据集简介
+英文原名：Brazil Forest Imagery Dataset 2008: Analytic Basemap
 
-This dataset provides up to a 10-meter resolution multispectral (green, red, and near-infrared) basemap of Brazil, primarily captured in 2008, to support implementation of the [Brazil Forest Code](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/L12651compilado.htm). The mosaic is synthesized from SPOT 2, 4, and 5 satellite data. It serves as a higher-resolution alternative to Landsat for identifying consolidated areas, Permanent Protection Areas (APPs), and legal reserves as they existed on the July 22, 2008 regulatory deadline. Gaps in SPOT coverage are represented by a transparent mask to maintain data integrity. This multispectral product is designed to automate Brazil Forest Code related analysis such as identification of forest through vegetation indices like NDVI.
+## 这是什么数据
 
-### Why Google created this basemap
+该数据集提供巴西的多光谱（绿、红、近红外）底图，分辨率最高 10 米，主要摄于 2008 年，以支持[巴西森林法](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/L12651compilado.htm)的实施。该镶嵌图由 SPOT 2、4 和 5 卫星数据合成。它是 Landsat 的更高分辨率替代品，用于识别 2008 年 7 月 22 日监管截止日期时存在的固化区域、永久保护区（APP）和法定保留地。SPOT 覆盖的空缺以透明掩膜表示，以保持数据完整性。该多光谱产品旨在自动化与巴西森林法相关的分析，例如通过 NDVI 等植被指数识别森林。
 
-While raw image collections are also available (see [MS](/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_MS_V1), [MS_NC](/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_MS_NC_V1), [PMS_NC](/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_PMS_NC_V1), [PAN](/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_PAN_V1)), this 2008-era multispectral mosaic was synthesized to provide a seamless, ready-to-use product for analysis. By performing radiometric and geometric corrections at scale, raw, disparate satellite scenes were transformed into a unified dataset that supports scientific analysis across Brazil in the context of the Brazil Forest Code, such as historic land cover classification relevant to Brazil's Rural Environmental Registry.
+### Google 为何创建这块底图
 
+原始影像集合也可获取（见 [MS](/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_MS_V1)、[MS_NC](/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_MS_NC_V1)、[PMS_NC](/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_PMS_NC_V1)、[PAN](/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_PAN_V1)），但这个 2008 年代的多光谱镶嵌图是为提供无缝、开箱即用的分析产品而合成的。通过大规模进行辐射和几何校正，原本分散的原始卫星场景被转化为一个统一的数据集，支持在巴西森林法背景下开展全巴西范围的科学分析，例如与巴西农村环境登记相关的历史土地覆盖分类。
 
-### Geographic prioritization and coverage
+### 地理优先级与覆盖
 
-To maximize immediate environmental impact, image selection prioritized achieving near-complete, high-resolution coverage for privately held lands registered in the **Rural Environmental Registry (CAR)**. Specific focus was given to the **Amazon biome** and five states in the **"Arc of Deforestation"** - Maranhão, Mato Grosso, Pará, Rondônia, and Tocantins - where there is an average of 93% state-wide coverage. The average coverage across Brazil is 68% in v1. Gaps in coverage are represented by a transparent mask to maintain data integrity where high-quality 2008-era imagery was unavailable.
+为最大化即时环境影响，影像选择优先为农村环境登记（CAR）中登记的私人土地实现近乎完整的高分辨率覆盖。特别关注亚马逊生物群落和「毁林弧线」的五个州——马拉尼昂、马托格罗索、帕拉、朗多尼亚和托坎廷斯——这些州全州平均覆盖率达 93%。v1 中巴西全国平均覆盖率为 68%。在缺乏高质量 2008 年代影像的地方，覆盖空缺以透明掩膜表示，以保持数据完整性。
 
+### 处理方法
 
-### Processing methodology
+处理方法的深入说明见[方法指南](/earth-engine/guides/spot_brazil_forest_imagery_dataset_2008_v1)，包括：
 
-Please see the [methodology guide](/earth-engine/guides/spot_brazil_forest_imagery_dataset_2008_v1) for an in-depth description of the processing, including:
+* **辐射定标：** 使用波段特定的物理增益和偏置元数据将原始数字值转换为大气层顶反射率，并按太阳辐照度和日地距离归一化。* **辐射归一化：** 为尽量减少影像间的辐射不连续，像元值通过直方图匹配调整至一个一致的 Landsat 2008 镶嵌目标。* **边缘精修：** Google 对影像掩膜应用了 2.5 像元的焦点最小值腐蚀，以去除源数据中的有损压缩伪影。* **云掩膜：** 受训测量员手工勾绘云和阴影周围的多边形，并将其转换为掩膜，以确保合成中只包含最有用的像元。* **自动配准误差校正：** 部分场景使用 `ee.Image.register` 算法与 2008 年代 Landsat 参考合成影像进行配准。* **合成：** 最终镶嵌图优先使用可得的最高分辨率像元，将 SPOT 5 影像（10 米）叠加在 SPOT 4 和 SPOT 2 之上。
 
-* **Radiometric calibration:** Raw digital numbers were converted to TOA reflectance using band-specific physical gain and bias metadata, normalized by solar irradiance and Earth-Sun distance.
-* **Radiometric normalization:** To minimize inter-image radiometric discontinuities pixel values were adjusted via histogram matching to a consistent Landsat 2008 mosaic target.
-* **Edge refinement:** Google applied a 2.5-pixel focal minimum erosion to image masks to remove lossy compression artifacts present in the source data.
-* **Cloud masking:** Trained surveyors manually delineated polygons around clouds and shadows, which were converted to a mask to ensure that only the most useful pixels are included in the composite.
-* **Automated misregistration correction:** Select scenes were coregistered using the `ee.Image.register` algorithm against a 2008-era Landsat reference composite.
-* **Composition:** The final mosaic prioritizes the highest resolution pixels available, layering SPOT 5 imagery (10 m) on top of SPOT 4 and 2\.
+### 局限性与已知问题
 
+* **空间完整性：** 在没有影像满足项目严格的 2008 年代时间窗口（2007–2009）、云覆盖阈值或质量标准的地方存在空缺。* **原生分辨率不一：** 由于处理中使用了最近邻重采样，源影像不同标称分辨率之间的边界可能可见。* **残余配准误差：** 某些区域可能仍存在空间偏移，尤其是在地形起伏极端或森林茂密均质的区域。* **大气与云伪影：** 手工云掩膜并不彻底；用户可能遇到偶发的残余伪影，如薄卷云霾或小块云影。* **辐射不一致：** 相邻影像之间仍存在残余光谱差异，可能增加光谱方差并降低机器学习推理时类别分离的精度。* **光谱饱和：** 在极端明亮的区域，像元可能达到传感器的最大可探测限值，导致纹理和细节丢失。
 
-### Limitations and known issues
+### 数据访问
 
-* **Spatial completeness:** Gaps exist where no imagery met the project’s strict 2008-era temporal window (2007–2009), cloud-cover thresholds, or quality standards.
-* **Variable native resolution:**Boundaries between different nominal resolutions of source imagery may be visible because nearest neighbor resampling was used during processing..
-* **Residual misregistration:** Spatial shifts may persist in some areas, particularly in regions with extreme terrain relief or dense, homogeneous forest areas.
-* **Atmospheric and cloud artifacts:** Manual cloud masking is not exhaustive; users may encounter occasional residual artifacts like thin cirrus haze or small cloud shadows.
-* **Radiometric inconsistency:** Residual spectral variation remains between adjacent images, which may increase spectral variance and reduce the precision of class separation during machine learning inference.
-* **Spectral saturation:** In areas of extreme brightness, pixels may reach the sensor’s maximum detectable limit, resulting in a loss of texture and detail.
+要访问该数据集，请填写[申请表](https://forms.gle/jQmCbWgarjENQBYz6)。
 
+## 覆盖范围与时间
 
-### Data access
-
-To access this dataset, please fill out the [request form](https://forms.gle/jQmCbWgarjENQBYz6).
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`GOOGLE/BRAZIL_FOREST_2008/V1/ANALYTIC`
-- 数据类型：影像（Image）
-- 提供方：Google、Google Earth Engine
+- 覆盖范围：巴西
 - 时间范围：2007-01-01 至 2009-11-26
-- 空间分辨率：10 米
-- 许可：proprietary
-- 关键词：brazil, forest-code, google, imagery, multispectral, satellite-imagery, spot
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 10 米
+- 数据类型：影像（Image），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| G | Green reflectance (top-of-atmosphere) | 10 |  |
-| R | Red reflectance (top-of-atmosphere) | 10 |  |
-| N | Near-infrared reflectance (top-of-atmosphere) | 10 |  |
-| date | Observation date as epoch (seconds) | 10 |  |
-| scale | Pixel size of source image (see [Methodology](/earth-engine/guides/spot_brazil_forest_imagery_dataset_2008_v1)) | 10 |  |
-| satellite | Source satellite (SPOT 2, 4, or 5) | 10 |  |
-| coregistered | Boolean: 1 if automated misregistration correction was applied (see [Methodology](/earth-engine/guides/spot_brazil_forest_imagery_dataset_2008_v1)) | 10 |  |
+| G | 绿光反射率（大气层顶） | 10 |  |
+| R | 红光反射率（大气层顶） | 10 |  |
+| N | 近红外反射率（大气层顶） | 10 |  |
+| date | 观测日期（纪元秒） | 10 |  |
+| scale | 源影像的像元大小（见[方法](/earth-engine/guides/spot_brazil_forest_imagery_dataset_2008_v1)） | 10 |  |
+| satellite | 源卫星（SPOT 2、4 或 5） | 10 |  |
+| coregistered | 布尔值：1 表示已应用自动配准误差校正（见[方法](/earth-engine/guides/spot_brazil_forest_imagery_dataset_2008_v1)） | 10 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 巴西森林法合规分析
+- 历史土地覆盖与毁林制图
+- 农村环境登记（CAR）核查
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.Image('GOOGLE/BRAZIL_FOREST_2008/V1/ANALYTIC');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`GOOGLE/BRAZIL_FOREST_2008/V1/ANALYTIC`
+- 提供方：Google、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_BRAZIL_FOREST_2008_V1_ANALYTIC
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：brazil, forest-code, google, imagery, multispectral, satellite-imagery, spot
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [Brazil Forest Imagery Dataset 2008: Visual Basemap](/pages/676005c8/)
+- [CSIRO 全球生物多样性指标](/pages/5e19a751/)
+- [ESA CCI 地上生物量（2007、2010、2015–2022，v6.0）](/pages/e9028b43/)
+- [WaPOR 实际蒸散发与截留 2.0](/pages/f46d014b/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

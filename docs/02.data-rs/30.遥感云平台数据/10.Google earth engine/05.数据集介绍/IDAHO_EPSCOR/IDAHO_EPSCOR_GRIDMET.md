@@ -1,5 +1,5 @@
 ---
-title: "GRIDMET: University of Idaho Gridded Surface Meteorological Dataset"
+title: "GRIDMET：爱达荷大学格网地表气象数据集"
 date: 2026-11-03 12:00:00
 permalink: /pages/824ff3bb/
 categories:
@@ -21,70 +21,79 @@ tags:
   - "weather-and-climate"
 ---
 
-# GRIDMET: University of Idaho Gridded Surface Meteorological Dataset
+# GRIDMET：爱达荷大学格网地表气象数据集
 
-## 数据集简介
+英文原名：GRIDMET: University of Idaho Gridded Surface Meteorological Dataset
 
-The Gridded Surface Meteorological dataset provides
-high spatial resolution (~4-km) daily surface fields of temperature,
-precipitation, winds, humidity and radiation across the contiguous
-United States from 1979. The dataset blends the high resolution
-spatial data from PRISM with the high temporal resolution data
-from the National Land Data Assimilation System (NLDAS) to produce
-spatially and temporally continuous fields that lend themselves
-to additional land surface modeling.
+## 这是什么数据
 
-This dataset contains provisional products that are replaced with
-updated versions when the complete source data become available.
-Products can be distinguished by the value of the 'status' property.
-At first, assets are ingested with status='early'. After several
-days, they are replaced by assets with status='provisional'.
-After about 2 months, they are replaced by the final assets with
-status='permanent'.
+格网地表气象数据集提供自 1979 年以来美国本土高空间分辨率（约 4 公里）的逐日地表温度、降水、风、湿度和辐射场。该数据集融合了 PRISM 的高分辨率空间数据与国家陆地数据同化系统（NLDAS）的高时间分辨率数据，产生空间和时间上连续的场，便于进一步的陆面建模。
 
-## 基本信息
+该数据集包含临时产品，当完整的源数据可用时会被更新版本替换。产品可通过 'status' 属性值区分。起初，资产以 status='early' 摄入。几天后，它们被 status='provisional' 的资产替换。大约 2 个月后，它们被 status='permanent' 的最终资产替换。
 
-- 数据集编号（Earth Engine ID）：`IDAHO_EPSCOR/GRIDMET`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：University of California Merced、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：美国本土
 - 时间范围：1979-01-01 至 2026-10-26
-- 空间分辨率：4638.3 米
-- 许可：proprietary
-- 关键词：climate, fireburning, gridmet, humidity, merced, metdata, nfdrs, precipitation, radiation, temperature, water-vapor, weather-and-climate, wind
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 4,638.3 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| pr | Precipitation amount | 4638.3 |  |
-| rmax | Maximum relative humidity | 4638.3 |  |
-| rmin | Minimum relative humidity | 4638.3 |  |
-| sph | Specific humididy | 4638.3 |  |
-| srad | Surface downward shortwave radiation | 4638.3 |  |
-| th | Wind direction | 4638.3 |  |
-| tmmn | Minimum temperature | 4638.3 |  |
-| tmmx | Maximum temperature | 4638.3 |  |
-| vs | Wind velocity at 10m | 4638.3 |  |
-| erc | Energy release component | 4638.3 |  |
-| eto | Daily grass reference evapotranspiration | 4638.3 |  |
-| bi | Burning index | 4638.3 |  |
-| fm100 | 100-hour dead fuel moisture | 4638.3 |  |
-| fm1000 | 1000-hour dead fuel moisture | 4638.3 |  |
-| etr | Daily alfalfa reference evapotranspiration | 4638.3 |  |
-| vpd | Mean vapor pressure deficit | 4638.3 |  |
+| pr | 降水量 | 4638.3 |  |
+| rmax | 最大相对湿度 | 4638.3 |  |
+| rmin | 最小相对湿度 | 4638.3 |  |
+| sph | 比湿 | 4638.3 |  |
+| srad | 地表向下短波辐射 | 4638.3 |  |
+| th | 风向 | 4638.3 |  |
+| tmmn | 最低温度 | 4638.3 |  |
+| tmmx | 最高温度 | 4638.3 |  |
+| vs | 10 米处风速 | 4638.3 |  |
+| erc | 能量释放分量 | 4638.3 |  |
+| eto | 逐日草地参考蒸散量 | 4638.3 |  |
+| bi | 燃烧指数 | 4638.3 |  |
+| fm100 | 100 小时死燃料湿度 | 4638.3 |  |
+| fm1000 | 1000 小时死燃料湿度 | 4638.3 |  |
+| etr | 逐日苜蓿参考蒸散量 | 4638.3 |  |
+| vpd | 平均水汽压差 | 4638.3 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 逐日气象驱动与陆面建模
+- 火灾危险等级评估
+- 农业与水文应用
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('IDAHO_EPSCOR/GRIDMET');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`IDAHO_EPSCOR/GRIDMET`
+- 提供方：University of California Merced、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_GRIDMET
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：climate, fireburning, gridmet, humidity, merced, metdata, nfdrs, precipitation, radiation, temperature, water-vapor, weather-and-climate, wind
 - 数据引用：Abatzoglou J. T., Development of gridded surface meteorological
 data for ecological applications and modelling, International Journal
 of Climatology. (2012) [doi:10.1002/joc.3413](https://doi.org/10.1002/joc.3413)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ERA5 月聚合数据 — ECMWF 气候再分析](/pages/87085b9b/)
+- [ERA5 逐日聚合数据](/pages/9ae9975a/)
+- [CHELSA气象数据](/pages/1849d6/)
+- [CHIRPS Precipitation Daily Near-Real-Time: Climate Hazards Center InfraRed Precipitation With Station Data (Version 3.0, IMERG-based)](/pages/09ea3f30/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

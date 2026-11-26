@@ -556,7 +556,7 @@
    "id": "03cf5a7a",
    "url": "/pages/03cf5a7a/",
    "en_url": "/en/pages/03cf5a7a/",
-   "title_zh": "",
+   "title_zh": "全球 PALSAR-2/PALSAR 年度镶嵌图（第 1 版）",
    "title_en": "Global PALSAR-2/PALSAR Yearly Mosaic, version 1",
    "cat": "satellite",
    "tags": [
@@ -573,15 +573,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2007 年至 2020 年（2011–2014 年因 ALOS 与 ALOS-2 衔接空缺无数据）；分辨率：25 米。",
    "time": "2007-01-01 至 2020-01-01",
    "provider": "JAXA EORC",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/PALSAR/YEARLY/SAR",
-   "intro_zh": "",
+   "intro_zh": "该数据集另有 2015–2021 年数据的新版本，见 JAXA/ALOS/PALSAR/YEARLY/SAREPOCH。",
    "intro_en": "A newer version of this dataset with data for 2015-2021 can be found in JAXA/ALOS/PALSAR/YEARLY/SAREPOCH",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "040259df",
@@ -1683,7 +1683,7 @@
    "id": "099c4e7b",
    "url": "/pages/099c4e7b/",
    "en_url": "/en/pages/099c4e7b/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级叶面积指数产品（V1）",
    "title_en": "GCOM-C/SGLI L3 Leaf Area Index (V1)",
    "cat": "vegetation",
    "tags": [
@@ -1698,17 +1698,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2018 年 1 月 1 日至 2020 年 6 月 28 日；分辨率：约 4,638 米。",
    "time": "2018-01-01 至 2020-06-28",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/LAND/LAI/V1",
-   "intro_zh": "",
+   "intro_zh": "本产品是单位地面面积上单侧绿叶面积之和。",
    "intro_en": "This product is the sum of the one-sided green leaf area per unit ground area.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "09ad841c",
@@ -2252,7 +2252,7 @@
    "id": "0e7e9bc9",
    "url": "/pages/0e7e9bc9/",
    "en_url": "/en/pages/0e7e9bc9/",
-   "title_zh": "",
+   "title_zh": "HYCOM：混合坐标海洋模型，海水温度与盐度（已弃用）",
    "title_en": "HYCOM: Hybrid Coordinate Ocean Model, Water Temperature and Salinity [deprecated]",
    "cat": "ocean",
    "tags": [
@@ -2267,17 +2267,17 @@
    ],
    "res_m": 8905.6,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "全球海洋（80.48°S–80.48°N）",
    "time": "1992-10-02 至 2018-12-09",
    "provider": "NOPP",
    "platform": "Google Earth Engine",
    "ee_id": "HYCOM/GLBu0_08/sea_temp_salinity",
-   "intro_zh": "",
+   "intro_zh": "混合坐标海洋模型（HYCOM）是一个数据同化的混合等密度-sigma-压力（广义）坐标海洋模型。EE 中托管的 HYCOM 数据子集包含盐度、温度、流速和高程变量。它们已被插值到 80.48°S 至 80.48°N 之间均匀的 0.08 度经纬度网格上。盐度、温度和流速变量已被插…",
    "intro_en": "The Hybrid Coordinate Ocean Model (HYCOM) is a data-assimilative hybrid isopycnal-sigma-pressure (generalized) coordinate ocean model. The subset of HYCOM data hosted in EE contains the variables sali…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "0e8ad4",
@@ -3079,7 +3079,7 @@
    "id": "13015f55",
    "url": "/pages/13015f55/",
    "en_url": "/en/pages/13015f55/",
-   "title_zh": "",
+   "title_zh": "全球 PALSAR-2/PALSAR 年度镶嵌图（第 2.5.0 版）",
    "title_en": "Global PALSAR-2/PALSAR Yearly Mosaic, version 2.5.0",
    "cat": "satellite",
    "tags": [
@@ -3096,15 +3096,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2015 年至 2024 年；分辨率：25 米。",
    "time": "2015-01-01 至 2024-01-01",
    "provider": "JAXA EORC",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/PALSAR/YEARLY/SAR_EPOCH",
-   "intro_zh": "",
+   "intro_zh": "全球 25 米 PALSAR/PALSAR-2 镶嵌图是由 PALSAR/PALSAR-2 的 SAR 影像条带镶嵌而成的无缝全球 SAR 影像。对每一年与每个地点，条带数据的选取通过目视检查该时段内的浏览镶嵌图完成，优先使用对地表湿度响应最小的数据。每个年度镶嵌图只使用目标年份…",
    "intro_en": "The global 25m PALSAR/PALSAR-2 mosaic is a seamless global SAR image created by mosaicking strips of SAR imagery from PALSAR/PALSAR-2. For each year and location, the strip data were selected through…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "13ce8975",
@@ -3278,7 +3278,7 @@
    "id": "14a8e5bc",
    "url": "/pages/14a8e5bc/",
    "en_url": "/en/pages/14a8e5bc/",
-   "title_zh": "",
+   "title_zh": "PDSI：爱达荷大学帕尔默干旱严重指数（已弃用）",
    "title_en": "PDSI: University of Idaho Palmer Drought Severity Index [deprecated]",
    "cat": "climate",
    "tags": [
@@ -3294,16 +3294,16 @@
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国本土",
+   "coverage": "美国本土",
    "time": "1979-03-01 至 2020-06-20",
    "provider": "University of California Merced",
    "platform": "Google Earth Engine",
    "ee_id": "IDAHO_EPSCOR/PDSI",
-   "intro_zh": "",
+   "intro_zh": "帕尔默干旱严重指数数据集提供自 1979 年至今美国本土这一广泛使用的综合供水与需水异常测度的高空间分辨率（约 4 公里）每月三次估计。PDSI 使用源自 Abatzoglou（2013）格网气象数据集的降水和潜在蒸散量计算。",
    "intro_en": "The Palmer Drought Severity Index dataset provides high spatial resolution (~4-km) thrice-monthly estimates of this widely used measure of integrated water supply and demand anomalies across the conti…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "14b202f7",
@@ -4473,7 +4473,7 @@
    "id": "1d885585",
    "url": "/pages/1d885585/",
    "en_url": "/en/pages/1d885585/",
-   "title_zh": "",
+   "title_zh": "IBGE：巴西中间地理区 2025",
    "title_en": "IBGE: Brazil Intermediate Geographic Regions 2025",
    "cat": "boundaries",
    "tags": [
@@ -4488,15 +4488,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
    "region_label": "巴西",
-   "coverage": "",
+   "coverage": "巴西",
    "time": "2025-01-01 至 2026-01-01",
    "provider": "IBGE",
    "platform": "Google Earth Engine",
    "ee_id": "IBGE/INTERMEDIARIAS/V2025",
-   "intro_zh": "",
+   "intro_zh": "巴西地理与统计研究所（Instituto Brasileiro de Geografia e Estatística，IBGE）提供巴西领土结构的官方制图表达。该数据集包含巴西 133 个中间地理区（Regiões Geográficas Intermediárias）2025…",
    "intro_en": "The Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE) provides official cartographic representations of the Brazilian territorial structure. This dataset contains the boundaries of the 133…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "1db2bd3a",
@@ -4615,7 +4615,7 @@
    "id": "1e6a6374",
    "url": "/pages/1e6a6374/",
    "en_url": "/en/pages/1e6a6374/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 可提取钙",
    "title_en": "iSDAsoil Extractable Calcium",
    "cat": "soil",
    "tags": [
@@ -4627,16 +4627,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/calcium_extractable",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的可提取钙，预测平均值和标准差。",
    "intro_en": "Extractable calcium at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "1eaf6b31",
@@ -5308,7 +5308,7 @@
    "id": "2442f2c8",
    "url": "/pages/2442f2c8/",
    "en_url": "/en/pages/2442f2c8/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil pH",
    "title_en": "iSDAsoil pH",
    "cat": "soil",
    "tags": [
@@ -5320,16 +5320,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/ph",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的pH，预测平均值和标准差。",
    "intro_en": "pH at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "24553550",
@@ -5456,7 +5456,7 @@
    "id": "251a85fa",
    "url": "/pages/251a85fa/",
    "en_url": "/en/pages/251a85fa/",
-   "title_zh": "",
+   "title_zh": "IBGE：巴西近邻地理区 2025",
    "title_en": "IBGE: Brazil Immediate Geographic Regions 2025",
    "cat": "boundaries",
    "tags": [
@@ -5471,21 +5471,21 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
    "region_label": "巴西",
-   "coverage": "",
+   "coverage": "巴西",
    "time": "2025-01-01 至 2026-01-01",
    "provider": "IBGE",
    "platform": "Google Earth Engine",
    "ee_id": "IBGE/IMEDIATAS/V2025",
-   "intro_zh": "",
+   "intro_zh": "巴西地理与统计研究所（Instituto Brasileiro de Geografia e Estatística，IBGE）提供巴西领土结构的官方制图表达。该数据集包含巴西 510 个近邻地理区（Regiões Geográficas Imediatas）2025 参考年（M…",
    "intro_en": "The Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE) provides official cartographic representations of the Brazilian territorial structure. This dataset contains the boundaries of the 510…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "254f7207",
    "url": "/pages/254f7207/",
    "en_url": "/en/pages/254f7207/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 肥力能力分类",
    "title_en": "iSDAsoil Fertility Capability Classification",
    "cat": "soil",
    "tags": [
@@ -5497,16 +5497,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/fcc",
-   "intro_zh": "",
+   "intro_zh": "使用坡度、化学和物理土壤属性推导的土壤肥力能力分类。有关该层的更多信息，请访问此页面。",
    "intro_en": "Soil fertility capability classification derived using slope, chemical, and physical soil properties. For more information about this layer, please visit this page.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "2579124b",
@@ -5969,7 +5969,7 @@
    "id": "28fcba16",
    "url": "/pages/28fcba16/",
    "en_url": "/en/pages/28fcba16/",
-   "title_zh": "",
+   "title_zh": "HYCOM：混合坐标海洋模型，海水流速",
    "title_en": "HYCOM: Hybrid Coordinate Ocean Model, Water Velocity",
    "cat": "ocean",
    "tags": [
@@ -5981,17 +5981,17 @@
    ],
    "res_m": 8905.6,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "全球海洋（80.48°S–80.48°N）",
    "time": "1992-10-02 至 2024-09-05",
    "provider": "NOPP",
    "platform": "Google Earth Engine",
    "ee_id": "HYCOM/sea_water_velocity",
-   "intro_zh": "",
+   "intro_zh": "混合坐标海洋模型（HYCOM）是一个数据同化的混合等密度-sigma-压力（广义）坐标海洋模型。EE 中托管的 HYCOM 数据子集包含盐度、温度、流速和高程变量。它们已被插值到 80.48°S 至 80.48°N 之间均匀的 0.08 度经纬度网格上。盐度、温度和流速变量已被插…",
    "intro_en": "The Hybrid Coordinate Ocean Model (HYCOM) is a data-assimilative hybrid isopycnal-sigma-pressure (generalized) coordinate ocean model. The subset of HYCOM data hosted in EE contains the variables sali…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "2910108a",
@@ -7338,7 +7338,7 @@
    "id": "318eee27",
    "url": "/pages/318eee27/",
    "en_url": "/en/pages/318eee27/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级地表温度产品（V3）",
    "title_en": "GCOM-C/SGLI L3 Land Surface Temperature (V3)",
    "cat": "climate",
    "tags": [
@@ -7353,17 +7353,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2021 年 11 月 29 日起持续更新；分辨率：约 4,638 米。",
    "time": "2021-11-29 至 2026-10-14",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/LAND/LST/V3",
-   "intro_zh": "",
+   "intro_zh": "本产品是陆地地表的温度。",
    "intro_en": "This product is the temperature of terrestrial land surface.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "31a524",
@@ -8346,7 +8346,7 @@
    "id": "36cc0dac",
    "url": "/pages/36cc0dac/",
    "en_url": "/en/pages/36cc0dac/",
-   "title_zh": "",
+   "title_zh": "RGE ALTI：IGN 法国数字高程 1 米",
    "title_en": "RGE ALTI: IGN RGE ALTI Digital Elevation 1m",
    "cat": "dem",
    "tags": [
@@ -8358,16 +8358,16 @@
    "res_m": 1.0,
    "res_bucket": "10 米及以内",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "法国本土",
+   "coverage": "法国本土",
    "time": "2009-01-01 至 2021-01-01",
    "provider": "IGN",
    "platform": "Google Earth Engine",
    "ee_id": "IGN/RGE_ALTI/1M/2_0",
-   "intro_zh": "",
+   "intro_zh": "RGE ALTI 数据集描述法国的数字高程模型（DEM），像元大小为 1 米。它由机载激光雷达测量或航空影像相关（correlation）创建。",
    "intro_en": "The RGE ALTI dataset describes the digital elevation model (DEM) of France with the pixel size of 1m. It was created from surveys obtained by airborne lidar or by correlation of aerial images.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "36d993d6",
@@ -8764,7 +8764,7 @@
    "id": "398ed96e",
    "url": "/pages/398ed96e/",
    "en_url": "/en/pages/398ed96e/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 可提取硫",
    "title_en": "iSDAsoil Extractable Sulfur",
    "cat": "soil",
    "tags": [
@@ -8776,16 +8776,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/sulphur_extractable",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的可提取硫，预测平均值和标准差。",
    "intro_en": "Extractable sulfur at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "39a188bd",
@@ -9153,7 +9153,7 @@
    "id": "3ce17ee2",
    "url": "/pages/3ce17ee2/",
    "en_url": "/en/pages/3ce17ee2/",
-   "title_zh": "",
+   "title_zh": "HYCOM：混合坐标海洋模型，海面高程（已弃用）",
    "title_en": "HYCOM: Hybrid Coordinate Ocean Model, Sea Surface Elevation [deprecated]",
    "cat": "ocean",
    "tags": [
@@ -9167,17 +9167,17 @@
    ],
    "res_m": 8905.6,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "全球海洋（80.48°S–80.48°N）",
    "time": "1992-10-02 至 2018-12-09",
    "provider": "NOPP",
    "platform": "Google Earth Engine",
    "ee_id": "HYCOM/GLBu0_08/sea_surface_elevation",
-   "intro_zh": "",
+   "intro_zh": "混合坐标海洋模型（HYCOM）是一个数据同化的混合等密度-sigma-压力（广义）坐标海洋模型。EE 中托管的 HYCOM 数据子集包含盐度、温度、流速和高程变量。它们已被插值到 80.48°S 至 80.48°N 之间均匀的 0.08 度经纬度网格上。盐度、温度和流速变量已被插…",
    "intro_en": "The Hybrid Coordinate Ocean Model (HYCOM) is a data-assimilative hybrid isopycnal-sigma-pressure (generalized) coordinate ocean model. The subset of HYCOM data hosted in EE contains the variables sali…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "3d15e06b",
@@ -9651,7 +9651,7 @@
    "id": "3fb6432f",
    "url": "/pages/3fb6432f/",
    "en_url": "/en/pages/3fb6432f/",
-   "title_zh": "",
+   "title_zh": "欧盟 JRC 2020 年全球森林类型图 V1",
    "title_en": "EC JRC global map of forest types 2020, V1",
    "cat": "landcover",
    "tags": [
@@ -9666,15 +9666,15 @@
    "res_bucket": "10 米及以内",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间：2020 年；分辨率：10 米。",
    "time": "2020-01-01 至 2020-12-31",
    "provider": "Joint Research Centre, European Commission",
    "platform": "Google Earth Engine",
    "ee_id": "JRC/GFC2020_subtypes/V1",
-   "intro_zh": "",
+   "intro_zh": "全球森林类型图以 10 米空间分辨率，空间明确地表示了 2020 年的原始林、天然更新林与人工林（包括人工种植林）。绘制这些森林类型的基线图层是 2020 年全球森林覆盖图（JRC GFC 2020）第 3 版的森林覆盖范围。森林类型的定义遵循欧盟\"关于在欧盟市场供应以及从欧盟出…",
    "intro_en": "The global map of forest types provides a spatially explicit representation of primary forest, naturally regenerating forest and planted forest (including plantation forest) for the year 2020 at 10m s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "3fdfa56d",
@@ -10113,7 +10113,7 @@
    "id": "42dbfeb4",
    "url": "/pages/42dbfeb4/",
    "en_url": "/en/pages/42dbfeb4/",
-   "title_zh": "",
+   "title_zh": "开放建筑物 V2 多边形（已弃用）",
    "title_en": "Open Buildings V2 Polygons [deprecated]",
    "cat": "urban",
    "tags": [
@@ -10129,16 +10129,16 @@
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲、南亚和东南亚",
+   "coverage": "非洲、南亚和东南亚",
    "time": "2022-08-30 至 2022-08-30",
    "provider": "Google Research - Open Buildings",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/Research/open-buildings/v2/polygons",
-   "intro_zh": "",
+   "intro_zh": "这个大规模开放数据集由源自高分辨率 50 厘米卫星影像的建筑物轮廓组成。它包含 8.16 亿次建筑物检测，覆盖非洲、南亚和东南亚。推理跨越的面积为 3910 万平方公里。",
    "intro_en": "This large-scale open dataset consists of outlines of buildings derived from high-resolution 50 cm satellite imagery. It contains 816M building detections in Africa, South Asia and Southeast Asia. The…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "434906ce",
@@ -10201,7 +10201,7 @@
    "id": "43c016e5",
    "url": "/pages/43c016e5/",
    "en_url": "/en/pages/43c016e5/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 可提取铁",
    "title_en": "iSDAsoil Extractable Iron",
    "cat": "soil",
    "tags": [
@@ -10213,16 +10213,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/iron_extractable",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的可提取铁，预测平均值和标准差。",
    "intro_en": "Extractable iron at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "443eace0",
@@ -10773,7 +10773,7 @@
    "id": "49f8cd66",
    "url": "/pages/49f8cd66/",
    "en_url": "/en/pages/49f8cd66/",
-   "title_zh": "",
+   "title_zh": "GSMaP 再分析版：全球卫星降水制图",
    "title_en": "GSMaP Reanalysis: Global Satellite Mapping of Precipitation",
    "cat": "climate",
    "tags": [
@@ -10789,21 +10789,21 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年 3 月 1 日至 2014 年 3 月 12 日；分辨率：约 11,132 米（0.1°×0.1°）。",
    "time": "2000-03-01 至 2014-03-12",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GPM_L3/GSMaP/v6/reanalysis",
-   "intro_zh": "",
+   "intro_zh": "全球卫星降水制图（GSMaP）提供 0.1×0.1 度分辨率的全球逐小时降水率。GSMaP 是全球降水测量（GPM）任务的产品，该任务每三小时提供一次全球降水观测。数值使用 GPM 核心观测卫星的多波段被动微波与红外辐射计估算，并有一组其他卫星协助。GPM 的降水率反演算法基于辐…",
    "intro_en": "Global Satellite Mapping of Precipitation (GSMaP) provides a global hourly rain rate with a 0.1 x 0.1 degree resolution. GSMaP is a product of the Global Precipitation Measurement (GPM) mission, which…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "4a20302d",
    "url": "/pages/4a20302d/",
    "en_url": "/en/pages/4a20302d/",
-   "title_zh": "",
+   "title_zh": "Google 街景空气质量：加利福尼亚州高分辨率空气污染制图",
    "title_en": "Google Street View Air Quality: High Resolution Air Pollution Mapping in California",
    "cat": "atmosphere",
    "tags": [
@@ -10816,22 +10816,22 @@
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国加利福尼亚州",
+   "coverage": "美国加利福尼亚州",
    "time": "2015-05-28 至 2019-06-07",
    "provider": "Google / Aclima",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/AirView/California_Unified_2015_2019",
-   "intro_zh": "",
+   "intro_zh": "这个大型矢量数据集包含 2015 年 6 月至 2019 年 6 月加利福尼亚州 NO、NO2、O3、CH4、CO2、BC、PN2.5 和 UFP 浓度的高分辨率空气污染制图。",
    "intro_en": "This large vector dataset contains high resolution air pollution mapping of NO, NO2, O3, CH4, CO2, BC, PN2.5, and UFP concentrations in California between June 2015 and June 2019.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "4a61128e",
    "url": "/pages/4a61128e/",
    "en_url": "/en/pages/4a61128e/",
-   "title_zh": "",
+   "title_zh": "Cloud Score+ S2_HARMONIZED V1",
    "title_en": "Cloud Score+ S2_HARMONIZED V1",
    "cat": "satellite",
    "tags": [
@@ -10842,17 +10842,17 @@
    ],
    "res_m": 10.0,
    "res_bucket": "10 米及以内",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "全球",
    "time": "2015-06-27 至 2026-11-02",
    "provider": "Google Earth Engine",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED",
-   "intro_zh": "",
+   "intro_zh": "Cloud Score+ 是用于中高分辨率光学卫星影像的质量评估（QA）处理器。Cloud Score+ S2HARMONIZED 数据集由协调化 Sentinel-2 L1C 集合业务化生产，Cloud Score+ 的输出可用于识别相对晴空的像元，并有效地从 L1C（大气层顶…",
    "intro_en": "Cloud Score+ is a quality assessment (QA) processor for medium-to-high resolution optical satellite imagery. The Cloud Score+ S2HARMONIZED dataset is being operationally produced from the harmonized S…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "4a88073a",
@@ -11325,7 +11325,7 @@
    "id": "4e1fdf4b",
    "url": "/pages/4e1fdf4b/",
    "en_url": "/en/pages/4e1fdf4b/",
-   "title_zh": "",
+   "title_zh": "ALOS 全球 30 米 DSM v2.1（已弃用）",
    "title_en": "ALOS DSM: Global 30m v2.1 [deprecated]",
    "cat": "dem",
    "tags": [
@@ -11341,15 +11341,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2006 年 1 月 24 日至 2011 年 5 月 12 日（源数据期）；分辨率：30 米。",
    "time": "2006-01-24 至 2011-05-12",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/AW3D30/V2_1",
-   "intro_zh": "",
+   "intro_zh": "ALOS World 3D - 30m（AW3D30）是全球数字地表模型（DSM）数据集，水平分辨率约 30 米（1 弧秒格网）。该数据集基于 World 3D Topographic Data 的 DSM 数据集（5 米格网版本）。更多细节见数据集文档。",
    "intro_en": "ALOS World 3D - 30m (AW3D30) is a global digital surface model (DSM) dataset with a horizontal resolution of approximately 30 meters (1 arcsec mesh). The dataset is based on the DSM dataset (5-meter m…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "4e2cdb33",
@@ -12252,7 +12252,7 @@
    "id": "549bcd74",
    "url": "/pages/549bcd74/",
    "en_url": "/en/pages/549bcd74/",
-   "title_zh": "",
+   "title_zh": "HYCOM：混合坐标海洋模型，海面高程",
    "title_en": "HYCOM: Hybrid Coordinate Ocean Model, Sea Surface Elevation",
    "cat": "ocean",
    "tags": [
@@ -12265,17 +12265,17 @@
    ],
    "res_m": 8905.6,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "全球海洋（80.48°S–80.48°N）",
    "time": "1992-10-02 至 2024-09-05",
    "provider": "NOPP",
    "platform": "Google Earth Engine",
    "ee_id": "HYCOM/sea_surface_elevation",
-   "intro_zh": "",
+   "intro_zh": "混合坐标海洋模型（HYCOM）是一个数据同化的混合等密度-sigma-压力（广义）坐标海洋模型。EE 中托管的 HYCOM 数据子集包含盐度、温度、流速和高程变量。它们已被插值到 80.48°S 至 80.48°N 之间均匀的 0.08 度经纬度网格上。盐度、温度和流速变量已被插…",
    "intro_en": "The Hybrid Coordinate Ocean Model (HYCOM) is a data-assimilative hybrid isopycnal-sigma-pressure (generalized) coordinate ocean model. The subset of HYCOM data hosted in EE contains the variables sali…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "552bde5d",
@@ -12401,7 +12401,7 @@
    "id": "565d06a2",
    "url": "/pages/565d06a2/",
    "en_url": "/en/pages/565d06a2/",
-   "title_zh": "",
+   "title_zh": "Google 全球 Landsat CCDC 分段（1999–2019）",
    "title_en": "Google Global Landsat-based CCDC Segments (1999-2019)",
    "cat": "landcover",
    "tags": [
@@ -12416,15 +12416,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球陆地",
    "time": "1999-01-01 至 2020-01-01",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/GLOBAL_CCDC/V1",
-   "intro_zh": "",
+   "intro_zh": "该集合包含在 20 年 Landsat 地表反射率数据上运行连续变化检测与分类（CCDC）算法得到的预计算结果。CCDC 是一种断点查找算法，使用带动态 RMSE 阈值的谐波拟合来探测时间序列数据中的断点。",
    "intro_en": "This collection contains precomputed results from running the Continuous Change Detection and Classification (CCDC) algorithm on 20 years of Landsat surface reflectance data. CCDC is a break-point fin…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "567adab6",
@@ -14275,7 +14275,7 @@
    "id": "61d677e1",
    "url": "/pages/61d677e1/",
    "en_url": "/en/pages/61d677e1/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级叶面积指数产品（V3）",
    "title_en": "GCOM-C/SGLI L3 Leaf Area Index (V3)",
    "cat": "vegetation",
    "tags": [
@@ -14290,17 +14290,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2021 年 11 月 29 日起持续更新；分辨率：约 4,638 米。",
    "time": "2021-11-29 至 2026-10-14",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/LAND/LAI/V3",
-   "intro_zh": "",
+   "intro_zh": "本产品是单位地面面积上单侧绿叶面积之和。",
    "intro_en": "This product is the sum of the one-sided green leaf area per unit ground area.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "6222b0dd",
@@ -14457,7 +14457,7 @@
    "id": "636ee51c",
    "url": "/pages/636ee51c/",
    "en_url": "/en/pages/636ee51c/",
-   "title_zh": "",
+   "title_zh": "PALSAR-2 ScanSAR 2.2 级产品",
    "title_en": "PALSAR-2 ScanSAR Level 2.2",
    "cat": "satellite",
    "tags": [
@@ -14471,17 +14471,17 @@
    ],
    "res_m": 25.0,
    "res_bucket": "10–30 米",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2014 年 8 月 4 日至 2026 年 10 月 16 日；分辨率：25 米。",
    "time": "2014-08-04 至 2026-10-16",
    "provider": "JAXA EORC",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/PALSAR-2/Level2_2/ScanSAR",
-   "intro_zh": "",
+   "intro_zh": "25 米 PALSAR-2 ScanSAR 是 PALSAR-2 宽幅观测模式（观测宽度 350 km）的归一化后向散射数据。SAR 影像使用 ALOS World 3D - 30m（AW3D30）数字地表模型进行了正射校正与坡度校正。极化数据以 16 位数字量（DN）存储。DN…",
    "intro_en": "The 25 m PALSAR-2 ScanSAR is normalized backscatter data of PALSAR-2 broad area observation mode with observation width of 350 km. The SAR imagery was ortho-rectificatied and slope corrected using the…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "6396836c",
@@ -14852,7 +14852,7 @@
    "id": "6610d57d",
    "url": "/pages/6610d57d/",
    "en_url": "/en/pages/6610d57d/",
-   "title_zh": "",
+   "title_zh": "ALOS 全球 30 米 DSM v3.2（已弃用）",
    "title_en": "ALOS DSM: Global 30m  v3.2 [deprecated]",
    "cat": "dem",
    "tags": [
@@ -14868,21 +14868,21 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2006 年 1 月 24 日至 2011 年 5 月 12 日（源数据期）；分辨率：30 米。",
    "time": "2006-01-24 至 2011-05-12",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/AW3D30/V3_2",
-   "intro_zh": "",
+   "intro_zh": "ALOS World 3D - 30m（AW3D30）是全球数字地表模型（DSM）数据集，水平分辨率约 30 米（1 弧秒格网）。该数据集基于 World 3D Topographic Data 的 DSM 数据集（5 米格网版本）。更多细节见数据集文档。",
    "intro_en": "ALOS World 3D - 30m (AW3D30) is a global digital surface model (DSM) dataset with a horizontal resolution of approximately 30 meters (1 arcsec mesh). The dataset is based on the DSM dataset (5-meter m…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "662f5c13",
    "url": "/pages/662f5c13/",
    "en_url": "/en/pages/662f5c13/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil USDA 质地类别",
    "title_en": "iSDAsoil USDA Texture Class",
    "cat": "soil",
    "tags": [
@@ -14894,16 +14894,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/texture_class",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的 USDA 质地类别。在茂密丛林地区（一般在非洲中部），模型精度较低，因此可能看到条带（striping）等伪影。",
    "intro_en": "USDA Texture Class at soil depths of 0-20 cm and 20-50 cm. In areas of dense jungle (generally over central Africa), model accuracy is low and therefore artifacts such as banding (striping) might be s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "664c80e9",
@@ -14940,7 +14940,7 @@
    "id": "66501b6e",
    "url": "/pages/66501b6e/",
    "en_url": "/en/pages/66501b6e/",
-   "title_zh": "",
+   "title_zh": "欧洲原始森林数据集——多边形",
    "title_en": "European Primary Forest Dataset - Polygons",
    "cat": "vegetation",
    "tags": [
@@ -14953,15 +14953,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
    "region_label": "欧洲",
-   "coverage": "",
+   "coverage": "欧洲（33 个国家）",
    "time": "2000-01-01 至 2019-12-31",
    "provider": "Geography Department, Humboldt University of Berlin, Berlin, Germany",
    "platform": "Google Earth Engine",
    "ee_id": "HU_BERLIN/EPFD/V2/polygons",
-   "intro_zh": "",
+   "intro_zh": "欧洲原始森林数据整合了 48 个不同的、以实地调查为主的原始森林数据集，包含分布在 33 个国家的 18,411 个单独斑块（4110 万公顷）。它主要包括原始老林、晚期演替森林，但也包括一些早期演替阶段和在自然干扰与自然更新后起源、且随后未经管理的幼林。",
    "intro_en": "European primary forest data harmonizes 48 different, mostly field-based datasets of primary forests, and contains 18,411 individual patches (41.1 Mha) spread across 33 countries. It includes includes…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "67001827",
@@ -15026,7 +15026,7 @@
    "id": "676005c8",
    "url": "/pages/676005c8/",
    "en_url": "/en/pages/676005c8/",
-   "title_zh": "",
+   "title_zh": "巴西森林影像数据集 2008：可视底图",
    "title_en": "Brazil Forest Imagery Dataset 2008: Visual Basemap",
    "cat": "vegetation",
    "tags": [
@@ -15042,15 +15042,15 @@
    "res_bucket": "10 米及以内",
    "region": "其他",
    "region_label": "巴西",
-   "coverage": "",
+   "coverage": "巴西",
    "time": "2007-01-01 至 2009-11-26",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/BRAZIL_FOREST_2008/V1/VISUAL",
-   "intro_zh": "",
+   "intro_zh": "该数据集提供巴西的可视影像底图，分辨率最高 5 米，主要摄于 2008 年，以支持巴西森林法的实施。该镶嵌图由 SPOT 2、4 和 5 卫星数据合成。它是 Landsat 的高分辨率替代品，用于识别 2008 年 7 月 22 日监管截止日期时存在的固化区域、永久保护区（APP…",
    "intro_en": "This dataset provides a visual imagery basemap of Brazil with up to 5-meter resolution, primarily captured in 2008, to support implementation of the Brazil Forest Code. The mosaic is synthesized from…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "676a6522",
@@ -15671,7 +15671,7 @@
    "id": "6cdb51e3",
    "url": "/pages/6cdb51e3/",
    "en_url": "/en/pages/6cdb51e3/",
-   "title_zh": "",
+   "title_zh": "HYCOM：混合坐标海洋模型，海水温度与盐度",
    "title_en": "HYCOM: Hybrid Coordinate Ocean Model, Water Temperature and Salinity",
    "cat": "ocean",
    "tags": [
@@ -15685,17 +15685,17 @@
    ],
    "res_m": 8905.6,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "全球海洋（80.48°S–80.48°N）",
    "time": "1992-10-02 至 2024-09-05",
    "provider": "NOPP",
    "platform": "Google Earth Engine",
    "ee_id": "HYCOM/sea_temp_salinity",
-   "intro_zh": "",
+   "intro_zh": "混合坐标海洋模型（HYCOM）是一个数据同化的混合等密度-sigma-压力（广义）坐标海洋模型。EE 中托管的 HYCOM 数据子集包含盐度、温度、流速和高程变量。它们已被插值到 80.48°S 至 80.48°N 之间均匀的 0.08 度经纬度网格上。盐度、温度和流速变量已被插…",
    "intro_en": "The Hybrid Coordinate Ocean Model (HYCOM) is a data-assimilative hybrid isopycnal-sigma-pressure (generalized) coordinate ocean model. The subset of HYCOM data hosted in EE contains the variables sali…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "6d18f9ec",
@@ -16905,7 +16905,7 @@
    "id": "774620fb",
    "url": "/pages/774620fb/",
    "en_url": "/en/pages/774620fb/",
-   "title_zh": "",
+   "title_zh": "ALOS 全球 30 米 DSM v4.1",
    "title_en": "ALOS DSM: Global 30m  v4.1",
    "cat": "dem",
    "tags": [
@@ -16921,15 +16921,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2006 年 1 月 24 日至 2011 年 5 月 12 日（源数据期）；分辨率：30 米。",
    "time": "2006-01-24 至 2011-05-12",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/AW3D30/V4_1",
-   "intro_zh": "",
+   "intro_zh": "ALOS World 3D - 30m（AW3D30）是全球数字地表模型（DSM）数据集，水平分辨率约 30 米（1 弧秒格网）。该数据集基于 World 3D Topographic Data 的 DSM 数据集（5 米格网版本）。更多细节见数据集文档。",
    "intro_en": "ALOS World 3D - 30m (AW3D30) is a global digital surface model (DSM) dataset with a horizontal resolution of approximately 30 meters (1 arcsec mesh). The dataset is based on the DSM dataset (5-meter m…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "778e3960",
@@ -17100,7 +17100,7 @@
    "id": "785fc747",
    "url": "/pages/785fc747/",
    "en_url": "/en/pages/785fc747/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 可提取锌",
    "title_en": "iSDAsoil Extractable Zinc",
    "cat": "soil",
    "tags": [
@@ -17112,16 +17112,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/zinc_extractable",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的可提取锌，预测平均值和标准差。",
    "intro_en": "Extractable zinc at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "7862b5d6",
@@ -17649,7 +17649,7 @@
    "id": "7b1374af",
    "url": "/pages/7b1374af/",
    "en_url": "/en/pages/7b1374af/",
-   "title_zh": "",
+   "title_zh": "GLIMS 2023：全球陆地冰空间测量",
    "title_en": "GLIMS 2023: Global Land Ice Measurements From Space",
    "cat": "cryosphere",
    "tags": [
@@ -17666,15 +17666,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球冰川区",
    "time": "1750-01-01 至 2023-06-07",
    "provider": "National Snow and Ice Data Center (NSDIC)",
    "platform": "Google Earth Engine",
    "ee_id": "GLIMS/20230607",
-   "intro_zh": "",
+   "intro_zh": "全球陆地冰空间测量（GLIMS）是一项国际倡议，目标是反复测量世界上估计约 200,000 条冰川。",
    "intro_en": "Global Land Ice Measurements from Space (GLIMS) is an international initiative with the goal of repeatedly surveying the world's estimated 200,000 glaciers.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "7b6d050e",
@@ -17772,7 +17772,7 @@
    "id": "7bfbde76",
    "url": "/pages/7bfbde76/",
    "en_url": "/en/pages/7bfbde76/",
-   "title_zh": "",
+   "title_zh": "MACAv2-METDATA：爱达荷大学，应用于全球气候模型的多变量自适应构造类比",
    "title_en": "MACAv2-METDATA: University of Idaho, Multivariate Adaptive Constructed Analogs Applied to Global Climate Models",
    "cat": "climate",
    "tags": [
@@ -17788,15 +17788,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "美国本土",
    "time": "1900-01-01 至 2100-12-31",
    "provider": "University of California Merced",
    "platform": "Google Earth Engine",
    "ee_id": "IDAHO_EPSCOR/MACAv2_METDATA",
-   "intro_zh": "",
+   "intro_zh": "MACAv2-METDATA 数据集是覆盖美国本土的 20 个全球气候模型的集合。多变量自适应构造类比（MACA）方法是一种统计降尺度方法，它利用训练数据集（即气象观测数据集）来消除历史偏差并匹配气候模型输出的空间模式。",
    "intro_en": "The MACAv2-METDATA dataset is a collection of 20 global climate models covering the conterminous USA. The Multivariate Adaptive Constructed Analogs (MACA) method is a statistical downscaling method wh…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "7c0d9cbb",
@@ -17833,7 +17833,7 @@
    "id": "7c10716b",
    "url": "/pages/7c10716b/",
    "en_url": "/en/pages/7c10716b/",
-   "title_zh": "",
+   "title_zh": "IBGE：巴西国家边界 2025",
    "title_en": "IBGE: Brazil Country Boundary 2025",
    "cat": "boundaries",
    "tags": [
@@ -17849,15 +17849,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
    "region_label": "巴西",
-   "coverage": "",
+   "coverage": "巴西",
    "time": "2025-01-01 至 2026-01-01",
    "provider": "IBGE",
    "platform": "Google Earth Engine",
    "ee_id": "IBGE/PAIS/V2025",
-   "intro_zh": "",
+   "intro_zh": "巴西地理与统计研究所（Instituto Brasileiro de Geografia e Estatística，IBGE）提供巴西领土结构的官方制图表达。该数据集表示巴西联邦共和国 2025 参考年（Malha Territorial 2025）的官方国家边界。",
    "intro_en": "The Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE) provides official cartographic representations of the Brazilian territorial structure. This dataset represents the official national c…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "7c2b1325",
@@ -18270,7 +18270,7 @@
    "id": "7e5997d1",
    "url": "/pages/7e5997d1/",
    "en_url": "/en/pages/7e5997d1/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 可提取钾",
    "title_en": "iSDAsoil Extractable Potassium",
    "cat": "soil",
    "tags": [
@@ -18282,22 +18282,22 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/potassium_extractable",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的可提取钾，预测平均值和标准差。",
    "intro_en": "Extractable potassium at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "7e6d6232",
    "url": "/pages/7e6d6232/",
    "en_url": "/en/pages/7e6d6232/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级叶绿素 a 浓度产品（V3）",
    "title_en": "GCOM-C/SGLI L3 Chlorophyll-a Concentration (V3)",
    "cat": "ocean",
    "tags": [
@@ -18312,17 +18312,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：2021 年 11 月 29 日起持续更新；分辨率：约 4,638 米。",
    "time": "2021-11-29 至 2026-10-14",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/OCEAN/CHLA/V3",
-   "intro_zh": "",
+   "intro_zh": "本产品是海表层浮游植物中光合色素（叶绿素 a）的浓度。",
    "intro_en": "This product is the concentration of the photosynthetic pigment (chlorophyll-a) in phytoplankton in the sea surface layer.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "7e86fdfa",
@@ -18801,7 +18801,7 @@
    "id": "824ff3bb",
    "url": "/pages/824ff3bb/",
    "en_url": "/en/pages/824ff3bb/",
-   "title_zh": "",
+   "title_zh": "GRIDMET：爱达荷大学格网地表气象数据集",
    "title_en": "GRIDMET: University of Idaho Gridded Surface Meteorological Dataset",
    "cat": "climate",
    "tags": [
@@ -18817,22 +18817,22 @@
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "美国本土",
+   "coverage": "美国本土",
    "time": "1979-01-01 至 2026-10-26",
    "provider": "University of California Merced",
    "platform": "Google Earth Engine",
    "ee_id": "IDAHO_EPSCOR/GRIDMET",
-   "intro_zh": "",
+   "intro_zh": "格网地表气象数据集提供自 1979 年以来美国本土高空间分辨率（约 4 公里）的逐日地表温度、降水、风、湿度和辐射场。该数据集融合了 PRISM 的高分辨率空间数据与国家陆地数据同化系统（NLDAS）的高时间分辨率数据，产生空间和时间上连续的场，便于进一步的陆面建模。",
    "intro_en": "The Gridded Surface Meteorological dataset provides high spatial resolution (~4-km) daily surface fields of temperature, precipitation, winds, humidity and radiation across the contiguous United State…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "825386c3",
    "url": "/pages/825386c3/",
    "en_url": "/en/pages/825386c3/",
-   "title_zh": "",
+   "title_zh": "全球三类 PALSAR-2/PALSAR 森林/非森林图",
    "title_en": "Global 3-class PALSAR-2/PALSAR Forest/Non-Forest Map",
    "cat": "landcover",
    "tags": [
@@ -18849,15 +18849,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2007 年至 2018 年；分辨率：25 米。",
    "time": "2007-01-01 至 2018-01-01",
    "provider": "JAXA EORC",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/PALSAR/YEARLY/FNF",
-   "intro_zh": "",
+   "intro_zh": "该数据集另有 2017–2020 年的四类新版本，见 JAXA/ALOS/PALSAR/YEARLY/FNF4。",
    "intro_en": "A newer version of this dataset with 4 classes for 2017-2020 can be found in JAXA/ALOS/PALSAR/YEARLY/FNF4",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "8265cbe1",
@@ -19063,7 +19063,7 @@
    "id": "82f2ef6d",
    "url": "/pages/82f2ef6d/",
    "en_url": "/en/pages/82f2ef6d/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 有机碳",
    "title_en": "iSDAsoil Organic Carbon",
    "cat": "soil",
    "tags": [
@@ -19076,16 +19076,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/carbon_organic",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的有机碳，预测平均值和标准差。",
    "intro_en": "Organic carbon at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "8307084a",
@@ -19122,7 +19122,7 @@
    "id": "8312ef42",
    "url": "/pages/8312ef42/",
    "en_url": "/en/pages/8312ef42/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 总氮",
    "title_en": "iSDAsoil Total Nitrogen",
    "cat": "soil",
    "tags": [
@@ -19134,22 +19134,22 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/nitrogen_total",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的总氮，预测平均值和标准差。",
    "intro_en": "Total nitrogen at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "834e6e14",
    "url": "/pages/834e6e14/",
    "en_url": "/en/pages/834e6e14/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级叶绿素 a 浓度产品（V2）",
    "title_en": "GCOM-C/SGLI L3 Chlorophyll-a Concentration (V2)",
    "cat": "ocean",
    "tags": [
@@ -19164,17 +19164,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：2018 年 1 月 1 日至 2021 年 11 月 28 日；分辨率：约 4,638 米。",
    "time": "2018-01-01 至 2021-11-28",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/OCEAN/CHLA/V2",
-   "intro_zh": "",
+   "intro_zh": "本产品是海表层浮游植物中光合色素（叶绿素 a）的浓度。",
    "intro_en": "This product is the concentration of the photosynthetic pigment (chlorophyll-a) in phytoplankton in the sea surface layer.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "835f6143",
@@ -19237,7 +19237,7 @@
    "id": "842ffbd4",
    "url": "/pages/842ffbd4/",
    "en_url": "/en/pages/842ffbd4/",
-   "title_zh": "",
+   "title_zh": "IBGE：巴西市镇边界 2025",
    "title_en": "IBGE: Brazil Municipality Boundaries 2025",
    "cat": "boundaries",
    "tags": [
@@ -19252,15 +19252,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
    "region_label": "巴西",
-   "coverage": "",
+   "coverage": "巴西",
    "time": "2025-01-01 至 2026-01-01",
    "provider": "IBGE",
    "platform": "Google Earth Engine",
    "ee_id": "IBGE/MUNICIPIOS/V2025",
-   "intro_zh": "",
+   "intro_zh": "巴西地理与统计研究所（Instituto Brasileiro de Geografia e Estatística，IBGE）提供巴西领土结构的官方制图表达。该数据集包含 5,573 个空间单元，代表 2025 参考年（Malha Territorial 2025）巴西的市镇网…",
    "intro_en": "The Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE) provides official cartographic representations of the Brazilian territorial structure. This dataset contains 5,573 spatial units repre…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "8433d874",
@@ -19346,7 +19346,7 @@
    "id": "8561707f",
    "url": "/pages/8561707f/",
    "en_url": "/en/pages/8561707f/",
-   "title_zh": "",
+   "title_zh": "ALOS 全球 30 米 DSM v1.1（已弃用）",
    "title_en": "ALOS DSM: Global 30m v1.1 [deprecated]",
    "cat": "dem",
    "tags": [
@@ -19362,15 +19362,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2006 年 1 月 24 日至 2011 年 5 月 12 日（源数据期）；分辨率：30 米。",
    "time": "2006-01-24 至 2011-05-12",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/AW3D30/V1_1",
-   "intro_zh": "",
+   "intro_zh": "ALOS World 3D - 30m（AW3D30）是全球数字地表模型（DSM）数据集，水平分辨率约 30 米（1 弧秒格网）。该数据集基于 World 3D Topographic Data 的 DSM 数据集（5 米格网版本）。更多细节见数据集文档。",
    "intro_en": "ALOS World 3D - 30m (AW3D30) is a global digital surface model (DSM) dataset with a horizontal resolution of approximately 30 meters (1 arcsec mesh). The dataset is based on the DSM dataset (5-meter m…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "85afcbe3",
@@ -20219,7 +20219,7 @@
    "id": "8b874d85",
    "url": "/pages/8b874d85/",
    "en_url": "/en/pages/8b874d85/",
-   "title_zh": "",
+   "title_zh": "欧盟 JRC 2020 年全球森林覆盖图 V3（已弃用）",
    "title_en": "EC JRC global map of forest cover 2020, V3 [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -20232,15 +20232,15 @@
    "res_bucket": "10 米及以内",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间：2020 年；分辨率：10 米。",
    "time": "2020-12-31 至 2020-12-31",
    "provider": "Joint Research Centre, European Commission",
    "platform": "Google Earth Engine",
    "ee_id": "JRC/GFC2020/V3",
-   "intro_zh": "",
+   "intro_zh": "全球森林覆盖图以 10 米空间分辨率，空间明确地表示了 2020 年森林的有无。",
    "intro_en": "The global map of forest cover provides a spatially explicit representation of forest presence and absence for the year 2020 at 10m spatial resolution.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "8bd45090",
@@ -20546,7 +20546,7 @@
    "id": "8dfd16a2",
    "url": "/pages/8dfd16a2/",
    "en_url": "/en/pages/8dfd16a2/",
-   "title_zh": "",
+   "title_zh": "Murray 全球潮汐湿地变化 v1.0（1999–2019）",
    "title_en": "Murray Global Tidal Wetland Change v1.0 (1999-2019)",
    "cat": "ocean",
    "tags": [
@@ -20563,15 +20563,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球海岸带；时间范围：1999 年至 2019 年；分辨率：30 米。",
    "time": "1999-01-01 至 2019-12-31",
    "provider": "Murray/JCU",
    "platform": "Google Earth Engine",
    "ee_id": "JCU/Murray/GIC/global_tidal_wetland_change/2019",
-   "intro_zh": "",
+   "intro_zh": "Murray 全球潮汐湿地变化数据集包含全球潮汐湿地范围及其变化的图件。这些图件由三阶段分类制作，旨在：（i）估算潮汐湿地（定义为潮汐沼泽、潮滩或红树林生态系统）的全球分布；（ii）检测研究期内其变化；（iii）估算潮汐湿地变化事件的生态系统类型与发生时间。",
    "intro_en": "The Murray Global Tidal Wetland Change Dataset contains maps of the global extent of tidal wetlands and their change. The maps were developed from a three stage classification that sought to (i) estim…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "8e5a86b5",
@@ -21307,7 +21307,7 @@
    "id": "92e78526",
    "url": "/pages/92e78526/",
    "en_url": "/en/pages/92e78526/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级地表温度产品（V2）",
    "title_en": "GCOM-C/SGLI L3 Land Surface Temperature (V2)",
    "cat": "climate",
    "tags": [
@@ -21322,17 +21322,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2018 年 1 月 1 日至 2021 年 11 月 28 日；分辨率：约 4,638 米。",
    "time": "2018-01-01 至 2021-11-28",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/LAND/LST/V2",
-   "intro_zh": "",
+   "intro_zh": "本产品是陆地地表的温度。",
    "intro_en": "This product is the temperature of terrestrial land surface.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "92fd4298",
@@ -21428,7 +21428,7 @@
    "id": "93c5617e",
    "url": "/pages/93c5617e/",
    "en_url": "/en/pages/93c5617e/",
-   "title_zh": "",
+   "title_zh": "开放建筑物 V3 多边形",
    "title_en": "Open Buildings V3 Polygons",
    "cat": "urban",
    "tags": [
@@ -21444,16 +21444,16 @@
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲、拉丁美洲、加勒比、南亚和东南亚",
+   "coverage": "非洲、拉丁美洲、加勒比、南亚和东南亚",
    "time": "2023-05-30 至 2023-05-30",
    "provider": "Google Research - Open Buildings",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/Research/open-buildings/v3/polygons",
-   "intro_zh": "",
+   "intro_zh": "这个大规模开放数据集由源自高分辨率 50 厘米卫星影像的建筑物轮廓组成。它包含 18 亿次建筑物检测，覆盖非洲、拉丁美洲、加勒比、南亚和东南亚。推理跨越的面积为 5800 万平方公里。",
    "intro_en": "This large-scale open dataset consists of outlines of buildings derived from high-resolution 50 cm satellite imagery. It contains 1.8B building detections in Africa, Latin America, Caribbean, South As…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "93d0522c",
@@ -21854,7 +21854,7 @@
    "id": "95d5cb54",
    "url": "/pages/95d5cb54/",
    "en_url": "/en/pages/95d5cb54/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 可提取磷",
    "title_en": "iSDAsoil Extractable Phosphorus",
    "cat": "soil",
    "tags": [
@@ -21866,22 +21866,22 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/phosphorus_extractable",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的可提取磷，预测平均值和标准差。",
    "intro_en": "Extractable phosphorus at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "95de453f",
    "url": "/pages/95de453f/",
    "en_url": "/en/pages/95de453f/",
-   "title_zh": "",
+   "title_zh": "欧洲原始森林数据集——点",
    "title_en": "European Primary Forest Dataset - Points",
    "cat": "vegetation",
    "tags": [
@@ -21894,15 +21894,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
    "region_label": "欧洲",
-   "coverage": "",
+   "coverage": "欧洲（33 个国家）",
    "time": "2000-01-01 至 2019-12-31",
    "provider": "Geography Department, Humboldt University of Berlin, Berlin, Germany",
    "platform": "Google Earth Engine",
    "ee_id": "HU_BERLIN/EPFD/V2/points",
-   "intro_zh": "",
+   "intro_zh": "欧洲原始森林数据整合了 48 个不同的、以实地调查为主的原始森林数据集，包含分布在 33 个国家的 18,411 个单独斑块（4110 万公顷）。它主要包括原始老林、晚期演替森林，但也包括一些早期演替阶段和在自然干扰与自然更新后起源、且随后未经管理的幼林。",
    "intro_en": "European primary forest data harmonizes 48 different, mostly field-based datasets of primary forests, and contains 18,411 individual patches (41.1 Mha) spread across 33 countries. It includes includes…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "95ebbb0d",
@@ -22119,7 +22119,7 @@
    "id": "9750a230",
    "url": "/pages/9750a230/",
    "en_url": "/en/pages/9750a230/",
-   "title_zh": "",
+   "title_zh": "欧洲作物类型图（EUCROPMAP）",
    "title_en": "EUCROPMAP",
    "cat": "vegetation",
    "tags": [
@@ -22133,16 +22133,16 @@
    "res_m": 10.0,
    "res_bucket": "10 米及以内",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：欧洲（欧盟）；时间：2018 年与 2022 年；",
+   "coverage": "覆盖范围：欧洲（欧盟）；时间：2018 年与 2022 年；分辨率：10 米。",
    "time": "2018-01-01 至 2022-01-01",
    "provider": "Joint Research Center (JRC)",
    "platform": "Google Earth Engine",
    "ee_id": "JRC/D5/EUCROPMAP/V1",
-   "intro_zh": "",
+   "intro_zh": "欧洲作物类型图：2018 年基于 Sentinel-1 与 LUCAS Copernicus 2018 实地观测；2022 年结合 Sentinel-1、Sentinel-2 与辅助数据以及 LUCAS Copernicus 2022 观测。",
    "intro_en": "European crop type maps based on Sentinel-1 and LUCAS Copernicus 2018 in-situ observations for 2018, and a combination of Sentinel-1, Sentinel-2, and auxiliary data with LUCAS Copernicus 2022 observat…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "9769c309",
@@ -22714,7 +22714,7 @@
    "id": "9a678764",
    "url": "/pages/9a678764/",
    "en_url": "/en/pages/9a678764/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 总碳",
    "title_en": "iSDAsoil Total Carbon",
    "cat": "soil",
    "tags": [
@@ -22726,16 +22726,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/carbon_total",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的总碳，预测平均值和标准差。",
    "intro_en": "Total carbon at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "9a7ef21b",
@@ -22880,7 +22880,7 @@
    "id": "9acc1a9f",
    "url": "/pages/9acc1a9f/",
    "en_url": "/en/pages/9acc1a9f/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级叶面积指数产品（V2）",
    "title_en": "GCOM-C/SGLI L3 Leaf Area Index (V2)",
    "cat": "vegetation",
    "tags": [
@@ -22895,17 +22895,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2018 年 1 月 1 日至 2021 年 11 月 28 日；分辨率：约 4,638 米。",
    "time": "2018-01-01 至 2021-11-28",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/LAND/LAI/V2",
-   "intro_zh": "",
+   "intro_zh": "本产品是单位地面面积上单侧绿叶面积之和。",
    "intro_en": "This product is the sum of the one-sided green leaf area per unit ground area.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "9ad1a384",
@@ -23474,7 +23474,7 @@
    "id": "9e6d23d2",
    "url": "/pages/9e6d23d2/",
    "en_url": "/en/pages/9e6d23d2/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 容重（<2 毫米组分）",
    "title_en": "iSDAsoil Bulk Density, <2mm Fraction",
    "cat": "soil",
    "tags": [
@@ -23486,16 +23486,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/bulk_density",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的容重（<2 毫米组分），预测平均值和标准差。",
    "intro_en": "Bulk density, <2mm fraction at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "9e77eb63",
@@ -23532,7 +23532,7 @@
    "id": "9e90afdc",
    "url": "/pages/9e90afdc/",
    "en_url": "/en/pages/9e90afdc/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级叶绿素 a 浓度产品（V1）",
    "title_en": "GCOM-C/SGLI L3 Chlorophyll-a Concentration (V1)",
    "cat": "ocean",
    "tags": [
@@ -23547,23 +23547,23 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：2018 年 1 月 1 日至 2020 年 6 月 28 日；分辨率：约 4,638 米。",
    "time": "2018-01-01 至 2020-06-28",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/OCEAN/CHLA/V1",
-   "intro_zh": "",
+   "intro_zh": "本产品是海表层浮游植物中光合色素（叶绿素 a）的浓度。",
    "intro_en": "This product is the concentration of the photosynthetic pigment (chlorophyll-a) in phytoplankton in the sea surface layer.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "9ead8e0f",
    "url": "/pages/9ead8e0f/",
    "en_url": "/en/pages/9ead8e0f/",
-   "title_zh": "",
+   "title_zh": "巴西森林影像数据集 2008：分析底图",
    "title_en": "Brazil Forest Imagery Dataset 2008: Analytic Basemap",
    "cat": "vegetation",
    "tags": [
@@ -23579,15 +23579,15 @@
    "res_bucket": "10 米及以内",
    "region": "其他",
    "region_label": "巴西",
-   "coverage": "",
+   "coverage": "巴西",
    "time": "2007-01-01 至 2009-11-26",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/BRAZIL_FOREST_2008/V1/ANALYTIC",
-   "intro_zh": "",
+   "intro_zh": "该数据集提供巴西的多光谱（绿、红、近红外）底图，分辨率最高 10 米，主要摄于 2008 年，以支持巴西森林法的实施。该镶嵌图由 SPOT 2、4 和 5 卫星数据合成。它是 Landsat 的更高分辨率替代品，用于识别 2008 年 7 月 22 日监管截止日期时存在的固化区域…",
    "intro_en": "This dataset provides up to a 10-meter resolution multispectral (green, red, and near-infrared) basemap of Brazil, primarily captured in 2008, to support implementation of the Brazil Forest Code. The…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "9eb19591",
@@ -23624,7 +23624,7 @@
    "id": "9f66b2fd",
    "url": "/pages/9f66b2fd/",
    "en_url": "/en/pages/9f66b2fd/",
-   "title_zh": "",
+   "title_zh": "全球四类 PALSAR-2/PALSAR 森林/非森林图",
    "title_en": "Global 4-class PALSAR-2/PALSAR Forest/Non-Forest Map",
    "cat": "landcover",
    "tags": [
@@ -23641,15 +23641,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2017 年至 2021 年；分辨率：25 米。",
    "time": "2017-01-01 至 2021-01-01",
    "provider": "JAXA EORC",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/PALSAR/YEARLY/FNF4",
-   "intro_zh": "",
+   "intro_zh": "全球森林/非森林图（FNF）通过对全球 25 米分辨率 PALSAR-2/PALSAR SAR 镶嵌图的 SAR 影像（后向散射系数）分类生成：后向散射强的像元划为\"森林\"，后向散射弱的像元划为\"非森林\"。这里\"森林\"定义为面积大于 0.5 公顷、森林覆盖度超过 10% 的天然林…",
    "intro_en": "The global forest/non-forest map (FNF) is generated by classifying the SAR image (backscattering coefficient) in the global 25m resolution PALSAR-2/PALSAR SAR mosaic so that strong and low backscatter…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "9f6e3c04",
@@ -24335,7 +24335,7 @@
    "id": "a326b13b",
    "url": "/pages/a326b13b/",
    "en_url": "/en/pages/a326b13b/",
-   "title_zh": "",
+   "title_zh": "JRC 全球河流洪水危害图第 1 版（已弃用）",
    "title_en": "JRC Global River Flood Hazard Maps Version 1 [deprecated]",
    "cat": "water",
    "tags": [
@@ -24348,15 +24348,15 @@
    "res_bucket": "30–100 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球（格陵兰、南极洲及流域面积小于 500 km² 的小岛除外）；分辨率：90 米。",
    "time": "2024-03-16 至 2024-03-16",
    "provider": "Joint Research Centre",
    "platform": "Google Earth Engine",
    "ee_id": "JRC/CEMS_GLOFAS/FloodHazard/v1",
-   "intro_zh": "",
+   "intro_zh": "全球河流洪水危害图是表示河网沿线淹没情况的格网数据集，包含七种不同的洪水重现期（从 10 年一遇至 500 年一遇）。新图的输入河流流量数据由开源水文模型 LISFLOOD 产生，淹没模拟则由水动力模型 LISFLOOD-FP 执行。范围涵盖全世界，但不包括格陵兰、南极洲以及流域…",
    "intro_en": "The global river flood hazard maps are a gridded data set representing inundation along the river network, for seven different flood return periods (from 1-in-10-years to 1-in-500-years). The input ri…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "a334ea",
@@ -24415,7 +24415,7 @@
    "id": "a3ca23c6",
    "url": "/pages/a3ca23c6/",
    "en_url": "/en/pages/a3ca23c6/",
-   "title_zh": "",
+   "title_zh": "GLIMS 当前版：全球陆地冰空间测量",
    "title_en": "GLIMS Current: Global Land Ice Measurements From Space",
    "cat": "cryosphere",
    "tags": [
@@ -24432,15 +24432,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球冰川区",
    "time": "1750-01-01 至 2023-06-07",
    "provider": "National Snow and Ice Data Center (NSDIC)",
    "platform": "Google Earth Engine",
    "ee_id": "GLIMS/current",
-   "intro_zh": "",
+   "intro_zh": "全球陆地冰空间测量（GLIMS）是一项国际倡议，目标是反复测量世界上估计约 200,000 条冰川。",
    "intro_en": "Global Land Ice Measurements from Space (GLIMS) is an international initiative with the goal of repeatedly surveying the world's estimated 200,000 glaciers.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "a3cdde8d",
@@ -24527,7 +24527,7 @@
    "id": "a4b5eab0",
    "url": "/pages/a4b5eab0/",
    "en_url": "/en/pages/a4b5eab0/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级地表温度产品（V1）",
    "title_en": "GCOM-C/SGLI L3 Land Surface Temperature (V1)",
    "cat": "climate",
    "tags": [
@@ -24542,17 +24542,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2018 年 1 月 1 日至 2020 年 6 月 28 日；分辨率：约 4,638 米。",
    "time": "2018-01-01 至 2020-06-28",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/LAND/LST/V1",
-   "intro_zh": "",
+   "intro_zh": "本产品是陆地地表的温度。",
    "intro_en": "This product is the temperature of terrestrial land surface.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "a545a891",
@@ -24618,7 +24618,7 @@
    "id": "a6665342",
    "url": "/pages/a6665342/",
    "en_url": "/en/pages/a6665342/",
-   "title_zh": "",
+   "title_zh": "开放建筑物 V1 多边形（已弃用）",
    "title_en": "Open Buildings V1 Polygons [deprecated]",
    "cat": "urban",
    "tags": [
@@ -24633,16 +24633,16 @@
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2021-04-30 至 2021-04-30",
    "provider": "Google Research - Open Buildings",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/Research/open-buildings/v1/polygons",
-   "intro_zh": "",
+   "intro_zh": "这个大规模开放数据集由源自高分辨率 50 厘米卫星影像的建筑物轮廓组成。它包含 5.16 亿次建筑物检测，覆盖面积 1940 万平方公里（非洲大陆的 64%）。",
    "intro_en": "This large-scale open dataset consists of outlines of buildings derived from high-resolution 50 cm satellite imagery. It contains 516M building detections across an area of 19.4M km2 (64% of the Afric…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "a672ed",
@@ -24794,7 +24794,7 @@
    "id": "a78539ca",
    "url": "/pages/a78539ca/",
    "en_url": "/en/pages/a78539ca/",
-   "title_zh": "",
+   "title_zh": "Dynamic World V1（动态世界）",
    "title_en": "Dynamic World V1",
    "cat": "landcover",
    "tags": [
@@ -24808,17 +24808,17 @@
    ],
    "res_m": 10.0,
    "res_bucket": "10 米及以内",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "全球",
    "time": "2015-06-27 至 2026-11-02",
    "provider": "World Resources Institute、Google",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/DYNAMICWORLD/V1",
-   "intro_zh": "",
+   "intro_zh": "Dynamic World 是一个 10 米近实时（NRT）土地利用/土地覆盖（LULC）数据集，包含九个类别的类别概率和标签信息。",
    "intro_en": "Dynamic World is a 10m near-real-time (NRT) Land Use/Land Cover (LULC) dataset that includes class probabilities and label information for nine classes.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "a7993ae1",
@@ -25119,7 +25119,7 @@
    "id": "a996bfa2",
    "url": "/pages/a996bfa2/",
    "en_url": "/en/pages/a996bfa2/",
-   "title_zh": "",
+   "title_zh": "TerraClimate：全球陆地表面月度气候与气候水分平衡",
    "title_en": "TerraClimate:  Monthly Climate and Climatic Water Balance for Global Terrestrial Surfaces, University of Idaho",
    "cat": "vegetation",
    "tags": [
@@ -25136,15 +25136,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球陆地",
    "time": "1958-01-01 至 2024-12-01",
    "provider": "University of California Merced",
    "platform": "Google Earth Engine",
    "ee_id": "IDAHO_EPSCOR/TERRACLIMATE",
-   "intro_zh": "",
+   "intro_zh": "TerraClimate 是全球陆地表面的月度气候和气候水分平衡数据集。它使用气候辅助插值，将 WorldClim 数据集 的高空间分辨率气候正常值与来自 CRU Ts4.0 和日本 55 年再分析（JRA55） 的较粗空间分辨率但随时间变化的数据结合。从概念上讲，该程序将 CR…",
    "intro_en": "TerraClimate is a dataset of monthly climate and climatic water balance for global terrestrial surfaces. It uses climatically aided interpolation, combining high-spatial resolution climatological norm…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "a9db0306",
@@ -25239,7 +25239,7 @@
    "id": "aa8dd7e5",
    "url": "/pages/aa8dd7e5/",
    "en_url": "/en/pages/aa8dd7e5/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 石块含量",
    "title_en": "iSDAsoil Stone Content",
    "cat": "soil",
    "tags": [
@@ -25251,16 +25251,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/stone_content",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的石块含量，预测平均值和标准差。",
    "intro_en": "Stone content at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "aab2dd",
@@ -25288,7 +25288,7 @@
    "id": "aab38657",
    "url": "/pages/aab38657/",
    "en_url": "/en/pages/aab38657/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 可提取镁",
    "title_en": "iSDAsoil Extractable Magnesium",
    "cat": "soil",
    "tags": [
@@ -25300,16 +25300,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/magnesium_extractable",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的可提取镁，预测平均值和标准差。",
    "intro_en": "Extractable magnesium at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "aaf3aa",
@@ -25662,7 +25662,7 @@
    "id": "ad2f1301",
    "url": "/pages/ad2f1301/",
    "en_url": "/en/pages/ad2f1301/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级海表温度产品（V3）",
    "title_en": "GCOM-C/SGLI L3 Sea Surface Temperature (V3)",
    "cat": "ocean",
    "tags": [
@@ -25677,17 +25677,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：2018 年 1 月 22 日起持续更新；分辨率：约 4,638 米。",
    "time": "2018-01-22 至 2026-10-14",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/OCEAN/SST/V3",
-   "intro_zh": "",
+   "intro_zh": "本产品是海面的温度。",
    "intro_en": "This product is the temperature of sea surface.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "ad457568",
@@ -25897,7 +25897,7 @@
    "id": "af23bf12",
    "url": "/pages/af23bf12/",
    "en_url": "/en/pages/af23bf12/",
-   "title_zh": "",
+   "title_zh": "2020 年全球森林类型图 V0（已弃用）",
    "title_en": "Global map of forest types 2020 V0 [deprecated]",
    "cat": "landcover",
    "tags": [
@@ -25912,15 +25912,15 @@
    "res_bucket": "10 米及以内",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间：2020 年；分辨率：10 米。",
    "time": "2020-01-01 至 2020-12-31",
    "provider": "Joint Research Centre, European Commission",
    "platform": "Google Earth Engine",
    "ee_id": "JRC/GFC2020_subtypes/V0",
-   "intro_zh": "",
+   "intro_zh": "全球森林类型图以 10 米空间分辨率，空间明确地表示了 2020 年的原始林、天然更新林与人工林（包括人工种植林）。绘制这些森林类型的基线图层是 2020 年全球森林覆盖图（JRC GFC 2020）第 1 版的森林覆盖范围。森林类型的定义遵循欧盟\"关于在欧盟市场供应以及从欧盟出…",
    "intro_en": "The global map of forest types provides a spatially explicit representation of primary forest, naturally regenerating forest and planted forest (including plantation forest) for the year 2020 at 10m s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "af43405d",
@@ -26341,7 +26341,7 @@
    "id": "b264f71c",
    "url": "/pages/b264f71c/",
    "en_url": "/en/pages/b264f71c/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 可提取铝",
    "title_en": "iSDAsoil extractable Aluminium",
    "cat": "soil",
    "tags": [
@@ -26353,16 +26353,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/aluminium_extractable",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的可提取铝，预测平均值和标准差。",
    "intro_en": "Extractable aluminium at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "b27c5ae0",
@@ -26522,7 +26522,7 @@
    "id": "b305a6bc",
    "url": "/pages/b305a6bc/",
    "en_url": "/en/pages/b305a6bc/",
-   "title_zh": "",
+   "title_zh": "GSMaP 业务版：全球卫星降水制图 V7",
    "title_en": "GSMaP Operational: Global Satellite Mapping of Precipitation - V7",
    "cat": "climate",
    "tags": [
@@ -26538,15 +26538,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2014 年 3 月 1 日至 2026 年 6 月 29 日；分辨率：约 11,132 米（0.1°×0.1°）。",
    "time": "2014-03-01 至 2026-06-29",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GPM_L3/GSMaP/v7/operational",
-   "intro_zh": "",
+   "intro_zh": "全球卫星降水制图（GSMaP）提供 0.1×0.1 度分辨率的全球逐小时降水率。GSMaP 是全球降水测量（GPM）任务的产品，该任务每三小时提供一次全球降水观测。数值使用 GPM 核心观测卫星的多波段被动微波与红外辐射计估算，并有一组其他卫星协助。GPM 的降水率反演算法基于辐…",
    "intro_en": "Global Satellite Mapping of Precipitation (GSMaP) provides a global hourly rain rate with a 0.1 x 0.1 degree resolution. GSMaP is a product of the Global Precipitation Measurement (GPM) mission, which…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "b313d8d8",
@@ -26612,7 +26612,7 @@
    "id": "b359c603",
    "url": "/pages/b359c603/",
    "en_url": "/en/pages/b359c603/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 黏粒含量",
    "title_en": "iSDAsoil Clay Content",
    "cat": "soil",
    "tags": [
@@ -26624,16 +26624,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/clay_content",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的黏粒含量，预测平均值和标准差。在茂密丛林地区（一般在非洲中部），模型精度较低，因此可能看到条带（striping）等伪影。",
    "intro_en": "Clay content at soil depths of 0-20 cm and 20-50 cm,\\npredicted mean and standard deviation. In areas of dense jungle (generally over central Africa), model accuracy is low and therefore artifacts suc…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "b39178",
@@ -26978,7 +26978,7 @@
    "id": "b5eebef7",
    "url": "/pages/b5eebef7/",
    "en_url": "/en/pages/b5eebef7/",
-   "title_zh": "",
+   "title_zh": "GSMaP 业务版：全球卫星降水制图 V8",
    "title_en": "GSMaP Operational: Global Satellite Mapping of Precipitation - V8",
    "cat": "climate",
    "tags": [
@@ -26994,15 +26994,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：1998 年 1 月 1 日至 2026 年 11 月 2 日；分辨率：约 11,132 米（0.1°×0.1°）。",
    "time": "1998-01-01 至 2026-11-02",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GPM_L3/GSMaP/v8/operational",
-   "intro_zh": "",
+   "intro_zh": "全球卫星降水制图（GSMaP）提供 0.1×0.1 度分辨率的全球逐小时降水率。GSMaP 是全球降水测量（GPM）任务的产品，该任务每三小时提供一次全球降水观测。数值使用 GPM 核心观测卫星的多波段被动微波与红外辐射计估算，并有一组其他卫星协助。GPM 的降水率反演算法基于辐…",
    "intro_en": "Global Satellite Mapping of Precipitation (GSMaP) provides a global hourly rain rate with a 0.1 x 0.1 degree resolution. GSMaP is a product of the Global Precipitation Measurement (GPM) mission, which…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "b6805aa2",
@@ -27149,7 +27149,7 @@
    "id": "b836b19e",
    "url": "/pages/b836b19e/",
    "en_url": "/en/pages/b836b19e/",
-   "title_zh": "",
+   "title_zh": "ALOS-2 PALSAR-2 条带模式 2.1 级产品（2024 年 1 月能登地震应急观测）",
    "title_en": "ALOS-2 PALSAR-2 StripMap Level 2.1",
    "cat": "satellite",
    "tags": [
@@ -27164,16 +27164,16 @@
    "res_m": 3.0,
    "res_bucket": "10 米及以内",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：日本周边（2024 年 1 月能登半岛地震应急观测",
+   "coverage": "覆盖范围：日本周边（2024 年 1 月能登半岛地震应急观测区及部分存档区）；时间范围：2022 年 9 月 26 日至 2024 年 1 月 8 日；分辨率：3 米。",
    "time": "2022-09-26 至 2024-01-08",
    "provider": "JAXA EORC",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/PALSAR-2/Level2_1/StripMap_202401",
-   "intro_zh": "",
+   "intro_zh": "自 2024 年 1 月 1 日夜起，应日本各省厅及相关机构的请求，JAXA 实施了 ALOS-2 PALSAR-2 应急观测。由于 JAXA 认为这些应急观测数据对灾害管理极为有用，决定在 Google Earth Engine 上开放这些数据，供公众与研究使用。",
    "intro_en": "Starting from the night of January 1st, 2024, based on the request from Japanese ministries and related organization, JAXA implemented ALOS-2 PALSAR-2 emergency observation. Since JAXA expects these e…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "b865a04a",
@@ -27800,7 +27800,7 @@
    "id": "bc8e9520",
    "url": "/pages/bc8e9520/",
    "en_url": "/en/pages/bc8e9520/",
-   "title_zh": "",
+   "title_zh": "IBGE：巴西大区 2025",
    "title_en": "IBGE: Brazil Macro Regions 2025",
    "cat": "boundaries",
    "tags": [
@@ -27815,15 +27815,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
    "region_label": "巴西",
-   "coverage": "",
+   "coverage": "巴西",
    "time": "2025-01-01 至 2026-01-01",
    "provider": "IBGE",
    "platform": "Google Earth Engine",
    "ee_id": "IBGE/REGIOES/V2025",
-   "intro_zh": "",
+   "intro_zh": "巴西地理与统计研究所（Instituto Brasileiro de Geografia e Estatística，IBGE）提供巴西领土结构的官方制图表达。该数据集包含巴西五个官方大区（Norte、Nordeste、Sudeste、Sul 和 Centro-Oeste）202…",
    "intro_en": "The Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE) provides official cartographic representations of the Brazilian territorial structure. This dataset contains the boundaries of the fiv…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "bcb36431",
@@ -28476,7 +28476,7 @@
    "id": "c512c2e1",
    "url": "/pages/c512c2e1/",
    "en_url": "/en/pages/c512c2e1/",
-   "title_zh": "",
+   "title_zh": "JRC 全球河流洪水危害图第 2.1 版",
    "title_en": "JRC Global River Flood Hazard Maps Version 2.1",
    "cat": "water",
    "tags": [
@@ -28489,15 +28489,15 @@
    "res_bucket": "30–100 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球（格陵兰、南极洲及流域面积小于 500 km² 的小岛除外）；分辨率：90 米。",
    "time": "2024-03-16 至 2024-03-16",
    "provider": "Joint Research Centre",
    "platform": "Google Earth Engine",
    "ee_id": "JRC/CEMS_GLOFAS/FloodHazard/v2_1",
-   "intro_zh": "",
+   "intro_zh": "全球河流洪水危害图是表示河网沿线淹没情况的格网数据集，包含七种不同的洪水重现期（从 10 年一遇至 500 年一遇）。新图的输入河流流量数据由开源水文模型 LISFLOOD 产生，淹没模拟则由水动力模型 LISFLOOD-FP 执行。范围涵盖全世界，但不包括格陵兰、南极洲以及流域…",
    "intro_en": "The global river flood hazard maps are a gridded data set representing inundation along the river network, for seven different flood return periods (from 1-in-10-years to 1-in-500-years). The input ri…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "c53a9c3b",
@@ -28534,7 +28534,7 @@
    "id": "c54fd477",
    "url": "/pages/c54fd477/",
    "en_url": "/en/pages/c54fd477/",
-   "title_zh": "",
+   "title_zh": "开放建筑物时序数据 V1",
    "title_en": "Open Buildings Temporal V1",
    "cat": "atmosphere",
    "tags": [
@@ -28550,16 +28550,16 @@
    "res_m": 4.0,
    "res_bucket": "10 米及以内",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲、南亚、东南亚、拉丁美洲和加勒比地区",
+   "coverage": "非洲、南亚、东南亚、拉丁美洲和加勒比地区",
    "time": "2016-06-30 至 2023-06-30",
    "provider": "Google Research - Open Buildings",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/Research/open-buildings-temporal/v1",
-   "intro_zh": "",
+   "intro_zh": "开放建筑物 2.5D 时序数据集（Open Buildings 2.5D Temporal Dataset）包含建筑物存在、建筑物分数计数和建筑物高度数据，有效<sup1</sup空间分辨率为 4 米（栅格以 0.5 米分辨率提供），2016–2023 年逐年一期。它使用开源的低…",
    "intro_en": "The Open Buildings 2.5D Temporal Dataset contains data about building presence, fractional building counts, and building heights at an effective<sup1</sup spatial resolution of 4m (rasters are provide…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "c55f0ab8",
@@ -28716,7 +28716,7 @@
    "id": "c734392b",
    "url": "/pages/c734392b/",
    "en_url": "/en/pages/c734392b/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 有效阳离子交换量",
    "title_en": "iSDAsoil Effective Cation Exchange Capacity",
    "cat": "soil",
    "tags": [
@@ -28728,16 +28728,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/cation_exchange_capacity",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的有效阳离子交换量，预测平均值和标准差。",
    "intro_en": "Effective Cation Exchange Capacity predicted mean and standard deviation at soil depths of 0-20 cm and 20-50 cm,",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "c7440348",
@@ -28881,7 +28881,7 @@
    "id": "c80da145",
    "url": "/pages/c80da145/",
    "en_url": "/en/pages/c80da145/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 粉粒含量",
    "title_en": "iSDAsoil Silt Content",
    "cat": "soil",
    "tags": [
@@ -28893,16 +28893,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/silt_content",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的粉粒含量，预测平均值和标准差。",
    "intro_en": "Silt content at soil depths of 0-20 cm and 20-50 cm, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "c89eefe9",
@@ -30245,7 +30245,7 @@
    "id": "d15dcdc4",
    "url": "/pages/d15dcdc4/",
    "en_url": "/en/pages/d15dcdc4/",
-   "title_zh": "",
+   "title_zh": "德国勃兰登堡 RGBN 正射影像 20 厘米",
    "title_en": "Brandenburg (Germany) RGBN orthophotos 20 cm",
    "cat": "satellite",
    "tags": [
@@ -30257,16 +30257,16 @@
    "res_m": 0.2,
    "res_bucket": "10 米及以内",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "德国勃兰登堡州",
+   "coverage": "德国勃兰登堡州",
    "time": "2021-08-23 至 2023-01-20",
    "provider": "Brandenburg orthophotos",
    "platform": "Google Earth Engine",
    "ee_id": "Germany/Brandenburg/orthos/20cm",
-   "intro_zh": "",
+   "intro_zh": "正射影像是覆盖德国勃兰登堡州的航空照片数据集。该数据由勃兰登堡州政府（LGB）提供。数字正射影像是经数字校正的航空照片，以平行透视显示记录时从空中可见的所有物体。它们在生态、物候、地理和其他主题上具有很高的信息密度。",
    "intro_en": "Orthophotos are an aerial photo dataset covering the Brandenburg state of Germany. This data is provided by State government of Brandenburg (LGB). Digital orthophotos are digitally corrected aerial ph…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "d189d6fe",
@@ -30415,7 +30415,7 @@
    "id": "d2d6b77f",
    "url": "/pages/d2d6b77f/",
    "en_url": "/en/pages/d2d6b77f/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 基岩深度",
    "title_en": "iSDAsoil Depth to Bedrock",
    "cat": "soil",
    "tags": [
@@ -30427,16 +30427,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/bedrock_depth",
-   "intro_zh": "",
+   "intro_zh": "0–200 厘米深度处的基岩深度，预测平均值和标准差。",
    "intro_en": "Depth to bedrock at 0-200 cm depth, predicted mean and standard deviation.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "d30f2aba",
@@ -30739,7 +30739,7 @@
    "id": "d4abf354",
    "url": "/pages/d4abf354/",
    "en_url": "/en/pages/d4abf354/",
-   "title_zh": "",
+   "title_zh": "ALOS AVNIR-2 正射影像（ORI）",
    "title_en": "ALOS/AVNIR-2 ORI",
    "cat": "satellite",
    "tags": [
@@ -30753,17 +30753,17 @@
    ],
    "res_m": 10.0,
    "res_bucket": "10 米及以内",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球（ALOS 观测区）；时间范围：2006 年 4 月 26 日至 2011 年 4 月 18 日；分辨率：10 米。",
    "time": "2006-04-26 至 2011-04-18",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/AVNIR-2/ORI",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含来自陆地观测卫星（ALOS）\"DAICHI\"所载高级可见光与近红外辐射计 2 型（AVNIR-2）传感器的正射校正影像。",
    "intro_en": "This dataset is contains orthorectified imagery from the Advanced Visible and Near Infrared Radiometer type 2 (AVNIR-2) sensor on-board the Advanced Land Observing Satellite (ALOS) \\\"DAICHI\\\".",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "d55559a7",
@@ -31463,7 +31463,7 @@
    "id": "da4e266d",
    "url": "/pages/da4e266d/",
    "en_url": "/en/pages/da4e266d/",
-   "title_zh": "",
+   "title_zh": "欧盟 JRC 2020 年全球森林覆盖图 V4",
    "title_en": "EC JRC global map of forest cover 2020, V4",
    "cat": "vegetation",
    "tags": [
@@ -31476,15 +31476,15 @@
    "res_bucket": "10 米及以内",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间：2020 年；分辨率：10 米。",
    "time": "2020-12-31 至 2020-12-31",
    "provider": "Joint Research Centre, European Commission",
    "platform": "Google Earth Engine",
    "ee_id": "JRC/GFC2020/V4",
-   "intro_zh": "",
+   "intro_zh": "全球森林覆盖图以 10 米空间分辨率，空间明确地表示了 2020 年森林的有无。",
    "intro_en": "The global map of forest cover provides a spatially explicit representation of forest presence and absence for the year 2020 at 10m spatial resolution.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "da5f2905",
@@ -31552,7 +31552,7 @@
    "id": "da747999",
    "url": "/pages/da747999/",
    "en_url": "/en/pages/da747999/",
-   "title_zh": "",
+   "title_zh": "GLIMS 2021：全球陆地冰空间测量（已弃用）",
    "title_en": "GLIMS 2021: Global Land Ice Measurements From Space [deprecated]",
    "cat": "cryosphere",
    "tags": [
@@ -31569,15 +31569,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球冰川区",
    "time": "1750-01-01 至 2019-07-18",
    "provider": "National Snow and Ice Data Center (NSDIC)",
    "platform": "Google Earth Engine",
    "ee_id": "GLIMS/20210914",
-   "intro_zh": "",
+   "intro_zh": "全球陆地冰空间测量（GLIMS）是一项国际倡议，目标是反复测量世界上估计约 200,000 条冰川。",
    "intro_en": "Global Land Ice Measurements from Space (GLIMS) is an international initiative with the goal of repeatedly surveying the world's estimated 200,000 glaciers.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "7306f8",
@@ -31778,7 +31778,7 @@
    "id": "dd0d38ad",
    "url": "/pages/dd0d38ad/",
    "en_url": "/en/pages/dd0d38ad/",
-   "title_zh": "",
+   "title_zh": "GSMaP 业务版：全球卫星降水制图 V6",
    "title_en": "GSMaP Operational: Global Satellite Mapping of Precipitation - V6",
    "cat": "climate",
    "tags": [
@@ -31794,15 +31794,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2014 年 3 月 1 日至 2026 年 11 月 2 日；分辨率：约 11,132 米（0.1°×0.1°）。",
    "time": "2014-03-01 至 2026-11-02",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GPM_L3/GSMaP/v6/operational",
-   "intro_zh": "",
+   "intro_zh": "全球卫星降水制图（GSMaP）提供 0.1×0.1 度分辨率的全球逐小时降水率。GSMaP 是全球降水测量（GPM）任务的产品，该任务每三小时提供一次全球降水观测。数值使用 GPM 核心观测卫星的多波段被动微波与红外辐射计估算，并有一组其他卫星协助。GPM 的降水率反演算法基于辐…",
    "intro_en": "Global Satellite Mapping of Precipitation (GSMaP) provides a global hourly rain rate with a 0.1 x 0.1 degree resolution. GSMaP is a product of the Global Precipitation Measurement (GPM) mission, which…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "dd16aaff",
@@ -31959,7 +31959,7 @@
    "id": "ddb7c418",
    "url": "/pages/ddb7c418/",
    "en_url": "/en/pages/ddb7c418/",
-   "title_zh": "",
+   "title_zh": "IBGE：巴西州边界 2025（联邦单位）",
    "title_en": "IBGE: Brazil State Boundaries 2025 (Federation Units)",
    "cat": "boundaries",
    "tags": [
@@ -31975,15 +31975,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "其他",
    "region_label": "巴西",
-   "coverage": "",
+   "coverage": "巴西",
    "time": "2025-01-01 至 2026-01-01",
    "provider": "IBGE",
    "platform": "Google Earth Engine",
    "ee_id": "IBGE/UF/V2025",
-   "intro_zh": "",
+   "intro_zh": "巴西地理与统计研究所（Instituto Brasileiro de Geografia e Estatística，IBGE）提供巴西领土结构的官方制图表达。该数据集包含巴西 27 个联邦单位（26 个州和 1 个联邦区）2025 参考年（Malha Territorial 2…",
    "intro_en": "The Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE) provides official cartographic representations of the Brazilian territorial structure. This dataset contains the boundaries of the 27…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "ddf5edfa",
@@ -32313,7 +32313,7 @@
    "id": "e042bdf5",
    "url": "/pages/e042bdf5/",
    "en_url": "/en/pages/e042bdf5/",
-   "title_zh": "",
+   "title_zh": "全球洪水数据库 v1（2000–2018）",
    "title_en": "Global Flood Database v1 (2000-2018)",
    "cat": "water",
    "tags": [
@@ -32330,15 +32330,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2000-02-17 至 2018-12-10",
    "provider": "Cloud to Street (C2S) / Dartmouth Flood Observatory (DFO)",
    "platform": "Google Earth Engine",
    "ee_id": "GLOBAL_FLOOD_DB/MODIS_EVENTS/V1",
-   "intro_zh": "",
+   "intro_zh": "全球洪水数据库包含 2000–2018 年间发生的 913 次洪水事件的范围与时间分布图。更多信息见相关期刊论文。",
    "intro_en": "The Global Flood Database contains maps of the extent and temporal distribution of 913 flood events occurring between 2000-2018. For more information, see the associated journal article.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "e08624ce",
@@ -33377,7 +33377,7 @@
    "id": "e83cd6f4",
    "url": "/pages/e83cd6f4/",
    "en_url": "/en/pages/e83cd6f4/",
-   "title_zh": "",
+   "title_zh": "欧盟 JRC 2020 年全球森林覆盖图 V2（已弃用）",
    "title_en": "EC JRC global map of forest cover 2020, V2 [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -33390,15 +33390,15 @@
    "res_bucket": "10 米及以内",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间：2020 年；分辨率：10 米。",
    "time": "2020-12-31 至 2020-12-31",
    "provider": "Joint Research Centre, European Commission",
    "platform": "Google Earth Engine",
    "ee_id": "JRC/GFC2020/V2",
-   "intro_zh": "",
+   "intro_zh": "全球森林覆盖图以 10 米空间分辨率，空间明确地表示了 2020 年森林的有无。",
    "intro_en": "The global map of forest cover provides a spatially explicit representation of forest presence and absence for the year 2020 at 10m spatial resolution.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "e8970ec8",
@@ -33461,7 +33461,7 @@
    "id": "e8f1e399",
    "url": "/pages/e8f1e399/",
    "en_url": "/en/pages/e8f1e399/",
-   "title_zh": "",
+   "title_zh": "欧盟 JRC 2020 年全球森林覆盖图 V1（已弃用）",
    "title_en": "EC JRC global map of forest cover 2020, V1 [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -33474,15 +33474,15 @@
    "res_bucket": "10 米及以内",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间：2020 年；分辨率：10 米。",
    "time": "2020-12-31 至 2020-12-31",
    "provider": "Joint Research Centre, European Commission",
    "platform": "Google Earth Engine",
    "ee_id": "JRC/GFC2020/V1",
-   "intro_zh": "",
+   "intro_zh": "欧盟委员会联合研究中心（EC JRC）全球森林覆盖图以 10 米空间分辨率，空间明确地表示了 2020 年森林的有无。",
    "intro_en": "The EC JRC global map of forest cover provides a spatially explicit representation of forest presence and absence for the year 2020 at 10m spatial resolution.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "e9028b43",
@@ -33605,7 +33605,7 @@
    "id": "e9d27326",
    "url": "/pages/e9d27326/",
    "en_url": "/en/pages/e9d27326/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级海表温度产品（V1）",
    "title_en": "GCOM-C/SGLI L3 Sea Surface Temperature (V1)",
    "cat": "ocean",
    "tags": [
@@ -33620,17 +33620,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：2018 年 1 月 1 日至 2020 年 6 月 28 日；分辨率：约 4,638 米。",
    "time": "2018-01-01 至 2020-06-28",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/OCEAN/SST/V1",
-   "intro_zh": "",
+   "intro_zh": "本产品是海面的温度。",
    "intro_en": "This product is the temperature of sea surface.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "ea336063",
@@ -33967,7 +33967,7 @@
    "id": "ec88a629",
    "url": "/pages/ec88a629/",
    "en_url": "/en/pages/ec88a629/",
-   "title_zh": "",
+   "title_zh": "SoilGrids250m 2.0 土壤体积含水量",
    "title_en": "SoilGrids250m 2.0 - Volumetric Water Content",
    "cat": "soil",
    "tags": [
@@ -33979,15 +33979,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球陆地；时间范围：1905 年至 2016 年（源土壤剖面观测期）；分辨率：250 米。",
    "time": "1905-04-01 至 2016-07-05",
    "provider": "ISRIC - World Soil Information",
    "platform": "Google Earth Engine",
    "ee_id": "ISRIC/SoilGrids250m/v2_0",
-   "intro_zh": "",
+   "intro_zh": "10 kPa、33 kPa 与 1500 kPa 三种吸力下的体积含水量，单位为 10^-3 cm³/cm³（即 0.1 v% 或 1 mm/m），共 6 个标准深度（0–5 cm、5–15 cm、15–30 cm、30–60 cm、60–100 cm、100–200 cm）。预…",
    "intro_en": "Volumetric Water Content at 10kPa, 33kPa, and 1500kPa suction in 10^-3 cm^3/cm^3 (0.1 v% or 1 mm/m) at 6 standard depths (0-5cm, 5-15cm, 15-30cm, 30-60cm, 60-100cm, 100-200cm). Predictions were derive…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "eca62d74",
@@ -35067,7 +35067,7 @@
    "id": "f6533466",
    "url": "/pages/f6533466/",
    "en_url": "/en/pages/f6533466/",
-   "title_zh": "",
+   "title_zh": "GRIDMET 干旱指数：美国本土干旱指数",
    "title_en": "GRIDMET DROUGHT: CONUS Drought Indices",
    "cat": "water",
    "tags": [
@@ -35084,15 +35084,15 @@
    "res_bucket": "1 公里以上",
    "region": "其他",
    "region_label": "美国",
-   "coverage": "",
+   "coverage": "美国本土（CONUS）",
    "time": "1980-01-05 至 2026-10-22",
    "provider": "University of California Merced",
    "platform": "Google Earth Engine",
    "ee_id": "GRIDMET/DROUGHT",
-   "intro_zh": "",
+   "intro_zh": "该数据集包含源自 4 公里逐日格网地表气象（GRIDMET）数据集的干旱指数。提供的干旱指数包括标准化降水指数（SPI）、蒸发干旱需求指数（EDDI）、标准化降水蒸散指数（SPEI）、帕尔默干旱严重指数（PDSI）和帕尔默 Z 指数（Z）。",
    "intro_en": "This dataset contains drought indices derived from the 4-km daily Gridded Surface Meteorological (GRIDMET) dataset. The drought indices provided include the standardized precipitation index (SPI), the…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "f6b4d504",
@@ -35211,7 +35211,7 @@
    "id": "f81aa130",
    "url": "/pages/f81aa130/",
    "en_url": "/en/pages/f81aa130/",
-   "title_zh": "",
+   "title_zh": "MACAv2-METDATA 月度汇总：爱达荷大学，应用于全球气候模型的多变量自适应构造类比",
    "title_en": "MACAv2-METDATA Monthly Summaries: University of Idaho, Multivariate Adaptive Constructed Analogs Applied to Global  Climate Models",
    "cat": "climate",
    "tags": [
@@ -35227,21 +35227,21 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "美国本土",
    "time": "1900-01-01 至 2099-12-31",
    "provider": "University of California Merced",
    "platform": "Google Earth Engine",
    "ee_id": "IDAHO_EPSCOR/MACAv2_METDATA_MONTHLY",
-   "intro_zh": "",
+   "intro_zh": "MACAv2-METDATA 数据集是覆盖美国本土的 20 个全球气候模型的集合。多变量自适应构造类比（MACA）方法是一种统计降尺度方法，它利用训练数据集（即气象观测数据集）来消除历史偏差并匹配气候模型输出的空间模式。",
    "intro_en": "The MACAv2-METDATA dataset is a collection of 20 global climate models covering the conterminous USA. The Multivariate Adaptive Constructed Analogs (MACA) method is a statistical downscaling method wh…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "f830a5c2",
    "url": "/pages/f830a5c2/",
    "en_url": "/en/pages/f830a5c2/",
-   "title_zh": "",
+   "title_zh": "GCOM-C/SGLI 三级海表温度产品（V2）",
    "title_en": "GCOM-C/SGLI L3 Sea Surface Temperature (V2)",
    "cat": "ocean",
    "tags": [
@@ -35256,17 +35256,17 @@
    ],
    "res_m": 4638.3,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：2018 年 1 月 1 日至 2021 年 11 月 28 日；分辨率：约 4,638 米。",
    "time": "2018-01-01 至 2021-11-28",
    "provider": "Global Change Observation Mission (GCOM)",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/GCOM-C/L3/OCEAN/SST/V2",
-   "intro_zh": "",
+   "intro_zh": "本产品是海面的温度。",
    "intro_en": "This product is the temperature of sea surface.",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "f83c4aa7",
@@ -35332,7 +35332,7 @@
    "id": "f8b280da",
    "url": "/pages/f8b280da/",
    "en_url": "/en/pages/f8b280da/",
-   "title_zh": "",
+   "title_zh": "ALOS 全球 30 米 DSM v2.2（已弃用）",
    "title_en": "ALOS DSM: Global 30m v2.2 [deprecated]",
    "cat": "dem",
    "tags": [
@@ -35348,15 +35348,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2006 年 1 月 24 日至 2011 年 5 月 12 日（源数据期）；分辨率：30 米。",
    "time": "2006-01-24 至 2011-05-12",
    "provider": "JAXA Earth Observation Research Center",
    "platform": "Google Earth Engine",
    "ee_id": "JAXA/ALOS/AW3D30/V2_2",
-   "intro_zh": "",
+   "intro_zh": "ALOS World 3D - 30m（AW3D30）是全球数字地表模型（DSM）数据集，水平分辨率约 30 米（1 弧秒格网）。该数据集基于 World 3D Topographic Data 的 DSM 数据集（5 米格网版本）。更多细节见数据集文档。",
    "intro_en": "ALOS World 3D - 30m (AW3D30) is a global digital surface model (DSM) dataset with a horizontal resolution of approximately 30 meters (1 arcsec mesh). The dataset is based on the DSM dataset (5-meter m…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "f8b804",
@@ -35441,7 +35441,7 @@
    "id": "f912c733",
    "url": "/pages/f912c733/",
    "en_url": "/en/pages/f912c733/",
-   "title_zh": "",
+   "title_zh": "卫星嵌入 V1",
    "title_en": "Satellite Embedding V1",
    "cat": "satellite",
    "tags": [
@@ -35457,15 +35457,15 @@
    "res_bucket": "10 米及以内",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球陆地与浅水区",
    "time": "2017-01-01 至 2025-01-01",
    "provider": "Google Earth Engine、Google DeepMind",
    "platform": "Google Earth Engine",
    "ee_id": "GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL",
-   "intro_zh": "",
+   "intro_zh": "Google 卫星嵌入数据集是一个全球性的、可直接分析的学习型地理空间嵌入集合。该数据集中的每个 10 米像元都是一个 64 维表示，即「嵌入向量」，它编码了单个日历年内、由各种地球观测仪器和数据集测得的该像元及其周围地表状况的时间轨迹。与波段对应物理测量的传统光谱输入和指数不同…",
    "intro_en": "The Google Satellite Embedding dataset is a global, analysis-ready collection of learned geospatial embeddings. Each 10-meter pixel in this dataset is a 64-dimensional representation, or \"embedding ve…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "f9212348",
@@ -35645,7 +35645,7 @@
    "id": "fa6b2b5d",
    "url": "/pages/fa6b2b5d/",
    "en_url": "/en/pages/fa6b2b5d/",
-   "title_zh": "",
+   "title_zh": "IUCN 全球生态系统类型学三级 v1.0",
    "title_en": "IUCN Global Ecosystem Typology Level 3: 1.0",
    "cat": "landcover",
    "tags": [
@@ -35658,15 +35658,15 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间：2023 年（v1.0 发布）；类型：矢量/表格数据。",
    "time": "2023-09-14 至 2023-09-14",
    "provider": "International Union for Conservation of Nature and Natural Resources",
    "platform": "Google Earth Engine",
    "ee_id": "IUCN/GlobalEcosystemTypology/current",
-   "intro_zh": "",
+   "intro_zh": "全球生态系统类型学（Global Ecosystem Typology）是一套基于生态系统独特特征的类型分类体系，是一个全球分类系统，为描述与分类生态系统提供一致的框架。",
    "intro_en": "The Global Ecosystem Typology is a taxonomy of ecosystems based on their unique characteristics. It is a global classification system that provides a consistent framework for describing and classifyin…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "fac59b",
@@ -35843,7 +35843,7 @@
    "id": "fcae03ea",
    "url": "/pages/fcae03ea/",
    "en_url": "/en/pages/fcae03ea/",
-   "title_zh": "",
+   "title_zh": "GFPLAIN250 米：全球 250 米洪泛区数据集",
    "title_en": "GFPLAIN250m: Global 250m Floodplain Dataset",
    "cat": "water",
    "tags": [
@@ -35855,21 +35855,21 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2018-11-11 至 2018-11-12",
    "provider": "IAHS",
    "platform": "Google Earth Engine",
    "ee_id": "IAHS/GFPLAIN250/v0",
-   "intro_zh": "",
+   "intro_zh": "GFPLAIN250m 包含使用 Nardi 等（2006，2018）提出的地貌学方法识别出的地球洪泛区栅格数据。250 米洪泛区数据集通过处理 NASA SRTM 数字高程模型制作，该模型收集自 http://srtm.csi.cgiar.org/，特别是 250 米 SRTM…",
    "intro_en": "The GFPLAIN250m includes raster data of Earth's floodplains identified using a geomorphic approach presented in Nardi et al. (2006, 2018). The 250m floodplain dataset is derived by processing the NASA…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "fcb80dde",
    "url": "/pages/fcb80dde/",
    "en_url": "/en/pages/fcb80dde/",
-   "title_zh": "",
+   "title_zh": "iSDAsoil 砂粒含量",
    "title_en": "iSDAsoil Sand Content",
    "cat": "soil",
    "tags": [
@@ -35881,16 +35881,16 @@
    "res_m": 30.0,
    "res_bucket": "10–30 米",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "非洲",
+   "coverage": "非洲",
    "time": "2001-01-01 至 2017-01-01",
    "provider": "iSDA",
    "platform": "Google Earth Engine",
    "ee_id": "ISDASOIL/Africa/v1/sand_content",
-   "intro_zh": "",
+   "intro_zh": "土壤深度 0–20 厘米和 20–50 厘米处的砂粒含量，预测平均值和标准差。在茂密丛林地区（一般在非洲中部），模型精度较低，因此可能看到条带（striping）等伪影。",
    "intro_en": "Sand content at soil depths of 0-20 cm and 20-50 cm,\\npredicted mean and standard deviation. In areas of dense jungle (generally over central Africa), model accuracy is low and therefore artifacts suc…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "fcf822c6",
@@ -35985,7 +35985,7 @@
    "id": "fd53e731",
    "url": "/pages/fd53e731/",
    "en_url": "/en/pages/fd53e731/",
-   "title_zh": "",
+   "title_zh": "IPCC AR6 海平面预估：区域（中等置信度）",
    "title_en": "IPCC AR6 Sea Level Projections Regional (Medium Confidence)",
    "cat": "ocean",
    "tags": [
@@ -35997,21 +35997,21 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "全球",
    "time": "2020-01-01 至 2120-01-01",
    "provider": "IPCC",
    "platform": "Google Earth Engine",
    "ee_id": "IPCC/AR6/SLP",
-   "intro_zh": "",
+   "intro_zh": "IPCC 提供的数据集包含来自 IPCC 第六次评估报告（AR6）的全面全球和区域海平面预估。该集合包含中等置信度海平面上升预估的资产。该数据集跨越 2020 年到 2150 年，包括 AR6 中概述的各种未来情景的预估。它详细分解了对海平面变化有贡献的各个过程，以及全球平均预估…",
    "intro_en": "The dataset provided by the IPCC features comprehensive global and regional sea level projections from the IPCC 6th Assessment Report (AR6). This collection contains assets for the medium confidence s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "fda18b21",
    "url": "/pages/fda18b21/",
    "en_url": "/en/pages/fda18b21/",
-   "title_zh": "",
+   "title_zh": "HYCOM：混合坐标海洋模型，海水流速（已弃用）",
    "title_en": "HYCOM: Hybrid Coordinate Ocean Model, Water Velocity [deprecated]",
    "cat": "ocean",
    "tags": [
@@ -36024,17 +36024,17 @@
    ],
    "res_m": 8905.6,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "全球海洋（80.48°S–80.48°N）",
    "time": "1992-10-02 至 2018-12-09",
    "provider": "NOPP",
    "platform": "Google Earth Engine",
    "ee_id": "HYCOM/GLBu0_08/sea_water_velocity",
-   "intro_zh": "",
+   "intro_zh": "混合坐标海洋模型（HYCOM）是一个数据同化的混合等密度-sigma-压力（广义）坐标海洋模型。EE 中托管的 HYCOM 数据子集包含盐度、温度、流速和高程变量。它们已被插值到 80.48°S 至 80.48°N 之间均匀的 0.08 度经纬度网格上。盐度、温度和流速变量已被插…",
    "intro_en": "The Hybrid Coordinate Ocean Model (HYCOM) is a data-assimilative hybrid isopycnal-sigma-pressure (generalized) coordinate ocean model. The subset of HYCOM data hosted in EE contains the variables sali…",
    "type": "A",
-   "batch": ""
+   "batch": "A-03"
   },
   {
    "id": "fde00c02",

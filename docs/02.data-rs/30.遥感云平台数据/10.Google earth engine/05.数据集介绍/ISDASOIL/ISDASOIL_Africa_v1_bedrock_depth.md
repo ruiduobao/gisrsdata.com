@@ -1,5 +1,5 @@
 ---
-title: "iSDAsoil Depth to Bedrock"
+title: "iSDAsoil 基岩深度"
 date: 2026-11-03 12:00:00
 permalink: /pages/d2d6b77f/
 categories:
@@ -13,61 +13,72 @@ tags:
   - "soil"
 ---
 
-# iSDAsoil Depth to Bedrock
+# iSDAsoil 基岩深度
 
-## 数据集简介
+英文原名：iSDAsoil Depth to Bedrock
 
-Depth to bedrock at 0-200 cm depth, predicted mean and standard deviation.
+## 这是什么数据
 
-Due to the potential cropland mask that was used for generating the data,
-many areas of exposed rock (where depth to bedrock would be 0 cm) have been
-masked out and therefore appear as nodata values. The maximum depth of this
-layer is 200 cm, but this does not represent the maximum possible soil depth,
-therefore values of 200 should be interpreted as >= 200.
+0–200 厘米深度处的基岩深度，预测平均值和标准差。
 
-In areas of dense jungle (generally over central Africa), model accuracy is
-low and therefore artifacts such as banding (striping) might be seen.
+由于生成数据时使用了潜在耕地掩膜，许多裸露岩石区域（基岩深度本应为 0 厘米）已被掩膜掉，因此显示为无数据值。该层的最大深度为 200 厘米，但这并不代表可能的最大土壤深度，因此 200 的值应解释为 >= 200。
 
-Soil property predictions were made by
-[Innovative Solutions for Decision Agriculture Ltd. (iSDA)](https://isda-africa.com/)
-at 30 m pixel size using machine learning coupled with remote sensing data
-and a training set of over 100,000 analyzed soil samples.
+在茂密丛林地区（一般在非洲中部），模型精度较低，因此可能看到条带（striping）等伪影。
 
-Further information can be found in the
-[FAQ](https://www.isda-africa.com/isdasoil/faq/) and
-[technical information documentation](https://www.isda-africa.com/isdasoil/technical-information/). To submit an issue or request support, please visit
-[the iSDAsoil site](https://isda-africa.com/isdasoil).
+土壤属性预测由 [Innovative Solutions for Decision Agriculture Ltd. (iSDA)](https://isda-africa.com/) 以 30 米像元大小使用机器学习结合遥感数据和超过 100,000 个已分析土壤样本的训练集制作。
 
-## 基本信息
+更多信息见 [FAQ](https://www.isda-africa.com/isdasoil/faq/) 和[技术信息文档](https://www.isda-africa.com/isdasoil/technical-information/)。要提交问题或请求支持，请访问 [iSDAsoil 网站](https://isda-africa.com/isdasoil)。
 
-- 数据集编号（Earth Engine ID）：`ISDASOIL/Africa/v1/bedrock_depth`
-- 数据类型：影像（Image）
-- 提供方：iSDA、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：非洲
 - 时间范围：2001-01-01 至 2017-01-01
-- 空间分辨率：30 米
-- 许可：CC-BY-4.0
-- 关键词：africa, bedrock, isda, soil
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像（Image），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| mean_0_200 | Depth to bedrock, predicted mean at 0-200 cm depth | 30 |  |
-| stdev_0_200 | Depth to bedrock, standard deviation at 0-20 cm depth | 30 |  |
+| mean_0_200 | 基岩深度，0–200 厘米深度处的预测平均值 | 30 |  |
+| stdev_0_200 | 基岩深度，0–20 厘米深度处的标准差 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 非洲土壤属性制图
+- 精准农业决策
+- 土地退化评估
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.Image('ISDASOIL/Africa/v1/bedrock_depth');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`ISDASOIL/Africa/v1/bedrock_depth`
+- 提供方：iSDA、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/ISDASOIL_Africa_v1_bedrock_depth
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：africa, bedrock, isda, soil
 - 数据引用：Hengl, T., Miller, M.A.E., Kri&zcaron;an, J., et al. African soil properties and nutrients
 mapped at 30 m spatial resolution using two-scale ensemble machine learning.
 Sci Rep 11, 6130 (2021).
 [doi:10.1038/s41598-021-85639-y](https://doi.org/10.1038/s41598-021-85639-y)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [iSDAsoil Bulk Density, <2mm Fraction](/pages/9e6d23d2/)
+- [iSDAsoil Clay Content](/pages/b359c603/)
+- [iSDAsoil Effective Cation Exchange Capacity](/pages/c734392b/)
+- [iSDAsoil Extractable Calcium](/pages/1e6a6374/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

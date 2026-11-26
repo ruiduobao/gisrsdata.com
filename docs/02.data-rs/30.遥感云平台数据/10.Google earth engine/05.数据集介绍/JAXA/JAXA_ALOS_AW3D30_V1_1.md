@@ -1,5 +1,5 @@
 ---
-title: "ALOS DSM: Global 30m v1.1 [deprecated]"
+title: "ALOS 全球 30 米 DSM v1.1（已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/8561707f/
 categories:
@@ -16,70 +16,61 @@ tags:
   - "topography"
 ---
 
-# ALOS DSM: Global 30m v1.1 [deprecated]
+# ALOS 全球 30 米 DSM v1.1（已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：ALOS DSM: Global 30m v1.1 [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-ALOS World 3D - 30m (AW3D30) is a global digital surface
-model (DSM) dataset with a horizontal resolution of approximately
-30 meters (1 arcsec mesh). The dataset is based on the DSM dataset
-(5-meter mesh version) of the [World 3D Topographic Data](https://www.aw3d.jp/en/).
-More details are available in the dataset [documentation](https://www.eorc.jaxa.jp/ALOS/en/aw3d30/aw3d30v11_format_e.pdf).
+ALOS World 3D - 30m（AW3D30）是全球数字地表模型（DSM）数据集，水平分辨率约 30 米（1 弧秒格网）。该数据集基于 [World 3D Topographic Data](https://www.aw3d.jp/en/) 的 DSM 数据集（5 米格网版本）。更多细节见数据集[文档](https://www.eorc.jaxa.jp/ALOS/en/aw3d30/aw3d30v11_format_e.pdf)。
 
-In the version 1.1, released in March 2017, void values in the cloud and snow
-pixels between 60 degrees North and 60 degrees South were filled with existing
-DEMs using the Delta Surface Fill method.
+1.1 版于 2017 年 3 月发布：南北纬 60 度之间云、雪像元的空值使用已有 DEM 以 Delta Surface Fill 方法填补。
 
-The AW3D DSM elevation is calculated by an image matching process
-that uses a stereo pair of optical images. Clouds, snow, and ice are
-automatically identified during processing and applied the
-mask information. However, mismatched points sometimes
-remain especially surrounding (or at the edges of) clouds, snow,
-and ice areas, which cause some height errors in the final DSM.
+AW3D DSM 高程由使用光学影像立体像对的影像匹配过程计算得到。处理过程中云、雪与冰被自动识别并应用掩膜信息。但尤其在云、雪、冰区域周围（或边缘），有时会残留未匹配点，从而在最终 DSM 中造成一些高程误差。
 
-Here are some example areas with data values outside of valid elevation
-range. Impossibly low negative values are concentrated in Antarctica around
-(-63.77, -61.660), (-77.22, -150.27), and (-73.29, 168.14); in Indonesia
-around (-5.36, 134.55); in Brazil around (-1.667113844, -50.6269684);
-and in Peru around (-10.45048137, -75.39459876) with approximate values of
--1013, -998, -635, and -610 respectively. Impossibly high
-positive values are found in several locations in the Arctic around
-(79.83, -77.67) and (69.54, -75.42); in Fiji around (-16.58, 179.44)
-and (-18.96, 178.39); and in Nepal around (28.50, 84.56) with
-approximate values of 15369, 15213, and 10900 respectively.
+以下是一些数据值超出有效高程范围的示例区域。不可能出现的极低负值集中在南极洲（−63.77, −61.660）、（−77.22, −150.27）、（−73.29, 168.14）附近；印度尼西亚（−5.36, 134.55）附近；巴西（−1.667113844, −50.6269684）附近；秘鲁（−10.45048137, −75.39459876）附近，近似值分别约为 −1013、−998、−635 与 −610。不可能出现的极高正值见于北极若干地点（79.83, −77.67）与（69.54, −75.42）附近；斐济（−16.58, 179.44）与（−18.96, 178.39）附近；尼泊尔（28.50, 84.56）附近，近似值分别约为 15369、15213 与 10900。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`JAXA/ALOS/AW3D30/V1_1`
-- 数据类型：影像（Image）
-- 提供方：JAXA Earth Observation Research Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2006 年 1 月 24 日至 2011 年 5 月 12 日（源数据期）；分辨率：30 米。
 - 时间范围：2006-01-24 至 2011-05-12
-- 空间分辨率：30 米
-- 许可：proprietary
-- 关键词：alos, dem, elevation, elevation-topography, geophysical, jaxa, topography
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像（Image），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| AVE | Elevation value calculated by average resampling a 5-meter mesh model. | 30 |  |
-| MED | Elevation value calculated by median resampling a 5-meter mesh model. | 30 |  |
-| AVE_STK | Stacking number of the scene unit DSM used in producing DSM. The band is derived by resampling the stacking number for 5m resolution DSM to 30m resolution.  | 30 |  |
-| MED_STK | Stacking number of the scene unit DSM used in producing DSM. The band is derived by resampling the stacking number for 5m resolution DSM to 30m resolution.  | 30 |  |
-| AVE_MSK | 8-bit mask for the ave band. | 30 |  |
-| MED_MSK | 8-bit mask for the med band. | 30 |  |
+| AVE | 由 5 米格网模型平均重采样得到的高程值。 | 30 |  |
+| MED | 由 5 米格网模型中位数重采样得到的高程值。 | 30 |  |
+| AVE_STK | 用于生成 DSM 的景单元 DSM 叠加数；该波段由 5 米分辨率 DSM 的叠加数重采样至 30 米分辨率得到。 | 30 |  |
+| MED_STK | 用于生成 DSM 的景单元 DSM 叠加数；该波段由 5 米分辨率 DSM 的叠加数重采样至 30 米分辨率得到。 | 30 |  |
+| AVE_MSK | ave 波段的 8 位掩膜。 | 30 |  |
+| MED_MSK | med 波段的 8 位掩膜。 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 地形分析与地貌研究
+- 水文模拟与流域划分
+- 正射校正与三维可视化
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.Image('JAXA/ALOS/AW3D30/V1_1');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`JAXA/ALOS/AW3D30/V1_1`
+- 提供方：JAXA Earth Observation Research Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V1_1
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：alos, dem, elevation, elevation-topography, geophysical, jaxa, topography
 - 数据引用：T. Tadono, H. Ishida, F. Oda, S. Naito, K. Minakawa, H. Iwamoto
 : Precise Global DEM Generation By ALOS PRISM, ISPRS Annals of
 the Photogrammetry, Remote Sensing and Spatial Information Sciences,
@@ -87,3 +78,12 @@ Vol.II-4, pp.71-76, 2014. [PDF file](https://www.isprs-ann-photogramm-remote-sen
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ALOS DSM: Global 30m  v4.1](/pages/774620fb/)
+- [ALOS DSM: Global 30m  v3.2 [deprecated]](/pages/6610d57d/)
+- [ALOS DSM: Global 30m v2.1 [deprecated]](/pages/4e1fdf4b/)
+- [ALOS DSM: Global 30m v2.2 [deprecated]](/pages/f8b280da/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

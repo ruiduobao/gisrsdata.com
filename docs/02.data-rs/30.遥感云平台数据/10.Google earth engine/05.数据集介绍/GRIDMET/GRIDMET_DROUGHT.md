@@ -1,5 +1,5 @@
 ---
-title: "GRIDMET DROUGHT: CONUS Drought Indices"
+title: "GRIDMET 干旱指数：美国本土干旱指数"
 date: 2026-11-03 12:00:00
 permalink: /pages/f6533466/
 categories:
@@ -21,125 +21,104 @@ tags:
   - "palmer"
 ---
 
-# GRIDMET DROUGHT: CONUS Drought Indices
+# GRIDMET 干旱指数：美国本土干旱指数
 
-## 数据集简介
+英文原名：GRIDMET DROUGHT: CONUS Drought Indices
 
-This dataset contains drought indices derived from the 4-km daily Gridded
-Surface Meteorological (GRIDMET) dataset. The drought indices provided include
-the standardized precipitation index (SPI), the evaporative drought demand
-index (EDDI), the standardized precipitation evapotranspiration index (SPEI),
-the Palmer Drought Severity Index (PDSI) and Palmer Z Index (Z).
+## 这是什么数据
 
-SPI, EDDI, and SPEI are supplied on different time scales corresponding to the
-time aggregation of precipitation, reference evapotranspiration, and
-precipitation minus reference evapotranspiration, respectively. The time scales
-include 14 day, 30 day, 90 day, 180 day, 270 day, 1 year, 2 years and 5 years.
-The standardization is done by using a non-parametric standardized probability
-based method where plotting positions are used to obtain probabilities which
-are transformed to indices assuming an inverse-normal distribution. All data
-are standardized over a common time period of 1981-2016.
+该数据集包含源自 4 公里逐日格网地表气象（GRIDMET）数据集的干旱指数。提供的干旱指数包括标准化降水指数（SPI）、蒸发干旱需求指数（EDDI）、标准化降水蒸散指数（SPEI）、帕尔默干旱严重指数（PDSI）和帕尔默 Z 指数（Z）。
 
-PDSI and Z are calculated using a modified version of the Palmer formula which
-uses reference evapotranspiration and precipitation from GRIDMET, and a static
-soil water holding capacity layer (top 1500mm) from STATSGO. Modifications to
-the coefficients of the original Palmer formula are applied to calculate PDSI.
-The baseline period for PDSI and Z calculations is 1979-2018.
+SPI、EDDI 和 SPEI 以不同的时间尺度提供，分别对应降水、参考蒸散量以及降水减去参考蒸散量的时间聚合。时间尺度包括 14 天、30 天、90 天、180 天、270 天、1 年、2 年和 5 年。标准化使用基于非参数标准化概率的方法，其中使用绘图位置（plotting positions）获得概率，并假设逆正态分布将概率转换为指数。所有数据都在 1981–2016 年的共同时间段上标准化。
 
-Interpretation of the drought indices in this dataset is different for PDSI and
-Z than for SPI, SPEI and EDDI. Utilizing the interpretation from the US Drought
-monitor, values of these drought indices have the following meaning:
+PDSI 和 Z 使用帕尔默公式的修改版计算，该公式使用 GRIDMET 的参考蒸散量和降水，以及来自 STATSGO 的静态土壤持水能力层（顶部 1500 毫米）。对原始帕尔默公式的系数做了修改以计算 PDSI。PDSI 和 Z 计算的基准期为 1979–2018 年。
 
-PDSI and z:
+该数据集中干旱指数的解释，PDSI 和 Z 与 SPI、SPEI 和 EDDI 不同。利用美国干旱监测（US Drought Monitor）的解释，这些干旱指数值的含义如下：
 
-  * 5.0 or more (extremely wet)
-  * 4.0 to 4.99 (very wet)
-  * 3.0 to 3.99 (moderately wet),
-  * 2.0 to 2.99 (slightly wet)
-  * 1.0 to 1.99 (incipient wet spell)
-  * -0.99 to 0.99(near normal)
-  * -1.99 to -1.00 (incipient dry spell)
-  * -2.99 to -2.00 (mild drought)
-  * -3.99 to -3.00 (moderate drought)
-  * -4.99 to -4.00 (severe drought)
-  * -5.0 or less (extreme drought)
+PDSI 和 z：
 
-SPI/SPEI/EDDI:
+* 5.0 或以上（极端湿润） * 4.0 至 4.99（很湿润） * 3.0 至 3.99（中度湿润）， * 2.0 至 2.99（轻微湿润） * 1.0 至 1.99（初始湿润期） * -0.99 至 0.99（接近正常） * -1.99 至 -1.00（初始干旱期） * -2.99 至 -2.00（轻度干旱） * -3.99 至 -3.00（中度干旱） * -4.99 至 -4.00（严重干旱） * -5.0 或以下（极端干旱）
 
-  * 2.0 or more (extremely wet)
-  * 1.6 to 1.99 (very wet)
-  * 1.3 to 1.59 (moderately wet),
-  * 0.8 to 1.29 (slightly wet)
-  * 0.5 to 0.79 (incipient wet spell)
-  * -0.49 to 0.49(near normal),
-  * -0.79 to -0.5 (incipient dry spell)
-  * -1.29 to -0.8 (mild drought)
-  * -1.59 to -1.3 (moderate drought)
-  * -1.99 to -1.6 (severe drought)
-  * -2.0 or less (extreme drought).
+SPI/SPEI/EDDI：
 
-This dataset contains provisional products that are replaced with
-updated versions when the complete source data become available.
-Products can be distinguished by the value of the 'status' property.
-At first, assets are ingested with status='early'. After several
-days, they are replaced by assets with status='provisional'.
-After about 2 months, they are replaced by the final assets with
-status='permanent'.
+* 2.0 或以上（极端湿润） * 1.6 至 1.99（很湿润） * 1.3 至 1.59（中度湿润）， * 0.8 至 1.29（轻微湿润） * 0.5 至 0.79（初始湿润期） * -0.49 至 0.49（接近正常）， * -0.79 至 -0.5（初始干旱期） * -1.29 至 -0.8（轻度干旱） * -1.59 至 -1.3（中度干旱） * -1.99 至 -1.6（严重干旱） * -2.0 或以下（极端干旱）。
 
-## 基本信息
+该数据集包含临时产品，当完整的源数据可用时会被更新版本替换。产品可通过 'status' 属性值区分。起初，资产以 status='early' 摄入。几天后，它们被 status='provisional' 的资产替换。大约 2 个月后，它们被 status='permanent' 的最终资产替换。
 
-- 数据集编号（Earth Engine ID）：`GRIDMET/DROUGHT`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：University of California Merced、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：美国本土（CONUS）
 - 时间范围：1980-01-05 至 2026-10-22
-- 空间分辨率：4638.3 米
-- 许可：proprietary
-- 关键词：climate, climatic-water-balance, conus, crop, drought, eddi, evapotranspiration, geophysical, gridmet, merced, metdata, palmer, pdsi, precipitation, spei, spi, surface-ground-water, water-vapor
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 4,638.3 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| spi14d | Standardized Precipitation Index (SPI) where precipitation was aggregated for the last 14 days | 4638.3 |  |
-| spi30d | Standardized Precipitation Index (SPI) where precipitation was aggregated for the last 30 days | 4638.3 |  |
-| spi90d | Standardized Precipitation Index (SPI) where precipitation was aggregated for the last 90 days | 4638.3 |  |
-| spi180d | Standardized Precipitation Index (SPI) where precipitation was aggregated for the last 180 days | 4638.3 |  |
-| spi270d | Standardized Precipitation Index (SPI) where precipitation was aggregated for the last 270 days | 4638.3 |  |
-| spi1y | Standardized Precipitation Index (SPI) where precipitation was aggregated for the last 1 year | 4638.3 |  |
-| spi2y | Standardized Precipitation Index (SPI) where precipitation was aggregated for the last 2 years | 4638.3 |  |
-| spi5y | Standardized Precipitation Index (SPI) where precipitation was aggregated for the last 5 years | 4638.3 |  |
-| eddi14d | Evaporative Drought Demand Index (EDDI) where potential evapotranspiration was aggregated for the last 14 days  | 4638.3 |  |
-| eddi30d | Evaporative Drought Demand Index (EDDI) where potential evapotranspiration was aggregated for the last 30 days  | 4638.3 |  |
-| eddi90d | Evaporative Drought Demand Index (EDDI) where potential evapotranspiration was aggregated for the last 90 days  | 4638.3 |  |
-| eddi180d | Evaporative Drought Demand Index (EDDI) where potential evapotranspiration was aggregated for the last 180 days  | 4638.3 |  |
-| eddi270d | Evaporative Drought Demand Index (EDDI) where potential evapotranspiration was aggregated for the last 270 days  | 4638.3 |  |
-| eddi1y | Evaporative Drought Demand Index (EDDI) where potential evapotranspiration was aggregated for the last 1 year  | 4638.3 |  |
-| eddi2y | Evaporative Drought Demand Index (EDDI) where potential evapotranspiration was aggregated for the last 2 years  | 4638.3 |  |
-| eddi5y | Evaporative Drought Demand Index (EDDI) where potential evapotranspiration was aggregated for the last 5 years  | 4638.3 |  |
-| spei14d | Standardized Precipitation Evapotranspiration Index (SPEI) where climatic water balance was aggregated for the last 14 days  | 4638.3 |  |
-| spei30d | Standardized Precipitation Evapotranspiration Index (SPEI) where climatic water balance was aggregated for the last 30 days  | 4638.3 |  |
-| spei90d | Standardized Precipitation Evapotranspiration Index (SPEI) where climatic water balance was aggregated for the last 90 days  | 4638.3 |  |
-| spei180d | Standardized Precipitation Evapotranspiration Index (SPEI) where climatic water balance was aggregated for the last 180 days  | 4638.3 |  |
-| spei270d | Standardized Precipitation Evapotranspiration Index (SPEI) where climatic water balance was aggregated for the last 270 days  | 4638.3 |  |
-| spei1y | Standardized Precipitation Evapotranspiration Index (SPEI) where climatic water balance was aggregated for the last 1 year  | 4638.3 |  |
-| spei2y | Standardized Precipitation Evapotranspiration Index (SPEI) where climatic water balance was aggregated for the last 2 years  | 4638.3 |  |
-| spei5y | Standardized Precipitation Evapotranspiration Index (SPEI) where climatic water balance was aggregated for the last 5 years  | 4638.3 |  |
-| pdsi | Palmer Drought Severity Index | 4638.3 |  |
-| z | Palmer Z Index | 4638.3 |  |
+| spi14d | 标准化降水指数（SPI），降水按最近 14 天 聚合 | 4638.3 |  |
+| spi30d | 标准化降水指数（SPI），降水按最近 30 天 聚合 | 4638.3 |  |
+| spi90d | 标准化降水指数（SPI），降水按最近 90 天 聚合 | 4638.3 |  |
+| spi180d | 标准化降水指数（SPI），降水按最近 180 天 聚合 | 4638.3 |  |
+| spi270d | 标准化降水指数（SPI），降水按最近 270 天 聚合 | 4638.3 |  |
+| spi1y | 标准化降水指数（SPI），降水按最近 1 年 聚合 | 4638.3 |  |
+| spi2y | 标准化降水指数（SPI），降水按最近 2 年 聚合 | 4638.3 |  |
+| spi5y | 标准化降水指数（SPI），降水按最近 5 年 聚合 | 4638.3 |  |
+| eddi14d | 蒸发干旱需求指数（EDDI），潜在蒸散量按最近 14 天 聚合 | 4638.3 |  |
+| eddi30d | 蒸发干旱需求指数（EDDI），潜在蒸散量按最近 30 天 聚合 | 4638.3 |  |
+| eddi90d | 蒸发干旱需求指数（EDDI），潜在蒸散量按最近 90 天 聚合 | 4638.3 |  |
+| eddi180d | 蒸发干旱需求指数（EDDI），潜在蒸散量按最近 180 天 聚合 | 4638.3 |  |
+| eddi270d | 蒸发干旱需求指数（EDDI），潜在蒸散量按最近 270 天 聚合 | 4638.3 |  |
+| eddi1y | 蒸发干旱需求指数（EDDI），潜在蒸散量按最近 1 年 聚合 | 4638.3 |  |
+| eddi2y | 蒸发干旱需求指数（EDDI），潜在蒸散量按最近 2 年 聚合 | 4638.3 |  |
+| eddi5y | 蒸发干旱需求指数（EDDI），潜在蒸散量按最近 5 年 聚合 | 4638.3 |  |
+| spei14d | 标准化降水蒸散指数（SPEI），气候水分平衡按最近 14 天 聚合 | 4638.3 |  |
+| spei30d | 标准化降水蒸散指数（SPEI），气候水分平衡按最近 30 天 聚合 | 4638.3 |  |
+| spei90d | 标准化降水蒸散指数（SPEI），气候水分平衡按最近 90 天 聚合 | 4638.3 |  |
+| spei180d | 标准化降水蒸散指数（SPEI），气候水分平衡按最近 180 天 聚合 | 4638.3 |  |
+| spei270d | 标准化降水蒸散指数（SPEI），气候水分平衡按最近 270 天 聚合 | 4638.3 |  |
+| spei1y | 标准化降水蒸散指数（SPEI），气候水分平衡按最近 1 年 聚合 | 4638.3 |  |
+| spei2y | 标准化降水蒸散指数（SPEI），气候水分平衡按最近 2 年 聚合 | 4638.3 |  |
+| spei5y | 标准化降水蒸散指数（SPEI），气候水分平衡按最近 5 年 聚合 | 4638.3 |  |
+| pdsi | 帕尔默干旱严重指数 | 4638.3 |  |
+| z | 帕尔默 Z 指数 | 4638.3 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 干旱监测与预警
+- 农业干旱评估
+- 水资源管理
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('GRIDMET/DROUGHT');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`GRIDMET/DROUGHT`
+- 提供方：University of California Merced、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：climate, climatic-water-balance, conus, crop, drought, eddi, evapotranspiration, geophysical, gridmet, merced, metdata, palmer, pdsi, precipitation, spei, spi, surface-ground-water, water-vapor
 - 数据引用：Abatzoglou J. T., Development of gridded surface meteorological data for
 ecological applications and modelling, International Journal of
 Climatology. (2012)
 [doi:10.1002/joc.3413](https://doi.org/10.1002/joc.3413)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [GLCF：Landsat 全球内陆水体](/pages/500a347f/)
+- [全球网格人口 GPWv4.11：水体掩膜](/pages/d70c6d97/)
+- [全球网格人口 GPWv4.11：水域面积](/pages/0f13e587/)
+- [美国 BLM 土地健康野外样地数据（AIM TerrADat）](/pages/53c74382/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
