@@ -80,9 +80,9 @@ Outlining where humans live, the World Settlement Footprint 2015. Scientific Dat
 
 ## 同类数据
 
+- [CSP 全球人类改造指数（gHM）](/pages/1227f44f/)
 - [全球油棕分布与种植年份（1990–2021）v1.2](/pages/36b9933f/)
 - [加拿大年度作物种植清单（AAFC）](/pages/ad6873e3/)
 - [哥白尼全球土地覆盖 LC100 第 3 集合（100 米）](/pages/ab21afa1/)
-- [欧洲 CORINE 土地覆盖 V20](/pages/a9db0306/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

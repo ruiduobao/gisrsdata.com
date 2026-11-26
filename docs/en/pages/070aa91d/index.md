@@ -113,7 +113,7 @@ SPEIbase v.2.9 [Dataset]; DIGITAL.CSIC; Version 2.9.
 
 - [SPEIbase: Standardised Precipitation-Evapotranspiration Index, Version 2.11](/en/pages/2a1f609f/)
 - [SPEIbase: Standardised Precipitation-Evapotranspiration Index, Version 2.10 [deprecated]](/en/pages/9bb9126f/)
-- [SPEIbase: Standardised Precipitation-Evapotranspiration Index database, Version 2.8 [deprecated]](/pages/8f385aa2/)
-- [Landsat-derived Forest Age for Canada 2019](/en/pages/65b34141/)
+- [SPEIbase Global Drought Index Database, Version 2.8 [deprecated]](/en/pages/8f385aa2/)
+- [CSIRO Global Biodiversity Indicators](/en/pages/5e19a751/)
 
 > This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

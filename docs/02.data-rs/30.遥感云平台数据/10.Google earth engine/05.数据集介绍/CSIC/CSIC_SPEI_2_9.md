@@ -129,7 +129,7 @@ SPEIbase v.2.9 [Dataset]; DIGITAL.CSIC; Version 2.9.
 
 - [全球 SPEI 干旱指数数据库（2.11 版）](/pages/2a1f609f/)
 - [全球 SPEI 干旱指数数据库（2.10 版，已弃用）](/pages/9bb9126f/)
-- [SPEIbase: Standardised Precipitation-Evapotranspiration Index database, Version 2.8 [deprecated]](/pages/8f385aa2/)
-- [加拿大森林林龄图 2019（Landsat 衍生）](/pages/65b34141/)
+- [全球 SPEI 干旱指数数据库（2.8 版，已弃用）](/pages/8f385aa2/)
+- [CSIRO 全球生物多样性指标](/pages/5e19a751/)
 
 > **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

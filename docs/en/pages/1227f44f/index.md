@@ -64,9 +64,9 @@ Global Change Biology 00:1-16. [doi:10.1111/gcb.14549](https://doi.org/10.1111/g
 
 ## Related datasets
 
+- [World Settlement Footprint 2015](/en/pages/a545a891/)
 - [Global Oil Palm Extent and Planting Year (1990–2021) v1.2](/en/pages/36b9933f/)
 - [Canada AAFC Annual Crop Inventory](/en/pages/ad6873e3/)
 - [Copernicus Global Land Cover Layers: CGLS-LC100 Collection 3](/en/pages/ab21afa1/)
-- [Copernicus CORINE Land Cover V20](/en/pages/a9db0306/)
 
 > This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

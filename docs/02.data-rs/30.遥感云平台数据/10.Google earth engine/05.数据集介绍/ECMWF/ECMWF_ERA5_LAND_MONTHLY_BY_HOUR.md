@@ -1,5 +1,5 @@
 ---
-title: "ERA5-Land Monthly Averaged by Hour of Day - ECMWF Climate Reanalysis"
+title: "ERA5-Land 按日内时刻月平均数据 — ECMWF 气候再分析"
 date: 2026-11-03 12:00:00
 permalink: /pages/39c04517/
 categories:
@@ -21,125 +21,135 @@ tags:
   - "reanalysis"
 ---
 
-# ERA5-Land Monthly Averaged by Hour of Day - ECMWF Climate Reanalysis
+# ERA5-Land 按日内时刻月平均数据 — ECMWF 气候再分析
 
-## 数据集简介
+英文原名：ERA5-Land Monthly Averaged by Hour of Day - ECMWF Climate Reanalysis
 
-ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables
-over several decades at an enhanced resolution compared to ERA5. ERA5-Land has been produced by
-replaying the land component of the ECMWF ERA5 climate reanalysis. Reanalysis combines model
-data with observations from across the world into a globally complete and consistent dataset
-using the laws of physics. Reanalysis produces data that goes several decades back in time,
-providing an accurate description of the climate of the past. This dataset includes all 50
-variables as available on CDS.
+## 这是什么数据
 
-The data presented here is a subset of the full ERA5-Land dataset post-processed by ECMWF.
-Monthly-mean averages have been pre-calculated to facilitate many applications requiring easy and
-fast access to the data, when sub-monthly fields are not required.
+ERA5-Land 是一套再分析数据集，相比 ERA5 以更高的分辨率、一致地呈现数十年间陆地变量的演变。ERA5-Land 通过重演 ECMWF ERA5 气候再分析的陆面分量制作而成。再分析利用物理规律，将模式数据与来自世界各地的观测结合成全球完整、一致的数据集。再分析数据可回溯数十年，准确描述过去的气候。本数据集包含 CDS 上提供的全部 50 个变量。
 
-Please note that the convention for accumulations used in ERA5-Land differs with that for ERA5.
-The accumulations are treated the same as those in ERA-Interim or ERA-Interim/Land, i.e., they
-are accumulated from the beginning of the forecast to the end of the forecast step. This happens
-within every day and gets reset on midnight. The Earth Engine Data team added 19 additional bands,
-one for each of the accumulation bands, with the hourly values computed as the difference
-between two consecutive forecast steps.
+此处呈现的数据是 ECMWF 后处理的完整 ERA5-Land 数据集的子集。月平均值已预先计算，方便在不需要月以下尺度场时、需要便捷快速访问数据的众多应用。
 
-## 基本信息
+请注意，ERA5-Land 所用的累积约定与 ERA5 不同。其累积与 ERA-Interim 或 ERA-Interim/Land 相同，即从预报开始累积到预报步长结束，每天如此、午夜重置。Earth Engine 数据团队另增加了 19 个波段（每个累积波段一个），其逐小时值由两个相邻预报步长之差计算得出。
 
-- 数据集编号（Earth Engine ID）：`ECMWF/ERA5_LAND/MONTHLY_BY_HOUR`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Climate Data Store、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：全球陆地
 - 时间范围：1950-01-01 至 2026-09-01
-- 空间分辨率：11132 米
-- 许可：proprietary
-- 关键词：cds, climate, copernicus, ecmwf, era5-land, evaporation, heat, lakes, precipitation, pressure, radiation, reanalysis, runoff, snow, soil-water, temperature, vegetation, weather-and-climate, wind
+- 更新节奏：逐月（按日内时刻）
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 11,132 米（约 11 公里格距）
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| dewpoint_temperature_2m | Temperature to which the air, at 2 meters above the surface of the Earth, would have to be cooled for saturation to occur. It is a measure of the humidity of the air. Combined with temperature and pressure, it can be used to calculate the relative humidity. 2m dew point temperature is calculated by interpolating between the lowest model level and the Earth's surface, taking account of the atmospheric conditions.  | 11132 |  |
-| temperature_2m | Temperature of air at 2m above the surface of land, sea or in-land waters. 2m temperature is calculated by interpolating between the lowest model level and the Earth's surface, taking account of the atmospheric conditions.  | 11132 |  |
-| skin_temperature | Temperature of the surface of the Earth. The skin temperature is the theoretical temperature that is required to satisfy the surface energy balance. It represents the temperature of the uppermost surface layer, which has no heat capacity and so can respond instantaneously to changes in surface fluxes. Skin temperature is calculated differently over land and sea.  | 11132 |  |
-| soil_temperature_level_1 | Temperature of the soil in layer 1 (0 - 7 cm) of the ECMWF Integrated Forecasting System. The surface is at 0 cm. Soil temperature is set at the middle of each layer, and heat transfer is calculated at the interfaces between them. It is assumed that there is no heat transfer out of the bottom of the lowest layer.  | 11132 |  |
-| soil_temperature_level_2 | Temperature of the soil in layer 2 (7-28 cm) of the ECMWF Integrated Forecasting System. | 11132 |  |
-| soil_temperature_level_3 | Temperature of the soil in layer 3 (28-100 cm) of the ECMWF Integrated Forecasting System. | 11132 |  |
-| soil_temperature_level_4 | Temperature of the soil in layer 4 (100-289 cm) of the ECMWF Integrated Forecasting System. | 11132 |  |
-| lake_bottom_temperature | Temperature of water at the bottom of inland water bodies (lakes, reservoirs, rivers) and coastal waters. ECMWF implemented a lake model in May 2015 to represent the water temperature and lake ice of all the world's major inland water bodies in the Integrated Forecasting System. The model keeps lake depth and surface area (or fractional cover) constant in time.  | 11132 |  |
-| lake_ice_depth | The thickness of ice on inland water bodies (lakes, reservoirs and rivers) and coastal waters. The ECMWF Integrated Forecasting System (IFS) represents the formation and melting of ice on inland water bodies (lakes, reservoirs and rivers) and coastal water. A single ice layer is represented. This parameter is the thickness of that ice layer.  | 11132 |  |
-| lake_ice_temperature | The temperature of the uppermost surface of ice on inland water bodies (lakes, reservoirs, rivers) and coastal waters. The ECMWF Integrated Forecasting System represents the formation and melting of ice on lakes. A single ice layer is represented.  | 11132 |  |
-| lake_mix_layer_depth | The thickness of the upper most layer of an inland water body (lake, reservoirs, and rivers) or coastal waters that is well mixed and has a near constant temperature with depth (uniform distribution of temperature). The ECMWF Integrated Forecasting System represents inland water bodies with two layers in the vertical, the mixed layer above and the thermocline below. Thermoclines upper boundary is located at the mixed layer bottom, and the lower boundary at the lake bottom. Mixing within the mixed layer can occur when the density of the surface (and near-surface) water is greater than that of the water below. Mixing can also occur through the action of wind on the surface of the lake.  | 11132 |  |
-| lake_mix_layer_temperature | The temperature of the upper most layer of inland water bodies (lakes, reservoirs and rivers) or coastal waters) that is well mixed. The ECMWF Integrated Forecasting System represents inland water bodies with two layers in the vertical, the mixed layer above and the thermocline below. Thermoclines upper boundary is located at the mixed layer bottom, and the lower boundary at the lake bottom. Mixing within the mixed layer can occur when the density of the surface (and near-surface) water is greater than that of the water below. Mixing can also occur through the action of wind on the surface of the lake.  | 11132 |  |
-| lake_shape_factor | This parameter describes the way that temperature changes with depth in the thermocline layer of inland water bodies (lakes, reservoirs and rivers) and coastal waters. It is used to calculate the lake bottom temperature and other lake-related parameters. The ECMWF Integrated Forecasting System represents inland and coastal water bodies with two layers in the vertical, the mixed layer above and the thermocline below where temperature changes with depth.  | 11132 |  |
-| lake_total_layer_temperature | The mean temperature of total water column in inland water bodies (lakes, reservoirs and rivers) and coastal waters. The ECMWF Integrated Forecasting System represents inland water bodies with two layers in the vertical, the mixed layer above and the thermocline below where temperature changes with depth. This parameter is the mean over the two layers.  | 11132 |  |
-| snow_albedo | It is defined as the fraction of solar (shortwave) radiation reflected by the snow, across the solar spectrum, for both direct and diffuse radiation. It is a measure of the reflectivity of the snow covered grid cells. Values vary between 0 and 1. Typically, snow and ice have high reflectivity with albedo values of 0.8 and above.  | 11132 |  |
-| snow_cover | It represents the fraction (0-1) of the cell / grid-box occupied by snow (similar to the cloud cover fields of ERA5).  | 11132 |  |
-| snow_density | Mass of snow per cubic meter in the snow layer. The ECMWF Integrated Forecast System (IFS) model represents snow as a single additional layer over the uppermost soil level. The snow may cover all or part of the grid box.  | 11132 |  |
-| snow_depth | Instantaneous grid-box average of the snow thickness on the ground (excluding snow on canopy). | 11132 |  |
-| snow_depth_water_equivalent | Depth of snow from the snow-covered area of a grid box. Its units are meters of water equivalent, so it is the depth the water would have if the snow melted and was spread evenly over the whole grid box. The ECMWF Integrated Forecast System represents snow as a single additional layer over the uppermost soil level. The snow may cover all or part of the grid box.  | 11132 |  |
-| snowfall | Accumulated total snow that has fallen to the Earth's surface. It consists of snow due to the large-scale atmospheric flow (horizontal scales greater than around a few hundred meters) and convection where smaller scale areas (around 5km to a few hundred kilometers) of warm air rise. If snow has melted during the period over which this variable was accumulated, then it will be higher than the snow depth. This variable is the total amount of water accumulated from the beginning of the forecast time to the end of the forecast step. The units given measure the depth the water would have if the snow melted and was spread evenly over the grid box. Care should be taken when comparing model variables with observations, because observations are often local to a particular point in space and time, rather than representing averages over a model grid box and model time step.  | 11132 |  |
-| snowmelt | Melting of snow averaged over the grid box (to find melt over snow, divide by snow fraction). This variable is accumulated from the beginning of the forecast time to the end of the forecast step.  | 11132 |  |
-| temperature_of_snow_layer | This variable gives the temperature of the snow layer from the ground to the snow-air interface. The ECMWF Integrated Forecast System (IFS) model represents snow as a single additional layer over the uppermost soil level. The snow may cover all or part of the grid box.  | 11132 |  |
-| skin_reservoir_content | Amount of water in the vegetation canopy and/or in a thin layer on the soil. It represents the amount of rain intercepted by foliage, and water from dew. The maximum amount of 'skin reservoir content' a grid box can hold depends on the type of vegetation, and may be zero. Water leaves the 'skin reservoir' by evaporation.  | 11132 |  |
-| volumetric_soil_water_layer_1 | Volume of water in soil layer 1 (0 - 7 cm) of the ECMWF Integrated Forecasting System. The surface is at 0 cm. The volumetric soil water is associated with the soil texture (or classification), soil depth, and the underlying groundwater level.  | 11132 |  |
-| volumetric_soil_water_layer_2 | Volume of water in soil layer 2 (7 -28 cm) of the ECMWF Integrated Forecasting System. | 11132 |  |
-| volumetric_soil_water_layer_3 | Volume of water in soil layer 3 (28-100 cm) of the ECMWF Integrated Forecasting System. | 11132 |  |
-| volumetric_soil_water_layer_4 | Volume of water in soil layer 4 (100-289 cm) of the ECMWF Integrated Forecasting System. | 11132 |  |
-| forecast_albedo | Is a measure of the reflectivity of the Earth's surface. It is the fraction of solar (shortwave) radiation reflected by Earth's surface, across the solar spectrum, for both direct and diffuse radiation. Values are between 0 and 1. Typically, snow and ice have high reflectivity with albedo values of 0.8 and above, land has intermediate values between about 0.1 and 0.4 and the ocean has low values of 0.1 or less. Radiation from the Sun (solar, or shortwave, radiation) is partly reflected back to space by clouds and particles in the atmosphere (aerosols) and some of it is absorbed. The rest is incident on the Earth's surface, where some of it is reflected. The portion that is reflected by the Earth's surface depends on the albedo. In the ECMWF Integrated Forecasting System (IFS), a climatological background albedo (observed values averaged over a period of several years) is used, modified by the model over water, ice and snow. Albedo is often shown as a percentage (%).  | 11132 |  |
-| surface_latent_heat_flux | Exchange of latent heat with the surface through turbulent diffusion. This variables is accumulated from the beginning of the forecast time to the end of the forecast step. By model convention, downward fluxes are positive.  | 11132 |  |
-| surface_net_solar_radiation | Amount of solar radiation (also known as shortwave radiation) reaching the surface of the Earth (both direct and diffuse) minus the amount reflected by the Earth's surface (which is governed by the albedo).Radiation from the Sun (solar, or shortwave, radiation) is partly reflected back to space by clouds and particles in the atmosphere (aerosols) and some of it is absorbed. The rest is incident on the Earth's surface, where some of it is reflected. The difference between downward and reflected solar radiation is the surface net solar radiation. This variable is accumulated from the beginning of the forecast time to the end of the forecast step. The units are joules per square meter (J m-2). To convert to watts per square meter (W m-2), the accumulated values should be divided by the accumulation period expressed in seconds. The ECMWF convention for vertical fluxes is positive downwards.  | 11132 |  |
-| surface_net_thermal_radiation | Net thermal radiation at the surface. Accumulated field from the beginning of the forecast time to the end of the forecast step. By model convention downward fluxes are positive.  | 11132 |  |
-| surface_sensible_heat_flux | Transfer of heat between the Earth's surface and the atmosphere through the effects of turbulent air motion (but excluding any heat transfer resulting from condensation or evaporation). The magnitude of the sensible heat flux is governed by the difference in temperature between the surface and the overlying atmosphere, wind speed and the surface roughness. For example, cold air overlying a warm surface would produce a sensible heat flux from the land (or ocean) into the atmosphere. This is a single level variable and it is accumulated from the beginning of the forecast time to the end of the forecast step. The units are joules per square meter (J m-2). To convert to watts per square meter (W m-2), the accumulated values should be divided by the accumulation period expressed in seconds. The ECMWF convention for vertical fluxes is positive downwards.  | 11132 |  |
-| surface_solar_radiation_downwards | Amount of solar radiation (also known as shortwave radiation) reaching the surface of the Earth. This variable comprises both direct and diffuse solar radiation. Radiation from the Sun (solar, or shortwave, radiation) is partly reflected back to space by clouds and particles in the atmosphere (aerosols) and some of it is absorbed. The rest is incident on the Earth's surface (represented by this variable). To a reasonably good approximation, this variable is the model equivalent of what would be measured by a pyranometer (an instrument used for measuring solar radiation) at the surface. However, care should be taken when comparing model variables with observations, because observations are often local to a particular point in space and time, rather than representing averages over a model grid box and model time step. This variable is accumulated from the beginning of the forecast time to the end of the forecast step. The units are joules per square meter (J m-2). To convert to watts per square meter (W m-2), the accumulated values should be divided by the accumulation period expressed in seconds. The ECMWF convention for vertical fluxes is positive downwards.  | 11132 |  |
-| surface_thermal_radiation_downwards | Amount of thermal (also known as longwave or terrestrial) radiation emitted by the atmosphere and clouds that reaches the Earth's surface. The surface of the Earth emits thermal radiation, some of which is absorbed by the atmosphere and clouds. The atmosphere and clouds likewise emit thermal radiation in all directions, some of which reaches the surface (represented by this variable). This variable is accumulated from the beginning of the forecast time to the end of the forecast step. The units are joules per square meter (J m-2). To convert to watts per square meter (W m-2), the accumulated values should be divided by the accumulation period expressed in seconds. The ECMWF convention for vertical fluxes is positive downwards.  | 11132 |  |
-| evaporation_from_bare_soil | The amount of evaporation from bare soil at the top of the land surface. This variable is accumulated from the beginning of the forecast time to the end of the forecast step.  | 11132 |  |
-| evaporation_from_open_water_surfaces_excluding_oceans | Amount of evaporation from surface water storage like lakes and inundated areas but excluding oceans. This variable is accumulated from the beginning of the forecast time to the end of the forecast step.  | 11132 |  |
-| evaporation_from_the_top_of_canopy | The amount of evaporation from the canopy interception reservoir at the top of the canopy. This variable is accumulated from the beginning of the forecast time to the end of the forecast step.  | 11132 |  |
-| evaporation_from_vegetation_transpiration | Amount of evaporation from vegetation transpiration. This has the same meaning as root extraction i.e. the amount of water extracted from the different soil layers. This variable is accumulated from the beginning of the forecast time to the end of the forecast step.  | 11132 |  |
-| potential_evaporation | Potential evaporation (pev) in the current ECMWF model is computed, by making a second call to the surface energy balance routine with the vegetation variables set to "crops/mixed farming" and assuming no stress from soil moisture. In other words, evaporation is computed for agricultural land as if it is well watered and assuming that the atmosphere is not affected by this artificial surface condition. The latter may not always be realistic. Although pev is meant to provide an estimate of irrigation requirements, the method can give unrealistic results in arid conditions due to too strong evaporation forced by dry air. This variable is accumulated from the beginning of the forecast time to the end of the forecast step.  | 11132 |  |
-| runoff | Some water from rainfall, melting snow, or deep in the soil, stays stored in the soil. Otherwise, the water drains away, either over the surface (surface runoff), or under the ground (sub-surface runoff) and the sum of these two is simply called 'runoff'. This variable is the total amount of water accumulated from the beginning of the forecast time to the end of the forecast step. The units of runoff are depth in meters. This is the depth the water would have if it were spread evenly over the grid box. Care should be taken when comparing model variables with observations, because observations are often local to a particular point rather than averaged over a grid square area. Observations are also often taken in different units, such as mm/day, rather than the accumulated meters produced here. Runoff is a measure of the availability of water in the soil, and can, for example, be used as an indicator of drought or flood. More information about how runoff is calculated is given in the IFS Physical Processes documentation.  | 11132 |  |
-| snow_evaporation | Evaporation from snow averaged over the grid box (to find flux over snow, divide by snow fraction). This variable is accumulated from the beginning of the forecast time to the end of the forecast step.  | 11132 |  |
-| sub_surface_runoff | Some water from rainfall, melting snow, or deep in the soil, stays stored in the soil. Otherwise, the water drains away, either over the surface (surface runoff), or under the ground (sub-surface runoff) and the sum of these two is simply called 'runoff'. This variable is accumulated from the beginning of the forecast time to the end of the forecast step. The units of runoff are depth in meters. This is the depth the water would have if it were spread evenly over the grid box. Care should be taken when comparing model variables with observations, because observations are often local to a particular point rather than averaged over a grid square area. Observations are also often taken in different units, such as mm/day, rather than the accumulated meters produced here. Runoff is a measure of the availability of water in the soil, and can, for example, be used as an indicator of drought or flood. More information about how runoff is calculated is given in the IFS Physical Processes documentation.  | 11132 |  |
-| surface_runoff | Some water from rainfall, melting snow, or deep in the soil, stays stored in the soil. Otherwise, the water drains away, either over the surface (surface runoff), or under the ground (sub-surface runoff) and the sum of these two is simply called 'runoff'. This variable is the total amount of water accumulated from the beginning of the forecast time to the end of the forecast step. The units of runoff are depth in meters. This is the depth the water would have if it were spread evenly over the grid box. Care should be taken when comparing model variables with observations, because observations are often local to a particular point rather than averaged over a grid square area. Observations are also often taken in different units, such as mm/day, rather than the accumulated meters produced here. Runoff is a measure of the availability of water in the soil, and can, for example, be used as an indicator of drought or flood. More information about how runoff is calculated is given in the IFS Physical Processes documentation.  | 11132 |  |
-| total_evaporation | Accumulated amount of water that has evaporated from the Earth's surface, including a simplified representation of transpiration (from vegetation), into meter in the air above. This variable is accumulated from the beginning of the forecast to the end of the forecast step. The ECMWF Integrated Forecasting System convention is that downward fluxes are positive. Therefore, negative values indicate evaporation and positive values indicate condensation.  | 11132 |  |
-| u_component_of_wind_10m | Eastward component of the 10m wind. It is the horizontal speed of air moving towards the east, at a height of ten meters above the surface of the Earth, in meters per second. Care should be taken when comparing this variable with observations, because wind observations vary on small space and time scales and are affected by the local terrain, vegetation and buildings that are represented only on average in the ECMWF Integrated Forecasting System. This variable can be combined with the V component of 10m wind to give the speed and direction of the horizontal 10m wind.  | 11132 |  |
-| v_component_of_wind_10m | Northward component of the 10m wind. It is the horizontal speed of air moving towards the north, at a height of ten meters above the surface of the Earth, in meters per second. Care should be taken when comparing this variable with observations, because wind observations vary on small space and time scales and are affected by the local terrain, vegetation and buildings that are represented only on average in the ECMWF Integrated Forecasting System. This variable can be combined with the U component of 10m wind to give the speed and direction of the horizontal 10m wind.  | 11132 |  |
-| surface_pressure | Pressure (force per unit area) of the atmosphere on the surface of land, sea and in-land water. It is a measure of the weight of all the air in a column vertically above the area of the Earth's surface represented at a fixed point. Surface pressure is often used in combination with temperature to calculate air density. The strong variation of pressure with altitude makes it difficult to see the low and high pressure systems over mountainous areas, so mean sea level pressure, rather than surface pressure, is normally used for this purpose. The units of this variable are Pascals (Pa). Surface pressure is often measured in hPa and sometimes is presented in the old units of millibars, mb (1 hPa = 1 mb = 100 Pa).  | 11132 |  |
-| total_precipitation | Accumulated liquid and frozen water, including rain and snow, that falls to the Earth's surface. It is the sum of large-scale precipitation (that precipitation which is generated by large-scale weather patterns, such as troughs and cold fronts) and convective precipitation (generated by convection which occurs when air at lower levels in the atmosphere is warmer and less dense than the air above, so it rises). Precipitation variables do not include fog, dew or the precipitation that evaporates in the atmosphere before it lands at the surface of the Earth. This variable is accumulated from the beginning of the forecast time to the end of the forecast step. The units of precipitation are depth in meters. It is the depth the water would have if it were spread evenly over the grid box. Care should be taken when comparing model variables with observations, because observations are often local to a particular point in space and time, rather than representing averages over a model grid box and model time step.  | 11132 |  |
-| leaf_area_index_high_vegetation | One-half of the total green leaf area per unit horizontal ground surface area for high vegetation type.  | 11132 |  |
-| leaf_area_index_low_vegetation | One-half of the total green leaf area per unit horizontal ground surface area for low vegetation type. | 11132 |  |
-| snowfall_hourly | Same as 'snowfall' except not accumulated and only for the given forecast step. | 11132 |  |
-| snowmelt_hourly | Same as 'snowmelt' except not accumulated and only for the given forecast step. | 11132 |  |
-| surface_latent_heat_flux_hourly | Same as 'surface_latent_heat_flux' except not accumulated and only for the given forecast step. | 11132 |  |
-| surface_net_solar_radiation_hourly | Same as 'surface_net_solar_radiation' except not accumulated and only for the given forecast step. | 11132 |  |
-| surface_net_thermal_radiation_hourly | Same as 'surface_net_thermal_radiation' except not accumulated and only for the given forecast step. | 11132 |  |
-| surface_sensible_heat_flux_hourly | Same as 'surface_sensible_heat_flux' except not accumulated and only for the given forecast step. | 11132 |  |
-| surface_solar_radiation_downwards_hourly | Same as 'surface_solar_radiation_downwards' except not accumulated and only for the given forecast step.  | 11132 |  |
-| surface_thermal_radiation_downwards_hourly | Same as 'surface_thermal_radiation_downwards' except not accumulated and only for the given forecast step.  | 11132 |  |
-| evaporation_from_bare_soil_hourly | Same as 'evaporation_from_bare_soil' except not accumulated and only for the given forecast step. | 11132 |  |
-| evaporation_from_open_water_surfaces_excluding_oceans_hourly | Same as 'evaporation_from_open_water_surfaces_excluding_oceans' except not accumulated and only for the given forecast step.  | 11132 |  |
-| evaporation_from_the_top_of_canopy_hourly | Same as 'evaporation_from_the_top_of_canopy' except not accumulated and only for the given forecast step.  | 11132 |  |
-| evaporation_from_vegetation_transpiration_hourly | Same as 'evaporation_from_vegetation_transpiration' except not accumulated and only for the given forecast step.  | 11132 |  |
-| potential_evaporation_hourly | Same as 'potential_evaporation' except not accumulated and only for the given forecast step. | 11132 |  |
-| runoff_hourly | Same as 'runoff' except not accumulated and only for the given forecast step. | 11132 |  |
-| snow_evaporation_hourly | Same as 'snow_evaporation' except not accumulated and only for the given forecast step. | 11132 |  |
-| sub_surface_runoff_hourly | Same as 'sub_surface_runoff' except not accumulated and only for the given forecast step. | 11132 |  |
-| surface_runoff_hourly | Same as 'surface_runoff' except not accumulated and only for the given forecast step. | 11132 |  |
-| total_evaporation_hourly | Same as 'total_evaporation' except not accumulated and only for the given forecast step. | 11132 |  |
-| total_precipitation_hourly | Same as 'total_precipitation' except not accumulated and only for the given forecast step. | 11132 |  |
+| dewpoint_temperature_2m | 地球表面上方 2 米处空气冷却到发生饱和时的温度。它是空气湿度的度量。结合气温与气压可计算相对湿度。2 米露点温度由最低模式层与地球表面之间按大气条件插值得到。 | 11132 |  |
+| temperature_2m | 陆地、海洋或内陆水体表面上方 2 米处的空气温度。2 米气温由最低模式层与地球表面之间按大气条件插值得到。 | 11132 |  |
+| skin_temperature | 地球表面的温度。地表皮肤温度是满足地表能量平衡所需的理论温度，代表最上层表层的温度；该层没有热容量，因而能对表面通量的变化即时响应。陆地与海洋上的皮肤温度计算方法不同。 | 11132 |  |
+| soil_temperature_level_1 | ECMWF 综合预报系统中第 1 层（0–7 厘米）土壤的温度。地表位于 0 厘米处。土壤温度取在每层的中部，热量传递在各层界面处计算。假设最下层底部没有热量传出。 | 11132 |  |
+| soil_temperature_level_2 | ECMWF 综合预报系统中第 2 层（7–28 厘米）土壤的温度。 | 11132 |  |
+| soil_temperature_level_3 | ECMWF 综合预报系统中第 3 层（28–100 厘米）土壤的温度。 | 11132 |  |
+| soil_temperature_level_4 | ECMWF 综合预报系统中第 4 层（100–289 厘米）土壤的温度。 | 11132 |  |
+| lake_bottom_temperature | 内陆水体（湖泊、水库、河流）与近岸水域底部的水温。ECMWF 于 2015 年 5 月在综合预报系统中实现了一个湖泊模式，用于表示全球所有主要内陆水体的水温与湖冰。该模式保持湖泊深度与表面面积（或覆盖比例）随时间不变。 | 11132 |  |
+| lake_ice_depth | 内陆水体（湖泊、水库与河流）与近岸水域上冰的厚度。ECMWF 综合预报系统（IFS）表示内陆水体（湖泊、水库与河流）与近岸水域上冰的形成与融化，采用单一冰层表示。本参数即该冰层的厚度。 | 11132 |  |
+| lake_ice_temperature | 内陆水体（湖泊、水库、河流）与近岸水域上冰的最上层表面温度。ECMWF 综合预报系统表示湖泊上冰的形成与融化，采用单一冰层表示。 | 11132 |  |
+| lake_mix_layer_depth | 内陆水体（湖泊、水库与河流）或近岸水域最上层的厚度；该层混合良好、温度随深度近似不变（温度均匀分布）。ECMWF 综合预报系统在垂直方向上用两层表示内陆水体：上方为混合层，下方为温跃层。温跃层的上界位于混合层底部，下界位于湖底。当表层（及近表层）水的密度大于其下方水体时，混合层内可发生混合；湖面风的作用也可引起混合。 | 11132 |  |
+| lake_mix_layer_temperature | 内陆水体（湖泊、水库与河流）或近岸水域混合良好的最上层的水温。ECMWF 综合预报系统在垂直方向上用两层表示内陆水体：上方为混合层，下方为温跃层。温跃层的上界位于混合层底部，下界位于湖底。当表层（及近表层）水的密度大于其下方水体时，混合层内可发生混合；湖面风的作用也可引起混合。 | 11132 |  |
+| lake_shape_factor | 本参数描述内陆水体（湖泊、水库与河流）与近岸水域温跃层内温度随深度的变化方式，用于计算湖底温度及其他湖泊相关参数。ECMWF 综合预报系统在垂直方向上用两层表示内陆与近岸水体：上方为混合层，下方为温度随深度变化的温跃层。 | 11132 |  |
+| lake_total_layer_temperature | 内陆水体（湖泊、水库与河流）与近岸水域整层水柱的平均温度。ECMWF 综合预报系统在垂直方向上用两层表示内陆水体：上方为混合层，下方为温度随深度变化的温跃层。本参数是两层的平均。 | 11132 |  |
+| snow_albedo | 定义为整个太阳波谱范围内、直接与漫射辐射被积雪反射的比例。它是积雪覆盖格元反射能力的度量。取值在 0 与 1 之间。通常，雪和冰的反射率很高，反照率在 0.8 以上。 | 11132 |  |
+| snow_cover | 表示单元格/格箱被积雪占据的比例（0–1）（与 ERA5 的云覆盖字段类似）。 | 11132 |  |
+| snow_density | 积雪层内每立方米积雪的质量。ECMWF 综合预报系统（IFS）模式将积雪表示为最上层土壤层之上的一个附加层，积雪可覆盖格箱的全部或部分。 | 11132 |  |
+| snow_depth | 地面上积雪厚度的瞬时格箱平均（不含冠层上的积雪）。 | 11132 |  |
+| snow_depth_water_equivalent | 格箱积雪覆盖区的积雪深度。其单位为米水当量，即积雪融化并均匀铺展在整个格箱上时水的深度。ECMWF 综合预报系统将积雪表示为最上层土壤层之上的一个附加层，积雪可覆盖格箱的全部或部分。 | 11132 |  |
+| snowfall | 累积的、降落到地球表面的总降雪量。它由大尺度大气环流（水平尺度大于约数百米）造成的降雪与对流（较小尺度区域、约 5 公里至数百公里的暖空气上升）造成的降雪组成。如果积雪在该变量累积期间融化，其值会高于雪深。本变量是从预报开始时刻到预报步长结束时刻累积的总水量。所给单位度量的是积雪融化并均匀铺展在格箱上时水的深度。将模式变量与观测对比时需注意：观测往往是时空上某一点的局地值，而不是模式格箱与模式时间步长内的平均。 | 11132 |  |
+| snowmelt | 格箱内平均的积雪融化量（要求积雪上的融化量时，用该值除以积雪比例）。本变量从预报开始时刻累积到预报步长结束时刻。 | 11132 |  |
+| temperature_of_snow_layer | 本变量给出从地面到雪-气界面的积雪层温度。ECMWF 综合预报系统（IFS）模式将积雪表示为最上层土壤层之上的一个附加层，积雪可覆盖格箱的全部或部分。 | 11132 |  |
+| skin_reservoir_content | 植被冠层内和/或土壤上一薄层中的水量，表示树叶截留的雨水以及来自露水的水。格箱能容纳的最大「地表储水量」取决于植被类型，也可能为零。水通过蒸发离开「地表储水层」。 | 11132 |  |
+| volumetric_soil_water_layer_1 | ECMWF 综合预报系统中土壤第 1 层（0–7 厘米）的水量（体积）。地表位于 0 厘米处。体积土壤含水量与土壤质地（或分类）、土壤深度及下伏地下水位有关。 | 11132 |  |
+| volumetric_soil_water_layer_2 | ECMWF 综合预报系统中土壤第 2 层（7–28 厘米）的水量（体积）。 | 11132 |  |
+| volumetric_soil_water_layer_3 | ECMWF 综合预报系统中土壤第 3 层（28–100 厘米）的水量（体积）。 | 11132 |  |
+| volumetric_soil_water_layer_4 | ECMWF 综合预报系统中土壤第 4 层（100–289 厘米）的水量（体积）。 | 11132 |  |
+| forecast_albedo | 是地球表面反射能力的度量，指整个太阳波谱范围内、直接与漫射太阳（短波）辐射被地球表面反射的比例。取值在 0 与 1 之间。通常，雪和冰的反射率很高，反照率在 0.8 以上；陆地居中，约 0.1 至 0.4；海洋较低，在 0.1 或以下。来自太阳的辐射（太阳辐射或短波辐射）一部分被云和大气中的粒子（气溶胶）反射回太空，一部分被吸收，其余入射到地球表面，其中一部分又被反射，被地表反射的比例取决于反照率。在 ECMWF 综合预报系统（IFS）中，使用一个气候态背景反照率（多年平均的观测值），并由模式在水体、冰和雪上加以修正。反照率常以百分比（%）表示。 | 11132 |  |
+| surface_latent_heat_flux | 通过湍流扩散与地表交换的潜热。本变量从预报开始时刻累积到预报步长结束时刻。按模式约定，向下通量为正。 | 11132 |  |
+| surface_net_solar_radiation | 到达地球表面的太阳辐射（也称短波辐射，直接与漫射）量减去被地球表面反射的量（由反照率决定）。来自太阳的辐射（太阳辐射或短波辐射）一部分被云和大气中的粒子（气溶胶）反射回太空，一部分被吸收，其余入射到地球表面，其中一部分又被反射。向下太阳辐射与反射太阳辐射之差即为地表净太阳辐射。本变量从预报开始时刻累积到预报步长结束时刻。单位为焦耳每平方米（J m-2）。换算为瓦特每平方米（W m-2）时，应将累积值除以以秒表示的累积时段。ECMWF 对垂直通量的约定是向下为正。 | 11132 |  |
+| surface_net_thermal_radiation | 地表净热辐射。从预报开始时刻到预报步长结束时刻的累积场。按模式约定，向下通量为正。 | 11132 |  |
+| surface_sensible_heat_flux | 地球表面与大气之间通过湍流空气运动实现的热量传递（但不包括凝结或蒸发引起的任何热传递）。感热通量的大小由地表与上方大气之间的温差、风速与地表粗糙度决定。例如，暖下垫面上方的冷空气会产生从陆地（或海洋）进入大气的感热通量。这是一个单层变量，从预报开始时刻累积到预报步长结束时刻。单位为焦耳每平方米（J m-2）。换算为瓦特每平方米（W m-2）时，应将累积值除以以秒表示的累积时段。ECMWF 对垂直通量的约定是向下为正。 | 11132 |  |
+| surface_solar_radiation_downwards | 到达地球表面的太阳辐射（也称短波辐射）量。本变量包含直接辐射与漫射辐射两部分。来自太阳的辐射（太阳辐射或短波辐射）一部分被云和大气中的粒子（气溶胶）反射回太空，一部分被吸收，其余入射到地球表面（即本变量）。在相当好的近似下，本变量是模式中与地表日射计（测量太阳辐射的仪器）测量值相当的量。但将模式变量与观测对比时需注意：观测往往是时空上某一点的局地值，而不是模式格箱与模式时间步长内的平均。本变量从预报开始时刻累积到预报步长结束时刻。单位为焦耳每平方米（J m-2）。换算为瓦特每平方米（W m-2）时，应将累积值除以以秒表示的累积时段。ECMWF 对垂直通量的约定是向下为正。 | 11132 |  |
+| surface_thermal_radiation_downwards | 由大气与云发射、到达地球表面的热辐射（也称长波辐射或地面辐射）量。地球表面发射热辐射，其中一部分被大气与云吸收；大气与云同样向各个方向发射热辐射，其中一部分到达地表（即本变量）。本变量从预报开始时刻累积到预报步长结束时刻。单位为焦耳每平方米（J m-2）。换算为瓦特每平方米（W m-2）时，应将累积值除以以秒表示的累积时段。ECMWF 对垂直通量的约定是向下为正。 | 11132 |  |
+| evaporation_from_bare_soil | 陆地表面顶部裸土的蒸发量。本变量从预报开始时刻累积到预报步长结束时刻。 | 11132 |  |
+| evaporation_from_open_water_surfaces_excluding_oceans | 来自湖泊、淹没区等地表水储量的蒸发量（不含海洋）。本变量从预报开始时刻累积到预报步长结束时刻。 | 11132 |  |
+| evaporation_from_the_top_of_canopy | 冠层顶部截留储水层的蒸发量。本变量从预报开始时刻累积到预报步长结束时刻。 | 11132 |  |
+| evaporation_from_vegetation_transpiration | 来自植被蒸腾的蒸发量。其含义与根系吸水相同，即从不同土壤层中提取的水量。本变量从预报开始时刻累积到预报步长结束时刻。 | 11132 |  |
+| potential_evaporation | 当前 ECMWF 模式中的潜在蒸发（pev）这样计算：再次调用地表能量平衡程序，将植被变量设为「作物/混合农业」，并假设不受土壤水分胁迫。换言之，蒸发按水分充足的农田计算，并假设大气不受这一人为下垫面条件的影响——后者未必总是符合实际。尽管 pev 本意是估计灌溉需水量，但在干旱条件下，干燥空气强迫的蒸发过强，该方法可能给出不切实际的结果。本变量从预报开始时刻累积到预报步长结束时刻。 | 11132 |  |
+| runoff | 来自降雨、融雪或土壤深处的水，一部分储存在土壤中；其余的水排出，或在地表流动（地表径流），或在地下流动（地下径流），两者之和简称为「径流」。本变量是从预报开始时刻到预报步长结束时刻累积的总水量。径流的单位为米（深度），即水均匀铺展在格箱上时的深度。将模式变量与观测对比时需注意：观测往往是某一点的局地值，而不是格箱面积内的平均；观测也常用不同的单位，如毫米每天，而不是这里给出的累积米数。径流是土壤中水分可用性的度量，例如可用作干旱或洪水的指标。径流计算方法的更多信息见 IFS 物理过程文档。 | 11132 |  |
+| snow_evaporation | 格箱内平均的积雪蒸发量（要求积雪上的通量时，用该值除以积雪比例）。本变量从预报开始时刻累积到预报步长结束时刻。 | 11132 |  |
+| sub_surface_runoff | 来自降雨、融雪或土壤深处的水，一部分储存在土壤中；其余的水排出，或在地表流动（地表径流），或在地下流动（地下径流），两者之和简称为「径流」。本变量从预报开始时刻累积到预报步长结束时刻。径流的单位为米（深度），即水均匀铺展在格箱上时的深度。将模式变量与观测对比时需注意：观测往往是某一点的局地值，而不是格箱面积内的平均；观测也常用不同的单位，如毫米每天，而不是这里给出的累积米数。径流是土壤中水分可用性的度量，例如可用作干旱或洪水的指标。径流计算方法的更多信息见 IFS 物理过程文档。 | 11132 |  |
+| surface_runoff | 来自降雨、融雪或土壤深处的水，一部分储存在土壤中；其余的水排出，或在地表流动（地表径流），或在地下流动（地下径流），两者之和简称为「径流」。本变量是从预报开始时刻到预报步长结束时刻累积的总水量。径流的单位为米（深度），即水均匀铺展在格箱上时的深度。将模式变量与观测对比时需注意：观测往往是某一点的局地值，而不是格箱面积内的平均；观测也常用不同的单位，如毫米每天，而不是这里给出的累积米数。径流是土壤中水分可用性的度量，例如可用作干旱或洪水的指标。径流计算方法的更多信息见 IFS 物理过程文档。 | 11132 |  |
+| total_evaporation | 从地球表面蒸发的水的累积量，包括蒸腾（来自植被）的简化表示，蒸发后成为上方空气中的水汽（原文作「meter」，疑为 vapor 之误，照原文义译）。本变量从预报开始时刻累积到预报步长结束时刻。ECMWF 综合预报系统的约定是向下通量为正，因此负值表示蒸发、正值表示凝结。 | 11132 |  |
+| u_component_of_wind_10m | 10 米风的东向分量，即地球表面上方 10 米高度处空气向东运动的水平速度，单位为米每秒。将本变量与观测对比时需注意：风的观测在小的时空尺度上变化，并受局地地形、植被与建筑影响，而这些在 ECMWF 综合预报系统中仅以平均方式表示。本变量可与 10 米风的 V 分量结合，给出 10 米水平风的速度与方向。 | 11132 |  |
+| v_component_of_wind_10m | 10 米风的北向分量，即地球表面上方 10 米高度处空气向北运动的水平速度，单位为米每秒。将本变量与观测对比时需注意：风的观测在小的时空尺度上变化，并受局地地形、植被与建筑影响，而这些在 ECMWF 综合预报系统中仅以平均方式表示。本变量可与 10 米风的 U 分量结合，给出 10 米水平风的速度与方向。 | 11132 |  |
+| surface_pressure | 陆地、海洋与内陆水体表面上的大气压强（单位面积上的力）。它度量的是地球表面某固定点所代表区域上方整层气柱的空气重量。地表气压常与气温结合计算空气密度。气压随高度变化强烈，在山区难以看清高低压系统，因此该用途一般使用平均海平面气压而非地表气压。本变量的单位为帕斯卡（Pa）。地表气压常用 hPa 测量，有时以旧单位毫巴 mb 表示（1 hPa = 1 mb = 100 Pa）。 | 11132 |  |
+| total_precipitation | 降落到地球表面的液态与固态水的累积量，包括雨和雪。它是大尺度降水（由槽、冷锋等大尺度天气形势产生的降水）与对流降水（当大气低层空气比其上方空气更暖、密度更小而上升时产生的对流降水）之和。降水变量不包括雾、露，也不包括在到达地球表面之前就在大气中蒸发的降水。本变量从预报开始时刻累积到预报步长结束时刻。降水的单位为米（深度），即水均匀铺展在格箱上时的深度。将模式变量与观测对比时需注意：观测往往是时空上某一点的局地值，而不是模式格箱与模式时间步长内的平均。 | 11132 |  |
+| leaf_area_index_high_vegetation | 高植被类型单位水平地面面积上绿色叶面积总和的一半。 | 11132 |  |
+| leaf_area_index_low_vegetation | 低植被类型单位水平地面面积上绿色叶面积总和的一半。 | 11132 |  |
+| snowfall_hourly | 与「snowfall」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| snowmelt_hourly | 与「snowmelt」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| surface_latent_heat_flux_hourly | 与「surface_latent_heat_flux」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| surface_net_solar_radiation_hourly | 与「surface_net_solar_radiation」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| surface_net_thermal_radiation_hourly | 与「surface_net_thermal_radiation」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| surface_sensible_heat_flux_hourly | 与「surface_sensible_heat_flux」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| surface_solar_radiation_downwards_hourly | 与「surface_solar_radiation_downwards」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| surface_thermal_radiation_downwards_hourly | 与「surface_thermal_radiation_downwards」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| evaporation_from_bare_soil_hourly | 与「evaporation_from_bare_soil」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| evaporation_from_open_water_surfaces_excluding_oceans_hourly | 与「evaporation_from_open_water_surfaces_excluding_oceans」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| evaporation_from_the_top_of_canopy_hourly | 与「evaporation_from_the_top_of_canopy」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| evaporation_from_vegetation_transpiration_hourly | 与「evaporation_from_vegetation_transpiration」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| potential_evaporation_hourly | 与「potential_evaporation」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| runoff_hourly | 与「runoff」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| snow_evaporation_hourly | 与「snow_evaporation」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| sub_surface_runoff_hourly | 与「sub_surface_runoff」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| surface_runoff_hourly | 与「surface_runoff」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| total_evaporation_hourly | 与「total_evaporation」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
+| total_precipitation_hourly | 与「total_precipitation」相同，但不累积、仅针对给定的预报步长。 | 11132 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 陆面变量日变化（昼夜循环）的气候态分析
+- 不同日内时刻的土壤湿度与温度对比
+- 蒸散与辐射的日内分配研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('ECMWF/ERA5_LAND/MONTHLY_BY_HOUR');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`ECMWF/ERA5_LAND/MONTHLY_BY_HOUR`
+- 提供方：Climate Data Store、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_MONTHLY_BY_HOUR
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：cds, climate, copernicus, ecmwf, era5-land, evaporation, heat, lakes, precipitation, pressure, radiation, reanalysis, runoff, snow, soil-water, temperature, vegetation, weather-and-climate, wind
 - 数据引用：Mu&ntilde;oz Sabater, J., (2019): ERA5-Land monthly averaged data from 1981 to present. Copernicus
 Climate Change Service (C3S) Climate Data Store (CDS). (&lt;date of access&gt;),
 [doi:10.24381/cds.68d2bb30](https://doi.org/10.24381/cds.68d2bb30)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis](/pages/a05a1bb7/)
+- [ERA5-Land Hourly - ECMWF Climate Reanalysis](/pages/0a0b8372/)
+- [ERA5-Land Monthly Aggregated - ECMWF Climate Reanalysis](/pages/0889ecdc/)
+- [ERA5-Land Static - ECMWF Climate Reanalysis](/pages/1932ca55/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

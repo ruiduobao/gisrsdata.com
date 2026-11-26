@@ -1,5 +1,5 @@
 ---
-title: "ESA WorldCereal 10 m v100"
+title: "ESA WorldCereal 10 米 v100"
 date: 2026-11-03 12:00:00
 permalink: /pages/76b102d2/
 categories:
@@ -18,91 +18,85 @@ tags:
   - "sentinel2-derived"
 ---
 
-# ESA WorldCereal 10 m v100
+# ESA WorldCereal 10 米 v100
 
-## 数据集简介
+英文原名：ESA WorldCereal 10 m v100
 
-The European Space Agency (ESA) WorldCereal 10 m 2021 product suite consists
-of global-scale annual and seasonal crop maps and their related confidence.
-They were generated as part of the
-[ESA-WorldCereal project](https://esa-worldcereal.org/). More information on
-the content of these products and the methodology used to generate them is
-described in [1].
+## 这是什么数据
 
-This collection contains up to 106 agro-ecological zone (AEZ) images for
-each product which were all processed with respect to their own regional
-seasonality and should be considered as independent products. These seasons
-are described in the list below and were developed in [2] as part of the
-project. Note that cereals as described by WorldCereal include wheat,
-barley, and rye, which belong to the *Triticeae* tribe.
+欧洲空间局（ESA）WorldCereal 10 米 2021 产品套件由全球尺度的年度与季节性作物地图及其置信度组成。它们在 [ESA-WorldCereal 项目](https://esa-worldcereal.org/)下生成。这些产品的内容与生成方法的更多信息见 [1]。
 
-WorldCereal seasons description:
+本集合每个产品包含多达 106 幅农业生态区（AEZ）影像，全部按各自的区域季节性处理，应视为独立产品。这些季节在下表中说明，由 [2] 在项目中开发。注意，WorldCereal 所述的谷物包括小麦、大麦与黑麦，它们属于小麦族（*Triticeae*）。
 
-- tc-annual: a one-year cycle being defined in an AEZ by the end of the last
-considered growing season
-- tc-wintercereals: the main cereals season defined in an AEZ
-- tc-springcereals: optional springcereals season, only defined in certain
-AEZ
-- tc-maize-main: the main maize season defined in an AEZ
-- tc-maize-second: optional second maize season, only defined in certain AEZ
+WorldCereal 季节说明：
 
-The available products in this collection are:
+- tc-annual：一个 AEZ 中以所考虑的最后一个生长季节结束为界定义的一年周期
+- tc-wintercereals：一个 AEZ 中定义的主要谷物季节
+- tc-springcereals：可选的春谷物季节，仅在某些 AEZ 中定义
+- tc-maize-main：一个 AEZ 中定义的主要玉米季节
+- tc-maize-second：可选的第二玉米季节，仅在某些 AEZ 中定义
 
-- temporarycrops
-- maize
-- wintercereals
-- springcereals
-- irrigation
+本集合中可用的产品有：
 
-Each product (image) has a binary classification (0 or 100) and a confidence
-(0-100) band. Note that AEZs for which no irrigation product is available
-were not processed because of the unavailability of thermal Landsat data.
+- temporarycrops（临时作物）
+- maize（玉米）
+- wintercereals（冬谷物）
+- springcereals（春谷物）
+- irrigation（灌溉）
 
-The collection should be filtered using one or more of the following image
-properties:
+每个产品（影像）有一个二值分类（0 或 100）波段与一个置信度（0–100）波段。注意，没有灌溉产品的 AEZ 未被处理，原因是缺乏热红外 Landsat 数据。
 
-- aez_id, holding the ID of the AEZ to which the image belongs
-- product, describing the WorldCereal product name of the image
-- season, describing the season for which the image is valid.
+应使用以下一个或多个影像属性过滤本集合：
 
-References:
+- aez_id，保存影像所属 AEZ 的 ID
+- product，描述影像的 WorldCereal 产品名称
+- season，描述影像有效的季节。
 
-- [1] [WorldCereal methodology and products paper](https://doi.org/10.5194/essd-2023-184)
-- [2] [WorldCereal global seasonality paper](https://doi.org/10.1080/15481603.2022.2079273)
+WorldCereal 数据集：
+- 2021 年第 100 版
+- [ESA/WorldCereal/AEZ/v100](ESA_WorldCereal_AEZ_v100)
+- [ESA/WorldCereal/2021/MODELS/v100](ESA_WorldCereal_2021_MODELS_v100)
+- [ESA/WorldCereal/2021/MARKERS/v100](ESA_WorldCereal_2021_MARKERS_v100)
 
-WorldCereal datasets:
+## 覆盖范围与时间
 
--  Version 100 for year 2021
-   -  [ESA/WorldCereal/AEZ/v100](ESA_WorldCereal_AEZ_v100)
-   -  [ESA/WorldCereal/2021/MODELS/v100](ESA_WorldCereal_2021_MODELS_v100)
-   -  [ESA/WorldCereal/2021/MARKERS/v100](ESA_WorldCereal_2021_MARKERS_v100)
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`ESA/WorldCereal/2021/MODELS/v100`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：ESA WorldCereal Consortium、Google Earth Engine
+- 覆盖范围：全球
 - 时间范围：2020-01-01 至 2021-12-31
-- 空间分辨率：10 米
-- 许可：CC-BY-4.0
-- 关键词：agriculture, copernicus, crop, esa, global, landcover, landsat, sentinel1-derived, sentinel2-derived
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 10 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| classification | Classification: 0 or 100 | 10 |  |
-| confidence | Confidence, 0 to 100 | 10 |  |
+| classification | 分类：0 或 100 | 10 |  |
+| confidence | 置信度，0 到 100 | 10 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 全球作物类型制图（玉米、冬/春谷物、灌溉）
+- 耕地与灌溉面积统计
+- 农业监测与粮食安全评估
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('ESA/WorldCereal/2021/MODELS/v100');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`ESA/WorldCereal/2021/MODELS/v100`
+- 提供方：ESA WorldCereal Consortium、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCereal_2021_MODELS_v100
+- [1] [WorldCereal methodology and products paper](https://doi.org/10.5194/essd-2023-184)
+- [2] [WorldCereal global seasonality paper](https://doi.org/10.1080/15481603.2022.2079273)
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：agriculture, copernicus, crop, esa, global, landcover, landsat, sentinel1-derived, sentinel2-derived
 - 数据引用：Van Tricht, K., Degerickx, J., Gilliams, S., Zanaga, D., Battude, M., Grosu,
 A., Brombacher, J., Lesiv, M., Bayas, J. C. L., Karanam, S., Fritz, S.,
 Becker-Reshef, I., Franch, B., Mollà-Bononad, B., Boogaard, H., Pratihast,
@@ -113,5 +107,14 @@ Syst. Sci. Data Discuss. [preprint],
 review, 2023.,
 
 - DOI：10.5194/essd-2023-184
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ESA WorldCereal Active Cropland 10 m v100](/pages/dd6f101f/)
+- [CSP 全球人类改造指数（gHM）](/pages/1227f44f/)
+- [世界居住区足迹 2015（WSF 2015）](/pages/a545a891/)
+- [全球油棕分布与种植年份（1990–2021）v1.2](/pages/36b9933f/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

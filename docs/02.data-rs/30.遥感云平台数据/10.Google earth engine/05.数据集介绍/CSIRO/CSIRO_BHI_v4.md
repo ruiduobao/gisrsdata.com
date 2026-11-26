@@ -84,6 +84,6 @@ PARC-representativeness, PARC-connectedness and ecosystem condition
 - [全球 SPEI 干旱指数数据库（2.11 版）](/pages/2a1f609f/)
 - [加拿大森林林龄图 2019（Landsat 衍生）](/pages/65b34141/)
 - [全球 SPEI 干旱指数数据库（2.10 版，已弃用）](/pages/9bb9126f/)
-- [全球蒸散发与总初级生产力 PML_V2.1.7（已弃用）](/pages/78dca129/)
+- [全球 SPEI 干旱指数数据库（2.8 版，已弃用）](/pages/8f385aa2/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

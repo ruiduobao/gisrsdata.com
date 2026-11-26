@@ -75,9 +75,9 @@ for climate adaptation planning. PloS one, 10(12),
 
 ## 同类数据
 
-- [Global ALOS CHILI (Continuous Heat-Insolation Load Index)](/pages/91d663d7/)
-- [Global ALOS Landforms](/pages/960bfb36/)
-- [Global ALOS Topographic Diversity](/pages/14e817f0/)
-- [Global SRTM CHILI (Continuous Heat-Insolation Load Index)](/pages/d904a592/)
+- [全球 ALOS 地形多样性](/pages/14e817f0/)
+- [全球 ALOS 地貌分类](/pages/960bfb36/)
+- [全球 ALOS 连续热量-日照负荷指数（CHILI）](/pages/91d663d7/)
+- [全球 SRTM 地形多样性](/pages/dd16aaff/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

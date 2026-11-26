@@ -68,9 +68,9 @@ Outlining where humans live, the World Settlement Footprint 2015. Scientific Dat
 
 ## Related datasets
 
+- [CSP gHM: Global Human Modification](/en/pages/1227f44f/)
 - [Global Oil Palm Extent and Planting Year (1990–2021) v1.2](/en/pages/36b9933f/)
 - [Canada AAFC Annual Crop Inventory](/en/pages/ad6873e3/)
 - [Copernicus Global Land Cover Layers: CGLS-LC100 Collection 3](/en/pages/ab21afa1/)
-- [Copernicus CORINE Land Cover V20](/en/pages/a9db0306/)
 
 > This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

@@ -1,5 +1,5 @@
 ---
-title: "ERA5 Hourly Pressure Levels - ECMWF Climate Reanalysis"
+title: "ERA5 逐小时气压层数据 — ECMWF 气候再分析"
 date: 2026-11-03 12:00:00
 permalink: /pages/e4d910e9/
 categories:
@@ -21,122 +21,142 @@ tags:
   - "wind"
 ---
 
-# ERA5 Hourly Pressure Levels - ECMWF Climate Reanalysis
+# ERA5 逐小时气压层数据 — ECMWF 气候再分析
 
-## 数据集简介
+英文原名：ERA5 Hourly Pressure Levels - ECMWF Climate Reanalysis
 
-ERA5 is the fifth generation ECMWF atmospheric reanalysis of the global
-climate. Reanalysis combines model data with observations from across the
-world into a globally complete and consistent dataset. ERA5 replaces its
-predecessor, the ERA-Interim reanalysis.
+## 这是什么数据
 
-This dataset contains 3D parameters at 37 pressure levels.
+ERA5 是 ECMWF 第五代全球气候大气再分析。再分析利用物理规律，将模式数据与来自世界各地的观测结合成全球完整、一致的数据集。ERA5 取代了其前身 ERA-Interim 再分析。
 
-## 基本信息
+本数据集包含 37 个气压层上的三维参数。
 
-- 数据集编号（Earth Engine ID）：`ECMWF/ERA5/HOURLY_PRESSURE_LEVELS`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Copernicus Climate Change Service (C3S)、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：全球
 - 时间范围：1940-01-01 至 2026-10-27
-- 空间分辨率：27830 米
-- 许可：proprietary
-- 关键词：atmosphere, climate, copernicus, ecmwf, era5, hourly, pressure, reanalysis, temperature, weather, weather-and-climate, wind
+- 更新节奏：逐小时
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 27,830 米（约 31 公里格距）
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| divergence_1hPa | The divergence of the wind at the 1 hPa pressure level. | 27830 |  |
-| divergence_2hPa | The divergence of the wind at the 2 hPa pressure level. | 27830 |  |
-| divergence_3hPa | The divergence of the wind at the 3 hPa pressure level. | 27830 |  |
-| divergence_5hPa | The divergence of the wind at the 5 hPa pressure level. | 27830 |  |
-| divergence_7hPa | The divergence of the wind at the 7 hPa pressure level. | 27830 |  |
-| divergence_10hPa | The divergence of the wind at the 10 hPa pressure level. | 27830 |  |
-| divergence_20hPa | The divergence of the wind at the 20 hPa pressure level. | 27830 |  |
-| divergence_30hPa | The divergence of the wind at the 30 hPa pressure level. | 27830 |  |
-| divergence_50hPa | The divergence of the wind at the 50 hPa pressure level. | 27830 |  |
-| divergence_70hPa | The divergence of the wind at the 70 hPa pressure level. | 27830 |  |
-| divergence_100hPa | The divergence of the wind at the 100 hPa pressure level. | 27830 |  |
-| divergence_125hPa | The divergence of the wind at the 125 hPa pressure level. | 27830 |  |
-| divergence_150hPa | The divergence of the wind at the 150 hPa pressure level. | 27830 |  |
-| divergence_175hPa | The divergence of the wind at the 175 hPa pressure level. | 27830 |  |
-| divergence_200hPa | The divergence of the wind at the 200 hPa pressure level. | 27830 |  |
-| divergence_225hPa | The divergence of the wind at the 225 hPa pressure level. | 27830 |  |
-| divergence_250hPa | The divergence of the wind at the 250 hPa pressure level. | 27830 |  |
-| divergence_300hPa | The divergence of the wind at the 300 hPa pressure level. | 27830 |  |
-| divergence_350hPa | The divergence of the wind at the 350 hPa pressure level. | 27830 |  |
-| divergence_400hPa | The divergence of the wind at the 400 hPa pressure level. | 27830 |  |
-| divergence_450hPa | The divergence of the wind at the 450 hPa pressure level. | 27830 |  |
-| divergence_500hPa | The divergence of the wind at the 500 hPa pressure level. | 27830 |  |
-| divergence_550hPa | The divergence of the wind at the 550 hPa pressure level. | 27830 |  |
-| divergence_600hPa | The divergence of the wind at the 600 hPa pressure level. | 27830 |  |
-| divergence_650hPa | The divergence of the wind at the 650 hPa pressure level. | 27830 |  |
-| divergence_700hPa | The divergence of the wind at the 700 hPa pressure level. | 27830 |  |
-| divergence_750hPa | The divergence of the wind at the 750 hPa pressure level. | 27830 |  |
-| divergence_775hPa | The divergence of the wind at the 775 hPa pressure level. | 27830 |  |
-| divergence_800hPa | The divergence of the wind at the 800 hPa pressure level. | 27830 |  |
-| divergence_825hPa | The divergence of the wind at the 825 hPa pressure level. | 27830 |  |
-| divergence_850hPa | The divergence of the wind at the 850 hPa pressure level. | 27830 |  |
-| divergence_875hPa | The divergence of the wind at the 875 hPa pressure level. | 27830 |  |
-| divergence_900hPa | The divergence of the wind at the 900 hPa pressure level. | 27830 |  |
-| divergence_925hPa | The divergence of the wind at the 925 hPa pressure level. | 27830 |  |
-| divergence_950hPa | The divergence of the wind at the 950 hPa pressure level. | 27830 |  |
-| divergence_975hPa | The divergence of the wind at the 975 hPa pressure level. | 27830 |  |
-| divergence_1000hPa | The divergence of the wind at the 1000 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_1hPa | The fraction of cloud cover at the 1 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_2hPa | The fraction of cloud cover at the 2 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_3hPa | The fraction of cloud cover at the 3 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_5hPa | The fraction of cloud cover at the 5 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_7hPa | The fraction of cloud cover at the 7 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_10hPa | The fraction of cloud cover at the 10 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_20hPa | The fraction of cloud cover at the 20 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_30hPa | The fraction of cloud cover at the 30 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_50hPa | The fraction of cloud cover at the 50 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_70hPa | The fraction of cloud cover at the 70 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_100hPa | The fraction of cloud cover at the 100 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_125hPa | The fraction of cloud cover at the 125 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_150hPa | The fraction of cloud cover at the 150 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_175hPa | The fraction of cloud cover at the 175 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_200hPa | The fraction of cloud cover at the 200 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_225hPa | The fraction of cloud cover at the 225 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_250hPa | The fraction of cloud cover at the 250 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_300hPa | The fraction of cloud cover at the 300 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_350hPa | The fraction of cloud cover at the 350 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_400hPa | The fraction of cloud cover at the 400 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_450hPa | The fraction of cloud cover at the 450 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_500hPa | The fraction of cloud cover at the 500 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_550hPa | The fraction of cloud cover at the 550 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_600hPa | The fraction of cloud cover at the 600 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_650hPa | The fraction of cloud cover at the 650 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_700hPa | The fraction of cloud cover at the 700 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_750hPa | The fraction of cloud cover at the 750 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_775hPa | The fraction of cloud cover at the 775 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_800hPa | The fraction of cloud cover at the 800 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_825hPa | The fraction of cloud cover at the 825 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_850hPa | The fraction of cloud cover at the 850 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_875hPa | The fraction of cloud cover at the 875 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_900hPa | The fraction of cloud cover at the 900 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_925hPa | The fraction of cloud cover at the 925 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_950hPa | The fraction of cloud cover at the 950 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_975hPa | The fraction of cloud cover at the 975 hPa pressure level. | 27830 |  |
-| fraction_of_cloud_cover_1000hPa | The fraction of cloud cover at the 1000 hPa pressure level. | 27830 |  |
-| ozone_mass_mixing_ratio_1hPa | The mass mixing ratio of ozone at the 1 hPa pressure level. | 27830 |  |
-| ozone_mass_mixing_ratio_2hPa | The mass mixing ratio of ozone at the 2 hPa pressure level. | 27830 |  |
-| ozone_mass_mixing_ratio_3hPa | The mass mixing ratio of ozone at the 3 hPa pressure level. | 27830 |  |
-| ozone_mass_mixing_ratio_5hPa | The mass mixing ratio of ozone at the 5 hPa pressure level. | 27830 |  |
-| ozone_mass_mixing_ratio_7hPa | The mass mixing ratio of ozone at the 7 hPa pressure level. | 27830 |  |
-| ozone_mass_mixing_ratio_10hPa | The mass mixing ratio of ozone at the 10 hPa pressure level. | 27830 |  |
+| divergence_1hPa | 1 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_2hPa | 2 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_3hPa | 3 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_5hPa | 5 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_7hPa | 7 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_10hPa | 10 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_20hPa | 20 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_30hPa | 30 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_50hPa | 50 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_70hPa | 70 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_100hPa | 100 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_125hPa | 125 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_150hPa | 150 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_175hPa | 175 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_200hPa | 200 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_225hPa | 225 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_250hPa | 250 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_300hPa | 300 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_350hPa | 350 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_400hPa | 400 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_450hPa | 450 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_500hPa | 500 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_550hPa | 550 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_600hPa | 600 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_650hPa | 650 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_700hPa | 700 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_750hPa | 750 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_775hPa | 775 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_800hPa | 800 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_825hPa | 825 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_850hPa | 850 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_875hPa | 875 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_900hPa | 900 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_925hPa | 925 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_950hPa | 950 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_975hPa | 975 hPa 气压层上的风场散度。 | 27830 |  |
+| divergence_1000hPa | 1000 hPa 气压层上的风场散度。 | 27830 |  |
+| fraction_of_cloud_cover_1hPa | 1 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_2hPa | 2 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_3hPa | 3 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_5hPa | 5 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_7hPa | 7 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_10hPa | 10 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_20hPa | 20 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_30hPa | 30 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_50hPa | 50 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_70hPa | 70 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_100hPa | 100 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_125hPa | 125 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_150hPa | 150 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_175hPa | 175 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_200hPa | 200 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_225hPa | 225 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_250hPa | 250 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_300hPa | 300 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_350hPa | 350 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_400hPa | 400 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_450hPa | 450 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_500hPa | 500 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_550hPa | 550 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_600hPa | 600 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_650hPa | 650 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_700hPa | 700 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_750hPa | 750 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_775hPa | 775 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_800hPa | 800 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_825hPa | 825 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_850hPa | 850 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_875hPa | 875 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_900hPa | 900 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_925hPa | 925 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_950hPa | 950 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_975hPa | 975 hPa 气压层上的云量比例。 | 27830 |  |
+| fraction_of_cloud_cover_1000hPa | 1000 hPa 气压层上的云量比例。 | 27830 |  |
+| ozone_mass_mixing_ratio_1hPa | 1 hPa 气压层上的臭氧质量混合比。 | 27830 |  |
+| ozone_mass_mixing_ratio_2hPa | 2 hPa 气压层上的臭氧质量混合比。 | 27830 |  |
+| ozone_mass_mixing_ratio_3hPa | 3 hPa 气压层上的臭氧质量混合比。 | 27830 |  |
+| ozone_mass_mixing_ratio_5hPa | 5 hPa 气压层上的臭氧质量混合比。 | 27830 |  |
+| ozone_mass_mixing_ratio_7hPa | 7 hPa 气压层上的臭氧质量混合比。 | 27830 |  |
+| ozone_mass_mixing_ratio_10hPa | 10 hPa 气压层上的臭氧质量混合比。 | 27830 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 高空环流与天气系统的三维结构分析
+- 各气压层上的温度、湿度、风场与散度研究
+- 数值天气预报的初始场与结果验证
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('ECMWF/ERA5/HOURLY_PRESSURE_LEVELS');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`ECMWF/ERA5/HOURLY_PRESSURE_LEVELS`
+- 提供方：Copernicus Climate Change Service (C3S)、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_HOURLY_PRESSURE_LEVELS
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：atmosphere, climate, copernicus, ecmwf, era5, hourly, pressure, reanalysis, temperature, weather, weather-and-climate, wind
 - 数据引用：Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Horanyi, A., Munoz-Sabater, J., ... & Thepaut, J. N. (2020). The ERA5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146(730), 1999-2049.
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ERA5 Hourly - ECMWF Climate Reanalysis](/pages/2de85afd/)
+- [哥白尼大气监测服务（CAMS）全球近实时数据](/pages/4ff1abc5/)
+- [哨兵-5P 离线一氧化碳（L3）](/pages/0bd864c8/)
+- [哨兵-5P 离线二氧化氮（L3）](/pages/7fe826cd/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

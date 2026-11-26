@@ -59,9 +59,9 @@ for climate adaptation planning. PloS one, 10(12),
 
 ## Related datasets
 
-- [Global ALOS Landforms](/pages/960bfb36/)
-- [Global ALOS Topographic Diversity](/pages/14e817f0/)
-- [Global ALOS mTPI (Multi-Scale Topographic Position Index)](/pages/e565b408/)
-- [Global SRTM CHILI (Continuous Heat-Insolation Load Index)](/pages/d904a592/)
+- [Global ALOS Topographic Diversity](/en/pages/14e817f0/)
+- [Global ALOS Landforms](/en/pages/960bfb36/)
+- [Global ALOS mTPI (Multi-Scale Topographic Position Index)](/en/pages/e565b408/)
+- [Global SRTM Topographic Diversity](/en/pages/dd16aaff/)
 
 > This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

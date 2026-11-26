@@ -72,6 +72,6 @@ PARC-representativeness, PARC-connectedness and ecosystem condition
 - [SPEIbase: Standardised Precipitation-Evapotranspiration Index, Version 2.11](/en/pages/2a1f609f/)
 - [Landsat-derived Forest Age for Canada 2019](/en/pages/65b34141/)
 - [SPEIbase: Standardised Precipitation-Evapotranspiration Index, Version 2.10 [deprecated]](/en/pages/9bb9126f/)
-- [PML_V2.1.7: Evapotranspiration and GPP (deprecated)](/en/pages/78dca129/)
+- [SPEIbase Global Drought Index Database, Version 2.8 [deprecated]](/en/pages/8f385aa2/)
 
 > This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

@@ -1,5 +1,5 @@
 ---
-title: "FAO GAUL 500m Simplified: Global Administrative Unit Layers 2015, Country Boundaries"
+title: "FAO GAUL 500 米简化版：全球行政区划图层 2015，国家边界"
 date: 2026-11-03 12:00:00
 permalink: /pages/6acf3380/
 categories:
@@ -16,60 +16,65 @@ tags:
   - "un"
 ---
 
-# FAO GAUL 500m Simplified: Global Administrative Unit Layers 2015, Country Boundaries
+# FAO GAUL 500 米简化版：全球行政区划图层 2015，国家边界
 
-## 数据集简介
+英文原名：FAO GAUL 500m Simplified: Global Administrative Unit Layers 2015, Country Boundaries
 
-This version of GAUL dataset is simplified at 500m.
+## 这是什么数据
 
-The Global Administrative Unit Layers (GAUL) compiles and disseminates the
-best available information on administrative units for all the countries in
-the world, providing a contribution to the standardization of the spatial
-dataset representing administrative units. The GAUL always maintains global
-layers with a unified coding system at country, first (e.g. departments),
-and second administrative levels (e.g. districts). Where data is available,
-it provides layers on a country by country basis down to third, fourth, and
-lowers levels. The overall methodology consists in a) collecting the best
-available data from most reliable sources, b) establishing validation
-periods of the geographic features (when possible), c) adding selected data
-to the global layer based on the last country boundaries map provided by
-the UN Cartographic Unit (UNCS), d) generating codes using GAUL Coding
-System, and e) distribute data to the users
-(see [Technical Aspects of the GAUL Distribution Set](https://researchgate.net/publication/390057047_The_Global_Administrative_Unit_Layers_GAUL_2024_Technical_guidelines)).
-These technical guidelines refer to the 2024 version of the dataset, but
-the information is still applicable to this older version.
-Note that some administrative units are multipolygon features.
+本 GAUL 数据集版本已简化至 500 米。
 
-## 基本信息
+全球行政区划图层（GAUL）汇编并发布世界上所有国家行政区划的最佳可得信息，为表示行政区划的空间数据集的标准化作出贡献。GAUL 始终在国家、一级（如省/部）和二级（如区/县）行政层级上维护采用统一编码系统的全球图层。在有数据的情况下，它按国家提供直至三级、四级及更低层级的图层。总体方法包括：a) 从最可靠的来源收集最佳可得数据；b)（在可能时）确立地理要素的有效期；c) 基于联合国制图处（UNCS）提供的最新国家边界图，将选定数据加入全球图层；d) 使用 GAUL 编码系统生成代码；e) 向用户分发数据（见 [GAUL 分发集技术说明](https://researchgate.net/publication/390057047_The_Global_Administrative_Unit_Layers_GAUL_2024_Technical_guidelines)）。这些技术指南针对的是 2024 年版数据集，但其信息对这个较早版本仍然适用。注意，某些行政区划是多多边形要素。
 
-- 数据集编号（Earth Engine ID）：`FAO/GAUL_SIMPLIFIED_500m/2015/level0`
-- 数据类型：矢量/表格（FeatureCollection）
-- 提供方：FAO UN 、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：全球
 - 时间范围：2014-12-19 至 2014-12-19
-- 许可：proprietary
-- 关键词：borders, countries, fao, gaul, infrastructure-boundaries, table, un
 
-## 字段信息
+## 分辨率与规格
+
+- 数据类型：矢量/表格（FeatureCollection），在 Google Earth Engine 中调用
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
-| ADM0_CODE | INT | GAUL country code |
-| ADM0_NAME | STRING | UN country name |
-| DISP_AREA | STRING | Unsettled territory: 'Yes' or 'No' |
-| STATUS | STRING | Status of the country |
-| Shape_Area | DOUBLE | Shape area |
-| Shape_Leng | DOUBLE | Shape length |
-| EXP0_YEAR | INT | Expiry year of the administrative unit |
-| STR0_YEAR | INT | Creation year of the administrative unit |
+| ADM0_CODE | INT | GAUL 国家代码 |
+| ADM0_NAME | STRING | 联合国国家名称 |
+| DISP_AREA | STRING | 未定居领土：「Yes」或「No」 |
+| STATUS | STRING | 国家的状态 |
+| Shape_Area | DOUBLE | 形状面积 |
+| Shape_Leng | DOUBLE | 形状长度 |
+| EXP0_YEAR | INT | 行政区划的失效年份 |
+| STR0_YEAR | INT | 行政区划的设立年份 |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 全球行政区划边界底图
+- 按行政区划汇总统计数据
+- 制图与空间分析的边界参考
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.FeatureCollection('FAO/GAUL_SIMPLIFIED_500m/2015/level0');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`FAO/GAUL_SIMPLIFIED_500m/2015/level0`
+- 提供方：FAO UN 、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level0
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：borders, countries, fao, gaul, infrastructure-boundaries, table, un
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [FAO GAUL 500m Simplified: Global Administrative Unit Layers 2025, First-Level Administrative Units](/pages/b2ab3105/)
+- [FAO GAUL 500m Simplified: Global Administrative Unit Layers 2025, Second-Level Administrative Units](/pages/313e2d03/)
+- [FAO GAUL 500m Simplified: Global Administrative Unit Layers 2015, First-Level Administrative Units [deprecated]](/pages/8265cbe1/)
+- [FAO GAUL 500m Simplified: Global Administrative Unit Layers 2015, Second-Level Administrative Units [deprecated]](/pages/b570a7cd/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
