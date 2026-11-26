@@ -14,6 +14,69 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '地信遥感数据汇',
   description: '遥感/地信/编程软件类数据资源与教程',
+  // Bilingual rebuild (2026-11-26): Chinese stays on the root locale with
+  // every legacy URL untouched; English is added under /en/ as a mirror.
+  // See ~/workspace/ops/gisrsdata-rebuild/重构规格.md — URLs are frozen,
+  // only additions are allowed.
+  locales: {
+    root: { label: '简体中文', lang: 'zh-CN' },
+    en: {
+      label: 'English',
+      lang: 'en-US',
+      title: 'GIS & Remote Sensing Data Hub',
+      description:
+        'Plain-language guides to GIS and remote sensing datasets, with download and Earth Engine access notes.',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/en/' },
+          {
+            text: 'Dataset Guides',
+            items: [
+              { text: 'Ocean Sea Surface Salinity (Copernicus)', link: '/en/pages/36f5ea1f/' },
+              { text: 'Landsat 8 Level 2 (USGS)', link: '/en/pages/778e3960/' },
+              { text: 'ASTER Global DEM', link: '/en/pages/7306f8/' }
+            ]
+          },
+          { text: 'GIS Data (中文)', link: '/data-gis' },
+          { text: 'RS Data (中文)', link: '/data-rs' },
+          { text: '中文站', link: '/' }
+        ],
+        sidebar: [
+          {
+            text: 'Dataset Guides (English)',
+            items: [
+              { text: 'Ocean Sea Surface Salinity', link: '/en/pages/36f5ea1f/' },
+              { text: 'Landsat 8 Level 2', link: '/en/pages/778e3960/' },
+              { text: 'ASTER Global DEM', link: '/en/pages/7306f8/' }
+            ]
+          },
+          {
+            text: 'About',
+            items: [{ text: 'English Home', link: '/en/' }]
+          }
+        ],
+        outline: { label: 'On this page' },
+        docFooter: { prev: 'Previous page', next: 'Next page' },
+        darkModeSwitchLabel: 'Theme',
+        sidebarMenuLabel: 'Menu',
+        returnToTopLabel: 'Back to top',
+        lastUpdatedText: 'Last updated',
+        search: {
+          provider: 'local',
+          options: {
+            translations: {
+              button: { buttonText: 'Search', buttonAriaLabel: 'Search' },
+              modal: {
+                noResultsText: 'No results found',
+                resetButtonTitle: 'Clear search',
+                footer: { selectText: 'Select', navigateText: 'Navigate', closeText: 'Close' }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   cleanUrls: true,
   // Legacy content contains many historical cross-links; do not fail the
   // build on them during migration.
