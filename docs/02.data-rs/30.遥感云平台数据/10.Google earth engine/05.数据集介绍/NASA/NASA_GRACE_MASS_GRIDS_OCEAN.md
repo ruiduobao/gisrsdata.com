@@ -1,5 +1,5 @@
 ---
-title: "GRACE Monthly Mass Grids - Ocean [deprecated]"
+title: "GRACE 月度质量格网 - 海洋 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/bb65f4de/
 categories:
@@ -20,81 +20,74 @@ tags:
   - "water"
 ---
 
-# GRACE Monthly Mass Grids - Ocean [deprecated]
+# GRACE 月度质量格网 - 海洋 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：GRACE Monthly Mass Grids - Ocean [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-GRACE Tellus Monthly Mass Grids provides monthly
-gravitational anomalies relative to a 2004-2010 time-mean baseline.
-The data contained in this dataset are units of \"Equivalent Water Thickness\"
-which represent the deviations of mass in terms of vertical extent
-of water in centimeters. See the provider's [Monthly Mass
-Grids Overview](https://grace.jpl.nasa.gov/data/monthly-mass-grids/)
-for more details.
+GRACE Tellus 月度质量格网提供相对于 2004–2010 年时间平均基准的月度重力异常。本数据集中的数据单位为「等效水厚」，以厘米表示的水的垂直范围表示质量偏差。更多细节见提供方的[月度质量格网概述](https://grace.jpl.nasa.gov/data/monthly-mass-grids/)。
 
-The GRACE Tellus (GRCTellus) Monthly Mass Grids Ocean dataset is produced
-by three centers: CSR (U. Texas / Center for Space Research),
-GFZ (GeoForschungsZentrum Potsdam), and JPL
-(NASA Jet Propulsion Laboratory). Each center is a part
-of the GRACE Ground System and generates Level-2 data
-(spherical harmonic fields) used in this dataset.
-The output includes spherical harmonic coefficients
-of the gravity field and of the dealiasing fields used to compute them.
-Since each center independently produces the coefficients, the results
-may be slightly different. It is recommended for most users to
-use the mean of all three datasets. See the provider's [choosing a
-solution](https://grace.jpl.nasa.gov/data/choosing-a-solution/) page
-for more details.
+GRACE Tellus（GRCTellus）月度质量格网海洋数据集由三个中心生产：CSR（德克萨斯大学/空间研究中心）、GFZ（波茨坦地学研究中心）与 JPL（NASA 喷气推进实验室）。每个中心都是 GRACE 地面系统的一部分，生成本数据集中使用的二级数据（球谐场）。输出包括重力场的球谐系数以及用于计算它们的去混叠场的球谐系数。由于每个中心独立生产系数，结果可能略有不同。建议大多数用户使用所有三个数据集的平均值。更多细节见提供方的[选择解](https://grace.jpl.nasa.gov/data/choosing-a-solution/)页面。
 
-**Note**
+**注**
 
-* Land leakage correction: Ocean signals are typically weaker
-  than land signals, by factors of 2 and more, on seasonal and
-  interannual time scales. To minimize leakage from high land
-  signals onto ocean signals, a destriping filter has been applied
-  which may cause cause correlations over much larger distances.
+* 陆地泄漏校正：海洋信号通常比陆地信号弱，在季节与年际时间尺度上相差 2 倍以上。为最小化高陆地信号向海洋信号的泄漏，已应用去条带滤波，这可能在更大的距离上引起相关。
 
-* The GRCTellus Ocean datasets are optimized to examine regional
-  ocean bottom pressure, but NOT intended to be spatially
-  averaged to determine global mean ocean mass.
+* GRCTellus 海洋数据集经优化用于检查区域海洋底部压力，但不打算做空间平均来确定全球平均海洋质量。
 
-* A filtered version of the  GRCTellus Ocean dataset is also available
-  which uses an alternative filtering method which may reduce leakage
-  errors, and have results which agree better with altimetric sea surface
-  height. [NASA/GRACE/MASS_GRIDS/OCEAN_EOFR](https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_OCEAN_EOFR).
+* GRCTellus 海洋数据集的一个滤波版本也可供使用，它使用替代滤波方法，可能减少泄漏误差，并有与测高海面高度更一致的结果。[NASA/GRACE/MASS_GRIDS/OCEAN_EOFR](https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_OCEAN_EOFR)。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`NASA/GRACE/MASS_GRIDS/OCEAN`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA Jet Propulsion Laboratory、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2002 年至 2016 年；分辨率：111,320 米。
 - 时间范围：2002-07-31 至 2016-12-10
-- 空间分辨率：111320 米
-- 许可：proprietary
-- 关键词：crs, gfz, grace, gravity, jpl, mass, nasa, ocean, oceans, tellus, water
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 111,320 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| lwe_thickness_csr | Equivalent liquid water thickness in centimeters calculated by CSR. | 111320 |  |
-| lwe_thickness_gfz | Equivalent liquid water thickness in centimeters calculated by GFZ. | 111320 |  |
-| lwe_thickness_jpl | Equivalent liquid water thickness in centimeters calculated by JPL. | 111320 |  |
+| lwe_thickness_csr | 由 CSR 计算的厘米等效液态水厚。 | 111320 |  |
+| lwe_thickness_gfz | 由 GFZ 计算的厘米等效液态水厚。 | 111320 |  |
+| lwe_thickness_jpl | 由 JPL 计算的厘米等效液态水厚。 | 111320 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 陆地水储量变化监测
+- 冰盖与冰川质量平衡
+- 地下水与海平面研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NASA/GRACE/MASS_GRIDS/OCEAN');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NASA/GRACE/MASS_GRIDS/OCEAN`
+- 提供方：NASA Jet Propulsion Laboratory、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_OCEAN
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：crs, gfz, grace, gravity, jpl, mass, nasa, ocean, oceans, tellus, water
 - 数据引用：D.P. Chambers. 2012. GRACE MONTHLY OCEAN MASS GRIDS NETCDF
 RELEASE 5.0. Ver. 5.0. PO.DAAC, CA, USA. Dataset accessed
 [YYYY-MM-DD] at [https://doi.org/10.5067/TEOCN-0N005](https://doi.org/10.5067/TEOCN-0N005).
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [GRACE Monthly Mass Grids - Ocean EOFR](/pages/25e1bee4/)
+- [GRACE Monthly Mass Grids Release 06 Version 04 - Ocean](/pages/de20d64c/)
+- [ECMWF 近实时 IFS 海浪预报](/pages/2f7bc360/)
+- [ECMWF 近实时 IFS 海浪预报（短截断）](/pages/423330ad/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

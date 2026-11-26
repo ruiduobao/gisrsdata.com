@@ -1,5 +1,5 @@
 ---
-title: "GEOS-CF fcst htf v1: Goddard Earth Observing System Composition Forecast"
+title: "GEOS-CF fcst htf v1：戈达德地球观测系统成分预报"
 date: 2026-11-03 12:00:00
 permalink: /pages/657fd24d/
 categories:
@@ -15,93 +15,67 @@ tags:
   - "nasa"
 ---
 
-# GEOS-CF fcst htf v1: Goddard Earth Observing System Composition Forecast
+# GEOS-CF fcst htf v1：戈达德地球观测系统成分预报
 
-## 数据集简介
+英文原名：GEOS-CF fcst htf v1: Goddard Earth Observing System Composition Forecast
 
-This dataset contains meteorological forecast (fcst) of high-temporal
-frequency data (htf). Use the 'creation_time' and 'forecast_time' properties
-to select data of interest.
-The Goddard Earth Observing System Composition Forecast (GEOS-CF) system is
-a global constituent prediction system from NASA's [Global Modeling and Assimilation Office (GMAO)](https://gmao.gsfc.nasa.gov/).
+## 这是什么数据
 
-GEOS-CF offers a new tool for atmospheric chemistry research, with the goal
-to supplement NASA's broad range of space-based and in-situ observations.
-GEOS-CF expands on the GEOS weather and aerosol modeling system by
-introducing the [GEOS-Chem](http://wiki.seas.harvard.edu/geos-chem/)
-chemistry module to provide hindcasts and 5-days forecasts of atmospheric
-constituents including ozone (O<sub>3</sub>), carbon monoxide (CO), nitrogen dioxide
-(NO<sub>2</sub>), sulfur dioxide (SO<sub>2</sub>), and fine particulate matter (PM<sub>2.5</sub>). The
-chemistry module integrated in GEOS-CF is identical to the offline GEOS-Chem
-model and readily benefits from the innovations provided by the GEOS-Chem
-community. Model outputs are provided on a 0.25&deg; latitude-longitude grid.
-Please refer to the [GEOS-CF Product Page](https://gmao.gsfc.nasa.gov/gmao-products/geos-cf/) for more details.
+本数据集包含高时间频率数据（htf）的气象预报（fcst）。使用「creation_time」与「forecast_time」属性选择感兴趣的数据。戈达德地球观测系统成分预报（GEOS-CF）系统是来自 NASA [全球建模与同化办公室（GMAO）](https://gmao.gsfc.nasa.gov/) 的全球成分预测系统。
 
-[Evaluation of GEOS-CF](https://doi.org/10.1029/2020MS002413) against satellite, ozonesonde, and surface
-observations for years 2018&ndash;2019 shows realistic simulated
-concentrations of O<sub>3</sub>, NO<sub>2</sub>, and CO, with normalized mean biases of &minus;0.1
-to 0.3, normalized root mean square errors between 0.1&ndash;0.4, and
-correlations between 0.3&ndash;0.8. Comparisons against surface observations
-highlight the successful representation of air pollutants in many regions of
-the world and during all seasons, yet also highlight current limitations,
-such as a global high bias in SO<sub>2</sub> and an overprediction of summertime O<sub>3</sub>
-over the Southeast United States.
-GEOS-CF v1 generally overestimates aerosols by 20%&ndash;50% due to known
-issues in GEOS-Chem v12.0.1 that have been addressed in later versions. The
-5-days forecasts have skill scores comparable to the 1-day hindcast. Model
-skills can be improved significantly by applying a bias-correction to the
-surface model output using a machine-learning approach.
+GEOS-CF 为大气化学研究提供了一个新工具，目标是补充 NASA 广泛的星基与原位观测。GEOS-CF 在 GEOS 天气与气溶胶建模系统基础上扩展，引入 [GEOS-Chem](http://wiki.seas.harvard.edu/geos-chem/) 化学模块，提供大气成分的后报与 5 天预报，包括臭氧（O3）、一氧化碳（CO）、二氧化氮（NO2）、二氧化硫（SO2）与细颗粒物（PM2.5）。集成在 GEOS-CF 中的化学模块与离线 GEOS-Chem 模式相同，并随时受益于 GEOS-Chem 社区提供的创新。模式输出在 0.25° 纬度-经度格网上提供。更多细节请参考 [GEOS-CF 产品页面](https://gmao.gsfc.nasa.gov/gmao-products/geos-cf/)。
 
-**Please Note:** A new version of GEOS-CF, v2, was released in January 2026. The updates 
-to the GEOS-CF system include updates to the GEOS atmospheric general 
-circulation model and the GEOS-Chem chemical model, replaying meteorology 
-to [GEOS IT](https://gmao.gsfc.nasa.gov/gmao-products/geos-it/), direct assimilation of stratospheric profiles and column ozone, 
-and updates to the anthropogenic emission source. Many of the same products 
-are available, and some new products have been added, but other products have 
-been discontinued. Furthermore, GEOS-CF v2 data will not be back-processed to
-cover the same period as GEOS-CF v1. For this reason, we consider GEOS-CF v2 
-to be a continuation and supplement to the GEOS-CF v data record, but not a 
-replacement for GEOS-CF v1 data. Please see the [GEOS-CF system description](https://gmao.gsfc.nasa.gov/gmao-products/geos-cf/system-description_geos-cf/) 
-for a summary of the updates, and consider the 
-[preliminary GEOS-CF v2 evaluation results](https://gmao.gsfc.nasa.gov/science-snapshots/improved-atmospheric-composition-forecasting-in-geos-cf-version-2/) 
-when deciding which version to use in your analysis.
+[GEOS-CF 评估](https://doi.org/10.1029/2020MS002413) 对照 2018–2019 年的卫星、臭氧探空仪与地表观测显示，O3、NO2 与 CO 的模拟浓度逼真，归一化平均偏差为 −0.1 至 0.3，归一化均方根误差在 0.1–0.4 之间，相关系数在 0.3–0.8 之间。与地表观测的比较突出了在世界许多地区与所有季节对空气污染物的成功表征，但也突出了当前的局限性，如 SO2 的全球高估以及对美国东南部夏季 O3 的过高预测。GEOS-CF v1 由于 GEOS-Chem v12.0.1 中已知的问题（已在后续版本中解决），一般将气溶胶高估 20%–50%。5 天预报的技能分数与 1 天后报相当。通过使用机器学习方法对地表模式输出应用偏差校正，模式技能可显著提高。
 
-## 基本信息
+**请注意：** GEOS-CF 的新版本 v2 于 2026 年 1 月发布。对 GEOS-CF 系统的更新包括对 GEOS 大气环流模式与 GEOS-Chem 化学模式的更新、将气象重演到 [GEOS IT](https://gmao.gsfc.nasa.gov/gmao-products/geos-it/)、平流层廓线与柱臭氧的直接同化，以及人为排放源的更新。许多相同的产品可用，一些新产品已添加，但其他产品已停产。此外，GEOS-CF v2 数据不会回溯处理以覆盖与 GEOS-CF v1 相同的时段。因此，我们认为 GEOS-CF v2 是 GEOS-CF v 数据记录的延续与补充，而不是 GEOS-CF v1 数据的替代。请参阅 [GEOS-CF 系统描述](https://gmao.gsfc.nasa.gov/gmao-products/geos-cf/system-description_geos-cf/) 了解更新摘要，并在决定在分析中使用哪个版本时考虑 [GEOS-CF v2 初步评估结果](https://gmao.gsfc.nasa.gov/science-snapshots/improved-atmospheric-composition-forecasting-in-geos-cf-version-2/)。
 
-- 数据集编号（Earth Engine ID）：`NASA/GEOS-CF/v1/fcst/htf`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA / GMAO、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球；时间范围：2022 年至 2026 年；分辨率：27,750 米。
 - 时间范围：2022-10-01 至 2026-01-02
-- 空间分辨率：27750 米
-- 许可：proprietary
-- 关键词：atmosphere, composition, forecast, geos, gmao, nasa
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 27,750 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| CO | Carbon monoxide (CO, MW = 28.00 g mol-1) volume mixing ratio dry air | 27750 |  |
-| NO2 | Nitrogen dioxide (NO2, MW = 46.00 g mol-1) volume mixing ratio dry air | 27750 |  |
-| O3 | Ozone (O3, MW = 48.00 g mol-1) volume mixing ratio dry air | 27750 |  |
-| PM25_RH35_GCC | Particulate matter with diameter below 2.5 um RH 35 | 27750 |  |
-| PM25_RH35_GOCART | Total reconstructed PM2.5 RH 35 | 27750 |  |
-| Q | Specific humidity | 27750 |  |
-| RH | Relative humidity after moist | 27750 |  |
-| SLP | Sea level pressure | 27750 |  |
-| SO2 | Sulfur dioxide (SO2, MW = 64.00 g mol-1) volume mixing ratio dry air | 27750 |  |
-| T | Air temperature | 27750 |  |
-| U | Eastward wind | 27750 |  |
-| V | Northward wind | 27750 |  |
+| CO | 一氧化碳（CO，MW = 28.00 g mol-1）干空气体积混合比。 | 27750 |  |
+| NO2 | 二氧化氮（NO2，MW = 46.00 g mol-1）干空气体积混合比。 | 27750 |  |
+| O3 | 臭氧（O3，MW = 48.00 g mol-1）干空气体积混合比。 | 27750 |  |
+| PM25_RH35_GCC | 直径低于 2.5 微米的颗粒物 RH 35。 | 27750 |  |
+| PM25_RH35_GOCART | 总重构 PM2.5 RH 35。 | 27750 |  |
+| Q | 比湿。 | 27750 |  |
+| RH | 湿润后的相对湿度。 | 27750 |  |
+| SLP | 海平面气压。 | 27750 |  |
+| SO2 | 二氧化硫（SO2，MW = 64.00 g mol-1）干空气体积混合比。 | 27750 |  |
+| T | 气温。 | 27750 |  |
+| U | 东向风。 | 27750 |  |
+| V | 北向风。 | 27750 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 大气成分预报与空气质量研究
+- 气溶胶与污染物分析
+- 大气化学建模
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NASA/GEOS-CF/v1/fcst/htf');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NASA/GEOS-CF/v1/fcst/htf`
+- 提供方：NASA / GMAO、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v1_fcst_htf
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：atmosphere, composition, forecast, geos, gmao, nasa
 - 数据引用：Keller, C. A., Knowland, K. E., Duncan, B. N., Liu, J., Anderson, D. C.,
 Das, S., ... & Pawson, S. (2021). Description of the NASA GEOS composition
 forecast modeling system GEOS-CF v1. 0. Journal of Advances in Modeling
@@ -109,5 +83,14 @@ Earth Systems, 13(4), e2020MS002413.
 [doi:10.1029/2020MS002413](https://doi.org/10.1029/2020MS002413)
 
 - DOI：10.1029/2020MS002413
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [GEOS-CF Ana htf v2: Goddard Earth Observing System Composition Forecast](/pages/cb6c953c/)
+- [GEOS-CF ana tavg1hr v2: Goddard Earth Observing System Composition Forecast](/pages/b313d8d8/)
+- [GEOS-CF fcst htf v2: Goddard Earth Observing System Composition Forecast](/pages/09c96d14/)
+- [GEOS-CF fcst tavg1hr v1: Goddard Earth Observing System Composition Forecast](/pages/fc3e6d2f/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

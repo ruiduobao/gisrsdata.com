@@ -1,5 +1,5 @@
 ---
-title: "GRACE Monthly Mass Grids - Global Mascon (CRI Filtered) [deprecated]"
+title: "GRACE 月度质量格网 - 全球 Mascon（CRI 滤波）[已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/920d14b8/
 categories:
@@ -18,81 +18,75 @@ tags:
   - "water"
 ---
 
-# GRACE Monthly Mass Grids - Global Mascon (CRI Filtered) [deprecated]
+# GRACE 月度质量格网 - 全球 Mascon（CRI 滤波）[已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：GRACE Monthly Mass Grids - Global Mascon (CRI Filtered) [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-GRACE Tellus Monthly Mass Grids provides monthly
-gravitational anomalies relative to a 2004-2010 time-mean baseline.
-The data contained in this dataset are units of \"Equivalent Water Thickness\"
-which represent the deviations of mass in terms of vertical extent
-of water in centimeters. See the provider's [Monthly Mass
-Grids Overview](https://grace.jpl.nasa.gov/data/monthly-mass-grids/)
-for more details.
+GRACE Tellus 月度质量格网提供相对于 2004–2010 年时间平均基准的月度重力异常。本数据集中的数据单位为「等效水厚」，以厘米表示的水的垂直范围表示质量偏差。更多细节见提供方的[月度质量格网概述](https://grace.jpl.nasa.gov/data/monthly-mass-grids/)。
 
-The GRACE Tellus (GRCTellus) Global Mascon dataset
-is based on Level-1 GRACE observations and processed
-at NASA Jet Propulsion Laboratory (JPL).
+GRACE Tellus（GRCTellus）全球 Mascon 数据集基于一级 GRACE 观测并在 NASA 喷气推进实验室（JPL）处理。
 
-This dataset uses a-priori constraints in space and time to
-estimate global, monthly gravity fields in terms of equal-area
-3&deg;x3&deg; spherical cap mass concentration (mascon) functions to minimize the
-effect of measurement errors. This results in better S/N
-ratios of the mascon fields compared to the conventional
-spherical-harmonic solutions.
+本数据集使用空间与时间上的先验约束，以等面积 3°×3° 球冠质量集中（mascon）函数估计全球月度重力场，以最小化测量误差的影响。这使 mascon 场与传统球谐解相比有更好的信噪比。
 
-This version of the Global Mascon dataset has a Coastline Resolution
-Improvement (CRI) filter applied to separate the land and ocean
-portions of mass within each land/ocean mascon in a post-processing step.
-For users who wish to do their own separation of land and ocean mass
-signals, a version of the data without the CRI filter is available
-at [NASA/GRACE/MASS_GRIDS/MASCON](https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_MASCON).
+本全球 Mascon 数据集的此版本应用了海岸线分辨率改进（CRI）滤波，在后处理步骤中分离每个陆地/海洋 mascon 内的陆地与海洋质量部分。对希望自己分离陆地与海洋质量信号的用户，无 CRI 滤波的版本位于 [NASA/GRACE/MASS_GRIDS/MASCON](https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_MASCON)。
 
-**Note**
+**注**
 
-* A set of global gain factors to aid in the interpretation of signals
-  at sub-mascon resolution is available at
-  [NASA/GRACE/MASS_GRIDS/MASCON_SCALE_CRI_2015](https://code.earthengine.google.com/?asset=NASA/GRACE/MASS_GRIDS/MASCON_SCALE_CRI_2015).
-  **Please note**: the gain factors can be used for hydrology-related
-  signals, but not for mountain glaciers or ice sheets. For more
-  information on scaling the mascon solutions, please see [Wiese et al.
-  (2016)](https://doi.org/10.1002/2016WR019344).
+* 一组帮助在子 mascon 分辨率上解释信号的全球增益因子位于 [NASA/GRACE/MASS_GRIDS/MASCON_SCALE_CRI_2015](https://code.earthengine.google.com/?asset=NASA/GRACE/MASS_GRIDS/MASCON_SCALE_CRI_2015)。**请注意**：增益因子可用于水文相关信号，但不能用于山地冰川或冰盖。有关缩放 mascon 解的更多信息，请见 [Wiese 等（2016）](https://doi.org/10.1002/2016WR019344)。
 
-* The data are represented on a 1/2 degree lon-lat grid, but they
-  represent the 3x3 degree equal-area caps, which is the current
-  native resolution of JPL-RL05M.
+* 数据表示在 1/2 度经纬度格网上，但它们表示 3×3 度等面积球冠，这是 JPL-RL05M 当前的原生分辨率。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`NASA/GRACE/MASS_GRIDS/MASCON_CRI`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA Jet Propulsion Laboratory、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：55,660 米。
 - 时间范围：2002-03-31 至 2017-05-22
-- 空间分辨率：55660 米
-- 许可：proprietary
-- 关键词：grace, gravity, jpl, mascon, mass, nasa, surface-ground-water, tellus, water
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 55,660 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| lwe_thickness | Equivalent liquid water thickness in centimeters. | 55660 |  |
-| uncertainty | 1-sigma uncertainty for each 3-degree mascon estimate. The provided estimates of uncertainty are regarded to be conservative. See the provider's [Error & Uncertainty Estimates section](https://grace.jpl.nasa.gov/data/get-data/jpl_global_mascons/)  | 55660 |  |
+| lwe_thickness | 厘米等效液态水厚。 | 55660 |  |
+| uncertainty | 每个 3 度 mascon 估计的 1 西格玛不确定性。所提供的不确定性估计被认为是保守的。见提供方的[误差与不确定性估计部分](https://grace.jpl.nasa.gov/data/get-data/jpl_global_mascons/)。 | 55660 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 陆地水储量变化监测
+- 冰盖与冰川质量平衡
+- 地下水与海平面研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NASA/GRACE/MASS_GRIDS/MASCON_CRI');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NASA/GRACE/MASS_GRIDS/MASCON_CRI`
+- 提供方：NASA Jet Propulsion Laboratory、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NASA_GRACE_MASS_GRIDS_MASCON_CRI
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：grace, gravity, jpl, mascon, mass, nasa, surface-ground-water, tellus, water
 - 数据引用：D.N. Wiese. 2015. GRACE monthly global water mass grids NETCDF
 RELEASE 5.0. Ver. 5.0. PO.DAAC, CA, USA.. Dataset accessed [YYYY-MM-DD] at
 [https://doi.org/10.5067/TEMSC-OCL05](https://doi.org/10.5067/TEMSC-OCL05).
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [GRACE Monthly Mass Grids Release 06 Version 04 - Land](/pages/d281cddf/)
+- [GRACE Monthly Mass Grids Release 6.3 Version 4 - Global Mascons](/pages/180b7c10/)
+- [GRACE Monthly Mass Grids Version 04 - Global Mascon (CRI Filtered)](/pages/78028c87/)
+- [GRACE Monthly Mass Grids - Global Mascons [deprecated]](/pages/5bc9dcc7/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

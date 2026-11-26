@@ -1,5 +1,5 @@
 ---
-title: "MYD13A1.005 Vegetation Indices 16-Day L3 Global 500m [deprecated]"
+title: "MYD13A1.005 植被指数 16 天 L3 全球 500 米 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/35908fdd/
 categories:
@@ -18,82 +18,78 @@ tags:
   - "vegetation-indices"
 ---
 
-# MYD13A1.005 Vegetation Indices 16-Day L3 Global 500m [deprecated]
+# MYD13A1.005 植被指数 16 天 L3 全球 500 米 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：MYD13A1.005 Vegetation Indices 16-Day L3 Global 500m [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-Global MODIS vegetation indices are designed to
-provide consistent spatial and temporal comparisons of vegetation conditions.
-Blue, red, and near-infrared reflectances, centered at 469-nanometers,
-645-nanometers, and 858-nanometers, respectively, are used to determine the
-MODIS daily vegetation indices.
+全球 MODIS 植被指数旨在提供植被状况的一致空间与时间比较。分别以 469 纳米、645 纳米与 858 纳米为中心的蓝、红与近红外反射率用于确定 MODIS 每日植被指数。
 
-The MODIS Normalized Difference Vegetation Index (NDVI) complements
-NOAA's Advanced Very High Resolution Radiometer (AVHRR) NDVI products
-provide continuity for time series historical applications. MODIS also
-includes a new Enhanced Vegetation Index (EVI) that minimizes canopy
-background variations and maintains sensitivity over dense vegetation
-conditions. The EVI also uses the blue band to remove residual atmosphere
-contamination caused by smoke and sub-pixel thin cloud clouds. The MODIS
-NDVI and EVI products are computed from atmospherically corrected
-bi-directional surface reflectances that have been masked for water, clouds,
-heavy aerosols, and cloud shadows.
+MODIS 归一化差值植被指数（NDVI）补充 NOAA 的高级甚高分辨率辐射计（AVHRR）NDVI 产品，为时间序列历史应用提供连续性。MODIS 还包括一个新的增强植被指数（EVI），它最小化冠层背景变异并在茂密植被条件下保持灵敏度。EVI 还使用蓝波段去除由烟与亚像元薄云引起的残余大气污染。MODIS NDVI 与 EVI 产品由大气校正的双向地表反射率计算，并已对水、云、重气溶胶与云影做了掩膜。
 
-Global MYD13A1 data are provided every 16 days at 500-meter spatial
-resolution as a gridded level-3 product in the Sinusoidal projection.
-Vegetation indices are used for global monitoring of vegetation conditions
-and are used in products displaying land cover and land cover changes. These
-data may be used as input for modeling global biogeochemical and hydrologic
-processes and global and regional climate. These data also may be used for
-characterizing land surface biophysical properties and processes, including
-primary production and land cover conversion.
+全球 MYD13A1 数据每 16 天以 500 米空间分辨率提供，为正弦投影的格网三级产品。植被指数用于全球植被状况监测，并用于显示土地覆盖与土地覆盖变化的产品。这些数据可用作建模全球生物地球化学与水文过程以及全球与区域气候的输入。这些数据还可用于表征地表生物物理属性与过程，包括初级生产与土地覆盖转换。
 
-Version-5 MODIS Vegetation Indices products have attained Validation Stage
-3.
+版本 5 的 MODIS 植被指数产品已达到验证阶段 3。
 
-Vegetation Indices production is phased between Terra and Aqua
-acquisitions, with Terra beginning on Day 001 and Aqua beginning on Day
-008.
+植被指数生产在 Terra 与 Aqua 获取之间分阶段进行，Terra 从第 001 天开始，Aqua 从第 008 天开始。
 
-Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data) for information on citing LP DAAC datasets.
+请访问 [LP DAAC「引用我们的数据」页面](https://lpdaac.usgs.gov/citing_our_data) 了解引用 LP DAAC 数据集的信息。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`MODIS/MYD13A1`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：500 米。
 - 时间范围：2002-07-04 至 2017-03-14
-- 空间分辨率：500 米
-- 许可：proprietary
-- 关键词：16-day, aqua, evi, global, modis, myd13a1, ndvi, vegetation, vegetation-indices
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 500 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| NDVI | Normalized Difference Vegetation Index | 500 |  |
-| EVI | Enhanced Vegetation Index | 500 |  |
-| DetailedQA | VI quality indicators | 500 |  |
-| sur_refl_b01 | Red surface reflectance | 500 | 645nm |
-| sur_refl_b02 | NIR surface reflectance | 500 | 858nm |
-| sur_refl_b03 | Blue surface reflectance | 500 | 469nm |
-| sur_refl_b07 | MIR surface reflectance | 500 | 2130nm/2105 - 2155nm |
-| ViewZenith | View zenith angle | 500 |  |
-| SolarZenith | Solar zenith angle | 500 |  |
-| RelativeAzimuth | Relative azimuth angle | 500 |  |
-| DayOfYear | Julian day of year | 500 |  |
-| SummaryQA | Quality reliability of VI pixel | 500 |  |
+| NDVI | 归一化差值植被指数。 | 500 |  |
+| EVI | 增强植被指数。 | 500 |  |
+| DetailedQA | VI 质量指示。 | 500 |  |
+| sur_refl_b01 | 红光地表反射率。 | 500 | 645nm |
+| sur_refl_b02 | 近红外地表反射率。 | 500 | 858nm |
+| sur_refl_b03 | 蓝光地表反射率。 | 500 | 469nm |
+| sur_refl_b07 | 中红外地表反射率。 | 500 | 2130nm/2105 - 2155nm |
+| ViewZenith | 观测天顶角。 | 500 |  |
+| SolarZenith | 太阳天顶角。 | 500 |  |
+| RelativeAzimuth | 相对方位角。 | 500 |  |
+| DayOfYear | 年儒略日。 | 500 |  |
+| SummaryQA | VI 像元的质量可靠性。 | 500 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 土地覆盖与植被监测
+- 全球变化研究
+- 遥感算法验证
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/MYD13A1');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/MYD13A1`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_MYD13A1
 
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：16-day, aqua, evi, global, modis, myd13a1, ndvi, vegetation, vegetation-indices
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [CSIRO 全球生物多样性指标](/pages/5e19a751/)
+- [ESA CCI 地上生物量（2007、2010、2015–2022，v6.0）](/pages/e9028b43/)
+- [GCOM-C/SGLI 三级叶面积指数产品（V1）](/pages/099c4e7b/)
+- [GCOM-C/SGLI 三级叶面积指数产品（V2）](/pages/9acc1a9f/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

@@ -1,5 +1,5 @@
 ---
-title: "MERRA-2 M2I3NVAER: Aerosol Mixing Ratio V5.12.4"
+title: "MERRA-2 M2I3NVAER：气溶胶混合比 V5.12.4"
 date: 2026-11-03 12:00:00
 permalink: /pages/a20ec4cb/
 categories:
@@ -18,132 +18,138 @@ tags:
   - "so4"
 ---
 
-# MERRA-2 M2I3NVAER: Aerosol Mixing Ratio V5.12.4
+# MERRA-2 M2I3NVAER：气溶胶混合比 V5.12.4
 
-## 数据集简介
+英文原名：MERRA-2 M2I3NVAER: Aerosol Mixing Ratio V5.12.4
 
-M2I3NVAER (or inst3_3d_aer_Nv) is an instantaneous 3-dimensional 3-hourly
-data collection in Modern-Era Retrospective analysis for Research and
-Applications version 2 (MERRA-2). This collection consists of assimilations
-of aerosol mixing ratio parameters at 72 model layers, such as dust, sulphur
-dioxide, sea salt, black carbon, and organic carbon. The data field is
-available every three hour starting from 00:00 UTC, e.g.: 00:00, 03:00,...
-,21:00 UTC. Section 4.2 of the
-[MERRA-2 File Specification document](https://gmao.gsfc.nasa.gov/pubs/docs/Bosilovich785.pdf)
-provides
-pressure values nominal for a 1000 hPa surface pressure and refers to the
-top edge of the layer. The lev=1 is for the top layer, and lev=72 is for
-the bottom (or surface) model layer.
+## 这是什么数据
 
-MERRA-2 is the latest version of global atmospheric reanalysis for the
-satellite era produced by NASA Global Modeling and Assimilation Office
-(GMAO) using the Goddard Earth Observing System Model (GEOS) version 5.12.4.
-The dataset covers the period of 1980-present with the latency of ~3 weeks
-after the end of a month.
+M2I3NVAER（或 inst3_3d_aer_Nv）是现代时代回顾分析研究与应用版本 2（MERRA-2）中的瞬时三维 3 小时数据集合。本集合由 72 个模式层上的气溶胶混合比参数的同化组成，如沙尘、二氧化硫、海盐、黑碳与有机碳。数据场从 00:00 UTC 开始每三小时可用，例如：00:00、03:00、……、21:00 UTC。[MERRA-2 文件规范文档](https://gmao.gsfc.nasa.gov/pubs/docs/Bosilovich785.pdf) 第 4.2 节提供了对 1000 hPa 地表气压标称的气压值，并指层的顶边。lev=1 为顶层，lev=72 为底层（或地表）模式层。
 
-## 基本信息
+MERRA-2 是 NASA 全球建模与同化办公室（GMAO）使用戈达德地球观测系统模式（GEOS）版本 5.12.4 生产的卫星时代全球大气再分析的最新版本。数据集覆盖 1980 年至今的时段，延迟为月末后约 3 周。
 
-- 数据集编号（Earth Engine ID）：`NASA/GSFC/MERRA/aer_nv/2`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA/MERRA、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球；时间范围：1980 年至 2026 年；分辨率：69,375 米。
 - 时间范围：1980-01-01 至 2026-10-01
-- 空间分辨率：69375 米
-- 许可：proprietary
-- 关键词：aerosol, atmosphere, dust, mass, merra, nasa, sea-salt, so2, so4
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 69,375 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| AIRDENS_1 | Air density | 69375 |  |
-| SO2_1 | Sulphur dioxide | 69375 |  |
-| DELP_1 | Pressure thickness | 69375 |  |
-| SS004_1 | Sea Salt Mixing Ratio (bin 004) | 69375 |  |
-| DU005_1 | Dust Mixing Ratio (bin 005) | 69375 |  |
-| DU004_1 | Dust Mixing Ratio (bin 004) | 69375 |  |
-| SS005_1 | Sea Salt Mixing Ratio (bin 005) | 69375 |  |
-| OCPHILIC_1 | Hydrophilic Organic Carbon (Particulate Matter) | 69375 |  |
-| BCPHOBIC_1 | Hydrophobic Black Carbon | 69375 |  |
-| SS002_1 | Sea Salt Mixing Ratio (bin 002) | 69375 |  |
-| DU003_1 | Dust Mixing Ratio (bin 003) | 69375 |  |
-| DMS_1 | Dimethylsulphide | 69375 |  |
-| SO4_1 | Sulphate aerosol | 69375 |  |
-| DU002_1 | Dust Mixing Ratio (bin 002) | 69375 |  |
-| PS_1 | Surface Pressure | 69375 |  |
-| SS003_1 | Sea Salt Mixing Ratio (bin 003) | 69375 |  |
-| DU001_1 | Dust Mixing Ratio (bin 001) | 69375 |  |
-| OCPHOBIC_1 | Hydrophobic Organic Carbon (Particulate Matter) | 69375 |  |
-| BCPHILIC_1 | Hydrophilic Black Carbon | 69375 |  |
-| MSA_1 | Methanesulphonic acid | 69375 |  |
-| SS001_1 | Sea Salt Mixing Ratio (bin 001) | 69375 |  |
-| AIRDENS_2 | Air density | 69375 |  |
-| SO2_2 | Sulphur dioxide | 69375 |  |
-| DELP_2 | Pressure thickness | 69375 |  |
-| SS004_2 | Sea Salt Mixing Ratio (bin 004) | 69375 |  |
-| DU005_2 | Dust Mixing Ratio (bin 005) | 69375 |  |
-| DU004_2 | Dust Mixing Ratio (bin 004) | 69375 |  |
-| SS005_2 | Sea Salt Mixing Ratio (bin 005) | 69375 |  |
-| OCPHILIC_2 | Hydrophilic Organic Carbon (Particulate Matter) | 69375 |  |
-| BCPHOBIC_2 | Hydrophobic Black Carbon | 69375 |  |
-| SS002_2 | Sea Salt Mixing Ratio (bin 002) | 69375 |  |
-| DU003_2 | Dust Mixing Ratio (bin 003) | 69375 |  |
-| DMS_2 | Dimethylsulphide | 69375 |  |
-| SO4_2 | Sulphate aerosol | 69375 |  |
-| DU002_2 | Dust Mixing Ratio (bin 002) | 69375 |  |
-| PS_2 | Surface Pressure | 69375 |  |
-| SS003_2 | Sea Salt Mixing Ratio (bin 003) | 69375 |  |
-| DU001_2 | Dust Mixing Ratio (bin 001) | 69375 |  |
-| OCPHOBIC_2 | Hydrophobic Organic Carbon (Particulate Matter) | 69375 |  |
-| BCPHILIC_2 | Hydrophilic Black Carbon | 69375 |  |
-| MSA_2 | Methanesulphonic acid | 69375 |  |
-| SS001_2 | Sea Salt Mixing Ratio (bin 001) | 69375 |  |
-| AIRDENS_3 | Air density | 69375 |  |
-| SO2_3 | Sulphur dioxide | 69375 |  |
-| DELP_3 | Pressure thickness | 69375 |  |
-| SS004_3 | Sea Salt Mixing Ratio (bin 004) | 69375 |  |
-| DU005_3 | Dust Mixing Ratio (bin 005) | 69375 |  |
-| DU004_3 | Dust Mixing Ratio (bin 004) | 69375 |  |
-| SS005_3 | Sea Salt Mixing Ratio (bin 005) | 69375 |  |
-| OCPHILIC_3 | Hydrophilic Organic Carbon (Particulate Matter) | 69375 |  |
-| BCPHOBIC_3 | Hydrophobic Black Carbon | 69375 |  |
-| SS002_3 | Sea Salt Mixing Ratio (bin 002) | 69375 |  |
-| DU003_3 | Dust Mixing Ratio (bin 003) | 69375 |  |
-| DMS_3 | Dimethylsulphide | 69375 |  |
-| SO4_3 | Sulphate aerosol | 69375 |  |
-| DU002_3 | Dust Mixing Ratio (bin 002) | 69375 |  |
-| PS_3 | Surface Pressure | 69375 |  |
-| SS003_3 | Sea Salt Mixing Ratio (bin 003) | 69375 |  |
-| DU001_3 | Dust Mixing Ratio (bin 001) | 69375 |  |
-| OCPHOBIC_3 | Hydrophobic Organic Carbon (Particulate Matter) | 69375 |  |
-| BCPHILIC_3 | Hydrophilic Black Carbon | 69375 |  |
-| MSA_3 | Methanesulphonic acid | 69375 |  |
-| SS001_3 | Sea Salt Mixing Ratio (bin 001) | 69375 |  |
-| AIRDENS_4 | Air density | 69375 |  |
-| SO2_4 | Sulphur dioxide | 69375 |  |
-| DELP_4 | Pressure thickness | 69375 |  |
-| SS004_4 | Sea Salt Mixing Ratio (bin 004) | 69375 |  |
-| DU005_4 | Dust Mixing Ratio (bin 005) | 69375 |  |
-| DU004_4 | Dust Mixing Ratio (bin 004) | 69375 |  |
-| SS005_4 | Sea Salt Mixing Ratio (bin 005) | 69375 |  |
-| OCPHILIC_4 | Hydrophilic Organic Carbon (Particulate Matter) | 69375 |  |
-| BCPHOBIC_4 | Hydrophobic Black Carbon | 69375 |  |
-| SS002_4 | Sea Salt Mixing Ratio (bin 002) | 69375 |  |
-| DU003_4 | Dust Mixing Ratio (bin 003) | 69375 |  |
-| DMS_4 | Dimethylsulphide | 69375 |  |
-| SO4_4 | Sulphate aerosol | 69375 |  |
-| DU002_4 | Dust Mixing Ratio (bin 002) | 69375 |  |
-| PS_4 | Surface Pressure | 69375 |  |
-| SS003_4 | Sea Salt Mixing Ratio (bin 003) | 69375 |  |
-| DU001_4 | Dust Mixing Ratio (bin 001) | 69375 |  |
+| AIRDENS_1 | 空气密度。 | 69375 |  |
+| SO2_1 | 二氧化硫。 | 69375 |  |
+| DELP_1 | 气压厚度。 | 69375 |  |
+| SS004_1 | 海盐混合比（分档 004）。 | 69375 |  |
+| DU005_1 | 沙尘混合比（分档 005）。 | 69375 |  |
+| DU004_1 | 沙尘混合比（分档 004）。 | 69375 |  |
+| SS005_1 | 海盐混合比（分档 005）。 | 69375 |  |
+| OCPHILIC_1 | 亲水性有机碳（颗粒物）。 | 69375 |  |
+| BCPHOBIC_1 | 疏水性黑碳。 | 69375 |  |
+| SS002_1 | 海盐混合比（分档 002）。 | 69375 |  |
+| DU003_1 | 沙尘混合比（分档 003）。 | 69375 |  |
+| DMS_1 | 二甲基硫醚。 | 69375 |  |
+| SO4_1 | 硫酸盐气溶胶。 | 69375 |  |
+| DU002_1 | 沙尘混合比（分档 002）。 | 69375 |  |
+| PS_1 | 地表气压。 | 69375 |  |
+| SS003_1 | 海盐混合比（分档 003）。 | 69375 |  |
+| DU001_1 | 沙尘混合比（分档 001）。 | 69375 |  |
+| OCPHOBIC_1 | 疏水性有机碳（颗粒物）。 | 69375 |  |
+| BCPHILIC_1 | 亲水性黑碳。 | 69375 |  |
+| MSA_1 | 甲磺酸。 | 69375 |  |
+| SS001_1 | 海盐混合比（分档 001）。 | 69375 |  |
+| AIRDENS_2 | 空气密度。 | 69375 |  |
+| SO2_2 | 二氧化硫。 | 69375 |  |
+| DELP_2 | 气压厚度。 | 69375 |  |
+| SS004_2 | 海盐混合比（分档 004）。 | 69375 |  |
+| DU005_2 | 沙尘混合比（分档 005）。 | 69375 |  |
+| DU004_2 | 沙尘混合比（分档 004）。 | 69375 |  |
+| SS005_2 | 海盐混合比（分档 005）。 | 69375 |  |
+| OCPHILIC_2 | 亲水性有机碳（颗粒物）。 | 69375 |  |
+| BCPHOBIC_2 | 疏水性黑碳。 | 69375 |  |
+| SS002_2 | 海盐混合比（分档 002）。 | 69375 |  |
+| DU003_2 | 沙尘混合比（分档 003）。 | 69375 |  |
+| DMS_2 | 二甲基硫醚。 | 69375 |  |
+| SO4_2 | 硫酸盐气溶胶。 | 69375 |  |
+| DU002_2 | 沙尘混合比（分档 002）。 | 69375 |  |
+| PS_2 | 地表气压。 | 69375 |  |
+| SS003_2 | 海盐混合比（分档 003）。 | 69375 |  |
+| DU001_2 | 沙尘混合比（分档 001）。 | 69375 |  |
+| OCPHOBIC_2 | 疏水性有机碳（颗粒物）。 | 69375 |  |
+| BCPHILIC_2 | 亲水性黑碳。 | 69375 |  |
+| MSA_2 | 甲磺酸。 | 69375 |  |
+| SS001_2 | 海盐混合比（分档 001）。 | 69375 |  |
+| AIRDENS_3 | 空气密度。 | 69375 |  |
+| SO2_3 | 二氧化硫。 | 69375 |  |
+| DELP_3 | 气压厚度。 | 69375 |  |
+| SS004_3 | 海盐混合比（分档 004）。 | 69375 |  |
+| DU005_3 | 沙尘混合比（分档 005）。 | 69375 |  |
+| DU004_3 | 沙尘混合比（分档 004）。 | 69375 |  |
+| SS005_3 | 海盐混合比（分档 005）。 | 69375 |  |
+| OCPHILIC_3 | 亲水性有机碳（颗粒物）。 | 69375 |  |
+| BCPHOBIC_3 | 疏水性黑碳。 | 69375 |  |
+| SS002_3 | 海盐混合比（分档 002）。 | 69375 |  |
+| DU003_3 | 沙尘混合比（分档 003）。 | 69375 |  |
+| DMS_3 | 二甲基硫醚。 | 69375 |  |
+| SO4_3 | 硫酸盐气溶胶。 | 69375 |  |
+| DU002_3 | 沙尘混合比（分档 002）。 | 69375 |  |
+| PS_3 | 地表气压。 | 69375 |  |
+| SS003_3 | 海盐混合比（分档 003）。 | 69375 |  |
+| DU001_3 | 沙尘混合比（分档 001）。 | 69375 |  |
+| OCPHOBIC_3 | 疏水性有机碳（颗粒物）。 | 69375 |  |
+| BCPHILIC_3 | 亲水性黑碳。 | 69375 |  |
+| MSA_3 | 甲磺酸。 | 69375 |  |
+| SS001_3 | 海盐混合比（分档 001）。 | 69375 |  |
+| AIRDENS_4 | 空气密度。 | 69375 |  |
+| SO2_4 | 二氧化硫。 | 69375 |  |
+| DELP_4 | 气压厚度。 | 69375 |  |
+| SS004_4 | 海盐混合比（分档 004）。 | 69375 |  |
+| DU005_4 | 沙尘混合比（分档 005）。 | 69375 |  |
+| DU004_4 | 沙尘混合比（分档 004）。 | 69375 |  |
+| SS005_4 | 海盐混合比（分档 005）。 | 69375 |  |
+| OCPHILIC_4 | 亲水性有机碳（颗粒物）。 | 69375 |  |
+| BCPHOBIC_4 | 疏水性黑碳。 | 69375 |  |
+| SS002_4 | 海盐混合比（分档 002）。 | 69375 |  |
+| DU003_4 | 沙尘混合比（分档 003）。 | 69375 |  |
+| DMS_4 | 二甲基硫醚。 | 69375 |  |
+| SO4_4 | 硫酸盐气溶胶。 | 69375 |  |
+| DU002_4 | 沙尘混合比（分档 002）。 | 69375 |  |
+| PS_4 | 地表气压。 | 69375 |  |
+| SS003_4 | 海盐混合比（分档 003）。 | 69375 |  |
+| DU001_4 | 沙尘混合比（分档 001）。 | 69375 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 大气再分析与气候研究
+- 气溶胶与空气质量分析
+- 天气与气候建模
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NASA/GSFC/MERRA/aer_nv/2');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NASA/GSFC/MERRA/aer_nv/2`
+- 提供方：NASA/MERRA、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_nv_2
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：aerosol, atmosphere, dust, mass, merra, nasa, sea-salt, so2, so4
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [MERRA-2 M2T1NXAER: Aerosol Diagnostics V5.12.4](/pages/2c0f8a49/)
+- [MERRA-2 M2T1NXRAD: Radiation Diagnostics V5.12.4](/pages/201faee8/)
+- [MERRA-2 M2T1NXSLV: Single-Level Diagnostics V5.12.4](/pages/36298a6b/)
+- [ERA5 逐小时数据 — ECMWF 气候再分析](/pages/2de85afd/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

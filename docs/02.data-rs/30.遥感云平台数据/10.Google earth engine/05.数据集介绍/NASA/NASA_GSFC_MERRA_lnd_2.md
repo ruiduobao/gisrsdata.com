@@ -1,5 +1,5 @@
 ---
-title: "MERRA-2 M2T1NXLND: Land Surface Diagnostics V5.12.4"
+title: "MERRA-2 M2T1NXLND：陆面诊断 V5.12.4"
 date: 2026-11-03 12:00:00
 permalink: /pages/fe806e47/
 categories:
@@ -19,98 +19,108 @@ tags:
   - "weather-and-climate"
 ---
 
-# MERRA-2 M2T1NXLND: Land Surface Diagnostics V5.12.4
+# MERRA-2 M2T1NXLND：陆面诊断 V5.12.4
 
-## 数据集简介
+英文原名：MERRA-2 M2T1NXLND: Land Surface Diagnostics V5.12.4
 
-M2T1NXLND (or tavg1_2d_lnd_Nx) is an hourly time-averaged data
-collection in Modern-Era Retrospective analysis for Research and
-Applications version 2 (MERRA-2). This collection consists of land
-surface diagnostics, such a baseflow flux, runoff, surface soil wetness,
-root zone soil wetness, water at surface layer, water at root zone
-layer, and soil temperature at six layers. The data field is
-time-stamped with the central time of an hour starting from 00:30 UTC,
-e.g.: 00:30, 01:30, ... , 23:30 UTC.
+## 这是什么数据
 
-MERRA-2 is the latest version of global atmospheric reanalysis for the
-satellite era produced by NASA Global Modeling and Assimilation Office
-(GMAO) using the Goddard Earth Observing System Model (GEOS) version
-5.12.4. The dataset covers the period of 1980-present with the latency
-of ~3 weeks after the end of a month.
+M2T1NXLND（或 tavg1_2d_lnd_Nx）是现代时代回顾分析研究与应用版本 2（MERRA-2）中的每小时时间平均数据集合。本集合由陆面诊断组成，如基流通量、径流、地表土壤湿度、根区土壤湿度、地表层水、根区层水与六层土壤温度。数据场以从 00:30 UTC 开始的一小时的中心时间打时间戳，例如：00:30、01:30、……、23:30 UTC。
 
-## 基本信息
+MERRA-2 是 NASA 全球建模与同化办公室（GMAO）使用戈达德地球观测系统模式（GEOS）版本 5.12.4 生产的卫星时代全球大气再分析的最新版本。数据集覆盖 1980 年至今的时段，延迟为月末后约 3 周。
 
-- 数据集编号（Earth Engine ID）：`NASA/GSFC/MERRA/lnd/2`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA/MERRA、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球；时间范围：1980 年至 2026 年；分辨率：69,375 米。
 - 时间范围：1980-01-01 至 2026-10-01
-- 空间分辨率：69375 米
-- 许可：proprietary
-- 关键词：climate, cryosphere, evaporation, ice, merra, precipitation, soil, temperature, water-vapor, weather-and-climate
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 69,375 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| BASEFLOW | Baseflow flux | 69375 |  |
-| ECHANGE | Rate of change of total land energy | 69375 |  |
-| EVLAND | Evaporation land | 69375 |  |
-| EVPINTR | Interception loss energy flux | 69375 |  |
-| EVPSBLN | Snow ice evaporation energy flux | 69375 |  |
-| EVPSOIL | Baresoil evaporation energy flux | 69375 |  |
-| EVPTRNS | Transpiration energy flux | 69375 |  |
-| FRSAT | Fractional area of saturated zone | 69375 |  |
-| FRSNO | Fractional area of land snowcover | 69375 |  |
-| FRUNST | Fractional area of unsaturated zone | 69375 |  |
-| FRWLT | Fractional area of wilting zone | 69375 |  |
-| GHLAND | Ground heating land | 69375 |  |
-| GRN | Greeness fraction | 69375 |  |
-| GWETPROF | Average prof soil moisture | 69375 |  |
-| GWETROOT | Root zone soil wetness | 69375 |  |
-| GWETTOP | Surface soil wetness | 69375 |  |
-| LAI | Leaf area index | 69375 |  |
-| LHLAND | Latent heat flux land | 69375 |  |
-| LWLAND | Net longwave land | 69375 |  |
-| PARDFLAND | Surface downwelling photosynthetic active radiation diffuse flux  | 69375 |  |
-| PARDRLAND | Surface downwelling par beam flux | 69375 |  |
-| PRECSNOLAND | Snowfall land | 69375 |  |
-| PRECTOTLAND | Total precipitation land | 69375 |  |
-| PRMC | Water profile | 69375 |  |
-| QINFIL | Soil water infiltration rate | 69375 |  |
-| RUNOFF | Overland runoff including throughflow | 69375 |  |
-| RZMC | Water root zone | 69375 |  |
-| SFMC | Water surface layer | 69375 |  |
-| SHLAND | Sensible heat flux land | 69375 |  |
-| SMLAND | Snowmelt flux land | 69375 |  |
-| SNODP | Snow depth | 69375 |  |
-| SNOMAS | Total snow storage land | 69375 |  |
-| SPLAND | Rate of spurious land energy source | 69375 |  |
-| SPSNOW | Rate of spurious snow energy | 69375 |  |
-| SPWATR | Rate of spurious land water source | 69375 |  |
-| SWLAND | Net shortwave land | 69375 |  |
-| TELAND | Total energy storage land | 69375 |  |
-| TPSNOW | Surface temperature of snow | 69375 |  |
-| TSAT | Surface temperature of saturated zone | 69375 |  |
-| TSOIL1 | Soil temperatures layer 1 | 69375 |  |
-| TSOIL2 | Soil temperatures layer 2 | 69375 |  |
-| TSOIL3 | Soil temperatures layer 3 | 69375 |  |
-| TSOIL4 | Soil temperatures layer 4 | 69375 |  |
-| TSOIL5 | Soil temperatures layer 5 | 69375 |  |
-| TSOIL6 | Soil temperatures layer 6 | 69375 |  |
-| TSURF | Surface temperature of land incl snow | 69375 |  |
-| TUNST | Surface temperature of unsaturated zone | 69375 |  |
-| TWLAND | Available water storage land | 69375 |  |
-| TWLT | Surface temperature of wilted zone | 69375 |  |
-| WCHANGE | Rate of change of total land water | 69375 |  |
+| BASEFLOW | 基流通量。 | 69375 |  |
+| ECHANGE | 总陆地能量变化率。 | 69375 |  |
+| EVLAND | 陆地蒸发。 | 69375 |  |
+| EVPINTR | 截留损失能量通量。 | 69375 |  |
+| EVPSBLN | 雪冰蒸发能量通量。 | 69375 |  |
+| EVPSOIL | 裸土蒸发能量通量。 | 69375 |  |
+| EVPTRNS | 蒸腾能量通量。 | 69375 |  |
+| FRSAT | 饱和区面积分数。 | 69375 |  |
+| FRSNO | 陆地雪盖面积分数。 | 69375 |  |
+| FRUNST | 非饱和区面积分数。 | 69375 |  |
+| FRWLT | 萎蔫区面积分数。 | 69375 |  |
+| GHLAND | 陆地地面加热。 | 69375 |  |
+| GRN | 绿度分数。 | 69375 |  |
+| GWETPROF | 平均剖面土壤水分。 | 69375 |  |
+| GWETROOT | 根区土壤湿度。 | 69375 |  |
+| GWETTOP | 地表土壤湿度。 | 69375 |  |
+| LAI | 叶面积指数。 | 69375 |  |
+| LHLAND | 陆地潜热通量。 | 69375 |  |
+| LWLAND | 陆地净长波。 | 69375 |  |
+| PARDFLAND | 地表下行光合有效辐射漫射通量。 | 69375 |  |
+| PARDRLAND | 地表下行 PAR 直射通量。 | 69375 |  |
+| PRECSNOLAND | 陆地降雪。 | 69375 |  |
+| PRECTOTLAND | 陆地总降水。 | 69375 |  |
+| PRMC | 水剖面。 | 69375 |  |
+| QINFIL | 土壤水入渗率。 | 69375 |  |
+| RUNOFF | 包括壤中流的地表径流。 | 69375 |  |
+| RZMC | 根区水。 | 69375 |  |
+| SFMC | 地表层水。 | 69375 |  |
+| SHLAND | 陆地感热通量。 | 69375 |  |
+| SMLAND | 陆地融雪通量。 | 69375 |  |
+| SNODP | 雪深。 | 69375 |  |
+| SNOMAS | 陆地总雪储量。 | 69375 |  |
+| SPLAND | 虚假陆地能量源速率。 | 69375 |  |
+| SPSNOW | 虚假雪能量速率。 | 69375 |  |
+| SPWATR | 虚假陆地水源速率。 | 69375 |  |
+| SWLAND | 陆地净短波。 | 69375 |  |
+| TELAND | 陆地总能量储量。 | 69375 |  |
+| TPSNOW | 雪面温度。 | 69375 |  |
+| TSAT | 饱和区地表温度。 | 69375 |  |
+| TSOIL1 | 第 1 层土壤温度。 | 69375 |  |
+| TSOIL2 | 第 2 层土壤温度。 | 69375 |  |
+| TSOIL3 | 第 3 层土壤温度。 | 69375 |  |
+| TSOIL4 | 第 4 层土壤温度。 | 69375 |  |
+| TSOIL5 | 第 5 层土壤温度。 | 69375 |  |
+| TSOIL6 | 第 6 层土壤温度。 | 69375 |  |
+| TSURF | 包括雪的陆地地表温度。 | 69375 |  |
+| TUNST | 非饱和区地表温度。 | 69375 |  |
+| TWLAND | 陆地可用水储量。 | 69375 |  |
+| TWLT | 萎蔫区地表温度。 | 69375 |  |
+| WCHANGE | 总陆地水变化率。 | 69375 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 大气再分析与气候研究
+- 气溶胶与空气质量分析
+- 天气与气候建模
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NASA/GSFC/MERRA/lnd/2');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NASA/GSFC/MERRA/lnd/2`
+- 提供方：NASA/MERRA、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_lnd_2
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：climate, cryosphere, evaporation, ice, merra, precipitation, soil, temperature, water-vapor, weather-and-climate
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ECMWF 近实时 IFS 大气预报](/pages/3fdfa56d/)
+- [ERA5-Land 按日内时刻月平均数据 — ECMWF 气候再分析](/pages/39c04517/)
+- [ERA5-Land 月聚合数据 — ECMWF 气候再分析](/pages/0889ecdc/)
+- [ERA5-Land 逐小时数据 — ECMWF 气候再分析](/pages/0a0b8372/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

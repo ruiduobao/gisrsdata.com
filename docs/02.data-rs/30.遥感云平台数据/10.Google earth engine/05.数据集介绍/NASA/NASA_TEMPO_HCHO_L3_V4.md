@@ -1,5 +1,5 @@
 ---
-title: "TEMPO gridded HCHO vertical columns V04"
+title: "TEMPO 格网 HCHO 垂直柱 V04"
 date: 2026-11-03 12:00:00
 permalink: /pages/8d56a30a/
 categories:
@@ -16,71 +16,86 @@ tags:
   - "tropomi"
 ---
 
-# TEMPO gridded HCHO vertical columns V04
+# TEMPO 格网 HCHO 垂直柱 V04
 
-## 数据集简介
+英文原名：TEMPO gridded HCHO vertical columns V04
 
-Formaldehyde Level 3 collection provides trace gas information on a
-regular grid covering the TEMPO field of regard for nominal TEMPO
-observations. Level 3 files are derived by combining information from
-all Level 2 files constituting a TEMPO East-West scan cycle. The
-rasters contain information on formaldehyde vertical columns,
-ancillary data used in air mass factor calculations and reference sector
-or de-striping corrections, and retrieval quality flags.
-The re-gridding algorithm uses an area-weighted approach.
+## 这是什么数据
 
-* A version of this dataset with QA filters applied is available as [NASA/TEMPO/HCHO_L3_V4_QA](NASA_TEMPO_HCHO_L3_V4_QA)
-* [General Documentation](https://asdc.larc.nasa.gov/documents/tempo/guide/TEMPO_Level-2-3_trace_gas_clouds_user_guide_V1.2.pdf)
+甲醛三级集合在覆盖标称 TEMPO 观测的 TEMPO 视场的规则格网上提供痕量气体信息。三级文件通过组合构成一个 TEMPO 东西扫描周期的所有二级文件的信息导出。栅格包含甲醛垂直柱、用于气团因子计算的辅助数据与参考扇区或去条带校正，以及反演质量标志的信息。重格网算法使用面积加权方法。
 
-## 基本信息
+* 本数据集应用了 QA 过滤的版本可作为 [NASA/TEMPO/HCHO_L3_V4_QA](NASA_TEMPO_HCHO_L3_V4_QA) 获得
+* [通用文档](https://asdc.larc.nasa.gov/documents/tempo/guide/TEMPO_Level-2-3_trace_gas_clouds_user_guide_V1.2.pdf)
 
-- 数据集编号（Earth Engine ID）：`NASA/TEMPO/HCHO_L3_V4`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA ASDC、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2026 年；分辨率：2,226 米。
 - 时间范围：2023-08-01 至 2026-11-01
-- 空间分辨率：2226 米
-- 许可：proprietary
-- 关键词：air-quality, formaldehyde, nasa, pollution, satellite-imagery, tempo, tropomi
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 2,226 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| weight | Sum of Level 2 pixel overlap areas. Represents the weighting factor for each grid cell, indicating the fraction of the grid cell area with valid data.  | 2226 |  |
-| vertical_column | HCHO vertical column | 2226 |  |
-| vertical_column_uncertainty | HCHO vertical column uncertainty  | 2226 |  |
-| main_data_quality_flag | Main data quality flag. Provides an overall assessment of the data quality  | 2226 |  |
-| num_vertical_column_samples | Number of vertical column samples | 2226 |  |
-| min_vertical_column_sample | Smallest vertical column sample | 2226 |  |
-| max_vertical_column_sample | Largest vertical column sample | 2226 |  |
-| solar_zenith_angle | Solar zenith angle at pixel center | 2226 |  |
-| viewing_zenith_angle | Viewing zenith angle at pixel center | 2226 |  |
-| relative_azimuth_angle | Relative azimuth angle at pixel center | 2226 |  |
-| surface_pressure | Surface pressure | 2226 |  |
-| terrain_height | Terrain height | 2226 |  |
-| snow_ice_fraction | Fraction of pixel area covered by snow and/or ice  | 2226 |  |
-| fitted_slant_column | HCHO fitted slant column | 2226 |  |
-| fitted_slant_column_uncertainty | HCHO fitted slant column uncertainty | 2226 |  |
-| albedo | Surface albedo | 2226 |  |
-| amf | HCHO air mass factor | 2226 |  |
-| eff_cloud_fraction | Effective cloud fraction | 2226 |  |
-| amf_cloud_fraction | Cloud radiance fraction for AMF calculation  | 2226 |  |
-| amf_cloud_pressure | Cloud pressure for AMF calculation | 2226 |  |
-| pbl_height | Planetary boundary layer height | 2226 |  |
+| weight | 二级像元重叠面积之和。表示每个格网单元的权重因子，指示格网单元面积中有效数据的分数。 | 2226 |  |
+| vertical_column | HCHO 垂直柱。 | 2226 |  |
+| vertical_column_uncertainty | HCHO 垂直柱不确定性。 | 2226 |  |
+| main_data_quality_flag | 主数据质量标志。提供数据质量的总体评估。 | 2226 |  |
+| num_vertical_column_samples | 垂直柱样本数。 | 2226 |  |
+| min_vertical_column_sample | 最小垂直柱样本。 | 2226 |  |
+| max_vertical_column_sample | 最大垂直柱样本。 | 2226 |  |
+| solar_zenith_angle | 像元中心太阳天顶角。 | 2226 |  |
+| viewing_zenith_angle | 像元中心观测天顶角。 | 2226 |  |
+| relative_azimuth_angle | 像元中心相对方位角。 | 2226 |  |
+| surface_pressure | 地表气压。 | 2226 |  |
+| terrain_height | 地形高度。 | 2226 |  |
+| snow_ice_fraction | 被雪与/或冰覆盖的像元面积分数。 | 2226 |  |
+| fitted_slant_column | HCHO 拟合斜柱。 | 2226 |  |
+| fitted_slant_column_uncertainty | HCHO 拟合斜柱不确定性。 | 2226 |  |
+| albedo | 地表反照率。 | 2226 |  |
+| amf | HCHO 气团因子。 | 2226 |  |
+| eff_cloud_fraction | 有效云分数。 | 2226 |  |
+| amf_cloud_fraction | AMF 计算的云辐射分数。 | 2226 |  |
+| amf_cloud_pressure | AMF 计算的云气压。 | 2226 |  |
+| pbl_height | 行星边界层高度。 | 2226 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 空气质量监测
+- 痕量气体柱浓度反演
+- 大气污染研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('NASA/TEMPO/HCHO_L3_V4');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`NASA/TEMPO/HCHO_L3_V4`
+- 提供方：NASA ASDC、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/NASA_TEMPO_HCHO_L3_V4
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：air-quality, formaldehyde, nasa, pollution, satellite-imagery, tempo, tropomi
 - 数据引用：NASA/LARC/SD/ASDC. (n.d.). TEMPO gridded HCHO vertical columns V04
 (PROVISIONAL) [Data set]. NASA Langley
 Atmospheric Science Data Center DAAC.
 Retrieved from https://doi.org/10.5067/IS-40e/TEMPO/HCHO_L3.004
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [TEMPO gridded HCHO (QA filtered) vertical columns V04](/pages/cefdcd3d/)
+- [TEMPO gridded NO2 (QA filtered) tropospheric and stratospheric columns V04](/pages/1239d51f/)
+- [TEMPO gridded NO2 tropospheric and stratospheric columns V04](/pages/0407e6fe/)
+- [TEMPO gridded cloud fraction and pressure (O2-O2 dimer) V04 (PROVISIONAL)](/pages/052929b1/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

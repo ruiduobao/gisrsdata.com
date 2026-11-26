@@ -171,7 +171,7 @@
    "id": "00ebbade",
    "url": "/pages/00ebbade/",
    "en_url": "/en/pages/00ebbade/",
-   "title_zh": "",
+   "title_zh": "FLDAS：饥荒早期预警系统网络（FEWS NET）陆地数据同化系统",
    "title_en": "FLDAS: Famine Early Warning Systems Network (FEWS NET) Land Data Assimilation System",
    "cat": "cryosphere",
    "tags": [
@@ -186,17 +186,17 @@
    ],
    "res_m": 11132.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1982 年至 2026 年；分辨率：11,132 米。",
    "time": "1982-01-01 至 2026-09-01",
    "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/FLDAS/NOAH01/C/GL/M/V001",
-   "intro_zh": "",
+   "intro_zh": "FLDAS 数据集（McNally 等 2017）旨在协助数据稀疏的发展中国家环境中的粮食安全评估。它包括许多气候相关变量的信息，包括含水量、湿度、蒸散、平均土壤温度、总降水率等。",
    "intro_en": "The FLDAS dataset (McNally et al. 2017), was designed to assist with food security assessments in data-sparse, developing country settings. It includes information on many climate-related variables in…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "012ffc59",
@@ -445,7 +445,7 @@
    "id": "0308328b",
    "url": "/pages/0308328b/",
    "en_url": "/en/pages/0308328b/",
-   "title_zh": "",
+   "title_zh": "GPM：月度全球降水测量（GPM）v6",
    "title_en": "GPM: Monthly Global Precipitation Measurement (GPM) v6",
    "cat": "climate",
    "tags": [
@@ -462,15 +462,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2021 年；分辨率：11,132 米。",
    "time": "2000-06-01 至 2021-09-01",
    "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GPM_L3/IMERG_MONTHLY_V06",
-   "intro_zh": "",
+   "intro_zh": "IMERG-Final 版本「06」于 2021 年 9 月停止生产。版本「07」预计于 2022 年 9 月发布。",
    "intro_en": "IMERG-Final version \"06\" stopped being produced in September, 2021. Version \"07\" is expected to be released in September 2022",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "0316ee5d",
@@ -617,7 +617,7 @@
    "id": "0407e6fe",
    "url": "/pages/0407e6fe/",
    "en_url": "/en/pages/0407e6fe/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网 NO2 对流层与平流层柱 V04",
    "title_en": "TEMPO gridded NO2 tropospheric and stratospheric columns V04",
    "cat": "atmosphere",
    "tags": [
@@ -632,16 +632,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至",
+   "coverage": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2026 年；分辨率：2,226 米。",
    "time": "2023-08-01 至 2026-11-02",
    "provider": "NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/NO2_L3_V4",
-   "intro_zh": "",
+   "intro_zh": "二氧化氮三级文件在覆盖标称 TEMPO 观测的 TEMPO 视场的规则格网上提供痕量气体信息。三级文件通过组合构成一个 TEMPO 东西扫描周期的所有二级文件的信息导出。栅格包含对流层、平流层与总二氧化氮垂直柱、用于气团因子与平流层/对流层分离计算的辅助数据，以及反演质量标志的信…",
    "intro_en": "Nitrogen dioxide Level 3 files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information fro…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "045f3fcc",
@@ -800,7 +800,7 @@
    "id": "052929b1",
    "url": "/pages/052929b1/",
    "en_url": "/en/pages/052929b1/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网云分数与气压（O2-O2 二聚体）V04（临时）",
    "title_en": "TEMPO gridded cloud fraction and pressure (O2-O2 dimer) V04 (PROVISIONAL)",
    "cat": "atmosphere",
    "tags": [
@@ -814,16 +814,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至",
+   "coverage": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2026 年；分辨率：2,226 米。",
    "time": "2023-08-02 至 2026-11-01",
    "provider": "NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/CLDO4_L3_V4",
-   "intro_zh": "",
+   "intro_zh": "TEMPO 三级云产品（O2-O2 二聚体）提供格网云分数与云气压数据。这些参数源自 477 nm 附近的 O2-O2 吸收带，对空气质量反演与大气监测至关重要。数据通过使用面积加权方法组合并重格网单个东西扫描周期的二级文件创建。",
    "intro_en": "The TEMPO Level 3 Cloud Product (O2-O2 dimer) provides gridded cloud fraction and cloud pressure data. These parameters are derived from the O2-O2 absorption band near 477 nm and are essential for air…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "05a2b721",
@@ -1266,7 +1266,7 @@
    "id": "07e994dd",
    "url": "/pages/07e994dd/",
    "en_url": "/en/pages/07e994dd/",
-   "title_zh": "",
+   "title_zh": "GIMMS 源自 AVHRR 传感器的 NDVI（第三代）",
    "title_en": "GIMMS NDVI From AVHRR Sensors (3rd Generation)",
    "cat": "vegetation",
    "tags": [
@@ -1282,15 +1282,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：1981 年至 2013 年；分辨率：9,277 米。",
    "time": "1981-07-01 至 2013-12-16",
    "provider": "NASA/NOAA",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GIMMS/3GV0",
-   "intro_zh": "",
+   "intro_zh": "GIMMS NDVI 由若干 NOAA 的 AVHRR 传感器为全球 1/12 度纬度/经度格网生成。GIMMS NDVI 数据集的最新版本命名为 NDVI3g（第三代源自 AVHRR 传感器的 GIMMS NDVI）。",
    "intro_en": "GIMMS NDVI is generated from several NOAA's AVHRR sensors for a global 1/12-degree lat/lon grid. The latest version of the GIMMS NDVI dataset is named NDVI3g (third generation GIMMS NDVI from AVHRR se…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "080f10d0",
@@ -1505,7 +1505,7 @@
    "id": "08fb92a4",
    "url": "/pages/08fb92a4/",
    "en_url": "/en/pages/08fb92a4/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网第 03 版 - 全球 Mascon（CRI 滤波）[已弃用]",
    "title_en": "GRACE Monthly Mass Grids Version 03 - Global Mascon (CRI Filtered) [deprecated]",
    "cat": "water",
    "tags": [
@@ -1522,15 +1522,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2024 年；分辨率：55,660 米。",
    "time": "2002-03-31 至 2024-03-31",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS_V03/MASCON_CRI",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含格网化的月度全球水储量/高度异常（相对于时间平均），源自 GRACE 与 GRACE-FO 并在 JPL 使用 Mascon 方法（RL06.1Mv03）处理。此版本的数据采用海岸线分辨率改进（CRI）滤波，减少跨海岸线的信号泄漏误差。这些数据以 netCDF 格式在…",
    "intro_en": "This dataset contains gridded monthly global water storage/height anomalies relative to a time-mean, derived from GRACE and GRACE-FO and processed at JPL using the Mascon approach (RL06.1Mv03). This v…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "090adaef",
@@ -1741,7 +1741,7 @@
    "id": "09c96d14",
    "url": "/pages/09c96d14/",
    "en_url": "/en/pages/09c96d14/",
-   "title_zh": "",
+   "title_zh": "GEOS-CF fcst htf v2：戈达德地球观测系统成分预报",
    "title_en": "GEOS-CF fcst htf v2: Goddard Earth Observing System Composition Forecast",
    "cat": "atmosphere",
    "tags": [
@@ -1757,15 +1757,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2025 年至 2026 年；分辨率：27,750 米。",
    "time": "2025-08-04 至 2026-11-01",
    "provider": "NASA / GMAO",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GEOS-CF/v2/fcst/htf",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含 15 分钟间隔的高时间频率数据（htf）的预报（fcst）。它由原始 GEOS-CF 集合 htfinst15mngloL1440x721slv 创建。使用「creationtime」与「forecasttime」属性选择感兴趣的数据。戈达德地球观测系统成分预报（G…",
    "intro_en": "This dataset contains forecast (fcst) of high-temporal frequency data (htf) at 15 minute intervals. It is created from the original GEOS-CF collection htfinst15mngloL1440x721slv. Use the 'creationtime…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "09ea3f30",
@@ -2221,7 +2221,7 @@
    "id": "0e29085e",
    "url": "/pages/0e29085e/",
    "en_url": "/en/pages/0e29085e/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 NDVI",
    "title_en": "MODIS Aqua Daily NDVI",
    "cat": "vegetation",
    "tags": [
@@ -2236,17 +2236,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2023-02-25",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_006_NDVI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值植被指数由每个场景的近红外与红波段按（NIR − Red）/（NIR + Red）生成，值域为 −1.0 至 1.0。本产品由 MODIS/006/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Vegetation Index is generated from the Near-IR and Red bands of each scene as (NIR - Red) / (NIR + Red), and ranges in value from -1.0 to 1.0. This product is generated from…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "0e7e9bc9",
@@ -3018,7 +3018,7 @@
    "id": "1239d51f",
    "url": "/pages/1239d51f/",
    "en_url": "/en/pages/1239d51f/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网 NO2（QA 过滤）对流层与平流层柱 V04",
    "title_en": "TEMPO gridded NO2 (QA filtered) tropospheric and stratospheric columns V04",
    "cat": "atmosphere",
    "tags": [
@@ -3033,16 +3033,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至",
+   "coverage": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2026 年；分辨率：2,226 米。",
    "time": "2023-08-01 至 2026-11-02",
    "provider": "QA Filtered: Google and NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/NO2_L3_V4_QA",
-   "intro_zh": "",
+   "intro_zh": "二氧化氮三级文件在覆盖标称 TEMPO 观测的 TEMPO 视场的规则格网上提供痕量气体信息。三级文件通过组合构成一个 TEMPO 东西扫描周期的所有二级文件的信息导出。栅格包含对流层、平流层与总二氧化氮垂直柱、用于气团因子与平流层/对流层分离计算的辅助数据，以及反演质量标志的信…",
    "intro_en": "Nitrogen dioxide Level 3 files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information fro…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "1294f47e",
@@ -3309,7 +3309,7 @@
    "id": "14b202f7",
    "url": "/pages/14b202f7/",
    "en_url": "/en/pages/14b202f7/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 BAI [已弃用]",
    "title_en": "MODIS Aqua Daily BAI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -3324,17 +3324,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_BAI",
-   "intro_zh": "",
+   "intro_zh": "燃烧面积指数（BAI）由红与近红外波段生成，测量每个像元与参考光谱点（木炭的实测反射率）的光谱距离。本指数旨在强调火灾后影像中的木炭信号。细节见 Chuvieco 等（2002）。本产品由 MODIS/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Burn Area Index (BAI) is generated from the Red and Near-IR bands, and measures the spectral distance of each pixel from a reference spectral point (the measured reflectance of charcoal). This ind…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "14e817f0",
@@ -3731,7 +3731,7 @@
    "id": "180b7c10",
    "url": "/pages/180b7c10/",
    "en_url": "/en/pages/180b7c10/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网版本 6.3 第 4 版 - 全球 Mascons",
    "title_en": "GRACE Monthly Mass Grids Release 6.3 Version 4 - Global Mascons",
    "cat": "water",
    "tags": [
@@ -3748,15 +3748,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2024 年；分辨率：55,660 米。",
    "time": "2002-03-31 至 2024-09-30",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS_V04/MASCON",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含格网化的月度全球水储量/高度异常（相对于时间平均），源自 GRACE 与 GRACE-FO 并在 JPL 使用 Mascon 方法（RL06.3Mv04）处理。这些数据以 netCDF 格式在单个数据文件中提供，可用于海洋、冰与水文现象的分析。水储量/高度异常以等效水…",
    "intro_en": "This dataset contains gridded monthly global water storage/height anomalies relative to a time-mean, derived from GRACE and GRACE-FO and processed at JPL using the Mascon approach (RL06.3Mv04). These…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "1810cfa0",
@@ -4322,7 +4322,7 @@
    "id": "1c5308a3",
    "url": "/pages/1c5308a3/",
    "en_url": "/en/pages/1c5308a3/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网版本 6.1 第 3 版 - 全球 Mascons [已弃用]",
    "title_en": "GRACE Monthly Mass Grids Release 6.1 Version 3 - Global Mascons [deprecated]",
    "cat": "water",
    "tags": [
@@ -4339,15 +4339,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2024 年；分辨率：55,660 米。",
    "time": "2002-03-31 至 2024-03-31",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS_V03/MASCON",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含格网化的月度全球水储量/高度异常（相对于时间平均），源自 GRACE 与 GRACE-FO 并在 JPL 使用 Mascon 方法（RL06.1Mv03）处理。这些数据以 netCDF 格式在单个数据文件中提供，可用于海洋、冰与水文现象的分析。水储量/高度异常以等效水…",
    "intro_en": "This dataset contains gridded monthly global water storage/height anomalies relative to a time-mean, derived from GRACE and GRACE-FO and processed at JPL using the Mascon approach (RL06.1Mv03). These…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "1c72ec66",
@@ -4876,7 +4876,7 @@
    "id": "201faee8",
    "url": "/pages/201faee8/",
    "en_url": "/en/pages/201faee8/",
-   "title_zh": "",
+   "title_zh": "MERRA-2 M2T1NXRAD：辐射诊断 V5.12.4",
    "title_en": "MERRA-2 M2T1NXRAD: Radiation Diagnostics V5.12.4",
    "cat": "atmosphere",
    "tags": [
@@ -4891,17 +4891,17 @@
    ],
    "res_m": 69375.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1980 年至 2026 年；分辨率：69,375 米。",
    "time": "1980-01-01 至 2026-10-01",
    "provider": "NASA/MERRA",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GSFC/MERRA/rad/2",
-   "intro_zh": "",
+   "intro_zh": "M2T1NXRAD（或 tavg12dradNx）是现代时代回顾分析研究与应用版本 2（MERRA-2）中的每小时时间平均数据集合。本集合由辐射诊断组成，如地表反照率、云面积分数、云内光学厚度、地表入射短波通量（即太阳辐射）、地表净向下短波通量与 TOA（大气顶）的上行长波通量（…",
    "intro_en": "M2T1NXRAD (or tavg12dradNx) is an hourly time-averaged data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of radiation dia…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "208ecbda",
@@ -5426,7 +5426,7 @@
    "id": "24aba3ee",
    "url": "/pages/24aba3ee/",
    "en_url": "/en/pages/24aba3ee/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网 NO2（QA 过滤）对流层与平流层柱 V03 [已弃用]",
    "title_en": "TEMPO gridded NO2 (QA filtered) tropospheric and stratospheric columns V03 [deprecated]",
    "cat": "atmosphere",
    "tags": [
@@ -5441,16 +5441,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至",
+   "coverage": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2025 年；分辨率：2,226 米。",
    "time": "2023-08-01 至 2025-09-16",
    "provider": "QA Filtered: Google and NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/NO2_L3_QA",
-   "intro_zh": "",
+   "intro_zh": "二氧化氮三级文件在覆盖标称 TEMPO 观测的 TEMPO 视场的规则格网上提供痕量气体信息。三级文件通过组合构成一个 TEMPO 东西扫描周期的所有二级文件的信息导出。栅格包含对流层、平流层与总二氧化氮垂直柱、用于气团因子与平流层/对流层分离计算的辅助数据，以及反演质量标志的信…",
    "intro_en": "Nitrogen dioxide Level 3 files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information fro…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "251a85fa",
@@ -5543,7 +5543,7 @@
    "id": "25e1bee4",
    "url": "/pages/25e1bee4/",
    "en_url": "/en/pages/25e1bee4/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网 - 海洋 EOFR",
    "title_en": "GRACE Monthly Mass Grids - Ocean EOFR",
    "cat": "ocean",
    "tags": [
@@ -5558,17 +5558,17 @@
    ],
    "res_m": 111320.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2016 年；分辨率：111,320 米。",
    "time": "2002-12-31 至 2016-12-10",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS/OCEAN_EOFR",
-   "intro_zh": "",
+   "intro_zh": "GRACE Tellus 月度质量格网提供相对于 2004–2010 年时间平均基准的月度重力异常。本数据集中的数据单位为「等效水厚」，以厘米表示的水的垂直范围表示质量偏差。更多细节见提供方的月度质量格网概述。",
    "intro_en": "GRACE Tellus Monthly Mass Grids provides monthly gravitational anomalies relative to a 2004-2010 time-mean baseline. The data contained in this dataset are units of \\\"Equivalent Water Thickness\\\" whic…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "25f14f",
@@ -6113,7 +6113,7 @@
    "id": "29f02f85",
    "url": "/pages/29f02f85/",
    "en_url": "/en/pages/29f02f85/",
-   "title_zh": "",
+   "title_zh": "GPM：月度全球降水测量（GPM）版本 07",
    "title_en": "GPM: Monthly Global Precipitation Measurement (GPM) vRelease 07",
    "cat": "climate",
    "tags": [
@@ -6130,15 +6130,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：1998 年至 2025 年；分辨率：11,132 米。",
    "time": "1998-01-01 至 2025-09-01",
    "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GPM_L3/IMERG_MONTHLY_V07",
-   "intro_zh": "",
+   "intro_zh": "全球降水测量（GPM）是一个国际卫星任务，每三小时提供全球雨雪的下一代观测。GPM 综合多卫星反演（IMERG）是统一算法，结合 GPM 星座中所有被动微波仪器的数据提供降雨估计。",
    "intro_en": "Global Precipitation Measurement (GPM) is an international satellite mission to provide next-generation observations of rain and snow worldwide every three hours. The Integrated Multi-satellitE Retrie…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "29f40295",
@@ -6383,7 +6383,7 @@
    "id": "2b77b12f",
    "url": "/pages/2b77b12f/",
    "en_url": "/en/pages/2b77b12f/",
-   "title_zh": "",
+   "title_zh": "VJ114IMGTDL_NRT 每日栅格：VIIRS（NOAA-20）375 米活火",
    "title_en": "VJ114IMGTDL_NRT Daily Raster: VIIRS (NOAA-20) Band 375m Active Fire",
    "cat": "hazards",
    "tags": [
@@ -6398,17 +6398,17 @@
    ],
    "res_m": 375.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2023 年至 2026 年；分辨率：375 米。",
    "time": "2023-10-08 至 2026-11-02",
    "provider": "NASA / LANCE / NOAA20_VIIRS",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/LANCE/NOAA20_VIIRS/C2",
-   "intro_zh": "",
+   "intro_zh": "NOAA-20（JPSS-1）可见光红外成像辐射计套件（VIIRS）活火探测产品基于该仪器 375 米标称分辨率数据。与其他较粗分辨率（≥1 千米）卫星火探测产品相比，改进的 375 米数据对相对小面积的火有更大的响应，并改进了大火周界的制图。因此，数据非常适合支持火灾管理（如近…",
    "intro_en": "NOAA-20 (JPSS-1) Visible Infrared Imaging Radiometer Suite (VIIRS) Active Fire detection product is based on the instrument's 375m nominal resolution data. Compared to other coarser resolution (&ge; 1…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "2bf0c0f9",
@@ -6469,7 +6469,7 @@
    "id": "2c0f8a49",
    "url": "/pages/2c0f8a49/",
    "en_url": "/en/pages/2c0f8a49/",
-   "title_zh": "",
+   "title_zh": "MERRA-2 M2T1NXAER：气溶胶诊断 V5.12.4",
    "title_en": "MERRA-2 M2T1NXAER: Aerosol Diagnostics V5.12.4",
    "cat": "atmosphere",
    "tags": [
@@ -6484,17 +6484,17 @@
    ],
    "res_m": 69375.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1980 年至 2026 年；分辨率：69,375 米。",
    "time": "1980-01-01 至 2026-10-01",
    "provider": "NASA/MERRA",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GSFC/MERRA/aer/2",
-   "intro_zh": "",
+   "intro_zh": "M2T1NXAER（或 tavg12daerNx）是现代时代回顾分析研究与应用版本 2（MERRA-2）中的每小时时间平均二维数据集合。本集合由同化的气溶胶诊断组成，如气溶胶成分（黑碳、沙尘、海盐、硫酸盐与有机碳）的柱质量密度、气溶胶成分的地表质量浓度，以及 550 nm 的总消…",
    "intro_en": "M2T1NXAER (or tavg12daerNx) is an hourly time-averaged 2-dimensional data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "2c266cb4",
@@ -7837,7 +7837,7 @@
    "id": "34bf1ad5",
    "url": "/pages/34bf1ad5/",
    "en_url": "/en/pages/34bf1ad5/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 NDSI",
    "title_en": "MODIS Aqua Daily NDSI",
    "cat": "vegetation",
    "tags": [
@@ -7852,23 +7852,23 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2023-02-25",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_006_NDSI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值雪指数用于识别雪，基于其在光谱可见光部分相对于中红外特征性更高的反射率。NDSI 使用绿与中红外波段计算，范围为 −1.0 至 1.0。细节见 Riggs 等（1994）。本产品由 MODIS/006/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Snow Index is used to identify snow, based on its characteristically higher reflectance in the visible portion of the spectrum compared to the mid-IR. NDSI is computed using…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "34e91f39",
    "url": "/pages/34e91f39/",
    "en_url": "/en/pages/34e91f39/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 BAI",
    "title_en": "MODIS Aqua Daily BAI",
    "cat": "vegetation",
    "tags": [
@@ -7883,23 +7883,23 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2023-02-25",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_006_BAI",
-   "intro_zh": "",
+   "intro_zh": "燃烧面积指数（BAI）由红与近红外波段生成，测量每个像元与参考光谱点（木炭的实测反射率）的光谱距离。本指数旨在强调火灾后影像中的木炭信号。细节见 Chuvieco 等（2002）。本产品由 MODIS/006/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Burn Area Index (BAI) is generated from the Red and Near-IR bands, and measures the spectral distance of each pixel from a reference spectral point (the measured reflectance of charcoal). This ind…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "3510f165",
    "url": "/pages/3510f165/",
    "en_url": "/en/pages/3510f165/",
-   "title_zh": "",
+   "title_zh": "AG100：ASTER 全球发射率数据集 100 米 V003",
    "title_en": "AG100: ASTER Global Emissivity Dataset 100-meter V003",
    "cat": "vegetation",
    "tags": [
@@ -7916,15 +7916,15 @@
    "res_bucket": "30–100 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2008 年；分辨率：100 米。",
    "time": "2000-01-01 至 2008-12-31",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/ASTER_GED/AG100_003",
-   "intro_zh": "",
+   "intro_zh": "高级星载热发射与反射辐射计全球发射率数据库（ASTER-GED）由美国国家航空航天局（NASA）喷气推进实验室（JPL）、加州理工学院开发。本产品包括全部 5 个 ASTER 热红外波段的平均发射率与标准差、平均地表温度（LST）与标准差、重采样的 ASTER GDEM、陆地-水…",
    "intro_en": "The Advanced Spaceborne Thermal Emission and Reflection Radiometer Global Emissivity Database (ASTER-GED) was developed by the National Aeronautics and Space Administration's (NASA) Jet Propulsion Lab…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "357bd1",
@@ -7952,7 +7952,7 @@
    "id": "35908fdd",
    "url": "/pages/35908fdd/",
    "en_url": "/en/pages/35908fdd/",
-   "title_zh": "",
+   "title_zh": "MYD13A1.005 植被指数 16 天 L3 全球 500 米 [已弃用]",
    "title_en": "MYD13A1.005 Vegetation Indices 16-Day L3 Global 500m [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -7969,15 +7969,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：500 米。",
    "time": "2002-07-04 至 2017-03-14",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD13A1",
-   "intro_zh": "",
+   "intro_zh": "全球 MODIS 植被指数旨在提供植被状况的一致空间与时间比较。分别以 469 纳米、645 纳米与 858 纳米为中心的蓝、红与近红外反射率用于确定 MODIS 每日植被指数。",
    "intro_en": "Global MODIS vegetation indices are designed to provide consistent spatial and temporal comparisons of vegetation conditions. Blue, red, and near-infrared reflectances, centered at 469-nanometers, 645…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "359e6f68",
@@ -8103,7 +8103,7 @@
    "id": "36298a6b",
    "url": "/pages/36298a6b/",
    "en_url": "/en/pages/36298a6b/",
-   "title_zh": "",
+   "title_zh": "MERRA-2 M2T1NXSLV：单层诊断 V5.12.4",
    "title_en": "MERRA-2 M2T1NXSLV: Single-Level Diagnostics V5.12.4",
    "cat": "atmosphere",
    "tags": [
@@ -8118,17 +8118,17 @@
    ],
    "res_m": 69375.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1980 年至 2026 年；分辨率：69,375 米。",
    "time": "1980-01-01 至 2026-10-01",
    "provider": "NASA/MERRA",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GSFC/MERRA/slv/2",
-   "intro_zh": "",
+   "intro_zh": "M2T1NXSLV（或 tavg12dslvNx）是现代时代回顾分析研究与应用版本 2（MERRA-2）中的每小时时间平均二维数据集合。本集合由常用垂直层上的气象诊断组成，如 2 米气温（或 10 米、850 hPa、500 hPa、250 hPa）、50 米风分量（或 2 米、…",
    "intro_en": "M2T1NXSLV (or tavg12dslvNx) is an hourly time-averaged 2-dimensional data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "363cff9d",
@@ -8315,7 +8315,7 @@
    "id": "36bd8918",
    "url": "/pages/36bd8918/",
    "en_url": "/en/pages/36bd8918/",
-   "title_zh": "",
+   "title_zh": "MYD10A1.005 Aqua 雪盖日产品全球 500 米 [已弃用]",
    "title_en": "MYD10A1.005 Aqua Snow Cover Daily Global 500m [deprecated]",
    "cat": "cryosphere",
    "tags": [
@@ -8332,15 +8332,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2016 年；分辨率：500 米。",
    "time": "2002-07-04 至 2016-12-25",
    "provider": "NSIDC",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD10A1",
-   "intro_zh": "",
+   "intro_zh": "MYD10A1 V5 雪盖日产品全球 500 米包含雪盖、雪反照率、分数雪盖与质量评估（QA）数据。雪盖数据基于采用归一化差值雪指数（NDSI）与其他判据检验的雪制图算法。",
    "intro_en": "The MYD10A1 V5 Snow Cover Daily Global 500m product contains snow cover, snow albedo, fractional snow cover, and quality assessment (QA) data. Snow cover data are based on a snow mapping algorithm tha…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "36cc0dac",
@@ -8373,7 +8373,7 @@
    "id": "36d993d6",
    "url": "/pages/36d993d6/",
    "en_url": "/en/pages/36d993d6/",
-   "title_zh": "",
+   "title_zh": "MYD13Q1.005 植被指数 16 天全球 250 米 [已弃用]",
    "title_en": "MYD13Q1.005 Vegetation Indices 16-Day Global 250m [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -8390,15 +8390,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：250 米。",
    "time": "2002-07-04 至 2017-03-14",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD13Q1",
-   "intro_zh": "",
+   "intro_zh": "MODIS 归一化差值植被指数（NDVI）补充 NOAA 高级甚高分辨率辐射计（AVHRR）NDVI 产品，为时间序列历史应用提供连续性。MODIS 还包括一个新的增强植被指数（EVI），它最小化冠层背景变异并在茂密植被条件下保持灵敏度。EVI 还使用蓝波段去除由烟与亚像元薄云引…",
    "intro_en": "The MODIS Normalized Difference Vegetation Index (NDVI) complements NOAA's Advanced Very High Resolution Radiometer (AVHRR) NDVI products and provides continuity for time series historical application…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "36f55b38",
@@ -9032,7 +9032,7 @@
    "id": "3c0a518e",
    "url": "/pages/3c0a518e/",
    "en_url": "/en/pages/3c0a518e/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 NDVI [已弃用]",
    "title_en": "MODIS Aqua Daily NDVI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -9047,17 +9047,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_NDVI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值植被指数由每个场景的近红外与红波段按（NIR − Red）/（NIR + Red）生成，值域为 −1.0 至 1.0。本产品由 MODIS/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Vegetation Index is generated from the Near-IR and Red bands of each scene as (NIR - Red) / (NIR + Red), and ranges in value from -1.0 to 1.0. This product is generated from…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "3c0d1c61",
@@ -9239,7 +9239,7 @@
    "id": "3d80ca78",
    "url": "/pages/3d80ca78/",
    "en_url": "/en/pages/3d80ca78/",
-   "title_zh": "",
+   "title_zh": "全球森林覆盖变化（GFCC）树木覆盖多年全球 30 米",
    "title_en": "Global Forest Cover Change (GFCC) Tree Cover Multi-Year Global 30m",
    "cat": "vegetation",
    "tags": [
@@ -9254,15 +9254,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2015 年；分辨率：30 米。",
    "time": "2000-01-01 至 2015-01-01",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/MEASURES/GFCC/TC/v3",
-   "intro_zh": "",
+   "intro_zh": "Landsat 植被连续场（VCF）树木覆盖层包含每个 30 米像元中被高度超过 5 米的木本植被覆盖的水平地面百分比估计。数据集提供以 2000、2005、2010 与 2015 年为中心的四个时期。数据集源自 GFCC 地表反射率产品（GFCC30SR），它基于增强的全球陆地…",
    "intro_en": "The Landsat Vegetation Continuous Fields (VCF) tree cover layers contain estimates of the percentage of horizontal ground in each 30-m pixel covered by woody vegetation greater than 5 meters in height…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "3da07cd6",
@@ -9506,7 +9506,7 @@
    "id": "3e858db5",
    "url": "/pages/3e858db5/",
    "en_url": "/en/pages/3e858db5/",
-   "title_zh": "",
+   "title_zh": "GPM：全球降水测量（GPM）版本 07",
    "title_en": "GPM: Global Precipitation Measurement (GPM) Release 07",
    "cat": "climate",
    "tags": [
@@ -9523,15 +9523,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：1998 年至 2026 年；分辨率：11,132 米。",
    "time": "1998-01-01 至 2026-11-02",
    "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GPM_L3/IMERG_V07",
-   "intro_zh": "",
+   "intro_zh": "全球降水测量（GPM）是一个国际卫星任务，每三小时提供全球雨雪的下一代观测。GPM 综合多卫星反演（IMERG）是统一算法，结合 GPM 星座中所有被动微波仪器的数据提供降雨估计。",
    "intro_en": "Global Precipitation Measurement (GPM) is an international satellite mission to provide next-generation observations of rain and snow worldwide every three hours. The Integrated Multi-satellitE Retrie…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "3ec3bff1",
@@ -9621,7 +9621,7 @@
    "id": "3f6433d2",
    "url": "/pages/3f6433d2/",
    "en_url": "/en/pages/3f6433d2/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网臭氧总柱 V04（临时）",
    "title_en": "TEMPO gridded ozone total column V04 (PROVISIONAL)",
    "cat": "atmosphere",
    "tags": [
@@ -9636,16 +9636,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美；时间范围：2023 年至 2026 年；分辨",
+   "coverage": "覆盖范围：北美；时间范围：2023 年至 2026 年；分辨率：2,226 米。",
    "time": "2023-08-02 至 2026-11-02",
    "provider": "NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/O3_L3_V4_QA",
-   "intro_zh": "",
+   "intro_zh": "TEMPO 格网臭氧总柱 V04（临时）是一个三级数据集，在北美规则格网上提供基本的总臭氧柱信息。数据由 IS-40e 平台上的 TEMPO 仪器生成，通过使用面积加权方法组合并重格网单个东西扫描周期的二级文件创建。这些测量对监测大陆空气质量与大气化学至关重要，由 NASA 兰利…",
    "intro_en": "The TEMPO gridded ozone total column V04 (PROVISIONAL) is a Level 3 dataset providing essential total column ozone information on a regular grid across North America. Generated from the TEMPO instrume…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "3fb6432f",
@@ -9763,7 +9763,7 @@
    "id": "402b2c43",
    "url": "/pages/402b2c43/",
    "en_url": "/en/pages/402b2c43/",
-   "title_zh": "",
+   "title_zh": "海洋水色 SMI：标准映射影像 SeaWiFS 数据",
    "title_en": "Ocean Color SMI: Standard Mapped Image SeaWiFS Data",
    "cat": "ocean",
    "tags": [
@@ -9778,17 +9778,17 @@
    ],
    "res_m": 9200.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：1997 年至 2010 年；分辨率：9,200 米。",
    "time": "1997-09-04 至 2010-12-10",
    "provider": "NASA OB.DAAC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/OCEANDATA/SeaWiFS/L3SMI",
-   "intro_zh": "",
+   "intro_zh": "此三级产品包括在 EOSDIS 下生产或收集的海洋水色与卫星海洋生物学数据。",
    "intro_en": "This level 3 product includes ocean color and satellite ocean biology data produced or collected under EOSDIS.",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "40b0b1e8",
@@ -10051,7 +10051,7 @@
    "id": "427935f4",
    "url": "/pages/427935f4/",
    "en_url": "/en/pages/427935f4/",
-   "title_zh": "",
+   "title_zh": "GPM：全球降水测量（GPM）版本 06 [已弃用]",
    "title_en": "GPM: Global Precipitation Measurement (GPM) Release 06 [deprecated]",
    "cat": "climate",
    "tags": [
@@ -10068,15 +10068,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2024 年；分辨率：11,132 米。",
    "time": "2000-06-01 至 2024-06-02",
    "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GPM_L3/IMERG_V06",
-   "intro_zh": "",
+   "intro_zh": "全球降水测量（GPM）是一个国际卫星任务，每三小时提供全球雨雪的下一代观测。GPM 综合多卫星反演（IMERG）是统一算法，结合 GPM 星座中所有被动微波仪器的数据提供降雨估计。",
    "intro_en": "Global Precipitation Measurement (GPM) is an international satellite mission to provide next-generation observations of rain and snow worldwide every three hours. The Integrated Multi-satellitE Retrie…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "4295d2af",
@@ -10858,7 +10858,7 @@
    "id": "4a88073a",
    "url": "/pages/4a88073a/",
    "en_url": "/en/pages/4a88073a/",
-   "title_zh": "",
+   "title_zh": "NLDAS-2：北美陆地数据同化系统强迫场",
    "title_en": "NLDAS-2: North American Land Data Assimilation System Forcing Fields",
    "cat": "soil",
    "tags": [
@@ -10874,16 +10874,16 @@
    "res_m": 13915.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美；时间范围：1979 年至 2026 年；分辨",
+   "coverage": "覆盖范围：北美；时间范围：1979 年至 2026 年；分辨率：13,915 米。",
    "time": "1979-01-01 至 2026-10-30",
    "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/NLDAS/FORA0125_H002",
-   "intro_zh": "",
+   "intro_zh": "陆地数据同化系统（LDAS）结合多个观测来源（如降水雨量计数据、卫星数据与雷达降水测量），生成地球表面或附近气候特性的估计。",
    "intro_en": "Land Data Assimilation System (LDAS) combines multiple sources of observations (such as precipitation gauge data, satellite data, and radar precipitation measurements) to produce estimates of climatol…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "4ae50fa9",
@@ -11355,7 +11355,7 @@
    "id": "4e2cdb33",
    "url": "/pages/4e2cdb33/",
    "en_url": "/en/pages/4e2cdb33/",
-   "title_zh": "",
+   "title_zh": "MYD09GA.005 Aqua 地表反射率日 L2G 全球 1 公里与 500 米 [已弃用]",
    "title_en": "MYD09GA.005 Aqua Surface Reflectance Daily L2G Global 1km and 500m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -11372,21 +11372,21 @@
    "res_bucket": "矢量/表格或未注明",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：混合（反射率 500 米、观测与地理定位统计 1 公里）。",
    "time": "2002-07-04 至 2017-03-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "4e84ebc3",
    "url": "/pages/4e84ebc3/",
    "en_url": "/en/pages/4e84ebc3/",
-   "title_zh": "",
+   "title_zh": "MYD09GQ.005 Aqua 地表反射率日 L2G 全球 250 米 [已弃用]",
    "title_en": "MYD09GQ.005 Aqua Surface Reflectance Daily L2G Global 250m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -11403,15 +11403,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：250 米。",
    "time": "2002-07-04 至 2017-03-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GQ",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "4f1740e6",
@@ -13037,7 +13037,7 @@
    "id": "5a4a4893",
    "url": "/pages/5a4a4893/",
    "en_url": "/en/pages/5a4a4893/",
-   "title_zh": "",
+   "title_zh": "EMIT L2A 估计地表反射率与不确定性及掩膜 60 米",
    "title_en": "EMIT L2A Estimated Surface Reflectance and Uncertainty and Masks 60 m",
    "cat": "satellite",
    "tags": [
@@ -13049,17 +13049,17 @@
    ],
    "res_m": 60.0,
    "res_bucket": "30–100 米",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2022 年至 2026 年；分辨率：60 米。",
    "time": "2022-08-09 至 2026-08-31",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/EMIT/L2A/RFL",
-   "intro_zh": "",
+   "intro_zh": "EMIT 项目是地球风险仪器（EV-I）计划的一部分，由 NASA 地球科学部（ESD）项目主任指导。EMIT 由一个适配安装在国际空间站（ISS）上的 VSWIR 红外 Dyson 成像光谱仪组成。EMIT 测量 380 至 2,500 纳米之间的辐射，带宽约 7 纳米。数据在…",
    "intro_en": "The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed by the Program Director of the NASA Earth Science Division (ESD). EMIT is comprised of a VSWIR Infrared Dyson imaging s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "5a5aec8d",
@@ -13247,7 +13247,7 @@
    "id": "5bc9dcc7",
    "url": "/pages/5bc9dcc7/",
    "en_url": "/en/pages/5bc9dcc7/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网 - 全球 Mascons [已弃用]",
    "title_en": "GRACE Monthly Mass Grids - Global Mascons [deprecated]",
    "cat": "water",
    "tags": [
@@ -13264,15 +13264,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：55,660 米。",
    "time": "2002-03-31 至 2017-05-22",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS/MASCON",
-   "intro_zh": "",
+   "intro_zh": "GRACE Tellus 月度质量格网提供相对于 2004–2010 年时间平均基准的月度重力异常。本数据集中的数据单位为「等效水厚」，以厘米表示的水的垂直范围表示质量偏差。更多细节见提供方的月度质量格网概述。",
    "intro_en": "GRACE Tellus Monthly Mass Grids provides monthly gravitational anomalies relative to a 2004-2010 time-mean baseline. The data contained in this dataset are units of \\\"Equivalent Water Thickness\\\" whic…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "5bd7d7e9",
@@ -13308,7 +13308,7 @@
    "id": "5c17c33d",
    "url": "/pages/5c17c33d/",
    "en_url": "/en/pages/5c17c33d/",
-   "title_zh": "",
+   "title_zh": "HLSS30：HLS Sentinel-2 地表反射率全球 30 米",
    "title_en": "HLSS30: HLS Sentinel-2 Multi-spectral Instrument Surface Reflectance Daily Global 30m",
    "cat": "satellite",
    "tags": [
@@ -13322,15 +13322,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2015 年至 2026 年；分辨率：30 米。",
    "time": "2015-11-28 至 2026-10-31",
    "provider": "NASA LP DAAC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/HLS/HLSS30/v002",
-   "intro_zh": "",
+   "intro_zh": "协调 Landsat Sentinel-2（HLS）项目提供一致的地表反射率数据，来自 NASA/USGS 联合 Landsat 8 卫星上的陆地作业成像仪（OLI）与欧洲哥白尼 Sentinel-2A 卫星上的多光谱成像仪（MSI）。组合测量能以 30 米空间分辨率每 2–3…",
    "intro_en": "The Harmonized Landsat Sentinel-2 (HLS) project provides consistent surface reflectance data from the Operational Land Imager (OLI) aboard the joint NASA/USGS Landsat 8 satellite and the Multi-Spectra…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "5c492644",
@@ -14187,7 +14187,7 @@
    "id": "611f8aee",
    "url": "/pages/611f8aee/",
    "en_url": "/en/pages/611f8aee/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网臭氧总柱 V03（临时）[已弃用]",
    "title_en": "TEMPO gridded ozone total column V03 (PROVISIONAL) [deprecated]",
    "cat": "atmosphere",
    "tags": [
@@ -14202,16 +14202,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美；时间范围：2023 年至 2025 年；分辨",
+   "coverage": "覆盖范围：北美；时间范围：2023 年至 2025 年；分辨率：2,226 米。",
    "time": "2023-08-02 至 2025-09-16",
    "provider": "NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/O3_L3_QA",
-   "intro_zh": "",
+   "intro_zh": "TEMPO 格网臭氧总柱 V03（临时）是一个三级数据集，在北美规则格网上提供基本的总臭氧柱信息。数据由 IS-40e 平台上的 TEMPO 仪器生成，通过使用面积加权方法组合并重格网单个东西扫描周期的二级文件创建。这些测量对监测大陆空气质量与大气化学至关重要，由 NASA 兰利…",
    "intro_en": "The TEMPO gridded ozone total column V03 (PROVISIONAL) is a Level 3 dataset providing essential total column ozone information on a regular grid across North America. Generated from the TEMPO instrume…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "616d9456",
@@ -14624,7 +14624,7 @@
    "id": "64c851e2",
    "url": "/pages/64c851e2/",
    "en_url": "/en/pages/64c851e2/",
-   "title_zh": "",
+   "title_zh": "AERDB_D3_VIIRS_SNPP.002：VIIRS/SNPP 深蓝气溶胶光学厚度逐日三级全球 1.0 度格网",
    "title_en": "AERDB_D3_VIIRS_SNPP.002: VIIRS/SNPP Deep Blue Aerosol Optical Depth Daily L3 Global 1.0 Deg Grid",
    "cat": "atmosphere",
    "tags": [
@@ -14641,15 +14641,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：111,320 米。",
    "time": "2012-03-01 至 2026-10-28",
    "provider": "NASA Atmosphere SIPS / LAADS DAAC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/AERDB_D3_VIIRS_SNPP",
-   "intro_zh": "",
+   "intro_zh": "可见光红外成像辐射计套件（VIIRS）深蓝三级逐日全球 1 度格网产品（AERDBD3VIIRSSNPP）提供源自 Suomi 国家极轨伙伴（SNPP）VIIRS 传感器的逐日全球格网气溶胶参数。数据在陆地上使用深蓝（DB）算法生成，在海洋上使用陆地与海洋卫星气溶胶（SOAR）算…",
    "intro_en": "The Visible Infrared Imaging Radiometer Suite (VIIRS) Deep Blue Level-3 Daily Global 1-Degree Gridded product (AERDBD3VIIRSSNPP) provides daily global gridded aerosol parameters derived from the Suomi…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "65521765",
@@ -14682,7 +14682,7 @@
    "id": "657fd24d",
    "url": "/pages/657fd24d/",
    "en_url": "/en/pages/657fd24d/",
-   "title_zh": "",
+   "title_zh": "GEOS-CF fcst htf v1：戈达德地球观测系统成分预报",
    "title_en": "GEOS-CF fcst htf v1: Goddard Earth Observing System Composition Forecast",
    "cat": "atmosphere",
    "tags": [
@@ -14697,15 +14697,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2022 年至 2026 年；分辨率：27,750 米。",
    "time": "2022-10-01 至 2026-01-02",
    "provider": "NASA / GMAO",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GEOS-CF/v1/fcst/htf",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含高时间频率数据（htf）的气象预报（fcst）。使用「creationtime」与「forecasttime」属性选择感兴趣的数据。戈达德地球观测系统成分预报（GEOS-CF）系统是来自 NASA 全球建模与同化办公室（GMAO） 的全球成分预测系统。",
    "intro_en": "This dataset contains meteorological forecast (fcst) of high-temporal frequency data (htf). Use the 'creationtime' and 'forecasttime' properties to select data of interest. The Goddard Earth Observing…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "65860dab",
@@ -15583,7 +15583,7 @@
    "id": "6be5642d",
    "url": "/pages/6be5642d/",
    "en_url": "/en/pages/6be5642d/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网臭氧廓线 V04（临时）",
    "title_en": "TEMPO gridded ozone profile V04 (PROVISIONAL)",
    "cat": "atmosphere",
    "tags": [
@@ -15597,16 +15597,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美；时间范围：2023 年至 2026 年；分辨",
+   "coverage": "覆盖范围：北美；时间范围：2023 年至 2026 年；分辨率：2,226 米。",
    "time": "2023-08-02 至 2026-11-02",
    "provider": "NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/O3PROF_L3_V4",
-   "intro_zh": "",
+   "intro_zh": "TEMPO 格网臭氧廓线 V04（临时）是一个三级数据集，在北美规则格网上提供垂直臭氧廓线信息。数据由 IS-40e 平台上的 TEMPO 仪器生成，通过使用面积加权方法组合并重格网单个东西扫描周期的二级文件创建。这些测量对监测大气臭氧结构、平流层-对流层交换与大陆空气质量至关重…",
    "intro_en": "The TEMPO gridded ozone profile V04 (PROVISIONAL) is a Level 3 dataset providing vertical ozone profile information on a regular grid across North America. Generated from the TEMPO instrument on the I…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "6ca60ab0",
@@ -15820,7 +15820,7 @@
    "id": "6e1a956a",
    "url": "/pages/6e1a956a/",
    "en_url": "/en/pages/6e1a956a/",
-   "title_zh": "",
+   "title_zh": "EMIT L1B 传感器定标辐射与地理定位数据 60 米",
    "title_en": "EMIT L1B At-Sensor Calibrated Radiance and Geolocation Data 60 m",
    "cat": "satellite",
    "tags": [
@@ -15832,17 +15832,17 @@
    ],
    "res_m": 60.0,
    "res_bucket": "30–100 米",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2022 年至 2026 年；分辨率：60 米。",
    "time": "2022-08-09 至 2026-08-31",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/EMIT/L1B/RAD",
-   "intro_zh": "",
+   "intro_zh": "EMIT 项目是地球风险仪器（EV-I）计划的一部分，由 NASA 地球科学部（ESD）项目主任指导。EMIT 由一个适配安装在国际空间站（ISS）上的 VSWIR 红外 Dyson 成像光谱仪组成。EMIT 测量 380 至 2,500 纳米之间的辐射，带宽约 7 纳米。数据在…",
    "intro_en": "The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed by the Program Director of the NASA Earth Science Division (ESD). EMIT is comprised of a VSWIR Infrared Dyson imaging s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "6e230781",
@@ -16632,7 +16632,7 @@
    "id": "750f4ec5",
    "url": "/pages/750f4ec5/",
    "en_url": "/en/pages/750f4ec5/",
-   "title_zh": "",
+   "title_zh": "全球 2020 森林分类（IPCC 地上生物量一级估计）V1",
    "title_en": "Global 2020 Forest Classification for IPCC Aboveground Biomass Tier 1 Estimates, V1",
    "cat": "vegetation",
    "tags": [
@@ -16649,15 +16649,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2020 年；分辨率：30 米。",
    "time": "2020-01-01 至 2020-12-31",
    "provider": "NASA ORNL DAAC at Oak Ridge National Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/ORNL/global_forest_classification_2020/V1",
-   "intro_zh": "",
+   "intro_zh": "本数据集提供按状态/条件划分的 2020 年全球森林类别，分辨率约 30 米。数据支持为《2006 年 IPCC 国家温室气体清单指南 2019 年修订版》中天然林的地上干木生物量密度（AGBD）生成一级估计。森林类别包括原生林、幼次生林（≤20 年）与老次生林（20 年）。分类…",
    "intro_en": "This dataset provides classes of global forests delineated by status/condition in 2020 at approximately 30m resolution. The data support generating Tier 1 estimates for Aboveground dry woody Biomass D…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "753dd906",
@@ -17010,7 +17010,7 @@
    "id": "78028c87",
    "url": "/pages/78028c87/",
    "en_url": "/en/pages/78028c87/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网第 04 版 - 全球 Mascon（CRI 滤波）",
    "title_en": "GRACE Monthly Mass Grids Version 04 - Global Mascon (CRI Filtered)",
    "cat": "water",
    "tags": [
@@ -17027,15 +17027,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2024 年；分辨率：55,660 米。",
    "time": "2002-03-31 至 2024-09-30",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS_V04/MASCON_CRI",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含格网化的月度全球水储量/高度异常（相对于时间平均），源自 GRACE 与 GRACE-FO 并在 JPL 使用 Mascon 方法（RL06.3Mv04）处理。这些数据以 netCDF 格式在单个数据文件中提供，可用于海洋、冰与水文现象的分析。水储量/高度异常以等效水…",
    "intro_en": "This dataset contains gridded monthly global water storage/height anomalies relative to a time-mean, derived from GRACE and GRACE-FO and processed at JPL using the Mascon approach (RL06.3Mv04). These…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "7818ee44",
@@ -17471,7 +17471,7 @@
    "id": "7a357ddf",
    "url": "/pages/7a357ddf/",
    "en_url": "/en/pages/7a357ddf/",
-   "title_zh": "",
+   "title_zh": "HLSL30：HLS-2 Landsat 地表反射率与 TOA 亮度全球 30 米",
    "title_en": "HLSL30: HLS-2 Landsat Operational Land Imager Surface Reflectance and TOA Brightness Daily Global 30m",
    "cat": "satellite",
    "tags": [
@@ -17485,15 +17485,15 @@
    "res_bucket": "10–30 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2013 年至 2026 年；分辨率：30 米。",
    "time": "2013-04-11 至 2026-10-31",
    "provider": "NASA LP DAAC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/HLS/HLSL30/v002",
-   "intro_zh": "",
+   "intro_zh": "协调 Landsat Sentinel-2（HLS）项目提供来自虚拟卫星传感器星座的一致地表反射率（SR）与大气顶（TOA）亮度数据。陆地作业成像仪（OLI）搭载于 NASA/USGS 联合的 Landsat 8 与 Landsat 9 卫星，多光谱成像仪（MSI）搭载于欧洲哥白…",
    "intro_en": "The Harmonized Landsat Sentinel-2 (HLS) project provides consistent surface reflectance (SR) and top of atmosphere (TOA) brightness data from a virtual constellation of satellite sensors. The Operatio…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "7a44de8e",
@@ -17680,7 +17680,7 @@
    "id": "7b6d050e",
    "url": "/pages/7b6d050e/",
    "en_url": "/en/pages/7b6d050e/",
-   "title_zh": "",
+   "title_zh": "Daymet V4：逐日地表天气与气候学汇总",
    "title_en": "Daymet V4: Daily Surface Weather and Climatological Summaries",
    "cat": "cryosphere",
    "tags": [
@@ -17696,16 +17696,16 @@
    "res_m": 1000.0,
    "res_bucket": "100 米–1 公里",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美大陆、夏威夷与波多黎各；时间范围：1980 年",
+   "coverage": "覆盖范围：北美大陆、夏威夷与波多黎各；时间范围：1980 年至 2025 年；分辨率：1,000 米。",
    "time": "1980-01-01 至 2025-12-31",
    "provider": "NASA ORNL DAAC at Oak Ridge National Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/ORNL/DAYMET_V4",
-   "intro_zh": "",
+   "intro_zh": "Daymet V4 为北美大陆、夏威夷与波多黎各提供逐日天气参数的格网估计（波多黎各数据自 1950 年起可用）。它源自选定的气象站数据与各种辅助数据源。",
    "intro_en": "Daymet V4 provides gridded estimates of daily weather parameters for Continental North America, Hawaii, and Puerto Rico (Data for Puerto Rico is available starting in 1950). It is derived from selecte…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "7bb2ed52",
@@ -17894,7 +17894,7 @@
    "id": "7cb75763",
    "url": "/pages/7cb75763/",
    "en_url": "/en/pages/7cb75763/",
-   "title_zh": "",
+   "title_zh": "VNP14IMGTDL_NRT 每日栅格：VIIRS（S-NPP）375 米活火",
    "title_en": "VNP14IMGTDL_NRT Daily Raster: VIIRS (S-NPP) Band 375m Active Fire",
    "cat": "hazards",
    "tags": [
@@ -17909,17 +17909,17 @@
    ],
    "res_m": 375.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2023 年至 2026 年；分辨率：375 米。",
    "time": "2023-09-03 至 2026-11-02",
    "provider": "NASA / LANCE / SNPP_VIIRS",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/LANCE/SNPP_VIIRS/C2",
-   "intro_zh": "",
+   "intro_zh": "Suomi NPP 可见光红外成像辐射计套件（VIIRS）活火探测产品基于该仪器 375 米标称分辨率数据。与其他较粗分辨率（≥1 千米）卫星火探测产品相比，改进的 375 米数据对相对小面积的火有更大的响应，并改进了大火周界的制图。因此，数据非常适合支持火灾管理（如近实时警报系…",
    "intro_en": "Suomi NPP Visible Infrared Imaging Radiometer Suite (VIIRS) Active Fire detection product is based on the instrument's 375m nominal resolution data. Compared to other coarser resolution (&ge; 1km) sat…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "7cb7b9ea",
@@ -19376,7 +19376,7 @@
    "id": "85afcbe3",
    "url": "/pages/85afcbe3/",
    "en_url": "/en/pages/85afcbe3/",
-   "title_zh": "",
+   "title_zh": "NEX-GDDP-CMIP6：NASA 地球交换全球每日降尺度气候预估",
    "title_en": "NEX-GDDP-CMIP6: NASA Earth Exchange Global Daily Downscaled Climate Projections",
    "cat": "climate",
    "tags": [
@@ -19393,15 +19393,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：1950 年至 2100 年；分辨率：27,830 米。",
    "time": "1950-01-01 至 2100-12-31",
    "provider": "NASA / Climate Analytics Group",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GDDP-CMIP6",
-   "intro_zh": "",
+   "intro_zh": "NEX-GDDP-CMIP6 数据集由源自耦合模式比较计划第 6 阶段（CMIP6，见 Thrasher 等 2022）下进行的全球环流模式（GCM）运行的全球降尺度气候情景，以及四个「一级」温室气体排放情景中两个被称为共享社会经济路径（SSP）的情景组成。",
    "intro_en": "The NEX-GDDP-CMIP6 dataset is comprised of global downscaled climate scenarios derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 6 (…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "85cbb3ed",
@@ -19469,7 +19469,7 @@
    "id": "862913cc",
    "url": "/pages/862913cc/",
    "en_url": "/en/pages/862913cc/",
-   "title_zh": "",
+   "title_zh": "VNP09H1：VIIRS 地表反射率 8 天三级全球 500 米",
    "title_en": "VNP09H1: VIIRS Surface Reflectance 8-Day L3 Global 500m",
    "cat": "satellite",
    "tags": [
@@ -19486,21 +19486,21 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：500 米。",
    "time": "2012-01-19 至 2026-10-16",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP09H1",
-   "intro_zh": "",
+   "intro_zh": "8 天可见光红外成像辐射计套件（VIIRS）地表反射率（VNP09H1）版本 1 合成产品提供来自 Suomi 国家极轨伙伴（Suomi NPP）VIIRS 传感器的陆地地表反射率估计，为三个影像波段（I1、I2、I3），标称 500 米分辨率（约 463 米）。500 米数据集…",
    "intro_en": "The 8-day Visible Infrared Imaging Radiometer Suite (VIIRS) Surface Reflectance (VNP09H1) Version 1 composite product provides an estimate of land surface reflectance from the Suomi National Polar-orb…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "866319af",
    "url": "/pages/866319af/",
    "en_url": "/en/pages/866319af/",
-   "title_zh": "",
+   "title_zh": "NEX-DCP30：NASA 地球交换降尺度气候预估的集合统计",
    "title_en": "NEX-DCP30: Ensemble Stats for NASA Earth Exchange Downscaled Climate Projections",
    "cat": "climate",
    "tags": [
@@ -19516,16 +19516,16 @@
    "res_m": 927.67,
    "res_bucket": "100 米–1 公里",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：美国本土（CONUS）；时间范围：1950 年至 ",
+   "coverage": "覆盖范围：美国本土（CONUS）；时间范围：1950 年至 2099 年；分辨率：927.67 米。",
    "time": "1950-01-01 至 2099-12-01",
    "provider": "NASA / Climate Analytics Group",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/NEX-DCP30_ENSEMBLE_STATS",
-   "intro_zh": "",
+   "intro_zh": "NASA NEX-DCP30 数据集由美国本土的降尺度气候情景组成，源自耦合模式比较计划第 5 阶段（CMIP5，见 Taylor 等 2012）下进行的全球环流模式（GCM）运行，以及为政府间气候变化专门委员会第五次评估报告（IPCC AR5）开发的四个温室气体排放情景（称为代…",
    "intro_en": "The NASA NEX-DCP30 dataset is comprised of downscaled climate scenarios for the conterminous United States that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Mo…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "8675b7",
@@ -19937,7 +19937,7 @@
    "id": "88d470ff",
    "url": "/pages/88d470ff/",
    "en_url": "/en/pages/88d470ff/",
-   "title_zh": "",
+   "title_zh": "地球表面矿物尘源调查-甲烷增强",
    "title_en": "Earth Surface Mineral Dust Source Investigation- Methane Enhancement",
    "cat": "atmosphere",
    "tags": [
@@ -19949,17 +19949,17 @@
    ],
    "res_m": 72000.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2022 年至 2024 年；分辨率：72,000 米。",
    "time": "2022-08-10 至 2024-11-30",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/EMIT/L2B/CH4ENH",
-   "intro_zh": "",
+   "intro_zh": "EMIT 项目是地球风险仪器（EV-I）计划的一部分，由 NASA 地球科学部（ESD）项目主任指导。EMIT 由一个适配安装在国际空间站（ISS）上的 VSWIR 红外 Dyson 成像光谱仪组成。EMIT 测量 380 至 2,500 纳米之间的辐射，带宽约 7 纳米。数据在…",
    "intro_en": "The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed by the Program Director of the NASA Earth Science Division (ESD). EMIT is comprised of a VSWIR Infrared Dyson imaging s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "88d8c7e9",
@@ -20053,7 +20053,7 @@
    "id": "89809ce5",
    "url": "/pages/89809ce5/",
    "en_url": "/en/pages/89809ce5/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网 - 陆地 [已弃用]",
    "title_en": "GRACE Monthly Mass Grids - Land [deprecated]",
    "cat": "water",
    "tags": [
@@ -20068,17 +20068,17 @@
    ],
    "res_m": 111320.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：111,320 米。",
    "time": "2002-04-01 至 2017-01-07",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS/LAND",
-   "intro_zh": "",
+   "intro_zh": "GRACE Tellus 月度质量格网提供相对于 2004–2010 年时间平均基准的月度重力异常。本数据集中的数据单位为「等效水厚」，以厘米表示的水的垂直范围表示质量偏差。更多细节见提供方的月度质量格网概述。",
    "intro_en": "GRACE Tellus Monthly Mass Grids provides monthly gravitational anomalies relative to a 2004-2010 time-mean baseline. The data contained in this dataset are units of \\\"Equivalent Water Thickness\\\" whic…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "89a1d68e",
@@ -20428,7 +20428,7 @@
    "id": "8d56a30a",
    "url": "/pages/8d56a30a/",
    "en_url": "/en/pages/8d56a30a/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网 HCHO 垂直柱 V04",
    "title_en": "TEMPO gridded HCHO vertical columns V04",
    "cat": "atmosphere",
    "tags": [
@@ -20443,16 +20443,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至",
+   "coverage": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2026 年；分辨率：2,226 米。",
    "time": "2023-08-01 至 2026-11-01",
    "provider": "NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/HCHO_L3_V4",
-   "intro_zh": "",
+   "intro_zh": "甲醛三级集合在覆盖标称 TEMPO 观测的 TEMPO 视场的规则格网上提供痕量气体信息。三级文件通过组合构成一个 TEMPO 东西扫描周期的所有二级文件的信息导出。栅格包含甲醛垂直柱、用于气团因子计算的辅助数据与参考扇区或去条带校正，以及反演质量标志的信息。重格网算法使用面积加…",
    "intro_en": "Formaldehyde Level 3 collection provides trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information f…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "8d96143c",
@@ -21184,7 +21184,7 @@
    "id": "920d14b8",
    "url": "/pages/920d14b8/",
    "en_url": "/en/pages/920d14b8/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网 - 全球 Mascon（CRI 滤波）[已弃用]",
    "title_en": "GRACE Monthly Mass Grids - Global Mascon (CRI Filtered) [deprecated]",
    "cat": "water",
    "tags": [
@@ -21201,15 +21201,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：55,660 米。",
    "time": "2002-03-31 至 2017-05-22",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS/MASCON_CRI",
-   "intro_zh": "",
+   "intro_zh": "GRACE Tellus 月度质量格网提供相对于 2004–2010 年时间平均基准的月度重力异常。本数据集中的数据单位为「等效水厚」，以厘米表示的水的垂直范围表示质量偏差。更多细节见提供方的月度质量格网概述。",
    "intro_en": "GRACE Tellus Monthly Mass Grids provides monthly gravitational anomalies relative to a 2004-2010 time-mean baseline. The data contained in this dataset are units of \\\"Equivalent Water Thickness\\\" whic…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "9296243b",
@@ -21792,7 +21792,7 @@
    "id": "959b1eb3",
    "url": "/pages/959b1eb3/",
    "en_url": "/en/pages/959b1eb3/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 NDWI",
    "title_en": "MODIS Aqua Daily NDWI",
    "cat": "vegetation",
    "tags": [
@@ -21807,17 +21807,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2023-02-25",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_006_NDWI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值水指数（NDWI）对植被冠层液态水含量的变化敏感。它源自近红外波段与第二个红外波段——可用时 ≈1.24 μm，否则用最近的可用红外波段。值域为 −1.0 至 1.0。细节见 Gao（1996）。本产品由 MODIS/006/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Water Index (NDWI) is sensitive to changes in liquid water content of vegetation canopies. It is derived from the Near-IR band and a second IR band, &approx;1.24&mu;m when av…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "95d25c74",
@@ -22741,7 +22741,7 @@
    "id": "9a7ef21b",
    "url": "/pages/9a7ef21b/",
    "en_url": "/en/pages/9a7ef21b/",
-   "title_zh": "",
+   "title_zh": "GEOS-CF rpl htf v1：戈达德地球观测系统成分预报",
    "title_en": "GEOS-CF rpl htf v1: Goddard Earth Observing System Composition Forecast",
    "cat": "atmosphere",
    "tags": [
@@ -22756,15 +22756,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2018 年至 2026 年；分辨率：27,750 米。",
    "time": "2018-01-01 至 2026-01-02",
    "provider": "NASA / GMAO",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GEOS-CF/v1/rpl/htf",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含高时间频率数据（htf）的气象重演（rpl）。戈达德地球观测系统成分预报（GEOS-CF）系统是来自 NASA 全球建模与同化办公室（GMAO） 的全球成分预测系统。",
    "intro_en": "This dataset contains meteorological replay (rpl) of high-temporal frequency data (htf). The Goddard Earth Observing System Composition Forecast (GEOS-CF) system is a global constituent prediction sys…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "9a8b5b",
@@ -22971,7 +22971,7 @@
    "id": "9b143f3a",
    "url": "/pages/9b143f3a/",
    "en_url": "/en/pages/9b143f3a/",
-   "title_zh": "",
+   "title_zh": "GEOS-CF fcst tavg1hr v2：戈达德地球观测系统成分预报",
    "title_en": "GEOS-CF fcst tavg1hr v2: Goddard Earth Observing System Composition Forecast",
    "cat": "atmosphere",
    "tags": [
@@ -22987,15 +22987,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2025 年至 2026 年；分辨率：27,750 米。",
    "time": "2025-08-04 至 2026-10-26",
    "provider": "NASA / GMAO",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GEOS-CF/v2/fcst/tavg1hr",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含时间平均频率数据（tavg1hr）的预报（fcst）。它由合并原始 GEOS-CF 集合 chmtavg1hrgloL1440x721slv、mettavg1hrgloL1440x721slv 与 xgctavg1hrgloL1440x721slv 构建。使用「cre…",
    "intro_en": "This dataset contains forecast (fcst) of time-averaged frequency data (tavg1hr). It is built by merging the original GEOS-CF collections chmtavg1hrgloL1440x721slv, mettavg1hrgloL1440x721slv, and xgcta…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "9b3fd33a",
@@ -23032,7 +23032,7 @@
    "id": "9b60a789",
    "url": "/pages/9b60a789/",
    "en_url": "/en/pages/9b60a789/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网 HCHO（QA 过滤）垂直柱 V03 [已弃用]",
    "title_en": "TEMPO gridded HCHO (QA filtered) vertical columns V03 [deprecated]",
    "cat": "atmosphere",
    "tags": [
@@ -23047,16 +23047,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至",
+   "coverage": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2025 年；分辨率：2,226 米。",
    "time": "2023-08-01 至 2025-09-16",
    "provider": "QA Filtered: Google and NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/HCHO_L3_QA",
-   "intro_zh": "",
+   "intro_zh": "甲醛三级集合在覆盖标称 TEMPO 观测的 TEMPO 视场的规则格网上提供痕量气体信息。三级文件通过组合构成一个 TEMPO 东西扫描周期的所有二级文件的信息导出。栅格包含甲醛垂直柱、用于气团因子计算的辅助数据与参考扇区或去条带校正，以及反演质量标志的信息。重格网算法使用面积加…",
    "intro_en": "Formaldehyde Level 3 collection provides trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information f…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "9b77de6e",
@@ -23412,7 +23412,7 @@
    "id": "9e033fa6",
    "url": "/pages/9e033fa6/",
    "en_url": "/en/pages/9e033fa6/",
-   "title_zh": "",
+   "title_zh": "GLDAS-2.2：全球陆地数据同化系统",
    "title_en": "GLDAS-2.2: Global Land Data Assimilation System",
    "cat": "cryosphere",
    "tags": [
@@ -23429,15 +23429,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2003 年至 2026 年；分辨率：27,830 米。",
    "time": "2003-01-01 至 2026-08-31",
    "provider": "NASA GES DISC at NASA Goddard Earth Sciences Data and Information Services Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GLDAS/V022/CLSM/G025/DA1D",
-   "intro_zh": "",
+   "intro_zh": "NASA 全球陆地数据同化系统版本 2（GLDAS-2）有三个组成部分：GLDAS-2.0、GLDAS-2.1 与 GLDAS-2.2。GLDAS-2.0 完全由普林斯顿气象强迫输入数据强迫，提供从 1948 年到 2014 年时间上一致的序列。GLDAS-2.1 由 2000…",
    "intro_en": "NASA Global Land Data Assimilation System Version 2 (GLDAS-2) has three components: GLDAS-2.0, GLDAS-2.1, and GLDAS-2.2. GLDAS-2.0 is forced entirely with the Princeton meteorological forcing input da…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "9e60b646",
@@ -24213,7 +24213,7 @@
    "id": "a20ec4cb",
    "url": "/pages/a20ec4cb/",
    "en_url": "/en/pages/a20ec4cb/",
-   "title_zh": "",
+   "title_zh": "MERRA-2 M2I3NVAER：气溶胶混合比 V5.12.4",
    "title_en": "MERRA-2 M2I3NVAER: Aerosol Mixing Ratio V5.12.4",
    "cat": "atmosphere",
    "tags": [
@@ -24228,17 +24228,17 @@
    ],
    "res_m": 69375.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1980 年至 2026 年；分辨率：69,375 米。",
    "time": "1980-01-01 至 2026-10-01",
    "provider": "NASA/MERRA",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GSFC/MERRA/aer_nv/2",
-   "intro_zh": "",
+   "intro_zh": "M2I3NVAER（或 inst33daerNv）是现代时代回顾分析研究与应用版本 2（MERRA-2）中的瞬时三维 3 小时数据集合。本集合由 72 个模式层上的气溶胶混合比参数的同化组成，如沙尘、二氧化硫、海盐、黑碳与有机碳。数据场从 00:00 UTC 开始每三小时可用，例…",
    "intro_en": "M2I3NVAER (or inst33daerNv) is an instantaneous 3-dimensional 3-hourly data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "a2388741",
@@ -24855,7 +24855,7 @@
    "id": "a7bebe55",
    "url": "/pages/a7bebe55/",
    "en_url": "/en/pages/a7bebe55/",
-   "title_zh": "",
+   "title_zh": "ECOSTRESS 分片辅助 NDVI 与反照率 L2 全球 70 米 V002",
    "title_en": "ECOSTRESS Tiled Ancillary NDVI and Albedo L2 Global 70 m V002",
    "cat": "vegetation",
    "tags": [
@@ -24869,15 +24869,15 @@
    "res_bucket": "30–100 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2018 年至 2026 年；分辨率：70 米。",
    "time": "2018-07-09 至 2026-10-21",
    "provider": "Land Processes Distributed Active Archive Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/ECOSTRESS/L2T_STARS/V2",
-   "intro_zh": "",
+   "intro_zh": "ECOSTRESS 分片辅助 NDVI 与反照率（ECOL2TSTARS）V002 数据集以 70 米空间分辨率提供归一化差值植被指数（NDVI）与反照率数据。这一对理解植物需水与胁迫至关重要的辅助产品，通过结合可见光红外成像辐射仪套件（VIIRS）与协调 Landsat Sen…",
    "intro_en": "The ECOSTRESS Tiled Ancillary NDVI and Albedo (ECOL2TSTARS) V002 dataset provides Normalized Difference Vegetation Index (NDVI) and albedo data at a 70m spatial resolution. This ancillary product, ess…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "a7ccdab3",
@@ -25486,7 +25486,7 @@
    "id": "abac2346",
    "url": "/pages/abac2346/",
    "en_url": "/en/pages/abac2346/",
-   "title_zh": "",
+   "title_zh": "SPL4SMGP.008 SMAP 四级全球 3 小时 9 千米地表与根区土壤水分",
    "title_en": "SPL4SMGP.008 SMAP L4 Global 3-hourly 9-km Surface and Root Zone Soil Moisture",
    "cat": "soil",
    "tags": [
@@ -25502,15 +25502,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2015 年至 2026 年；分辨率：11,000 米。",
    "time": "2015-03-31 至 2026-10-31",
    "provider": "Google and NSIDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/SMAP/SPL4SMGP/008",
-   "intro_zh": "",
+   "intro_zh": "SMAP 四级（L4）土壤水分产品包括地表土壤水分（0–5 厘米垂直平均）、根区土壤水分（0–100 厘米垂直平均），以及额外的研究产品（未经验证），包括地表气象强迫变量、土壤温度、蒸散与净辐射。 本数据集正式名称为 SMAP L4 全球 3 小时 9 千米 EASE-Grid…",
    "intro_en": "The SMAP Level-4 (L4) Soil Moisture product includes surface soil moisture (0-5 cm vertical average), root-zone soil moisture (0-100 cm vertical average), and additional research products (not validat…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "abb03285",
@@ -25693,7 +25693,7 @@
    "id": "ad457568",
    "url": "/pages/ad457568/",
    "en_url": "/en/pages/ad457568/",
-   "title_zh": "",
+   "title_zh": "MOD16A2：MODIS 全球陆地蒸散 8 天全球 1 公里",
    "title_en": "MOD16A2: MODIS Global Terrestrial Evapotranspiration 8-Day Global 1km",
    "cat": "vegetation",
    "tags": [
@@ -25708,15 +25708,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2014 年；分辨率：1 公里。",
    "time": "2000-01-01 至 2014-12-27",
    "provider": "Numerical Terradynamic Simulation Group, The University of Montana",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/NTSG/MOD16A2/105",
-   "intro_zh": "",
+   "intro_zh": "MOD16A2 V105 产品提供 1 公里像元分辨率的 8 天全球陆地蒸散信息。蒸散（ET）是蒸发与植物蒸腾从地球表面到大气的总和。有了长期 ET 数据，气候、土地利用与生态系统扰动变化的影响可以被量化。",
    "intro_en": "The MOD16A2 V105 product provides information about 8-day global terrestrial evapotranspiration at 1km pixel resolution. Evapotranspiration (ET) is the sum of evaporation and plant transpiration from…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "ad6873e3",
@@ -25957,7 +25957,7 @@
    "id": "afb6035c",
    "url": "/pages/afb6035c/",
    "en_url": "/en/pages/afb6035c/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 EVI",
    "title_en": "MODIS Aqua Daily EVI",
    "cat": "vegetation",
    "tags": [
@@ -25972,17 +25972,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2023 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2023-02-25",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_006_EVI",
-   "intro_zh": "",
+   "intro_zh": "增强植被指数（EVI）由每个场景的近红外、红与蓝波段生成，值域为 −1.0 至 1.0。细节见 Huete 等（2002）。本产品由 MODIS/006/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Enhanced Vegetation Index (EVI) is generated from the Near-IR, Red and Blue bands of each scene, and ranges in value from -1.0 to 1.0. See Huete et al. (2002) for details. This product is generate…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "b007d3bf",
@@ -26109,7 +26109,7 @@
    "id": "b0d4fd6a",
    "url": "/pages/b0d4fd6a/",
    "en_url": "/en/pages/b0d4fd6a/",
-   "title_zh": "",
+   "title_zh": "GEOS-CF rpl tavg1hr v1：戈达德地球观测系统成分预报",
    "title_en": "GEOS-CF rpl tavg1hr v1: Goddard Earth Observing System Composition Forecast",
    "cat": "atmosphere",
    "tags": [
@@ -26124,15 +26124,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2018 年至 2026 年；分辨率：27,750 米。",
    "time": "2018-01-01 至 2026-01-02",
    "provider": "NASA / GMAO",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GEOS-CF/v1/rpl/tavg1hr",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含一小时时间平均数据（tavg1hr）的气象重演（rpl）。它由合并原始 GEOS-CF 集合 chmtavg1hrg1440x721v1、mettavg1hrg1440x721x1 与 xgctavg1hrg1440x721x1 构建。戈达德地球观测系统成分预报（GE…",
    "intro_en": "This dataset contains meteorological replay (rpl) of time-average one hour data (tavg1hr). It is built by merging the original GEOS-CF collections chmtavg1hrg1440x721v1, mettavg1hrg1440x721x1, and xgc…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "b0f1292c",
@@ -26169,7 +26169,7 @@
    "id": "b11f9c4f",
    "url": "/pages/b11f9c4f/",
    "en_url": "/en/pages/b11f9c4f/",
-   "title_zh": "",
+   "title_zh": "Daymet V3：逐日地表天气与气候学汇总 [已弃用]",
    "title_en": "Daymet V3: Daily Surface Weather and Climatological Summaries [deprecated]",
    "cat": "cryosphere",
    "tags": [
@@ -26185,16 +26185,16 @@
    "res_m": 1000.0,
    "res_bucket": "100 米–1 公里",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（美国、墨西哥、加拿大、夏威夷与波多黎各）；时",
+   "coverage": "覆盖范围：北美（美国、墨西哥、加拿大、夏威夷与波多黎各）；时间范围：1980 年至 2019 年；分辨率：1,000 米。",
    "time": "1980-01-01 至 2019-12-31",
    "provider": "NASA ORNL DAAC at Oak Ridge National Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/ORNL/DAYMET_V3",
-   "intro_zh": "",
+   "intro_zh": "Daymet V3 为美国、墨西哥、加拿大、夏威夷与波多黎各提供逐日天气参数的格网估计。它源自选定的气象站数据与各种辅助数据源。",
    "intro_en": "Daymet V3 provides gridded estimates of daily weather parameters for United States, Mexico, Canada, Hawaii, and Puerto Rico. It is derived from selected meteorological station data and various support…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "b15ed4a1",
@@ -26552,7 +26552,7 @@
    "id": "b313d8d8",
    "url": "/pages/b313d8d8/",
    "en_url": "/en/pages/b313d8d8/",
-   "title_zh": "",
+   "title_zh": "GEOS-CF ana tavg1hr v2：戈达德地球观测系统成分预报",
    "title_en": "GEOS-CF ana tavg1hr v2: Goddard Earth Observing System Composition Forecast",
    "cat": "atmosphere",
    "tags": [
@@ -26568,15 +26568,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2025 年至 2026 年；分辨率：27,750 米。",
    "time": "2025-08-04 至 2026-11-01",
    "provider": "NASA / GMAO",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GEOS-CF/v2/ana/tavg1hr",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含一小时时间平均数据（tavg1hr）的气象分析（ana）。它由合并原始 GEOS-CF 集合 chmtavg1hrgloL1440x721slv、mettavg1hrgloL1440x721slv 与 xgctavg1hrgloL1440x721slv 构建。戈达德地…",
    "intro_en": "This dataset contains meteorological analysis (ana) of time-average one hour data (tavg1hr). It is built by merging the original GEOS-CF collections chmtavg1hrgloL1440x721slv, mettavg1hrgloL1440x721sl…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "b32eca78",
@@ -27504,7 +27504,7 @@
    "id": "ba36405e",
    "url": "/pages/ba36405e/",
    "en_url": "/en/pages/ba36405e/",
-   "title_zh": "",
+   "title_zh": "海洋水色 SMI：标准映射影像 MODIS Terra 数据",
    "title_en": "Ocean Color SMI: Standard Mapped Image MODIS Terra Data",
    "cat": "ocean",
    "tags": [
@@ -27519,17 +27519,17 @@
    ],
    "res_m": 4616.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：2000 年至 2025 年；分辨率：4,616 米。",
    "time": "2000-02-24 至 2025-11-29",
    "provider": "NASA OB.DAAC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/OCEANDATA/MODIS-Terra/L3SMI",
-   "intro_zh": "",
+   "intro_zh": "此三级产品包括在 EOSDIS 下生产或收集的海洋水色与卫星海洋生物学数据。",
    "intro_en": "This level 3 product includes ocean color and satellite ocean biology data produced or collected under EOSDIS.",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "babe4e05",
@@ -27590,7 +27590,7 @@
    "id": "bb174530",
    "url": "/pages/bb174530/",
    "en_url": "/en/pages/bb174530/",
-   "title_zh": "",
+   "title_zh": "SPL3SMP_E.006 SMAP 三级辐射计全球逐日 9 千米土壤水分",
    "title_en": "SPL3SMP_E.006 SMAP L3 Radiometer Global Daily 9 km Soil Moisture",
    "cat": "soil",
    "tags": [
@@ -27606,15 +27606,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2023 年至 2026 年；分辨率：9,000 米。",
    "time": "2023-12-04 至 2026-10-30",
    "provider": "Google and NSIDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/SMAP/SPL3SMP_E/006",
-   "intro_zh": "",
+   "intro_zh": "2023-12-04 之前的数据可在较旧的 NASA/SMAP/SPL3SMPE/005 集合中获得。它们最终将被再处理并加入本集合。",
    "intro_en": "Data prior from 2023-12-04 are available in the older NASA/SMAP/SPL3SMPE/005 collection. They will eventually be reprocessed and added to this collection.",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "bb1a48c6",
@@ -27647,7 +27647,7 @@
    "id": "bb65f4de",
    "url": "/pages/bb65f4de/",
    "en_url": "/en/pages/bb65f4de/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网 - 海洋 [已弃用]",
    "title_en": "GRACE Monthly Mass Grids - Ocean [deprecated]",
    "cat": "ocean",
    "tags": [
@@ -27662,17 +27662,17 @@
    ],
    "res_m": 111320.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2016 年；分辨率：111,320 米。",
    "time": "2002-07-31 至 2016-12-10",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS/OCEAN",
-   "intro_zh": "",
+   "intro_zh": "GRACE Tellus 月度质量格网提供相对于 2004–2010 年时间平均基准的月度重力异常。本数据集中的数据单位为「等效水厚」，以厘米表示的水的垂直范围表示质量偏差。更多细节见提供方的月度质量格网概述。",
    "intro_en": "GRACE Tellus Monthly Mass Grids provides monthly gravitational anomalies relative to a 2004-2010 time-mean baseline. The data contained in this dataset are units of \\\"Equivalent Water Thickness\\\" whic…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "bbc61017",
@@ -27880,7 +27880,7 @@
    "id": "be97446c",
    "url": "/pages/be97446c/",
    "en_url": "/en/pages/be97446c/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网 HCHO 垂直柱 V03 [已弃用]",
    "title_en": "TEMPO gridded HCHO vertical columns V03 [deprecated]",
    "cat": "atmosphere",
    "tags": [
@@ -27895,16 +27895,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至",
+   "coverage": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2025 年；分辨率：2,226 米。",
    "time": "2023-08-01 至 2025-09-16",
    "provider": "NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/HCHO_L3",
-   "intro_zh": "",
+   "intro_zh": "甲醛三级集合在覆盖标称 TEMPO 观测的 TEMPO 视场的规则格网上提供痕量气体信息。三级文件通过组合构成一个 TEMPO 东西扫描周期的所有二级文件的信息导出。栅格包含甲醛垂直柱、用于气团因子计算的辅助数据与参考扇区或去条带校正，以及反演质量标志的信息。重格网算法使用面积加…",
    "intro_en": "Formaldehyde Level 3 collection provides trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information f…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "bf7bee38",
@@ -27940,7 +27940,7 @@
    "id": "bf7e283f",
    "url": "/pages/bf7e283f/",
    "en_url": "/en/pages/bf7e283f/",
-   "title_zh": "",
+   "title_zh": "地球表面矿物尘源调查-甲烷羽流复合体",
    "title_en": "Earth Surface Mineral Dust Source Investigation- Methane Plume Complexes",
    "cat": "atmosphere",
    "tags": [
@@ -27952,17 +27952,17 @@
    ],
    "res_m": 72000.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2022 年至 2024 年；分辨率：72,000 米。",
    "time": "2022-08-10 至 2024-10-26",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/EMIT/L2B/CH4PLM",
-   "intro_zh": "",
+   "intro_zh": "EMIT 项目是地球风险仪器（EV-I）计划的一部分，由 NASA 地球科学部（ESD）项目主任指导。EMIT 由一个适配安装在国际空间站（ISS）上的 VSWIR 红外 Dyson 成像光谱仪组成。EMIT 测量 380 至 2,500 纳米之间的辐射，带宽约 7 纳米。数据在…",
    "intro_en": "The EMIT Project is part of the Earth Venture-Instrument (EV-I) Program directed by the Program Director of the NASA Earth Science Division (ESD). EMIT is comprised of a VSWIR Infrared Dyson imaging s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "bfc1fc5c",
@@ -29354,7 +29354,7 @@
    "id": "cb6c953c",
    "url": "/pages/cb6c953c/",
    "en_url": "/en/pages/cb6c953c/",
-   "title_zh": "",
+   "title_zh": "GEOS-CF Ana htf v2：戈达德地球观测系统成分预报",
    "title_en": "GEOS-CF Ana htf v2: Goddard Earth Observing System Composition Forecast",
    "cat": "atmosphere",
    "tags": [
@@ -29370,15 +29370,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2025 年至 2026 年；分辨率：27,750 米。",
    "time": "2025-08-04 至 2026-11-01",
    "provider": "NASA / GMAO",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GEOS-CF/v2/ana/htf",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含 15 分钟间隔的高时间频率数据（htf）的分析（ana）。它由原始 GEOS-CF 集合 htfinst15mngloL1440x721slv 创建。戈达德地球观测系统成分预报（GEOS-CF）系统是来自 NASA 全球建模与同化办公室（GMAO） 的全球成分预测系…",
    "intro_en": "This dataset contains analysis (ana) of high-temporal frequency data (htf) at 15 minute intervals. It is created from the original GEOS-CF collection htfinst15mngloL1440x721slv. The Goddard Earth Obse…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "cb9137be",
@@ -29560,7 +29560,7 @@
    "id": "ccd67e09",
    "url": "/pages/ccd67e09/",
    "en_url": "/en/pages/ccd67e09/",
-   "title_zh": "",
+   "title_zh": "MERRA-2 M2T1NXFLX：地表通量诊断 V5.12.4",
    "title_en": "MERRA-2 M2T1NXFLX: Surface Flux Diagnostics V5.12.4",
    "cat": "climate",
    "tags": [
@@ -29575,17 +29575,17 @@
    ],
    "res_m": 69375.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1980 年至 2026 年；分辨率：69,375 米。",
    "time": "1980-01-01 至 2026-10-01",
    "provider": "NASA/MERRA",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GSFC/MERRA/flx/2",
-   "intro_zh": "",
+   "intro_zh": "M2T1NXFLX（或 tavg12dflxNx）是现代时代回顾分析研究与应用版本 2（MERRA-2）中的每小时时间平均数据集合。本集合由同化的地表通量诊断组成，如总降水、偏差校正的总降水、地表气温、地表比湿、地表风速与湍流蒸发。本数据集合中的「地表」是模式地表层。模式地表层（…",
    "intro_en": "M2T1NXFLX (or tavg12dflxNx) is an hourly time-averaged data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of assimilated s…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "ccdfd4da",
@@ -29764,7 +29764,7 @@
    "id": "ce784a9b",
    "url": "/pages/ce784a9b/",
    "en_url": "/en/pages/ce784a9b/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 NDWI [已弃用]",
    "title_en": "MODIS Aqua Daily NDWI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -29779,17 +29779,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_NDWI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值水指数（NDWI）对植被冠层液态水含量的变化敏感。它源自近红外波段与第二个红外波段——可用时 ≈1.24 μm，否则用最近的可用红外波段。值域为 −1.0 至 1.0。细节见 Gao（1996）。本产品由 MODIS/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Water Index (NDWI) is sensitive to changes in liquid water content of vegetation canopies. It is derived from the Near-IR band and a second IR band, &approx;1.24&mu;m when av…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "cea3aca8",
@@ -29853,7 +29853,7 @@
    "id": "cefdcd3d",
    "url": "/pages/cefdcd3d/",
    "en_url": "/en/pages/cefdcd3d/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网 HCHO（QA 过滤）垂直柱 V04",
    "title_en": "TEMPO gridded HCHO (QA filtered) vertical columns V04",
    "cat": "atmosphere",
    "tags": [
@@ -29868,16 +29868,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至",
+   "coverage": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2026 年；分辨率：2,226 米。",
    "time": "2023-08-01 至 2026-11-01",
    "provider": "QA Filtered: Google and NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/HCHO_L3_V4_QA",
-   "intro_zh": "",
+   "intro_zh": "甲醛三级集合在覆盖标称 TEMPO 观测的 TEMPO 视场的规则格网上提供痕量气体信息。三级文件通过组合构成一个 TEMPO 东西扫描周期的所有二级文件的信息导出。栅格包含甲醛垂直柱、用于气团因子计算的辅助数据与参考扇区或去条带校正，以及反演质量标志的信息。重格网算法使用面积加…",
    "intro_en": "Formaldehyde Level 3 collection provides trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information f…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "ceffa7f4",
@@ -30300,7 +30300,7 @@
    "id": "d1d3bb55",
    "url": "/pages/d1d3bb55/",
    "en_url": "/en/pages/d1d3bb55/",
-   "title_zh": "",
+   "title_zh": "海洋水色 SMI：标准映射影像 MODIS Aqua 数据",
    "title_en": "Ocean Color SMI: Standard Mapped Image MODIS Aqua Data",
    "cat": "ocean",
    "tags": [
@@ -30315,17 +30315,17 @@
    ],
    "res_m": 4616.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球海洋；时间范围：2002 年至 2025 年；分辨率：4,616 米。",
    "time": "2002-07-03 至 2025-11-30",
    "provider": "NASA OB.DAAC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/OCEANDATA/MODIS-Aqua/L3SMI",
-   "intro_zh": "",
+   "intro_zh": "此三级产品包括在 EOSDIS 下生产或收集的海洋水色与卫星海洋生物学数据。",
    "intro_en": "This level 3 product includes ocean color and satellite ocean biology data produced or collected under EOSDIS.",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "d246c4f8",
@@ -30362,7 +30362,7 @@
    "id": "d281cddf",
    "url": "/pages/d281cddf/",
    "en_url": "/en/pages/d281cddf/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网版本 06 第 04 版 - 陆地",
    "title_en": "GRACE Monthly Mass Grids Release 06 Version 04 - Land",
    "cat": "water",
    "tags": [
@@ -30377,17 +30377,17 @@
    ],
    "res_m": 111320.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：111,320 米。",
    "time": "2002-04-01 至 2017-01-07",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS_V04/LAND",
-   "intro_zh": "",
+   "intro_zh": "月度陆地质量格网包含以等效水厚给出的水质量异常，源自指定时段内 GRACE 与 GRACE-FO 时变重力观测，相对于指定的时间平均参考时段。等效水厚表示来自土壤水分、雪、地表水（包括河流、湖泊、水库等）以及地下水与含水层的总陆地水储量异常。已应用冰川均衡调整（GIA）校正，并纳…",
    "intro_en": "The monthly land mass grids contain water mass anomalies given as equivalent water thickness derived from GRACE & GRACE-FO time-variable gravity observations during the specified timespan, and relativ…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "d288af",
@@ -30468,7 +30468,7 @@
    "id": "d36e17a5",
    "url": "/pages/d36e17a5/",
    "en_url": "/en/pages/d36e17a5/",
-   "title_zh": "",
+   "title_zh": "SPL4SMGP.007 SMAP 四级全球 3 小时 9 千米地表与根区土壤水分 [已弃用]",
    "title_en": "SPL4SMGP.007 SMAP L4 Global 3-hourly 9-km Surface and Root Zone Soil Moisture [deprecated]",
    "cat": "soil",
    "tags": [
@@ -30484,15 +30484,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2015 年至 2025 年；分辨率：11,000 米。",
    "time": "2015-03-31 至 2025-06-27",
    "provider": "Google and NSIDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/SMAP/SPL4SMGP/007",
-   "intro_zh": "",
+   "intro_zh": "SMAP 四级（L4）土壤水分产品包括地表土壤水分（0–5 厘米垂直平均）、根区土壤水分（0–100 厘米垂直平均），以及额外的研究产品（未经验证），包括地表气象强迫变量、土壤温度、蒸散与净辐射。",
    "intro_en": "The SMAP Level-4 (L4) Soil Moisture product includes surface soil moisture (0-5 cm vertical average), root-zone soil moisture (0-100 cm vertical average), and additional research products (not validat…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "d39badfd",
@@ -30857,7 +30857,7 @@
    "id": "d602c2cf",
    "url": "/pages/d602c2cf/",
    "en_url": "/en/pages/d602c2cf/",
-   "title_zh": "",
+   "title_zh": "MYD11A2.005 地表温度与发射率 8 天 L3 全球 1 公里 [已弃用]",
    "title_en": "MYD11A2.005 Land Surface Temperature and Emissivity 8-Day L3 Global 1km [deprecated]",
    "cat": "landcover",
    "tags": [
@@ -30874,15 +30874,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：1 公里。",
    "time": "2002-07-04 至 2017-03-22",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD11A2",
-   "intro_zh": "",
+   "intro_zh": "三级 MODIS 全球地表温度（LST）与发射率 8 天数据由每日 1 公里 LST 产品（MYD11A1）合成，并存储在 1 公里正弦格网上，作为 8 天时段内晴空 LST 的平均值。",
    "intro_en": "The level-3 MODIS global Land Surface Temperature (LST) and Emissivity 8-day data are composed from the daily 1-kilometer LST product (MYD11A1) and stored on a 1-km Sinusoidal grid as the average valu…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "d644386b",
@@ -31012,7 +31012,7 @@
    "id": "d6bb5ead",
    "url": "/pages/d6bb5ead/",
    "en_url": "/en/pages/d6bb5ead/",
-   "title_zh": "",
+   "title_zh": "TEMPO 格网 NO2 对流层与平流层柱 V03 [已弃用]",
    "title_en": "TEMPO gridded NO2 tropospheric and stratospheric columns V03 [deprecated]",
    "cat": "atmosphere",
    "tags": [
@@ -31027,16 +31027,16 @@
    "res_m": 2226.0,
    "res_bucket": "1 公里以上",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至",
+   "coverage": "覆盖范围：北美（TEMPO 视场）；时间范围：2023 年至 2025 年；分辨率：2,226 米。",
    "time": "2023-08-01 至 2025-09-16",
    "provider": "NASA ASDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/TEMPO/NO2_L3",
-   "intro_zh": "",
+   "intro_zh": "二氧化氮三级文件在覆盖标称 TEMPO 观测的 TEMPO 视场的规则格网上提供痕量气体信息。三级文件通过组合构成一个 TEMPO 东西扫描周期的所有二级文件的信息导出。栅格包含对流层、平流层与总二氧化氮垂直柱、用于气团因子与平流层/对流层分离计算的辅助数据，以及反演质量标志的信…",
    "intro_en": "Nitrogen dioxide Level 3 files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information fro…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "d6d5821d",
@@ -31839,7 +31839,7 @@
    "id": "dd27d16f",
    "url": "/pages/dd27d16f/",
    "en_url": "/en/pages/dd27d16f/",
-   "title_zh": "",
+   "title_zh": "MYD09Q1.005 地表反射率 8 天 L3 全球 250 米 [已弃用]",
    "title_en": "MYD09Q1.005 Surface Reflectance 8-Day L3 Global 250m [deprecated]",
    "cat": "satellite",
    "tags": [
@@ -31855,15 +31855,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：250 米。",
    "time": "2002-07-04 至 2017-03-22",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09Q1",
-   "intro_zh": "",
+   "intro_zh": "MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面测量的那样。低级数据已对大气气体与气溶胶做了校正，为若干更高阶的格网二级（L2G）与三级产品提供二级基础。",
    "intro_en": "The MODIS Surface Reflectance products provide an estimate of the surface spectral reflectance as it would be measured at ground level in the absence of atmospheric scattering or absorption. Low-level…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "dd6f101f",
@@ -32076,7 +32076,7 @@
    "id": "de20d64c",
    "url": "/pages/de20d64c/",
    "en_url": "/en/pages/de20d64c/",
-   "title_zh": "",
+   "title_zh": "GRACE 月度质量格网版本 06 第 04 版 - 海洋",
    "title_en": "GRACE Monthly Mass Grids Release 06 Version 04 - Ocean",
    "cat": "ocean",
    "tags": [
@@ -32091,17 +32091,17 @@
    ],
    "res_m": 111320.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：111,320 米。",
    "time": "2002-04-04 至 2017-10-25",
    "provider": "NASA Jet Propulsion Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GRACE/MASS_GRIDS_V04/OCEAN",
-   "intro_zh": "",
+   "intro_zh": "GRACE Tellus 月度质量格网提供相对于 2004–2010 年时间平均基准的月度重力异常。本数据集中的数据单位为「等效水厚」，以厘米表示的水的垂直范围表示质量偏差。更多细节见提供方的月度质量格网概述。",
    "intro_en": "GRACE Tellus Monthly Mass Grids provides monthly gravitational anomalies relative to a 2004-2010 time-mean baseline. The data contained in this dataset are units of \"Equivalent Water Thickness\" which…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "de62bd70",
@@ -32493,7 +32493,7 @@
    "id": "e142b780",
    "url": "/pages/e142b780/",
    "en_url": "/en/pages/e142b780/",
-   "title_zh": "",
+   "title_zh": "NEX-GDDP：NASA 地球交换全球逐日降尺度气候预估",
    "title_en": "NEX-GDDP: NASA Earth Exchange Global Daily Downscaled Climate Projections",
    "cat": "climate",
    "tags": [
@@ -32510,21 +32510,21 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：1950 年至 2100 年；分辨率：27,830 米。",
    "time": "1950-01-01 至 2100-12-31",
    "provider": "NASA /  Climate Analytics Group",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/NEX-GDDP",
-   "intro_zh": "",
+   "intro_zh": "NASA NEX-GDDP 数据集由全球降尺度气候情景组成，源自耦合模式比较计划第 5 阶段（CMIP5，见 Taylor 等 2012）下进行的全球环流模式（GCM）运行，以及四个温室气体排放情景中的两个（称为代表性浓度路径（RCP），见 Meinshausen 等 2011）…",
    "intro_en": "The NASA NEX-GDDP dataset is comprised of downscaled climate scenarios for the globe that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Pr…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "e15101dd",
    "url": "/pages/e15101dd/",
    "en_url": "/en/pages/e15101dd/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 NDSI [已弃用]",
    "title_en": "MODIS Aqua Daily NDSI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -32539,17 +32539,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_NDSI",
-   "intro_zh": "",
+   "intro_zh": "归一化差值雪指数用于识别雪，基于其在光谱可见光部分相对于中红外特征性更高的反射率。NDSI 使用绿与中红外波段计算，范围为 −1.0 至 1.0。细节见 Riggs 等（1994）。本产品由 MODIS/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Normalized Difference Snow Index is used to identify snow, based on its characteristically higher reflectance in the visible portion of the spectrum compared to the mid-IR. NDSI is computed using…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "e17691bc",
@@ -32789,7 +32789,7 @@
    "id": "e49726fc",
    "url": "/pages/e49726fc/",
    "en_url": "/en/pages/e49726fc/",
-   "title_zh": "",
+   "title_zh": "NEX-DCP30：NASA 地球交换降尺度气候预估",
    "title_en": "NEX-DCP30: NASA Earth Exchange Downscaled Climate Projections",
    "cat": "climate",
    "tags": [
@@ -32805,22 +32805,22 @@
    "res_m": 927.67,
    "res_bucket": "100 米–1 公里",
    "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region_label": "覆盖范围：美国本土（CONUS）；时间范围：1950 年至 ",
+   "coverage": "覆盖范围：美国本土（CONUS）；时间范围：1950 年至 2099 年；分辨率：927.67 米。",
    "time": "1950-01-01 至 2099-12-01",
    "provider": "NASA / Climate Analytics Group",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/NEX-DCP30",
-   "intro_zh": "",
+   "intro_zh": "NASA NEX-DCP30 数据集由美国本土的降尺度气候情景组成，源自耦合模式比较计划第 5 阶段（CMIP5，见 Taylor 等 2012）下进行的全球环流模式（GCM）运行，以及为政府间气候变化专门委员会第五次评估报告（IPCC AR5）开发的四个温室气体排放情景（称为代…",
    "intro_en": "The NASA NEX-DCP30 dataset is comprised of downscaled climate scenarios for the conterminous United States that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Mo…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "e49884e5",
    "url": "/pages/e49884e5/",
    "en_url": "/en/pages/e49884e5/",
-   "title_zh": "",
+   "title_zh": "GLDAS-2.1：全球陆地数据同化系统",
    "title_en": "GLDAS-2.1: Global Land Data Assimilation System",
    "cat": "cryosphere",
    "tags": [
@@ -32837,15 +32837,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2000 年至 2026 年；分辨率：27,830 米。",
    "time": "2000-01-01 至 2026-10-15",
    "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GLDAS/V021/NOAH/G025/T3H",
-   "intro_zh": "",
+   "intro_zh": "NASA 全球陆地数据同化系统版本 2（GLDAS-2）有三个组成部分：GLDAS-2.0、GLDAS-2.1 与 GLDAS-2.2。GLDAS-2.0 完全由普林斯顿气象强迫输入数据强迫，提供从 1948 年到 2014 年时间上一致的序列。GLDAS-2.1 由 2000…",
    "intro_en": "NASA Global Land Data Assimilation System Version 2 (GLDAS-2) has three components: GLDAS-2.0, GLDAS-2.1, and GLDAS-2.2. GLDAS-2.0 is forced entirely with the Princeton meteorological forcing input da…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "e4b2de62",
@@ -33346,7 +33346,7 @@
    "id": "e83800ec",
    "url": "/pages/e83800ec/",
    "en_url": "/en/pages/e83800ec/",
-   "title_zh": "",
+   "title_zh": "再处理 GLDAS-2.0：全球陆地数据同化系统",
    "title_en": "Reprocessed GLDAS-2.0: Global Land Data Assimilation System",
    "cat": "cryosphere",
    "tags": [
@@ -33363,15 +33363,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：1948 年至 2014 年；分辨率：27,830 米。",
    "time": "1948-01-01 至 2014-12-31",
    "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GLDAS/V20/NOAH/G025/T3H",
-   "intro_zh": "",
+   "intro_zh": "NASA 全球陆地数据同化系统版本 2（GLDAS-2）有三个组成部分：GLDAS-2.0、GLDAS-2.1 与 GLDAS-2.2。GLDAS-2.0 完全由普林斯顿气象强迫输入数据强迫，提供从 1948 年到 2014 年时间上一致的序列。GLDAS-2.1 由 2000…",
    "intro_en": "NASA Global Land Data Assimilation System Version 2 (GLDAS-2) has three components: GLDAS-2.0, GLDAS-2.1, and GLDAS-2.2. GLDAS-2.0 is forced entirely with the Princeton meteorological forcing input da…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "e83cd6f4",
@@ -33543,7 +33543,7 @@
    "id": "e9796280",
    "url": "/pages/e9796280/",
    "en_url": "/en/pages/e9796280/",
-   "title_zh": "",
+   "title_zh": "MYD11A1.005 地表温度与发射率日产品全球 1 公里 SIN 格网 [已弃用]",
    "title_en": "MYD11A1.005 Land Surface Temperature and Emissivity Daily Global 1 km Grid SIN [deprecated]",
    "cat": "landcover",
    "tags": [
@@ -33560,21 +33560,21 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：1 公里。",
    "time": "2002-07-08 至 2017-03-30",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD11A1",
-   "intro_zh": "",
+   "intro_zh": "MODIS/Aqua 地表温度与发射率（LST/E）产品 MYD11A1 提供逐像元的温度与发射率值，每日使用广义分裂窗 LST 算法生产。该算法最适合用于将大气柱水汽与下边界空气表面温度的范围分离为可处理的子范围。波段 31 与 32 的地表发射率由土地覆盖类型估计。",
    "intro_en": "The MODIS/Aqua Land Surface Temperature and Emissivity (LST/E) product, MYD11A1, provides per-pixel temperature and emissivity values, which are produced daily using the generalized split-window LST a…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "e9c5f0c8",
    "url": "/pages/e9c5f0c8/",
    "en_url": "/en/pages/e9c5f0c8/",
-   "title_zh": "",
+   "title_zh": "MODIS Aqua 每日 EVI [已弃用]",
    "title_en": "MODIS Aqua Daily EVI [deprecated]",
    "cat": "vegetation",
    "tags": [
@@ -33589,17 +33589,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2002 年至 2017 年；分辨率：约 463.3 米。",
    "time": "2002-07-04 至 2017-03-30",
    "provider": "Google",
    "platform": "Google Earth Engine",
    "ee_id": "MODIS/MYD09GA_EVI",
-   "intro_zh": "",
+   "intro_zh": "增强植被指数（EVI）由每个场景的近红外、红与蓝波段生成，值域为 −1.0 至 1.0。细节见 Huete 等（2002）。本产品由 MODIS/MYD09GA 地表反射率合成生成。",
    "intro_en": "The Enhanced Vegetation Index (EVI) is generated from the Near-IR, Red and Blue bands of each scene, and ranges in value from -1.0 to 1.0. See Huete et al. (2002) for details. This product is generate…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "e9d27326",
@@ -33785,7 +33785,7 @@
    "id": "eb004afb",
    "url": "/pages/eb004afb/",
    "en_url": "/en/pages/eb004afb/",
-   "title_zh": "",
+   "title_zh": "全球森林冠层高度，2005",
    "title_en": "Global Forest Canopy Height, 2005",
    "cat": "vegetation",
    "tags": [
@@ -33801,15 +33801,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2005 年 5 月 20 日至 6 月 23 日；分辨率：927.67 米。",
    "time": "2005-05-20 至 2005-06-23",
    "provider": "NASA/JPL",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/JPL/global_forest_canopy_height_2005",
-   "intro_zh": "",
+   "intro_zh": "本数据集表示基于星载激光雷达数据（2005 年，来自地球科学激光测高系统 GLAS）与辅助地理空间数据融合的全球树高。细节见 Simard 等（2011）。",
    "intro_en": "This dataset represents global tree heights based on a fusion of spaceborne-lidar data (2005) from the Geoscience Laser Altimeter System (GLAS) and ancillary geospatial data. See Simard et al. (2011)…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "eb3acc3a",
@@ -34781,7 +34781,7 @@
    "id": "f3f78834",
    "url": "/pages/f3f78834/",
    "en_url": "/en/pages/f3f78834/",
-   "title_zh": "",
+   "title_zh": "VNP09GA：VIIRS 地表反射率逐日 500 米与 1 千米",
    "title_en": "VNP09GA: VIIRS Surface Reflectance Daily 500m and 1km",
    "cat": "satellite",
    "tags": [
@@ -34796,17 +34796,17 @@
    ],
    "res_m": null,
    "res_bucket": "矢量/表格或未注明",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：500 米与 1 千米。",
    "time": "2012-01-19 至 2026-10-28",
    "provider": "NASA Land SIPS",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP09GA",
-   "intro_zh": "",
+   "intro_zh": "可见光红外成像辐射计套件（VIIRS）逐日地表反射率（VNP09GA）产品提供来自 Suomi 国家极轨伙伴（S-NPP）VIIRS 传感器的陆地地表反射率估计。数据为三个影像波段（I1、I2、I3），标称 500 米分辨率（约 463 米），以及九个中等分辨率波段（M1、M2、…",
    "intro_en": "The Visible Infrared Imaging Radiometer Suite (VIIRS) daily surface reflectance (VNP09GA) product provides an estimate of land surface reflectance from the Suomi National Polar-Orbiting Partnership (S…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "f4209a99",
@@ -35005,7 +35005,7 @@
    "id": "f5cf8a95",
    "url": "/pages/f5cf8a95/",
    "en_url": "/en/pages/f5cf8a95/",
-   "title_zh": "",
+   "title_zh": "全球地上与地下生物量碳密度图",
    "title_en": "Global Aboveground and Belowground Biomass Carbon Density Maps",
    "cat": "vegetation",
    "tags": [
@@ -35022,15 +35022,15 @@
    "res_bucket": "100 米–1 公里",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2010 年；分辨率：300 米。",
    "time": "2010-01-01 至 2010-12-31",
    "provider": "NASA ORNL DAAC at Oak Ridge National Laboratory",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/ORNL/biomass_carbon_density/v1",
-   "intro_zh": "",
+   "intro_zh": "本数据集提供 2010 年全球地上与地下生物量碳密度的时间一致且协调的地图，空间分辨率 300 米。地上生物量地图整合了按土地覆盖区分的遥感木本、草地、农田与苔原生物量地图。输入地图汇集自已发表文献，必要时更新以覆盖目标范围或时段。地下生物量地图同样整合了源自每幅地上生物量地图的…",
    "intro_en": "This dataset provides temporally consistent and harmonized global maps of aboveground and belowground biomass carbon density for the year 2010 at a 300-m spatial resolution. The aboveground biomass ma…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "f614ca66",
@@ -35129,7 +35129,7 @@
    "id": "f726b0e6",
    "url": "/pages/f726b0e6/",
    "en_url": "/en/pages/f726b0e6/",
-   "title_zh": "",
+   "title_zh": "ECOSTRESS 地表温度与发射率 L2 全球 70 米 V002",
    "title_en": "ECOSTRESS Land Surface Temperature and Emissivity L2 Global 70 m V002",
    "cat": "vegetation",
    "tags": [
@@ -35144,15 +35144,15 @@
    "res_bucket": "30–100 米",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2018 年至 2026 年；分辨率：70 米。",
    "time": "2018-07-09 至 2026-11-01",
    "provider": "Land Processes Distributed Active Archive Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/ECOSTRESS/L2T_LSTE/V2",
-   "intro_zh": "",
+   "intro_zh": "ECOSTRESS 地表温度与发射率（ECOL2TLSTE）V002 数据集以 70 米空间分辨率提供地表温度（LST）、LST 误差、质量控制标志、宽波段发射率、云掩膜、地表高度、水体掩膜与观测天顶角数据。本产品源自 ECOSTRESS 观测，对理解地表能量平衡与水分胁迫至关重…",
    "intro_en": "The ECOSTRESS Land Surface Temperature and Emissivity (ECOL2TLSTE) V002 dataset provides Land Surface Temperature (LST), LST error, Quality Control flags, Broadband Emissivity, cloud mask, surface hei…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "f7393e",
@@ -35528,7 +35528,7 @@
    "id": "f9ac1729",
    "url": "/pages/f9ac1729/",
    "en_url": "/en/pages/f9ac1729/",
-   "title_zh": "",
+   "title_zh": "NASADEM：NASA 30 米数字高程模型",
    "title_en": "NASADEM: NASA 30m Digital Elevation Model",
    "cat": "dem",
    "tags": [
@@ -35543,17 +35543,17 @@
    ],
    "res_m": 30.0,
    "res_bucket": "10–30 米",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2000 年 2 月 11 日至 22 日；分辨率：30 米。",
    "time": "2000-02-11 至 2000-02-22",
    "provider": "NASA / USGS / JPL-Caltech",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/NASADEM_HGT/001",
-   "intro_zh": "",
+   "intro_zh": "NASADEM 是对 SRTM 数据的再处理，通过纳入来自 ASTER GDEM、ICESat GLAS 与 PRISM 数据集的辅助数据提高了精度。",
    "intro_en": "NASADEM is a reprocessing of SRTM data, with improved accuracy by incorporating auxiliary data from ASTER GDEM, ICESat GLAS, and PRISM datasets.",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "f9c69da9",
@@ -35615,7 +35615,7 @@
    "id": "fa53b9c1",
    "url": "/pages/fa53b9c1/",
    "en_url": "/en/pages/fa53b9c1/",
-   "title_zh": "",
+   "title_zh": "AERDB_D3_VIIRS_NOAA20.002：VIIRS/NOAA-20 深蓝气溶胶光学厚度逐日三级全球 1.0 度格网",
    "title_en": "AERDB_D3_VIIRS_NOAA20.002: VIIRS/NOAA-20 Deep Blue Aerosol Optical Depth Daily L3 Global 1.0 Deg Grid",
    "cat": "atmosphere",
    "tags": [
@@ -35631,15 +35631,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2018 年至 2026 年；分辨率：111,320 米。",
    "time": "2018-02-17 至 2026-10-28",
    "provider": "NASA Atmosphere SIPS / LAADS DAAC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/AERDB_D3_VIIRS_NOAA20",
-   "intro_zh": "",
+   "intro_zh": "可见光红外成像辐射计套件（VIIRS）深蓝三级逐日全球 1 度格网产品（AERDBD3VIIRSNOAA20）提供源自 NOAA-20（JPSS-1）VIIRS 传感器的逐日全球格网气溶胶参数。数据在陆地上使用深蓝（DB）算法生成，在海洋上使用陆地与海洋卫星气溶胶（SOAR）算法…",
    "intro_en": "The Visible Infrared Imaging Radiometer Suite (VIIRS) Deep Blue Level-3 Daily Global 1-Degree Gridded product (AERDBD3VIIRSNOAA20) provides daily global gridded aerosol parameters derived from the NOA…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "fa6b2b5d",
@@ -35814,7 +35814,7 @@
    "id": "fc3e6d2f",
    "url": "/pages/fc3e6d2f/",
    "en_url": "/en/pages/fc3e6d2f/",
-   "title_zh": "",
+   "title_zh": "GEOS-CF fcst tavg1hr v1：戈达德地球观测系统成分预报",
    "title_en": "GEOS-CF fcst tavg1hr v1: Goddard Earth Observing System Composition Forecast",
    "cat": "atmosphere",
    "tags": [
@@ -35829,15 +35829,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2022 年至 2026 年；分辨率：27,750 米。",
    "time": "2022-10-01 至 2026-01-02",
    "provider": "NASA / GMAO",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GEOS-CF/v1/fcst/tavg1hr",
-   "intro_zh": "",
+   "intro_zh": "本数据集包含时间平均频率数据（tavg1hr）的气象预报（fcst）。使用「creationtime」与「forecasttime」属性选择感兴趣的数据。戈达德地球观测系统成分预报（GEOS-CF）系统是来自 NASA 全球建模与同化办公室（GMAO） 的全球成分预测系统。",
    "intro_en": "This dataset contains meteorological forecast (fcst) of time-averaged frequency data (tavg1hr). Use the 'creationtime' and 'forecasttime' properties to select data of interest. The Goddard Earth Obser…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "fcae03ea",
@@ -36223,7 +36223,7 @@
    "id": "fe806e47",
    "url": "/pages/fe806e47/",
    "en_url": "/en/pages/fe806e47/",
-   "title_zh": "",
+   "title_zh": "MERRA-2 M2T1NXLND：陆面诊断 V5.12.4",
    "title_en": "MERRA-2 M2T1NXLND: Land Surface Diagnostics V5.12.4",
    "cat": "cryosphere",
    "tags": [
@@ -36238,23 +36238,23 @@
    ],
    "res_m": 69375.0,
    "res_bucket": "1 公里以上",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：1980 年至 2026 年；分辨率：69,375 米。",
    "time": "1980-01-01 至 2026-10-01",
    "provider": "NASA/MERRA",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/GSFC/MERRA/lnd/2",
-   "intro_zh": "",
+   "intro_zh": "M2T1NXLND（或 tavg12dlndNx）是现代时代回顾分析研究与应用版本 2（MERRA-2）中的每小时时间平均数据集合。本集合由陆面诊断组成，如基流通量、径流、地表土壤湿度、根区土壤湿度、地表层水、根区层水与六层土壤温度。数据场以从 00:30 UTC 开始的一小时的…",
    "intro_en": "M2T1NXLND (or tavg12dlndNx) is an hourly time-averaged data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of land surface…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "fed65b36",
    "url": "/pages/fed65b36/",
    "en_url": "/en/pages/fed65b36/",
-   "title_zh": "",
+   "title_zh": "VNP13A1.002：VIIRS 植被指数 16 天 500 米",
    "title_en": "VNP13A1.002: VIIRS Vegetation Indices 16-Day 500m",
    "cat": "vegetation",
    "tags": [
@@ -36269,17 +36269,17 @@
    ],
    "res_m": 500.0,
    "res_bucket": "100 米–1 公里",
-   "region": "其他",
-   "region_label": "",
-   "coverage": "",
+   "region": "全球",
+   "region_label": "全球",
+   "coverage": "覆盖范围：全球；时间范围：2012 年至 2026 年；分辨率：500 米。",
    "time": "2012-01-17 至 2026-10-08",
    "provider": "NASA LP DAAC at the USGS EROS Center",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/VIIRS/002/VNP13A1",
-   "intro_zh": "",
+   "intro_zh": "Suomi 国家极轨伙伴（S-NPP）NASA 可见光红外成像辐射计套件（VIIRS）植被指数（VNP13A1）数据产品通过在 500 米分辨率下、16 天获取时段内选择最佳可用像元的过程提供植被指数。VNP13 数据产品仿照中分辨率成像光谱仪（MODIS）Terra 与 Aqu…",
    "intro_en": "The Suomi National Polar-Orbiting Partnership (S-NPP) NASA Visible Infrared Imaging Radiometer Suite (VIIRS) Vegetation Indices (VNP13A1) data product provides vegetation indices by a process of selec…",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "fef8c627",
@@ -36409,7 +36409,7 @@
    "id": "ff73e36e",
    "url": "/pages/ff73e36e/",
    "en_url": "/en/pages/ff73e36e/",
-   "title_zh": "",
+   "title_zh": "SPL3SMP_E.005 SMAP 三级辐射计全球逐日 9 千米土壤水分",
    "title_en": "SPL3SMP_E.005 SMAP L3 Radiometer Global Daily 9 km Soil Moisture",
    "cat": "soil",
    "tags": [
@@ -36425,15 +36425,15 @@
    "res_bucket": "1 公里以上",
    "region": "全球",
    "region_label": "全球",
-   "coverage": "",
+   "coverage": "覆盖范围：全球；时间范围：2015 年至 2023 年；分辨率：9,000 米。",
    "time": "2015-03-31 至 2023-12-03",
    "provider": "Google and NSIDC",
    "platform": "Google Earth Engine",
    "ee_id": "NASA/SMAP/SPL3SMP_E/005",
-   "intro_zh": "",
+   "intro_zh": "自 2023-12-04 起的数据可在 NASA/SMAP/SPL3SMPE/006 集合中获得。",
    "intro_en": "Data starting from 2023-12-04 are available in the NASA/SMAP/SPL3SMPE/006 collection.",
    "type": "A",
-   "batch": ""
+   "batch": "A-07"
   },
   {
    "id": "ff7bd76a",
