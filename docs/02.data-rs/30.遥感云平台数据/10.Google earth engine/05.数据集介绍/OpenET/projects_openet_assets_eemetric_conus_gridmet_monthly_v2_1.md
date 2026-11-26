@@ -1,5 +1,5 @@
 ---
-title: "OpenET eeMETRIC Monthly Evapotranspiration v2.1"
+title: "OpenET eeMETRIC 逐月蒸散发 v2.1"
 date: 2026-11-03 12:00:00
 permalink: /pages/9ca383c3/
 categories:
@@ -16,113 +16,63 @@ tags:
   - "water-vapor"
 ---
 
-# OpenET eeMETRIC Monthly Evapotranspiration v2.1
+# OpenET eeMETRIC 逐月蒸散发 v2.1
 
-## 数据集简介
+英文原名：OpenET eeMETRIC Monthly Evapotranspiration v2.1
 
-Google Earth Engine implementation of the Mapping Evapotranspiration
-at high Resolution with Internalized Calibration model (eeMETRIC).
+## 这是什么数据
 
-eeMETRIC applies the advanced METRIC algorithms and process of Allen
-et al. (2007; 2015) and Allen et al. (2013b), where a singular
-relationship between the near surface air temperature difference (dT)
-and delapsed land surface temperature (TsDEM) is used to estimate sensible
-heat flux (H) and is applied to each Landsat scene. Automated selection of
-the hot and cold pixels for an image generally follows a statistical
-isolation procedure described by Allen et al. (2013a) and ReVelle, Kilic
-and Allen (2019a,b). The calibration of H in eeMETRIC utilizes alfalfa
-reference ET calculated from the NLDAS-2 gridded weather dataset using a
-fixed 15% reduction in computed reference ET to account for known biases
-in the gridded data set. The fixed reduction does not impact the
-calibration accuracy of eeMETRIC and mostly reduces impacts of boundary
-layer buoyancy correction.
+内定标高分辨率蒸散发制图模型（eeMETRIC）的 Google Earth Engine 实现。
 
-The identification of candidates for pools of hot and cold pixels has
-evolved in the eeMETRIC implementation of METRIC. The new automated
-calibration process incorporates the combination of methodologies and
-approaches that stem from two development branches of EEFlux (Allen
-et al., 2015). The first branch focused on improving the automated pixel
-selection process using standard lapse rates for land surface temperature
-(LST) without any further spatial delapsing (ReVelle et al., 2019b). The
-second branch incorporated a secondary spatial delapsing of LST as well as
-changes to the pixel selection process (ReVelle et al., 2019a). The final,
-combined approach is described by Kilic et al. (2021).
+eeMETRIC 应用 Allen 等（2007；2015）与 Allen 等（2013b）的先进 METRIC 算法与流程，其中近地表气温差（dT）与去直减地表温度（TsDEM）之间的单一关系用于估算感热通量（H），并应用于每景 Landsat 影像。影像冷热像元的自动选取一般遵循 Allen 等（2013a）与 ReVelle、Kilic 和 Allen（2019a、b）描述的统计隔离程序。eeMETRIC 中 H 的定标利用由 NLDAS-2 格网天气数据集计算的苜蓿参考 ET，并固定减少 15% 的计算参考 ET，以考虑格网数据集的已知偏差。固定减少不影响 eeMETRIC 的定标精度，主要减少边界层浮力校正的影响。
 
-eeMETRIC employs the aerodynamic-related functions in complex terrain
-(mountains) developed by Allen et al. (2013b) to improve estimates for
-aerodynamic roughness, wind speed and boundary layer stability as related
-to estimated terrain roughness, position on a slope and wind direction.
-These functions tend to increase estimates for H (and reduce ET) on
-windward slopes and may reduce H (and increase ET) on leeward slopes.
-Other METRIC functions employed in eeMETRIC that have been added since
-the descriptions provided in Allen et al. (2007 and 2011) include
-reduction in soil heat flux (G) in the presence of organic mulch on the
-ground surface, use of an excess aerodynamic resistance for shrublands,
-use of the Perrier function for trees identified as forest (Allen et
-al., 2018; Santos et al., 2012) and aerodynamic estimation of evaporation
-from open water rather than using energy balance (Jensen and Allen 2016;
-Allen et al., 2018). In 2022, the Perrier function was applied to tree
-(orchard) crops and a 3-source partitioning of bulk surface temperature
-into canopy temperature, shaded soil temperature and sunlit soil
-temperature was applied to both orchards and vineyards. These latter
-applications were made where orchards and vineyards are identified by
-CDL or, in California, by a state-sponsored land use system. These
-functions and other enhancements to the original METRIC model are described
-in the most current METRIC users manual (Allen et al., 2018). eeMETRIC uses
-the atmospherically corrected surface reflectance and LST from Landsat
-Collection 2 Level 2, with fallback to Collection 2 Level 1 when needed for
-near real-time estimates.
-**OpenET Collection v2.1**
+冷热像元候选池的识别在 METRIC 的 eeMETRIC 实现中不断演进。新的自动定标流程结合了源自 EEFlux 两个开发分支（Allen 等，2015）的方法与途径。第一个分支专注于改进自动像元选取流程，使用地表温度（LST）的标准直减率，不做进一步的空间去直减（ReVelle 等，2019b）。第二个分支纳入了 LST 的二次空间去直减以及像元选取流程的变化（ReVelle 等，2019a）。最终的组合方法由 Kilic 等（2021）描述。
 
-OpenET Collection v2.1 is a reprocessed and updated version of Collection
-v2.0, designed primarily to address known v2.0 issues, while also
-incorporating minor model improvements and input-data updates. It is
-expected that there will be noticeable differences in ET between the two
-collection versions for some places and times. Some of the updates and changes 
-include:
+eeMETRIC 采用 Allen 等（2013b）开发的复杂地形（山区）空气动力学相关函数，以改进与地形粗糙度估算、坡面位置与风向相关的空气动力学粗糙度、风速与边界层稳定度估算。这些函数倾向于增大迎风坡的 H 估算（并减少 ET），并可能减小背风坡的 H（并增大 ET）。自 Allen 等（2007 与 2011）的描述以来，eeMETRIC 采用的其他 METRIC 函数包括：地面有有机覆盖物时减少土壤热通量（G）；对灌木地使用附加空气动力学阻力；对识别为森林的树木使用 Perrier 函数（Allen 等，2018；Santos 等，2012）；以及用空气动力学方法估算开阔水面蒸发而非能量平衡（Jensen 与 Allen 2016；Allen 等，2018）。2022 年，Perrier 函数应用于乔木（果园）作物，并对果园与葡萄园应用了将总体地表温度三源划分为冠层温度、遮阴土壤温度与受光土壤温度的方法。这些后期应用在果园与葡萄园由 CDL 或（在加州）由州赞助的土地利用系统识别之处进行。这些函数及对原始 METRIC 模型的其他增强在最新 METRIC 用户手册（Allen 等，2018）中说明。eeMETRIC 使用 Landsat 第 2 集合 2 级的大气校正地表反射率与 LST，近实时估算时可回退到第 2 集合 1 级。 **OpenET 集合 v2.1**
 
-* Additional cloud screening and filtering to skip Landsat images with 
-unmasked clouds and/or extensive snow cover.
-* Reprocessing to incorporate updates to the NLDAS-2 and GRIDMET
-input meteorology datasets.
-* Incorporation of the USGS Annual NLCD product for all models that require 
-land cover information.
-* Incorporation of the latest USDA CDL for all models that require crop type 
-information.
-* Updates to the interpolation so monthly ET is only produced when all
-days in the month have interpolated values (reducing “count=0” months in
-cloudy/snowy or low-coverage periods).
-* Application of an emissivity correction to address a known issue in
-Landsat LST data.
+OpenET 集合 v2.1 是集合 v2.0 的再处理更新版，主要旨在解决 v2.0 的已知问题，同时纳入小的模型改进与输入数据更新。预计两个集合版本之间的 ET 在某些地点与时间会有明显差异。部分更新与变化包括：
 
-[Additional information](https://etdata.org/methods/)
+* 额外的云筛查与过滤，跳过含未掩膜云和/或大面积积雪的 Landsat 影像。* 重新处理以纳入 NLDAS-2 与 GRIDMET 输入气象数据集的更新。* 对所有需要土地覆盖信息的模型纳入 USGS 年度 NLCD 产品。* 对所有需要作物类型信息的模型纳入最新 USDA CDL。* 更新插值，使逐月 ET 仅当月中所有天都有插值时才生产（减少多云/多雪或低覆盖时期的「count=0」月份）。* 应用发射率校正，解决 Landsat LST 数据的一个已知问题。
 
-## 基本信息
+[更多信息](https://etdata.org/methods/)
 
-- 数据集编号（Earth Engine ID）：`projects/openet/assets/eemetric/conus/gridmet/monthly/v2_1`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：OpenET, Inc.、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：空间：美国本土（CONUS）；时间：2015 年至 2026 年（逐月）；分辨率：30 米。
 - 时间范围：2015-10-01 至 2026-09-01
-- 空间分辨率：30 米
-- 许可：CC-BY-4.0
-- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| et | Total actual evapotranspiration (ET) | 30 |  |
-| count | Number of cloud free observations in the month included in the interpolation | 30 |  |
+| et | 实际蒸散发（ET）总量 | 30 |  |
+| count | 当月纳入插值的无云观测数 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 做农田尺度灌溉用水与蒸散发监测。
+- 为水资源管理与干旱评估提供逐月 ET 数据。
+- 比较多模型集合与单模型 ET 结果的差异。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('projects/openet/assets/eemetric/conus/gridmet/monthly/v2_1');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`projects/openet/assets/eemetric/conus/gridmet/monthly/v2_1`
+- 提供方：OpenET, Inc.、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_eemetric_conus_gridmet_monthly_v2_1
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 - 数据引用：Kilic, A., Allen, R.G., Blankenau, P., ReVelle, P., Ozturk, D. and
 Huntington, J., 2021. Global production and free access to Landsat-scale
 Evapotranspiration with EEFlux and eeMETRIC. In 6th Decennial National
@@ -131,5 +81,14 @@ Irrigation Symposium, 6-8, December 2021, San Diego, California
 [doi:10.13031/irrig.2020-038](https://doi.org/10.13031/irrig.2020-038)
 
 - DOI：10.13031/irrig.2020-038
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [OpenET DisALEXI Monthly Evapotranspiration v2.0](/pages/d4a94ba4/)
+- [OpenET DisALEXI Monthly Evapotranspiration v2.1](/pages/e41f7d19/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0](/pages/f842a55a/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0 (1985-1999)](/pages/0e0267d6/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

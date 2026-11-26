@@ -1,0 +1,105 @@
+---
+title: "OpenET SSEBop Monthly Evapotranspiration v2.0 (1985-1999)"
+date: 2026-11-03 12:00:00
+---
+
+# OpenET SSEBop Monthly Evapotranspiration v2.0 (1985-1999)
+
+Original name: OpenET SSEBop Monthly Evapotranspiration v2.0 (1985-1999)
+
+## What this dataset is
+
+Operational Simplified Surface Energy Balance (SSEBop).
+
+The Operational Simplified Surface Energy Balance (SSEBop) model by Senay
+et al. (2013, 2017) is a thermal-based simplified surface energy model for
+estimating actual ET based on the principles of satellite psychrometry
+(Senay 2018). The OpenET SSEBop implementation uses land surface temperature
+(Ts) from Landsat (Collection 2 Level-2 Science Products) with key model
+parameters (cold/wet-bulb reference, Tc, and surface psychrometric
+constant, 1/dT) derived from a combination of observed surface temperature,
+normalized difference vegetation index (NDVI), climatological average
+(1980-2017) daily maximum air temperature (Ta, 1-km) from Daymet, and
+net radiation data from ERA-5. This model implementation uses the Google
+Earth Engine processing framework for connecting key SSEBop ET functions
+and algorithms together when generating both intermediate and aggregated ET
+results. A detailed study and evaluation of the SSEBop model across CONUS
+(Senay et al., 2022) informs both cloud implementation and assessment for
+water balance applications at broad scales. Notable model (v0.2.6)
+enhancements and performance against previous versions include additional
+compatibility with Landsat 9 (launched Sep 2021), global model
+extensibility, and improved parameterization of SSEBop using
+FANO (Forcing and Normalizing Operation) to better estimate ET
+in all landscapes and all seasons regardless of vegetation cover density,
+thereby improving model accuracy by avoiding extrapolation of Tc to
+non-calibration regions.
+
+**OpenET Collection v2.0, pre-2000 (1985-1999)**
+
+Note: This collection should not be merged with the main v2.0
+collection to compute long-term trends, annual totals, or difference from
+average type calculations, unless care is taken to identify and fill gaps
+or missing data. This collection was generated using Landsat 5 data only,
+and will have more data gaps (both spatially and temporally) than the main
+v2.0 collection, which incorporates data from multiple Landsat satellites
+(5 & 7, 7 & 8, etc.). This pre-2000 collection may have long periods
+without data, especially in the winter months, and large regions without
+data whatsoever in the earlier years (1985-1993).
+
+[Additional information](https://etdata.org/methods/)
+
+## Coverage and time range
+
+- Coverage: Spatial: CONUS; temporal: 1984 to 1999 (monthly); resolution: 30 m.
+- Time range: 1984-10-01 至 1999-10-01
+
+## Resolution and specifications
+
+- Spatial resolution: about 30 m
+- Data type: ImageCollection, accessed through Google Earth Engine
+
+| Band | Description | Resolution (m) | Wavelength |
+| --- | --- | --- | --- |
+| et | Total actual evapotranspiration (ET) | 30 |  |
+| count | Number of cloud free observations in the month included in the interpolation | 30 |  |
+
+## What you can use it for
+
+- Monitor field-scale irrigation water use and evapotranspiration.
+- Provide monthly ET data for water-resource management and drought assessment.
+- Compare multi-model ensemble ET with single-model results.
+
+## How to get it
+
+In Earth Engine:
+
+```js
+var dataset = ee.ImageCollection('projects/openet/assets/ssebop/conus/gridmet/monthly/v2_0_pre2000');
+```
+
+- Earth Engine ID: `projects/openet/assets/ssebop/conus/gridmet/monthly/v2_0_pre2000`
+- Providers: OpenET, Inc., Google Earth Engine
+- Official catalog page: https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ssebop_conus_gridmet_monthly_v2_0_pre2000
+
+## License and citation
+
+- License: CC-BY-4.0
+- Keywords: evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
+- 数据引用：Senay, G.B., Parrish, G.E., Schauer, M., Friedrichs, M., Khand, K., Boiko,
+O., Kagone, S., Dittmeier, R., Arab, S. and Ji, L., 2023. Improving the
+Operational Simplified Surface Energy Balance Evapotranspiration Model Using
+the Forcing and Normalizing Operation. Remote Sensing, 15(1), p.260.
+[doi:10.3390/rs15010260](https://doi.org/10.3390/rs15010260)
+
+- DOI：10.3390/rs15010260
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## Related datasets
+
+- [OpenET DisALEXI Monthly Evapotranspiration v2.0](/pages/d4a94ba4/)
+- [OpenET DisALEXI Monthly Evapotranspiration v2.1](/pages/e41f7d19/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0](/pages/f842a55a/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0 (1985-1999)](/pages/0e0267d6/)
+
+> This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

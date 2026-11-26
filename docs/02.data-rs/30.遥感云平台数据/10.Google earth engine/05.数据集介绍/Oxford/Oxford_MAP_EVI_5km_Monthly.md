@@ -1,5 +1,5 @@
 ---
-title: "Oxford MAP EVI: Malaria Atlas Project Gap-Filled Enhanced Vegetation Index [deprecated]"
+title: "牛津 MAP EVI：疟疾地图项目间隙填充增强植被指数 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/c7bdaa5d/
 categories:
@@ -14,48 +14,53 @@ tags:
   - "vegetation-indices"
 ---
 
-# Oxford MAP EVI: Malaria Atlas Project Gap-Filled Enhanced Vegetation Index [deprecated]
+# 牛津 MAP EVI：疟疾地图项目间隙填充增强植被指数 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：Oxford MAP EVI: Malaria Atlas Project Gap-Filled Enhanced Vegetation Index [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The underlying dataset for this Enhanced Vegetation Index (EVI)
-product is MODIS BRDF-corrected imagery (MCD43B4), which was gap-filled
-using the approach outlined in Weiss et al. (2014) to eliminate missing
-data caused by factors such as cloud cover. Gap-free outputs were then
-aggregated temporally and spatially to produce the monthly &asymp;5km product.
+本增强植被指数（EVI）产品的底层数据集是 MODIS BRDF 校正影像（MCD43B4），使用 Weiss 等（2014）概述的方法做间隙填充，以消除云覆盖等因素造成的数据缺失。无间隙产出随后在时间与空间上聚合，生成逐月约 5 公里产品。
 
-This dataset was produced by Harry Gibson and Daniel Weiss of the
-Malaria Atlas Project (Big Data Institute, University of Oxford,
-United Kingdom, [https://malariaatlas.org/](https://malariaatlas.org/)).
+本数据集由疟疾地图项目（英国牛津大学大数据研究所，[https://malariaatlas.org/](https://malariaatlas.org/)）的 Harry Gibson 与 Daniel Weiss 制作。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`Oxford/MAP/EVI_5km_Monthly`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Oxford Malaria Atlas Project、Google Earth Engine
+- 覆盖范围：空间：全球；时间：2001 年至 2015 年（逐月）；分辨率：5,000 米。
 - 时间范围：2001-02-01 至 2015-06-01
-- 空间分辨率：5000 米
-- 许可：CC-BY-NC-SA-4.0
-- 关键词：evi, map, oxford, vegetation, vegetation-indices
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 5,000 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| Mean | The mean value of the Enhanced Vegetation Index for each aggregated pixel. | 5000 |  |
-| FilledProportion | A quality control band that indicates the percentage of each resulting pixel that was comprised of raw data (as opposed to gap-filled estimates).  | 5000 |  |
+| Mean | 每个聚合像元的增强植被指数平均值。 | 5000 |  |
+| FilledProportion | 质量控制波段，标明每个结果像元中由原始数据（相对间隙填充估算）构成的百分比。 | 5000 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 为疟疾传播环境因素研究提供长时序环境变量。
+- 做疾病生态与媒介分布建模。
+- 与其他健康地理数据联用分析。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('Oxford/MAP/EVI_5km_Monthly');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`Oxford/MAP/EVI_5km_Monthly`
+- 提供方：Oxford Malaria Atlas Project、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_EVI_5km_Monthly
+
+## 许可与引用
+
+- 许可：CC-BY-NC-SA-4.0
+- 关键词：evi, map, oxford, vegetation, vegetation-indices
 - 数据引用：Weiss, D.J., P.M. Atkinson, S. Bhatt, B. Mappin, S.I. Hay & P.W. Gething
 (2014) An effective approach for gap-filling continental scale remotely
 sensed time-series. ISPRS Journal of Photogrammetry and Remote Sensing,
@@ -63,3 +68,12 @@ sensed time-series. ISPRS Journal of Photogrammetry and Remote Sensing,
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [Oxford MAP TCB: Malaria Atlas Project Gap-Filled Tasseled Cap Brightness [deprecated]](/pages/8e5a86b5/)
+- [Oxford MAP TCW: Malaria Atlas Project Gap-Filled Tasseled Cap Wetness [deprecated]](/pages/cac49666/)
+- [AG100：ASTER 全球发射率数据集 100 米 V003](/pages/3510f165/)
+- [CSIRO 全球生物多样性指标](/pages/5e19a751/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

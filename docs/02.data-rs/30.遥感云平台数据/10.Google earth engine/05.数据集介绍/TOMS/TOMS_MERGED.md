@@ -1,5 +1,5 @@
 ---
-title: "TOMS and OMI Merged Ozone Data v3 [deprecated]"
+title: "TOMS 与 OMI 合并臭氧数据 v3 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/5e7baaba/
 categories:
@@ -20,53 +20,54 @@ tags:
   - "weather-and-climate"
 ---
 
-# TOMS and OMI Merged Ozone Data v3 [deprecated]
+# TOMS 与 OMI 合并臭氧数据 v3 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：TOMS and OMI Merged Ozone Data v3 [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The Total Ozone Mapping Spectrometer (TOMS) data represent the primary
-long-term, continuous record of satellite-based observations available for
-use in monitoring global and regional trends in total ozone over the past
-25 years. The data are produced by the Laboratory for Atmospheres at NASA's
-Goddard Space Flight Center. Version 8 TOMS data products include level 3
-gridded data (1.0 x 1.25 deg). The Ozone Monitoring Instrument (OMI), aboard
-the Aura satellite (July 2004 - current), has a higher resolution
-(1.0 x 1.0 deg).
+全臭氧制图光谱仪（TOMS）数据是可用于监测过去 25 年全球与区域总臭氧趋势的主要长期、连续的卫星观测记录。数据由 NASA 戈达德太空飞行中心大气实验室生产。第 8 版 TOMS 数据产品包括 3 级格网数据（1.0 × 1.25 度）。臭氧监测仪（OMI）搭载于 Aura 卫星（2004 年 7 月至今），分辨率更高（1.0 × 1.0 度）。
 
-These data represent a merged ozone product from TOMS/EarthProbe,
-TOMS/Nimbus-7, TOMS/Meteor-3, OMI/Aura and USGS-interpolated data for dates
-with no data.
+这些数据是由 TOMS/EarthProbe、TOMS/Nimbus-7、TOMS/Meteor-3、OMI/Aura 以及无数据日期的 USGS 插值数据合并的臭氧产品。
 
+[TOMS 与 OMI 的更多信息](https://ozoneaq.gsfc.nasa.gov/missions/)
 
-[Additional TOMS and OMI information](https://ozoneaq.gsfc.nasa.gov/missions/)
+## 覆盖范围与时间
 
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`TOMS/MERGED`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA / GES DISC、Google Earth Engine
+- 覆盖范围：空间：全球；时间：1978 年至今；分辨率：111,000 米（约 1 度）。
 - 时间范围：1978-11-01 至 2026-04-11
-- 空间分辨率：111000 米
-- 许可：proprietary
-- 关键词：atmosphere, aura, climate, geophysical, ges-disc, goddard, nasa, omi, ozone, toms, weather-and-climate
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 111,000 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| ozone | Total column ozone | 111000 |  |
+| ozone | 总柱臭氧 | 111000 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 监测全球臭氧层变化与臭氧洞演变。
+- 做大气化学与紫外辐射研究。
+- 验证化学气候模式的臭氧模拟。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('TOMS/MERGED');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`TOMS/MERGED`
+- 提供方：NASA / GES DISC、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/TOMS_MERGED
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：atmosphere, aura, climate, geophysical, ges-disc, goddard, nasa, omi, ozone, toms, weather-and-climate
 - 数据引用：The data set source should be properly cited when the data are used.
 A formal reference of the form: \<authors\>, 2012, last updated 2013:
 \<dataset name\>. NASA/GSFC, Greenbelt, MD, USA, NASA Goddard Earth Sciences
@@ -77,3 +78,12 @@ Parsons et al. (2010),
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [AERDB_D3_VIIRS_NOAA20.002：VIIRS/NOAA-20 深蓝气溶胶光学厚度逐日三级全球 1.0 度格网](/pages/fa53b9c1/)
+- [AERDB_D3_VIIRS_SNPP.002：VIIRS/SNPP 深蓝气溶胶光学厚度逐日三级全球 1.0 度格网](/pages/64c851e2/)
+- [ERA5 逐小时数据 — ECMWF 气候再分析](/pages/2de85afd/)
+- [ERA5 逐小时气压层数据 — ECMWF 气候再分析](/pages/e4d910e9/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

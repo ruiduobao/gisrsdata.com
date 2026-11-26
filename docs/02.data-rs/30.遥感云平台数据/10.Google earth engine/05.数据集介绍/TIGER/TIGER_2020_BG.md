@@ -1,5 +1,5 @@
 ---
-title: "TIGER: US Census Block Groups (BG) 2020"
+title: "TIGER：美国人口普查街区组（BG）2020"
 date: 2026-11-03 12:00:00
 permalink: /pages/d8ec0b36/
 categories:
@@ -17,60 +17,74 @@ tags:
   - "us"
 ---
 
-# TIGER: US Census Block Groups (BG) 2020
+# TIGER：美国人口普查街区组（BG）2020
 
-## 数据集简介
+英文原名：TIGER: US Census Block Groups (BG) 2020
 
-The United States Census Bureau regularly releases
-a geodatabase named TIGER. This dataset contains the 2020 census
-[block groups](https://www.census.gov/programs-surveys/geography/about/glossary.html#par_textimage_4),
-which is a cluster of blocks within the same census tract that have the same
-first digit of their four-digit census block number. There are just over
-240,000 polygon features covering the United States, the District
-of Columbia, Puerto Rico, and the
-Island areas.
+## 这是什么数据
 
-For full technical details on all TIGER 2020 products, see the
-[TIGER technical documentation](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2020/TGRSHP2020_TechDoc.pdf).
+美国人口普查局定期发布名为 TIGER 的地理数据库。本数据集包含 2020 年人口普查 [街区组](https://www.census.gov/programs-surveys/geography/about/glossary.html#par_textimage_4)，即同一普查区内四位普查街区编号首位数字相同的一组街区。共有略多于 240,000 个多边形要素，覆盖美国、哥伦比亚特区、波多黎各与岛屿地区。
 
-## 基本信息
+TIGER 2020 产品的全部技术细节见 [TIGER 技术文档](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2020/TGRSHP2020_TechDoc.pdf)。
 
-- 数据集编号（Earth Engine ID）：`TIGER/2020/BG`
-- 数据类型：矢量/表格（FeatureCollection）
-- 提供方：United States Census Bureau、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：空间：美国（含哥伦比亚特区、波多黎各与岛屿地区）；时间：2020 年；类型：矢量/表格。
 - 时间范围：2020-01-01 至 2020-01-02
-- 许可：proprietary
-- 关键词：census, city, infrastructure-boundaries, neighborhood, table, tiger, urban, us
 
-## 字段信息
+## 分辨率与规格
+
+- 数据类型：矢量/表格（FeatureCollection），在 Google Earth Engine 中调用
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
-| ALAND | DOUBLE | Land Area (square meters) |
-| AWATER | DOUBLE | Water Area (square meters) |
-| BLKGRPCE | STRING | Block Group Code |
-| COUNTYFP | STRING | County FIPS Code |
-| FUNCSTAT | STRING | Functional Status (S = Statistical) |
-| GEOID | STRING | Unique Identifier of Summary Level, Characteristic Iteration, US, State, County, Tract, Block Group Code  |
-| INTPTLAT | DOUBLE | Internal Point Latitude |
-| INTPTLON | DOUBLE | Internal Point Longitude |
-| MTFCC | STRING | MAF/TIGER Feature Classification Code |
-| NAMELSAD | STRING | Full Name |
-| STATEFP | STRING | State FIPS Code |
-| TRACTCE | STRING | Census Tract Code |
+| ALAND | DOUBLE | 陆地面积（平方米） |
+| AWATER | DOUBLE | 水域面积（平方米） |
+| BLKGRPCE | STRING | 街区组代码 |
+| COUNTYFP | STRING | 县 FIPS 代码 |
+| FUNCSTAT | STRING | 功能状态（S = 统计） |
+| GEOID | STRING | 汇总级别、特征迭代、美国、州、县、普查区、街区组代码的唯一标识符 |
+| INTPTLAT | DOUBLE | 内部点纬度 |
+| INTPTLON | DOUBLE | 内部点经度 |
+| MTFCC | STRING | MAF/TIGER 要素分类代码 |
+| NAMELSAD | STRING | 全名 |
+| STATEFP | STRING | 州 FIPS 代码 |
+| TRACTCE | STRING | 普查区代码 |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 作为美国人口普查地理单元的底图与属性表。
+- 做人口、社会经济数据的空间连接与制图。
+- 为选址与区域分析提供行政边界。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.FeatureCollection('TIGER/2020/BG');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`TIGER/2020/BG`
+- 提供方：United States Census Bureau、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/TIGER_2020_BG
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：census, city, infrastructure-boundaries, neighborhood, table, tiger, urban, us
 - 数据引用：For the creation of any reports, publications, new data sets, derived
 products, or services resulting from the data set, users should
 [cite the US Census Bureau](https://www.census.gov/about/policies/citation.html).
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [TIGER: 2020 Tabulation (Census) Block ](/pages/17e8e957/)
+- [TIGER: US Census 5-digit ZIP Code Tabulation Areas 2020](/pages/c4396997/)
+- [TIGER: US Census Tracts](/pages/7862b5d6/)
+- [GHSL：全球人口表面 1975–2030（P2023A）](/pages/cf948667/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

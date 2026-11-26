@@ -1,5 +1,5 @@
 ---
-title: "OpenLandMap Long-term Land Surface Temperature Daytime Monthly Standard Deviation"
+title: "OpenLandMap 长期地表温度白天逐月标准差"
 date: 2026-11-03 12:00:00
 permalink: /pages/6064b050/
 categories:
@@ -18,65 +18,82 @@ tags:
   - "weather-and-climate"
 ---
 
-# OpenLandMap Long-term Land Surface Temperature Daytime Monthly Standard Deviation
+# OpenLandMap 长期地表温度白天逐月标准差
 
-## 数据集简介
+英文原名：OpenLandMap Long-term Land Surface Temperature Daytime Monthly Standard Deviation
 
-Long-term MODIS LST day-time and night-time temperatures standard deviation
-at 1 km based on the 2000-2017 time series.
+## 这是什么数据
 
-Derived using the [data.table package and quantile function in R](https://gitlab.com/openlandmap/global-layers/tree/master/input_layers/MOD11A2).
-For more info about the MODIS LST product see [this page](https://lpdaac.usgs.gov/products/mod11a2v006/).
-Antarctica is not included.
+基于 2000–2017 年时间序列的 1 公里长期 MODIS LST 白天与夜间温度标准差。
 
-To access and visualize maps outside of Earth Engine, use [this page](https://opengeohub.org/about-openlandmap).
+使用 R 中的 [data.table 包与分位数函数](https://gitlab.com/openlandmap/global-layers/tree/master/input_layers/MOD11A2) 派生。MODIS LST 产品的更多信息见 [此页面](https://lpdaac.usgs.gov/products/mod11a2v006/)。不包括南极洲。
 
-If you discover a bug, artifact or inconsistency in the LandGIS maps
-or if you have a question please use the following channels:
+要在 Earth Engine 之外访问与可视化地图，使用 [此页面](https://opengeohub.org/about-openlandmap)。
 
- *  [Technical issues and questions about the code](https://gitlab.com/openlandmap/global-layers/issues)
- *  [General questions and comments](https://disqus.com/home/forums/landgis/)
+如果您发现 LandGIS 地图中的错误、伪影或不一致，或有问题，请使用以下渠道：
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`OpenLandMap/CLM/CLM_LST_MOD11A2-DAY_SD/v01`
-- 数据类型：影像（Image）
-- 提供方：EnvirometriX Ltd、Google Earth Engine
+- 覆盖范围：空间：全球（不含南极洲）；时间：2000 年至 2017 年长期统计（逐月）；分辨率：1,000 米。
 - 时间范围：2000-01-01 至 2018-01-01
-- 空间分辨率：1000 米
-- 许可：CC-BY-SA-4.0
-- 关键词：climate, envirometrix, lst, mod11a2, modis, monthly, opengeohub, openlandmap, weather-and-climate
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 1,000 米
+- 数据类型：影像（Image），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| jan | Long-term Land Surface Temperature daytime monthly stddev, January | 1000 |  |
-| feb | Long-term Land Surface Temperature daytime monthly stddev, February | 1000 |  |
-| mar | Long-term Land Surface Temperature daytime monthly stddev, March | 1000 |  |
-| apr | Long-term Land Surface Temperature daytime monthly stddev, April | 1000 |  |
-| may | Long-term Land Surface Temperature daytime monthly stddev, May | 1000 |  |
-| jun | Long-term Land Surface Temperature daytime monthly stddev, June | 1000 |  |
-| jul | Long-term Land Surface Temperature daytime monthly stddev, July | 1000 |  |
-| aug | Long-term Land Surface Temperature daytime monthly stddev, August | 1000 |  |
-| sep | Long-term Land Surface Temperature daytime monthly stddev, September | 1000 |  |
-| oct | Long-term Land Surface Temperature daytime monthly stddev, October | 1000 |  |
-| nov | Long-term Land Surface Temperature daytime monthly stddev, November | 1000 |  |
-| dec | Long-term Land Surface Temperature daytime monthly stddev, December | 1000 |  |
+| jan | 长期地表温度白天逐月标准差，1 月 | 1000 |  |
+| feb | 长期地表温度白天逐月标准差，2 月 | 1000 |  |
+| mar | 长期地表温度白天逐月标准差，3 月 | 1000 |  |
+| apr | 长期地表温度白天逐月标准差，4 月 | 1000 |  |
+| may | 长期地表温度白天逐月标准差，5 月 | 1000 |  |
+| jun | 长期地表温度白天逐月标准差，6 月 | 1000 |  |
+| jul | 长期地表温度白天逐月标准差，7 月 | 1000 |  |
+| aug | 长期地表温度白天逐月标准差，8 月 | 1000 |  |
+| sep | 长期地表温度白天逐月标准差，9 月 | 1000 |  |
+| oct | 长期地表温度白天逐月标准差，10 月 | 1000 |  |
+| nov | 长期地表温度白天逐月标准差，11 月 | 1000 |  |
+| dec | 长期地表温度白天逐月标准差，12 月 | 1000 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 作为全球气候与土地系统分析的基础图层。
+- 为生态、水文与土壤建模提供环境变量。
+- 与其他全球格网产品做对比与融合。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.Image('OpenLandMap/CLM/CLM_LST_MOD11A2-DAY_SD/v01');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`OpenLandMap/CLM/CLM_LST_MOD11A2-DAY_SD/v01`
+- 提供方：EnvirometriX Ltd、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_LST_MOD11A2-DAY_SD_v01
+*  [Technical issues and questions about the code](https://gitlab.com/openlandmap/global-layers/issues)
+*  [General questions and comments](https://disqus.com/home/forums/landgis/)
+
+## 许可与引用
+
+- 许可：CC-BY-SA-4.0
+- 关键词：climate, envirometrix, lst, mod11a2, modis, monthly, opengeohub, openlandmap, weather-and-climate
 - 数据引用：Long-term MODIS LST day-time and night-time temperatures, sd and differences
 at 1 km based on the 2000-2017 time series
 [10.5281/zenodo.1420115](https://doi.org/10.5281/zenodo.1420114)
 
 - DOI：10.5281/zenodo.1420114
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [AG100：ASTER 全球发射率数据集 100 米 V003](/pages/3510f165/)
+- [CSIRO 全球生物多样性指标](/pages/5e19a751/)
+- [ECOSTRESS 分片辅助 NDVI 与反照率 L2 全球 70 米 V002](/pages/a7bebe55/)
+- [ECOSTRESS 地表温度与发射率 L2 全球 70 米 V002](/pages/f726b0e6/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

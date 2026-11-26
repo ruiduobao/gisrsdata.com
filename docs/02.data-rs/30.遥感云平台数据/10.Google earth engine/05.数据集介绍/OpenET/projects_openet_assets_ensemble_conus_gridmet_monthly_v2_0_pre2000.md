@@ -1,5 +1,5 @@
 ---
-title: "OpenET Ensemble Monthly Evapotranspiration v2.0 (1985-1999)"
+title: "OpenET 集合逐月蒸散发 v2.0（1985–1999）"
 date: 2026-11-03 12:00:00
 permalink: /pages/0e0267d6/
 categories:
@@ -16,71 +16,63 @@ tags:
   - "water-vapor"
 ---
 
-# OpenET Ensemble Monthly Evapotranspiration v2.0 (1985-1999)
+# OpenET 集合逐月蒸散发 v2.0（1985–1999）
 
-## 数据集简介
+英文原名：OpenET Ensemble Monthly Evapotranspiration v2.0 (1985-1999)
 
-The OpenET dataset includes satellite-based data on the total amount of
-water that is transferred from the land surface to the atmosphere through
-the process of evapotranspiration (ET). OpenET provides ET data from
-multiple satellite-driven models, and also calculates a single "ensemble
-value" from the model ensemble. The models currently included in the OpenET
-model ensemble are ALEXI/DisALEXI, eeMETRIC, geeSEBAL, PT-JPL, SIMS, and
-SSEBop. The OpenET ensemble ET value is calculated as the mean of the
-ensemble after filtering and removing outliers using the median absolute
-deviation approach. All models currently use Landsat satellite data to
-produce ET data at a pixel size of 30 meters by 30 meters (0.22 acres per
-pixel). The monthly ET dataset provides data on total ET by month as an
-equivalent depth of water in millimeters.
+## 这是什么数据
 
-Note: DisALEXI cannot be generated before 2001 and is not included in the
-ensemble calculation for this collection.
+OpenET 数据集包括基于卫星的数据，记录通过蒸散发（ET）过程从陆地表面转移到大气的水量。OpenET 提供来自多个卫星驱动模型的 ET 数据，并从模型集合计算单一的「集合值」。当前 OpenET 模型集合包括的模型有 ALEXI/DisALEXI、eeMETRIC、geeSEBAL、PT-JPL、SIMS 与 SSEBop。OpenET 集合 ET 值在使用中位绝对偏差方法过滤并去除异常值后，取集合的平均值计算。所有模型当前都使用 Landsat 卫星数据，以 30 米 × 30 米（每像元 0.22 英亩）的像元大小生产 ET 数据。逐月 ET 数据集提供按月的总 ET，以毫米等效水深表示。
 
+注：DisALEXI 在 2001 年之前无法生成，不纳入本集合的计算。
 
-**OpenET Collection v2.0, pre-2000 (1985-1999)**
+**OpenET 集合 v2.0，2000 年前（1985–1999）**
 
-Note: This collection should not be merged with the main v2.0
-collection to compute long-term trends, annual totals, or difference from
-average type calculations, unless care is taken to identify and fill gaps
-or missing data. This collection was generated using Landsat 5 data only,
-and will have more data gaps (both spatially and temporally) than the main
-v2.0 collection, which incorporates data from multiple Landsat satellites
-(5 & 7, 7 & 8, etc.). This pre-2000 collection may have long periods
-without data, especially in the winter months, and large regions without
-data whatsoever in the earlier years (1985-1993).
+注：本集合不应与主 v2.0 集合合并来计算长期趋势、年度总量或距平类计算，除非注意识别并填补缺口或缺失数据。本集合仅使用 Landsat 5 数据生成，数据缺口（空间与时间上）将多于纳入多颗 Landsat 卫星（5 与 7、7 与 8 等）数据的主 v2.0 集合。这个 2000 年前集合可能有长时间无数据，尤其在冬季月份，早年（1985–1993）的大片区域可能完全无数据。
 
-[Additional information](https://etdata.org/methods/)
+[更多信息](https://etdata.org/methods/)
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`projects/openet/assets/ensemble/conus/gridmet/monthly/v2_0_pre2000`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：OpenET, Inc.、Google Earth Engine
+- 覆盖范围：空间：美国本土（CONUS）；时间：1984 年至 1999 年（逐月）；分辨率：30 米。
 - 时间范围：1984-10-01 至 1999-10-01
-- 空间分辨率：30 米
-- 许可：CC-BY-4.0
-- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| et_ensemble_mad | Ensemble ET value, computed as the mean of the ensemble after filtering outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_mad_min | The minimum value in the ensemble range, after filtering for outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_mad_max | The maximum value in the ensemble range, after filtering for outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_mad_count | The number of models used to compute the ensemble ET value, after filtering for outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_mad_index | Bitmask indicating which models were included in the ensemble ET value, after filtering for outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_sam | The simple arithmetic mean (sam) of all six models in the OpenETmodel ensemble | 30 |  |
+| et_ensemble_mad | 集合 ET 值，使用中位绝对偏差（mad）过滤异常值后取集合的平均值计算 | 30 |  |
+| et_ensemble_mad_min | 使用中位绝对偏差（mad）过滤异常值后，集合范围内的最小值 | 30 |  |
+| et_ensemble_mad_max | 使用中位绝对偏差（mad）过滤异常值后，集合范围内的最大值 | 30 |  |
+| et_ensemble_mad_count | 使用中位绝对偏差（mad）过滤异常值后，用于计算集合 ET 值的模型数量 | 30 |  |
+| et_ensemble_mad_index | 位掩膜，标明哪些模型被纳入集合 ET 值（使用中位绝对偏差（mad）过滤异常值后） | 30 |  |
+| et_ensemble_sam | OpenET 模型集合全部六个模型的简单算术平均（sam）（原文作「OpenETmodel」，缺空格） | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 做农田尺度灌溉用水与蒸散发监测。
+- 为水资源管理与干旱评估提供逐月 ET 数据。
+- 比较多模型集合与单模型 ET 结果的差异。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('projects/openet/assets/ensemble/conus/gridmet/monthly/v2_0_pre2000');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`projects/openet/assets/ensemble/conus/gridmet/monthly/v2_0_pre2000`
+- 提供方：OpenET, Inc.、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_0_pre2000
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 - 数据引用：Melton, F., Huntington, J., Grimm, R., Herring, J., Hall, M., Rollison, D.,
 Erickson, T., Allen, R., Anderson, M., Fisher, J., Kilic, A., Senay, G.,
 volk, J., Hain, C., Johnson, L., Ruhoff, A., Blankenau, P., Bromley, M.,
@@ -93,5 +85,14 @@ Journal of the American Water Resources Association, 2021 Nov 2.
 [doi:10.1111/1752-1688.12956](https://doi.org/10.1111/1752-1688.12956)
 
 - DOI：10.1111/1752-1688.12956
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [OpenET DisALEXI Monthly Evapotranspiration v2.0](/pages/d4a94ba4/)
+- [OpenET DisALEXI Monthly Evapotranspiration v2.1](/pages/e41f7d19/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0](/pages/f842a55a/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.1](/pages/e711299d/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

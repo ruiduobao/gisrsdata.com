@@ -1,0 +1,128 @@
+---
+title: "OpenET SIMS Monthly Evapotranspiration v2.0 (1985-1999)"
+date: 2026-11-03 12:00:00
+---
+
+# OpenET SIMS Monthly Evapotranspiration v2.0 (1985-1999)
+
+Original name: OpenET SIMS Monthly Evapotranspiration v2.0 (1985-1999)
+
+## What this dataset is
+
+Satellite Irrigation Management Support (SIMS).
+
+The NASA Satellite Irrigation Management Support (SIMS) model was originally
+developed to support satellite mapping of crop coefficients and
+evapotranspiration (ET) from irrigated lands and to increase access to this
+data to support use in irrigation scheduling and regional assessment of
+agricultural water needs (Melton et al., 2012). SIMS uses a reflectance
+based approach and incorporates the density coefficient described by Allen
+and Pereira (2009) and Pereira et al. (2020) to compute basal crop
+coefficients for each 30 x 30 m pixel. The primary change from the SIMS
+publication (Pereira et al., 2020) for implementation in OpenET is the
+integration of a gridded soil water balance model to account for soil
+evaporation following precipitation events.
+
+Results of the OpenET Phase I Intercomparison and Accuracy Assessment
+(Melton et al., 2022) showed that SIMS generally performed well for
+cropland sites during the growing season, but had a persistent low bias
+during the winter months or other time periods with frequent precipitation.
+This result was anticipated, since the reflectance-based approach used by
+SIMS is not sensitive to soil evaporation. To correct for this
+underestimation, a soil water balance model based on FAO-56
+(Allen et al., 1998) was implemented on Google Earth Engine and driven
+with gridded precipitation data from gridMET to estimate soil evaporation
+coefficients. These coefficients were then combined with the basal crop
+coefficients calculated by SIMS to calculate total crop evapotranspiration
+using the dual crop coefficient approach. In addition, a modest positive
+bias was observed in the SIMS data for periods with low or sparse
+vegetative cover. To correct for this bias, updates were made to the
+equations that calculate the minimum basal crop coefficient to allow lower
+minimum basal crop coefficient values to be achieved. Full documentation
+of the SIMS model, current algorithms, and details and equations used in
+the soil water balance model are included in the SIMS user manual.
+
+The SIMS model calculates ET under well-watered conditions for the current
+crop growth stage and condition as measured by the satellite data, and SIMS
+is generally expected to have a positive bias for deficit irrigated crops
+and croplands with short-term or intermittent crop water stress. At
+present, SIMS is only implemented for croplands, and non-agricultural lands
+are masked out in this data collection. Future research will extend the
+vegetation density-crop coefficient approach used within SIMS to other land
+cover types.
+
+**OpenET Collection v2.0, pre-2000 (1985-1999)**
+
+Note: This collection should not be merged with the main v2.0
+collection to compute long-term trends, annual totals, or difference from
+average type calculations, unless care is taken to identify and fill gaps
+or missing data. This collection was generated using Landsat 5 data only,
+and will have more data gaps (both spatially and temporally) than the main
+v2.0 collection, which incorporates data from multiple Landsat satellites
+(5 & 7, 7 & 8, etc.). This pre-2000 collection may have long periods
+without data, especially in the winter months, and large regions without
+data whatsoever in the earlier years (1985-1993).
+
+[Additional information](https://etdata.org/methods/)
+
+## Coverage and time range
+
+- Coverage: Spatial: CONUS; temporal: 1984 to 1999 (monthly); resolution: 30 m.
+- Time range: 1984-10-01 至 1999-10-01
+
+## Resolution and specifications
+
+- Spatial resolution: about 30 m
+- Data type: ImageCollection, accessed through Google Earth Engine
+
+| Band | Description | Resolution (m) | Wavelength |
+| --- | --- | --- | --- |
+| et | Total actual evapotranspiration (ET) | 30 |  |
+| count | Number of cloud free observations in the month included in the interpolation | 30 |  |
+
+## What you can use it for
+
+- Monitor field-scale irrigation water use and evapotranspiration.
+- Provide monthly ET data for water-resource management and drought assessment.
+- Compare multi-model ensemble ET with single-model results.
+
+## How to get it
+
+In Earth Engine:
+
+```js
+var dataset = ee.ImageCollection('projects/openet/assets/sims/conus/gridmet/monthly/v2_0_pre2000');
+```
+
+- Earth Engine ID: `projects/openet/assets/sims/conus/gridmet/monthly/v2_0_pre2000`
+- Providers: OpenET, Inc., Google Earth Engine
+- Official catalog page: https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_sims_conus_gridmet_monthly_v2_0_pre2000
+
+## License and citation
+
+- License: CC-BY-4.0
+- Keywords: evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
+- 数据引用：Melton, F., Huntington, J., Grimm, R., Herring, J., Hall, M., Rollison, D.,
+Erickson, T., Allen, R., Anderson, M., Fisher, J., Kilic, A., Senay, G.,
+volk, J., Hain, C., Johnson, L., Ruhoff, A., Blanenau, P., Bromley, M.,
+Carrara, W., Daudert, B., Doherty, C., Dunkerly, C., Friedrichs, M., Guzman,
+A., Halverson, G., Hansen, J., Harding, J., Kang, Y., Ketchum, D., Minor,
+B., Morton, C., Revelle, P., Ortega-Salazar, S., Ott, T., Ozdogon, M.,
+Schull, M., Wang, T., Yang, Y., Anderson, R., 2021. "OpenET: Filling a
+Critical Data Gap in Water Management for the Western United
+States. "Journal of the American Water Resources Association, 58(6),
+pp.971-994.
+[doi:10.1111/1752-1688.12956](https://doi.org/10.1111/1752-1688.12956)
+
+- DOI：10.1111/1752-1688.12956
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## Related datasets
+
+- [OpenET DisALEXI Monthly Evapotranspiration v2.0](/pages/d4a94ba4/)
+- [OpenET DisALEXI Monthly Evapotranspiration v2.1](/pages/e41f7d19/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0](/pages/f842a55a/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0 (1985-1999)](/pages/0e0267d6/)
+
+> This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

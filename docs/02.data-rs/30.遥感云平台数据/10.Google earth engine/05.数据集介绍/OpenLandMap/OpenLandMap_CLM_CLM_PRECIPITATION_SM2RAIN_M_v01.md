@@ -1,5 +1,5 @@
 ---
-title: "OpenLandMap Precipitation Monthly"
+title: "OpenLandMap 逐月降水"
 date: 2026-11-03 12:00:00
 permalink: /pages/13ce8975/
 categories:
@@ -15,69 +15,81 @@ tags:
   - "precipitation"
 ---
 
-# OpenLandMap Precipitation Monthly
+# OpenLandMap 逐月降水
 
-## 数据集简介
+英文原名：OpenLandMap Precipitation Monthly
 
-Monthly precipitation in mm at 1 km resolution based on [SM2RAIN-ASCAT
-2007-2018](https://doi.org/10.5281/zenodo.2615278),
-IMERG, CHELSA Climate, and WorldClim.
+## 这是什么数据
 
-[Downscaled to 1 km resolution using gdalwarp](https://gitlab.com/openlandmap/global-layers/tree/master/input_layers/clim1km)
-(cubic splines) and an average between [WorldClim](https://www.worldclim.org/data/worldclim21.html),
-[CHELSA Climate](https://chelsa-climate.org/),
-and [IMERG monthly product](https://gpm.nasa.gov/data/imerg) (see, e.g, "3B-MO-L.GIS.IMERG.20180601.V05B.tif").
-3x higher weight is given to the SM2RAIN-ASCAT data since it assumed to be more accurate. Processing steps are available
-[here](https://gitlab.com/openlandmap/global-layers/tree/master/input_layers/clim1km).
-Antarctica is not included.
+基于 [SM2RAIN-ASCAT 2007-2018](https://doi.org/10.5281/zenodo.2615278)、IMERG、CHELSA 气候与 WorldClim 的 1 公里分辨率逐月降水（毫米）。
 
-To access and visualize maps outside of Earth Engine, use [this page](https://opengeohub.org/about-openlandmap).
+[使用 gdalwarp 降尺度到 1 公里分辨率](https://gitlab.com/openlandmap/global-layers/tree/master/input_layers/clim1km)（三次样条），并在 [WorldClim](https://www.worldclim.org/data/worldclim21.html)、[CHELSA 气候](https://chelsa-climate.org/) 与 [IMERG 逐月产品](https://gpm.nasa.gov/data/imerg) 之间取平均（例如「3B-MO-L.GIS.IMERG.20180601.V05B.tif」）。SM2RAIN-ASCAT 数据的权重为 3 倍，因为其被认为更准确。处理步骤见 [此处](https://gitlab.com/openlandmap/global-layers/tree/master/input_layers/clim1km)。不包括南极洲。
 
-If you discover a bug, artifact or inconsistency in the LandGIS maps
-or if you have a question please use the following channels:
+要在 Earth Engine 之外访问与可视化地图，使用 [此页面](https://opengeohub.org/about-openlandmap)。
 
- *  [Technical issues and questions about the code](https://gitlab.com/openlandmap/global-layers/issues)
- *  [General questions and comments](https://disqus.com/home/forums/landgis/)
+如果您发现 LandGIS 地图中的错误、伪影或不一致，或有问题，请使用以下渠道：
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`OpenLandMap/CLM/CLM_PRECIPITATION_SM2RAIN_M/v01`
-- 数据类型：影像（Image）
-- 提供方：EnvirometriX Ltd、Google Earth Engine
+- 覆盖范围：空间：全球（不含南极洲）；时间：2007 年至 2019 年（逐月）；分辨率：1,000 米。
 - 时间范围：2007-01-01 至 2019-01-01
-- 空间分辨率：1000 米
-- 许可：CC-BY-SA-4.0
-- 关键词：envirometrix, imerg, monthly, opengeohub, openlandmap, precipitation
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 1,000 米
+- 数据类型：影像（Image），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| jan | Jan Precipitation monthly | 1000 |  |
-| feb | Feb Precipitation monthly | 1000 |  |
-| mar | Mar Precipitation monthly | 1000 |  |
-| apr | Apr Precipitation monthly | 1000 |  |
-| may | May Precipitation monthly | 1000 |  |
-| jun | Jun Precipitation monthly | 1000 |  |
-| jul | Jul Precipitation monthly | 1000 |  |
-| aug | Aug Precipitation monthly | 1000 |  |
-| sep | Sep Precipitation monthly | 1000 |  |
-| oct | Oct Precipitation monthly | 1000 |  |
-| nov | Nov Precipitation monthly | 1000 |  |
-| dec | Dec Precipitation monthly | 1000 |  |
+| jan | 1 月逐月降水 | 1000 |  |
+| feb | 2 月逐月降水 | 1000 |  |
+| mar | 3 月逐月降水 | 1000 |  |
+| apr | 4 月逐月降水 | 1000 |  |
+| may | 5 月逐月降水 | 1000 |  |
+| jun | 6 月逐月降水 | 1000 |  |
+| jul | 7 月逐月降水 | 1000 |  |
+| aug | 8 月逐月降水 | 1000 |  |
+| sep | 9 月逐月降水 | 1000 |  |
+| oct | 10 月逐月降水 | 1000 |  |
+| nov | 11 月逐月降水 | 1000 |  |
+| dec | 12 月逐月降水 | 1000 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 作为全球气候与土地系统分析的基础图层。
+- 为生态、水文与土壤建模提供环境变量。
+- 与其他全球格网产品做对比与融合。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.Image('OpenLandMap/CLM/CLM_PRECIPITATION_SM2RAIN_M/v01');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`OpenLandMap/CLM/CLM_PRECIPITATION_SM2RAIN_M/v01`
+- 提供方：EnvirometriX Ltd、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/OpenLandMap_CLM_CLM_PRECIPITATION_SM2RAIN_M_v01
+*  [Technical issues and questions about the code](https://gitlab.com/openlandmap/global-layers/issues)
+*  [General questions and comments](https://disqus.com/home/forums/landgis/)
+
+## 许可与引用
+
+- 许可：CC-BY-SA-4.0
+- 关键词：envirometrix, imerg, monthly, opengeohub, openlandmap, precipitation
 - 数据引用：Monthly precipitation in mm at 1 km resolution based on SM2RAIN-ASCAT 2007-2018 and IMERG 2014-2018
 [10.5281/zenodo.1435912](https://doi.org/10.5281/zenodo.1435912)
 
 - DOI：10.5281/zenodo.1435912
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [OpenLandMap Long-term Land Surface Temperature Daytime Monthly Median](/pages/014c6b8e/)
+- [OpenLandMap Long-term Land Surface Temperature Monthly Day-Night Difference](/pages/a6fac662/)
+- [CPC 全球统一温度](/pages/8042cb38/)
+- [CPC 全球统一雨量计逐日降水分析](/pages/9d6b70e8/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

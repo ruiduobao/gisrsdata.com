@@ -1,5 +1,5 @@
 ---
-title: "TIGER: US Census 5-digit ZIP Code Tabulation Areas 2010 [deprecated]"
+title: "TIGER：美国人口普查 5 位邮编制表区 2010 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/1eaf6b31/
 categories:
@@ -16,71 +16,75 @@ tags:
   - "zip-code"
 ---
 
-# TIGER: US Census 5-digit ZIP Code Tabulation Areas 2010 [deprecated]
+# TIGER：美国人口普查 5 位邮编制表区 2010 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：TIGER: US Census 5-digit ZIP Code Tabulation Areas 2010 [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-ZIP Code tabulation areas (ZCTAs) are approximate area representations of
-U.S. Postal Service (USPS) 5-digit ZIP Codes.
-The Census Bureau defines ZCTAs by allocating each
-Census block that contains addresses to a single ZIP Code tabulation area, usually
-to the ZCTA that reflects the most frequently occurring ZIP Code for the
-addresses within that block. Blocks that do not contain addresses but that
-are completely surrounded by a single ZIP Code tabulation area (enclaves)
-are assigned to the surrounding ZCTA; those surrounded by multiple ZCTAs
-will be added to a single ZCTA based on the longest shared border.
+邮编制表区（ZCTA）是美国邮政（USPS）5 位邮编的近似区域表示。人口普查局通过将每个包含地址的人口普查街区分配到单个邮编制表区来定义 ZCTA，通常是该街区内地址出现频率最高的邮编所对应的 ZCTA。不含地址但被单个邮编制表区完全包围的街区（飞地）分配给周围的 ZCTA；被多个 ZCTA 包围的街区将按最长共享边界加入单个 ZCTA。
 
-The Census Bureau identifies 5-digit ZIP Code tabulation areas using a 5-
-character numeric code that represents the most frequently occurring USPS
-ZIP Code within that ZCTA.  This code may contain leading zeros.
+人口普查局使用一个 5 字符数字代码识别 5 位邮编制表区，该代码代表该 ZCTA 内出现频率最高的 USPS 邮编。此代码可能包含前导零。
 
-Data users should not use ZCTAs to identify the official USPS ZIP Code for
-mail delivery. The USPS makes periodic changes to ZIP Codes to support more
-efficient mail delivery. ZIP Codes that cover primarily nonresidential or
-post office box addresses may not have a corresponding ZCTA because the
-delineation process uses primarily residential addresses, resulting in a
-bias towards ZIP Codes used for city-style mail delivery.
+数据用户不应使用 ZCTA 来识别邮件投递的官方 USPS 邮编。USPS 会定期更改邮编以支持更高效的邮件投递。主要覆盖非住宅或邮政信箱地址的邮编可能没有对应的 ZCTA，因为划定过程主要使用住宅地址，导致偏向城市式邮件投递所用的邮编。
 
-For full technical details on all TIGER 2010 products, see the [TIGER
-technical documentation](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2010/TGRSHP10SF1.pdf).
+全部 TIGER 2010 产品的技术细节见 [TIGER 技术文档](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2010/TGRSHP10SF1.pdf)。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`TIGER/2010/ZCTA5`
-- 数据类型：矢量/表格（FeatureCollection）
-- 提供方：United States Census Bureau、Google Earth Engine
+- 覆盖范围：空间：美国；时间：2010 年；类型：矢量/表格。
 - 时间范围：2010-01-01 至 2010-01-02
-- 许可：proprietary
-- 关键词：census, infrastructure-boundaries, table, tiger, us, zcta, zip-code
 
-## 字段信息
+## 分辨率与规格
+
+- 数据类型：矢量/表格（FeatureCollection），在 Google Earth Engine 中调用
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
-| ALAND10 | DOUBLE | 2010 Census Land area |
-| AWATER10 | DOUBLE | 2010 Census Water area |
-| CLASSFP10 | STRING | 2010 Census FIPS 55 class code |
-| FUNCSTAT10 | STRING | 2010 Census functional status (Always "S", for "Statistical entity".) |
-| GEOID10 | STRING | 2010 Census 5-digit ZIP Code Tabulation Area identifier |
-| INTPTLAT10 | STRING | 2010 Census latitude of the internal point |
-| INTPTLON10 | STRING | 2010 Census longitude of the internal point |
-| MTFCC10 | STRING | MAF/TIGER feature class code (Always "G6350".) |
-| ZCTA5CE10 | STRING | 2010 Census 5-digit ZIP Code Tabulation Area code |
+| ALAND10 | DOUBLE | 2010 年人口普查陆地面积 |
+| AWATER10 | DOUBLE | 2010 年人口普排水域面积 |
+| CLASSFP10 | STRING | 2010 年人口普查 FIPS 55 类别代码 |
+| FUNCSTAT10 | STRING | 2010 年人口普查功能状态（恒为「S」，即「统计实体」） |
+| GEOID10 | STRING | 2010 年人口普查 5 位邮编制表区标识符 |
+| INTPTLAT10 | STRING | 2010 年人口普查内部点的纬度 |
+| INTPTLON10 | STRING | 2010 年人口普查内部点的经度 |
+| MTFCC10 | STRING | MAF/TIGER 要素类代码（恒为「G6350」） |
+| ZCTA5CE10 | STRING | 2010 年人口普查 5 位邮编制表区代码 |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 作为美国人口普查地理单元的底图与属性表。
+- 做人口、社会经济数据的空间连接与制图。
+- 为选址与区域分析提供行政边界。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.FeatureCollection('TIGER/2010/ZCTA5');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`TIGER/2010/ZCTA5`
+- 提供方：United States Census Bureau、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：census, infrastructure-boundaries, table, tiger, us, zcta, zip-code
 - 数据引用：For the creation of any reports, publications, new data sets, derived
 products, or services resulting from the data set, users should
 [cite the US Census Bureau](https://www.census.gov/about/policies/citation.html).
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [TIGER: US Census Block Groups (BG) 2010](/pages/121edc81/)
+- [TIGER: US Census Blocks](/pages/86b83027/)
+- [TIGER: US Census Tracts Demographic - Profile 1](/pages/da325dd6/)
+- [GHSL：全球人口表面 1975–2030（P2023A）](/pages/cf948667/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

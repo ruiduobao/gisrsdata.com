@@ -1,5 +1,5 @@
 ---
-title: "OpenET geeSEBAL Monthly Evapotranspiration v2.0"
+title: "OpenET geeSEBAL 逐月蒸散发 v2.0"
 date: 2026-11-03 12:00:00
 permalink: /pages/a812f96c/
 categories:
@@ -16,88 +16,63 @@ tags:
   - "water-vapor"
 ---
 
-# OpenET geeSEBAL Monthly Evapotranspiration v2.0
+# OpenET geeSEBAL 逐月蒸散发 v2.0
 
-## 数据集简介
+英文原名：OpenET geeSEBAL Monthly Evapotranspiration v2.0
 
-Google Earth Engine implementation of the Surface Energy Balance Algorithm
-for Land (SEBAL) model.
+## 这是什么数据
 
-An overview of the current geeSEBAL version can be found in Laipelt et al.
-(2021), which is based on the original algorithms developed by
-Bastiaanssen et al. (1998). The OpenET geeSEBAL implementation uses land
-surface temperature (LST) data from Landsat Collection 2, in addition to
-NLDAS-2 and gridMET datasets as instantaneous and daily meteorological
-inputs, respectively.
+陆地地表能量平衡算法（SEBAL）模型的 Google Earth Engine 实现。
 
-The automated statistical algorithm to select the hot and cold endmembers
-is based on a simplified version of the Calibration using Inverse Modeling
-at Extreme Conditions (CIMEC) algorithm proposed by Allen et al. (2013),
-where quantiles of LST and the normalized difference vegetation index
-(NDVI) values are used to select endmember candidates in the Landsat
-domain area. The cold and wet endmember candidates are selected in well
-vegetated areas, while the hot and dry endmember candidates are selected
-in the least vegetated cropland areas.Based on the selected endmembers,
-geeSEBAL assumes that in the cold and wet endmember all available energy
-is converted to latent heat (with high rates of transpiration), while in
-the hot and dry endmember all available energy is converted to sensible
-heat. Finally, estimates of daily evapotranspiration are upscaled from
-instantaneous estimates based on the evaporative fraction, assuming it is
-constant during the daytime without significant changes in soil moisture
-and advection.
+当前 geeSEBAL 版本的概述见 Laipelt 等（2021），其基于 Bastiaanssen 等（1998）开发的原始算法。OpenET geeSEBAL 实现使用 Landsat 第 2 集合的地表温度（LST）数据，以及分别作为瞬时与逐日气象输入的 NLDAS-2 与 gridMET 数据集。
 
-Based on the results from the OpenET Accuracy Assessment and
-Intercomparison study, the OpenET geeSEBAL algorithm was modified as
-follows:
+选取冷热端元的自动统计算法基于 Allen 等（2013）提出的极端条件逆建模定标（CIMEC）算法的简化版，其中 LST 与归一化植被指数（NDVI）值的分位数用于在 Landsat 域区内选取端元候选。冷湿端元候选在植被良好区域选取，热干端元候选在植被最少的农田区域选取。基于所选端元，geeSEBAL 假设在冷湿端元所有可用能量都转化为潜热（蒸腾速率高），而在热干端元所有可用能量都转化为感热。最后，逐日蒸散发估算基于蒸发分量从瞬时估算升尺度，假设其在白天恒定，土壤湿度与平流无显著变化。
 
-1. The simplified version of CIMEC was improved by using additional
-filters to select the endmembers, including the use of the USDA Cropland
-Data Layer (CDL) and filters for NDVI, LST and albedo.
-2. Corrections to LST for endmembers based on antecedent precipitation.
-3. Definition of NLDAS-2 wind speed thresholds to reduce model instability
-during the atmospheric correction.
-4. Improvements to estimate daily net radiation, using FAO-56 as reference
-(Allen et al., 1998).
+基于 OpenET 精度评估与互比研究的结果，OpenET geeSEBAL 算法作了如下修改：
 
-Overall, geeSEBAL performance is dependent on topographic, climate, and
-meteorological conditions, with higher sensitivity and uncertainty related
-to hot and cold endmember selections for the CIMEC automated calibration,
-and lower sensitivity and uncertainty related to meteorological inputs
-(Laipelt et al., 2021 and Kayser et al., 2022). To reduce uncertainties
-related to complex terrain, improvements were added to correct LST and
-global (incident) radiation on the surface (including the environmental
-lapse rate, elevation slope and aspect) to represent the effects of
-topographic features on the model’s endmember selection algorithm and ET
-estimates.
+1. 使用附加过滤改进 CIMEC 简化版以选取端元，包括使用 USDA 作物数据层（CDL）以及 NDVI、LST 与反照率过滤。2. 基于前期降水对端元 LST 做校正。3. 定义 NLDAS-2 风速阈值以减少大气校正期间的模型不稳定。4. 使用 FAO-56 为参考改进逐日净辐射估算（Allen 等，1998）。
 
-[Additional information](https://etdata.org/methods/)
+总体而言，geeSEBAL 的性能取决于地形、气候与气象条件，对 CIMEC 自动定标的冷热端元选取敏感性与不确定性较高，对气象输入的敏感性与不确定性较低（Laipelt 等，2021 与 Kayser 等，2022）。为减少复杂地形带来的不确定性，增加了校正地表 LST 与地表总（入射）辐射的改进（包括环境直减率、高程、坡度与坡向），以表征地形特征对模型端元选取算法与 ET 估算的影响。
 
-## 基本信息
+[更多信息](https://etdata.org/methods/)
 
-- 数据集编号（Earth Engine ID）：`projects/openet/assets/geesebal/conus/gridmet/monthly/v2_0`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：OpenET, Inc.、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：空间：美国本土（CONUS）；时间：1999 年至 2025 年（逐月）；分辨率：30 米。
 - 时间范围：1999-10-01 至 2025-01-01
-- 空间分辨率：30 米
-- 许可：CC-BY-4.0
-- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| et | Total actual evapotranspiration (ET) | 30 |  |
-| count | Number of cloud free observations in the month included in the interpolation | 30 |  |
+| et | 实际蒸散发（ET）总量 | 30 |  |
+| count | 当月纳入插值的无云观测数 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 做农田尺度灌溉用水与蒸散发监测。
+- 为水资源管理与干旱评估提供逐月 ET 数据。
+- 比较多模型集合与单模型 ET 结果的差异。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('projects/openet/assets/geesebal/conus/gridmet/monthly/v2_0');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`projects/openet/assets/geesebal/conus/gridmet/monthly/v2_0`
+- 提供方：OpenET, Inc.、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_geesebal_conus_gridmet_monthly_v2_0
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 - 数据引用：Laipelt, L., Kayser, R.H.B., Fleischmann, A.S., Ruhoff, A., Bastiaanssen,
 W., Erickson, T.A. and Melton, F., 2021. Long-term monitoring of
 evapotranspiration using the SEBAL algorithm and Google Earth Engine cloud
@@ -106,5 +81,14 @@ pp.81-96.
 [doi:10.1016/j.isprsjprs.2021.05.018](https://doi.org/10.1016/j.isprsjprs.2021.05.018)
 
 - DOI：10.1016/j.isprsjprs.2021.05.018
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [OpenET DisALEXI Monthly Evapotranspiration v2.0](/pages/d4a94ba4/)
+- [OpenET DisALEXI Monthly Evapotranspiration v2.1](/pages/e41f7d19/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0](/pages/f842a55a/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0 (1985-1999)](/pages/0e0267d6/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

@@ -1,5 +1,5 @@
 ---
-title: "OpenET SIMS Monthly Evapotranspiration v2.0 (1985-1999)"
+title: "OpenET SIMS 逐月蒸散发 v2.0（1985–1999）"
 date: 2026-11-03 12:00:00
 permalink: /pages/1ec43ace/
 categories:
@@ -16,93 +16,63 @@ tags:
   - "water-vapor"
 ---
 
-# OpenET SIMS Monthly Evapotranspiration v2.0 (1985-1999)
+# OpenET SIMS 逐月蒸散发 v2.0（1985–1999）
 
-## 数据集简介
+英文原名：OpenET SIMS Monthly Evapotranspiration v2.0 (1985-1999)
 
-Satellite Irrigation Management Support (SIMS).
+## 这是什么数据
 
-The NASA Satellite Irrigation Management Support (SIMS) model was originally
-developed to support satellite mapping of crop coefficients and
-evapotranspiration (ET) from irrigated lands and to increase access to this
-data to support use in irrigation scheduling and regional assessment of
-agricultural water needs (Melton et al., 2012). SIMS uses a reflectance
-based approach and incorporates the density coefficient described by Allen
-and Pereira (2009) and Pereira et al. (2020) to compute basal crop
-coefficients for each 30 x 30 m pixel. The primary change from the SIMS
-publication (Pereira et al., 2020) for implementation in OpenET is the
-integration of a gridded soil water balance model to account for soil
-evaporation following precipitation events.
+卫星灌溉管理支持（SIMS）。
 
-Results of the OpenET Phase I Intercomparison and Accuracy Assessment
-(Melton et al., 2022) showed that SIMS generally performed well for
-cropland sites during the growing season, but had a persistent low bias
-during the winter months or other time periods with frequent precipitation.
-This result was anticipated, since the reflectance-based approach used by
-SIMS is not sensitive to soil evaporation. To correct for this
-underestimation, a soil water balance model based on FAO-56
-(Allen et al., 1998) was implemented on Google Earth Engine and driven
-with gridded precipitation data from gridMET to estimate soil evaporation
-coefficients. These coefficients were then combined with the basal crop
-coefficients calculated by SIMS to calculate total crop evapotranspiration
-using the dual crop coefficient approach. In addition, a modest positive
-bias was observed in the SIMS data for periods with low or sparse
-vegetative cover. To correct for this bias, updates were made to the
-equations that calculate the minimum basal crop coefficient to allow lower
-minimum basal crop coefficient values to be achieved. Full documentation
-of the SIMS model, current algorithms, and details and equations used in
-the soil water balance model are included in the SIMS user manual.
+NASA 卫星灌溉管理支持（SIMS）模型最初开发用于支持从灌溉土地卫星制图作物系数与蒸散发（ET），并增加这类数据的可及性，以支持灌溉调度与农业用水需求的区域评估（Melton 等，2012）。SIMS 使用基于反射率的方法，并纳入 Allen 与 Pereira（2009）与 Pereira 等（2020）描述的密度系数，为每个 30 × 30 米像元计算基础作物系数。相对 SIMS 出版物（Pereira 等，2020），在 OpenET 中实现的主要变化是整合了一个格网土壤水分平衡模型，以考虑降水事件后的土壤蒸发。
 
-The SIMS model calculates ET under well-watered conditions for the current
-crop growth stage and condition as measured by the satellite data, and SIMS
-is generally expected to have a positive bias for deficit irrigated crops
-and croplands with short-term or intermittent crop water stress. At
-present, SIMS is only implemented for croplands, and non-agricultural lands
-are masked out in this data collection. Future research will extend the
-vegetation density-crop coefficient approach used within SIMS to other land
-cover types.
+OpenET 第一阶段互比与精度评估（Melton 等，2022）的结果显示，SIMS 在生长季对农田站点总体表现良好，但在冬季月份或降水频繁的其他时段有持续的低估偏差。这一结果在预料之中，因为 SIMS 使用的基于反射率的方法对土壤蒸发不敏感。为校正这一低估，在 Google Earth Engine 上实现了一个基于 FAO-56（Allen 等，1998）的土壤水分平衡模型，由 gridMET 格网降水数据驱动来估算土壤蒸发系数。这些系数随后与 SIMS 计算的基础作物系数结合，使用双作物系数方法计算总作物蒸散发。此外，在植被覆盖低或稀疏的时段，SIMS 数据有适度的正偏差。为校正这一偏差，更新了计算最小基础作物系数的方程，使其能达到更低的最小基础作物系数值。SIMS 模型的完整文档、当前算法以及土壤水分平衡模型所用的细节与方程见 SIMS 用户手册。
 
+SIMS 模型按卫星数据测得的当前作物生长阶段与状况计算充分供水条件下的 ET，SIMS 对亏水灌溉作物与短期或间歇性作物水分胁迫的农田一般预期有正偏差。目前 SIMS 仅针对农田实现，非农业土地在本数据集合中被掩膜。未来研究将把 SIMS 使用的植被密度-作物系数方法扩展到其他土地覆盖类型。
 
-**OpenET Collection v2.0, pre-2000 (1985-1999)**
+**OpenET 集合 v2.0，2000 年前（1985–1999）**
 
-Note: This collection should not be merged with the main v2.0
-collection to compute long-term trends, annual totals, or difference from
-average type calculations, unless care is taken to identify and fill gaps
-or missing data. This collection was generated using Landsat 5 data only,
-and will have more data gaps (both spatially and temporally) than the main
-v2.0 collection, which incorporates data from multiple Landsat satellites
-(5 & 7, 7 & 8, etc.). This pre-2000 collection may have long periods
-without data, especially in the winter months, and large regions without
-data whatsoever in the earlier years (1985-1993).
+注：本集合不应与主 v2.0 集合合并来计算长期趋势、年度总量或距平类计算，除非注意识别并填补缺口或缺失数据。本集合仅使用 Landsat 5 数据生成，数据缺口（空间与时间上）将多于纳入多颗 Landsat 卫星（5 与 7、7 与 8 等）数据的主 v2.0 集合。这个 2000 年前集合可能有长时间无数据，尤其在冬季月份，早年（1985–1993）的大片区域可能完全无数据。
 
-[Additional information](https://etdata.org/methods/)
+[更多信息](https://etdata.org/methods/)
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`projects/openet/assets/sims/conus/gridmet/monthly/v2_0_pre2000`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：OpenET, Inc.、Google Earth Engine
+- 覆盖范围：空间：美国本土（CONUS）；时间：1984 年至 1999 年（逐月）；分辨率：30 米。
 - 时间范围：1984-10-01 至 1999-10-01
-- 空间分辨率：30 米
-- 许可：CC-BY-4.0
-- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| et | Total actual evapotranspiration (ET) | 30 |  |
-| count | Number of cloud free observations in the month included in the interpolation | 30 |  |
+| et | 实际蒸散发（ET）总量 | 30 |  |
+| count | 当月纳入插值的无云观测数 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 做农田尺度灌溉用水与蒸散发监测。
+- 为水资源管理与干旱评估提供逐月 ET 数据。
+- 比较多模型集合与单模型 ET 结果的差异。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('projects/openet/assets/sims/conus/gridmet/monthly/v2_0_pre2000');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`projects/openet/assets/sims/conus/gridmet/monthly/v2_0_pre2000`
+- 提供方：OpenET, Inc.、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_sims_conus_gridmet_monthly_v2_0_pre2000
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 - 数据引用：Melton, F., Huntington, J., Grimm, R., Herring, J., Hall, M., Rollison, D.,
 Erickson, T., Allen, R., Anderson, M., Fisher, J., Kilic, A., Senay, G.,
 volk, J., Hain, C., Johnson, L., Ruhoff, A., Blanenau, P., Bromley, M.,
@@ -116,5 +86,14 @@ pp.971-994.
 [doi:10.1111/1752-1688.12956](https://doi.org/10.1111/1752-1688.12956)
 
 - DOI：10.1111/1752-1688.12956
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [OpenET DisALEXI Monthly Evapotranspiration v2.0](/pages/d4a94ba4/)
+- [OpenET DisALEXI Monthly Evapotranspiration v2.1](/pages/e41f7d19/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0](/pages/f842a55a/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0 (1985-1999)](/pages/0e0267d6/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

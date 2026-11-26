@@ -1,5 +1,5 @@
 ---
-title: "OpenET Ensemble Monthly Evapotranspiration v2.1"
+title: "OpenET 集合逐月蒸散发 v2.1"
 date: 2026-11-03 12:00:00
 permalink: /pages/e711299d/
 categories:
@@ -16,77 +16,61 @@ tags:
   - "water-vapor"
 ---
 
-# OpenET Ensemble Monthly Evapotranspiration v2.1
+# OpenET 集合逐月蒸散发 v2.1
 
-## 数据集简介
+英文原名：OpenET Ensemble Monthly Evapotranspiration v2.1
 
-The OpenET dataset includes satellite-based data on the total amount of
-water that is transferred from the land surface to the atmosphere through
-the process of evapotranspiration (ET). OpenET provides ET data from
-multiple satellite-driven models, and also calculates a single "ensemble
-value" from the model ensemble. The models currently included in the OpenET
-model ensemble are ALEXI/DisALEXI, eeMETRIC, geeSEBAL, PT-JPL, SIMS, and
-SSEBop. The OpenET ensemble ET value is calculated as the mean of the
-ensemble after filtering and removing outliers using the median absolute
-deviation approach. All models currently use Landsat satellite data to
-produce ET data at a pixel size of 30 meters by 30 meters (0.22 acres per
-pixel). The monthly ET dataset provides data on total ET by month as an
-equivalent depth of water in millimeters.
-**OpenET Collection v2.1**
+## 这是什么数据
 
-OpenET Collection v2.1 is a reprocessed and updated version of Collection
-v2.0, designed primarily to address known v2.0 issues, while also
-incorporating minor model improvements and input-data updates. It is
-expected that there will be noticeable differences in ET between the two
-collection versions for some places and times. Some of the updates and changes 
-include:
+OpenET 数据集包括基于卫星的数据，记录通过蒸散发（ET）过程从陆地表面转移到大气的水量。OpenET 提供来自多个卫星驱动模型的 ET 数据，并从模型集合计算单一的「集合值」。当前 OpenET 模型集合包括的模型有 ALEXI/DisALEXI、eeMETRIC、geeSEBAL、PT-JPL、SIMS 与 SSEBop。OpenET 集合 ET 值在使用中位绝对偏差方法过滤并去除异常值后，取集合的平均值计算。所有模型当前都使用 Landsat 卫星数据，以 30 米 × 30 米（每像元 0.22 英亩）的像元大小生产 ET 数据。逐月 ET 数据集提供按月的总 ET，以毫米等效水深表示。 **OpenET 集合 v2.1**
 
-* Additional cloud screening and filtering to skip Landsat images with 
-unmasked clouds and/or extensive snow cover.
-* Reprocessing to incorporate updates to the NLDAS-2 and GRIDMET
-input meteorology datasets.
-* Incorporation of the USGS Annual NLCD product for all models that require 
-land cover information.
-* Incorporation of the latest USDA CDL for all models that require crop type 
-information.
-* Updates to the interpolation so monthly ET is only produced when all
-days in the month have interpolated values (reducing “count=0” months in
-cloudy/snowy or low-coverage periods).
-* Application of an emissivity correction to address a known issue in
-Landsat LST data.
+OpenET 集合 v2.1 是集合 v2.0 的再处理更新版，主要旨在解决 v2.0 的已知问题，同时纳入小的模型改进与输入数据更新。预计两个集合版本之间的 ET 在某些地点与时间会有明显差异。部分更新与变化包括：
 
-[Additional information](https://etdata.org/methods/)
+* 额外的云筛查与过滤，跳过含未掩膜云和/或大面积积雪的 Landsat 影像。* 重新处理以纳入 NLDAS-2 与 GRIDMET 输入气象数据集的更新。* 对所有需要土地覆盖信息的模型纳入 USGS 年度 NLCD 产品。* 对所有需要作物类型信息的模型纳入最新 USDA CDL。* 更新插值，使逐月 ET 仅当月中所有天都有插值时才生产（减少多云/多雪或低覆盖时期的「count=0」月份）。* 应用发射率校正，解决 Landsat LST 数据的一个已知问题。
 
-## 基本信息
+[更多信息](https://etdata.org/methods/)
 
-- 数据集编号（Earth Engine ID）：`projects/openet/assets/ensemble/conus/gridmet/monthly/v2_1`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：OpenET, Inc.、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：空间：美国本土（CONUS）；时间：2015 年至 2026 年（逐月）；分辨率：30 米。
 - 时间范围：2015-10-01 至 2026-09-01
-- 空间分辨率：30 米
-- 许可：CC-BY-4.0
-- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| et_ensemble_mad | Ensemble ET value, computed as the mean of the ensemble after filtering outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_mad_min | The minimum value in the ensemble range, after filtering for outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_mad_max | The maximum value in the ensemble range, after filtering for outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_mad_count | The number of models used to compute the ensemble ET value, after filtering for outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_mad_index | Bitmask indicating which models were included in the ensemble ET value, after filtering for outliers using the median absolute deviation (mad)  | 30 |  |
-| et_ensemble_sam | The simple arithmetic mean (sam) of all six models in the OpenETmodel ensemble | 30 |  |
+| et_ensemble_mad | 集合 ET 值，使用中位绝对偏差（mad）过滤异常值后取集合的平均值计算 | 30 |  |
+| et_ensemble_mad_min | 使用中位绝对偏差（mad）过滤异常值后，集合范围内的最小值 | 30 |  |
+| et_ensemble_mad_max | 使用中位绝对偏差（mad）过滤异常值后，集合范围内的最大值 | 30 |  |
+| et_ensemble_mad_count | 使用中位绝对偏差（mad）过滤异常值后，用于计算集合 ET 值的模型数量 | 30 |  |
+| et_ensemble_mad_index | 位掩膜，标明哪些模型被纳入集合 ET 值（使用中位绝对偏差（mad）过滤异常值后） | 30 |  |
+| et_ensemble_sam | OpenET 模型集合全部六个模型的简单算术平均（sam）（原文作「OpenETmodel」，缺空格） | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 做农田尺度灌溉用水与蒸散发监测。
+- 为水资源管理与干旱评估提供逐月 ET 数据。
+- 比较多模型集合与单模型 ET 结果的差异。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('projects/openet/assets/ensemble/conus/gridmet/monthly/v2_1');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`projects/openet/assets/ensemble/conus/gridmet/monthly/v2_1`
+- 提供方：OpenET, Inc.、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_1
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 - 数据引用：Melton, F., Huntington, J., Grimm, R., Herring, J., Hall, M., Rollison, D.,
 Erickson, T., Allen, R., Anderson, M., Fisher, J., Kilic, A., Senay, G.,
 volk, J., Hain, C., Johnson, L., Ruhoff, A., Blankenau, P., Bromley, M.,
@@ -99,5 +83,14 @@ Journal of the American Water Resources Association, 2021 Nov 2.
 [doi:10.1111/1752-1688.12956](https://doi.org/10.1111/1752-1688.12956)
 
 - DOI：10.1111/1752-1688.12956
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [OpenET DisALEXI Monthly Evapotranspiration v2.0](/pages/d4a94ba4/)
+- [OpenET DisALEXI Monthly Evapotranspiration v2.1](/pages/e41f7d19/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0](/pages/f842a55a/)
+- [OpenET Ensemble Monthly Evapotranspiration v2.0 (1985-1999)](/pages/0e0267d6/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

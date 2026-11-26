@@ -1,5 +1,5 @@
 ---
-title: "OpenET SSEBop Monthly Evapotranspiration v2.0 [deprecated]"
+title: "OpenET SSEBop 逐月蒸散发 v2.0 [已弃用]"
 date: 2026-11-03 12:00:00
 permalink: /pages/cf3a4140/
 categories:
@@ -16,65 +16,55 @@ tags:
   - "water-vapor"
 ---
 
-# OpenET SSEBop Monthly Evapotranspiration v2.0 [deprecated]
+# OpenET SSEBop 逐月蒸散发 v2.0 [已弃用]
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：OpenET SSEBop Monthly Evapotranspiration v2.0 [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-Operational Simplified Surface Energy Balance (SSEBop)
+业务化简化地表能量平衡（SSEBop）
 
-The Operational Simplified Surface Energy Balance (SSEBop) model by Senay
-et al. (2013, 2017) is a thermal-based simplified surface energy model for
-estimating actual ET based on the principles of satellite psychrometry
-(Senay 2018). The OpenET SSEBop implementation uses land surface temperature
-(Ts) from Landsat (Collection 2 Level-2 Science Products) with key model
-parameters (cold/wet-bulb reference, Tc, and surface psychrometric
-constant, 1/dT) derived from a combination of observed surface temperature,
-normalized difference vegetation index (NDVI), climatological average
-(1980-2017) daily maximum air temperature (Ta, 1-km) from Daymet, and
-net radiation data from ERA-5. This model implementation uses the Google
-Earth Engine processing framework for connecting key SSEBop ET functions
-and algorithms together when generating both intermediate and aggregated ET
-results. A detailed study and evaluation of the SSEBop model across CONUS
-(Senay et al., 2022) informs both cloud implementation and assessment for
-water balance applications at broad scales. Notable model (v0.2.6)
-enhancements and performance against previous versions include additional
-compatibility with Landsat 9 (launched Sep 2021), global model
-extensibility, and improved parameterization of SSEBop using
-FANO (Forcing and Normalizing Operation) to better estimate ET
-in all landscapes and all seasons regardless of vegetation cover density,
-thereby improving model accuracy by avoiding extrapolation of Tc to
-non-calibration regions.
+Senay 等（2013、2017）的业务化简化地表能量平衡（SSEBop）模型是基于热红外的简化地表能量模型，基于卫星心理测量学原理估算实际 ET（Senay 2018）。OpenET SSEBop 实现使用 Landsat（第 2 集合 2 级科学产品）的地表温度（Ts），关键模型参数（冷/湿球参考 Tc 与地表心理测量常数 1/dT）由观测地表温度、归一化植被指数（NDVI）、Daymet 的气候平均（1980–2017）逐日最高气温（Ta，1 公里）与 ERA-5 净辐射数据的组合派生。此模型实现使用 Google Earth Engine 处理框架，在生成中间与聚合 ET 结果时将关键 SSEBop ET 函数与算法连接起来。SSEBop 模型在整个美国本土的详细研究与评估（Senay 等，2022）为云实现与大尺度水量平衡应用评估提供了依据。值得注意的模型（v0.2.6）增强与相对先前版本的性能包括：增加对 Landsat 9（2021 年 9 月发射）的兼容、全球模型可扩展性，以及使用 FANO（强迫与归一化操作）改进 SSEBop 的参数化，以在所有景观与所有季节（无论植被覆盖密度）更好地估算 ET，从而避免将 Tc 外推到非定标区域、提高模型精度。
 
-[Additional information](https://openetdata.org/methodologies/)
+[更多信息](https://openetdata.org/methodologies/)
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`OpenET/SSEBOP/CONUS/GRIDMET/MONTHLY/v2_0`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：OpenET, Inc.、Google Earth Engine
+- 覆盖范围：空间：美国本土（CONUS）；时间：1999 年至 2024 年（逐月）；分辨率：30 米。
 - 时间范围：1999-10-01 至 2024-12-01
-- 空间分辨率：30 米
-- 许可：CC-BY-4.0
-- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| et | SSEBop ET value | 30 |  |
-| count | Number of cloud free values | 30 |  |
+| et | SSEBop ET 值 | 30 |  |
+| count | 无云值的数量 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 做农田尺度灌溉用水与蒸散发监测。
+- 为水资源管理与干旱评估提供逐月 ET 数据。
+- 比较多模型集合与单模型 ET 结果的差异。
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('OpenET/SSEBOP/CONUS/GRIDMET/MONTHLY/v2_0');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`OpenET/SSEBOP/CONUS/GRIDMET/MONTHLY/v2_0`
+- 提供方：OpenET, Inc.、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/OpenET_SSEBOP_CONUS_GRIDMET_MONTHLY_v2_0
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor
 - 数据引用：Senay, G.B., Parrish, G.E., Schauer, M., Friedrichs, M., Khand, K., Boiko,
 O., Kagone, S., Dittmeier, R., Arab, S. and Ji, L., 2023. Improving the
 Operational Simplified Surface Energy Balance Evapotranspiration Model Using
@@ -84,3 +74,12 @@ the Forcing and Normalizing Operation. Remote Sensing, 15(1), p.260.
 - DOI：10.3390/rs15010260
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [AG100：ASTER 全球发射率数据集 100 米 V003](/pages/3510f165/)
+- [CSIRO 全球生物多样性指标](/pages/5e19a751/)
+- [ECOSTRESS 分片辅助 NDVI 与反照率 L2 全球 70 米 V002](/pages/a7bebe55/)
+- [ECOSTRESS 地表温度与发射率 L2 全球 70 米 V002](/pages/f726b0e6/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
