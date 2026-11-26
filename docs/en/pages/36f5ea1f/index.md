@@ -62,4 +62,11 @@ Density: Global Ocean Satellite and In-Situ Observations, CNR (Rome, Italy) is
 providing daily Sea Surface Salinity and Sea Surface Density analyses.
 [doi:10.48670/moi-00051](https://doi.org/10.48670/moi-00051)
 
+## Related datasets
+
+- [Global Ocean Colour — Optics, Multi-Sensor 4 km Monthly](/en/pages/b4a5e847/)
+- [Global Ocean Colour — Primary Production, Multi-Sensor 4 km](/en/pages/6396836c/)
+- [Global Ocean Colour — Reflectance, OLCI 300 m](/en/pages/f4ffb7b4/)
+- [Global Ocean Colour — Reflectance, Multi-Sensor 4 km](/en/pages/472dc170/)
+
 > This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

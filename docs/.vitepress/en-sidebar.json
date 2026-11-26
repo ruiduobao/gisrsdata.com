@@ -1,0 +1,434 @@
+[
+ {
+  "items": [
+   {
+    "link": "/en/pages/36f5ea1f/",
+    "text": "Ocean Sea Surface Salinity"
+   },
+   {
+    "link": "/en/pages/778e3960/",
+    "text": "Landsat 8 Level 2"
+   },
+   {
+    "link": "/en/pages/7306f8/",
+    "text": "ASTER Global DEM"
+   }
+  ],
+  "text": "Dataset Guides (English)"
+ },
+ {
+  "collapsed": true,
+  "items": [
+   {
+    "text": "AAFC Annual Crop Inventory (Canada)",
+    "link": "/en/pages/ad6873e3/"
+   },
+   {
+    "text": "ACA Reef Habitat v1.0 (deprecated)",
+    "link": "/en/pages/9999a17e/"
+   },
+   {
+    "text": "ACA Reef Habitat v2.0",
+    "link": "/en/pages/8d9d570d/"
+   },
+   {
+    "text": "AHN2 0.5 m DEM (Interpolated)",
+    "link": "/en/pages/1dc8c864/"
+   },
+   {
+    "text": "AHN2 0.5 m DEM (Non-Interpolated)",
+    "link": "/en/pages/b4be923c/"
+   },
+   {
+    "text": "AHN2 0.5 m DEM (Raw Samples)",
+    "link": "/en/pages/ffa135bf/"
+   },
+   {
+    "text": "AHN3 Netherlands 0.5 m",
+    "link": "/en/pages/9769c309/"
+   },
+   {
+    "text": "AHN4 Netherlands 0.5 m",
+    "link": "/en/pages/eba63a4f/"
+   },
+   {
+    "text": "ASTER L1T Radiance",
+    "link": "/en/pages/b48e6fb4/"
+   },
+   {
+    "text": "Australian 5 m DEM (LiDAR)",
+    "link": "/en/pages/eb3acc3a/"
+   },
+   {
+    "text": "BLM AIM TerrADat Field Plots",
+    "link": "/en/pages/53c74382/"
+   },
+   {
+    "text": "Canada Forest Age 2019",
+    "link": "/en/pages/65b34141/"
+   },
+   {
+    "text": "CCNL Nighttime Lights 1992–2013",
+    "link": "/en/pages/c2c834f0/"
+   },
+   {
+    "text": "Copernicus DEM GLO-30 (2024_1)",
+    "link": "/en/pages/3bdccac6/"
+   },
+   {
+    "text": "Copernicus DEM GLO-30 (deprecated)",
+    "link": "/en/pages/191e6d51/"
+   },
+   {
+    "text": "Copernicus Global Land Cover LC100 C2 (deprecated)",
+    "link": "/en/pages/df79d207/"
+   },
+   {
+    "text": "Copernicus Global Land Cover LC100 C3",
+    "link": "/en/pages/ab21afa1/"
+   },
+   {
+    "text": "Copernicus In Situ — Argo",
+    "link": "/en/pages/e4b2de62/"
+   },
+   {
+    "text": "Copernicus In Situ — Drifters",
+    "link": "/en/pages/78cafecb/"
+   },
+   {
+    "text": "Copernicus In Situ — HF Radar Radial",
+    "link": "/en/pages/954f2a11/"
+   },
+   {
+    "text": "Copernicus In Situ — HF Radar Total",
+    "link": "/en/pages/579ef535/"
+   },
+   {
+    "text": "Copernicus Marine Physics 2D Daily",
+    "link": "/en/pages/208ecbda/"
+   },
+   {
+    "text": "Copernicus Ocean BGC Forecast — BIO",
+    "link": "/en/pages/a143480c/"
+   },
+   {
+    "text": "Copernicus Ocean BGC Forecast — CAR",
+    "link": "/en/pages/b1ddbae7/"
+   },
+   {
+    "text": "Copernicus Ocean BGC Forecast — CO2",
+    "link": "/en/pages/6e230781/"
+   },
+   {
+    "text": "Copernicus Ocean BGC Forecast — NUT",
+    "link": "/en/pages/0e1aef6c/"
+   },
+   {
+    "text": "Copernicus Ocean BGC Forecast — OPTICS",
+    "link": "/en/pages/adf1ae4b/"
+   },
+   {
+    "text": "Copernicus Ocean BGC Forecast — PFT",
+    "link": "/en/pages/70989d7f/"
+   },
+   {
+    "text": "Copernicus Ocean BGC Forecast — PLANKTON",
+    "link": "/en/pages/11e18d90/"
+   },
+   {
+    "text": "Copernicus Satellite Ocean Colour V6",
+    "link": "/en/pages/78b315c3/"
+   },
+   {
+    "text": "Copernicus Sea Surface Salinity NRT",
+    "link": "/en/pages/f9c69da9/"
+   },
+   {
+    "text": "CORINE Land Cover V18 (deprecated)",
+    "link": "/en/pages/5ec608fc/"
+   },
+   {
+    "text": "CORINE Land Cover V20",
+    "link": "/en/pages/a9db0306/"
+   },
+   {
+    "text": "CryoSat-2 Antarctica 1 km DEM",
+    "link": "/en/pages/a0390601/"
+   },
+   {
+    "text": "Côte d'Ivoire Land Cover 2020 (BNETD)",
+    "link": "/en/pages/ede6637e/"
+   },
+   {
+    "text": "DEM-H Australia (Hydrologically Enforced)",
+    "link": "/en/pages/583e2ba3/"
+   },
+   {
+    "text": "DEM-S Australia (Smoothed)",
+    "link": "/en/pages/ada188d3/"
+   },
+   {
+    "text": "Global Ocean Waves Analysis & Forecast",
+    "link": "/en/pages/55cf916d/"
+   },
+   {
+    "text": "Global Ocean Waves Static Bathymetry",
+    "link": "/en/pages/5f5a2e68/"
+   },
+   {
+    "text": "Global Oil Palm Extent & Planting Year v1.2",
+    "link": "/en/pages/36b9933f/"
+   },
+   {
+    "text": "Global Oil Palm Map 2019 (deprecated)",
+    "link": "/en/pages/1dc500dd/"
+   },
+   {
+    "text": "GPWv4 Ancillary Data Grids (deprecated)",
+    "link": "/en/pages/ceffa7f4/"
+   },
+   {
+    "text": "GPWv4 Population Count (deprecated)",
+    "link": "/en/pages/969607b9/"
+   },
+   {
+    "text": "GPWv4 Population Density (deprecated)",
+    "link": "/en/pages/732e4764/"
+   },
+   {
+    "text": "GPWv4 UN-Adjusted Population Count (deprecated)",
+    "link": "/en/pages/6a1c9cc3/"
+   },
+   {
+    "text": "GPWv4 UN-Adjusted Population Density (deprecated)",
+    "link": "/en/pages/e8970ec8/"
+   },
+   {
+    "text": "GPWv4.11 Basic Demographic Characteristics",
+    "link": "/en/pages/012ffc59/"
+   },
+   {
+    "text": "GPWv4.11 Data Context",
+    "link": "/en/pages/681ae947/"
+   },
+   {
+    "text": "GPWv4.11 Land Area",
+    "link": "/en/pages/2bf0e5fc/"
+   },
+   {
+    "text": "GPWv4.11 Mean Administrative Unit Area",
+    "link": "/en/pages/e96ad86f/"
+   },
+   {
+    "text": "GPWv4.11 National Identifier Grid",
+    "link": "/en/pages/425f6eb9/"
+   },
+   {
+    "text": "GPWv4.11 Population Count",
+    "link": "/en/pages/9cd921b2/"
+   },
+   {
+    "text": "GPWv4.11 Population Density",
+    "link": "/en/pages/f230ed9d/"
+   },
+   {
+    "text": "GPWv4.11 UN-Adjusted Population Count",
+    "link": "/en/pages/c8d35920/"
+   },
+   {
+    "text": "GPWv4.11 UN-Adjusted Population Density",
+    "link": "/en/pages/65521765/"
+   },
+   {
+    "text": "GPWv4.11 Water Area",
+    "link": "/en/pages/0f13e587/"
+   },
+   {
+    "text": "GPWv4.11 Water Mask",
+    "link": "/en/pages/d70c6d97/"
+   },
+   {
+    "text": "Harmonized Sentinel-2 MSI L1C",
+    "link": "/en/pages/07bc7cbd/"
+   },
+   {
+    "text": "Harmonized Sentinel-2 MSI L2A SR",
+    "link": "/en/pages/0620c27d/"
+   },
+   {
+    "text": "Ocean Colour Optics Multi 4 km Monthly",
+    "link": "/en/pages/b4a5e847/"
+   },
+   {
+    "text": "Ocean Colour Plankton Multi 4 km",
+    "link": "/en/pages/7a0a5c32/"
+   },
+   {
+    "text": "Ocean Colour Plankton OLCI 300 m",
+    "link": "/en/pages/073c2f26/"
+   },
+   {
+    "text": "Ocean Colour Primary Production 4 km",
+    "link": "/en/pages/6396836c/"
+   },
+   {
+    "text": "Ocean Colour Reflectance Multi 4 km",
+    "link": "/en/pages/472dc170/"
+   },
+   {
+    "text": "Ocean Colour Reflectance OLCI 300 m",
+    "link": "/en/pages/f4ffb7b4/"
+   },
+   {
+    "text": "Ocean Colour Transparency Multi 4 km",
+    "link": "/en/pages/ab75e1cd/"
+   },
+   {
+    "text": "Ocean Colour Transparency OLCI 4 km",
+    "link": "/en/pages/c430d54c/"
+   },
+   {
+    "text": "PML_V2 ET & GPP (0.1.4, deprecated)",
+    "link": "/en/pages/1fcbf3b8/"
+   },
+   {
+    "text": "PML_V2.1.7 ET & GPP (deprecated)",
+    "link": "/en/pages/78dca129/"
+   },
+   {
+    "text": "PML_V2.1.8 ET & GPP (deprecated)",
+    "link": "/en/pages/82a78155/"
+   },
+   {
+    "text": "Sentinel-1 SAR GRD",
+    "link": "/en/pages/5986ee6b/"
+   },
+   {
+    "text": "Sentinel-2 Cloud Probability",
+    "link": "/en/pages/1a2cfa86/"
+   },
+   {
+    "text": "Sentinel-2 MSI L1C TOA (deprecated)",
+    "link": "/en/pages/2f09b47d/"
+   },
+   {
+    "text": "Sentinel-2 MSI L2A SR (deprecated)",
+    "link": "/en/pages/62853b7b/"
+   },
+   {
+    "text": "Sentinel-3 OLCI EFR",
+    "link": "/en/pages/e7ebe842/"
+   },
+   {
+    "text": "Sentinel-5P NRTI Aerosol Layer Height",
+    "link": "/en/pages/0d7ed24f/"
+   },
+   {
+    "text": "Sentinel-5P NRTI Carbon Monoxide",
+    "link": "/en/pages/c2ce2787/"
+   },
+   {
+    "text": "Sentinel-5P NRTI Cloud Properties",
+    "link": "/en/pages/1637d632/"
+   },
+   {
+    "text": "Sentinel-5P NRTI Formaldehyde",
+    "link": "/en/pages/0f0df0f8/"
+   },
+   {
+    "text": "Sentinel-5P NRTI Nitrogen Dioxide",
+    "link": "/en/pages/8b2b2e23/"
+   },
+   {
+    "text": "Sentinel-5P NRTI Ozone",
+    "link": "/en/pages/8433d874/"
+   },
+   {
+    "text": "Sentinel-5P NRTI Sulfur Dioxide",
+    "link": "/en/pages/3e5d31e9/"
+   },
+   {
+    "text": "Sentinel-5P NRTI UV Aerosol Index",
+    "link": "/en/pages/df0df7d4/"
+   },
+   {
+    "text": "Sentinel-5P OFFL Aerosol Layer Height",
+    "link": "/en/pages/6791f1d4/"
+   },
+   {
+    "text": "Sentinel-5P OFFL Carbon Monoxide",
+    "link": "/en/pages/0bd864c8/"
+   },
+   {
+    "text": "Sentinel-5P OFFL Cloud Properties",
+    "link": "/en/pages/f29bba93/"
+   },
+   {
+    "text": "Sentinel-5P OFFL Formaldehyde",
+    "link": "/en/pages/44d5d575/"
+   },
+   {
+    "text": "Sentinel-5P OFFL Methane",
+    "link": "/en/pages/26f73ae7/"
+   },
+   {
+    "text": "Sentinel-5P OFFL Nitrogen Dioxide",
+    "link": "/en/pages/7fe826cd/"
+   },
+   {
+    "text": "Sentinel-5P OFFL Ozone",
+    "link": "/en/pages/5956539a/"
+   },
+   {
+    "text": "Sentinel-5P OFFL Sulfur Dioxide",
+    "link": "/en/pages/eff44f62/"
+   },
+   {
+    "text": "Sentinel-5P OFFL Tropospheric Ozone",
+    "link": "/en/pages/469453b0/"
+   },
+   {
+    "text": "Sentinel-5P OFFL UV Aerosol Index",
+    "link": "/en/pages/7e8b854c/"
+   },
+   {
+    "text": "SPEIbase v2.10 (deprecated)",
+    "link": "/en/pages/9bb9126f/"
+   },
+   {
+    "text": "SPEIbase v2.11",
+    "link": "/en/pages/2a1f609f/"
+   },
+   {
+    "text": "SPOT Multispectral, Brazil",
+    "link": "/en/pages/0f610d9b/"
+   },
+   {
+    "text": "SPOT Panchromatic, Brazil",
+    "link": "/en/pages/1b153ba6/"
+   },
+   {
+    "text": "SPOT Pansharpened Natural Color, Brazil",
+    "link": "/en/pages/592f745a/"
+   },
+   {
+    "text": "SPOT Pseudo Natural Color, Brazil",
+    "link": "/en/pages/1f2f6c63/"
+   },
+   {
+    "text": "SRTM DEM v4 (CGIAR-CSI)",
+    "link": "/en/pages/81d193ff/"
+   }
+  ],
+  "text": "All Dataset Guides"
+ },
+ {
+  "items": [
+   {
+    "link": "/en/",
+    "text": "English Home"
+   }
+  ],
+  "text": "About"
+ }
+]

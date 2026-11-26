@@ -1,5 +1,5 @@
 ---
-title: "PML_V2.1.8: Coupled Evapotranspiration and Gross Primary Product (GPP) [deprecated]"
+title: "全球蒸散发与总初级生产力 PML_V2.1.7（已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/78dca129/
 categories:
@@ -13,65 +13,57 @@ tags:
   - "water-vapor"
 ---
 
-# PML_V2.1.8: Coupled Evapotranspiration and Gross Primary Product (GPP) [deprecated]
+# 全球蒸散发与总初级生产力 PML_V2.1.7（已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：PML_V2.1.8: Coupled Evapotranspiration and Gross Primary Product (GPP) [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-Penman-Monteith-Leuning Evapotranspiration V2 (PML_V2) products include
-evapotranspiration (ET), its three components, and
-gross primary production (GPP) at 500m and 8-day resolution during 2000-2023
-and with spatial range from -60&deg;S to 90&deg;N. The major advantages of the
-PML_V2 products are:
+PML_V2 是一套同时算「水」和「碳」的全球产品：给出蒸散发（ET）及其三个分量、还有总初级生产力（GPP），空间分辨率 500 米、每 8 天一期，覆盖 60°S 到 90°N；本版本（2.1.7）的目录记录时段为 2000–2020 年。它的两个主要优点：① 通过冠层导度把蒸腾与 GPP 耦合起来一起估算（Gan 等，2018；Zhang 等，2019）；② 把 ET 拆成三个分量——植被蒸腾、土壤直接蒸发、植被截留降雨的蒸发（Zhang 等，2016）。
 
-  1. Coupled estimates of transpiration and GPP via canopy
-  conductance (Gan et al., 2018; Zhang et al., 2019)
-  2. Partitioning ET into three components: transpiration from vegetation,
-  direct evaporation from the soil, and vaporization of intercepted
-   rainfall from vegetation (Zhang et al., 2016).
+该产品在全球 95 个通量站点的观测检验中表现良好，与水文和生态研究界常用的主流 ET、GPP 产品相当或明显更好（Zhang 等，2019）。版本说明：为命名口径一致，PML-V2.1.7 取代此前的 PML-V2 0.1.7。本版本官方已标注弃用（deprecated）。
 
-The PML_V2 products perform well against observations
-at 95 flux sites across the globe, and are similar to or noticeably better than
-major state-of-the-art ET and GPP products widely used by water and ecology
-research communities (Zhang et al., 2019).
+## 覆盖范围与时间
 
-Note on versioning: For consistency in naming conventions, PML-V2.1.8 replaces the previous PML-V2 0.1.8.
-
-Key changes in V2.1.8 compared with the original V2.0 (Zhang et al., 2019):
-1. Temporal coverage is lengthened to the latest (may update annually) with the MODIS C6.1 data.
-2. MODIS Terra LAI (MOD15A2H) is used rather than the composite LAI (MCD15A3H).
-3. Parameters are recalibrated with the change in LAI, while other forcings remain the same.
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`CAS/IGSNRR/PML/V2_v018`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：PML_V2、Google Earth Engine
+- 覆盖范围：全球，60°S 至 90°N
 - 时间范围：2000-02-26 至 2023-12-27
-- 空间分辨率：500 米
-- 许可：CC-BY-4.0
-- 关键词：evapotranspiration, gpp, plant-productivity, water-vapor
+- 更新节奏：每 8 天一期
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 500 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| GPP | Gross primary production | 500 |  |
-| Ec | Vegetation transpiration | 500 |  |
-| Es | Soil evaporation | 500 |  |
-| Ei | Interception from vegetation canopy | 500 |  |
-| ET_water | Evaporation from water bodies, snow, and ice. Calculated using the Penman equation, which is considered a good estimate of actual evaporation for these surfaces.  | 500 |  |
+| GPP | 总初级生产力 | 500 |  |
+| Ec | 植被蒸腾 | 500 |  |
+| Es | 土壤直接蒸发 | 500 |  |
+| Ei | 植被冠层截留降雨的蒸发 | 500 |  |
+| ET_water | 水体、雪和冰的蒸发。用 Penman 方程计算，被认为是这些表面实际蒸发的良好估计。 | 500 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 分析区域生态系统与农田的耗水
+- 结合水分散失研究植被的碳吸收（GPP）
+- 与通量塔观测对比检验蒸散发产品
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('CAS/IGSNRR/PML/V2_v018');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`CAS/IGSNRR/PML/V2_v018`
+- 提供方：PML_V2、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/CAS_IGSNRR_PML_V2_v018
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：evapotranspiration, gpp, plant-productivity, water-vapor
 - 数据引用：Zhang, Y., Kong, D., Gan, R., Chiew, F.H.S., McVicar, T.R., Zhang, Q.,
 and Yang, Y., 2019. Coupled estimation of 500m and 8-day resolution global
 evapotranspiration and gross primary production in 2002-2017.
@@ -80,3 +72,12 @@ Remote Sens. Environ. 222, 165-182,
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [全球蒸散发与总初级生产力 PML_V2.1.8（已弃用）](/pages/82a78155/)
+- [全球蒸散发与总初级生产力 PML_V2（已弃用）](/pages/1fcbf3b8/)
+- [全球 SPEI 干旱指数数据库（2.11 版）](/pages/2a1f609f/)
+- [加拿大森林林龄图 2019（Landsat 衍生）](/pages/65b34141/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

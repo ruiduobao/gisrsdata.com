@@ -1,5 +1,5 @@
 ---
-title: "AHN4: Netherlands AHN 0.5m"
+title: "荷兰高程数据 AHN4（0.5 米，含 DSM 与 DTM）"
 date: 2026-11-03 12:00:00
 permalink: /pages/eba63a4f/
 categories:
@@ -16,47 +16,60 @@ tags:
   - "netherlands"
 ---
 
-# AHN4: Netherlands AHN 0.5m
+# 荷兰高程数据 AHN4（0.5 米，含 DSM 与 DTM）
 
-## 数据集简介
+英文原名：AHN4: Netherlands AHN 0.5m
 
-The Actueel Hoogtebestand Nederland (AHN) is a dataset with detailed and
-precise elevation data for the whole of the Netherlands. Elevation
-information was collected from helicopters and aircraft using laser
-technology with vertical accuracy of 5 cm.
+## 这是什么数据
 
-AHN4 Dataset contains the Netherlands AHN 0.5m DSM and DTM variables.
-The data cover the period between 2020 and 2022.
+AHN（荷兰全国高程库）是覆盖荷兰全境的精细高程数据集：用直升机和飞机搭载激光设备测量，垂直精度达到 5 厘米。
 
-The Digital Terrain Model (DTM) product represents the elevation of the
-ground, while the Digital Surface Model (DSM) product represents the
-elevation of the tallest surfaces at that point.
+AHN4 包含 2020–2022 年的两个变量：DSM 和 DTM。DTM 是地面本身的高程（数字地形模型）；DSM 是每个位置最高表面的高程（数字表面模型，含屋顶、树冠等）。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`AHN/AHN4`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：AHN、Google Earth Engine
+- 覆盖范围：荷兰全国
 - 时间范围：2020-01-01 至 2022-01-01
-- 空间分辨率：0.5 米
-- 许可：CC0-1.0
-- 关键词：ahn, dem, elevation, elevation-topography, geophysical, lidar, netherlands
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 0.5 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| dtm | Elevation of the ground | 0.5 |  |
-| dsm | Elevation of the tallest surfaces at that point | 0.5 |  |
+| dtm | 地面高程 | 0.5 |  |
+| dsm | 该点最高表面的高程 | 0.5 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 高精度地形、水文与洪水风险分析
+- 对比 DSM 与 DTM 估算建筑和植被高度
+- 与 AHN3 对比看 2014 年以来地表高程的变化
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('AHN/AHN4');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`AHN/AHN4`
+- 提供方：AHN、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/AHN_AHN4
+
+## 许可与引用
+
+- 许可：CC0-1.0
+- 关键词：ahn, dem, elevation, elevation-topography, geophysical, lidar, netherlands
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [ASTER传感器(TERRA)](/pages/da7fa1/)
+- [CryoSat-2 南极 1 公里高程模型](/pages/a0390601/)
+- [SRTM 高程数据第 4 版（填洞版）](/pages/81d193ff/)
+- [哥白尼全球 30 米高程模型 GLO-30（2024_1）](/pages/3bdccac6/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

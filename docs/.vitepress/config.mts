@@ -2,10 +2,33 @@ import { defineConfig } from 'vitepress'
 import { fileURLToPath } from 'node:url'
 import rewrites from './rewrites.json'
 import sidebar from './sidebar.json'
+import enSidebar from './en-sidebar.json'
 
 // Static assets stay in their original location (docs/.vuepress/public,
 // already tracked in git) instead of a duplicated docs/public copy.
 const legacyPublicDir = fileURLToPath(new URL('../.vuepress/public', import.meta.url))
+
+// Local-search tokenizer with CJK bigram support （发现层 §11): MiniSearch's
+// default tokenizer treats a whole Chinese phrase as one token, so a query
+// like 夜间灯光 would never match. Splitting CJK runs into overlapping
+// bigrams makes Chinese keywords searchable; latin words stay whole.
+const cjkTokenize = (text: string): string[] => {
+  const tokens: string[] = []
+  const lower = text.toLowerCase()
+  for (const m of lower.matchAll(/[a-z0-9]+(?:[._-][a-z0-9]+)*/g)) tokens.push(m[0])
+  for (const m of lower.matchAll(/[一-鿿]+/g)) {
+    const run = m[0]
+    if (run.length === 1) tokens.push(run)
+    else for (let i = 0; i < run.length - 1; i++) tokens.push(run.slice(i, i + 2))
+  }
+  return tokens
+}
+const localSearchOptions = {
+  miniSearch: {
+    options: { tokenize: cjkTokenize },
+    searchOptions: { prefix: true, fuzzy: 0.15, combineWith: 'AND' as const }
+  }
+}
 
 // gisrsdata.com — migrated from VuePress 1.8 + vdoing to VitePress.
 // Every legacy permalink is preserved via the generated `rewrites` map
@@ -29,6 +52,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
+          { text: 'Catalog', link: '/en/catalog/' },
           {
             text: 'Dataset Guides',
             items: [
@@ -41,20 +65,7 @@ export default defineConfig({
           { text: 'RS Data (中文)', link: '/data-rs' },
           { text: '中文站', link: '/' }
         ],
-        sidebar: [
-          {
-            text: 'Dataset Guides (English)',
-            items: [
-              { text: 'Ocean Sea Surface Salinity', link: '/en/pages/36f5ea1f/' },
-              { text: 'Landsat 8 Level 2', link: '/en/pages/778e3960/' },
-              { text: 'ASTER Global DEM', link: '/en/pages/7306f8/' }
-            ]
-          },
-          {
-            text: 'About',
-            items: [{ text: 'English Home', link: '/en/' }]
-          }
-        ],
+        sidebar: enSidebar as any,
         outline: { label: 'On this page' },
         docFooter: { prev: 'Previous page', next: 'Next page' },
         darkModeSwitchLabel: 'Theme',
@@ -64,6 +75,7 @@ export default defineConfig({
         search: {
           provider: 'local',
           options: {
+            ...localSearchOptions,
             translations: {
               button: { buttonText: 'Search', buttonAriaLabel: 'Search' },
               modal: {
@@ -139,6 +151,7 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        ...localSearchOptions,
         translations: {
           button: { buttonText: '搜索文档', buttonAriaLabel: '搜索文档' },
           modal: {

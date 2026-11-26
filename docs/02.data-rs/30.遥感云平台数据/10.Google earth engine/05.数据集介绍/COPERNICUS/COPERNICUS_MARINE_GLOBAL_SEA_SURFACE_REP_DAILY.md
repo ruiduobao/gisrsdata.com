@@ -70,4 +70,11 @@ Density: Global Ocean Satellite and In-Situ Observations, CNR (Rome, Italy) is
 providing daily Sea Surface Salinity and Sea Surface Density analyses.
 [doi:10.48670/moi-00051](https://doi.org/10.48670/moi-00051)
 
+## 同类数据
+
+- [全球海洋水色光学产品（多源，4 公里，月度）](/pages/b4a5e847/)
+- [全球海洋水色初级生产产品（多源，4 公里）](/pages/6396836c/)
+- [全球海洋水色反射率产品（OLCI，300 米）](/pages/f4ffb7b4/)
+- [全球海洋水色反射率产品（多源，4 公里）](/pages/472dc170/)
+
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

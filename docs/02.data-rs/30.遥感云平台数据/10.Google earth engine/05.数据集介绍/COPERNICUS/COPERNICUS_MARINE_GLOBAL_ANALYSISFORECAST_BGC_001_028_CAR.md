@@ -1,5 +1,5 @@
 ---
-title: "Copernicus Global Ocean Bio-Geo-Chemical Forecast - CAR"
+title: "哥白尼全球海洋生物地球化学预报 CAR（pH 与溶解无机碳）"
 date: 2026-11-03 12:00:00
 permalink: /pages/b1ddbae7/
 categories:
@@ -13,131 +13,142 @@ tags:
   - "oceans"
 ---
 
-# Copernicus Global Ocean Bio-Geo-Chemical Forecast - CAR
+# 哥白尼全球海洋生物地球化学预报 CAR（pH 与溶解无机碳）
 
-## 数据集简介
+英文原名：Copernicus Global Ocean Bio-Geo-Chemical Forecast - CAR
 
-The Operational Mercator Ocean biogeochemical global ocean analysis and
-forecast system at 1/4 degree is providing 10 days of 3D global ocean
-forecasts updated weekly. The time series is aggregated in time, in order
-to reach a two full year's time series sliding window. This product
-includes daily and monthly mean files of biogeochemical parameters
-(chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved
-iron, primary production, phytoplankton, zooplankton, PH, and surface
-partial pressure of carbon dioxide) over the global ocean. The global
-ocean output files are displayed with a 1/4 degree horizontal resolution
-with regular longitude/latitude equirectangular projection.
-These products are provided on 50 vertical levels with
-depths ranging from 0.49m to 5727.92m.
-<br><br> This dataset consists of pH and dissolved
-inorganic carbon.
+## 这是什么数据
 
-## 基本信息
+这是哥白尼全球海洋生物地球化学分析与预报系统的 CAR 数据包，由 Mercator Ocean 运行，分辨率 1/4 度。它提供 10 天的全球海洋三维预报，每周更新；时间序列经聚合形成两整年的滑动窗口。该系统产出全球海洋生物地球化学参数的逐日与逐月平均文件（叶绿素、硝酸盐、磷酸盐、硅酸盐、溶解氧、溶解铁、初级生产、浮游植物、浮游动物、pH 和表层二氧化碳分压），垂直方向 50 层，深度从 0.49 米到 5727.92 米。
 
-- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/CAR`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Copernicus、Google Earth Engine
+本数据集包含海洋 pH（ph）和溶解无机碳（dissic）两个变量，各 50 个深度层见波段表。
+
+## 覆盖范围与时间
+
+- 覆盖范围：全球海洋
 - 时间范围：2022-01-01 至 2025-09-19
-- 空间分辨率：27750 米
-- 许可：CC-BY-4.0
-- 关键词：copernicus, daily, forecast, oceans
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 27,750 米（1/4 度网格；垂直 50 层，深度 0.49 米至 5727.92 米）
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| ph_depth1 | Ocean pH (depth 1, 0.4940m) | 27750 |  |
-| ph_depth2 | Ocean pH (depth 2, 1.5414m) | 27750 |  |
-| ph_depth3 | Ocean pH (depth 3, 2.6457m) | 27750 |  |
-| ph_depth4 | Ocean pH (depth 4, 3.8195m) | 27750 |  |
-| ph_depth5 | Ocean pH (depth 5, 5.0782m) | 27750 |  |
-| ph_depth6 | Ocean pH (depth 6, 6.4406m) | 27750 |  |
-| ph_depth7 | Ocean pH (depth 7, 7.9296m) | 27750 |  |
-| ph_depth8 | Ocean pH (depth 8, 9.5730m) | 27750 |  |
-| ph_depth9 | Ocean pH (depth 9, 11.4050m) | 27750 |  |
-| ph_depth10 | Ocean pH (depth 10, 13.4671m) | 27750 |  |
-| ph_depth11 | Ocean pH (depth 11, 15.8101m) | 27750 |  |
-| ph_depth12 | Ocean pH (depth 12, 18.4956m) | 27750 |  |
-| ph_depth13 | Ocean pH (depth 13, 21.5988m) | 27750 |  |
-| ph_depth14 | Ocean pH (depth 14, 25.2114m) | 27750 |  |
-| ph_depth15 | Ocean pH (depth 15, 29.4447m) | 27750 |  |
-| ph_depth16 | Ocean pH (depth 16, 34.4342m) | 27750 |  |
-| ph_depth17 | Ocean pH (depth 17, 40.3441m) | 27750 |  |
-| ph_depth18 | Ocean pH (depth 18, 47.3737m) | 27750 |  |
-| ph_depth19 | Ocean pH (depth 19, 55.7643m) | 27750 |  |
-| ph_depth20 | Ocean pH (depth 20, 65.8073m) | 27750 |  |
-| ph_depth21 | Ocean pH (depth 21, 77.8539m) | 27750 |  |
-| ph_depth22 | Ocean pH (depth 22, 92.3261m) | 27750 |  |
-| ph_depth23 | Ocean pH (depth 23, 109.7293m) | 27750 |  |
-| ph_depth24 | Ocean pH (depth 24, 130.6660m) | 27750 |  |
-| ph_depth25 | Ocean pH (depth 25, 155.8507m) | 27750 |  |
-| ph_depth26 | Ocean pH (depth 26, 186.1256m) | 27750 |  |
-| ph_depth27 | Ocean pH (depth 27, 222.4752m) | 27750 |  |
-| ph_depth28 | Ocean pH (depth 28, 266.0403m) | 27750 |  |
-| ph_depth29 | Ocean pH (depth 29, 318.1274m) | 27750 |  |
-| ph_depth30 | Ocean pH (depth 30, 380.2130m) | 27750 |  |
-| ph_depth31 | Ocean pH (depth 31, 453.9377m) | 27750 |  |
-| ph_depth32 | Ocean pH (depth 32, 541.0889m) | 27750 |  |
-| ph_depth33 | Ocean pH (depth 33, 643.5668m) | 27750 |  |
-| ph_depth34 | Ocean pH (depth 34, 763.3331m) | 27750 |  |
-| ph_depth35 | Ocean pH (depth 35, 902.3393m) | 27750 |  |
-| ph_depth36 | Ocean pH (depth 36, 1062.4397m) | 27750 |  |
-| ph_depth37 | Ocean pH (depth 37, 1245.2911m) | 27750 |  |
-| ph_depth38 | Ocean pH (depth 38, 1452.2510m) | 27750 |  |
-| ph_depth39 | Ocean pH (depth 39, 1684.2844m) | 27750 |  |
-| ph_depth40 | Ocean pH (depth 40, 1941.8934m) | 27750 |  |
-| ph_depth41 | Ocean pH (depth 41, 2225.0779m) | 27750 |  |
-| ph_depth42 | Ocean pH (depth 42, 2533.3362m) | 27750 |  |
-| ph_depth43 | Ocean pH (depth 43, 2865.7026m) | 27750 |  |
-| ph_depth44 | Ocean pH (depth 44, 3220.8203m) | 27750 |  |
-| ph_depth45 | Ocean pH (depth 45, 3597.0320m) | 27750 |  |
-| ph_depth46 | Ocean pH (depth 46, 3992.4839m) | 27750 |  |
-| ph_depth47 | Ocean pH (depth 47, 4405.2241m) | 27750 |  |
-| ph_depth48 | Ocean pH (depth 48, 4833.2905m) | 27750 |  |
-| ph_depth49 | Ocean pH (depth 49, 5274.7842m) | 27750 |  |
-| ph_depth50 | Ocean pH (depth 50, 5727.9165m) | 27750 |  |
-| dissic_depth1 | Dissolved Inorganic Carbon (depth 1, 0.4940m) | 27750 |  |
-| dissic_depth2 | Dissolved Inorganic Carbon (depth 2, 1.5414m) | 27750 |  |
-| dissic_depth3 | Dissolved Inorganic Carbon (depth 3, 2.6457m) | 27750 |  |
-| dissic_depth4 | Dissolved Inorganic Carbon (depth 4, 3.8195m) | 27750 |  |
-| dissic_depth5 | Dissolved Inorganic Carbon (depth 5, 5.0782m) | 27750 |  |
-| dissic_depth6 | Dissolved Inorganic Carbon (depth 6, 6.4406m) | 27750 |  |
-| dissic_depth7 | Dissolved Inorganic Carbon (depth 7, 7.9296m) | 27750 |  |
-| dissic_depth8 | Dissolved Inorganic Carbon (depth 8, 9.5730m) | 27750 |  |
-| dissic_depth9 | Dissolved Inorganic Carbon (depth 9, 11.4050m) | 27750 |  |
-| dissic_depth10 | Dissolved Inorganic Carbon (depth 10, 13.4671m) | 27750 |  |
-| dissic_depth11 | Dissolved Inorganic Carbon (depth 11, 15.8101m) | 27750 |  |
-| dissic_depth12 | Dissolved Inorganic Carbon (depth 12, 18.4956m) | 27750 |  |
-| dissic_depth13 | Dissolved Inorganic Carbon (depth 13, 21.5988m) | 27750 |  |
-| dissic_depth14 | Dissolved Inorganic Carbon (depth 14, 25.2114m) | 27750 |  |
-| dissic_depth15 | Dissolved Inorganic Carbon (depth 15, 29.4447m) | 27750 |  |
-| dissic_depth16 | Dissolved Inorganic Carbon (depth 16, 34.4342m) | 27750 |  |
-| dissic_depth17 | Dissolved Inorganic Carbon (depth 17, 40.3441m) | 27750 |  |
-| dissic_depth18 | Dissolved Inorganic Carbon (depth 18, 47.3737m) | 27750 |  |
-| dissic_depth19 | Dissolved Inorganic Carbon (depth 19, 55.7643m) | 27750 |  |
-| dissic_depth20 | Dissolved Inorganic Carbon (depth 20, 65.8073m) | 27750 |  |
-| dissic_depth21 | Dissolved Inorganic Carbon (depth 21, 77.8539m) | 27750 |  |
-| dissic_depth22 | Dissolved Inorganic Carbon (depth 22, 92.3261m) | 27750 |  |
-| dissic_depth23 | Dissolved Inorganic Carbon (depth 23, 109.7293m) | 27750 |  |
-| dissic_depth24 | Dissolved Inorganic Carbon (depth 24, 130.6660m) | 27750 |  |
-| dissic_depth25 | Dissolved Inorganic Carbon (depth 25, 155.8507m) | 27750 |  |
-| dissic_depth26 | Dissolved Inorganic Carbon (depth 26, 186.1256m) | 27750 |  |
-| dissic_depth27 | Dissolved Inorganic Carbon (depth 27, 222.4752m) | 27750 |  |
-| dissic_depth28 | Dissolved Inorganic Carbon (depth 28, 266.0403m) | 27750 |  |
-| dissic_depth29 | Dissolved Inorganic Carbon (depth 29, 318.1274m) | 27750 |  |
-| dissic_depth30 | Dissolved Inorganic Carbon (depth 30, 380.2130m) | 27750 |  |
+| ph_depth1 | 海洋 pH 值（第 1 层，深度 0.4940 米） | 27750 |  |
+| ph_depth2 | 海洋 pH 值（第 2 层，深度 1.5414 米） | 27750 |  |
+| ph_depth3 | 海洋 pH 值（第 3 层，深度 2.6457 米） | 27750 |  |
+| ph_depth4 | 海洋 pH 值（第 4 层，深度 3.8195 米） | 27750 |  |
+| ph_depth5 | 海洋 pH 值（第 5 层，深度 5.0782 米） | 27750 |  |
+| ph_depth6 | 海洋 pH 值（第 6 层，深度 6.4406 米） | 27750 |  |
+| ph_depth7 | 海洋 pH 值（第 7 层，深度 7.9296 米） | 27750 |  |
+| ph_depth8 | 海洋 pH 值（第 8 层，深度 9.5730 米） | 27750 |  |
+| ph_depth9 | 海洋 pH 值（第 9 层，深度 11.4050 米） | 27750 |  |
+| ph_depth10 | 海洋 pH 值（第 10 层，深度 13.4671 米） | 27750 |  |
+| ph_depth11 | 海洋 pH 值（第 11 层，深度 15.8101 米） | 27750 |  |
+| ph_depth12 | 海洋 pH 值（第 12 层，深度 18.4956 米） | 27750 |  |
+| ph_depth13 | 海洋 pH 值（第 13 层，深度 21.5988 米） | 27750 |  |
+| ph_depth14 | 海洋 pH 值（第 14 层，深度 25.2114 米） | 27750 |  |
+| ph_depth15 | 海洋 pH 值（第 15 层，深度 29.4447 米） | 27750 |  |
+| ph_depth16 | 海洋 pH 值（第 16 层，深度 34.4342 米） | 27750 |  |
+| ph_depth17 | 海洋 pH 值（第 17 层，深度 40.3441 米） | 27750 |  |
+| ph_depth18 | 海洋 pH 值（第 18 层，深度 47.3737 米） | 27750 |  |
+| ph_depth19 | 海洋 pH 值（第 19 层，深度 55.7643 米） | 27750 |  |
+| ph_depth20 | 海洋 pH 值（第 20 层，深度 65.8073 米） | 27750 |  |
+| ph_depth21 | 海洋 pH 值（第 21 层，深度 77.8539 米） | 27750 |  |
+| ph_depth22 | 海洋 pH 值（第 22 层，深度 92.3261 米） | 27750 |  |
+| ph_depth23 | 海洋 pH 值（第 23 层，深度 109.7293 米） | 27750 |  |
+| ph_depth24 | 海洋 pH 值（第 24 层，深度 130.6660 米） | 27750 |  |
+| ph_depth25 | 海洋 pH 值（第 25 层，深度 155.8507 米） | 27750 |  |
+| ph_depth26 | 海洋 pH 值（第 26 层，深度 186.1256 米） | 27750 |  |
+| ph_depth27 | 海洋 pH 值（第 27 层，深度 222.4752 米） | 27750 |  |
+| ph_depth28 | 海洋 pH 值（第 28 层，深度 266.0403 米） | 27750 |  |
+| ph_depth29 | 海洋 pH 值（第 29 层，深度 318.1274 米） | 27750 |  |
+| ph_depth30 | 海洋 pH 值（第 30 层，深度 380.2130 米） | 27750 |  |
+| ph_depth31 | 海洋 pH 值（第 31 层，深度 453.9377 米） | 27750 |  |
+| ph_depth32 | 海洋 pH 值（第 32 层，深度 541.0889 米） | 27750 |  |
+| ph_depth33 | 海洋 pH 值（第 33 层，深度 643.5668 米） | 27750 |  |
+| ph_depth34 | 海洋 pH 值（第 34 层，深度 763.3331 米） | 27750 |  |
+| ph_depth35 | 海洋 pH 值（第 35 层，深度 902.3393 米） | 27750 |  |
+| ph_depth36 | 海洋 pH 值（第 36 层，深度 1062.4397 米） | 27750 |  |
+| ph_depth37 | 海洋 pH 值（第 37 层，深度 1245.2911 米） | 27750 |  |
+| ph_depth38 | 海洋 pH 值（第 38 层，深度 1452.2510 米） | 27750 |  |
+| ph_depth39 | 海洋 pH 值（第 39 层，深度 1684.2844 米） | 27750 |  |
+| ph_depth40 | 海洋 pH 值（第 40 层，深度 1941.8934 米） | 27750 |  |
+| ph_depth41 | 海洋 pH 值（第 41 层，深度 2225.0779 米） | 27750 |  |
+| ph_depth42 | 海洋 pH 值（第 42 层，深度 2533.3362 米） | 27750 |  |
+| ph_depth43 | 海洋 pH 值（第 43 层，深度 2865.7026 米） | 27750 |  |
+| ph_depth44 | 海洋 pH 值（第 44 层，深度 3220.8203 米） | 27750 |  |
+| ph_depth45 | 海洋 pH 值（第 45 层，深度 3597.0320 米） | 27750 |  |
+| ph_depth46 | 海洋 pH 值（第 46 层，深度 3992.4839 米） | 27750 |  |
+| ph_depth47 | 海洋 pH 值（第 47 层，深度 4405.2241 米） | 27750 |  |
+| ph_depth48 | 海洋 pH 值（第 48 层，深度 4833.2905 米） | 27750 |  |
+| ph_depth49 | 海洋 pH 值（第 49 层，深度 5274.7842 米） | 27750 |  |
+| ph_depth50 | 海洋 pH 值（第 50 层，深度 5727.9165 米） | 27750 |  |
+| dissic_depth1 | 溶解无机碳（第 1 层，深度 0.4940 米） | 27750 |  |
+| dissic_depth2 | 溶解无机碳（第 2 层，深度 1.5414 米） | 27750 |  |
+| dissic_depth3 | 溶解无机碳（第 3 层，深度 2.6457 米） | 27750 |  |
+| dissic_depth4 | 溶解无机碳（第 4 层，深度 3.8195 米） | 27750 |  |
+| dissic_depth5 | 溶解无机碳（第 5 层，深度 5.0782 米） | 27750 |  |
+| dissic_depth6 | 溶解无机碳（第 6 层，深度 6.4406 米） | 27750 |  |
+| dissic_depth7 | 溶解无机碳（第 7 层，深度 7.9296 米） | 27750 |  |
+| dissic_depth8 | 溶解无机碳（第 8 层，深度 9.5730 米） | 27750 |  |
+| dissic_depth9 | 溶解无机碳（第 9 层，深度 11.4050 米） | 27750 |  |
+| dissic_depth10 | 溶解无机碳（第 10 层，深度 13.4671 米） | 27750 |  |
+| dissic_depth11 | 溶解无机碳（第 11 层，深度 15.8101 米） | 27750 |  |
+| dissic_depth12 | 溶解无机碳（第 12 层，深度 18.4956 米） | 27750 |  |
+| dissic_depth13 | 溶解无机碳（第 13 层，深度 21.5988 米） | 27750 |  |
+| dissic_depth14 | 溶解无机碳（第 14 层，深度 25.2114 米） | 27750 |  |
+| dissic_depth15 | 溶解无机碳（第 15 层，深度 29.4447 米） | 27750 |  |
+| dissic_depth16 | 溶解无机碳（第 16 层，深度 34.4342 米） | 27750 |  |
+| dissic_depth17 | 溶解无机碳（第 17 层，深度 40.3441 米） | 27750 |  |
+| dissic_depth18 | 溶解无机碳（第 18 层，深度 47.3737 米） | 27750 |  |
+| dissic_depth19 | 溶解无机碳（第 19 层，深度 55.7643 米） | 27750 |  |
+| dissic_depth20 | 溶解无机碳（第 20 层，深度 65.8073 米） | 27750 |  |
+| dissic_depth21 | 溶解无机碳（第 21 层，深度 77.8539 米） | 27750 |  |
+| dissic_depth22 | 溶解无机碳（第 22 层，深度 92.3261 米） | 27750 |  |
+| dissic_depth23 | 溶解无机碳（第 23 层，深度 109.7293 米） | 27750 |  |
+| dissic_depth24 | 溶解无机碳（第 24 层，深度 130.6660 米） | 27750 |  |
+| dissic_depth25 | 溶解无机碳（第 25 层，深度 155.8507 米） | 27750 |  |
+| dissic_depth26 | 溶解无机碳（第 26 层，深度 186.1256 米） | 27750 |  |
+| dissic_depth27 | 溶解无机碳（第 27 层，深度 222.4752 米） | 27750 |  |
+| dissic_depth28 | 溶解无机碳（第 28 层，深度 266.0403 米） | 27750 |  |
+| dissic_depth29 | 溶解无机碳（第 29 层，深度 318.1274 米） | 27750 |  |
+| dissic_depth30 | 溶解无机碳（第 30 层，深度 380.2130 米） | 27750 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 用三维 pH 场做海洋酸化监测与研究
+- 用溶解无机碳做碳循环研究
+- 10 天尺度的生物地球化学短期预报应用
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/CAR');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/CAR`
+- 提供方：Copernicus、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_CAR
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：copernicus, daily, forecast, oceans
 - 数据引用：E.U. Copernicus Marine Service Information.
 [https://doi.org/10.48670/moi-00015](https://doi.org/10.48670/moi-00015)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [全球海洋水色光学产品（多源，4 公里，月度）](/pages/b4a5e847/)
+- [全球海洋水色初级生产产品（多源，4 公里）](/pages/6396836c/)
+- [全球海洋水色反射率产品（OLCI，300 米）](/pages/f4ffb7b4/)
+- [全球海洋水色反射率产品（多源，4 公里）](/pages/472dc170/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

@@ -1,5 +1,5 @@
 ---
-title: "Allen Coral Atlas (ACA) - Geomorphic Zonation and Benthic Habitat - v1.0 [deprecated]"
+title: "全球珊瑚礁生境图（Allen Coral Atlas，v1.0，已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/9999a17e/
 categories:
@@ -16,75 +16,67 @@ tags:
   - "sentinel2-derived"
 ---
 
-# Allen Coral Atlas (ACA) - Geomorphic Zonation and Benthic Habitat - v1.0 [deprecated]
+# 全球珊瑚礁生境图（Allen Coral Atlas，v1.0，已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：Allen Coral Atlas (ACA) - Geomorphic Zonation and Benthic Habitat - v1.0 [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The [Allen Coral Atlas](https://allencoralatlas.org/) dataset maps the
-geomorphic zonation and benthic habitat for the world's shallow coral reefs at
-5m pixel resolution. The underlying satellite image data are temporal
-composites of [PlanetScope satellite](https://www.planet.com/products/basemap/)
-imagery spanning 2018-2020. The habitat maps are created via a machine learning
-approach with contextual editing, using a range of imagery, bathymetry, and
-derived products as input data, trained via a globally consistent reference
-dataset. A global mask layer is also included for use when generating global
-reporting statistics. A full description of the methods and approaches can be
-found in the methods section of the [Allen Coral Atlas
-website](https://allencoralatlas.org/methods/).
+这是 [Allen Coral Atlas](https://allencoralatlas.org/) 绘制的全球浅海珊瑚礁地图，分辨率 5 米一格，给出两类信息：礁体的地貌分区（礁坪、礁坡等分区）和底质生境（海底主要由什么组成）。底图来自 [PlanetScope 卫星](https://www.planet.com/products/basemap/) 2018–2020 年的合成影像；生境图用机器学习加人工校订生成，输入还包括水深等多种数据，训练样本全球统一。另附一层全球礁区掩膜，供做全球统计时统一口径。方法细节见 [Allen Coral Atlas 网站的方法页](https://allencoralatlas.org/methods/)。
 
-The Allen Coral Atlas was funded by [Vulcan Inc.](https://vulcan.com/) and
-is managed by the [Arizona State University Center for Global Discovery and
-Conservation Science](https://gdcs.asu.edu/). Partners include
-[Planet](https://www.planet.com/), the [University of
-Queensland](https://www.uq.edu.au/), and the [National Geographic
-Society](https://www.nationalgeographic.org/).
+该项目由 [Vulcan Inc.](https://vulcan.com/) 出资、[亚利桑那州立大学全球发现与保护科学中心](https://gdcs.asu.edu/) 管理，合作方包括 [Planet](https://www.planet.com/)、[昆士兰大学](https://www.uq.edu.au/) 和 [美国国家地理学会](https://www.nationalgeographic.org/)。注意：这是 v1.0 版，官方已标注弃用（deprecated），新工作建议改用 v2.0。
 
-Scientific background publications:
+相关论文：Lyons 等（2020）[doi:10.1002/rse2.157](https://doi.org/10.1002/rse2.157)；Kennedy 等（2021）[doi:10.1038/s41597-021-00958-z](https://doi.org/10.1038/s41597-021-00958-z)；Roelfsema 等（2021）[doi:10.3389/fmars.2021.643381](https://doi.org/10.3389/fmars.2021.643381)；Li 等（2021）[doi:10.3390/rs13081469](https://doi.org/10.3390/rs13081469)；Li 等（2020）[doi:10.1007/s00338-020-02005-6](https://doi.org/10.1007/s00338-020-02005-6)。地图、水深与统计数据 © 2020 Allen Coral Atlas Partnership 与 Vulcan, Inc.
 
-- Lyons, M. B., Roelfsema, C. M., Kennedy, E. V., Kovacs, E. M., Borrego-Acevedo, R., Markey, K., ... & Murray, N. J. (2020). Mapping the world's coral reefs using a global multiscale earth observation framework. Remote Sensing in Ecology and Conservation, 6(4), 557-568. [doi:10.1002/rse2.157](https://doi.org/10.1002/rse2.157)
+## 覆盖范围与时间
 
-- Kennedy, E. V., Roelfsema, C. M., Lyons, M. B., Kovacs, E. M., Borrego-Acevedo, R., Roe, M., ... & Tudman, P. (2021). Reef Cover, a coral reef classification for global habitat mapping from remote sensing. Scientific Data, 8(1), 1-20. [doi:10.1038/s41597-021-00958-z](https://doi.org/10.1038/s41597-021-00958-z)
-
-- Roelfsema, C. M., Lyons, M., Murray, N., Kovacs, E. M., Kennedy, E., Markey, K., ... & Phinn, S. R. (2021). Workflow for the generation of expert-derived training and validation data: a view to global scale habitat mapping. Frontiers in Marine Science.  [doi:10.3389/fmars.2021.643381](https://doi.org/10.3389/fmars.2021.643381)
-
-- Li, J., Knapp, D. E., Lyons, M., Roelfsema, C., Phinn, S., Schill, S. R., & Asner, G. P. (2021). Automated global shallow water bathymetry mapping using Google Earth Engine. Remote Sensing, 13(8), 1469. [doi:10.3390/rs13081469](https://doi.org/10.3390/rs13081469)
-
-- Li, J., Knapp, D. E., Fabina, N. S., Kennedy, E. V., Larsen, K., Lyons, M. B., ... & Asner, G. P. (2020). A global coral reef probability map generated using convolutional neural networks. Coral Reefs, 39(6), 1805-1815. [doi:10.1007/s00338-020-02005-6](https://doi.org/10.1007/s00338-020-02005-6)
-
-Allen Coral Atlas maps, bathymetry and map statistics are &copy; 2020 Allen
-Coral Atlas Partnership and Vulcan, Inc.
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`ACA/reef_habitat/v1_0`
-- 数据类型：影像（Image）
-- 提供方：Allen Coral Atlas Partnership (ACA)、Google Earth Engine、University of Queensland (UQ)、Arizona State University Center for Global Discovery and Conservation Science (ASU GDCS)、National Geographic Society (NGS)、Vulcan Inc. (Vulcan)、Google Earth Engine
+- 覆盖范围：全球浅海珊瑚礁
 - 时间范围：2018-01-01 至 2021-01-01
-- 空间分辨率：5 米
-- 许可：CC-BY-4.0
-- 关键词：coral, ocean, oceans, planet-derived, reef, seagrass, sentinel2-derived
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 5 米
+- 数据类型：影像（Image），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| geomorphic | Classification of geomorphic zonation. | 5 |  |
-| benthic | Classification of dominant benthic composition. | 5 |  |
-| reef_mask | Globally standardized reef mask using an amalgamation of a global reef classification and bathymetry products. Its intended use is as a mask, not a map, for standardizing global reporting on the global geomorphic/benthic maps.  | 5 |  |
+| geomorphic | 地貌分区分类 | 5 |  |
+| benthic | 主要底质组成分类 | 5 |  |
+| reef_mask | 全球统一礁区掩膜：融合全球礁体分类与水深产品而成，用途是统一全球统计口径，是掩膜而非地图 | 5 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 摸清全球珊瑚礁的分布与面积，做礁区保护规划
+- 分析礁体地貌分区与底质生境的组成
+- 给海洋保护区选划与全球礁体统计提供统一底图
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.Image('ACA/reef_habitat/v1_0');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`ACA/reef_habitat/v1_0`
+- 提供方：Allen Coral Atlas Partnership (ACA)、Google Earth Engine、University of Queensland (UQ)、Arizona State University Center for Global Discovery and Conservation Science (ASU GDCS)、National Geographic Society (NGS)、Vulcan Inc. (Vulcan)、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v1_0
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：coral, ocean, oceans, planet-derived, reef, seagrass, sentinel2-derived
 - 数据引用：Allen Coral Atlas (2020). Imagery, maps and monitoring of the world's tropical coral reefs. Zenodo. [doi:10.5281/zenodo.3833242](https://doi.org/10.5281/zenodo.3833242)
 
 - DOI：10.5281/zenodo.3833242
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [全球珊瑚礁生境图（Allen Coral Atlas，v2.0）](/pages/8d9d570d/)
+- [全球海洋水色光学产品（多源，4 公里，月度）](/pages/b4a5e847/)
+- [全球海洋水色初级生产产品（多源，4 公里）](/pages/6396836c/)
+- [全球海洋水色反射率产品（OLCI，300 米）](/pages/f4ffb7b4/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

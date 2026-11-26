@@ -98,4 +98,11 @@ var dataset = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2');
 - 许可：proprietary
 - 关键词：cfmask, cloud, fmask, global, l8sr, landsat, lasrc, lc08, lst, reflectance, satellite-imagery, sr, usgs
 
+## 同类数据
+
+- [USGS Landsat 8 Collection 2 Tier 1 Raw Scenes](/pages/080f10d0/)
+- [USGS Landsat 8 Collection 2 Tier 1 TOA Reflectance](/pages/29f40295/)
+- [USGS Landsat 8 Collection 2 Tier 1 and Real-Time data Raw Scenes](/pages/46395cc0/)
+- [USGS Landsat 8 Collection 2 Tier 1 and Real-Time data TOA Reflectance](/pages/7cb7b9ea/)
+
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

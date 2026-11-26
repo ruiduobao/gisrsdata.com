@@ -1,5 +1,5 @@
 ---
-title: "Sentinel-5P OFFL SO2: Offline Sulfur Dioxide"
+title: "哨兵-5P 离线二氧化硫（L3）"
 date: 2026-11-03 12:00:00
 permalink: /pages/eff44f62/
 categories:
@@ -21,38 +21,44 @@ tags:
   - "sulfur-dioxide"
 ---
 
-# Sentinel-5P OFFL SO2: Offline Sulfur Dioxide
+# 哨兵-5P 离线二氧化硫（L3）
 
-## 数据集简介
+英文原名：Sentinel-5P OFFL SO2: Offline Sulfur Dioxide
 
-### OFFL/L3_SO2
+## 这是什么数据
 
-This dataset provides offline high-resolution imagery of atmospheric sulfur
-dioxide (SO<sub>2</sub>) concentrations.
+本数据集提供大气二氧化硫（SO2）浓度的离线高分辨率影像。
 
-Sulfur dioxide (SO<sub>2</sub>) enters the Earth's atmosphere through both natural and
-anthropogenic processes. It plays a role in chemistry on a local and global
-scale and its impact ranges from short-term pollution to effects on climate.
-Only about 30% of the emitted SO<sub>2</sub> comes from natural sources; the majority
-is of anthropogenic origin. SO<sub>2</sub> emissions adversely affect human health and
-air quality. SO<sub>2</sub> has an effect on climate through radiative forcing, via
-the formation of sulfate aerosols. Volcanic SO<sub>2</sub> emissions can also pose a
-threat to aviation, along with volcanic ash. S5P/TROPOMI samples the Earth's
-surface with a revisit time of one day with unprecedented spatial resolution
-of 3.5 x 7 km which allows the resolution of fine details including the
-detection of much smaller SO<sub>2</sub> plumes.
-[More information.](https://www.tropomi.eu/data-products/sulfur-dioxide)
+二氧化硫（SO2）通过自然和人为过程进入地球大气。它在局地和全球尺度的化学中起作用，影响从短期污染到气候效应。只有约 30% 的 SO2 排放来自自然源，大部分是人为源。SO2 排放危害人体健康和空气质量。SO2 通过形成硫酸盐气溶胶产生辐射强迫，影响气候。火山 SO2 排放连同火山灰也会威胁航空安全。S5P/TROPOMI 以 1 天重访周期、前所未有的 3.5×7 公里空间分辨率采样地表，能分辨精细细节，包括探测小得多的 SO2 羽流。[更多信息。](https://www.tropomi.eu/data-products/sulfur-dioxide)
 
-For this L3 SO<sub>2</sub> product, the absorbing_aerosol_index is calculated with a
-pair of measurements at the 340 nm and 380 nm wavelengths.  The
-[COPERNICUS/S5P/OFFL/L3_AER_AI](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_AER_AI)
-product has the absorbing_aerosol_index calculated using the 354 nm and 388
-nm wavelengths.
+本 L3 SO2 产品的 absorbing_aerosol_index 用 340 纳米和 380 纳米一对测量计算。[COPERNICUS/S5P/OFFL/L3_AER_AI](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_AER_AI) 产品的 absorbing_aerosol_index 则用 354 纳米和 388 纳米波长计算。
 
-### OFFL L3 Product
+哨兵-5 先导星是欧洲空间局于 2017 年 10 月 13 日发射的空气污染监测卫星，星上传感器常被称为 Tropomi（对流层监测仪）。除 CH4 外，全部 S5P 数据集都有近实时（NRTI）和离线（OFFL）两个版本，CH4 只有 OFFL 版。NRTI 资产覆盖面积比 OFFL 小，但采集后出现得更快；OFFL 资产是单轨数据（因半个地球处于黑夜，实际只含一个半球）。由于数据噪声，垂直柱值常出现负值，尤其在洁净区域或 SO2 排放低时；建议不要过滤这些负值，只剔除异常值（即垂直柱低于 -0.001 mol/m^2 的值）。
 
-To make our OFFL L3 products, we find areas within the product's bounding
-box with data using a command like this:
+原始哨兵-5P 二级（L2）数据按时间分箱，而不是按经纬度。为摄入 Earth Engine，每个 L2 产品被转换为 L3，每轨保留一个网格（不跨产品聚合）；跨越反经线的源产品摄入为后缀 _1、_2 的两个资产。L3 转换由 [harpconvert](https://cdn.rawgit.com/stcorp/harp/master/doc/html/harpconvert.html) 工具用 bin_spatial 操作完成。源数据会过滤掉 QA 值低于以下阈值的像元：AER_AI 为 80%；NO2 的 tropospheric_NO2_column_number_density 波段为 75%；除 O3 和 SO2 外的其他数据集为 50%。O3_TCL 产品直接摄入（不运行 harpconvert）。
+
+## 覆盖范围与时间
+
+- 覆盖范围：全球
+- 时间范围：2018-12-05 至 2026-10-31
+
+## 分辨率与规格
+
+- 空间分辨率：约 1,113.2 米（约 1.11 公里）
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
+
+| 波段 | 说明 | 分辨率（米） | 波长 |
+| --- | --- | --- | --- |
+| SO2_column_number_density | 地面处 SO2 垂直柱密度（用 DOAS 技术计算） | 1113.2 |  |
+| SO2_column_number_density_amf | 云与晴空空气质量因子的加权平均（以强度加权云量加权） | 1113.2 |  |
+| SO2_slant_column_number_density | 经环效应订正的 SO2 斜柱数密度 | 1113.2 |  |
+| absorbing_aerosol_index | 大气中气溶胶多少的度量，用 340/380 纳米波长对按[此公式](https://sentinel.esa.int/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-ultraviolet-aerosol-index)计算 | 1113.2 |  |
+| cloud_fraction | 有效云量。见 [Sentinel 5P L2 输入/输出数据定义规范](https://sentinels.copernicus.eu/documents/247904/3119978/Sentinel-5P-Level-2-Input-Output-Data-Definition)，第 220 页 | 1113.2 |  |
+| sensor_azimuth_angle | 地面像元处卫星的方位角（WGS84），自北向东量 | 1113.2 |  |
+| sensor_zenith_angle | 地面像元处卫星的天顶角（WGS84），偏离垂直方向量 | 1113.2 |  |
+| solar_azimuth_angle | 地面像元处太阳的方位角（WGS84），自北向东量 | 1113.2 |  |
+| solar_zenith_angle | 地面像元处太阳的天顶角（WGS84），偏离垂直方向量（原英文说明误写为卫星天顶角） | 1113.2 |  |
+| SO2_column_number_density_15km | 15 公里高度处 SO2 垂直柱密度（用 DOAS 技术计算） | 1113.2 |  |
 
 ```
 harpconvert --format hdf5 --hdf5-compression 9
@@ -61,105 +67,35 @@ S5P_OFFL_L2__SO2____20181228T231131_20181229T005301_06265_01_010105_20190104T083
 grid_info.h5
 ```
 
-We then merge all the data into one large mosaic (area-averaging values for
-pixels that may have different values for different times).  From the
-mosaic, we create a set of tiles containing orthorectified raster data.
+## 能拿来做什么
 
-The qa value is adjusted before running harpconvert to satisfy all of the
-following criteria:
+- 火山 SO2 羽流监测与航空安全
+- 工业与航运排放追踪
+- 空气质量与酸沉降研究
 
-* snow_ice < 0.5
-* sulfurdioxide_total_air_mass_factor_polluted > 0.1
-* sulfurdioxide_total_vertical_column > -0.001
-* qa_value > 0.5
-* cloud_fraction_crb < 0.3
-* solar_zenith_angle < 60
+## 怎么获取
 
-The 15km SO2 band is ingested only when solar_zenith_angle < 70.
-
-Example harpconvert invocation for one tile:
-```
-harpconvert --format hdf5 --hdf5-compression 9
--a 'SO2_column_number_density_validity>50;derive(datetime_stop {time});
-bin_spatial(2001, 50.000000, 0.01, 2001, -120.000000, 0.01);
-keep(SO2_column_number_density,SO2_column_number_density_amf,
-     SO2_slant_column_number_density,absorbing_aerosol_index,cloud_fraction, sensor_altitude,
-     sensor_azimuth_angle, sensor_zenith_angle,solar_azimuth_angle,
-     solar_zenith_angle)'
-S5P_OFFL_L2__SO2____20181228T231131_20181229T005301_06265_01_010105_20190104T083244.nc
-output.h5
-```
-
-### Sentinel-5 Precursor
-
-Sentinel-5 Precursor is a satellite launched on 13 October 2017
-by the European Space Agency to monitor air pollution.  The onboard sensor
-is frequently referred to as Tropomi (TROPOspheric Monitoring Instrument).
-
-All of the S5P datasets, except CH<sub>4</sub>, have two versions: Near 
-Real-Time (NRTI) and Offline (OFFL). CH<sub>4</sub> is available as OFFL only. 
-The NRTI assets cover a smaller area than the OFFL assets, but appear more 
-quickly after acquisition.  The OFFL assets contain data from a single orbit 
-(which, due to half the earth being dark, contains data only for a single 
-hemisphere).
-
-Because of noise in the data, negative vertical column values are often
-observed in particular over clean regions or for low SO2 emissions. It is
-recommended not to filter these values except for outliers, i.e.
-for vertical columns lower than -0.001 mol/m^2.
-
-The original Sentinel 5P Level 2 (L2) data is binned
-by time, not by latitude/longitude.  To make it possible to ingest the data
-into Earth Engine, each Sentinel 5P L2 product is converted to L3, keeping
-a single grid per orbit (that is, no aggregation across products
-is performed).
-
-Source products spanning the antimeridian are ingested as two Earth Engine
-assets, with suffixes _1 and _2.
-
-The conversion to L3 is done by the [harpconvert](https://cdn.rawgit.com/stcorp/harp/master/doc/html/harpconvert.html)
-tool using the `bin_spatial` operation.  The source data is filtered to
-remove pixels with QA values less than:
-
-*  80% for AER_AI
-*  75% for the tropospheric_NO2_column_number_density band of NO2
-*  50% for all other datasets except for O3 and SO2
-
-The O3_TCL product is ingested directly (without running harpconvert).
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`COPERNICUS/S5P/OFFL/L3_SO2`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：European Union/ESA/Copernicus、Google Earth Engine
-- 时间范围：2018-12-05 至 2026-10-31
-- 空间分辨率：1113.2 米
-- 许可：proprietary
-- 关键词：air-quality, atmosphere, bira, copernicus, dlr, esa, eu, pollution, s5p, sentinel, so2, sulfur-dioxide, tropomi
-
-## 波段信息
-
-| 波段 | 说明 | 分辨率（米） | 波长 |
-| --- | --- | --- | --- |
-| SO2_column_number_density | SO<sub>2</sub> vertical column density at ground level, calculated using the DOAS technique. | 1113.2 |  |
-| SO2_column_number_density_amf | Weighted mean of cloudy and clear air mass factor (amf) weighted by intensity-weighted cloud fraction. | 1113.2 |  |
-| SO2_slant_column_number_density | SO<sub>2</sub> ring corrected slant column number density | 1113.2 |  |
-| absorbing_aerosol_index | A measure of the prevalence of aerosols in the atmosphere, calculated by [this equation](https://sentinel.esa.int/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-ultraviolet-aerosol-index) using the 340/380 nm wavelength pair.  | 1113.2 |  |
-| cloud_fraction | Effective cloud fraction.  See the [Sentinel 5P L2 Input/Output Data Definition Spec](https://sentinels.copernicus.eu/documents/247904/3119978/Sentinel-5P-Level-2-Input-Output-Data-Definition), p.220.  | 1113.2 |  |
-| sensor_azimuth_angle | Azimuth angle of the satellite at the ground pixel location (WGS84); angle measured East-of-North. | 1113.2 |  |
-| sensor_zenith_angle | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  | 1113.2 |  |
-| solar_azimuth_angle | Azimuth angle of the Sun at the ground pixel location (WGS84); angle measured East-of-North. | 1113.2 |  |
-| solar_zenith_angle | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  | 1113.2 |  |
-| SO2_column_number_density_15km | SO<sub>2</sub> vertical column density at 15km, calculated using the DOAS technique. | 1113.2 |  |
-
-## 在 Earth Engine 中调用
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('COPERNICUS/S5P/OFFL/L3_SO2');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`COPERNICUS/S5P/OFFL/L3_SO2`
+- 提供方：European Union/ESA/Copernicus、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_SO2
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：air-quality, atmosphere, bira, copernicus, dlr, esa, eu, pollution, s5p, sentinel, so2, sulfur-dioxide, tropomi
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [哨兵-5P 离线一氧化碳（L3）](/pages/0bd864c8/)
+- [哨兵-5P 离线二氧化氮（L3）](/pages/7fe826cd/)
+- [哨兵-5P 离线云属性（L3）](/pages/f29bba93/)
+- [哨兵-5P 离线对流层臭氧（L3）](/pages/469453b0/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

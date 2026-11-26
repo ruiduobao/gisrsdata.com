@@ -1,5 +1,5 @@
 ---
-title: "Sentinel-5P OFFL O3 TCL: Offline Tropospheric Ozone"
+title: "哨兵-5P 离线对流层臭氧（L3）"
 date: 2026-11-03 12:00:00
 permalink: /pages/469453b0/
 categories:
@@ -20,99 +20,69 @@ tags:
   - "tropomi"
 ---
 
-# Sentinel-5P OFFL O3 TCL: Offline Tropospheric Ozone
+# 哨兵-5P 离线对流层臭氧（L3）
 
-## 数据集简介
+英文原名：Sentinel-5P OFFL O3 TCL: Offline Tropospheric Ozone
 
-### OFFL/L3_O3_TCL
+## 这是什么数据
 
-This dataset provides offline tropospheric high-resolution imagery of ozone
-concentrations between 20N and 20S. See also `COPERNICUS/S5P/OFFL/L3_O3` and
-`COPERNICUS/S5P/NRTI/L3_O3` for the total column data.
+本数据集提供北纬 20 度至南纬 20 度之间对流层臭氧浓度的离线高分辨率影像。臭氧总柱数据另见 COPERNICUS/S5P/OFFL/L3_O3 和 COPERNICUS/S5P/NRTI/L3_O3。
 
-In the stratosphere, the ozone layer shields the biosphere from dangerous
-solar ultraviolet radiation. In the troposphere, it acts as an efficient
-cleansing agent, but at high concentration it also becomes harmful to the
-health of humans, animals, and vegetation. Ozone is also an important
-greenhouse-gas contributor to ongoing climate change. Since the discovery
-of the Antarctic ozone hole in the 1980s and the subsequent Montreal Protocol
-regulating the production of chlorine-containing ozone-depleting substances,
-ozone has been routinely monitored from the ground and from space.
+在平流层，臭氧层保护生物圈免受危险的太阳紫外辐射。在对流层，臭氧是高效的清洁剂，但高浓度时也会危害人类、动物和植被健康。臭氧还是当前气候变化的重要温室气体贡献者。自 1980 年代发现南极臭氧洞、随后《蒙特利尔议定书》管控含氯臭氧消耗物质的生产以来，臭氧一直从地面和太空常规监测。
 
-For this product, the convective cloud differential (ccd) and
-cloud slicing (csa) algorithm were used.
-[Product user manual.](https://sentinels.copernicus.eu/documents/247904/2474726/Sentinel-5P-Level-2-Product-User-Manual-Ozone-Tropospheric-Column).
-[More information.](http://www.tropomi.eu/data-products/tropospheric-ozone-column).
+本产品使用对流云差分（CCD）和云切片（CSA）算法。[产品用户手册。](https://sentinels.copernicus.eu/documents/247904/2474726/Sentinel-5P-Level-2-Product-User-Manual-Ozone-Tropospheric-Column)[更多信息。](http://www.tropomi.eu/data-products/tropospheric-ozone-column)
 
-Unlike all other S5P products, this product was ingested directly without using
-`harpconvert`, as it is already a gridded product. Pixels with qa_value<=70
-are masked out.
+哨兵-5 先导星是欧洲空间局于 2017 年 10 月 13 日发射的空气污染监测卫星，星上传感器常被称为 Tropomi（对流层监测仪）。除 CH4 外，全部 S5P 数据集都有近实时（NRTI）和离线（OFFL）两个版本，CH4 只有 OFFL 版。NRTI 资产覆盖面积比 OFFL 小，但采集后出现得更快；OFFL 资产是单轨数据（因半个地球处于黑夜，实际只含一个半球）。
 
-### Sentinel-5 Precursor
+原始哨兵-5P 二级（L2）数据按时间分箱，而不是按经纬度。为摄入 Earth Engine，每个 L2 产品被转换为 L3，每轨保留一个网格（不跨产品聚合）；跨越反经线的源产品摄入为后缀 _1、_2 的两个资产。L3 转换由 [harpconvert](https://cdn.rawgit.com/stcorp/harp/master/doc/html/harpconvert.html) 工具用 bin_spatial 操作完成。源数据会过滤掉 QA 值低于以下阈值的像元：AER_AI 为 80%；NO2 的 tropospheric_NO2_column_number_density 波段为 75%；除 O3 和 SO2 外的其他数据集为 50%。注意：O3_TCL 产品本身是直接摄入的（不运行 harpconvert）。
 
-Sentinel-5 Precursor is a satellite launched on 13 October 2017
-by the European Space Agency to monitor air pollution.  The onboard sensor
-is frequently referred to as Tropomi (TROPOspheric Monitoring Instrument).
+## 覆盖范围与时间
 
-All of the S5P datasets, except CH<sub>4</sub>, have two versions: Near 
-Real-Time (NRTI) and Offline (OFFL). CH<sub>4</sub> is available as OFFL only. 
-The NRTI assets cover a smaller area than the OFFL assets, but appear more 
-quickly after acquisition.  The OFFL assets contain data from a single orbit 
-(which, due to half the earth being dark, contains data only for a single 
-hemisphere).
-
-Because of noise in the data, negative vertical column values are often
-observed in particular over clean regions or for low SO2 emissions. It is
-recommended not to filter these values except for outliers, i.e.
-for vertical columns lower than -0.001 mol/m^2.
-
-The original Sentinel 5P Level 2 (L2) data is binned
-by time, not by latitude/longitude.  To make it possible to ingest the data
-into Earth Engine, each Sentinel 5P L2 product is converted to L3, keeping
-a single grid per orbit (that is, no aggregation across products
-is performed).
-
-Source products spanning the antimeridian are ingested as two Earth Engine
-assets, with suffixes _1 and _2.
-
-The conversion to L3 is done by the [harpconvert](https://cdn.rawgit.com/stcorp/harp/master/doc/html/harpconvert.html)
-tool using the `bin_spatial` operation.  The source data is filtered to
-remove pixels with QA values less than:
-
-*  80% for AER_AI
-*  75% for the tropospheric_NO2_column_number_density band of NO2
-*  50% for all other datasets except for O3 and SO2
-
-The O3_TCL product is ingested directly (without running harpconvert).
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`COPERNICUS/S5P/OFFL/L3_O3_TCL`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：European Union/ESA/Copernicus、Google Earth Engine
+- 覆盖范围：热带地区（北纬 20 度至南纬 20 度之间）
 - 时间范围：2018-04-30 至 2026-10-18
-- 空间分辨率：111320 米
-- 许可：proprietary
-- 关键词：air-quality, atmosphere, copernicus, esa, eu, o3, ozone, pollution, s5p, sentinel, tropomi
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 111,320 米（约 111.32 公里）
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| ozone_tropospheric_mixing_ratio | Average tropospheric ozone mixing ratio based on CCD algorithm. | 111320 |  |
-| ozone_tropospheric_mixing_ratio_precision | Standard deviation of tropospheric ozone mixing ratio based on CCD algorithm. | 111320 |  |
-| ozone_tropospheric_vertical_column | Average tropospheric ozone column based on CCD algorithm. | 111320 |  |
-| ozone_tropospheric_vertical_column_precision | Standard deviation of tropospheric ozone column based on CCD algorithm. | 111320 |  |
-| qa_value | A continuous quality descriptor, varying between 0 (no data) and 100 (full quality data). Pixels with qa_value <= 70 are masked out.  | 111320 |  |
+| ozone_tropospheric_mixing_ratio | 基于 CCD 算法的对流层臭氧平均混合比 | 111320 |  |
+| ozone_tropospheric_mixing_ratio_precision | 基于 CCD 算法的对流层臭氧混合比的标准差 | 111320 |  |
+| ozone_tropospheric_vertical_column | 基于 CCD 算法的对流层臭氧平均垂直柱 | 111320 |  |
+| ozone_tropospheric_vertical_column_precision | 基于 CCD 算法的对流层臭氧柱的标准差 | 111320 |  |
+| qa_value | 连续质量描述符，从 0（无数据）到 100（全质量数据） | 111320 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 热带对流层臭氧监测
+- 生物质燃烧与闪电 NOx 影响研究
+- 温室气体（对流层臭氧）评估
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('COPERNICUS/S5P/OFFL/L3_O3_TCL');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`COPERNICUS/S5P/OFFL/L3_O3_TCL`
+- 提供方：European Union/ESA/Copernicus、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_O3_TCL
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：air-quality, atmosphere, copernicus, esa, eu, o3, ozone, pollution, s5p, sentinel, tropomi
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [哨兵-5P 离线一氧化碳（L3）](/pages/0bd864c8/)
+- [哨兵-5P 离线二氧化氮（L3）](/pages/7fe826cd/)
+- [哨兵-5P 离线二氧化硫（L3）](/pages/eff44f62/)
+- [哨兵-5P 离线云属性（L3）](/pages/f29bba93/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

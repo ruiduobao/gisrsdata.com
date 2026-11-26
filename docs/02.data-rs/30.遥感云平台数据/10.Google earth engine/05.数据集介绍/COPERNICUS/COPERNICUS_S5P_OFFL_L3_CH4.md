@@ -1,5 +1,5 @@
 ---
-title: "Sentinel-5P OFFL CH4: Offline Methane"
+title: "哨兵-5P 离线甲烷（L3）"
 date: 2026-11-03 12:00:00
 permalink: /pages/26f73ae7/
 categories:
@@ -20,55 +20,43 @@ tags:
   - "tropomi"
 ---
 
-# Sentinel-5P OFFL CH4: Offline Methane
+# 哨兵-5P 离线甲烷（L3）
 
-## 数据集简介
+英文原名：Sentinel-5P OFFL CH4: Offline Methane
 
-### OFFL/L3_CH4
+## 这是什么数据
 
-This dataset provides offline high-resolution imagery of methane
-concentrations.
+本数据集提供甲烷浓度的离线高分辨率影像。
 
-Methane (CH<sub>4</sub>) is, after carbon dioxide (CO<sub>2</sub>), the most
-important contributor to the anthropogenically enhanced greenhouse effect.
-Roughly three-quarters of methane emissions are anthropogenic and as such, it
-is important to continue the record of satellite based measurements. TROPOMI
-aims at providing CH<sub>4</sub> column concentrations with high sensitivity
-to the Earth's surface, good spatiotemporal coverage, and sufficient
-accuracy to facilitate inverse modeling of sources and sinks. TROPOMI uses
-absorption information from the Oxygen-A Band (760nm) and the SWIR spectral
-range to monitor CH<sub>4</sub> abundances in the Earth's atmosphere.
-[More information.](http://www.tropomi.eu/data-products/methane)
+甲烷（CH4）是仅次于二氧化碳（CO2）的、由人类活动增强的温室效应的第二大贡献者。约四分之三的甲烷排放来自人类活动，因此延续卫星测量记录很重要。TROPOMI 旨在提供对地表高度敏感、时空覆盖好、精度足以支撑源汇反演建模的 CH4 柱浓度。它利用氧 A 波段（760 纳米）和 SWIR 波段的吸收信息监测大气中的 CH4 丰度。[更多信息。](http://www.tropomi.eu/data-products/methane)
 
-Currently, the following data quality issues are known, are not covered by
-the quality flags, and should be kept in mind when looking at the methane
-product and also at preliminary validation results. For more details, see
-the [MPC VDAF website](http://mpc-vdaf.tropomi.eu).
+目前已知一些未被质量标志覆盖的数据质量问题，在查看甲烷产品和初步验证结果时应予留意。细节见 [MPC VDAF 网站](http://mpc-vdaf.tropomi.eu)。注意：2022-07-26 至 2022-08-31 期间因[提供方故障](https://scihub.copernicus.eu/news/News01082)无数据。
 
-Filtering on qa_value &lt; 0.5 does not remove all pixels considered bad.
-Some pixels with too low methane concentrations are still present:
+哨兵-5 先导星是欧洲空间局于 2017 年 10 月 13 日发射的空气污染监测卫星，星上传感器常被称为 Tropomi（对流层监测仪）。CH4 只有离线（OFFL）版；其他 S5P 数据集都有近实时（NRTI）和离线（OFFL）两个版本。NRTI 资产覆盖面积比 OFFL 小，但采集后出现得更快；OFFL 资产是单轨数据（因半个地球处于黑夜，实际只含一个半球）。由于数据噪声，垂直柱值常出现负值，尤其在洁净区域或 SO2 排放低时；建议不要过滤这些负值，只剔除异常值（即垂直柱低于 -0.001 mol/m^2 的值）。
 
- - Single TROPOMI overpasses show stripes of erroneous CH<sub>4</sub> values
-   in the flight direction.
+原始哨兵-5P 二级（L2）数据按时间分箱，而不是按经纬度。为摄入 Earth Engine，每个 L2 产品被转换为 L3，每轨保留一个网格（不跨产品聚合）；跨越反经线的源产品摄入为后缀 _1、_2 的两个资产。L3 转换由 [harpconvert](https://cdn.rawgit.com/stcorp/harp/master/doc/html/harpconvert.html) 工具用 bin_spatial 操作完成。源数据会过滤掉 QA 值低于以下阈值的像元：AER_AI 为 80%；NO2 的 tropospheric_NO2_column_number_density 波段为 75%；除 O3 和 SO2 外的其他数据集为 50%。O3_TCL 产品直接摄入（不运行 harpconvert）。
 
- - Not all pixels above inland water are filtered.
+## 覆盖范围与时间
 
- - Uncertainties for the XCH<sub>4</sub> is only based on the single
-   sounding precision due to measurement noise. For applications requiring
-   an overall uncertainty estimate, we propose to multiply the provided
-   error by a factor 2, which reflects the scatter of single sounding errors
-   in the TCCON validation.
+- 覆盖范围：全球
+- 时间范围：2019-02-08 至 2026-10-31
 
- - Data prior to November 2021 only provides XCH<sub>4</sub> over land,
-   after which glint ocean observations were added.
+## 分辨率与规格
 
- - No data are present between 2022-07-26 and 2022-08-31 due to a
-   [provider outage](https://scihub.copernicus.eu/news/News01082).
+- 空间分辨率：约 1,113.2 米（约 1.11 公里）
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
-### OFFL L3 Product
-
-To make our OFFL L3 products, we find which areas within the product's
-bounding box contain data by using a command like this:
+| 波段 | 说明 | 分辨率（米） | 波长 |
+| --- | --- | --- | --- |
+| CH4_column_volume_mixing_ratio_dry_air | 甲烷的柱平均干空气混合比（十亿分之一，ppb） | 1113.2 |  |
+| aerosol_height | CH4 反演中的气溶胶高度参数 | 1113.2 |  |
+| aerosol_optical_depth | SWIR 波段的气溶胶光学厚度 | 1113.2 |  |
+| sensor_azimuth_angle | 地面像元处卫星的方位角（WGS84），自北向东量 | 1113.2 |  |
+| sensor_zenith_angle | 地面像元处卫星的天顶角（WGS84），偏离垂直方向量 | 1113.2 |  |
+| solar_azimuth_angle | 地面像元处太阳的方位角（WGS84），自北向东量 | 1113.2 |  |
+| solar_zenith_angle | 地面像元处太阳的天顶角（WGS84），偏离垂直方向量（原英文说明误写为卫星天顶角） | 1113.2 |  |
+| CH4_column_volume_mixing_ratio_dry_air_bias_corrected | 经地表反照率订正的甲烷柱平均干空气混合比（十亿分之一，ppb） | 1113.2 |  |
+| CH4_column_volume_mixing_ratio_dry_air_uncertainty | 甲烷柱平均干空气混合比的不确定度（1 西格玛误差） | 1113.2 |  |
 
 ```
 harpconvert --format hdf5 --hdf5-compression 9
@@ -77,92 +65,35 @@ S5P_OFFL_L2__CH4____20190223T202409_20190223T220540_07072_01_010202_20190301T221
 grid_info.h5
 ```
 
-We then merge all the data into one large mosaic (area-averaging values for
-pixels that may have different values for different times).  From the
-mosaic, we create a set of tiles containing orthorectified raster data.
+## 能拿来做什么
 
-Example harpconvert invocation for one tile:
-```
-harpconvert --format hdf5 --hdf5-compression 9
--a 'CH4_column_volume_mixing_ratio_dry_air_validity>50;
-derive(datetime_stop {time});
-bin_spatial(2001, 50.000000, 0.01, 2001, -120.000000, 0.01);
-keep(CH4_column_volume_mixing_ratio_dry_air, aerosol_height,
-aerosol_optical_depth, sensor_azimuth_angle, sensor_zenith_angle,
-solar_azimuth_angle, solar_zenith_angle)'
-S5P_OFFL_L2__CH4____20190223T202409_20190223T220540_07072_01_010202_20190301T221106.nc
-output.h5
-```
+- 甲烷排放源检测与反演建模
+- 温室气体监测
+- 油气与湿地排放研究
 
-### Sentinel-5 Precursor
+## 怎么获取
 
-Sentinel-5 Precursor is a satellite launched on 13 October 2017
-by the European Space Agency to monitor air pollution.  The onboard sensor
-is frequently referred to as Tropomi (TROPOspheric Monitoring Instrument).
-
-All of the S5P datasets, except CH<sub>4</sub>, have two versions: Near 
-Real-Time (NRTI) and Offline (OFFL). CH<sub>4</sub> is available as OFFL only. 
-The NRTI assets cover a smaller area than the OFFL assets, but appear more 
-quickly after acquisition.  The OFFL assets contain data from a single orbit 
-(which, due to half the earth being dark, contains data only for a single 
-hemisphere).
-
-Because of noise in the data, negative vertical column values are often
-observed in particular over clean regions or for low SO2 emissions. It is
-recommended not to filter these values except for outliers, i.e.
-for vertical columns lower than -0.001 mol/m^2.
-
-The original Sentinel 5P Level 2 (L2) data is binned
-by time, not by latitude/longitude.  To make it possible to ingest the data
-into Earth Engine, each Sentinel 5P L2 product is converted to L3, keeping
-a single grid per orbit (that is, no aggregation across products
-is performed).
-
-Source products spanning the antimeridian are ingested as two Earth Engine
-assets, with suffixes _1 and _2.
-
-The conversion to L3 is done by the [harpconvert](https://cdn.rawgit.com/stcorp/harp/master/doc/html/harpconvert.html)
-tool using the `bin_spatial` operation.  The source data is filtered to
-remove pixels with QA values less than:
-
-*  80% for AER_AI
-*  75% for the tropospheric_NO2_column_number_density band of NO2
-*  50% for all other datasets except for O3 and SO2
-
-The O3_TCL product is ingested directly (without running harpconvert).
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`COPERNICUS/S5P/OFFL/L3_CH4`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：European Union/ESA/Copernicus、Google Earth Engine
-- 时间范围：2019-02-08 至 2026-10-31
-- 空间分辨率：1113.2 米
-- 许可：proprietary
-- 关键词：atmosphere, climate, copernicus, esa, eu, knmi, methane, s5p, sentinel, sron, tropomi
-
-## 波段信息
-
-| 波段 | 说明 | 分辨率（米） | 波长 |
-| --- | --- | --- | --- |
-| CH4_column_volume_mixing_ratio_dry_air | Column-averaged dry air mixing ratio of methane, as parts-per-billion  | 1113.2 |  |
-| aerosol_height | Aerosol height parameter in the CH<sub>4</sub> retrieval | 1113.2 |  |
-| aerosol_optical_depth | aerosol optical thickness in the SWIR band | 1113.2 |  |
-| sensor_azimuth_angle | Azimuth angle of the satellite at the ground pixel location (WGS84); angle measured East-of-North. | 1113.2 |  |
-| sensor_zenith_angle | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  | 1113.2 |  |
-| solar_azimuth_angle | Azimuth angle of the Sun at the ground pixel location (WGS84); angle measured East-of-North. | 1113.2 |  |
-| solar_zenith_angle | Zenith angle of the satellite at the ground pixel location (WGS84); angle measured away from the vertical.  | 1113.2 |  |
-| CH4_column_volume_mixing_ratio_dry_air_bias_corrected | Column-averaged dry air mixing ratio of methane, as parts-per-billion, corrected for surface albedo  | 1113.2 |  |
-| CH4_column_volume_mixing_ratio_dry_air_uncertainty | Uncertainty of the column averaged dry air mixing ratio of methane (1 sigma error)  | 1113.2 |  |
-
-## 在 Earth Engine 中调用
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('COPERNICUS/S5P/OFFL/L3_CH4');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`COPERNICUS/S5P/OFFL/L3_CH4`
+- 提供方：European Union/ESA/Copernicus、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_CH4
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：atmosphere, climate, copernicus, esa, eu, knmi, methane, s5p, sentinel, sron, tropomi
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [哨兵-5P 离线一氧化碳（L3）](/pages/0bd864c8/)
+- [哨兵-5P 离线二氧化氮（L3）](/pages/7fe826cd/)
+- [哨兵-5P 离线二氧化硫（L3）](/pages/eff44f62/)
+- [哨兵-5P 离线云属性（L3）](/pages/f29bba93/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

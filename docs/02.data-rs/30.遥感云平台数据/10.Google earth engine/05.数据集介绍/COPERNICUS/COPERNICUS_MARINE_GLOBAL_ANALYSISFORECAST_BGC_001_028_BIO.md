@@ -1,5 +1,5 @@
 ---
-title: "Copernicus Global Ocean Bio-Geo-Chemical Forecast - BIO"
+title: "哥白尼全球海洋生物地球化学预报 BIO（初级生产与溶解氧）"
 date: 2026-11-03 12:00:00
 permalink: /pages/a143480c/
 categories:
@@ -13,131 +13,142 @@ tags:
   - "oceans"
 ---
 
-# Copernicus Global Ocean Bio-Geo-Chemical Forecast - BIO
+# 哥白尼全球海洋生物地球化学预报 BIO（初级生产与溶解氧）
 
-## 数据集简介
+英文原名：Copernicus Global Ocean Bio-Geo-Chemical Forecast - BIO
 
-The Operational Mercator Ocean biogeochemical global ocean analysis and
-forecast system at 1/4 degree is providing 10 days of 3D global ocean
-forecasts updated weekly. The time series is aggregated in time, in order
-to reach a two full year's time series sliding window. This product
-includes daily and monthly mean files of biogeochemical parameters
-(chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved
-iron, primary production, phytoplankton, zooplankton, PH, and surface
-partial pressure of carbon dioxide) over the global ocean. The global
-ocean output files are displayed with a 1/4 degree horizontal resolution
-with regular longitude/latitude equirectangular projection.
-These products are provided on 50 vertical levels with
-depths ranging from 0.49m to 5727.92m.
-<br><br> This dataset mainly consists of total primary
-production of phytos, and dissolved oxygen.
+## 这是什么数据
 
-## 基本信息
+这是哥白尼全球海洋生物地球化学分析与预报系统的 BIO 数据包，由 Mercator Ocean 运行，分辨率 1/4 度。它提供 10 天的全球海洋三维预报，每周更新；时间序列经聚合形成两整年的滑动窗口。该系统产出全球海洋生物地球化学参数的逐日与逐月平均文件（叶绿素、硝酸盐、磷酸盐、硅酸盐、溶解氧、溶解铁、初级生产、浮游植物、浮游动物、pH 和表层二氧化碳分压），垂直方向 50 层，深度从 0.49 米到 5727.92 米。
 
-- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/BIO`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Copernicus、Google Earth Engine
+本 Earth Engine 数据集主要包含浮游植物总初级生产（nppv）和溶解氧（o2）两个变量，各深度层见波段表。
+
+## 覆盖范围与时间
+
+- 覆盖范围：全球海洋
 - 时间范围：2022-01-01 至 2025-09-19
-- 空间分辨率：27750 米
-- 许可：CC-BY-4.0
-- 关键词：copernicus, daily, forecast, oceans
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 27,750 米（1/4 度网格；垂直 50 层，深度 0.49 米至 5727.92 米）
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| nppv_depth1 | Total Primary Production of Phyto (depth 1, 0.4940m) | 27750 |  |
-| nppv_depth2 | Total Primary Production of Phyto (depth 2, 1.5414m) | 27750 |  |
-| nppv_depth3 | Total Primary Production of Phyto (depth 3, 2.6457m) | 27750 |  |
-| nppv_depth4 | Total Primary Production of Phyto (depth 4, 3.8195m) | 27750 |  |
-| nppv_depth5 | Total Primary Production of Phyto (depth 5, 5.0782m) | 27750 |  |
-| nppv_depth6 | Total Primary Production of Phyto (depth 6, 6.4406m) | 27750 |  |
-| nppv_depth7 | Total Primary Production of Phyto (depth 7, 7.9296m) | 27750 |  |
-| nppv_depth8 | Total Primary Production of Phyto (depth 8, 9.5730m) | 27750 |  |
-| nppv_depth9 | Total Primary Production of Phyto (depth 9, 11.4050m) | 27750 |  |
-| nppv_depth10 | Total Primary Production of Phyto (depth 10, 13.4671m) | 27750 |  |
-| nppv_depth11 | Total Primary Production of Phyto (depth 11, 15.8101m) | 27750 |  |
-| nppv_depth12 | Total Primary Production of Phyto (depth 12, 18.4956m) | 27750 |  |
-| nppv_depth13 | Total Primary Production of Phyto (depth 13, 21.5988m) | 27750 |  |
-| nppv_depth14 | Total Primary Production of Phyto (depth 14, 25.2114m) | 27750 |  |
-| nppv_depth15 | Total Primary Production of Phyto (depth 15, 29.4447m) | 27750 |  |
-| nppv_depth16 | Total Primary Production of Phyto (depth 16, 34.4342m) | 27750 |  |
-| nppv_depth17 | Total Primary Production of Phyto (depth 17, 40.3441m) | 27750 |  |
-| nppv_depth18 | Total Primary Production of Phyto (depth 18, 47.3737m) | 27750 |  |
-| nppv_depth19 | Total Primary Production of Phyto (depth 19, 55.7643m) | 27750 |  |
-| nppv_depth20 | Total Primary Production of Phyto (depth 20, 65.8073m) | 27750 |  |
-| nppv_depth21 | Total Primary Production of Phyto (depth 21, 77.8539m) | 27750 |  |
-| nppv_depth22 | Total Primary Production of Phyto (depth 22, 92.3261m) | 27750 |  |
-| nppv_depth23 | Total Primary Production of Phyto (depth 23, 109.7293m) | 27750 |  |
-| nppv_depth24 | Total Primary Production of Phyto (depth 24, 130.6660m) | 27750 |  |
-| nppv_depth25 | Total Primary Production of Phyto (depth 25, 155.8507m) | 27750 |  |
-| nppv_depth26 | Total Primary Production of Phyto (depth 26, 186.1256m) | 27750 |  |
-| nppv_depth27 | Total Primary Production of Phyto (depth 27, 222.4752m) | 27750 |  |
-| nppv_depth28 | Total Primary Production of Phyto (depth 28, 266.0403m) | 27750 |  |
-| nppv_depth29 | Total Primary Production of Phyto (depth 29, 318.1274m) | 27750 |  |
-| nppv_depth30 | Total Primary Production of Phyto (depth 30, 380.2130m) | 27750 |  |
-| nppv_depth31 | Total Primary Production of Phyto (depth 31, 453.9377m) | 27750 |  |
-| nppv_depth32 | Total Primary Production of Phyto (depth 32, 541.0889m) | 27750 |  |
-| nppv_depth33 | Total Primary Production of Phyto (depth 33, 643.5668m) | 27750 |  |
-| nppv_depth34 | Total Primary Production of Phyto (depth 34, 763.3331m) | 27750 |  |
-| nppv_depth35 | Total Primary Production of Phyto (depth 35, 902.3393m) | 27750 |  |
-| nppv_depth36 | Total Primary Production of Phyto (depth 36, 1062.4397m) | 27750 |  |
-| nppv_depth37 | Total Primary Production of Phyto (depth 37, 1245.2911m) | 27750 |  |
-| nppv_depth38 | Total Primary Production of Phyto (depth 38, 1452.2510m) | 27750 |  |
-| nppv_depth39 | Total Primary Production of Phyto (depth 39, 1684.2844m) | 27750 |  |
-| nppv_depth40 | Total Primary Production of Phyto (depth 40, 1941.8934m) | 27750 |  |
-| nppv_depth41 | Total Primary Production of Phyto (depth 41, 2225.0779m) | 27750 |  |
-| nppv_depth42 | Total Primary Production of Phyto (depth 42, 2533.3362m) | 27750 |  |
-| nppv_depth43 | Total Primary Production of Phyto (depth 43, 2865.7026m) | 27750 |  |
-| nppv_depth44 | Total Primary Production of Phyto (depth 44, 3220.8203m) | 27750 |  |
-| nppv_depth45 | Total Primary Production of Phyto (depth 45, 3597.0320m) | 27750 |  |
-| nppv_depth46 | Total Primary Production of Phyto (depth 46, 3992.4839m) | 27750 |  |
-| nppv_depth47 | Total Primary Production of Phyto (depth 47, 4405.2241m) | 27750 |  |
-| nppv_depth48 | Total Primary Production of Phyto (depth 48, 4833.2905m) | 27750 |  |
-| nppv_depth49 | Total Primary Production of Phyto (depth 49, 5274.7842m) | 27750 |  |
-| nppv_depth50 | Total Primary Production of Phyto (depth 50, 5727.9165m) | 27750 |  |
-| o2_depth1 | Dissolved Oxygen (depth 1, 0.4940m) | 27750 |  |
-| o2_depth2 | Dissolved Oxygen (depth 2, 1.5414m) | 27750 |  |
-| o2_depth3 | Dissolved Oxygen (depth 3, 2.6457m) | 27750 |  |
-| o2_depth4 | Dissolved Oxygen (depth 4, 3.8195m) | 27750 |  |
-| o2_depth5 | Dissolved Oxygen (depth 5, 5.0782m) | 27750 |  |
-| o2_depth6 | Dissolved Oxygen (depth 6, 6.4406m) | 27750 |  |
-| o2_depth7 | Dissolved Oxygen (depth 7, 7.9296m) | 27750 |  |
-| o2_depth8 | Dissolved Oxygen (depth 8, 9.5730m) | 27750 |  |
-| o2_depth9 | Dissolved Oxygen (depth 9, 11.4050m) | 27750 |  |
-| o2_depth10 | Dissolved Oxygen (depth 10, 13.4671m) | 27750 |  |
-| o2_depth11 | Dissolved Oxygen (depth 11, 15.8101m) | 27750 |  |
-| o2_depth12 | Dissolved Oxygen (depth 12, 18.4956m) | 27750 |  |
-| o2_depth13 | Dissolved Oxygen (depth 13, 21.5988m) | 27750 |  |
-| o2_depth14 | Dissolved Oxygen (depth 14, 25.2114m) | 27750 |  |
-| o2_depth15 | Dissolved Oxygen (depth 15, 29.4447m) | 27750 |  |
-| o2_depth16 | Dissolved Oxygen (depth 16, 34.4342m) | 27750 |  |
-| o2_depth17 | Dissolved Oxygen (depth 17, 40.3441m) | 27750 |  |
-| o2_depth18 | Dissolved Oxygen (depth 18, 47.3737m) | 27750 |  |
-| o2_depth19 | Dissolved Oxygen (depth 19, 55.7643m) | 27750 |  |
-| o2_depth20 | Dissolved Oxygen (depth 20, 65.8073m) | 27750 |  |
-| o2_depth21 | Dissolved Oxygen (depth 21, 77.8539m) | 27750 |  |
-| o2_depth22 | Dissolved Oxygen (depth 22, 92.3261m) | 27750 |  |
-| o2_depth23 | Dissolved Oxygen (depth 23, 109.7293m) | 27750 |  |
-| o2_depth24 | Dissolved Oxygen (depth 24, 130.6660m) | 27750 |  |
-| o2_depth25 | Dissolved Oxygen (depth 25, 155.8507m) | 27750 |  |
-| o2_depth26 | Dissolved Oxygen (depth 26, 186.1256m) | 27750 |  |
-| o2_depth27 | Dissolved Oxygen (depth 27, 222.4752m) | 27750 |  |
-| o2_depth28 | Dissolved Oxygen (depth 28, 266.0403m) | 27750 |  |
-| o2_depth29 | Dissolved Oxygen (depth 29, 318.1274m) | 27750 |  |
-| o2_depth30 | Dissolved Oxygen (depth 30, 380.2130m) | 27750 |  |
+| nppv_depth1 | 浮游植物总初级生产（第 1 层，深度 0.4940 米） | 27750 |  |
+| nppv_depth2 | 浮游植物总初级生产（第 2 层，深度 1.5414 米） | 27750 |  |
+| nppv_depth3 | 浮游植物总初级生产（第 3 层，深度 2.6457 米） | 27750 |  |
+| nppv_depth4 | 浮游植物总初级生产（第 4 层，深度 3.8195 米） | 27750 |  |
+| nppv_depth5 | 浮游植物总初级生产（第 5 层，深度 5.0782 米） | 27750 |  |
+| nppv_depth6 | 浮游植物总初级生产（第 6 层，深度 6.4406 米） | 27750 |  |
+| nppv_depth7 | 浮游植物总初级生产（第 7 层，深度 7.9296 米） | 27750 |  |
+| nppv_depth8 | 浮游植物总初级生产（第 8 层，深度 9.5730 米） | 27750 |  |
+| nppv_depth9 | 浮游植物总初级生产（第 9 层，深度 11.4050 米） | 27750 |  |
+| nppv_depth10 | 浮游植物总初级生产（第 10 层，深度 13.4671 米） | 27750 |  |
+| nppv_depth11 | 浮游植物总初级生产（第 11 层，深度 15.8101 米） | 27750 |  |
+| nppv_depth12 | 浮游植物总初级生产（第 12 层，深度 18.4956 米） | 27750 |  |
+| nppv_depth13 | 浮游植物总初级生产（第 13 层，深度 21.5988 米） | 27750 |  |
+| nppv_depth14 | 浮游植物总初级生产（第 14 层，深度 25.2114 米） | 27750 |  |
+| nppv_depth15 | 浮游植物总初级生产（第 15 层，深度 29.4447 米） | 27750 |  |
+| nppv_depth16 | 浮游植物总初级生产（第 16 层，深度 34.4342 米） | 27750 |  |
+| nppv_depth17 | 浮游植物总初级生产（第 17 层，深度 40.3441 米） | 27750 |  |
+| nppv_depth18 | 浮游植物总初级生产（第 18 层，深度 47.3737 米） | 27750 |  |
+| nppv_depth19 | 浮游植物总初级生产（第 19 层，深度 55.7643 米） | 27750 |  |
+| nppv_depth20 | 浮游植物总初级生产（第 20 层，深度 65.8073 米） | 27750 |  |
+| nppv_depth21 | 浮游植物总初级生产（第 21 层，深度 77.8539 米） | 27750 |  |
+| nppv_depth22 | 浮游植物总初级生产（第 22 层，深度 92.3261 米） | 27750 |  |
+| nppv_depth23 | 浮游植物总初级生产（第 23 层，深度 109.7293 米） | 27750 |  |
+| nppv_depth24 | 浮游植物总初级生产（第 24 层，深度 130.6660 米） | 27750 |  |
+| nppv_depth25 | 浮游植物总初级生产（第 25 层，深度 155.8507 米） | 27750 |  |
+| nppv_depth26 | 浮游植物总初级生产（第 26 层，深度 186.1256 米） | 27750 |  |
+| nppv_depth27 | 浮游植物总初级生产（第 27 层，深度 222.4752 米） | 27750 |  |
+| nppv_depth28 | 浮游植物总初级生产（第 28 层，深度 266.0403 米） | 27750 |  |
+| nppv_depth29 | 浮游植物总初级生产（第 29 层，深度 318.1274 米） | 27750 |  |
+| nppv_depth30 | 浮游植物总初级生产（第 30 层，深度 380.2130 米） | 27750 |  |
+| nppv_depth31 | 浮游植物总初级生产（第 31 层，深度 453.9377 米） | 27750 |  |
+| nppv_depth32 | 浮游植物总初级生产（第 32 层，深度 541.0889 米） | 27750 |  |
+| nppv_depth33 | 浮游植物总初级生产（第 33 层，深度 643.5668 米） | 27750 |  |
+| nppv_depth34 | 浮游植物总初级生产（第 34 层，深度 763.3331 米） | 27750 |  |
+| nppv_depth35 | 浮游植物总初级生产（第 35 层，深度 902.3393 米） | 27750 |  |
+| nppv_depth36 | 浮游植物总初级生产（第 36 层，深度 1062.4397 米） | 27750 |  |
+| nppv_depth37 | 浮游植物总初级生产（第 37 层，深度 1245.2911 米） | 27750 |  |
+| nppv_depth38 | 浮游植物总初级生产（第 38 层，深度 1452.2510 米） | 27750 |  |
+| nppv_depth39 | 浮游植物总初级生产（第 39 层，深度 1684.2844 米） | 27750 |  |
+| nppv_depth40 | 浮游植物总初级生产（第 40 层，深度 1941.8934 米） | 27750 |  |
+| nppv_depth41 | 浮游植物总初级生产（第 41 层，深度 2225.0779 米） | 27750 |  |
+| nppv_depth42 | 浮游植物总初级生产（第 42 层，深度 2533.3362 米） | 27750 |  |
+| nppv_depth43 | 浮游植物总初级生产（第 43 层，深度 2865.7026 米） | 27750 |  |
+| nppv_depth44 | 浮游植物总初级生产（第 44 层，深度 3220.8203 米） | 27750 |  |
+| nppv_depth45 | 浮游植物总初级生产（第 45 层，深度 3597.0320 米） | 27750 |  |
+| nppv_depth46 | 浮游植物总初级生产（第 46 层，深度 3992.4839 米） | 27750 |  |
+| nppv_depth47 | 浮游植物总初级生产（第 47 层，深度 4405.2241 米） | 27750 |  |
+| nppv_depth48 | 浮游植物总初级生产（第 48 层，深度 4833.2905 米） | 27750 |  |
+| nppv_depth49 | 浮游植物总初级生产（第 49 层，深度 5274.7842 米） | 27750 |  |
+| nppv_depth50 | 浮游植物总初级生产（第 50 层，深度 5727.9165 米） | 27750 |  |
+| o2_depth1 | 溶解氧（第 1 层，深度 0.4940 米） | 27750 |  |
+| o2_depth2 | 溶解氧（第 2 层，深度 1.5414 米） | 27750 |  |
+| o2_depth3 | 溶解氧（第 3 层，深度 2.6457 米） | 27750 |  |
+| o2_depth4 | 溶解氧（第 4 层，深度 3.8195 米） | 27750 |  |
+| o2_depth5 | 溶解氧（第 5 层，深度 5.0782 米） | 27750 |  |
+| o2_depth6 | 溶解氧（第 6 层，深度 6.4406 米） | 27750 |  |
+| o2_depth7 | 溶解氧（第 7 层，深度 7.9296 米） | 27750 |  |
+| o2_depth8 | 溶解氧（第 8 层，深度 9.5730 米） | 27750 |  |
+| o2_depth9 | 溶解氧（第 9 层，深度 11.4050 米） | 27750 |  |
+| o2_depth10 | 溶解氧（第 10 层，深度 13.4671 米） | 27750 |  |
+| o2_depth11 | 溶解氧（第 11 层，深度 15.8101 米） | 27750 |  |
+| o2_depth12 | 溶解氧（第 12 层，深度 18.4956 米） | 27750 |  |
+| o2_depth13 | 溶解氧（第 13 层，深度 21.5988 米） | 27750 |  |
+| o2_depth14 | 溶解氧（第 14 层，深度 25.2114 米） | 27750 |  |
+| o2_depth15 | 溶解氧（第 15 层，深度 29.4447 米） | 27750 |  |
+| o2_depth16 | 溶解氧（第 16 层，深度 34.4342 米） | 27750 |  |
+| o2_depth17 | 溶解氧（第 17 层，深度 40.3441 米） | 27750 |  |
+| o2_depth18 | 溶解氧（第 18 层，深度 47.3737 米） | 27750 |  |
+| o2_depth19 | 溶解氧（第 19 层，深度 55.7643 米） | 27750 |  |
+| o2_depth20 | 溶解氧（第 20 层，深度 65.8073 米） | 27750 |  |
+| o2_depth21 | 溶解氧（第 21 层，深度 77.8539 米） | 27750 |  |
+| o2_depth22 | 溶解氧（第 22 层，深度 92.3261 米） | 27750 |  |
+| o2_depth23 | 溶解氧（第 23 层，深度 109.7293 米） | 27750 |  |
+| o2_depth24 | 溶解氧（第 24 层，深度 130.6660 米） | 27750 |  |
+| o2_depth25 | 溶解氧（第 25 层，深度 155.8507 米） | 27750 |  |
+| o2_depth26 | 溶解氧（第 26 层，深度 186.1256 米） | 27750 |  |
+| o2_depth27 | 溶解氧（第 27 层，深度 222.4752 米） | 27750 |  |
+| o2_depth28 | 溶解氧（第 28 层，深度 266.0403 米） | 27750 |  |
+| o2_depth29 | 溶解氧（第 29 层，深度 318.1274 米） | 27750 |  |
+| o2_depth30 | 溶解氧（第 30 层，深度 380.2130 米） | 27750 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 三维研究海洋初级生产与浮游植物生产力
+- 追踪溶解氧分布，支撑海洋生态与渔业研究
+- 10 天尺度的生物地球化学短期预报应用
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/BIO');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/BIO`
+- 提供方：Copernicus、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_BIO
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：copernicus, daily, forecast, oceans
 - 数据引用：E.U. Copernicus Marine Service Information.
 [https://doi.org/10.48670/moi-00015](https://doi.org/10.48670/moi-00015)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [全球海洋水色光学产品（多源，4 公里，月度）](/pages/b4a5e847/)
+- [全球海洋水色初级生产产品（多源，4 公里）](/pages/6396836c/)
+- [全球海洋水色反射率产品（OLCI，300 米）](/pages/f4ffb7b4/)
+- [全球海洋水色反射率产品（多源，4 公里）](/pages/472dc170/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

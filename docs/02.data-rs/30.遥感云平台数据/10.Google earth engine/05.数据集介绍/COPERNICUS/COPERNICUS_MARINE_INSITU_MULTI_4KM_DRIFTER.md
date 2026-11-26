@@ -1,5 +1,5 @@
 ---
-title: "Copernicus Global In-situ Observations of Ocean Currents - Drifter"
+title: "哥白尼海洋原位观测：漂流浮标"
 date: 2026-11-03 12:00:00
 permalink: /pages/78cafecb/
 categories:
@@ -13,84 +13,90 @@ tags:
   - "oceans"
 ---
 
-# Copernicus Global In-situ Observations of Ocean Currents - Drifter
+# 哥白尼海洋原位观测：漂流浮标
 
-## 数据集简介
+英文原名：Copernicus Global In-situ Observations of Ocean Currents - Drifter
 
-The In Situ TAC is a distributed centre organized around 7 oceanographic
-regions: the global ocean and the 6 EUROGOOS regional alliances. It involves
-14 partners from 11 countries in Europe. It doesn't deploy any observing
-system and relies on data, exclusively funded by other sources than
-Copernicus Marine Service.
+## 这是什么数据
 
-Regarding the production of global ocean products like the present one,
-activities among partners are organized according to the expertise and
-background in data management for operational oceanography. Drifter data
-in this collection come from two main sources: near-surface velocity
-measurements (15 m depth) from the French project Coriolis, part of the
-DBCP's Global Drifter Program, and drifter data retrieved from the OGS
-Mediterranean drifter dataset. The latter includes raw data from various
-research institutions and international data centers, processed using
-techniques described in Menna et al. (2017, 2018). The drifters have
-varying drogue depths, mostly between 0 and 15 m, but ranging from 0 to
-300 m.
+原位主题集合中心（In Situ TAC）是一个分布式中心，围绕 7 个海洋学区域组织：全球海洋和 6 个 EUROGOOS 区域联盟，涉及欧洲 11 个国家的 14 个合作伙伴。它本身不布设任何观测系统，数据完全依赖哥白尼海洋服务之外的其他资金来源。
 
-For more details refer to this
-[user manual](https://documentation.marine.copernicus.eu/PUM/CMEMS-INS-PUM-013-048.pdf)
+就本数据集这类全球海洋产品而言，伙伴间的分工按各自在业务化海洋学数据管理方面的专长与背景组织。本集合的漂流浮标数据来自两个主要来源：法国 Coriolis 项目（DBCP 全球漂流浮标计划的一部分）的近表层流速测量（15 米深度），以及 OGS 地中海漂流浮标数据集——后者汇集了多家研究机构和国际数据中心的原始数据，按 Menna 等（2017、2018）所述技术处理。浮标的阻力伞深度各不相同，多数在 0–15 米之间，范围可达 0–300 米。
 
-## 基本信息
+更多细节见[用户手册](https://documentation.marine.copernicus.eu/PUM/CMEMS-INS-PUM-013-048.pdf)。
 
-- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/INSITU_MULTI_4KM/DRIFTER`
-- 数据类型：bigquery_table
-- 提供方：Copernicus、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：全球海洋（原位观测）
 - 时间范围：2025-03-28 至 至今
-- 许可：CC-BY-4.0
-- 关键词：copernicus, currents, insitu, oceans
 
-## 字段信息
+## 分辨率与规格
+
+- 数据类型：bigquery_table，在 Google Earth Engine 中调用
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
-| TIME | DATETIME | datetime of the observation |
-| TIME_QC | INT | Quality control flag for TIME.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| DEPTH | DOUBLE | Number of Depth levels |
-| DEPH | DOUBLE | Depth of the observation. (m) |
-| DEPH_QC | INT | Quality control flag for DEPH.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| TEMP | DOUBLE | Temperature 20-30 cm beneath the sea surface. (Degrees Celsius)  |
-| TEMP_QC | INT | Quality control flag for TEMP.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| EWCT | DOUBLE | West-East sea water velocity at the drogue depth from the drifter position (m/s)  |
-| EWCT_QC | INT | Quality control flag for EWCT.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| NSCT | DOUBLE | South-North sea water velocity at the drogue depth from the drifter position (m/s)  |
-| NSCT_QC | INT | Quality control flag for NSCT.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| WSTN_MODEL | DOUBLE | North component of the 6-hour integrated wind stress from ECMWF model interpolated at the drifter's position (N/m^2)  |
-| WSTN_MODEL_QC | DOUBLE | Quality control flag for WSTN_MODEL.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| WSTE_MODEL | DOUBLE | East component of the 6-hour integrated wind stress from ECMWF model interpolated at the drifter's position (N/m^2)  |
-| WSTE_MODEL_QC | INT | Quality control flag for WSTE_MODEL.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| WSPN_MODEL | DOUBLE | South-North 6-hour integrated 10-m wind component from ECMWF model interpolated at the drifter's position (m/s)  |
-| WSPN_MODEL_QC | INT | Quality control flag for WSPN_MODEL.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| WSPE_MODEL | DOUBLE | West-East 6-hour integrated 10-m wind component from ECMWF model interpolated at the drifter's position (m/s)  |
-| WSPE_MODEL_QC | INT | Quality control flag for WSPE_MODEL.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| EWCT_WS | DOUBLE | West-East wind slippage correction (m/s) |
-| EWCT_WS_QC | INT | Quality control flag for EWCT_WS.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| NSCT_WS | DOUBLE | South-North wind slippage correction (m/s) |
-| NSCT_WS_QC | DOUBLE | Quality control flag for NSCT_WS.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| WS_TYPE_OF_PROCESSING | INT | Wind slippage correction processing method (Dimensionless)  * 0: Optimal mode, it is considered that the drifter trajectory is longer than 30 days * 1: Mean, the first/last days of the trajectory are completed using the mean value over the nearest 7 days. * 2: Undefined for drifters with trajectories shorter than 30 days.  |
-| PLATFORM_CODE | STRING | Platform code relative to each measurement |
-| CURRENT_TEST | STRING | Tests of drogue loss results. It contains the 3 flags value for the 3 tests in a float format [SAW]    * [S] submersion test   * [A] acceleration not done   * [W] wind-currents correlation  It's a three-character string where each character is one of the following digits:    * 0: Drogue probably missing   * 1: Test not performed or not relevant (case for some MO_TS_DC   platforms)   * 2: Weak probability of drogue presence   * 3: Strong probability of drogue presence  |
-| CURRENT_TEST_QC | INT | Quality control flag for CURRENT_TEST.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| DC_REFERENCE | STRING | Reference to the data center. |
-| POSITION_QC | INT | Quality control flag for POSITION.  * 0: No QC was performed * 1: good * 2: probably good * 3: Bad data that are potentially correctable * 4: Bad data * 5: value changed * 6: Not used * 7: nominal * 8: interpolated * 9: Missing value  Note that a valid value for the corresponding variable has a QC bit equal to 1, 2, 5, 7, or 8.  |
-| TRAJECTORY | STRING | Trajectory identifier |
-| geometry | GEOMETRY | Geographic location of the observation. |
+| TIME | DATETIME | 观测时间 |
+| TIME_QC | INT | TIME 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| DEPTH | DOUBLE | 深度层数 |
+| DEPH | DOUBLE | 观测深度（米） |
+| DEPH_QC | INT | DEPH 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| TEMP | DOUBLE | 海面下 20–30 厘米处温度（摄氏度） |
+| TEMP_QC | INT | TEMP 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| EWCT | DOUBLE | 漂流浮标在阻力伞深度处的东西向海水流速（米/秒） |
+| EWCT_QC | INT | EWCT 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| NSCT | DOUBLE | 漂流浮标在阻力伞深度处的南北向海水流速（米/秒） |
+| NSCT_QC | INT | NSCT 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| WSTN_MODEL | DOUBLE | 插值到浮标位置的 ECMWF 模式 6 小时积分风应力北向分量（牛/平方米） |
+| WSTN_MODEL_QC | DOUBLE | WSTN_MODEL 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| WSTE_MODEL | DOUBLE | 插值到浮标位置的 ECMWF 模式 6 小时积分风应力东向分量（牛/平方米） |
+| WSTE_MODEL_QC | INT | WSTE_MODEL 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| WSPN_MODEL | DOUBLE | 插值到浮标位置的 ECMWF 模式 6 小时积分 10 米风南北分量（米/秒） |
+| WSPN_MODEL_QC | INT | WSPN_MODEL 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| WSPE_MODEL | DOUBLE | 插值到浮标位置的 ECMWF 模式 6 小时积分 10 米风东西分量（米/秒） |
+| WSPE_MODEL_QC | INT | WSPE_MODEL 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| EWCT_WS | DOUBLE | 东西向风滑移订正（米/秒） |
+| EWCT_WS_QC | INT | EWCT_WS 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| NSCT_WS | DOUBLE | 南北向风滑移订正（米/秒） |
+| NSCT_WS_QC | DOUBLE | NSCT_WS 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| WS_TYPE_OF_PROCESSING | INT | 风滑移订正处理方法（无量纲）：0=最优模式，认为浮标轨迹长于 30 天；1=平均，用最近 7 天平均值补全轨迹首/末几天；2=未定义，用于轨迹短于 30 天的浮标 |
+| PLATFORM_CODE | STRING | 每次测量对应的平台代码 |
+| CURRENT_TEST | STRING | 阻力伞丢失测试结果，包含 3 个测试的标志值 [SAW]（浮点格式字符串）：[S] 浸没测试，[A] 加速度（未做），[W] 风-流相关；三字符字符串，每位取值为：0=阻力伞很可能已丢失，1=测试未执行或不相关（某些 MO_TS_DC 平台），2=阻力伞存在概率弱，3=阻力伞存在概率强 |
+| CURRENT_TEST_QC | INT | CURRENT_TEST 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| DC_REFERENCE | STRING | 数据中心引用 |
+| POSITION_QC | INT | POSITION 的质量控制标志：0=未做质控，1=好，2=可能好，3=坏数据但可能可订正，4=坏数据，5=值已变更，6=未用，7=名义值，8=插值，9=缺测值。注：对应变量为有效值时，该质控位应为 1、2、5、7 或 8 |
+| TRAJECTORY | STRING | 轨迹标识 |
+| geometry | GEOMETRY | 观测的地理位置 |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 用漂流浮标轨迹分析近表层海流
+- 经风滑移订正的表层流速研究
+- 用原位漂流数据验证模型
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('COPERNICUS/MARINE/INSITU_MULTI_4KM/DRIFTER');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/INSITU_MULTI_4KM/DRIFTER`
+- 提供方：Copernicus、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_INSITU_MULTI_4KM_DRIFTER
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：copernicus, currents, insitu, oceans
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [全球海洋水色光学产品（多源，4 公里，月度）](/pages/b4a5e847/)
+- [全球海洋水色初级生产产品（多源，4 公里）](/pages/6396836c/)
+- [全球海洋水色反射率产品（OLCI，300 米）](/pages/f4ffb7b4/)
+- [全球海洋水色反射率产品（多源，4 公里）](/pages/472dc170/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

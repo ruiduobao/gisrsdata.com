@@ -1,5 +1,5 @@
 ---
-title: "Copernicus Global Ocean Bio-Geo-Chemical Forecast - OPTICS"
+title: "哥白尼全球海洋生物地球化学预报 OPTICS（光衰减）"
 date: 2026-11-03 12:00:00
 permalink: /pages/adf1ae4b/
 categories:
@@ -13,101 +13,112 @@ tags:
   - "oceans"
 ---
 
-# Copernicus Global Ocean Bio-Geo-Chemical Forecast - OPTICS
+# 哥白尼全球海洋生物地球化学预报 OPTICS（光衰减）
 
-## 数据集简介
+英文原名：Copernicus Global Ocean Bio-Geo-Chemical Forecast - OPTICS
 
-The Operational Mercator Ocean biogeochemical global ocean analysis and
-forecast system at 1/4 degree is providing 10 days of 3D global ocean
-forecasts updated weekly. The time series is aggregated in time, in order
-to reach a two full year's time series sliding window. This product
-includes daily and monthly mean files of biogeochemical parameters
-(chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved
-iron, primary production, phytoplankton, zooplankton, PH, and surface
-partial pressure of carbon dioxide) over the global ocean. The global
-ocean output files are displayed with a 1/4 degree horizontal resolution
-with regular longitude/latitude equirectangular projection.
-These products are provided on 50 vertical levels with
-depths ranging from 0.49m to 5727.92m.
-<br><br> This dataset consists of diffuse attenuation
-coefficient of light in sea water.
+## 这是什么数据
 
-## 基本信息
+Mercator Ocean 运行的全球海洋生物地球化学分析与预报系统（1/4 度）提供 10 天的全球海洋三维预报，每周更新。时间序列经时间聚合，形成两整年的滑动窗口。本产品包含全球海洋生物地球化学参数的逐日与逐月平均文件（叶绿素、硝酸盐、磷酸盐、硅酸盐、溶解氧、溶解铁、初级生产、浮游植物、浮游动物、pH 和表层二氧化碳分压），水平分辨率 1/4 度、规则经纬度等距圆柱投影，垂直方向 50 层，深度从 0.49 米到 5727.92 米。
 
-- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/OPTICS`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Copernicus、Google Earth Engine
+本数据集包含海水中光的漫衰减系数。
+
+## 覆盖范围与时间
+
+- 覆盖范围：全球海洋
 - 时间范围：2022-01-01 至 2025-09-26
-- 空间分辨率：27750 米
-- 许可：CC-BY-4.0
-- 关键词：copernicus, daily, forecast, oceans
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 27,750 米（约 27.75 公里（1/4 度））
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| kd_depth1 | diffuse attenuation coeff of light in sea water (depth 1, 0.4940m) | 27750 |  |
-| kd_depth2 | diffuse attenuation coeff of light in sea water (depth 2, 1.5414m) | 27750 |  |
-| kd_depth3 | diffuse attenuation coeff of light in sea water (depth 3, 2.6457m) | 27750 |  |
-| kd_depth4 | diffuse attenuation coeff of light in sea water (depth 4, 3.8195m) | 27750 |  |
-| kd_depth5 | diffuse attenuation coeff of light in sea water (depth 5, 5.0782m) | 27750 |  |
-| kd_depth6 | diffuse attenuation coeff of light in sea water (depth 6, 6.4406m) | 27750 |  |
-| kd_depth7 | diffuse attenuation coeff of light in sea water (depth 7, 7.9296m) | 27750 |  |
-| kd_depth8 | diffuse attenuation coeff of light in sea water (depth 8, 9.5730m) | 27750 |  |
-| kd_depth9 | diffuse attenuation coeff of light in sea water (depth 9, 11.4050m) | 27750 |  |
-| kd_depth10 | diffuse attenuation coeff of light in sea water (depth 10, 13.4671m) | 27750 |  |
-| kd_depth11 | diffuse attenuation coeff of light in sea water (depth 11, 15.8101m) | 27750 |  |
-| kd_depth12 | diffuse attenuation coeff of light in sea water (depth 12, 18.4956m) | 27750 |  |
-| kd_depth13 | diffuse attenuation coeff of light in sea water (depth 13, 21.5988m) | 27750 |  |
-| kd_depth14 | diffuse attenuation coeff of light in sea water (depth 14, 25.2114m) | 27750 |  |
-| kd_depth15 | diffuse attenuation coeff of light in sea water (depth 15, 29.4447m) | 27750 |  |
-| kd_depth16 | diffuse attenuation coeff of light in sea water (depth 16, 34.4342m) | 27750 |  |
-| kd_depth17 | diffuse attenuation coeff of light in sea water (depth 17, 40.3441m) | 27750 |  |
-| kd_depth18 | diffuse attenuation coeff of light in sea water (depth 18, 47.3737m) | 27750 |  |
-| kd_depth19 | diffuse attenuation coeff of light in sea water (depth 19, 55.7643m) | 27750 |  |
-| kd_depth20 | diffuse attenuation coeff of light in sea water (depth 20, 65.8073m) | 27750 |  |
-| kd_depth21 | diffuse attenuation coeff of light in sea water (depth 21, 77.8539m) | 27750 |  |
-| kd_depth22 | diffuse attenuation coeff of light in sea water (depth 22, 92.3261m) | 27750 |  |
-| kd_depth23 | diffuse attenuation coeff of light in sea water (depth 23, 109.7293m) | 27750 |  |
-| kd_depth24 | diffuse attenuation coeff of light in sea water (depth 24, 130.6660m) | 27750 |  |
-| kd_depth25 | diffuse attenuation coeff of light in sea water (depth 25, 155.8507m) | 27750 |  |
-| kd_depth26 | diffuse attenuation coeff of light in sea water (depth 26, 186.1256m) | 27750 |  |
-| kd_depth27 | diffuse attenuation coeff of light in sea water (depth 27, 222.4752m) | 27750 |  |
-| kd_depth28 | diffuse attenuation coeff of light in sea water (depth 28, 266.0403m) | 27750 |  |
-| kd_depth29 | diffuse attenuation coeff of light in sea water (depth 29, 318.1274m) | 27750 |  |
-| kd_depth30 | diffuse attenuation coeff of light in sea water (depth 30, 380.2130m) | 27750 |  |
-| kd_depth31 | diffuse attenuation coeff of light in sea water (depth 31, 453.9377m) | 27750 |  |
-| kd_depth32 | diffuse attenuation coeff of light in sea water (depth 32, 541.0889m) | 27750 |  |
-| kd_depth33 | diffuse attenuation coeff of light in sea water (depth 33, 643.5668m) | 27750 |  |
-| kd_depth34 | diffuse attenuation coeff of light in sea water (depth 34, 763.3331m) | 27750 |  |
-| kd_depth35 | diffuse attenuation coeff of light in sea water (depth 35, 902.3393m) | 27750 |  |
-| kd_depth36 | diffuse attenuation coeff of light in sea water (depth 36, 1062.4397m) | 27750 |  |
-| kd_depth37 | diffuse attenuation coeff of light in sea water (depth 37, 1245.2911m) | 27750 |  |
-| kd_depth38 | diffuse attenuation coeff of light in sea water (depth 38, 1452.2510m) | 27750 |  |
-| kd_depth39 | diffuse attenuation coeff of light in sea water (depth 39, 1684.2844m) | 27750 |  |
-| kd_depth40 | diffuse attenuation coeff of light in sea water (depth 40, 1941.8934m) | 27750 |  |
-| kd_depth41 | diffuse attenuation coeff of light in sea water (depth 41, 2225.0779m) | 27750 |  |
-| kd_depth42 | diffuse attenuation coeff of light in sea water (depth 42, 2533.3362m) | 27750 |  |
-| kd_depth43 | diffuse attenuation coeff of light in sea water (depth 43, 2865.7026m) | 27750 |  |
-| kd_depth44 | diffuse attenuation coeff of light in sea water (depth 44, 3220.8203m) | 27750 |  |
-| kd_depth45 | diffuse attenuation coeff of light in sea water (depth 45, 3597.0320m) | 27750 |  |
-| kd_depth46 | diffuse attenuation coeff of light in sea water (depth 46, 3992.4839m) | 27750 |  |
-| kd_depth47 | diffuse attenuation coeff of light in sea water (depth 47, 4405.2241m) | 27750 |  |
-| kd_depth48 | diffuse attenuation coeff of light in sea water (depth 48, 4833.2905m) | 27750 |  |
-| kd_depth49 | diffuse attenuation coeff of light in sea water (depth 49, 5274.7842m) | 27750 |  |
-| kd_depth50 | diffuse attenuation coeff of light in sea water (depth 50, 5727.9165m) | 27750 |  |
+| kd_depth1 | 海水中光的漫衰减系数（第 1 层，深度 0.4940 米） | 27750 |  |
+| kd_depth2 | 海水中光的漫衰减系数（第 2 层，深度 1.5414 米） | 27750 |  |
+| kd_depth3 | 海水中光的漫衰减系数（第 3 层，深度 2.6457 米） | 27750 |  |
+| kd_depth4 | 海水中光的漫衰减系数（第 4 层，深度 3.8195 米） | 27750 |  |
+| kd_depth5 | 海水中光的漫衰减系数（第 5 层，深度 5.0782 米） | 27750 |  |
+| kd_depth6 | 海水中光的漫衰减系数（第 6 层，深度 6.4406 米） | 27750 |  |
+| kd_depth7 | 海水中光的漫衰减系数（第 7 层，深度 7.9296 米） | 27750 |  |
+| kd_depth8 | 海水中光的漫衰减系数（第 8 层，深度 9.5730 米） | 27750 |  |
+| kd_depth9 | 海水中光的漫衰减系数（第 9 层，深度 11.4050 米） | 27750 |  |
+| kd_depth10 | 海水中光的漫衰减系数（第 10 层，深度 13.4671 米） | 27750 |  |
+| kd_depth11 | 海水中光的漫衰减系数（第 11 层，深度 15.8101 米） | 27750 |  |
+| kd_depth12 | 海水中光的漫衰减系数（第 12 层，深度 18.4956 米） | 27750 |  |
+| kd_depth13 | 海水中光的漫衰减系数（第 13 层，深度 21.5988 米） | 27750 |  |
+| kd_depth14 | 海水中光的漫衰减系数（第 14 层，深度 25.2114 米） | 27750 |  |
+| kd_depth15 | 海水中光的漫衰减系数（第 15 层，深度 29.4447 米） | 27750 |  |
+| kd_depth16 | 海水中光的漫衰减系数（第 16 层，深度 34.4342 米） | 27750 |  |
+| kd_depth17 | 海水中光的漫衰减系数（第 17 层，深度 40.3441 米） | 27750 |  |
+| kd_depth18 | 海水中光的漫衰减系数（第 18 层，深度 47.3737 米） | 27750 |  |
+| kd_depth19 | 海水中光的漫衰减系数（第 19 层，深度 55.7643 米） | 27750 |  |
+| kd_depth20 | 海水中光的漫衰减系数（第 20 层，深度 65.8073 米） | 27750 |  |
+| kd_depth21 | 海水中光的漫衰减系数（第 21 层，深度 77.8539 米） | 27750 |  |
+| kd_depth22 | 海水中光的漫衰减系数（第 22 层，深度 92.3261 米） | 27750 |  |
+| kd_depth23 | 海水中光的漫衰减系数（第 23 层，深度 109.7293 米） | 27750 |  |
+| kd_depth24 | 海水中光的漫衰减系数（第 24 层，深度 130.6660 米） | 27750 |  |
+| kd_depth25 | 海水中光的漫衰减系数（第 25 层，深度 155.8507 米） | 27750 |  |
+| kd_depth26 | 海水中光的漫衰减系数（第 26 层，深度 186.1256 米） | 27750 |  |
+| kd_depth27 | 海水中光的漫衰减系数（第 27 层，深度 222.4752 米） | 27750 |  |
+| kd_depth28 | 海水中光的漫衰减系数（第 28 层，深度 266.0403 米） | 27750 |  |
+| kd_depth29 | 海水中光的漫衰减系数（第 29 层，深度 318.1274 米） | 27750 |  |
+| kd_depth30 | 海水中光的漫衰减系数（第 30 层，深度 380.2130 米） | 27750 |  |
+| kd_depth31 | 海水中光的漫衰减系数（第 31 层，深度 453.9377 米） | 27750 |  |
+| kd_depth32 | 海水中光的漫衰减系数（第 32 层，深度 541.0889 米） | 27750 |  |
+| kd_depth33 | 海水中光的漫衰减系数（第 33 层，深度 643.5668 米） | 27750 |  |
+| kd_depth34 | 海水中光的漫衰减系数（第 34 层，深度 763.3331 米） | 27750 |  |
+| kd_depth35 | 海水中光的漫衰减系数（第 35 层，深度 902.3393 米） | 27750 |  |
+| kd_depth36 | 海水中光的漫衰减系数（第 36 层，深度 1062.4397 米） | 27750 |  |
+| kd_depth37 | 海水中光的漫衰减系数（第 37 层，深度 1245.2911 米） | 27750 |  |
+| kd_depth38 | 海水中光的漫衰减系数（第 38 层，深度 1452.2510 米） | 27750 |  |
+| kd_depth39 | 海水中光的漫衰减系数（第 39 层，深度 1684.2844 米） | 27750 |  |
+| kd_depth40 | 海水中光的漫衰减系数（第 40 层，深度 1941.8934 米） | 27750 |  |
+| kd_depth41 | 海水中光的漫衰减系数（第 41 层，深度 2225.0779 米） | 27750 |  |
+| kd_depth42 | 海水中光的漫衰减系数（第 42 层，深度 2533.3362 米） | 27750 |  |
+| kd_depth43 | 海水中光的漫衰减系数（第 43 层，深度 2865.7026 米） | 27750 |  |
+| kd_depth44 | 海水中光的漫衰减系数（第 44 层，深度 3220.8203 米） | 27750 |  |
+| kd_depth45 | 海水中光的漫衰减系数（第 45 层，深度 3597.0320 米） | 27750 |  |
+| kd_depth46 | 海水中光的漫衰减系数（第 46 层，深度 3992.4839 米） | 27750 |  |
+| kd_depth47 | 海水中光的漫衰减系数（第 47 层，深度 4405.2241 米） | 27750 |  |
+| kd_depth48 | 海水中光的漫衰减系数（第 48 层，深度 4833.2905 米） | 27750 |  |
+| kd_depth49 | 海水中光的漫衰减系数（第 49 层，深度 5274.7842 米） | 27750 |  |
+| kd_depth50 | 海水中光的漫衰减系数（第 50 层，深度 5727.9165 米） | 27750 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 水下光环境与真光层研究
+- 海洋水色与初级生产建模
+- 10 天尺度的短期预报应用
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/OPTICS');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/OPTICS`
+- 提供方：Copernicus、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_OPTICS
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：copernicus, daily, forecast, oceans
 - 数据引用：E.U. Copernicus Marine Service Information.
 [https://doi.org/10.48670/moi-00015](https://doi.org/10.48670/moi-00015)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [全球海洋水色光学产品（多源，4 公里，月度）](/pages/b4a5e847/)
+- [全球海洋水色初级生产产品（多源，4 公里）](/pages/6396836c/)
+- [全球海洋水色反射率产品（OLCI，300 米）](/pages/f4ffb7b4/)
+- [全球海洋水色反射率产品（多源，4 公里）](/pages/472dc170/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

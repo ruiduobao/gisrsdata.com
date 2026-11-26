@@ -1,5 +1,5 @@
 ---
-title: "Copernicus Global Ocean Bio-Geo-Chemical Forecast - PFT"
+title: "哥白尼全球海洋生物地球化学预报 PFT（叶绿素与浮游植物）"
 date: 2026-11-03 12:00:00
 permalink: /pages/70989d7f/
 categories:
@@ -13,131 +13,142 @@ tags:
   - "oceans"
 ---
 
-# Copernicus Global Ocean Bio-Geo-Chemical Forecast - PFT
+# 哥白尼全球海洋生物地球化学预报 PFT（叶绿素与浮游植物）
 
-## 数据集简介
+英文原名：Copernicus Global Ocean Bio-Geo-Chemical Forecast - PFT
 
-The Operational Mercator Ocean biogeochemical global ocean analysis and
-forecast system at 1/4 degree is providing 10 days of 3D global ocean
-forecasts updated weekly. The time series is aggregated in time, in order
-to reach a two full year's time series sliding window. This product
-includes daily and monthly mean files of biogeochemical parameters
-(chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved
-iron, primary production, phytoplankton, zooplankton, PH, and surface
-partial pressure of carbon dioxide) over the global ocean. The global
-ocean output files are displayed with a 1/4 degree horizontal resolution
-with regular longitude/latitude equirectangular projection.
-These products are provided on 50 vertical levels with
-depths ranging from 0.49m to 5727.92m.
-<br><br> This dataset consists of total chlorophyll and
-total phytoplankton concentrations.
+## 这是什么数据
 
-## 基本信息
+Mercator Ocean 运行的全球海洋生物地球化学分析与预报系统（1/4 度）提供 10 天的全球海洋三维预报，每周更新。时间序列经时间聚合，形成两整年的滑动窗口。本产品包含全球海洋生物地球化学参数的逐日与逐月平均文件（叶绿素、硝酸盐、磷酸盐、硅酸盐、溶解氧、溶解铁、初级生产、浮游植物、浮游动物、pH 和表层二氧化碳分压），水平分辨率 1/4 度、规则经纬度等距圆柱投影，垂直方向 50 层，深度从 0.49 米到 5727.92 米。
 
-- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/PFT`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Copernicus、Google Earth Engine
+本数据集包含总叶绿素和浮游植物总量的浓度。
+
+## 覆盖范围与时间
+
+- 覆盖范围：全球海洋
 - 时间范围：2022-01-01 至 2025-09-26
-- 空间分辨率：27750 米
-- 许可：CC-BY-4.0
-- 关键词：copernicus, daily, forecast, oceans
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 27,750 米（约 27.75 公里（1/4 度））
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| chl_depth1 | Total Chlorophyll (depth 1, 0.4940m) | 27750 |  |
-| chl_depth2 | Total Chlorophyll (depth 2, 1.5414m) | 27750 |  |
-| chl_depth3 | Total Chlorophyll (depth 3, 2.6457m) | 27750 |  |
-| chl_depth4 | Total Chlorophyll (depth 4, 3.8195m) | 27750 |  |
-| chl_depth5 | Total Chlorophyll (depth 5, 5.0782m) | 27750 |  |
-| chl_depth6 | Total Chlorophyll (depth 6, 6.4406m) | 27750 |  |
-| chl_depth7 | Total Chlorophyll (depth 7, 7.9296m) | 27750 |  |
-| chl_depth8 | Total Chlorophyll (depth 8, 9.5730m) | 27750 |  |
-| chl_depth9 | Total Chlorophyll (depth 9, 11.4050m) | 27750 |  |
-| chl_depth10 | Total Chlorophyll (depth 10, 13.4671m) | 27750 |  |
-| chl_depth11 | Total Chlorophyll (depth 11, 15.8101m) | 27750 |  |
-| chl_depth12 | Total Chlorophyll (depth 12, 18.4956m) | 27750 |  |
-| chl_depth13 | Total Chlorophyll (depth 13, 21.5988m) | 27750 |  |
-| chl_depth14 | Total Chlorophyll (depth 14, 25.2114m) | 27750 |  |
-| chl_depth15 | Total Chlorophyll (depth 15, 29.4447m) | 27750 |  |
-| chl_depth16 | Total Chlorophyll (depth 16, 34.4342m) | 27750 |  |
-| chl_depth17 | Total Chlorophyll (depth 17, 40.3441m) | 27750 |  |
-| chl_depth18 | Total Chlorophyll (depth 18, 47.3737m) | 27750 |  |
-| chl_depth19 | Total Chlorophyll (depth 19, 55.7643m) | 27750 |  |
-| chl_depth20 | Total Chlorophyll (depth 20, 65.8073m) | 27750 |  |
-| chl_depth21 | Total Chlorophyll (depth 21, 77.8539m) | 27750 |  |
-| chl_depth22 | Total Chlorophyll (depth 22, 92.3261m) | 27750 |  |
-| chl_depth23 | Total Chlorophyll (depth 23, 109.7293m) | 27750 |  |
-| chl_depth24 | Total Chlorophyll (depth 24, 130.6660m) | 27750 |  |
-| chl_depth25 | Total Chlorophyll (depth 25, 155.8507m) | 27750 |  |
-| chl_depth26 | Total Chlorophyll (depth 26, 186.1256m) | 27750 |  |
-| chl_depth27 | Total Chlorophyll (depth 27, 222.4752m) | 27750 |  |
-| chl_depth28 | Total Chlorophyll (depth 28, 266.0403m) | 27750 |  |
-| chl_depth29 | Total Chlorophyll (depth 29, 318.1274m) | 27750 |  |
-| chl_depth30 | Total Chlorophyll (depth 30, 380.2130m) | 27750 |  |
-| chl_depth31 | Total Chlorophyll (depth 31, 453.9377m) | 27750 |  |
-| chl_depth32 | Total Chlorophyll (depth 32, 541.0889m) | 27750 |  |
-| chl_depth33 | Total Chlorophyll (depth 33, 643.5668m) | 27750 |  |
-| chl_depth34 | Total Chlorophyll (depth 34, 763.3331m) | 27750 |  |
-| chl_depth35 | Total Chlorophyll (depth 35, 902.3393m) | 27750 |  |
-| chl_depth36 | Total Chlorophyll (depth 36, 1062.4397m) | 27750 |  |
-| chl_depth37 | Total Chlorophyll (depth 37, 1245.2911m) | 27750 |  |
-| chl_depth38 | Total Chlorophyll (depth 38, 1452.2510m) | 27750 |  |
-| chl_depth39 | Total Chlorophyll (depth 39, 1684.2844m) | 27750 |  |
-| chl_depth40 | Total Chlorophyll (depth 40, 1941.8934m) | 27750 |  |
-| chl_depth41 | Total Chlorophyll (depth 41, 2225.0779m) | 27750 |  |
-| chl_depth42 | Total Chlorophyll (depth 42, 2533.3362m) | 27750 |  |
-| chl_depth43 | Total Chlorophyll (depth 43, 2865.7026m) | 27750 |  |
-| chl_depth44 | Total Chlorophyll (depth 44, 3220.8203m) | 27750 |  |
-| chl_depth45 | Total Chlorophyll (depth 45, 3597.0320m) | 27750 |  |
-| chl_depth46 | Total Chlorophyll (depth 46, 3992.4839m) | 27750 |  |
-| chl_depth47 | Total Chlorophyll (depth 47, 4405.2241m) | 27750 |  |
-| chl_depth48 | Total Chlorophyll (depth 48, 4833.2905m) | 27750 |  |
-| chl_depth49 | Total Chlorophyll (depth 49, 5274.7842m) | 27750 |  |
-| chl_depth50 | Total Chlorophyll (depth 50, 5727.9165m) | 27750 |  |
-| phyc_depth1 | Total Phytoplankton (depth 1, 0.4940m) | 27750 |  |
-| phyc_depth2 | Total Phytoplankton (depth 2, 1.5414m) | 27750 |  |
-| phyc_depth3 | Total Phytoplankton (depth 3, 2.6457m) | 27750 |  |
-| phyc_depth4 | Total Phytoplankton (depth 4, 3.8195m) | 27750 |  |
-| phyc_depth5 | Total Phytoplankton (depth 5, 5.0782m) | 27750 |  |
-| phyc_depth6 | Total Phytoplankton (depth 6, 6.4406m) | 27750 |  |
-| phyc_depth7 | Total Phytoplankton (depth 7, 7.9296m) | 27750 |  |
-| phyc_depth8 | Total Phytoplankton (depth 8, 9.5730m) | 27750 |  |
-| phyc_depth9 | Total Phytoplankton (depth 9, 11.4050m) | 27750 |  |
-| phyc_depth10 | Total Phytoplankton (depth 10, 13.4671m) | 27750 |  |
-| phyc_depth11 | Total Phytoplankton (depth 11, 15.8101m) | 27750 |  |
-| phyc_depth12 | Total Phytoplankton (depth 12, 18.4956m) | 27750 |  |
-| phyc_depth13 | Total Phytoplankton (depth 13, 21.5988m) | 27750 |  |
-| phyc_depth14 | Total Phytoplankton (depth 14, 25.2114m) | 27750 |  |
-| phyc_depth15 | Total Phytoplankton (depth 15, 29.4447m) | 27750 |  |
-| phyc_depth16 | Total Phytoplankton (depth 16, 34.4342m) | 27750 |  |
-| phyc_depth17 | Total Phytoplankton (depth 17, 40.3441m) | 27750 |  |
-| phyc_depth18 | Total Phytoplankton (depth 18, 47.3737m) | 27750 |  |
-| phyc_depth19 | Total Phytoplankton (depth 19, 55.7643m) | 27750 |  |
-| phyc_depth20 | Total Phytoplankton (depth 20, 65.8073m) | 27750 |  |
-| phyc_depth21 | Total Phytoplankton (depth 21, 77.8539m) | 27750 |  |
-| phyc_depth22 | Total Phytoplankton (depth 22, 92.3261m) | 27750 |  |
-| phyc_depth23 | Total Phytoplankton (depth 23, 109.7293m) | 27750 |  |
-| phyc_depth24 | Total Phytoplankton (depth 24, 130.6660m) | 27750 |  |
-| phyc_depth25 | Total Phytoplankton (depth 25, 155.8507m) | 27750 |  |
-| phyc_depth26 | Total Phytoplankton (depth 26, 186.1256m) | 27750 |  |
-| phyc_depth27 | Total Phytoplankton (depth 27, 222.4752m) | 27750 |  |
-| phyc_depth28 | Total Phytoplankton (depth 28, 266.0403m) | 27750 |  |
-| phyc_depth29 | Total Phytoplankton (depth 29, 318.1274m) | 27750 |  |
-| phyc_depth30 | Total Phytoplankton (depth 30, 380.2130m) | 27750 |  |
+| chl_depth1 | 总叶绿素（第 1 层，深度 0.4940 米） | 27750 |  |
+| chl_depth2 | 总叶绿素（第 2 层，深度 1.5414 米） | 27750 |  |
+| chl_depth3 | 总叶绿素（第 3 层，深度 2.6457 米） | 27750 |  |
+| chl_depth4 | 总叶绿素（第 4 层，深度 3.8195 米） | 27750 |  |
+| chl_depth5 | 总叶绿素（第 5 层，深度 5.0782 米） | 27750 |  |
+| chl_depth6 | 总叶绿素（第 6 层，深度 6.4406 米） | 27750 |  |
+| chl_depth7 | 总叶绿素（第 7 层，深度 7.9296 米） | 27750 |  |
+| chl_depth8 | 总叶绿素（第 8 层，深度 9.5730 米） | 27750 |  |
+| chl_depth9 | 总叶绿素（第 9 层，深度 11.4050 米） | 27750 |  |
+| chl_depth10 | 总叶绿素（第 10 层，深度 13.4671 米） | 27750 |  |
+| chl_depth11 | 总叶绿素（第 11 层，深度 15.8101 米） | 27750 |  |
+| chl_depth12 | 总叶绿素（第 12 层，深度 18.4956 米） | 27750 |  |
+| chl_depth13 | 总叶绿素（第 13 层，深度 21.5988 米） | 27750 |  |
+| chl_depth14 | 总叶绿素（第 14 层，深度 25.2114 米） | 27750 |  |
+| chl_depth15 | 总叶绿素（第 15 层，深度 29.4447 米） | 27750 |  |
+| chl_depth16 | 总叶绿素（第 16 层，深度 34.4342 米） | 27750 |  |
+| chl_depth17 | 总叶绿素（第 17 层，深度 40.3441 米） | 27750 |  |
+| chl_depth18 | 总叶绿素（第 18 层，深度 47.3737 米） | 27750 |  |
+| chl_depth19 | 总叶绿素（第 19 层，深度 55.7643 米） | 27750 |  |
+| chl_depth20 | 总叶绿素（第 20 层，深度 65.8073 米） | 27750 |  |
+| chl_depth21 | 总叶绿素（第 21 层，深度 77.8539 米） | 27750 |  |
+| chl_depth22 | 总叶绿素（第 22 层，深度 92.3261 米） | 27750 |  |
+| chl_depth23 | 总叶绿素（第 23 层，深度 109.7293 米） | 27750 |  |
+| chl_depth24 | 总叶绿素（第 24 层，深度 130.6660 米） | 27750 |  |
+| chl_depth25 | 总叶绿素（第 25 层，深度 155.8507 米） | 27750 |  |
+| chl_depth26 | 总叶绿素（第 26 层，深度 186.1256 米） | 27750 |  |
+| chl_depth27 | 总叶绿素（第 27 层，深度 222.4752 米） | 27750 |  |
+| chl_depth28 | 总叶绿素（第 28 层，深度 266.0403 米） | 27750 |  |
+| chl_depth29 | 总叶绿素（第 29 层，深度 318.1274 米） | 27750 |  |
+| chl_depth30 | 总叶绿素（第 30 层，深度 380.2130 米） | 27750 |  |
+| chl_depth31 | 总叶绿素（第 31 层，深度 453.9377 米） | 27750 |  |
+| chl_depth32 | 总叶绿素（第 32 层，深度 541.0889 米） | 27750 |  |
+| chl_depth33 | 总叶绿素（第 33 层，深度 643.5668 米） | 27750 |  |
+| chl_depth34 | 总叶绿素（第 34 层，深度 763.3331 米） | 27750 |  |
+| chl_depth35 | 总叶绿素（第 35 层，深度 902.3393 米） | 27750 |  |
+| chl_depth36 | 总叶绿素（第 36 层，深度 1062.4397 米） | 27750 |  |
+| chl_depth37 | 总叶绿素（第 37 层，深度 1245.2911 米） | 27750 |  |
+| chl_depth38 | 总叶绿素（第 38 层，深度 1452.2510 米） | 27750 |  |
+| chl_depth39 | 总叶绿素（第 39 层，深度 1684.2844 米） | 27750 |  |
+| chl_depth40 | 总叶绿素（第 40 层，深度 1941.8934 米） | 27750 |  |
+| chl_depth41 | 总叶绿素（第 41 层，深度 2225.0779 米） | 27750 |  |
+| chl_depth42 | 总叶绿素（第 42 层，深度 2533.3362 米） | 27750 |  |
+| chl_depth43 | 总叶绿素（第 43 层，深度 2865.7026 米） | 27750 |  |
+| chl_depth44 | 总叶绿素（第 44 层，深度 3220.8203 米） | 27750 |  |
+| chl_depth45 | 总叶绿素（第 45 层，深度 3597.0320 米） | 27750 |  |
+| chl_depth46 | 总叶绿素（第 46 层，深度 3992.4839 米） | 27750 |  |
+| chl_depth47 | 总叶绿素（第 47 层，深度 4405.2241 米） | 27750 |  |
+| chl_depth48 | 总叶绿素（第 48 层，深度 4833.2905 米） | 27750 |  |
+| chl_depth49 | 总叶绿素（第 49 层，深度 5274.7842 米） | 27750 |  |
+| chl_depth50 | 总叶绿素（第 50 层，深度 5727.9165 米） | 27750 |  |
+| phyc_depth1 | 浮游植物总量（第 1 层，深度 0.4940 米） | 27750 |  |
+| phyc_depth2 | 浮游植物总量（第 2 层，深度 1.5414 米） | 27750 |  |
+| phyc_depth3 | 浮游植物总量（第 3 层，深度 2.6457 米） | 27750 |  |
+| phyc_depth4 | 浮游植物总量（第 4 层，深度 3.8195 米） | 27750 |  |
+| phyc_depth5 | 浮游植物总量（第 5 层，深度 5.0782 米） | 27750 |  |
+| phyc_depth6 | 浮游植物总量（第 6 层，深度 6.4406 米） | 27750 |  |
+| phyc_depth7 | 浮游植物总量（第 7 层，深度 7.9296 米） | 27750 |  |
+| phyc_depth8 | 浮游植物总量（第 8 层，深度 9.5730 米） | 27750 |  |
+| phyc_depth9 | 浮游植物总量（第 9 层，深度 11.4050 米） | 27750 |  |
+| phyc_depth10 | 浮游植物总量（第 10 层，深度 13.4671 米） | 27750 |  |
+| phyc_depth11 | 浮游植物总量（第 11 层，深度 15.8101 米） | 27750 |  |
+| phyc_depth12 | 浮游植物总量（第 12 层，深度 18.4956 米） | 27750 |  |
+| phyc_depth13 | 浮游植物总量（第 13 层，深度 21.5988 米） | 27750 |  |
+| phyc_depth14 | 浮游植物总量（第 14 层，深度 25.2114 米） | 27750 |  |
+| phyc_depth15 | 浮游植物总量（第 15 层，深度 29.4447 米） | 27750 |  |
+| phyc_depth16 | 浮游植物总量（第 16 层，深度 34.4342 米） | 27750 |  |
+| phyc_depth17 | 浮游植物总量（第 17 层，深度 40.3441 米） | 27750 |  |
+| phyc_depth18 | 浮游植物总量（第 18 层，深度 47.3737 米） | 27750 |  |
+| phyc_depth19 | 浮游植物总量（第 19 层，深度 55.7643 米） | 27750 |  |
+| phyc_depth20 | 浮游植物总量（第 20 层，深度 65.8073 米） | 27750 |  |
+| phyc_depth21 | 浮游植物总量（第 21 层，深度 77.8539 米） | 27750 |  |
+| phyc_depth22 | 浮游植物总量（第 22 层，深度 92.3261 米） | 27750 |  |
+| phyc_depth23 | 浮游植物总量（第 23 层，深度 109.7293 米） | 27750 |  |
+| phyc_depth24 | 浮游植物总量（第 24 层，深度 130.6660 米） | 27750 |  |
+| phyc_depth25 | 浮游植物总量（第 25 层，深度 155.8507 米） | 27750 |  |
+| phyc_depth26 | 浮游植物总量（第 26 层，深度 186.1256 米） | 27750 |  |
+| phyc_depth27 | 浮游植物总量（第 27 层，深度 222.4752 米） | 27750 |  |
+| phyc_depth28 | 浮游植物总量（第 28 层，深度 266.0403 米） | 27750 |  |
+| phyc_depth29 | 浮游植物总量（第 29 层，深度 318.1274 米） | 27750 |  |
+| phyc_depth30 | 浮游植物总量（第 30 层，深度 380.2130 米） | 27750 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 三维监测浮游植物生物量与水华
+- 初级生产与食物网建模
+- 10 天尺度的短期预报应用
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/PFT');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/PFT`
+- 提供方：Copernicus、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_PFT
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：copernicus, daily, forecast, oceans
 - 数据引用：E.U. Copernicus Marine Service Information.
 [https://doi.org/10.48670/moi-00015](https://doi.org/10.48670/moi-00015)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [全球海洋水色光学产品（多源，4 公里，月度）](/pages/b4a5e847/)
+- [全球海洋水色初级生产产品（多源，4 公里）](/pages/6396836c/)
+- [全球海洋水色反射率产品（OLCI，300 米）](/pages/f4ffb7b4/)
+- [全球海洋水色反射率产品（多源，4 公里）](/pages/472dc170/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

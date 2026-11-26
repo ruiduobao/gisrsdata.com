@@ -79,6 +79,13 @@ Note: set Pixel Type to 16 bit signed (as read from the DEM properties); adjust 
 
 The data is provided through NASA Earthdata and requires a free Earthdata account to download. Follow Earthdata's data use policy and credit the source as the ASTER Global Digital Elevation Model.
 
+## Related datasets
+
+- [CryoSat-2 Antarctica 1 km DEM](/en/pages/a0390601/)
+- [SRTM Digital Elevation Data Version 4](/en/pages/81d193ff/)
+- [Copernicus DEM GLO-30 (2024_1)](/en/pages/3bdccac6/)
+- [Australian 5 m DEM (from LiDAR)](/en/pages/eb3acc3a/)
+
 ## Author
 
 ![](http://pics.landcover100.com/pics//image/202201281759734.png)

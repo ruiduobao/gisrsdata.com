@@ -1,5 +1,5 @@
 ---
-title: "Copernicus Global Ocean Bio-Geo-Chemical Forecast - NUT"
+title: "哥白尼全球海洋生物地球化学预报 NUT（营养盐）"
 date: 2026-11-03 12:00:00
 permalink: /pages/0e1aef6c/
 categories:
@@ -13,131 +13,142 @@ tags:
   - "oceans"
 ---
 
-# Copernicus Global Ocean Bio-Geo-Chemical Forecast - NUT
+# 哥白尼全球海洋生物地球化学预报 NUT（营养盐）
 
-## 数据集简介
+英文原名：Copernicus Global Ocean Bio-Geo-Chemical Forecast - NUT
 
-The Operational Mercator Ocean biogeochemical global ocean analysis and
-forecast system at 1/4 degree is providing 10 days of 3D global ocean
-forecasts updated weekly. The time series is aggregated in time, in order
-to reach a two full year's time series sliding window. This product
-includes daily and monthly mean files of biogeochemical parameters
-(chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, dissolved
-iron, primary production, phytoplankton, zooplankton, PH, and surface
-partial pressure of carbon dioxide) over the global ocean. The global
-ocean output files are displayed with a 1/4 degree horizontal resolution
-with regular longitude/latitude equirectangular projection.
-These products are provided on 50 vertical levels with
-depths ranging from 0.49m to 5727.92m.
-<br><br> This dataset consists of nitrate, phosphate,
-dissolved silicate, and dissolved iron concentrations.
+## 这是什么数据
 
-## 基本信息
+Mercator Ocean 运行的全球海洋生物地球化学分析与预报系统（1/4 度）提供 10 天的全球海洋三维预报，每周更新。时间序列经时间聚合，形成两整年的滑动窗口。本产品包含全球海洋生物地球化学参数的逐日与逐月平均文件（叶绿素、硝酸盐、磷酸盐、硅酸盐、溶解氧、溶解铁、初级生产、浮游植物、浮游动物、pH 和表层二氧化碳分压），水平分辨率 1/4 度、规则经纬度等距圆柱投影，垂直方向 50 层，深度从 0.49 米到 5727.92 米。
 
-- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/NUT`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Copernicus、Google Earth Engine
+本数据集包含硝酸盐、磷酸盐、溶解硅酸盐和溶解铁的浓度。
+
+## 覆盖范围与时间
+
+- 覆盖范围：全球海洋
 - 时间范围：2022-01-01 至 2025-09-26
-- 空间分辨率：27750 米
-- 许可：CC-BY-4.0
-- 关键词：copernicus, daily, forecast, oceans
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 27,750 米（约 27.75 公里（1/4 度））
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| no3_depth1 | Nitrate (depth 1, 0.4940m) | 27750 |  |
-| no3_depth2 | Nitrate (depth 2, 1.5414m) | 27750 |  |
-| no3_depth3 | Nitrate (depth 3, 2.6457m) | 27750 |  |
-| no3_depth4 | Nitrate (depth 4, 3.8195m) | 27750 |  |
-| no3_depth5 | Nitrate (depth 5, 5.0782m) | 27750 |  |
-| no3_depth6 | Nitrate (depth 6, 6.4406m) | 27750 |  |
-| no3_depth7 | Nitrate (depth 7, 7.9296m) | 27750 |  |
-| no3_depth8 | Nitrate (depth 8, 9.5730m) | 27750 |  |
-| no3_depth9 | Nitrate (depth 9, 11.4050m) | 27750 |  |
-| no3_depth10 | Nitrate (depth 10, 13.4671m) | 27750 |  |
-| no3_depth11 | Nitrate (depth 11, 15.8101m) | 27750 |  |
-| no3_depth12 | Nitrate (depth 12, 18.4956m) | 27750 |  |
-| no3_depth13 | Nitrate (depth 13, 21.5988m) | 27750 |  |
-| no3_depth14 | Nitrate (depth 14, 25.2114m) | 27750 |  |
-| no3_depth15 | Nitrate (depth 15, 29.4447m) | 27750 |  |
-| no3_depth16 | Nitrate (depth 16, 34.4342m) | 27750 |  |
-| no3_depth17 | Nitrate (depth 17, 40.3441m) | 27750 |  |
-| no3_depth18 | Nitrate (depth 18, 47.3737m) | 27750 |  |
-| no3_depth19 | Nitrate (depth 19, 55.7643m) | 27750 |  |
-| no3_depth20 | Nitrate (depth 20, 65.8073m) | 27750 |  |
-| no3_depth21 | Nitrate (depth 21, 77.8539m) | 27750 |  |
-| no3_depth22 | Nitrate (depth 22, 92.3261m) | 27750 |  |
-| no3_depth23 | Nitrate (depth 23, 109.7293m) | 27750 |  |
-| no3_depth24 | Nitrate (depth 24, 130.6660m) | 27750 |  |
-| no3_depth25 | Nitrate (depth 25, 155.8507m) | 27750 |  |
-| no3_depth26 | Nitrate (depth 26, 186.1256m) | 27750 |  |
-| no3_depth27 | Nitrate (depth 27, 222.4752m) | 27750 |  |
-| no3_depth28 | Nitrate (depth 28, 266.0403m) | 27750 |  |
-| no3_depth29 | Nitrate (depth 29, 318.1274m) | 27750 |  |
-| no3_depth30 | Nitrate (depth 30, 380.2130m) | 27750 |  |
-| no3_depth31 | Nitrate (depth 31, 453.9377m) | 27750 |  |
-| no3_depth32 | Nitrate (depth 32, 541.0889m) | 27750 |  |
-| no3_depth33 | Nitrate (depth 33, 643.5668m) | 27750 |  |
-| no3_depth34 | Nitrate (depth 34, 763.3331m) | 27750 |  |
-| no3_depth35 | Nitrate (depth 35, 902.3393m) | 27750 |  |
-| no3_depth36 | Nitrate (depth 36, 1062.4397m) | 27750 |  |
-| no3_depth37 | Nitrate (depth 37, 1245.2911m) | 27750 |  |
-| no3_depth38 | Nitrate (depth 38, 1452.2510m) | 27750 |  |
-| no3_depth39 | Nitrate (depth 39, 1684.2844m) | 27750 |  |
-| no3_depth40 | Nitrate (depth 40, 1941.8934m) | 27750 |  |
-| no3_depth41 | Nitrate (depth 41, 2225.0779m) | 27750 |  |
-| no3_depth42 | Nitrate (depth 42, 2533.3362m) | 27750 |  |
-| no3_depth43 | Nitrate (depth 43, 2865.7026m) | 27750 |  |
-| no3_depth44 | Nitrate (depth 44, 3220.8203m) | 27750 |  |
-| no3_depth45 | Nitrate (depth 45, 3597.0320m) | 27750 |  |
-| no3_depth46 | Nitrate (depth 46, 3992.4839m) | 27750 |  |
-| no3_depth47 | Nitrate (depth 47, 4405.2241m) | 27750 |  |
-| no3_depth48 | Nitrate (depth 48, 4833.2905m) | 27750 |  |
-| no3_depth49 | Nitrate (depth 49, 5274.7842m) | 27750 |  |
-| no3_depth50 | Nitrate (depth 50, 5727.9165m) | 27750 |  |
-| po4_depth1 | Phosphate (depth 1, 0.4940m) | 27750 |  |
-| po4_depth2 | Phosphate (depth 2, 1.5414m) | 27750 |  |
-| po4_depth3 | Phosphate (depth 3, 2.6457m) | 27750 |  |
-| po4_depth4 | Phosphate (depth 4, 3.8195m) | 27750 |  |
-| po4_depth5 | Phosphate (depth 5, 5.0782m) | 27750 |  |
-| po4_depth6 | Phosphate (depth 6, 6.4406m) | 27750 |  |
-| po4_depth7 | Phosphate (depth 7, 7.9296m) | 27750 |  |
-| po4_depth8 | Phosphate (depth 8, 9.5730m) | 27750 |  |
-| po4_depth9 | Phosphate (depth 9, 11.4050m) | 27750 |  |
-| po4_depth10 | Phosphate (depth 10, 13.4671m) | 27750 |  |
-| po4_depth11 | Phosphate (depth 11, 15.8101m) | 27750 |  |
-| po4_depth12 | Phosphate (depth 12, 18.4956m) | 27750 |  |
-| po4_depth13 | Phosphate (depth 13, 21.5988m) | 27750 |  |
-| po4_depth14 | Phosphate (depth 14, 25.2114m) | 27750 |  |
-| po4_depth15 | Phosphate (depth 15, 29.4447m) | 27750 |  |
-| po4_depth16 | Phosphate (depth 16, 34.4342m) | 27750 |  |
-| po4_depth17 | Phosphate (depth 17, 40.3441m) | 27750 |  |
-| po4_depth18 | Phosphate (depth 18, 47.3737m) | 27750 |  |
-| po4_depth19 | Phosphate (depth 19, 55.7643m) | 27750 |  |
-| po4_depth20 | Phosphate (depth 20, 65.8073m) | 27750 |  |
-| po4_depth21 | Phosphate (depth 21, 77.8539m) | 27750 |  |
-| po4_depth22 | Phosphate (depth 22, 92.3261m) | 27750 |  |
-| po4_depth23 | Phosphate (depth 23, 109.7293m) | 27750 |  |
-| po4_depth24 | Phosphate (depth 24, 130.6660m) | 27750 |  |
-| po4_depth25 | Phosphate (depth 25, 155.8507m) | 27750 |  |
-| po4_depth26 | Phosphate (depth 26, 186.1256m) | 27750 |  |
-| po4_depth27 | Phosphate (depth 27, 222.4752m) | 27750 |  |
-| po4_depth28 | Phosphate (depth 28, 266.0403m) | 27750 |  |
-| po4_depth29 | Phosphate (depth 29, 318.1274m) | 27750 |  |
-| po4_depth30 | Phosphate (depth 30, 380.2130m) | 27750 |  |
+| no3_depth1 | 硝酸盐（第 1 层，深度 0.4940 米） | 27750 |  |
+| no3_depth2 | 硝酸盐（第 2 层，深度 1.5414 米） | 27750 |  |
+| no3_depth3 | 硝酸盐（第 3 层，深度 2.6457 米） | 27750 |  |
+| no3_depth4 | 硝酸盐（第 4 层，深度 3.8195 米） | 27750 |  |
+| no3_depth5 | 硝酸盐（第 5 层，深度 5.0782 米） | 27750 |  |
+| no3_depth6 | 硝酸盐（第 6 层，深度 6.4406 米） | 27750 |  |
+| no3_depth7 | 硝酸盐（第 7 层，深度 7.9296 米） | 27750 |  |
+| no3_depth8 | 硝酸盐（第 8 层，深度 9.5730 米） | 27750 |  |
+| no3_depth9 | 硝酸盐（第 9 层，深度 11.4050 米） | 27750 |  |
+| no3_depth10 | 硝酸盐（第 10 层，深度 13.4671 米） | 27750 |  |
+| no3_depth11 | 硝酸盐（第 11 层，深度 15.8101 米） | 27750 |  |
+| no3_depth12 | 硝酸盐（第 12 层，深度 18.4956 米） | 27750 |  |
+| no3_depth13 | 硝酸盐（第 13 层，深度 21.5988 米） | 27750 |  |
+| no3_depth14 | 硝酸盐（第 14 层，深度 25.2114 米） | 27750 |  |
+| no3_depth15 | 硝酸盐（第 15 层，深度 29.4447 米） | 27750 |  |
+| no3_depth16 | 硝酸盐（第 16 层，深度 34.4342 米） | 27750 |  |
+| no3_depth17 | 硝酸盐（第 17 层，深度 40.3441 米） | 27750 |  |
+| no3_depth18 | 硝酸盐（第 18 层，深度 47.3737 米） | 27750 |  |
+| no3_depth19 | 硝酸盐（第 19 层，深度 55.7643 米） | 27750 |  |
+| no3_depth20 | 硝酸盐（第 20 层，深度 65.8073 米） | 27750 |  |
+| no3_depth21 | 硝酸盐（第 21 层，深度 77.8539 米） | 27750 |  |
+| no3_depth22 | 硝酸盐（第 22 层，深度 92.3261 米） | 27750 |  |
+| no3_depth23 | 硝酸盐（第 23 层，深度 109.7293 米） | 27750 |  |
+| no3_depth24 | 硝酸盐（第 24 层，深度 130.6660 米） | 27750 |  |
+| no3_depth25 | 硝酸盐（第 25 层，深度 155.8507 米） | 27750 |  |
+| no3_depth26 | 硝酸盐（第 26 层，深度 186.1256 米） | 27750 |  |
+| no3_depth27 | 硝酸盐（第 27 层，深度 222.4752 米） | 27750 |  |
+| no3_depth28 | 硝酸盐（第 28 层，深度 266.0403 米） | 27750 |  |
+| no3_depth29 | 硝酸盐（第 29 层，深度 318.1274 米） | 27750 |  |
+| no3_depth30 | 硝酸盐（第 30 层，深度 380.2130 米） | 27750 |  |
+| no3_depth31 | 硝酸盐（第 31 层，深度 453.9377 米） | 27750 |  |
+| no3_depth32 | 硝酸盐（第 32 层，深度 541.0889 米） | 27750 |  |
+| no3_depth33 | 硝酸盐（第 33 层，深度 643.5668 米） | 27750 |  |
+| no3_depth34 | 硝酸盐（第 34 层，深度 763.3331 米） | 27750 |  |
+| no3_depth35 | 硝酸盐（第 35 层，深度 902.3393 米） | 27750 |  |
+| no3_depth36 | 硝酸盐（第 36 层，深度 1062.4397 米） | 27750 |  |
+| no3_depth37 | 硝酸盐（第 37 层，深度 1245.2911 米） | 27750 |  |
+| no3_depth38 | 硝酸盐（第 38 层，深度 1452.2510 米） | 27750 |  |
+| no3_depth39 | 硝酸盐（第 39 层，深度 1684.2844 米） | 27750 |  |
+| no3_depth40 | 硝酸盐（第 40 层，深度 1941.8934 米） | 27750 |  |
+| no3_depth41 | 硝酸盐（第 41 层，深度 2225.0779 米） | 27750 |  |
+| no3_depth42 | 硝酸盐（第 42 层，深度 2533.3362 米） | 27750 |  |
+| no3_depth43 | 硝酸盐（第 43 层，深度 2865.7026 米） | 27750 |  |
+| no3_depth44 | 硝酸盐（第 44 层，深度 3220.8203 米） | 27750 |  |
+| no3_depth45 | 硝酸盐（第 45 层，深度 3597.0320 米） | 27750 |  |
+| no3_depth46 | 硝酸盐（第 46 层，深度 3992.4839 米） | 27750 |  |
+| no3_depth47 | 硝酸盐（第 47 层，深度 4405.2241 米） | 27750 |  |
+| no3_depth48 | 硝酸盐（第 48 层，深度 4833.2905 米） | 27750 |  |
+| no3_depth49 | 硝酸盐（第 49 层，深度 5274.7842 米） | 27750 |  |
+| no3_depth50 | 硝酸盐（第 50 层，深度 5727.9165 米） | 27750 |  |
+| po4_depth1 | 磷酸盐（第 1 层，深度 0.4940 米） | 27750 |  |
+| po4_depth2 | 磷酸盐（第 2 层，深度 1.5414 米） | 27750 |  |
+| po4_depth3 | 磷酸盐（第 3 层，深度 2.6457 米） | 27750 |  |
+| po4_depth4 | 磷酸盐（第 4 层，深度 3.8195 米） | 27750 |  |
+| po4_depth5 | 磷酸盐（第 5 层，深度 5.0782 米） | 27750 |  |
+| po4_depth6 | 磷酸盐（第 6 层，深度 6.4406 米） | 27750 |  |
+| po4_depth7 | 磷酸盐（第 7 层，深度 7.9296 米） | 27750 |  |
+| po4_depth8 | 磷酸盐（第 8 层，深度 9.5730 米） | 27750 |  |
+| po4_depth9 | 磷酸盐（第 9 层，深度 11.4050 米） | 27750 |  |
+| po4_depth10 | 磷酸盐（第 10 层，深度 13.4671 米） | 27750 |  |
+| po4_depth11 | 磷酸盐（第 11 层，深度 15.8101 米） | 27750 |  |
+| po4_depth12 | 磷酸盐（第 12 层，深度 18.4956 米） | 27750 |  |
+| po4_depth13 | 磷酸盐（第 13 层，深度 21.5988 米） | 27750 |  |
+| po4_depth14 | 磷酸盐（第 14 层，深度 25.2114 米） | 27750 |  |
+| po4_depth15 | 磷酸盐（第 15 层，深度 29.4447 米） | 27750 |  |
+| po4_depth16 | 磷酸盐（第 16 层，深度 34.4342 米） | 27750 |  |
+| po4_depth17 | 磷酸盐（第 17 层，深度 40.3441 米） | 27750 |  |
+| po4_depth18 | 磷酸盐（第 18 层，深度 47.3737 米） | 27750 |  |
+| po4_depth19 | 磷酸盐（第 19 层，深度 55.7643 米） | 27750 |  |
+| po4_depth20 | 磷酸盐（第 20 层，深度 65.8073 米） | 27750 |  |
+| po4_depth21 | 磷酸盐（第 21 层，深度 77.8539 米） | 27750 |  |
+| po4_depth22 | 磷酸盐（第 22 层，深度 92.3261 米） | 27750 |  |
+| po4_depth23 | 磷酸盐（第 23 层，深度 109.7293 米） | 27750 |  |
+| po4_depth24 | 磷酸盐（第 24 层，深度 130.6660 米） | 27750 |  |
+| po4_depth25 | 磷酸盐（第 25 层，深度 155.8507 米） | 27750 |  |
+| po4_depth26 | 磷酸盐（第 26 层，深度 186.1256 米） | 27750 |  |
+| po4_depth27 | 磷酸盐（第 27 层，深度 222.4752 米） | 27750 |  |
+| po4_depth28 | 磷酸盐（第 28 层，深度 266.0403 米） | 27750 |  |
+| po4_depth29 | 磷酸盐（第 29 层，深度 318.1274 米） | 27750 |  |
+| po4_depth30 | 磷酸盐（第 30 层，深度 380.2130 米） | 27750 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 海洋生态系统与初级生产的营养盐供给分析
+- 生物地球化学建模与数据同化
+- 10 天尺度的短期预报应用
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/NUT');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/NUT`
+- 提供方：Copernicus、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_NUT
+
+## 许可与引用
+
+- 许可：CC-BY-4.0
+- 关键词：copernicus, daily, forecast, oceans
 - 数据引用：E.U. Copernicus Marine Service Information.
 [https://doi.org/10.48670/moi-00015](https://doi.org/10.48670/moi-00015)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [全球海洋水色光学产品（多源，4 公里，月度）](/pages/b4a5e847/)
+- [全球海洋水色初级生产产品（多源，4 公里）](/pages/6396836c/)
+- [全球海洋水色反射率产品（OLCI，300 米）](/pages/f4ffb7b4/)
+- [全球海洋水色反射率产品（多源，4 公里）](/pages/472dc170/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
