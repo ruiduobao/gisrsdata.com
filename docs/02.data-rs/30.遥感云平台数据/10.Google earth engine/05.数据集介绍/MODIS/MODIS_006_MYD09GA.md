@@ -1,5 +1,5 @@
 ---
-title: "MYD09GA.006 Aqua Surface Reflectance Daily Global 1km and 500m [deprecated]"
+title: "MYD09GA.006 Aqua 地表反射率日产品全球 1 公里与 500 米（已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/940cec08/
 categories:
@@ -19,76 +19,85 @@ tags:
   - "usgs"
 ---
 
-# MYD09GA.006 Aqua Surface Reflectance Daily Global 1km and 500m [deprecated]
+# MYD09GA.006 Aqua 地表反射率日产品全球 1 公里与 500 米（已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：MYD09GA.006 Aqua Surface Reflectance Daily Global 1km and 500m [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The MODIS Surface Reflectance products provide an estimate
-of the surface spectral reflectance as it would be measured at
-ground level in the absence of atmospheric scattering or absorption.
-Low-level data are corrected for atmospheric gases and aerosols.
-MYD09GA version 6 provides bands 1-7 in a daily gridded L2G product
-in the sinusoidal projection, including 500m reflectance values
-and 1km observation and geolocation statistics.
+MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面水平测得。低层数据针对大气气体与气溶胶做了校正。MYD09GA 版本 6 在正弦投影的每日格网 L2G 产品中提供波段 1–7，包括 500 米反射率值与 1 公里观测和地理定位统计。
 
-Documentation:
+## 覆盖范围与时间
 
-* [User's Guide](https://lpdaac.usgs.gov/documents/306/MOD09_User_Guide_V6.pdf)
-
-* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/305/MOD09_ATBD.pdf)
-
-* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MYD09GA)
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`MODIS/006/MYD09GA`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2002 年至 2023 年；分辨率：500 米与 1 公里。
 - 时间范围：2002-07-04 至 2023-02-25
-- 许可：proprietary
-- 关键词：aqua, daily, global, modis, myd09ga, nasa, satellite-imagery, sr, surface-reflectance, usgs
 
-## 波段信息
+## 分辨率与规格
+
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| num_observations_1km | Number of observations per 1K pixel | 1000 |  |
-| state_1km | Reflectance data state QA | 1000 |  |
-| SensorZenith | Sensor zenith angle | 1000 |  |
-| SensorAzimuth | Sensor azimuth angle | 1000 |  |
-| Range | Distance to sensor | 1000 |  |
-| SolarZenith | Solar zenith angle | 1000 |  |
-| SolarAzimuth | Solar azimuth angle | 1000 |  |
-| gflags | Geolocation flags | 1000 |  |
-| orbit_pnt | Orbit pointer | 1000 |  |
-| granule_pnt | Granule pointer | 1000 |  |
-| num_observations_500m | Number of observations | 500 |  |
-| sur_refl_b01 | Surface reflectance for band 1 | 500 | 620-670nm |
-| sur_refl_b02 | Surface reflectance for band 2 | 500 | 841-876nm |
-| sur_refl_b03 | Surface reflectance for band 3 | 500 | 459-479nm |
-| sur_refl_b04 | Surface reflectance for band 4 | 500 | 545-565nm |
-| sur_refl_b05 | Surface reflectance for band 5 | 500 | 1230-1250nm |
-| sur_refl_b06 | Surface reflectance for band 6 | 500 | 1628-1652nm |
-| sur_refl_b07 | Surface reflectance for band 7 | 500 | 2105-2155nm |
-| QC_500m | Surface reflectance quality assurance | 500 |  |
-| obscov_500m | Observation coverage percent | 500 |  |
-| iobs_res | Observation number in coarser grid | 500 |  |
-| q_scan | 250m scan value information | 500 |  |
+| num_observations_1km | 每个 1K 像元的观测数。 | 1000 |  |
+| state_1km | 反射率数据状态 QA。 | 1000 |  |
+| SensorZenith | 传感器天顶角。 | 1000 |  |
+| SensorAzimuth | 传感器方位角。 | 1000 |  |
+| Range | 到传感器的距离。 | 1000 |  |
+| SolarZenith | 太阳天顶角。 | 1000 |  |
+| SolarAzimuth | 太阳方位角。 | 1000 |  |
+| gflags | 地理定位标志。 | 1000 |  |
+| orbit_pnt | 轨道指针。 | 1000 |  |
+| granule_pnt | 颗粒指针。 | 1000 |  |
+| num_observations_500m | 观测数。 | 500 |  |
+| sur_refl_b01 | 波段 1 的地表反射率。 | 500 | 620-670nm |
+| sur_refl_b02 | 波段 2 的地表反射率。 | 500 | 841-876nm |
+| sur_refl_b03 | 波段 3 的地表反射率。 | 500 | 459-479nm |
+| sur_refl_b04 | 波段 4 的地表反射率。 | 500 | 545-565nm |
+| sur_refl_b05 | 波段 5 的地表反射率。 | 500 | 1230-1250nm |
+| sur_refl_b06 | 波段 6 的地表反射率。 | 500 | 1628-1652nm |
+| sur_refl_b07 | 波段 7 的地表反射率。 | 500 | 2105-2155nm |
+| QC_500m | 地表反射率质量保证。 | 500 |  |
+| obscov_500m | 观测覆盖百分比。 | 500 |  |
+| iobs_res | 较粗网格中的观测号。 | 500 |  |
+| q_scan | 250 米扫描值信息。 | 500 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 土地覆盖与植被监测
+- 全球变化研究
+- 遥感算法验证
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/006/MYD09GA');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/006/MYD09GA`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MYD09GA
+* [User's Guide](https://lpdaac.usgs.gov/documents/306/MOD09_User_Guide_V6.pdf)
+* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/305/MOD09_ATBD.pdf)
+* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MYD09GA)
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：aqua, daily, global, modis, myd09ga, nasa, satellite-imagery, sr, surface-reflectance, usgs
 - 数据引用：Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data)
 for information on citing LP DAAC datasets.
 
 - DOI：10.5067/MODIS/MYD09GA.006
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [MCD43A1.006 MODIS BRDF-Albedo Model Parameters Daily 500m [deprecated]](/pages/dba783be/)
+- [MCD43A2.006 MODIS BRDF-Albedo Quality Daily 500m [deprecated]](/pages/3081c095/)
+- [MCD43A3.006 MODIS Albedo Daily 500m [deprecated]](/pages/96c6f8ff/)
+- [MCD43A4.006 MODIS Nadir BRDF-Adjusted Reflectance Daily 500m [deprecated]](/pages/23f81408/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

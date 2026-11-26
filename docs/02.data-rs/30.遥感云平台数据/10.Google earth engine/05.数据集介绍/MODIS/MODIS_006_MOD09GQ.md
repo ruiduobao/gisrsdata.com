@@ -1,5 +1,5 @@
 ---
-title: "MOD09GQ.006 Terra Surface Reflectance Daily Global 250m [deprecated]"
+title: "MOD09GQ.006 Terra 地表反射率日产品全球 250 米（已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/06dad6d4/
 categories:
@@ -19,65 +19,72 @@ tags:
   - "usgs"
 ---
 
-# MOD09GQ.006 Terra Surface Reflectance Daily Global 250m [deprecated]
+# MOD09GQ.006 Terra 地表反射率日产品全球 250 米（已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：MOD09GQ.006 Terra Surface Reflectance Daily Global 250m [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The MODIS Surface Reflectance products provide an estimate
-of the surface spectral reflectance as it would be measured at
-ground level in the absence of atmospheric scattering or absorption.
-Low-level data are corrected for atmospheric gases and aerosols.
-MOD09GQ version 6 provides bands 1 and 2 at a 250m resolution in
-a daily gridded L2G product in the Sinusoidal projection, including
-a QC and five observation layers. This product is meant to be used
-in conjunction with the MOD09GA where important quality and viewing
-geometry information is stored.
+MODIS 地表反射率产品提供地表光谱反射率的估计，如同在没有大气散射或吸收的情况下在地面水平测得。低层数据针对大气气体与气溶胶做了校正。MOD09GQ 版本 6 在正弦投影的每日格网 L2G 产品中以 250 米分辨率提供波段 1 与 2，包括一个 QC 与五个观测层。本产品旨在与 MOD09GA 结合使用，重要的质量与观测几何信息存储在后者中。
 
-Documentation:
+## 覆盖范围与时间
 
-* [User's Guide](https://lpdaac.usgs.gov/documents/306/MOD09_User_Guide_V6.pdf)
-
-* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/305/MOD09_ATBD.pdf)
-
-* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MOD09GQ)
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`MODIS/006/MOD09GQ`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2000 年至 2023 年；分辨率：250 米。
 - 时间范围：2000-02-24 至 2023-02-17
-- 空间分辨率：250 米
-- 许可：proprietary
-- 关键词：daily, global, mod09gq, modis, nasa, satellite-imagery, sr, surface-reflectance, terra, usgs
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 250 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| num_observations | Number of observations per 250m pixel | 250 |  |
-| sur_refl_b01 | Surface reflectance band 1 | 250 | 620-670nm |
-| sur_refl_b02 | Surface reflectance for band 2 | 250 | 841-876nm |
-| QC_250m | Surface reflectance quality assurance | 250 |  |
-| obscov | Observation coverage percent | 250 |  |
-| iobs_res | Observation number | 250 |  |
-| orbit_pnt | Orbit pointer | 250 |  |
-| granule_pnt | Granule pointer | 250 |  |
+| num_observations | 每个 250 米像元的观测数。 | 250 |  |
+| sur_refl_b01 | 地表反射率波段 1。 | 250 | 620-670nm |
+| sur_refl_b02 | 地表反射率波段 2。 | 250 | 841-876nm |
+| QC_250m | 地表反射率质量保证。 | 250 |  |
+| obscov | 观测覆盖百分比。 | 250 |  |
+| iobs_res | 观测号。 | 250 |  |
+| orbit_pnt | 轨道指针。 | 250 |  |
+| granule_pnt | 颗粒指针。 | 250 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 土地覆盖与植被监测
+- 全球变化研究
+- 遥感算法验证
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/006/MOD09GQ');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/006/MOD09GQ`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD09GQ
+* [User's Guide](https://lpdaac.usgs.gov/documents/306/MOD09_User_Guide_V6.pdf)
+* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/305/MOD09_ATBD.pdf)
+* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MOD09GQ)
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：daily, global, mod09gq, modis, nasa, satellite-imagery, sr, surface-reflectance, terra, usgs
 - 数据引用：Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data)
 for information on citing LP DAAC datasets.
 
 - DOI：10.5067/MODIS/MOD09GQ.006
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [MCD43A1.006 MODIS BRDF-Albedo Model Parameters Daily 500m [deprecated]](/pages/dba783be/)
+- [MCD43A2.006 MODIS BRDF-Albedo Quality Daily 500m [deprecated]](/pages/3081c095/)
+- [MCD43A3.006 MODIS Albedo Daily 500m [deprecated]](/pages/96c6f8ff/)
+- [MCD43A4.006 MODIS Nadir BRDF-Adjusted Reflectance Daily 500m [deprecated]](/pages/23f81408/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

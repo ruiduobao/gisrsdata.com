@@ -1,5 +1,5 @@
 ---
-title: "GEDI L2B Vector Canopy Cover Vertical Profile Metrics (Version 2)"
+title: "GEDI L2B 矢量冠层覆盖垂直剖面指标（版本 2）"
 date: 2026-11-03 12:00:00
 permalink: /pages/7bed5b79/
 categories:
@@ -16,150 +16,148 @@ tags:
   - "usgs"
 ---
 
-# GEDI L2B Vector Canopy Cover Vertical Profile Metrics (Version 2)
+# GEDI L2B 矢量冠层覆盖垂直剖面指标（版本 2）
 
-## 数据集简介
+英文原名：GEDI L2B Vector Canopy Cover Vertical Profile Metrics (Version 2)
 
-GEDI Level 2B Canopy Cover and Vertical Profile Metrics product (GEDI02_B)
-extracts biophysical metrics from each GEDI waveform. These metrics
-are based on the directional gap probability profile derived from the L1B
-waveform.
+## 这是什么数据
 
-The vertical step between foliage profile measurements
-(known as dZ in GEDI documentation) is always 5 meters.
-The original GEDI02_B product is a table of points with a spatial resolution
-(average footprint) of 25 meters.
+GEDI 二级 B 冠层覆盖与垂直剖面指标产品（GEDI02_B）从每个 GEDI 波形提取生物物理指标。这些指标基于从 L1B 波形推导的方向间隙概率剖面。
 
-Please see [User Guide](https://lpdaac.usgs.gov/documents/986/GEDI02_UserGuide_V2.pdf)
-for more information.
+叶层剖面测量之间的垂直步长（在 GEDI 文档中称为 dZ）始终为 5 米。原始 GEDI02_B 产品是一个点表，空间分辨率（平均足印）为 25 米。
 
-The Global Ecosystem Dynamics Investigation [GEDI](https://gedi.umd.edu/)
-mission aims to characterize ecosystem structure and dynamics to enable
-radically improved quantification and understanding of the Earth's carbon cycle
-and biodiversity. The GEDI instrument, attached to the International Space
-Station (ISS), collects data globally between 51.6&deg; N and 51.6&deg; S
-latitudes at the highest resolution and densest sampling of the
-3-dimensional structure of the Earth. The GEDI instrument consists of three
-lasers producing a total of eight beam ground transects, which instantaneously
-sample eight ~25 m footprints spaced approximately every 60 m along-track.
+更多信息见[用户指南](https://lpdaac.usgs.gov/documents/986/GEDI02_UserGuide_V2.pdf)。
 
-Product                 | Description
-:---------------------  | :----------------------------------------------
-L2A Vector         | [LARSE/GEDI/GEDI02_A_002](LARSE_GEDI_GEDI02_A_002)
-L2A Monthly raster | [LARSE/GEDI/GEDI02_A_002_MONTHLY](LARSE_GEDI_GEDI02_A_002_MONTHLY)
-L2A table index    | [LARSE/GEDI/GEDI02_A_002_INDEX](LARSE_GEDI_GEDI02_A_002_INDEX)
-L2B Vector         | [LARSE/GEDI/GEDI02_B_002](LARSE_GEDI_GEDI02_B_002)
-L2B Monthly raster | [LARSE/GEDI/GEDI02_B_002_MONTHLY](LARSE_GEDI_GEDI02_B_002_MONTHLY)
-L2B table index    | [LARSE/GEDI/GEDI02_B_002_INDEX](LARSE_GEDI_GEDI02_B_002_INDEX)
-L4A Biomass Vector | [LARSE/GEDI/GEDI04_A_002](LARSE_GEDI_GEDI04_A_002)
-L4A Monthly raster | [LARSE/GEDI/GEDI04_A_002_MONTHLY](LARSE_GEDI_GEDI04_A_002_MONTHLY)
-L4A table index    | [LARSE/GEDI/GEDI04_A_002_INDEX](LARSE_GEDI_GEDI04_A_002_INDEX)
-L4B Biomass        | [LARSE/GEDI/GEDI04_B_002](LARSE_GEDI_GEDI04_B_002)
-L4D Imputed Waveforms | [LARSE/GEDI/GEDI04_D_002](LARSE_GEDI_GEDI04_D_002)
+全球生态系统动力学调查 [GEDI](https://gedi.umd.edu/) 任务旨在表征生态系统结构与动力学，以实现对地球碳循环与生物多样性的量化与理解的根本改善。GEDI 仪器安装在国际空间站（ISS）上，以最高分辨率与最密集采样在全球北纬 51.6° 与南纬 51.6° 之间收集地球三维结构数据。GEDI 仪器由三台激光器组成，共产生八条波束地面轨迹，瞬时采样八个约 25 米足印，沿轨间隔约 60 米。
 
-## 基本信息
+产品 | 说明
+:--------------------- | :----------------------------------------------
+L2A 矢量 | [LARSE/GEDI/GEDI02_A_002](LARSE_GEDI_GEDI02_A_002)
+L2A 月度栅格 | [LARSE/GEDI/GEDI02_A_002_MONTHLY](LARSE_GEDI_GEDI02_A_002_MONTHLY)
+L2A 表索引 | [LARSE/GEDI/GEDI02_A_002_INDEX](LARSE_GEDI_GEDI02_A_002_INDEX)
+L2B 矢量 | [LARSE/GEDI/GEDI02_B_002](LARSE_GEDI_GEDI02_B_002)
+L2B 月度栅格 | [LARSE/GEDI/GEDI02_B_002_MONTHLY](LARSE_GEDI_GEDI02_B_002_MONTHLY)
+L2B 表索引 | [LARSE/GEDI/GEDI02_B_002_INDEX](LARSE_GEDI_GEDI02_B_002_INDEX)
+L4A 生物量矢量 | [LARSE/GEDI/GEDI04_A_002](LARSE_GEDI_GEDI04_A_002)
+L4A 月度栅格 | [LARSE/GEDI/GEDI04_A_002_MONTHLY](LARSE_GEDI_GEDI04_A_002_MONTHLY)
+L4A 表索引 | [LARSE/GEDI/GEDI04_A_002_INDEX](LARSE_GEDI_GEDI04_A_002_INDEX)
+L4B 生物量 | [LARSE/GEDI/GEDI04_B_002](LARSE_GEDI_GEDI04_B_002)
+L4D 填补波形 | [LARSE/GEDI/GEDI04_D_002](LARSE_GEDI_GEDI04_D_002)
 
-- 数据集编号（Earth Engine ID）：`LARSE/GEDI/GEDI02_B_002`
-- 数据类型：table_collection
-- 提供方：USFS Laboratory for Applications of Remote Sensing in Ecology (LARSE)、NASA GEDI mission, accessed through the USGS LP DAAC、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球北纬 51.6° 至南纬 51.6°；时间范围：2019 年至 2024 年；足印约 25 米。
 - 时间范围：2019-03-25 至 2024-11-29
-- 许可：proprietary
-- 关键词：elevation, forest-biomass, gedi, larse, nasa, tree-cover, usgs
 
-## 字段信息
+## 分辨率与规格
+
+- 数据类型：table_collection，在 Google Earth Engine 中调用
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
-| algorithmrun_flag | INT | The L2B algorithm is run if this flag is set to 1 indicating data have sufficient waveform fidelity for L2B to run.  |
-| beam | INT | Beam number |
-| cover | INT | Total canopy cover |
-| degrade_flag | INT | Flag indicating degraded state of pointing and/or positioning information.  * 3X - ADF CHU solution unavailable (ST-2) * 4X - Platform attitude * 5X - Poor solution (filter covariance large) * 6X - Data outage (platform attitude gap also) * 7X - ST 1+2 unavailable (similar boresight FOV) * 8X - ST 1+2+3 unavailable * 9X - ST 1+2+3 and ISS unavailable * X1 - Maneuver * X2 - GPS data gap * X3 - ST blinding * X4 - Other * X5 - GPS receiver clock drift * X6 - Maneuver & GPS receiver clock drift * X7 - GPS data gap & GPS receiver clock drift * X8 - ST blinding & GPS receiver clock drift * X9 - Other & GPS receiver clock drift  |
-| delta_time | DOUBLE | Transmit time of the shot, measured in seconds from the master_time_epoch since 2018-01-01  |
-| fhd_normal | INT | Foliage Height Diversity |
-| l2b_quality_flag | INT | L2B quality flag |
-| local_beam_azimuth | INT | Azimuth of the unit pointing vector for the laser in the local ENU frame measured from North and positive towards East.  |
-| local_beam_elevation | INT | Elevation of the unit pointing vector for the laser in the local ENU frame measured from East-North plane and positive towards Up.  |
-| pai | INT | Total Plant Area Index |
-| pgap_theta | INT | Total Gap Probability (theta) |
-| selected_l2a_algorithm | INT | Selected L2A algorithm setting |
-| selected_rg_algorithm | INT | Selected R (ground) algorithm |
-| sensitivity | INT | Maximum canopy cover that can be penetrated. Valid range is [0, 1]. Values outside of this range may be present but must be ignored. They represent noise and non-land surface waveforms.  |
-| solar_azimuth | INT | The azimuth of the sun position vector from the laser bounce point position in the local ENU frame measured from North and is positive towards East.  |
-| solar_elevation | INT | The elevation of the sun position vector from the laser bounce point position in the local ENU frame measured from the East-North plane and is positive Up.  |
-| shot_number | STRING | Shot number, a unique identifier. This field has the format of OOOOOBBRRGNNNNNNNN, where:  * OOOOO: Orbit number * BB: Beam number * RR: Reserved for future use * G: Sub-orbit granule number * NNNNNNNN: Shot index  |
-| shot_number_within_beam | INT | Shot number within beam |
-| cover_z0 | INT | Cumulative canopy cover vertical profile at 0% |
-| cover_z1 | INT | Cumulative canopy cover vertical profile at 1% |
-| cover_z2 | INT | Cumulative canopy cover vertical profile at 2% |
-| cover_z3 | INT | Cumulative canopy cover vertical profile at 3% |
-| cover_z4 | INT | Cumulative canopy cover vertical profile at 4% |
-| cover_z5 | INT | Cumulative canopy cover vertical profile at 5% |
-| cover_z6 | INT | Cumulative canopy cover vertical profile at 6% |
-| cover_z7 | INT | Cumulative canopy cover vertical profile at 7% |
-| cover_z8 | INT | Cumulative canopy cover vertical profile at 8% |
-| cover_z9 | INT | Cumulative canopy cover vertical profile at 9% |
-| cover_z10 | INT | Cumulative canopy cover vertical profile at 10% |
-| cover_z11 | INT | Cumulative canopy cover vertical profile at 11% |
-| cover_z12 | INT | Cumulative canopy cover vertical profile at 12% |
-| cover_z13 | INT | Cumulative canopy cover vertical profile at 13% |
-| cover_z14 | INT | Cumulative canopy cover vertical profile at 14% |
-| cover_z15 | INT | Cumulative canopy cover vertical profile at 15% |
-| cover_z16 | INT | Cumulative canopy cover vertical profile at 16% |
-| cover_z17 | INT | Cumulative canopy cover vertical profile at 17% |
-| cover_z18 | INT | Cumulative canopy cover vertical profile at 18% |
-| cover_z19 | INT | Cumulative canopy cover vertical profile at 19% |
-| cover_z20 | INT | Cumulative canopy cover vertical profile at 20% |
-| cover_z21 | INT | Cumulative canopy cover vertical profile at 21% |
-| cover_z22 | INT | Cumulative canopy cover vertical profile at 22% |
-| cover_z23 | INT | Cumulative canopy cover vertical profile at 23% |
-| cover_z24 | INT | Cumulative canopy cover vertical profile at 24% |
-| cover_z25 | INT | Cumulative canopy cover vertical profile at 25% |
-| cover_z26 | INT | Cumulative canopy cover vertical profile at 26% |
-| cover_z27 | INT | Cumulative canopy cover vertical profile at 27% |
-| cover_z28 | INT | Cumulative canopy cover vertical profile at 28% |
-| cover_z29 | INT | Cumulative canopy cover vertical profile at 29% |
-| cover_z30 | INT | Cumulative canopy cover vertical profile at 30% |
-| pai_z0 | INT | Plant Area Index profile in 0 m&sup2;/m&sup2; |
-| pai_z1 | INT | Plant Area Index profile in 1 m&sup2;/m&sup2; |
-| pai_z2 | INT | Plant Area Index profile in 2 m&sup2;/m&sup2; |
-| pai_z3 | INT | Plant Area Index profile in 3 m&sup2;/m&sup2; |
-| pai_z4 | INT | Plant Area Index profile in 4 m&sup2;/m&sup2; |
-| pai_z5 | INT | Plant Area Index profile in 5 m&sup2;/m&sup2; |
-| pai_z6 | INT | Plant Area Index profile in 6 m&sup2;/m&sup2; |
-| pai_z7 | INT | Plant Area Index profile in 7 m&sup2;/m&sup2; |
-| pai_z8 | INT | Plant Area Index profile in 8 m&sup2;/m&sup2; |
-| pai_z9 | INT | Plant Area Index profile in 9 m&sup2;/m&sup2; |
-| pai_z10 | INT | Plant Area Index profile in 10 m&sup2;/m&sup2; |
-| pai_z11 | INT | Plant Area Index profile in 11 m&sup2;/m&sup2; |
-| pai_z12 | INT | Plant Area Index profile in 12 m&sup2;/m&sup2; |
-| pai_z13 | INT | Plant Area Index profile in 13 m&sup2;/m&sup2; |
-| pai_z14 | INT | Plant Area Index profile in 14 m&sup2;/m&sup2; |
-| pai_z15 | INT | Plant Area Index profile in 15 m&sup2;/m&sup2; |
-| pai_z16 | INT | Plant Area Index profile in 16 m&sup2;/m&sup2; |
-| pai_z17 | INT | Plant Area Index profile in 17 m&sup2;/m&sup2; |
-| pai_z18 | INT | Plant Area Index profile in 18 m&sup2;/m&sup2; |
-| pai_z19 | INT | Plant Area Index profile in 19 m&sup2;/m&sup2; |
-| pai_z20 | INT | Plant Area Index profile in 20 m&sup2;/m&sup2; |
-| pai_z21 | INT | Plant Area Index profile in 21 m&sup2;/m&sup2; |
-| pai_z22 | INT | Plant Area Index profile in 22 m&sup2;/m&sup2; |
-| pai_z23 | INT | Plant Area Index profile in 23 m&sup2;/m&sup2; |
-| pai_z24 | INT | Plant Area Index profile in 24 m&sup2;/m&sup2; |
-| pai_z25 | INT | Plant Area Index profile in 25 m&sup2;/m&sup2; |
-| pai_z26 | INT | Plant Area Index profile in 26 m&sup2;/m&sup2; |
-| pai_z27 | INT | Plant Area Index profile in 27 m&sup2;/m&sup2; |
-| pai_z28 | INT | Plant Area Index profile in 28 m&sup2;/m&sup2; |
-| pai_z29 | INT | Plant Area Index profile in 29 m&sup2;/m&sup2; |
-| pai_z30 | INT | Plant Area Index profile in 30 m&sup2;/m&sup2; |
+| algorithmrun_flag | INT | 若该标志设为 1，L2B 算法运行，指示数据具有足够波形保真度供 L2B 运行。 |
+| beam | INT | 波束号。 |
+| cover | INT | 总冠层覆盖。 |
+| degrade_flag | INT | 指示指向和/或定位信息降级状态的标志。* 3X – ADF CHU 解不可用（ST-2）* 4X – 平台姿态 * 5X – 解质量差（滤波协方差大）* 6X – 数据中断（亦含平台姿态间隙）* 7X – ST 1+2 不可用（相近视轴视场）* 8X – ST 1+2+3 不可用 * 9X – ST 1+2+3 与 ISS 均不可用 * X1 – 机动 * X2 – GPS 数据间隙 * X3 – ST 致盲 * X4 – 其他 * X5 – GPS 接收机时钟漂移 * X6 – 机动 & GPS 接收机时钟漂移 * X7 – GPS 数据间隙 & GPS 接收机时钟漂移 * X8 – ST 致盲 & GPS 接收机时钟漂移 * X9 – 其他 & GPS 接收机时钟漂移。 |
+| delta_time | DOUBLE | 足印的发射时间，自 2018-01-01 起以 master_time_epoch 为基准以秒计。 |
+| fhd_normal | INT | 叶层高度多样性。 |
+| l2b_quality_flag | INT | L2B 质量标志。 |
+| local_beam_azimuth | INT | 在局部 ENU 框架中激光单位指向矢量的方位角，从北量起、向东为正。 |
+| local_beam_elevation | INT | 在局部 ENU 框架中激光单位指向矢量的高度角，从东-北平面量起、向上为正。 |
+| pai | INT | 总植物面积指数。 |
+| pgap_theta | INT | 总间隙概率（theta）。 |
+| selected_l2a_algorithm | INT | 选定的 L2A 算法设置。 |
+| selected_rg_algorithm | INT | 选定的 R（地面）算法。 |
+| sensitivity | INT | 可穿透的最大冠层覆盖。有效范围为 [0, 1]。超出此范围的值可能存在但必须忽略。它们代表噪声与非陆地表面波形。 |
+| solar_azimuth | INT | 在局部 ENU 框架中，从激光弹跳点位置出发的太阳位置矢量的方位角，从北量起、向东为正。 |
+| solar_elevation | INT | 在局部 ENU 框架中，从激光弹跳点位置出发的太阳位置矢量的高度角，从东-北平面量起、向上为正。 |
+| shot_number | STRING | 足印号，唯一标识。该字段格式为 OOOOOBBRRGNNNNNNNN，其中：* OOOOO：轨道号 * BB：波束号 * RR：保留供将来使用 * G：子轨道颗粒号 * NNNNNNNN：足印索引。 |
+| shot_number_within_beam | INT | 波束内足印号。 |
+| cover_z0 | INT | 0% 处的累积冠层覆盖垂直剖面。 |
+| cover_z1 | INT | 1% 处的累积冠层覆盖垂直剖面。 |
+| cover_z2 | INT | 2% 处的累积冠层覆盖垂直剖面。 |
+| cover_z3 | INT | 3% 处的累积冠层覆盖垂直剖面。 |
+| cover_z4 | INT | 4% 处的累积冠层覆盖垂直剖面。 |
+| cover_z5 | INT | 5% 处的累积冠层覆盖垂直剖面。 |
+| cover_z6 | INT | 6% 处的累积冠层覆盖垂直剖面。 |
+| cover_z7 | INT | 7% 处的累积冠层覆盖垂直剖面。 |
+| cover_z8 | INT | 8% 处的累积冠层覆盖垂直剖面。 |
+| cover_z9 | INT | 9% 处的累积冠层覆盖垂直剖面。 |
+| cover_z10 | INT | 10% 处的累积冠层覆盖垂直剖面。 |
+| cover_z11 | INT | 11% 处的累积冠层覆盖垂直剖面。 |
+| cover_z12 | INT | 12% 处的累积冠层覆盖垂直剖面。 |
+| cover_z13 | INT | 13% 处的累积冠层覆盖垂直剖面。 |
+| cover_z14 | INT | 14% 处的累积冠层覆盖垂直剖面。 |
+| cover_z15 | INT | 15% 处的累积冠层覆盖垂直剖面。 |
+| cover_z16 | INT | 16% 处的累积冠层覆盖垂直剖面。 |
+| cover_z17 | INT | 17% 处的累积冠层覆盖垂直剖面。 |
+| cover_z18 | INT | 18% 处的累积冠层覆盖垂直剖面。 |
+| cover_z19 | INT | 19% 处的累积冠层覆盖垂直剖面。 |
+| cover_z20 | INT | 20% 处的累积冠层覆盖垂直剖面。 |
+| cover_z21 | INT | 21% 处的累积冠层覆盖垂直剖面。 |
+| cover_z22 | INT | 22% 处的累积冠层覆盖垂直剖面。 |
+| cover_z23 | INT | 23% 处的累积冠层覆盖垂直剖面。 |
+| cover_z24 | INT | 24% 处的累积冠层覆盖垂直剖面。 |
+| cover_z25 | INT | 25% 处的累积冠层覆盖垂直剖面。 |
+| cover_z26 | INT | 26% 处的累积冠层覆盖垂直剖面。 |
+| cover_z27 | INT | 27% 处的累积冠层覆盖垂直剖面。 |
+| cover_z28 | INT | 28% 处的累积冠层覆盖垂直剖面。 |
+| cover_z29 | INT | 29% 处的累积冠层覆盖垂直剖面。 |
+| cover_z30 | INT | 30% 处的累积冠层覆盖垂直剖面。 |
+| pai_z0 | INT | 0 m²/m² 处的植物面积指数剖面。 |
+| pai_z1 | INT | 1 m²/m² 处的植物面积指数剖面。 |
+| pai_z2 | INT | 2 m²/m² 处的植物面积指数剖面。 |
+| pai_z3 | INT | 3 m²/m² 处的植物面积指数剖面。 |
+| pai_z4 | INT | 4 m²/m² 处的植物面积指数剖面。 |
+| pai_z5 | INT | 5 m²/m² 处的植物面积指数剖面。 |
+| pai_z6 | INT | 6 m²/m² 处的植物面积指数剖面。 |
+| pai_z7 | INT | 7 m²/m² 处的植物面积指数剖面。 |
+| pai_z8 | INT | 8 m²/m² 处的植物面积指数剖面。 |
+| pai_z9 | INT | 9 m²/m² 处的植物面积指数剖面。 |
+| pai_z10 | INT | 10 m²/m² 处的植物面积指数剖面。 |
+| pai_z11 | INT | 11 m²/m² 处的植物面积指数剖面。 |
+| pai_z12 | INT | 12 m²/m² 处的植物面积指数剖面。 |
+| pai_z13 | INT | 13 m²/m² 处的植物面积指数剖面。 |
+| pai_z14 | INT | 14 m²/m² 处的植物面积指数剖面。 |
+| pai_z15 | INT | 15 m²/m² 处的植物面积指数剖面。 |
+| pai_z16 | INT | 16 m²/m² 处的植物面积指数剖面。 |
+| pai_z17 | INT | 17 m²/m² 处的植物面积指数剖面。 |
+| pai_z18 | INT | 18 m²/m² 处的植物面积指数剖面。 |
+| pai_z19 | INT | 19 m²/m² 处的植物面积指数剖面。 |
+| pai_z20 | INT | 20 m²/m² 处的植物面积指数剖面。 |
+| pai_z21 | INT | 21 m²/m² 处的植物面积指数剖面。 |
+| pai_z22 | INT | 22 m²/m² 处的植物面积指数剖面。 |
+| pai_z23 | INT | 23 m²/m² 处的植物面积指数剖面。 |
+| pai_z24 | INT | 24 m²/m² 处的植物面积指数剖面。 |
+| pai_z25 | INT | 25 m²/m² 处的植物面积指数剖面。 |
+| pai_z26 | INT | 26 m²/m² 处的植物面积指数剖面。 |
+| pai_z27 | INT | 27 m²/m² 处的植物面积指数剖面。 |
+| pai_z28 | INT | 28 m²/m² 处的植物面积指数剖面。 |
+| pai_z29 | INT | 29 m²/m² 处的植物面积指数剖面。 |
+| pai_z30 | INT | 30 m²/m² 处的植物面积指数剖面。 |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 森林冠层高度与结构分析
+- 地上生物量与碳储量估计
+- 生态系统三维结构研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('LARSE/GEDI/GEDI02_B_002');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`LARSE/GEDI/GEDI02_B_002`
+- 提供方：USFS Laboratory for Applications of Remote Sensing in Ecology (LARSE)、NASA GEDI mission, accessed through the USGS LP DAAC、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：elevation, forest-biomass, gedi, larse, nasa, tree-cover, usgs
 - 数据引用：GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint
 Level - GEDI02_B Dubayah, R., H. Tang, J. Armston, S. Luthcke, M. Hofton,
 J. Blair. GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global
@@ -167,5 +165,14 @@ Footprint Level V002. 2021, distributed by NASA EOSDIS Land Processes DAAC.
 Accessed YYYY-MM-DD.
 
 - DOI：10.5067/GEDI/GEDI02_B.002
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [GEDI L2A Raster Canopy Top Height (Version 2)](/pages/6e0348e1/)
+- [GEDI L2A Vector Canopy Top Height (Version 2)](/pages/4874e1f7/)
+- [GEDI L2A table index](/pages/81e014ca/)
+- [GEDI L2B Raster Canopy Cover Vertical Profile Metrics (Version 2)](/pages/359e6f68/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

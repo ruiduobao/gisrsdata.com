@@ -1,5 +1,5 @@
 ---
-title: "Gridded GEDI Vegetation Structure Metrics and Biomass Density, 6KM pixel size"
+title: "格网 GEDI 植被结构指标与生物量密度，6KM 像元"
 date: 2026-11-03 12:00:00
 permalink: /pages/0f1467e1/
 categories:
@@ -18,84 +18,77 @@ tags:
   - "vegetation"
 ---
 
-# Gridded GEDI Vegetation Structure Metrics and Biomass Density, 6KM pixel size
+# 格网 GEDI 植被结构指标与生物量密度，6KM 像元
 
-## 数据集简介
+英文原名：Gridded GEDI Vegetation Structure Metrics and Biomass Density, 6KM pixel size
 
-This dataset consists of near-global, analysis-ready, multi-resolution
-gridded vegetation structure metrics derived from NASA Global Ecosystem
-Dynamics Investigation (GEDI) Level 2 and 4A products associated with 25-m
-diameter lidar footprints. This dataset provides a comprehensive
-representation of near-global vegetation structure that is inclusive of
-the entire vertical profile, based solely on GEDI lidar, and validated with
-independent data.
+## 这是什么数据
 
-The GEDI sensor, mounted on the International Space
-Station (ISS), uses eight laser beams spaced by 60 m along-track and 600 m
-across-track on the Earth surface to measure ground elevation and vegetation
-structure between approximately 52 degrees North and South latitude.
-Between April 17th 2019 and March 16th 2023, GEDI acquired 11 and 7.7
-billion quality waveforms suitable for measuring ground elevation and
-vegetation structure, respectively.
+本数据集由近全球、分析就绪的多分辨率格网植被结构指标组成，源自与 25 米直径激光雷达足印关联的 NASA 全球生态系统动力学调查（GEDI）二级与 4A 产品。本数据集提供近全球植被结构的全面表征，包括整个垂直剖面，完全基于 GEDI 激光雷达，并用独立数据验证。
 
-In addition to many of the standard L2 and L4A shot metrics, several
-additional metrics have been derived which may be particularly useful for
-applications in carbon and water cycling processes in earth system models,
-as well as forest management, biodiversity modeling, and habitat assessment.
-Variables include canopy height, canopy cover, plant area index, foliage
-height diversity, and plant area volume density at 5 m strata. Refer to the
-[Gridded GEDI Vegetation Structure Metrics and Biomass Density]
-(https://daac.ornl.gov/VEGETATION/guides/GEDI_HighQuality_Shots_Rasters.html)
-for more information.
+GEDI 传感器安装在国际空间站（ISS）上，使用八束激光（沿轨间隔 60 米、地表横轨间隔 600 米）测量约南北纬 52 度之间的地面高程与植被结构。在 2019 年 4 月 17 日至 2023 年 3 月 16 日之间，GEDI 分别获取了 110 亿与 77 亿个适用于测量地面高程与植被结构的高质量波形。
 
-Eight statistics are included for each GEDI shot metric: mean, bootstrapped
-standard error of the mean, median, standard deviation, interquartile range,
-95th percentile, Shannon's diversity index, and shot count.
-Quality shot filtering methodology that aligns with the GEDI L4B Gridded
-Aboveground Biomass Density, Version 2.1 was used. In comparison to the
-corresponding GEDI L3 dataset, this dataset provides additional gridded metrics at
-multiple spatial resolutions and over several temporal periods (annual and
-the full mission duration).
+除许多标准 L2 与 L4A 足印指标外，还推导了几个额外指标，可能对地球系统模型中碳与水循环过程的应用以及森林管理、生物多样性建模与生境评估特别有用。变量包括冠层高度、冠层覆盖、植物面积指数、叶层高度多样性与 5 米层级的植物面积体积密度。更多信息参考[格网 GEDI 植被结构指标与生物量密度](https://daac.ornl.gov/VEGETATION/guides/GEDI_HighQuality_Shots_Rasters.html)。
 
-This dataset provides GEDI shot metrics aggregated into raster grids at
-three spatial resolutions: 1 km, 6 km, and 12 km.
-This dataset uses the pixel size of 6KM.
+每个 GEDI 足印指标包括八种统计量：平均值、自助法平均值标准误、中位数、标准差、四分位距、第 95 百分位、香农多样性指数与足印计数。使用的质量足印过滤方法与 GEDI L4B 格网地上生物量密度版本 2.1 一致。与对应的 GEDI L3 数据集相比，本数据集在多个空间分辨率与多个时间段（年度与整个任务期）提供额外的格网指标。
 
-## 基本信息
+本数据集提供聚合到三种空间分辨率栅格的 GEDI 足印指标：1 公里、6 公里与 12 公里。本数据集使用 6KM 像元大小。
 
-- 数据集编号（Earth Engine ID）：`LARSE/GEDI/GRIDDEDVEG_002/V1/6KM`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Rasterization: Google and USFS Laboratory for Applications of Remote Sensing in Ecology (LARSE)、Gridded GEDI Vegetation Structure Metrics and Biomass Density、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球约南北纬 52° 之间；时间范围：2019 年至 2023 年；分辨率：6 公里。
 - 时间范围：2019-04-17 至 2023-03-16
-- 空间分辨率：6000 米
-- 许可：proprietary
-- 关键词：biomass, canopy, forest, forest-biomass, gedi, larse, lidar, nasa, vegetation
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 6,000 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| mean | The mean of GEDI shot metric values within a pixel | 6000 |  |
-| meanbse | Standard error of the mean calculated using bootstrap resampling. 100 bootstrap samples were created; each sample included 70% of shots, randomly selected.  Standard error was calculated using the means of bootstrapped samples. (Only calculated when there are at least 10 GEDI shots in the grid cell.)  | 6000 |  |
-| median | The median value (50th percentile) of GEDI shot metric values within a pixel.  | 6000 |  |
-| sd | The standard deviation of GEDI shot metric values within a pixel.  | 6000 |  |
-| iqr | The interquartile range (75 percentile minus 25th percentile) of GEDI shot metric values within a pixel.  | 6000 |  |
-| p95 | The 95th percentile value of GEDI shot metric values within a pixel.  | 6000 |  |
-| shan | Shannons diversity index (H) of GEDI shot metric values within a pixel. Calculated as:-1*(sum(p*log(p))) where p is the proportion of GEDI shot values per bin.  | 6000 |  |
-| countf | The count of GEDI shot metric values within a pixel. A 30-m sub-grid was used to select the (temporally) first GEDI shot acquired in each 30-m sub-grid cell.  | 6000 |  |
+| mean | 像元内 GEDI 足印指标值的平均值。 | 6000 |  |
+| meanbse | 用自助重采样计算的平均值标准误。创建了 100 个自助样本；每个样本包括随机选取的 70% 足印。用自助样本的平均值计算标准误。（仅当格网单元内至少有 10 个 GEDI 足印时计算。） | 6000 |  |
+| median | 像元内 GEDI 足印指标值的中位数（第 50 百分位）。 | 6000 |  |
+| sd | 像元内 GEDI 足印指标值的标准差。 | 6000 |  |
+| iqr | 像元内 GEDI 足印指标值的四分位距（第 75 百分位减第 25 百分位）。 | 6000 |  |
+| p95 | 像元内 GEDI 足印指标值的第 95 百分位值。 | 6000 |  |
+| shan | 像元内 GEDI 足印指标值的香农多样性指数（H）。计算为：-1*(sum(p*log(p)))，其中 p 是每个分箱的 GEDI 足印值比例。 | 6000 |  |
+| countf | 像元内 GEDI 足印指标值的计数。使用 30 米子格网选取每个 30 米子格网单元内（时间上）最早获取的 GEDI 足印。 | 6000 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 格网植被结构制图
+- 碳循环与水循环建模
+- 森林管理与生境评估
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('LARSE/GEDI/GRIDDEDVEG_002/V1/6KM');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`LARSE/GEDI/GRIDDEDVEG_002/V1/6KM`
+- 提供方：Rasterization: Google and USFS Laboratory for Applications of Remote Sensing in Ecology (LARSE)、Gridded GEDI Vegetation Structure Metrics and Biomass Density、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_V1_6KM
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：biomass, canopy, forest, forest-biomass, gedi, larse, lidar, nasa, vegetation
 - 数据引用：Burns, P., Hakkenberg, C.R. & Goetz, S.J. Multi-resolution gridded maps of
 vegetation structure from GEDI. Sci Data 11, 881 (2024).
 [doi:10.1038/s41597-024-03668-4](https://doi.org/10.1038/s41597-024-03668-4)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [GEDI L2A Raster Canopy Top Height (Version 2)](/pages/6e0348e1/)
+- [GEDI L2A Vector Canopy Top Height (Version 2)](/pages/4874e1f7/)
+- [GEDI L2A table index](/pages/81e014ca/)
+- [GEDI L2B Raster Canopy Cover Vertical Profile Metrics (Version 2)](/pages/359e6f68/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

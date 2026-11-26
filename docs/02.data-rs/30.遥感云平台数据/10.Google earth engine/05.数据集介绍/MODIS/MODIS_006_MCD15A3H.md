@@ -1,5 +1,5 @@
 ---
-title: "MCD15A3H.006 MODIS Leaf Area Index/FPAR 4-Day Global 500m [deprecated]"
+title: "MCD15A3H.006 MODIS 叶面积指数/FPAR 4 天全球 500 米（已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/762d4697/
 categories:
@@ -19,60 +19,70 @@ tags:
   - "vegetation"
 ---
 
-# MCD15A3H.006 MODIS Leaf Area Index/FPAR 4-Day Global 500m [deprecated]
+# MCD15A3H.006 MODIS 叶面积指数/FPAR 4 天全球 500 米（已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：MCD15A3H.006 MODIS Leaf Area Index/FPAR 4-Day Global 500m [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-The MCD15A3H V6 level 4, Combined Fraction of Photosynthetically
-Active Radiation (FPAR), and Leaf Area Index (LAI) product is a
-4-day composite data set with 500 meter pixel size. The algorithm
-chooses the \"best\" pixel available from all the acquisitions of
-both MODIS sensors located on NASA's Terra and Aqua satellites
-from within the 4-day period.
+MCD15A3H V6 四级、组合光合有效辐射分量（FPAR）与叶面积指数（LAI）产品是一个像元大小 500 米的 4 天合成数据集。算法从 4 天时段内 NASA 的 Terra 与 Aqua 卫星上两个 MODIS 传感器的所有获取中选择可用的「最佳」像元。
 
-Documentation:
+## 覆盖范围与时间
 
-* [User's Guide](https://lpdaac.usgs.gov/documents/624/MOD15_User_Guide_V6.pdf)
-
-* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/90/MOD15_ATBD.pdf)
-
-* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MCD15A3H)
-
-## 基本信息
-
-- 数据集编号（Earth Engine ID）：`MODIS/006/MCD15A3H`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：2002 年至 2023 年；分辨率：500 米。
 - 时间范围：2002-07-04 至 2023-02-14
-- 空间分辨率：500 米
-- 许可：proprietary
-- 关键词：4-day, fpar, global, lai, mcd115a3h, modis, nasa, plant-productivity, usgs, vegetation
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 500 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| Fpar | FPAR absorbed by the green elements of a vegetation canopy | 500 | 400-700nm |
-| Lai | One-sided green leaf area per unit ground area in broadleaf canopies; one-half the total needle surface area per unit ground area in coniferous canopies  | 500 |  |
-| FparLai_QC | Quality for Lai and Fpar | 500 |  |
-| FparExtra_QC | Extra detail quality for LAI and FPAR | 500 |  |
-| FparStdDev | Standard deviation of Fpar | 500 |  |
-| LaiStdDev | Standard deviation for Lai | 500 |  |
+| Fpar | 植被冠层绿色元素吸收的 FPAR。 | 500 | 400-700nm |
+| Lai | 阔叶冠层单位地面面积的单侧绿叶面积；针叶冠层单位地面面积的总针叶表面积的一半。 | 500 |  |
+| FparLai_QC | Lai 与 Fpar 的质量。 | 500 |  |
+| FparExtra_QC | LAI 与 FPAR 的额外细节质量。 | 500 |  |
+| FparStdDev | Fpar 的标准差。 | 500 |  |
+| LaiStdDev | Lai 的标准差。 | 500 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 土地覆盖与植被监测
+- 全球变化研究
+- 遥感算法验证
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('MODIS/006/MCD15A3H');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`MODIS/006/MCD15A3H`
+- 提供方：NASA LP DAAC at the USGS EROS Center、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MCD15A3H
+* [User's Guide](https://lpdaac.usgs.gov/documents/624/MOD15_User_Guide_V6.pdf)
+* [Algorithm Theoretical Basis Document (ATBD)](https://lpdaac.usgs.gov/documents/90/MOD15_ATBD.pdf)
+* [General Documentation](https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MCD15A3H)
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：4-day, fpar, global, lai, mcd115a3h, modis, nasa, plant-productivity, usgs, vegetation
 - 数据引用：Please visit [LP DAAC 'Citing Our Data' page](https://lpdaac.usgs.gov/citing_our_data)
 for information on citing LP DAAC datasets.
 
 - DOI：10.5067/MODIS/MCD15A3H.006
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [MOD13A1.006 Terra Vegetation Indices 16-Day Global 500m [deprecated]](/pages/7a44de8e/)
+- [MOD13A2.006 Terra Vegetation Indices 16-Day Global 1km [deprecated]](/pages/9296243b/)
+- [MOD13Q1.006 Terra Vegetation Indices 16-Day Global 250m [deprecated]](/pages/7d865478/)
+- [MOD15A2H.006: Terra Leaf Area Index/FPAR 8-Day Global 500m [deprecated]](/pages/94591ad1/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
