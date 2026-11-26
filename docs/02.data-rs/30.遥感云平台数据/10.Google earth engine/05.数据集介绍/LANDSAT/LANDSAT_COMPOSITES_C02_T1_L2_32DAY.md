@@ -1,5 +1,5 @@
 ---
-title: "Landsat Collection 2 Tier 1 Level 2 32-Day Composite"
+title: "Landsat Collection 2 Tier 1 二级 32 天合成"
 date: 2026-11-03 12:00:00
 permalink: /pages/ca9766bc/
 categories:
@@ -14,68 +14,77 @@ tags:
   - "usgs"
 ---
 
-# Landsat Collection 2 Tier 1 Level 2 32-Day Composite
+# Landsat Collection 2 Tier 1 二级 32 天合成
 
-## 数据集简介
+英文原名：Landsat Collection 2 Tier 1 Level 2 32-Day Composite
 
-These Landsat Collection 2 Tier 1 Level 2 composites are made from Tier 1
-Level 2 orthorectified scenes, and include the SR bands:
-blue, green, red, nir, swir1, swir2, and thermal.
+## 这是什么数据
 
-These composites are created from
-all the scenes in
-each 32-day period beginning from the first day of the year and
-continuing to the 352nd day of the year.  The last composite of the
-year, beginning on day 353, will overlap the first composite of the
-following year by 20 days.  All the images from each 32-day period are
-included in the composite, with the most recent pixel as the composite value.
+这些 Landsat Collection 2 Tier 1 Level 2 合成由 Tier 1 Level 2 正射校正影像制作，包括地表反射率波段：蓝、绿、红、近红外、短波红外 1、短波红外 2 与热红外。
 
-Notes:
+这些合成由每个 32 天时段内的所有影像生成，时段从每年的第一天开始、持续到每年的第 352 天。一年中最后一个合成从第 353 天开始，将与次年第一个合成重叠 20 天。每个 32 天时段的所有影像都包括在合成中，以最新像元作为合成值。
 
-* The code used to create the composites
-  [can be seen here](https://github.com/google/earthengine-catalog/blob/main/pipelines/landsat.py).
+注：
 
-* Only daytime images with WRS_ROW < 122 are included.
+* 创建这些合成所用的代码[可在此查看](https://github.com/google/earthengine-catalog/blob/main/pipelines/landsat.py)。
 
-* For Landsat 7 , images after 2017-01-01 are excluded due to orbital drift.
+* 只包括 WRS_ROW < 122 的白天影像。
 
-* For Landsat 8, images before 2013-05-01 are excluded due to pointing issues.
+* 对 Landsat 7，2017-01-01 之后的影像因轨道漂移被排除。
 
-**Caution:**  These composites are computed on the fly and count towards
-the requesting project's
-[EECU](https://developers.google.com/earth-engine/guides/computation_overview#eecus)
-usage.
+* 对 Landsat 8，2013-05-01 之前的影像因指向问题被排除。
 
-## 基本信息
+**注意：** 这些合成是实时计算的，计入请求项目的 [EECU](https://developers.google.com/earth-engine/guides/computation_overview#eecus) 用量。
 
-- 数据集编号（Earth Engine ID）：`LANDSAT/COMPOSITES/C02/T1_L2_32DAY`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：Google、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球陆地；时间范围：1984 年至今；分辨率：30 米。
 - 时间范围：1984-01-01 至 2026-10-16
-- 空间分辨率：30 米
-- 许可：proprietary
-- 关键词：landsat, landsat-composite, satellite-imagery, sr, usgs
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| blue | Blue (surface reflectance) | 30 |  |
-| green | Green (surface reflectance) | 30 |  |
-| red | Red (surface reflectance) | 30 |  |
-| nir | Near infrared (surface reflectance) | 30 |  |
-| swir1 | Shortwave infrared 1 (surface reflectance) | 30 |  |
-| swir2 | Shortwave infrared 2 (surface reflectance) | 30 |  |
-| thermal | Surface temperature | 30 |  |
+| blue | 蓝光（地表反射率）。 | 30 |  |
+| green | 绿光（地表反射率）。 | 30 |  |
+| red | 红光（地表反射率）。 | 30 |  |
+| nir | 近红外（地表反射率）。 | 30 |  |
+| swir1 | 短波红外 1（地表反射率）。 | 30 |  |
+| swir2 | 短波红外 2（地表反射率）。 | 30 |  |
+| thermal | 地表温度。 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 长时序地表反射率分析
+- 土地覆盖变化监测
+- 植被指数时间序列
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('LANDSAT/COMPOSITES/C02/T1_L2_32DAY');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`LANDSAT/COMPOSITES/C02/T1_L2_32DAY`
+- 提供方：Google、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_32DAY
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：landsat, landsat-composite, satellite-imagery, sr, usgs
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [Landsat Collection 2 Tier 1 Level 2 8-Day Composite](/pages/80887808/)
+- [Landsat Collection 2 Tier 1 Level 2 Annual Composite](/pages/ed17e820/)
+- [ALOS AVNIR-2 正射影像（ORI）](/pages/d4abf354/)
+- [ALOS-2 PALSAR-2 条带模式 2.1 级产品（2024 年 1 月能登地震应急观测）](/pages/b836b19e/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

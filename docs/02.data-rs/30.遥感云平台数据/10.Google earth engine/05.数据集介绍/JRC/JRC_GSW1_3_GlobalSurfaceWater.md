@@ -1,5 +1,5 @@
 ---
-title: "JRC Global Surface Water Mapping Layers, v1.3 [deprecated]"
+title: "JRC 全球地表水制图图层 v1.3（已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/08dc5359/
 categories:
@@ -16,65 +16,72 @@ tags:
   - "water"
 ---
 
-# JRC Global Surface Water Mapping Layers, v1.3 [deprecated]
+# JRC 全球地表水制图图层 v1.3（已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：JRC Global Surface Water Mapping Layers, v1.3 [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-This dataset contains maps of the location and temporal
-distribution of surface water from 1984 to 2020 and provides
-statistics on the extent and change of those water surfaces.
-For more information see the associated journal article: [High-resolution
-mapping of global surface water and its long-term changes](https://www.nature.com/nature/journal/v540/n7633/full/nature20584.html)
-(Nature, 2016) and the online [Data Users Guide](https://storage.googleapis.com/global-surface-water/downloads_ancillary/DataUsersGuidev2.pdf).
+本数据集包含 1984 至 2020 年地表水的位置与时间分布图件，并提供这些水面范围与变化的统计。更多信息见相关期刊论文：[High-resolution mapping of global surface water and its long-term changes](https://www.nature.com/nature/journal/v540/n7633/full/nature20584.html)（Nature, 2016）与在线 [Data Users Guide](https://storage.googleapis.com/global-surface-water/downloads_ancillary/DataUsersGuidev2.pdf)。
 
-These data were generated using 4,453,989 scenes from Landsat
-5, 7, and 8 acquired between 16 March 1984 and 31 December 2020.
-Each pixel was individually classified into water / non-water
-using an expert system and the results were collated into a monthly
-history for the entire time period and two epochs (1984-1999,
-2000-2020) for change detection.
+这些数据使用 Landsat 5、7、8 共 4,453,989 景影像生成，影像获取于 1984 年 3 月 16 日至 2020 年 12 月 31 日。每个像元用专家系统单独分类为水体/非水体，结果汇编为整个时段的月度历史，以及用于变化检测的两个时相（1984–1999、2000–2020）。
 
-This mapping layers product consists of 1 image containing 7 bands.
-It maps different facets of the spatial and temporal distribution of
-surface water over the last 35 years. Areas where water has
-never been detected are masked.
+这一制图图层产品由 1 幅包含 7 个波段的影像组成。它绘制了过去 35 年地表水空间与时间分布的不同侧面。从未检测到水体的区域被掩膜。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`JRC/GSW1_3/GlobalSurfaceWater`
-- 数据类型：影像（Image）
-- 提供方：EC JRC / Google、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：1984 年 3 月至 2020 年 12 月；分辨率：30 米。
 - 时间范围：1984-03-16 至 2021-01-01
-- 空间分辨率：30 米
-- 许可：proprietary
-- 关键词：geophysical, google, jrc, landsat-derived, surface, surface-ground-water, water
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像（Image），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| occurrence | The frequency with which water was present. | 30 |  |
-| change_abs | Absolute change in occurrence between two epochs: 1984-1999 vs 2000-2019. | 30 |  |
-| change_norm | Normalized change in occurrence. (epoch1-epoch2)/(epoch1+epoch2) * 100 | 30 |  |
-| seasonality | Number of months water is present. | 30 |  |
-| recurrence | The frequency with which water returns from year to year. | 30 |  |
-| transition | Categorical classification of change between first and last year. | 30 |  |
-| max_extent | Binary image containing 1 anywhere water has ever been detected. | 30 |  |
+| occurrence | 水体出现的频率。 | 30 |  |
+| change_abs | 两个时相间出现频率的绝对变化：1984–1999 对 2000–2020。 | 30 |  |
+| change_norm | 出现频率的归一化变化：（时相1−时相2）/（时相1+时相2）×100。 | 30 |  |
+| seasonality | 水体出现的月份数。 | 30 |  |
+| recurrence | 水体逐年重现的频率。 | 30 |  |
+| transition | 首年与末年之间的变化类别分类。 | 30 |  |
+| max_extent | 二值影像：凡曾检测到水体处为 1。 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 全球地表水范围与变化分析
+- 湖泊与水库长期监测
+- 洪水与湿地研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.Image('JRC/GSW1_3/GlobalSurfaceWater');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`JRC/GSW1_3/GlobalSurfaceWater`
+- 提供方：EC JRC / Google、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_3_GlobalSurfaceWater
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：geophysical, google, jrc, landsat-derived, surface, surface-ground-water, water
 - 数据引用：Jean-Francois Pekel, Andrew Cottam, Noel Gorelick, Alan S. Belward,
 High-resolution mapping of global surface water and its long-term changes.
 Nature 540, 418-422 (2016). ([doi:10.1038/nature20584](https://doi.org/10.1038/nature20584))
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [JRC Global Surface Water Metadata, v1.3 [deprecated]](/pages/c39f768e/)
+- [JRC Monthly Water History, v1.3 [deprecated]](/pages/46ad4f43/)
+- [JRC Monthly Water Recurrence, v1.3 [deprecated]](/pages/748c5c9b/)
+- [JRC Yearly Water Classification History, v1.3 [deprecated]](/pages/adb7aac6/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

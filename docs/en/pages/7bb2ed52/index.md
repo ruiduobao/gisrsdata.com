@@ -1,0 +1,103 @@
+---
+title: "LANDFIRE ESP HI (Environmental Site Potential) v1.2.0"
+date: 2026-11-03 12:00:00
+---
+
+# LANDFIRE ESP HI (Environmental Site Potential) v1.2.0
+
+Original name: LANDFIRE ESP HI (Environmental Site Potential) v1.2.0
+
+## What this dataset is
+
+LANDFIRE (LF), Landscape Fire and Resource Management Planning Tools, is a
+shared program between the wildland fire management programs of the U.S.
+Department of Agriculture's Forest Service, U.S. Department of the Interior's
+Geological Survey, and The Nature Conservancy.
+
+LANDFIRE (LF) layers are created using predictive landscape models based on
+extensive field-referenced data, satellite imagery and biophysical gradient
+layers using classification and regression trees.
+
+LANDFIRE's (LF) Environmental Site Potential (ESP) represents the vegetation that could be supported at a given site based on the biophysical environment.
+Map units are based on NatureServe's Ecological Systems classification and represent the natural plant communities that may have been present during the reference period.
+ESP map units represent the natural plant communities that would become established at late or climax stages of successional development in the absence of disturbance.
+They reflect the current climate and physical environment, as well as the competitive potential of native plant species. The ESP concept is similar to that used in classifications of potential vegetation, including habitat types and plant associations.
+In early versions of LF, ESP was used to inform the existing vegetation and fuel mapping processes.
+
+The LANDIFRE Vegetation datasets include:
+
+* Biophysical Settings (BPS)
+* Environmental Site Potential (ESP)
+* Existing Vegetation Canopy Cover (EVC)
+* Existing Vegetation Height (EVH).
+* Existing Vegetation Type (EVT)
+These layers are created using predictive landscape models based on extensive
+field-referenced data, satellite imagery and biophysical gradient layers using
+classification and regression trees.
+
+## Coverage and time range
+
+- Coverage: Coverage: Hawaii, US; time: 2010; resolution: 30 m.
+- Time range: 2010-01-01 至 2010-12-31
+
+## Resolution and specifications
+
+- Spatial resolution: about 30 m
+- Data type: Image, accessed through Google Earth Engine
+
+| Band | Description | Resolution (m) | Wavelength |
+| --- | --- | --- | --- |
+| ESP | Environmental Site Potential | 30 |  |
+
+## What you can use it for
+
+- Vegetation type and structure mapping
+- Landscape ecological assessment
+- Inputs for fire and fuel modelling
+
+## How to get it
+
+In Earth Engine:
+
+```js
+var dataset = ee.Image('LANDFIRE/Vegetation/ESP/v1_2_0/HI');
+```
+
+- Earth Engine ID: `LANDFIRE/Vegetation/ESP/v1_2_0/HI`
+- Providers: U.S. Department of Agriculture's (USDA), U.S. Forest Service (USFS), U.S.
+- Official catalog page: https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_HI
+
+## License and citation
+
+- License: proprietary
+- Keywords: doi, fire, forest-biomass, landfire, nature-conservancy, usda, usgs, vegetation, wildfire
+- 数据引用：The suggested way to cite LANDFIRE products is specific to each product,
+so the model for citation is provided, with an example for a particular product.
+Producer. Year released. Product xxxxx:
+
+- Individual model name.
+- BpS Models and Descriptions, Online. LANDFIRE. Washington, DC. U.S. Department of
+  Agriculture, Forest Service
+- U.S. Department of the Interior; U.S. Geological Survey; Arlington, VA
+- The Nature Conservancy (Producers). Available- URL. Access date.
+
+Example Citation: LANDFIRE Biophysical Settings. 2018. Biophysical setting 14420:
+South Texas sand sheet grassland. In: LANDFIRE Biophysical Setting Model: Map zone 36,
+[Online]. In: BpS Models and Descriptions. In: LANDFIRE. Washington, DC:
+U.S. Department of Agriculture, Forest Service; U.S. Department of the Interior;
+U.S. Geological Survey; Arlington, VA: The Nature Conservancy (Producers).
+Available:[https://www.landfire.gov/bps-models.php](https://www.landfire.gov/bps-models.php) [2018, June 27].
+Additional guidance on citation of LANDFIRE products can be found
+[here](https://landfire.gov/data/citation)
+
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## Related datasets
+
+- [LANDFIRE BPS (Biophysical Settings) v1.4.0](/pages/18949a9a/)
+- [LANDFIRE ESP AK (Environmental Site Potential) v1.2.0](/pages/b2b4a475/)
+- [LANDFIRE ESP CONUS (Environmental Site Potential) v1.2.0](/pages/ca4671c8/)
+- [LANDFIRE EVC (Existing Vegetation Cover) v1.4.0](/pages/c7ab551c/)
+
+> This page is adapted from the official Google Earth Engine data catalog (STAC). The text and metadata belong to the data provider.

@@ -1,5 +1,5 @@
 ---
-title: "LANDFIRE VDep (Vegetation Departure) v1.4.0"
+title: "LANDFIRE VDep（植被偏离）v1.4.0"
 date: 2026-11-03 12:00:00
 permalink: /pages/626007d9/
 categories:
@@ -17,88 +17,65 @@ tags:
   - "wildfire"
 ---
 
-# LANDFIRE VDep (Vegetation Departure) v1.4.0
+# LANDFIRE VDep（植被偏离）v1.4.0
 
-## 数据集简介
+英文原名：LANDFIRE VDep (Vegetation Departure) v1.4.0
 
-LANDFIRE (LF), Landscape Fire and Resource Management Planning Tools, is a
-shared program between the wildland fire management programs of the U.S.
-Department of Agriculture's Forest Service, U.S. Department of the Interior's
-Geological Survey, and The Nature Conservancy.
+## 这是什么数据
 
-Landfire (LF) Historical fire regimes, intervals, and vegetation conditions
-are mapped using the Vegetation Dynamics Development Tool (VDDT).
-These data support fire and landscape management planning goals in
-the National Cohesive Wildland Fire Management Strategy, the Federal Wildland
-Fire Management Policy, and the Healthy Forests Restoration Act.
+LANDFIRE（LF），即景观火灾与资源管理规划工具（Landscape Fire and Resource Management Planning Tools），是美国农业部（USDA）林务局、美国内政部地质调查局与大自然保护协会的野地火灾管理项目之间的共享计划。
 
-Vegetation Departure (VDep) indicates how different current vegetation on a landscape is from estimated historical conditions.
-VDep is based on changes to species composition, structural stage, and canopy closure using methods originally described in the Interagency Fire Regime Condition Class Guidebook, but is not identical to those methods.
-LANDFIRE (LF) VDep is based only on departure of current vegetation conditions from reference vegetation conditions, whereas the Guidebook approach includes departure of current fire regimes from those of the reference period.
-VDep is a landscape metric and is scale dependent. Every pixel in a unique biophysical settings (BpS) in a summary unit has the same VDep value.
-These large landscape values may not represent smaller areas within a summary unit.
-The VDep metric ranges from 0 - 100, and is based on four factors. These inputs are held constant within a single version of LF, but can be different across LF versions, which directly impacts VDep comparability across versions.
-VDep can be compared across versions but caution is advised.
+LANDFIRE（LF）的历史火灾制度、间隔与植被状况使用植被动态开发工具（VDDT）绘制。这些数据支持《国家野地火灾管理凝聚战略》、《联邦野地火灾管理政策》与《健康森林恢复法》中的火灾与景观管理规划目标。
 
-The LANDIFRE Fire datasets include:
+植被偏离（VDep）表示景观上当前植被与估算历史状况的差异程度。VDep 基于物种组成、结构阶段与冠层郁闭度的变化，使用最初在《跨部门火灾制度状况类别指南》中描述的方法，但与之不完全相同。LANDFIRE（LF）VDep 仅基于当前植被状况相对于参考植被状况的偏离，而指南方法还包括当前火灾制度相对于参考时期的偏离。VDep 是景观尺度指标，与尺度有关。汇总单元内每个独特生物物理设定（BpS）中的每个像元都有相同的 VDep 值。这些大景观值可能不代表汇总单元内较小的区域。VDep 指标范围为 0–100，基于四个因素。这些输入在单个 LF 版本内保持不变，但跨版本可能不同，直接影响 VDep 的跨版本可比性。VDep 可以跨版本比较，但建议谨慎。
 
-* Fire Regime Groups (FRG) is intended to characterize presumed historical
-  fire regimes within landscapes based on interactions between vegetation
-  dynamics, fire spread, fire effects, and spatial context
-* Mean Fire Return Interval (MFRI) quantifies the average period between
-  fires under the presumed historical fire regime
-* Percent of Low-severity Fire (PLS) image quantifies the amount of
-  low-severity fires relative to mixed- and replacement-severity fires
-  under the presumed historical fire regime and is defined as less than 25
-  percent average top-kill within a typical fire perimeter for a given
-  vegetation type
-* Percent of Mixed-severity Fire (PMS) layer quantifies the amount of
-  mixed-severity fires relative to low- and replacement-severity fires under
-  the presumed historical fire regime, and is defined as between 25 and 75
-  percent average top-kill within a typical fire perimeter for a given
-  vegetation type
-* Percent of Replacement-severity Fire (PRS) layer quantifies the amount of
-  replacement-severity fires relative to low- and mixed-severity fires under
-  the presumed historical fire regime, and is defined as greater than 75
-  percent average top-kill within a typical fire perimeter for a given
-  vegetation type
-* Succession Classes (SClass) layer characterizes current vegetation conditions
-  with respect to the vegetation species composition, cover, and height ranges
-  of successional states that occur within each biophysical setting
-* Vegetation Condition Class (VCC) represents a simple categorization of the
-  associated Vegetation Departure (VDEP) layer and indicates the general level
-  to which current vegetation is different from the simulated historical
-  vegetation reference conditions
-* Vegetation Departure (VDep) indicates how different current vegetation on a
-  landscape is from estimated historical conditions. VDep is based on changes
-  to species composition, structural stage, and canopy closure.
+LANDFIRE 火灾数据集包括：
 
-## 基本信息
+* 火灾制度组（FRG）：旨在基于植被动态、火蔓延、火效应与空间背景之间的相互作用，刻画景观内假定的历史火灾制度
+* 平均火返回间隔（MFRI）：量化假定历史火灾制度下两次火灾之间的平均间隔
+* 低严重度火百分比（PLS）影像：量化假定历史火灾制度下低严重度火相对于混合与置换严重度火的量，定义为给定植被类型在典型火周界内平均顶梢致死率小于 25%
+* 混合严重度火百分比（PMS）图层：量化假定历史火灾制度下混合严重度火相对于低与置换严重度火的量，定义为给定植被类型在典型火周界内平均顶梢致死率在 25% 至 75% 之间
+* 置换严重度火百分比（PRS）图层：量化假定历史火灾制度下置换严重度火相对于低与混合严重度火的量，定义为给定植被类型在典型火周界内平均顶梢致死率大于 75%
+* 演替类别（SClass）图层：就每个生物物理设定内出现的演替状态的植被物种组成、覆盖与高度范围，刻画当前植被状况
+* 植被状况类别（VCC）：是相关植被偏离（VDEP）图层的简单分类，表示当前植被与模拟历史植被参考状况的差异的总体程度
+* 植被偏离（VDep）：表示景观上当前植被与估算历史状况的差异程度。VDep 基于物种组成、结构阶段与冠层郁闭度的变化。
 
-- 数据集编号（Earth Engine ID）：`LANDFIRE/Fire/VDep/v1_4_0`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：U.S. Department of Agriculture's (USDA), U.S. Forest Service (USFS), U.S.
-Department of the Interior's Geological Survey (USGS), and The Nature Conservancy.、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：美国本土（CONUS）；时间：2014 年；分辨率：30 米。
 - 时间范围：2014-09-01 至 2014-09-01
-- 空间分辨率：30 米
-- 许可：proprietary
-- 关键词：doi, fire, landfire, nature-conservancy, usda, usgs, vegetation, wildfire
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| VDep | Vegetation Departure | 30 |  |
+| VDep | 植被偏离。 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 历史火灾制度分析
+- 景观评估与火灾管理规划
+- 燃料与植被管理
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('LANDFIRE/Fire/VDep/v1_4_0');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`LANDFIRE/Fire/VDep/v1_4_0`
+- 提供方：U.S. Department of Agriculture's (USDA), U.S. Forest Service (USFS), U.S.
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Fire_VDep_v1_4_0
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：doi, fire, landfire, nature-conservancy, usda, usgs, vegetation, wildfire
 - 数据引用：The suggested way to cite LANDFIRE products is specific to each product,
 so the model for citation is provided, with an example for a particular product.
 Producer. Year released. Product xxxxx:
@@ -118,5 +95,14 @@ Available: [https://www.landfire.gov/bps-models.php](https://www.landfire.gov/bp
 Additional guidance on citation of LANDFIRE products can be found
 [here](https://landfire.gov/data/citation)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [LANDFIRE FRG (Fire Regime Groups) v1.2.0](/pages/fe1e8477/)
+- [LANDFIRE MFRI (Mean Fire Return Interval) v1.2.0](/pages/fde00c02/)
+- [LANDFIRE PLS (Percent Low-severity Fire) v1.2.0](/pages/cfcc463e/)
+- [LANDFIRE PMS (Percent of Mixed-severity Fire) v1.2.0](/pages/d008693d/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

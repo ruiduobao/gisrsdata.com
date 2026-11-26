@@ -1,5 +1,5 @@
 ---
-title: "JRC Monthly Water Recurrence, v1.0 [deprecated]"
+title: "JRC 月度水体重现 v1.0（已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/5e46dfd7/
 categories:
@@ -19,59 +19,67 @@ tags:
   - "water"
 ---
 
-# JRC Monthly Water Recurrence, v1.0 [deprecated]
+# JRC 月度水体重现 v1.0（已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：JRC Monthly Water Recurrence, v1.0 [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-This dataset contains maps of the location and temporal
-distribution of surface water from 1984 to 2015 and provides
-statistics on the extent and change of those water surfaces.
-For more information see the associated journal article: [High-resolution
-mapping of global surface water and its long-term changes](https://www.nature.com/nature/journal/v540/n7633/full/nature20584.html)
-(Nature, 2016) and the online [Data Users Guide](https://storage.googleapis.com/global-surface-water/downloads_ancillary/DataUsersGuidev2.pdf).
+本数据集包含 1984 至 2015 年地表水的位置与时间分布图件，并提供这些水面范围与变化的统计。更多信息见相关期刊论文：[High-resolution mapping of global surface water and its long-term changes](https://www.nature.com/nature/journal/v540/n7633/full/nature20584.html)（Nature, 2016）与在线 [Data Users Guide](https://storage.googleapis.com/global-surface-water/downloads_ancillary/DataUsersGuidev2.pdf)。
 
-These data were generated using 3,066,102 scenes from Landsat
-5, 7, and 8 acquired between 16 March 1984 and 10 October 2015.
-Each pixel was individually classified into water / non-water
-using an expert system and the results were collated into a monthly
-history for the entire time period and two epochs (1984-1999,
-2000-2015) for change detection.
+这些数据使用 Landsat 5、7、8 共 3,066,102 景影像生成，影像获取于 1984 年 3 月 16 日至 2015 年 10 月 10 日。每个像元用专家系统单独分类为水体/非水体，结果汇编为整个时段的月度历史，以及用于变化检测的两个时相（1984–1999、2000–2015）。
 
-The Monthly Recurrence collection contains 12 images: monthly measures of
-the seasonality of water based on the occurrence values detected in that
-month over all years.
+这一月度重现集合包含 12 幅影像：基于该月在所有年份中检测到的出现值的水体季节性月度度量。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`JRC/GSW1_0/MonthlyRecurrence`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：EC JRC / Google、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：1984 年 3 月至 2015 年 10 月；分辨率：30 米。
 - 时间范围：1984-03-16 至 2015-10-18
-- 空间分辨率：30 米
-- 许可：proprietary
-- 关键词：geophysical, google, history, jrc, landsat-derived, monthly, recurrence, surface, surface-ground-water, water
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| monthly_recurrence | The recurrence value expressed as a percentage for this month. | 30 |  |
-| has_observations | A flag to indicate if the month has observations. | 30 |  |
+| monthly_recurrence | 以百分比表示的该月重现值。 | 30 |  |
+| has_observations | 标示该月是否有观测的标志。 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 全球地表水范围与变化分析
+- 湖泊与水库长期监测
+- 洪水与湿地研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('JRC/GSW1_0/MonthlyRecurrence');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`JRC/GSW1_0/MonthlyRecurrence`
+- 提供方：EC JRC / Google、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_0_MonthlyRecurrence
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：geophysical, google, history, jrc, landsat-derived, monthly, recurrence, surface, surface-ground-water, water
 - 数据引用：Jean-Francois Pekel, Andrew Cottam, Noel Gorelick, Alan S. Belward,
 High-resolution mapping of global surface water and its long-term changes.
 Nature 540, 418-422 (2016). ([doi:10.1038/nature20584](https://doi.org/10.1038/nature20584))
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [JRC Global Surface Water Mapping Layers, v1.0 [deprecated]](/pages/4d377c76/)
+- [JRC Global Surface Water Metadata, v1.0 [deprecated]](/pages/5f34ce30/)
+- [JRC Monthly Water History, v1.0 [deprecated]](/pages/ff1671f5/)
+- [JRC Yearly Water Classification History, v1.0 [deprecated]](/pages/24553550/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

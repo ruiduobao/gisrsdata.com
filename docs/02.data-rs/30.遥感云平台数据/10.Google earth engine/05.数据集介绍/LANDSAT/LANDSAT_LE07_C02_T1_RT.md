@@ -1,5 +1,5 @@
 ---
-title: "USGS Landsat 7 Collection 2 Tier 1 and Real-Time data Raw Scenes"
+title: "USGS Landsat 7 Collection 2 Tier 1 与实时数据原始景"
 date: 2026-11-03 12:00:00
 permalink: /pages/50ce2d44/
 categories:
@@ -21,73 +21,76 @@ tags:
   - "tier1"
 ---
 
-# USGS Landsat 7 Collection 2 Tier 1 and Real-Time data Raw Scenes
+# USGS Landsat 7 Collection 2 Tier 1 与实时数据原始景
 
-## 数据集简介
+英文原名：USGS Landsat 7 Collection 2 Tier 1 and Real-Time data Raw Scenes
 
-Landsat 7 Collection 2 Tier 1 and Real-Time data DN values, representing scaled, calibrated at-sensor radiance.
+## 这是什么数据
 
-Landsat scenes with the highest available data quality
-are placed into Tier 1 and are considered suitable for time-series processing
-analysis. Tier 1 includes Level-1 Precision Terrain (L1TP) processed data
-that have well-characterized radiometry and are inter-calibrated across the
-different Landsat sensors. The georegistration of Tier 1 scenes will be
-consistent and within prescribed tolerances [<=12 m root mean square error
-(RMSE)]. All Tier 1 Landsat data can be considered consistent and
-inter-calibrated (regardless of sensor) across the full collection. See more
-information [in the USGS
-docs](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collections).
+Landsat 7 Collection 2 Tier 1 与实时数据 DN 值，表示缩放、定标后的传感器处辐射。
 
-The T1_RT collection contains both Tier 1 and Real-Time (RT) assets.
-Newly-acquired Landsat 7 ETM+ and Landsat 8 OLI/TIRS data are processed
-upon downlink but use predicted ephemeris, initial bumper mode parameters,
-or initial TIRS line of sight model parameters. The data is placed in the
-Real-Time tier and made available for immediate download. Once the data
-have been reprocessed with definitive ephemeris, updated bumper mode
-parameters and refined TIRS parameters, the products are transitioned to
-either Tier 1 or Tier 2 and removed from the Real-Time tier. The transition
-delay from Real-Time to Tier 1 or Tier 2 is between 14 and 26 days.
+数据质量最高的 Landsat 影像被归入 Tier 1，被认为适合时间序列处理分析。Tier 1 包括一级精密地形（L1TP）处理数据，其辐射定标特征明确，并在不同 Landsat 传感器之间相互定标。Tier 1 影像的地理配准将保持一致并在规定容差内 [≤12 米均方根误差（RMSE）]。所有 Tier 1 Landsat 数据在整个集合中都可视为一致且相互定标（与传感器无关）。更多信息见 [USGS 文档](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collections)。
 
-Note that [Landsat 7's orbit has been drifting to an earlier acquisition time since
-2017](https://www.sciencedirect.com/science/article/pii/S2666017221000134?via%3Dihub).
+T1_RT 集合同时包含 Tier 1 与实时（RT）资产。新获取的 Landsat 7 ETM+ 与 Landsat 8 OLI/TIRS 数据在下行后即处理，但使用预测星历、初始缓冲模式参数或初始 TIRS 视线模型参数。数据被置于实时层并可立即下载。一旦数据用最终星历、更新的缓冲模式参数与精化的 TIRS 参数重新处理，产品即转入 Tier 1 或 Tier 2 并从实时层移除。从实时层转入 Tier 1 或 Tier 2 的延迟为 14 至 26 天。
 
-## 基本信息
+注意，[Landsat 7 的轨道自 2017 年以来一直在漂移至更早的获取时间](https://www.sciencedirect.com/science/article/pii/S2666017221000134?via%3Dihub)。
 
-- 数据集编号（Earth Engine ID）：`LANDSAT/LE07/C02/T1_RT`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：USGS、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球；时间范围：1999 年至 2024 年；分辨率：15–60 米（多光谱 30 米）。
 - 时间范围：1999-05-28 至 2024-01-19
-- 许可：PDDL-1.0
-- 关键词：c2, etm, global, l7, landsat, le7, nrt, radiance, rt, satellite-imagery, t1, tier1, usgs
 
-## 波段信息
+## 分辨率与规格
+
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| B1 | Blue | 30 | 0.45 - 0.52 &mu;m |
-| B2 | Green | 30 | 0.52 - 0.60 &mu;m |
-| B3 | Red | 30 | 0.63 - 0.69 &mu;m |
-| B4 | Near infrared | 30 | 0.77 - 0.90 &mu;m |
-| B5 | Shortwave infrared 1 | 30 | 1.55 - 1.75 &mu;m |
-| B6_VCID_1 | Low-gain Thermal Infrared 1. This band has expanded dynamic range and lower radiometric resolution (sensitivity), with less saturation at high Digital Number (DN) values. Resampled from 60m to 30m.  | 60 | 10.40 - 12.50 &mu;m |
-| B6_VCID_2 | High-gain Thermal Infrared 1. This band has higher radiometric resolution (sensitivity), although it has a more restricted dynamic range. Resampled from 60m to 30m.  | 60 | 10.40 - 12.50 &mu;m |
-| B7 | Shortwave infrared 2 | 30 | 2.08 - 2.35 &mu;m |
-| B8 | Panchromatic | 15 | 0.52 - 0.90 &mu;m |
-| QA_PIXEL | Landsat Collection 2 TM/ETM QA Bitmask  | 30 |  |
-| QA_RADSAT | Radiometric saturation QA | 30 |  |
-| SAA | Solar Azimuth Angle | 30 |  |
-| SZA | Solar Zenith Angle | 30 |  |
-| VAA | View Azimuth Angle | 30 |  |
-| VZA | View Zenith Angle | 30 |  |
+| B1 | 蓝光。 | 30 | 0.45 - 0.52 &mu;m |
+| B2 | 绿光。 | 30 | 0.52 - 0.60 &mu;m |
+| B3 | 红光。 | 30 | 0.63 - 0.69 &mu;m |
+| B4 | 近红外。 | 30 | 0.77 - 0.90 &mu;m |
+| B5 | 短波红外 1。 | 30 | 1.55 - 1.75 &mu;m |
+| B6_VCID_1 | 低增益热红外 1。该波段动态范围扩大、辐射分辨率（灵敏度）较低，在高数字量化值（DN）时较少饱和。由 60 米重采样至 30 米。 | 60 | 10.40 - 12.50 &mu;m |
+| B6_VCID_2 | 高增益热红外 1。该波段辐射分辨率（灵敏度）较高，但动态范围较受限。由 60 米重采样至 30 米。 | 60 | 10.40 - 12.50 &mu;m |
+| B7 | 短波红外 2。 | 30 | 2.08 - 2.35 &mu;m |
+| B8 | 全色。 | 15 | 0.52 - 0.90 &mu;m |
+| QA_PIXEL | Landsat Collection 2 TM/ETM QA 比特掩膜。 | 30 |  |
+| QA_RADSAT | 辐射饱和 QA。 | 30 |  |
+| SAA | 太阳方位角。 | 30 |  |
+| SZA | 太阳天顶角。 | 30 |  |
+| VAA | 观测方位角。 | 30 |  |
+| VZA | 观测天顶角。 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- Landsat 影像检索与分析
+- 地表反射率与地表温度应用
+- 长时间序列土地覆盖监测
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('LANDSAT/LE07/C02/T1_RT');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`LANDSAT/LE07/C02/T1_RT`
+- 提供方：USGS、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_RT
+
+## 许可与引用
+
+- 许可：PDDL-1.0
+- 关键词：c2, etm, global, l7, landsat, le7, nrt, radiance, rt, satellite-imagery, t1, tier1, usgs
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [USGS Landsat 7 Collection 2 Tier 1 Raw Scenes](/pages/809111b6/)
+- [USGS Landsat 7 Collection 2 Tier 1 TOA Reflectance](/pages/1810cfa0/)
+- [USGS Landsat 7 Collection 2 Tier 1 and Real-Time data TOA Reflectance](/pages/5228855d/)
+- [USGS Landsat 7 Collection 2 Tier 2 Raw Scenes](/pages/062fea7f/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

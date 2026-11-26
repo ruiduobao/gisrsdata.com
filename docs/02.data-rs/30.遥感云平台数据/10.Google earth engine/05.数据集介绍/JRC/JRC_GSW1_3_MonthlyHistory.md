@@ -1,5 +1,5 @@
 ---
-title: "JRC Monthly Water History, v1.3 [deprecated]"
+title: "JRC 月度水体历史 v1.3（已弃用）"
 date: 2026-11-03 12:00:00
 permalink: /pages/46ad4f43/
 categories:
@@ -18,58 +18,66 @@ tags:
   - "water"
 ---
 
-# JRC Monthly Water History, v1.3 [deprecated]
+# JRC 月度水体历史 v1.3（已弃用）
 
-> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**
+英文原名：JRC Monthly Water History, v1.3 [deprecated]
 
-## 数据集简介
+## 这是什么数据
 
-This dataset contains maps of the location and temporal
-distribution of surface water from 1984 to 2020 and provides
-statistics on the extent and change of those water surfaces.
-For more information see the associated journal article: [High-resolution
-mapping of global surface water and its long-term changes](https://www.nature.com/nature/journal/v540/n7633/full/nature20584.html)
-(Nature, 2016) and the online [Data Users Guide](https://storage.googleapis.com/global-surface-water/downloads_ancillary/DataUsersGuidev2.pdf).
+本数据集包含 1984 至 2020 年地表水的位置与时间分布图件，并提供这些水面范围与变化的统计。更多信息见相关期刊论文：[High-resolution mapping of global surface water and its long-term changes](https://www.nature.com/nature/journal/v540/n7633/full/nature20584.html)（Nature, 2016）与在线 [Data Users Guide](https://storage.googleapis.com/global-surface-water/downloads_ancillary/DataUsersGuidev2.pdf)。
 
-These data were generated using 4,453,989 scenes from Landsat
-5, 7, and 8 acquired between 16 March 1984 and 31 December 2020.
-Each pixel was individually classified into water / non-water
-using an expert system and the results were collated into a monthly
-history for the entire time period and two epochs (1984-1999,
-2000-2020) for change detection.
+这些数据使用 Landsat 5、7、8 共 4,453,989 景影像生成，影像获取于 1984 年 3 月 16 日至 2020 年 12 月 31 日。每个像元用专家系统单独分类为水体/非水体，结果汇编为整个时段的月度历史，以及用于变化检测的两个时相（1984–1999、2000–2020）。
 
-This Monthly History collection holds the entire history of water detection
-on a month-by-month basis. The collection contains 442 images, one for each
-month between March 1984 and December 2020.
+这一月度历史集合以逐月为基础保存了水体检测的完整历史。集合包含 442 幅影像，为 1984 年 3 月至 2020 年 12 月 的每个月各一幅。
 
-## 基本信息
+## 覆盖范围与时间
 
-- 数据集编号（Earth Engine ID）：`JRC/GSW1_3/MonthlyHistory`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：EC JRC / Google、Google Earth Engine
+- 覆盖范围：覆盖范围：全球；时间范围：1984 年 3 月至 2020 年 12 月；分辨率：30 米。
 - 时间范围：1984-03-16 至 2021-01-01
-- 空间分辨率：30 米
-- 许可：proprietary
-- 关键词：geophysical, google, history, jrc, landsat-derived, monthly, surface, surface-ground-water, water
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| water | Water detection for the month. | 30 |  |
+| water | 该月的水体检测结果。 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 全球地表水范围与变化分析
+- 湖泊与水库长期监测
+- 洪水与湿地研究
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('JRC/GSW1_3/MonthlyHistory');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`JRC/GSW1_3/MonthlyHistory`
+- 提供方：EC JRC / Google、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_3_MonthlyHistory
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：geophysical, google, history, jrc, landsat-derived, monthly, surface, surface-ground-water, water
 - 数据引用：Jean-Francois Pekel, Andrew Cottam, Noel Gorelick, Alan S. Belward,
 High-resolution mapping of global surface water and its long-term changes.
 Nature 540, 418-422 (2016). ([doi:10.1038/nature20584](https://doi.org/10.1038/nature20584))
 
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [JRC Global Surface Water Mapping Layers, v1.3 [deprecated]](/pages/08dc5359/)
+- [JRC Global Surface Water Metadata, v1.3 [deprecated]](/pages/c39f768e/)
+- [JRC Monthly Water Recurrence, v1.3 [deprecated]](/pages/748c5c9b/)
+- [JRC Yearly Water Classification History, v1.3 [deprecated]](/pages/adb7aac6/)
+
+> **注意：该数据集已被官方标记为弃用（deprecated），请优先考虑其替代产品。**

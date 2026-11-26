@@ -1,5 +1,5 @@
 ---
-title: "GHSL: Global built-up surface 1975-2030 (P2023A)"
+title: "GHSL：全球建成区表面 1975–2030（P2023A）"
 date: 2026-11-03 12:00:00
 permalink: /pages/9724c860/
 categories:
@@ -21,52 +21,64 @@ tags:
   - "settlement"
 ---
 
-# GHSL: Global built-up surface 1975-2030 (P2023A)
+# GHSL：全球建成区表面 1975–2030（P2023A）
 
-## 数据集简介
+英文原名：GHSL: Global built-up surface 1975-2030 (P2023A)
 
-This raster dataset depicts the distribution of built-up surfaces,
-expressed in square metres per 100 m grid cell.
-The dataset measures:
-a) the total built-up surface, and b) the built-up surface allocated to grid
-cells of predominant non-residential (NRES) use. Data are
-spatially-temporally interpolated or extrapolated from 1975 to 2030 in 5
-year intervals.
+## 这是什么数据
 
-The complete information about the GHSL main products can be
-found in the [GHSL Data Package 2023 report]
-(https://ghsl.jrc.ec.europa.eu/documents/GHSL_Data_Package_2023.pdf?t=1683540422)
+这一栅格数据集描绘建成区表面的分布，以每 100 米格网单元的平方米数表示。该数据集测量：a) 建成区表面总量；b) 分配给以非居住（NRES）用途为主的格网单元的建成区表面。数据在 1975 年至 2030 年间以 5 年间隔进行时空内插或外推。
 
-The Global Human Settlement Layer (GHSL) project is supported by the
-European Commission, Joint Research Centre, and Directorate-General for
-Regional and Urban Policy.
+有关 GHSL 主要产品的完整信息，见 [GHSL Data Package 2023 报告](https://ghsl.jrc.ec.europa.eu/documents/GHSL_Data_Package_2023.pdf?t=1683540422)。
 
-## 基本信息
+全球人类住区层（GHSL）项目由欧洲委员会、联合研究中心以及区域与城市政策总司支持。
 
-- 数据集编号（Earth Engine ID）：`JRC/GHSL/P2023A/GHS_BUILT_S`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：EC JRC、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：全球；时间：1975–2030 年（5 年间隔，含内插/外推）；分辨率：100 米。
 - 时间范围：1975-01-01 至 2030-12-31
-- 空间分辨率：100 米
-- 许可：proprietary
-- 关键词：built, built-environment, builtup, copernicus, ghsl, jrc, landcover, landsat-derived, population, sdg, sentinel2-derived, settlement, urban
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 100 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| built_surface | Built-up surface per grid cell | 100 |  |
-| built_surface_nres | Non-residential built-up surface per grid cell | 100 |  |
+| built_surface | 每个格网单元的建成区表面。 | 100 |  |
+| built_surface_nres | 每个格网单元的非居住建成区表面。 | 100 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 城市扩张与建成区变化分析
+- 人口暴露与灾害风险评估
+- 可持续发展目标（SDG 11）监测
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('JRC/GHSL/P2023A/GHS_BUILT_S');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`JRC/GHSL/P2023A/GHS_BUILT_S`
+- 提供方：EC JRC、Google Earth Engine
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_S
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：built, built-environment, builtup, copernicus, ghsl, jrc, landcover, landsat-derived, population, sdg, sentinel2-derived, settlement, urban
 - DOI：10.2905/9F06F36F-4B11-47EC-ABB0-4F8B7B1D72EA
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [GHSL: Degree of Urbanization 1975-2030 V2-0 (P2023A)](/pages/5396cca7/)
+- [GHSL: Global built-up surface 10m (P2023A)](/pages/a10e4a06/)
+- [GHSL: Global settlement characteristics (10 m) 2018 (P2023A)](/pages/465f5706/)
+- [GHSL: Degree of Urbanization 1975-2030 (P2023A) [deprecated]](/pages/a1a2ee0c/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

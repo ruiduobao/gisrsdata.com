@@ -1,5 +1,5 @@
 ---
-title: "LANDFIRE BPS (Biophysical Settings) v1.4.0"
+title: "LANDFIRE BPS（生物物理设定）v1.4.0"
 date: 2026-11-03 12:00:00
 permalink: /pages/18949a9a/
 categories:
@@ -18,63 +18,62 @@ tags:
   - "wildfire"
 ---
 
-# LANDFIRE BPS (Biophysical Settings) v1.4.0
+# LANDFIRE BPS（生物物理设定）v1.4.0
 
-## 数据集简介
+英文原名：LANDFIRE BPS (Biophysical Settings) v1.4.0
 
-LANDFIRE (LF), Landscape Fire and Resource Management Planning Tools, is a
-shared program between the wildland fire management programs of the U.S.
-Department of Agriculture's Forest Service, U.S. Department of the Interior's
-Geological Survey, and The Nature Conservancy.
+## 这是什么数据
 
-LANDFIRE (LF) layers are created using predictive landscape models based on
-extensive field-referenced data, satellite imagery and biophysical gradient
-layers using classification and regression trees.
+LANDFIRE（LF），即景观火灾与资源管理规划工具（Landscape Fire and Resource Management Planning Tools），是美国农业部（USDA）林务局、美国内政部地质调查局与大自然保护协会的野地火灾管理项目之间的共享计划。
 
-LANDFIRE's (LF) Biophysical Settings (BPS) represents the vegetation that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of the historical disturbance regime.
-Map units are based on NatureServe's Ecological Systems classification and represent the natural plant communities that may have been present during the reference period. Each BPS map unit is matched with a model of vegetation succession, and both serve as key inputs to the LANDSUM landscape succession model.
-The actual time period for this data set is a composite of both the historical context provided by the fire regime and vegetation dynamics models and the more recent field and geospatial inputs used to create it.
-LF's current BPS is unchanged from LF National's BPS except for updates made to water, barren, and snow classes (additions or removal), so that non-vegetated cover types within the BPS product matches LF existing vegetation and fuel products.
-With the final release of LF Remap for CONUS in mid to late 2020, the LF Remap BPS product will include the following as attributes: Mean Fire Return Interval (MFRI), Percent of Low-severity Fire (PLS), Percent of Mixed-severity Fire (PMS), Percent of Replacement-severity Fire (PRS), and Fire Regime Groups (FRG), so that the linkage of these characteristics to BPS is maintained.
-LF uses BPS to depict reference conditions of vegetation across landscapes.
+LANDFIRE（LF）图层使用基于大量实地参考数据、卫星影像与生物物理梯度图层的预测景观模型、通过分类与回归树创建。
 
-The LANDIFRE Vegetation datasets include:
+LANDFIRE（LF）的生物物理设定（BPS）表示欧洲-美洲定居之前景观上可能占主导的植被，基于当前生物物理环境与历史干扰制度的近似。制图单元基于 NatureServe 的生态系统分类，表示参考期内可能存在的自然植物群落。每个 BPS 制图单元都与一个植被演替模型匹配，二者都是 LANDSUM 景观演替模型的关键输入。本数据集的实际时间段是火灾制度与植被动态模型所提供的历史背景与制作它所用的较近期实地与地理空间输入的复合。LF 当前的 BPS 与 LF National 的 BPS 相比没有变化，仅对水体、裸地与雪类别做了更新（增删），以使 BPS 产品内的非植被覆盖类型与 LF 现有植被与燃料产品一致。随着 LF Remap for CONUS 在 2020 年中后期最终发布，LF Remap BPS 产品将把以下作为属性包括在内：平均火返回间隔（MFRI）、低严重度火百分比（PLS）、混合严重度火百分比（PMS）、置换严重度火百分比（PRS）与火灾制度组（FRG），以保持这些特征与 BPS 的关联。LF 使用 BPS 描绘景观上植被的参考状况。
 
-* Biophysical Settings (BPS)
-* Environmental Site Potential (ESP)
-* Existing Vegetation Canopy Cover (EVC)
-* Existing Vegetation Height (EVH).
-* Existing Vegetation Type (EVT)
-These layers are created using predictive landscape models based on extensive
-field-referenced data, satellite imagery and biophysical gradient layers using
-classification and regression trees.
+LANDFIRE 植被数据集包括：
 
-## 基本信息
+* 生物物理设定（BPS）
+* 环境场地潜力（ESP）
+* 现有植被冠层覆盖（EVC）
+* 现有植被高度（EVH）。
+* 现有植被类型（EVT）这些图层使用基于大量实地参考数据、卫星影像与生物物理梯度图层的预测景观模型、通过分类与回归树创建。
 
-- 数据集编号（Earth Engine ID）：`LANDFIRE/Vegetation/BPS/v1_4_0`
-- 数据类型：影像集合（ImageCollection）
-- 提供方：U.S. Department of Agriculture's (USDA), U.S. Forest Service (USFS), U.S.
-Department of the Interior's Geological Survey (USGS), and The Nature Conservancy.、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：美国；时间：2014 年；分辨率：30 米。
 - 时间范围：2014-09-01 至 2014-09-01
-- 空间分辨率：30 米
-- 许可：proprietary
-- 关键词：doi, fire, forest-biomass, landfire, nature-conservancy, usda, usgs, vegetation, wildfire
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像集合（ImageCollection），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| BPS | Biophysical Settings | 30 |  |
+| BPS | 生物物理设定。 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 植被类型与结构制图
+- 景观生态评估
+- 火灾与燃料建模输入
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.ImageCollection('LANDFIRE/Vegetation/BPS/v1_4_0');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`LANDFIRE/Vegetation/BPS/v1_4_0`
+- 提供方：U.S. Department of Agriculture's (USDA), U.S. Forest Service (USFS), U.S.
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_BPS_v1_4_0
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：doi, fire, forest-biomass, landfire, nature-conservancy, usda, usgs, vegetation, wildfire
 - 数据引用：The suggested way to cite LANDFIRE products is specific to each product,
 so the model for citation is provided, with an example for a particular product.
 Producer. Year released. Product xxxxx:
@@ -94,5 +93,14 @@ Available: [https://www.landfire.gov/bps-models.php](https://www.landfire.gov/bp
 Additional guidance on citation of LANDFIRE products can be found
 [here](https://landfire.gov/data/citation)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [LANDFIRE ESP AK (Environmental Site Potential) v1.2.0](/pages/b2b4a475/)
+- [LANDFIRE ESP CONUS (Environmental Site Potential) v1.2.0](/pages/ca4671c8/)
+- [LANDFIRE ESP HI (Environmental Site Potential) v1.2.0](/pages/7bb2ed52/)
+- [LANDFIRE EVC (Existing Vegetation Cover) v1.4.0](/pages/c7ab551c/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。

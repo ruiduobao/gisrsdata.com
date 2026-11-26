@@ -1,5 +1,5 @@
 ---
-title: "LANDFIRE ESP CONUS (Environmental Site Potential) v1.2.0"
+title: "LANDFIRE ESP 美国本土（环境场地潜力）v1.2.0"
 date: 2026-11-03 12:00:00
 permalink: /pages/ca4671c8/
 categories:
@@ -18,62 +18,62 @@ tags:
   - "wildfire"
 ---
 
-# LANDFIRE ESP CONUS (Environmental Site Potential) v1.2.0
+# LANDFIRE ESP 美国本土（环境场地潜力）v1.2.0
 
-## 数据集简介
+英文原名：LANDFIRE ESP CONUS (Environmental Site Potential) v1.2.0
 
-LANDFIRE (LF), Landscape Fire and Resource Management Planning Tools, is a
-shared program between the wildland fire management programs of the U.S.
-Department of Agriculture's Forest Service, U.S. Department of the Interior's
-Geological Survey, and The Nature Conservancy.
+## 这是什么数据
 
-LANDFIRE (LF) layers are created using predictive landscape models based on
-extensive field-referenced data, satellite imagery and biophysical gradient
-layers using classification and regression trees.
+LANDFIRE（LF），即景观火灾与资源管理规划工具（Landscape Fire and Resource Management Planning Tools），是美国农业部（USDA）林务局、美国内政部地质调查局与大自然保护协会的野地火灾管理项目之间的共享计划。
 
-LANDFIRE's (LF) Environmental Site Potential (ESP) represents the vegetation that could be supported at a given site based on the biophysical environment.
-Map units are based on NatureServe's Ecological Systems classification and represent the natural plant communities that may have been present during the reference period.
-ESP map units represent the natural plant communities that would become established at late or climax stages of successional development in the absence of disturbance.
-They reflect the current climate and physical environment, as well as the competitive potential of native plant species. The ESP concept is similar to that used in classifications of potential vegetation, including habitat types and plant associations.
-In early versions of LF, ESP was used to inform the existing vegetation and fuel mapping processes.
+LANDFIRE（LF）图层使用基于大量实地参考数据、卫星影像与生物物理梯度图层的预测景观模型、通过分类与回归树创建。
 
-The LANDIFRE Vegetation datasets include:
+LANDFIRE（LF）的环境场地潜力（ESP）表示基于生物物理环境、某场地可支持的植被。制图单元基于 NatureServe 的生态系统分类，表示参考期内可能存在的自然植物群落。ESP 制图单元表示在没有干扰的情况下、在演替发展的晚期或顶极阶段会建立起来的自然植物群落。它们反映当前气候与物理环境，以及本地植物物种的竞争潜力。ESP 的概念与潜在植被分类（如生境类型与植物群丛）中所用的概念类似。在 LF 的早期版本中，ESP 用于为现有植被与燃料制图过程提供信息。
 
-* Biophysical Settings (BPS)
-* Environmental Site Potential (ESP)
-* Existing Vegetation Canopy Cover (EVC)
-* Existing Vegetation Height (EVH).
-* Existing Vegetation Type (EVT)
-These layers are created using predictive landscape models based on extensive
-field-referenced data, satellite imagery and biophysical gradient layers using
-classification and regression trees.
+LANDFIRE 植被数据集包括：
 
-## 基本信息
+* 生物物理设定（BPS）
+* 环境场地潜力（ESP）
+* 现有植被冠层覆盖（EVC）
+* 现有植被高度（EVH）。
+* 现有植被类型（EVT）这些图层使用基于大量实地参考数据、卫星影像与生物物理梯度图层的预测景观模型、通过分类与回归树创建。
 
-- 数据集编号（Earth Engine ID）：`LANDFIRE/Vegetation/ESP/v1_2_0/CONUS`
-- 数据类型：影像（Image）
-- 提供方：U.S. Department of Agriculture's (USDA), U.S. Forest Service (USFS), U.S.
-Department of the Interior's Geological Survey (USGS), and The Nature Conservancy.、Google Earth Engine
+## 覆盖范围与时间
+
+- 覆盖范围：覆盖范围：美国本土（CONUS）；时间：2010 年；分辨率：30 米。
 - 时间范围：2010-01-01 至 2010-12-31
-- 空间分辨率：30 米
-- 许可：proprietary
-- 关键词：doi, fire, forest-biomass, landfire, nature-conservancy, usda, usgs, vegetation, wildfire
 
-## 波段信息
+## 分辨率与规格
+
+- 空间分辨率：约 30 米
+- 数据类型：影像（Image），在 Google Earth Engine 中调用
 
 | 波段 | 说明 | 分辨率（米） | 波长 |
 | --- | --- | --- | --- |
-| ESP | Environmental Site Potential | 30 |  |
+| ESP | 环境场地潜力。 | 30 |  |
 
-## 在 Earth Engine 中调用
+## 能拿来做什么
+
+- 植被类型与结构制图
+- 景观生态评估
+- 火灾与燃料建模输入
+
+## 怎么获取
+
+在 Earth Engine 中调用：
 
 ```js
 var dataset = ee.Image('LANDFIRE/Vegetation/ESP/v1_2_0/CONUS');
 ```
 
-## 官方文档
-
+- 数据集编号（Earth Engine ID）：`LANDFIRE/Vegetation/ESP/v1_2_0/CONUS`
+- 提供方：U.S. Department of Agriculture's (USDA), U.S. Forest Service (USFS), U.S.
 - 官方介绍：https://developers.google.com/earth-engine/datasets/catalog/LANDFIRE_Vegetation_ESP_v1_2_0_CONUS
+
+## 许可与引用
+
+- 许可：proprietary
+- 关键词：doi, fire, forest-biomass, landfire, nature-conservancy, usda, usgs, vegetation, wildfire
 - 数据引用：The suggested way to cite LANDFIRE products is specific to each product,
 so the model for citation is provided, with an example for a particular product.
 Producer. Year released. Product xxxxx:
@@ -91,5 +91,14 @@ Accessed 28 October 2021 at https://earthengine.google.com.
 Additional guidance on citation of LANDFIRE products can be found
 [here](https://landfire.gov/data/citation)
 
+
+> 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
+
+## 同类数据
+
+- [LANDFIRE BPS (Biophysical Settings) v1.4.0](/pages/18949a9a/)
+- [LANDFIRE ESP AK (Environmental Site Potential) v1.2.0](/pages/b2b4a475/)
+- [LANDFIRE ESP HI (Environmental Site Potential) v1.2.0](/pages/7bb2ed52/)
+- [LANDFIRE EVC (Existing Vegetation Cover) v1.4.0](/pages/c7ab551c/)
 
 > 本页介绍整理自 Google Earth Engine 官方数据目录（STAC），文字与元数据的版权归数据提供方所有。
