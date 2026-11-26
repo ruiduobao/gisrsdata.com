@@ -8,6 +8,10 @@
 //   页面、首页（/）、归档页（/archives/）、404 页。旧站组件是全局挂载后
 //   自行判断的，没有 article: false 排除项——留言板页正是 article: false
 //   却带评论（16 条），故此处不作该排除。
+// - 挂载方式注意：twikoo.init 会把传入的 el 元素整体替换为它自己的根节点
+//   （id=twikoo），所以每次初始化都要先清空包装层、再塞一个全新的子元素给它，
+//   否则 SPA 路由切换后二次 init 会写进已被替换掉的游离节点、页面残留上一篇
+//   的评论（已实测踩中并按此修复）。
 import { ref, watch, onMounted, nextTick } from 'vue'
 import { useData, useRoute } from 'vitepress'
 
@@ -16,7 +20,7 @@ const SDK_URL = 'https://cdn.jsdelivr.net/npm/twikoo@1.5.9/dist/twikoo.all.min.j
 
 const { frontmatter, page } = useData()
 const route = useRoute()
-const el = ref<HTMLElement | null>(null)
+const wrap = ref<HTMLElement | null>(null)
 
 function shouldShow(): boolean {
   if (page.value.isNotFound) return false
@@ -43,18 +47,24 @@ function loadSdk(): Promise<void> {
   return sdkPromise
 }
 
+let initSeq = 0
 async function init() {
+  const seq = ++initSeq
   if (!shouldShow()) return
   await nextTick()
-  if (!el.value) return
+  if (seq !== initSeq || !wrap.value) return
   try {
     await loadSdk()
+    if (seq !== initSeq || !wrap.value) return
     const twikoo = (window as unknown as Record<string, any>).twikoo
     if (!twikoo) return
-    el.value.innerHTML = ''
+    // 清空旧评论根节点，塞一个全新子元素供 twikoo.init 替换挂载
+    wrap.value.innerHTML = ''
+    const holder = document.createElement('div')
+    wrap.value.appendChild(holder)
     await twikoo.init({
       envId: ENV_ID,
-      el: el.value,
+      el: holder,
       // 用于区分不同文章的路径键，与旧站默认行为一致（location.pathname）
       path: window.location.pathname,
       lang: 'zh-CN'
@@ -71,7 +81,7 @@ watch(() => route.path, init)
 
 <template>
   <div v-if="shouldShow()" class="twikoo-wrap">
-    <div ref="el" id="tcomment"></div>
+    <div ref="wrap"></div>
   </div>
 </template>
 
